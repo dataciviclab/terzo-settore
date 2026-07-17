@@ -13,7 +13,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "lib"))
 
 from config import BANDI_FILES, ETS_FILE
-from patterns import INFOBANDI_CAT_MAP, extract_tags_from_text, get_pattern_from_tags
+from patterns import (
+    INFOBANDI_CAT_MAP,
+    extract_tags_from_text,
+    get_pattern_from_tags,
+    get_sections_from_tags,
+    get_province_filter,
+)
 from html_utils import arricchisci
 
 MONTH_MAP = {
@@ -67,41 +73,47 @@ MATCH_ETS_SQL = """
            cinque_2025, flag_sport_denom, sezione,
            ha_grant_ue, ha_pnrr,
            CASE
+             WHEN regexp_matches(lower(denominazione), '{pattern}') AND flag_sport_denom AND {sez_match_bool} THEN 'tema+sport+sezione'
              WHEN regexp_matches(lower(denominazione), '{pattern}') AND flag_sport_denom THEN 'tema+sport'
+             WHEN regexp_matches(lower(denominazione), '{pattern}') AND {sez_match_bool} THEN 'tema+sezione'
              WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 'tema denominazione'
              WHEN flag_sport_denom THEN 'sport da denominazione'
+             WHEN {sez_match_bool} THEN 'sezione'
              ELSE 'match'
            END AS motivo_match,
            (
-             -- Capacità progettuale (0-50)
-             CASE capacita_progettuale
-               WHEN 'alta' THEN 50
-               WHEN 'medio-alta' THEN 35
-               WHEN 'media' THEN 20
-               ELSE 0
-             END
-             -- Match tematico (0-30)
-             + CASE WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 30 ELSE 0 END
-              -- Match per sezione (0-15)
-              + CASE WHEN flag_sport_denom AND {sport_bonus} THEN 15 ELSE 0 END
-              {section_bonus}
-             -- 5x1000 (0-20)
+             -- Match tematico (0-60) — PESO PRINCIPALE
+             CASE WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 60 ELSE 0 END
+             -- Match per sezione (0-25) — SECONDO PESO
+             + CASE WHEN {sez_match_bool} THEN 25 ELSE 0 END
+             -- Sport bonus (0-15)
+             + CASE WHEN flag_sport_denom AND {sport_bonus} THEN 15 ELSE 0 END
+             {section_bonus}
+             -- Capacità progettuale (0-20) — peso ridotto
+             + CASE capacita_progettuale
+                 WHEN 'alta' THEN 20
+                 WHEN 'medio-alta' THEN 15
+                 WHEN 'media' THEN 10
+                 ELSE 0
+               END
+             -- 5x1000 (0-15) — peso leggermente ridotto
              + CASE
-                 WHEN cinque_2025 >= 100000 THEN 20
-                 WHEN cinque_2025 >= 10000 THEN 12
+                 WHEN cinque_2025 >= 100000 THEN 15
+                 WHEN cinque_2025 >= 10000 THEN 10
                  WHEN cinque_2025 > 0 THEN 5
                  ELSE 0
                END
-             -- Grant UE (0-15)
-             + CASE WHEN ha_grant_ue THEN 15 ELSE 0 END
-             -- PNRR (0-10)
-             + CASE WHEN ha_pnrr THEN 10 ELSE 0 END
-             -- Impresa Sociale (0-5)
-             + CASE WHEN sezione = 'IMPRESE SOCIALI' THEN 5 ELSE 0 END
+             -- Grant UE (0-8) — peso ridotto
+             + CASE WHEN ha_grant_ue THEN 8 ELSE 0 END
+             -- PNRR (0-5) — peso ridotto
+             + CASE WHEN ha_pnrr THEN 5 ELSE 0 END
+             -- Impresa Sociale (0-5) — invariato
+             + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
            ) AS score
     FROM '{ets_file}'
     WHERE {match_condition}
       AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
+      {province_filter}
     ORDER BY score DESC, cinque_2025 DESC NULLS LAST
     LIMIT {limit}
 """
@@ -153,7 +165,18 @@ def fmt_tags(tags):
 
 
 def fmt_match_reason(c):
-    parts = [str(c.get("motivo_match", "match"))]
+    motivo = c.get("motivo_match", "match")
+    # Mappa i nuovi motivi in versione leggibile
+    motivo_map = {
+        "tema+sport+sezione": "match tema + sport + sezione",
+        "tema+sport": "match tema + sport",
+        "tema+sezione": "match tema + sezione",
+        "tema denominazione": "match su denominazione",
+        "sport da denominazione": "sport da denominazione",
+        "sezione": "match su sezione",
+        "match": "match",
+    }
+    parts = [motivo_map.get(motivo, motivo)]
     cap = c.get("capacita_progettuale")
     if cap:
         parts.append(f"capacità {cap}")
@@ -274,22 +297,41 @@ def is_sport_bando(tags):
     return any((t or "").strip().lower() == "sport" for t in tags)
 
 
-def match_bando(con, pattern, tags, limit=10):
+def match_bando(con, pattern, tags, limit=10, territorio=None):
+    # — Mossa 1: sezioni pertinenti dal tag —
+    sections = get_sections_from_tags(tags)
+    sezioni_quote = ", ".join(f"'{s}'" for s in sections) if sections else "''"
+
+    # — Gate condizione: denominazione matcha O sport fallback O sezione pertinente —
     sport_fallback = is_sport_bando(tags)
     match_condition = f"(regexp_matches(lower(denominazione), '{pattern}')"
     if sport_fallback:
         match_condition += " OR flag_sport_denom"
+    if sections:
+        match_condition += f" OR sezione IN ({sezioni_quote})"
     match_condition += ")"
 
-    # Bonus per sezione in base ai tag del bando
+    # — Sezione match bool (per CASE e score) —
+    sez_match_bool = "FALSE"
+    if sections:
+        sez_match_bool = f"sezione IN ({sezioni_quote})"
+
+    # — Mossa 3: filtro geografico da provincia —
+    province_filtro = get_province_filter(territorio)
+    province_filter = ""
+    if province_filtro:
+        prov_quote = ", ".join(f"'{p}'" for p in province_filtro)
+        province_filter = f"AND provincia IN ({prov_quote})"
+
+    # — Bonus per sezione legacy (mantenuti per retrocompatibilità, ma peso minore) —
     tags_lower = set(t.lower() for t in tags)
     section_bonuses = []
     if "volontariato" in tags_lower:
-        section_bonuses.append("+ CASE WHEN sezione = 'ORGANIZZAZIONI DI VOLONTARIATO' THEN 15 ELSE 0 END")
+        section_bonuses.append("+ CASE WHEN sezione = 'ORGANIZZAZIONI DI VOLONTARIATO' THEN 5 ELSE 0 END")
     if "sport" in tags_lower:
-        section_bonuses.append("+ CASE WHEN sezione = 'ASSOCIAZIONI DI PROMOZIONE SOCIALE' THEN 10 ELSE 0 END")
+        section_bonuses.append("+ CASE WHEN sezione = 'ASSOCIAZIONI DI PROMOZIONE SOCIALE' THEN 5 ELSE 0 END")
     if "lavoro" in tags_lower or "formazione" in tags_lower:
-        section_bonuses.append("+ CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 8 ELSE 0 END")
+        section_bonuses.append("+ CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END")
     section_bonus = " ".join(section_bonuses)
 
     sql = MATCH_ETS_SQL.format(
@@ -297,7 +339,9 @@ def match_bando(con, pattern, tags, limit=10):
         pattern=pattern,
         match_condition=match_condition,
         sport_bonus="TRUE" if sport_fallback else "FALSE",
+        sez_match_bool=sez_match_bool,
         section_bonus=section_bonus,
+        province_filter=province_filter,
         limit=limit,
     )
     return con.sql(sql).fetchdf()
@@ -348,10 +392,14 @@ def run_scan(con=None, bandi=None, match_limit=10, include_statuses=None):
 
         pattern = get_pattern_from_tags(tags)
         if not pattern:
-            sin_match.append((titolo, url, ente, scadenza_str, gg_rimasti, tags, territorio, status, "nessun pattern tag"))
-            continue
+            # Anche senza pattern, proviamo il match per sezione
+            sections = get_sections_from_tags(tags)
+            if not sections:
+                sin_match.append((titolo, url, ente, scadenza_str, gg_rimasti, tags, territorio, status, "nessun pattern tag"))
+                continue
+            pattern = ".*"  # matcha tutto, il filtro è sulla sezione
 
-        df = match_bando(con, pattern, tags, limit=match_limit)
+        df = match_bando(con, pattern, tags, limit=match_limit, territorio=territorio)
         if df.empty:
             sin_match.append((titolo, url, ente, scadenza_str, gg_rimasti, tags, territorio, status, "nessun ETS matcha"))
             continue

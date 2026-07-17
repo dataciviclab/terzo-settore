@@ -34,6 +34,75 @@ TAG_PATTERN = {
 
 GENERIC_TAGS = {"lavoro", "inclusione", "ricerca", "giovani", "educazione", "salute"}
 
+# Mappa tag → sezioni RUNTS pertinenti
+# Ogni tag del bando mappa a zero o più sezioni. Se un ETS appartiene
+# a una sezione mappata, riceve un bonus di score (match per sezione).
+SECTION_TAG_MAP = {
+    "sport":                ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "disabilità":           ["IMPRESE SOCIALI", "ORGANIZZAZIONI DI VOLONTARIATO"],
+    "minori":               ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "ORGANIZZAZIONI DI VOLONTARIATO"],
+    "giovani":              ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "cultura":              ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "ambiente":             ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "ORGANIZZAZIONI DI VOLONTARIATO"],
+    "lavoro":               ["IMPRESE SOCIALI"],
+    "formazione":           ["IMPRESI SOCIALI"],
+    "salute":               ["ORGANIZZAZIONI DI VOLONTARIATO", "ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "educazione":           ["IMPRESE SOCIALI", "ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "inclusione sociale":   ["IMPRESE SOCIALI", "ORGANIZZAZIONI DI VOLONTARIATO", "ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "anziani":              ["ORGANIZZAZIONI DI VOLONTARIATO", "IMPRESE SOCIALI"],
+    "donne":                ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "ORGANIZZAZIONI DI VOLONTARIATO"],
+    "migranti":             ["ORGANIZZAZIONI DI VOLONTARIATO", "IMPRESE SOCIALI"],
+    "digitale":             ["IMPRESE SOCIALI"],
+    "volontariato":         ["ORGANIZZAZIONI DI VOLONTARIATO"],
+    "ricerca":              ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "IMPRESE SOCIALI"],
+    "musica":               ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "agricoltura sociale":  ["IMPRESE SOCIALI"],
+    "beni confiscati":      ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "povertà educativa":    ["IMPRESE SOCIALI", "ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "cooperazione internazionale": ["ORGANIZZAZIONI DI VOLONTARIATO", "ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "pari opportunità":     ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "dipendenze":           ["ORGANIZZAZIONI DI VOLONTARIATO", "IMPRESE SOCIALI"],
+    "animali":              ["ORGANIZZAZIONI DI VOLONTARIATO"],
+    "malattie rare":        ["ORGANIZZAZIONI DI VOLONTARIATO"],
+    "cittadinanza attiva":  ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "diritti umani":        ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "ORGANIZZAZIONI DI VOLONTARIATO"],
+    "acqua":                [],
+    "beni comuni":          ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"],
+    "premi":                [],
+}
+
+# Mappa regione → province (sigla)
+REGION_PROVINCES = {
+    "Abruzzo": ["AQ", "CH", "PE", "TE"],
+    "Basilicata": ["PZ", "MT"],
+    "Calabria": ["CZ", "CS", "KR", "RC", "VV"],
+    "Campania": ["AV", "BN", "CE", "NA", "SA"],
+    "Emilia-Romagna": ["BO", "FE", "FC", "MO", "PC", "PR", "RA", "RE", "RN"],
+    "Friuli Venezia Giulia": ["GO", "PN", "TS", "UD"],
+    "Lazio": ["FR", "LT", "RI", "RM", "VT"],
+    "Liguria": ["GE", "IM", "SP", "SV"],
+    "Lombardia": ["BG", "BS", "CO", "CR", "LC", "LO", "MB", "MI", "MN", "PV", "SO", "VA"],
+    "Marche": ["AN", "AP", "FM", "MC", "PU"],
+    "Molise": ["CB", "IS"],
+    "Piemonte": ["AL", "AT", "BI", "CN", "NO", "TO", "VB", "VC"],
+    "Puglia": ["BA", "BR", "BT", "FG", "LE", "TA"],
+    "Sardegna": ["CA", "NU", "OR", "SS", "SU"],
+    "Sicilia": ["AG", "CL", "CT", "EN", "ME", "PA", "RG", "SR", "TP"],
+    "Toscana": ["AR", "FI", "GR", "LI", "LU", "MS", "PI", "PO", "PT", "SI"],
+    "Trentino Alto Adige": ["BZ", "TN"],
+    "Umbria": ["PG", "TR"],
+    "Valle d'Aosta": ["AO"],
+    "Veneto": ["BL", "PD", "RO", "TV", "VE", "VI", "VR"],
+}
+
+# Tutte le province del Mezzogiorno (Abruzzo + Sud)
+MEZZOGIORNO_PROVINCES = (
+    REGION_PROVINCES["Abruzzo"] + REGION_PROVINCES["Basilicata"]
+    + REGION_PROVINCES["Calabria"] + REGION_PROVINCES["Campania"]
+    + REGION_PROVINCES["Molise"] + REGION_PROVINCES["Puglia"]
+    + REGION_PROVINCES["Sardegna"] + REGION_PROVINCES["Sicilia"]
+)
+
 # Mappa categorie infobandi (ID → tag)
 # Fonte: https://infobandi.csvnet.it/wp-json/wp/v2/categories?per_page=50
 INFOBANDI_CAT_MAP = {
@@ -101,3 +170,48 @@ def extract_tags_from_text(text):
         if re.search(pattern, text_lower):
             found.append(tag)
     return list(set(found))
+
+
+def get_sections_from_tags(tags):
+    """Restituisce le sezioni RUNTS pertinenti per i tag del bando.
+    
+        Usato come bonus di score: un ETS con sezione pertinente
+        riceve punti extra anche senza match di denominazione.
+    """
+    tags_lower = set(t.lower().strip() for t in tags if t and t.strip())
+    sections = set()
+    for tag, sezioni in SECTION_TAG_MAP.items():
+        if tag in tags_lower:
+            sections.update(sezioni)
+    return sorted(sections)
+
+
+def get_province_filter(territorio):
+    """Converte territorio (lista di stringhe) in lista di province filtro.
+    
+        Restituisce [] se nessun filtro da applicare (nazionale/europa/estero).
+    """
+    if not territorio:
+        return []
+    
+    province_filtro = []
+    for t in territorio:
+        t_clean = t.strip().lower()
+        # Salta generici
+        if t_clean in ("nazionale", "nazionale/da verificare", "europa", "locale", "regionale"):
+            continue
+        if t_clean in ("ucraina", "libia", "mediterraneo"):
+            continue
+        
+        # Mezzogiorno → tutte le province del Sud
+        if t_clean == "mezzogiorno":
+            province_filtro.extend(MEZZOGIORNO_PROVINCES)
+            continue
+        
+        # Regione italiana → province corrispondenti
+        for reg_name, provinces in REGION_PROVINCES.items():
+            if t_clean == reg_name.lower():
+                province_filtro.extend(provinces)
+                break
+    
+    return list(set(province_filtro))
