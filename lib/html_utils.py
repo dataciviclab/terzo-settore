@@ -86,24 +86,6 @@ def extract_budget(text: str) -> float | None:
     return None
 
 
-_TERRITORIO_PATTERNS = {
-    "mezzogiorno": ["mezzogiorno", "sud", "meridione"],
-    "nazionale": ["nazionale", "tutta italia", "italiano"],
-    "europa": ["europa", "europeo", "ue", "unione europea"],
-    "regionale": ["regionale", "regione"],
-}
-
-
-def extract_territory(text: str) -> list[str]:
-    """Individua aree geografiche menzionate."""
-    lower = text.lower()
-    found = set()
-    for area, keywords in _TERRITORIO_PATTERNS.items():
-        if any(kw in lower for kw in keywords):
-            found.add(area)
-    return sorted(found)
-
-
 def arricchisci(url: str | None, testo_esistente: str | None = None) -> dict:
     """Fallback: scarica pagina, estrae budget + territorio + testo NLP."""
     if not url:
@@ -119,11 +101,6 @@ def arricchisci(url: str | None, testo_esistente: str | None = None) -> dict:
     budget = extract_budget(html_text)
     if budget:
         result["budget"] = budget
-
-    # Territorio
-    terr = extract_territory(html_text)
-    if terr:
-        result["territorio"] = terr
 
     # Testo per NLP (se non già presente)
     if not testo_esistente or len(testo_esistente) < 50:

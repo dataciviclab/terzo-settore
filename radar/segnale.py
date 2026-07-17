@@ -14,17 +14,25 @@ from datetime import datetime
 from pathlib import Path
 
 import duckdb
-import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from radar.core import run_scan, fmt_euro, fmt_match_reason, fmt_tags, fmt_text, is_missing
+from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text, is_missing
 
+RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
 GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
 UNIFIED_COMUNI_URL = f"{GCS_BASE}/unified_comuni/2026/unified_comuni_2026_clean.parquet"
 INPS_RDC_URL = f"{GCS_BASE}/inps_rdc_pdc/2020/inps_rdc_pdc_2020_clean.parquet"
+
+
+def load_scan():
+    if not RADAR_JSON.exists():
+        print(f"❌ {RADAR_JSON} non trovato. Esegui prima scan_completo.py")
+        sys.exit(1)
+    with open(RADAR_JSON) as f:
+        return json.load(f)
 
 
 def scrivi(out, testo=""):
@@ -75,11 +83,11 @@ def report(territorio: str, comune: str = None):
         scrivi(out, f"  · {r['sezione']}: {r['n']}")
     scrivi(out, "")
 
-    # ── 2. Match bandi sul territorio (via core.run_scan) ─────────
+    # ── 2. Match bandi sul territorio (da radar-completo.json) ─────────
     scrivi(out, "## 2. 📋 Bandi con match locale")
     scrivi(out, "")
 
-    scan = run_scan()
+    scan = load_scan()
     # Filtra resultados per territorio: candidati nel territorio
     match_locali = 0
     for r in scan["resultados"]:
@@ -88,7 +96,7 @@ def report(territorio: str, comune: str = None):
                            and (not comune or str(c.get("comune", "") or "").upper() == comune.upper())]
         if candidati_locali:
             match_locali += 1
-            gg = r["gg"]
+            gg = r.get("gg_rimasti", r.get("gg", 999))
             urgenza = "🔴" if gg <= 14 else "🟡" if gg <= 30 else "🟢"
             scrivi(out, f"### {urgenza} {r['titolo'][:80]}")
             scrivi(out, f"- **Scadenza**: {r['scadenza']} ({gg} giorni)")
@@ -97,7 +105,8 @@ def report(territorio: str, comune: str = None):
             scrivi(out, "")
             for c in candidati_locali[:5]:
                 cinque = fmt_euro(c.get("cinque_2025"))
-                scrivi(out, f"  · **{c['capacita_progettuale']}** {c['denominazione'][:50]} "
+                cap = c.get("capacita", c.get("capacita_progettuale", "?"))
+                scrivi(out, f"  · **{cap}** {c['denominazione'][:50]} "
                        f"— {fmt_text(c.get('comune'), '')} — score {int(c.get('score', 0))}, "
                        f"{fmt_match_reason(c)} — 5x1000: {cinque}")
             if len(candidati_locali) > 5:

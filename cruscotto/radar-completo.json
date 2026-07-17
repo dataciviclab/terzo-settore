@@ -1,5 +1,5 @@
 {
-  "generato": "2026-07-17T23:25:49.071871",
+  "generato": "2026-07-17T23:38:23.373476",
   "bandi_totali": 226,
   "match": 45,
   "gap": 1,
@@ -905,7 +905,7 @@
       "motivo": "scaduto"
     }
   ],
-  "ets_unici": 164,
+  "ets_unici": 154,
   "resultados": [
     {
       "titolo": "Contributi annuali della Banca d’Italia – 2^ scadenza 2026",
@@ -1326,10 +1326,10 @@
         "Nazionale"
       ],
       "tags": [
-        "inclusione sociale",
-        "minori",
         "sport",
-        "educazione"
+        "educazione",
+        "minori",
+        "inclusione sociale"
       ],
       "candidati": [
         {
@@ -1458,9 +1458,9 @@
       ],
       "tags": [
         "cultura",
-        "premi",
-        "digitale",
         "ambiente",
+        "digitale",
+        "premi",
         "arte"
       ],
       "candidati": [
@@ -1585,8 +1585,7 @@
       "gg_rimasti": 63,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "In evidenza",
@@ -1852,9 +1851,9 @@
         "Nazionale"
       ],
       "tags": [
-        "inclusione sociale",
+        "digitale",
         "disabilità",
-        "digitale"
+        "inclusione sociale"
       ],
       "candidati": [
         {
@@ -2107,9 +2106,7 @@
       "gg_rimasti": 75,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "mezzogiorno",
-        "regionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "Giovani",
@@ -2121,6 +2118,39 @@
       ],
       "candidati": [
         {
+          "cf": "01134820354",
+          "denominazione": "CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' COOPERATIVA SOCI ALE",
+          "comune": "REGGIO EMILIA",
+          "provincia": "RE",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale",
+          "cinque_2025": 9843.7
+        },
+        {
+          "cf": "00463980383",
+          "denominazione": "COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDARIETA' SOC. COOP. A R.L. SOCIETA' COOPERATIVA SOCIALE I.S.",
+          "comune": "FERRARA",
+          "provincia": "FE",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale",
+          "cinque_2025": 3485.34
+        },
+        {
+          "cf": "94164160544",
+          "denominazione": "VI.VA. PARTECIPAZIONE E SOLIDARIETA'",
+          "comune": "ASSISI",
+          "provincia": "PG",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 2425.66
+        },
+        {
           "cf": "97088630831",
           "denominazione": "ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI CRISTO RE A.P.S.",
           "comune": "MESSINA",
@@ -2130,6 +2160,39 @@
           "score": 115,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
           "cinque_2025": 115522.29
+        },
+        {
+          "cf": "01717760985",
+          "denominazione": "\"SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - SOCIETA' COOPERA TIVA SOCIALE CONSORTILE - ONLUS\"",
+          "comune": "DARFO BOARIO TERME",
+          "provincia": "BS",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "04876970486",
+          "denominazione": "CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARIETA'-CONSORZIO DI COOPERATIVE SOCIALI-SOCIETA' COOPERATIVA SOCIALE",
+          "comune": "FIRENZE",
+          "provincia": "FI",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "90013040028",
+          "denominazione": "FONDO DI SOLIDARIETA'  EDO TEMPIA VALENTA PER LA LOTTA CONTRO I TUMORI ODV",
+          "comune": "BIELLA",
+          "provincia": "BI",
+          "capacita": "media",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 110,
+          "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV",
+          "cinque_2025": 432809.42
         },
         {
           "cf": "97197020825",
@@ -2143,6 +2206,17 @@
           "cinque_2025": 170168.24
         },
         {
+          "cf": "97651970010",
+          "denominazione": "ANTEAS REGIONALE PIEMONTE- ASSOCIAZIONE NAZIONALE TUTTE LE ETA' ATTIVE PER LA SOLIDARIETA' ODV",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "media",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 110,
+          "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV",
+          "cinque_2025": 164176.02
+        },
+        {
           "cf": "93205440725",
           "denominazione": "ASSOCIAZIONE REGIONALE TERZA ETA' ATTIVA PER LA SOLIDARIETA'",
           "comune": "BARI",
@@ -2152,83 +2226,6 @@
           "score": 110,
           "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV",
           "cinque_2025": 113776.74
-        },
-        {
-          "cf": "92023130724",
-          "denominazione": "ASSOCIAZIONE PROMOZIONE SOCIALE E SOLIDARIETA' - OdV",
-          "comune": "TRANI",
-          "provincia": "BT",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 32241.91
-        },
-        {
-          "cf": "96013460769",
-          "denominazione": "GRUPPO DI VOLONTARIATO SOLIDARIETA'  - ORGANIZZAZIONE DI VOLONTARIATO - ENTE DEL TERZO SETTORE",
-          "comune": "POTENZA",
-          "provincia": "PZ",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 17381.24
-        },
-        {
-          "cf": "91002370681",
-          "denominazione": "ASS. CENTRO SOLIDARIETA' GRUPPO SOLIDARIETA' ODV",
-          "comune": "PESCARA",
-          "provincia": "PE",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 16787.47
-        },
-        {
-          "cf": "91019370740",
-          "denominazione": "ANTEAS, SOLIDARIETA' BRINDISINA APS",
-          "comune": "BRINDISI",
-          "provincia": "BR",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 16577.54
-        },
-        {
-          "cf": "92061790801",
-          "denominazione": "NUOVA SOLIDARIETA' ODV",
-          "comune": "REGGIO DI CALABRIA",
-          "provincia": "RC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 11464.53
-        },
-        {
-          "cf": "93018620893",
-          "denominazione": "CENTRO DI SOLIDARIETA' DELLA COMPAGNIA DELLE OPERE ODV",
-          "comune": "SIRACUSA",
-          "provincia": "SR",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; ODV",
-          "cinque_2025": 4621.49
-        },
-        {
-          "cf": "93063310614",
-          "denominazione": "SOLIDARIETA' CERVINESE ODV",
-          "comune": "CERVINO",
-          "provincia": "CE",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; ODV",
-          "cinque_2025": 3880.19
         }
       ]
     },
@@ -2241,8 +2238,7 @@
       "gg_rimasti": 17,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "Minori",
@@ -2374,8 +2370,7 @@
       "gg_rimasti": 119,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "mezzogiorno"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "Disabilità",
@@ -2386,6 +2381,50 @@
         "Fondazione Cattolica"
       ],
       "candidati": [
+        {
+          "cf": "01134820354",
+          "denominazione": "CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' COOPERATIVA SOCI ALE",
+          "comune": "REGGIO EMILIA",
+          "provincia": "RE",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale",
+          "cinque_2025": 9843.7
+        },
+        {
+          "cf": "00463980383",
+          "denominazione": "COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDARIETA' SOC. COOP. A R.L. SOCIETA' COOPERATIVA SOCIALE I.S.",
+          "comune": "FERRARA",
+          "provincia": "FE",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale",
+          "cinque_2025": 3485.34
+        },
+        {
+          "cf": "94164160544",
+          "denominazione": "VI.VA. PARTECIPAZIONE E SOLIDARIETA'",
+          "comune": "ASSISI",
+          "provincia": "PG",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 2425.66
+        },
+        {
+          "cf": "03958751004",
+          "denominazione": "FEDERAZIONE NAZIONALE DELLE ASSOCIAZIONI PER I DIRITTI DEGLI ANZIANI (ADA) DI VOLONTARIATO - ODV - RETE ASSOCIATIVA ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
+          "cinque_2025": 867447.9
+        },
         {
           "cf": "97088630831",
           "denominazione": "ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI CRISTO RE A.P.S.",
@@ -2398,103 +2437,59 @@
           "cinque_2025": 115522.29
         },
         {
-          "cf": "97197020825",
-          "denominazione": "ASSOCIAZIONE NAZIONALE TUTTE LE ETA' ATTIVE PER LA SOLIDARIETA'",
-          "comune": "PALERMO",
-          "provincia": "PA",
+          "cf": "01365520582",
+          "denominazione": "UNIONE ITALIANA DEI CIECHI E DEGLI IPOVEDENTI ETS-APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; APS",
+          "cinque_2025": 111610.12
+        },
+        {
+          "cf": "01717760985",
+          "denominazione": "\"SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - SOCIETA' COOPERA TIVA SOCIALE CONSORTILE - ONLUS\"",
+          "comune": "DARFO BOARIO TERME",
+          "provincia": "BS",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "04876970486",
+          "denominazione": "CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARIETA'-CONSORZIO DI COOPERATIVE SOCIALI-SOCIETA' COOPERATIVA SOCIALE",
+          "comune": "FIRENZE",
+          "provincia": "FI",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "04699521219",
+          "denominazione": "ANZIANI E NON SOLO SOCIETA' COOPERATIVA SOCIALE",
+          "comune": "CARPI",
+          "provincia": "MO",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "90013040028",
+          "denominazione": "FONDO DI SOLIDARIETA'  EDO TEMPIA VALENTA PER LA LOTTA CONTRO I TUMORI ODV",
+          "comune": "BIELLA",
+          "provincia": "BI",
           "capacita": "media",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 110,
           "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV",
-          "cinque_2025": 170168.24
-        },
-        {
-          "cf": "93205440725",
-          "denominazione": "ASSOCIAZIONE REGIONALE TERZA ETA' ATTIVA PER LA SOLIDARIETA'",
-          "comune": "BARI",
-          "provincia": "BA",
-          "capacita": "media",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV",
-          "cinque_2025": 113776.74
-        },
-        {
-          "cf": "90010660778",
-          "denominazione": "ANFFAS DI POLICORO - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVA E DISTURBI DEL NEUROSVILUPPO",
-          "comune": "POLICORO",
-          "provincia": "MT",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 56119.91
-        },
-        {
-          "cf": "95086500659",
-          "denominazione": "ASSOCIAZIONE ONCOLOGICA PEDIATRICA E NEUROBLASTOMA - OPEN - ODV",
-          "comune": "SALERNO",
-          "provincia": "SA",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 41135.75
-        },
-        {
-          "cf": "92023130724",
-          "denominazione": "ASSOCIAZIONE PROMOZIONE SOCIALE E SOLIDARIETA' - OdV",
-          "comune": "TRANI",
-          "provincia": "BT",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 32241.91
-        },
-        {
-          "cf": "93018210729",
-          "denominazione": "ASSOCIAZIONE ITALIANA PERSONE DOWN - SEZIONE DI BARI - APS",
-          "comune": "BARI",
-          "provincia": "BA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 29130.35
-        },
-        {
-          "cf": "91009920751",
-          "denominazione": "ASSOCIAZIONE ITALIANA PERSONE DOWN ETS",
-          "comune": "NARDO'",
-          "provincia": "LE",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 26167.61
-        },
-        {
-          "cf": "92018390663",
-          "denominazione": "ANFFAS SULMONA APS - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVA E DISTURBI DEL NEUROSVILUPPO",
-          "comune": "SULMONA",
-          "provincia": "AQ",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 21080.66
-        },
-        {
-          "cf": "96013460769",
-          "denominazione": "GRUPPO DI VOLONTARIATO SOLIDARIETA'  - ORGANIZZAZIONE DI VOLONTARIATO - ENTE DEL TERZO SETTORE",
-          "comune": "POTENZA",
-          "provincia": "PZ",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 17381.24
+          "cinque_2025": 432809.42
         }
       ]
     },
@@ -2513,8 +2508,8 @@
         "Nazionale"
       ],
       "tags": [
-        "salute",
-        "ambiente"
+        "ambiente",
+        "salute"
       ],
       "candidati": [
         {
@@ -2766,9 +2761,7 @@
       "gg_rimasti": 91,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "mezzogiorno",
-        "regionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "Minori",
@@ -2779,114 +2772,114 @@
       ],
       "candidati": [
         {
-          "cf": "97017120821",
-          "denominazione": "ASSOCIAZIONE SICILIANA LOTTA ALLE LEUCEMIE E AI TUMORI DELL' INFANZIA ODV",
-          "comune": "PALERMO",
-          "provincia": "PA",
+          "cf": "02285960460",
+          "denominazione": "ASSOCIAZIONE CULTURALE PHOTOLUX APS",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 2458.75
+        },
+        {
+          "cf": "02483330409",
+          "denominazione": "FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE - APS",
+          "comune": "FORLI'",
+          "provincia": "FC",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 915.1
+        },
+        {
+          "cf": "06273640588",
+          "denominazione": "ARCIRAGAZZI  APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 581.16
+        },
+        {
+          "cf": "97726440015",
+          "denominazione": "ASSOCIAZIONE CULTURALE EUFEMIA APS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 498.85
+        },
+        {
+          "cf": "93089600386",
+          "denominazione": "FERRARA LA CITTA' DEL CINEMA APS",
+          "comune": "FERRARA",
+          "provincia": "FE",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 345.81
+        },
+        {
+          "cf": "01535300501",
+          "denominazione": "ASSOCIAZIONE CULTURALE MUSICASTRADA APS",
+          "comune": "MONTOPOLI IN VAL D'ARNO",
+          "provincia": "PI",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 172.7
+        },
+        {
+          "cf": "01716760218",
+          "denominazione": "PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER - SUEDTIROL - EO_PETER PAN - ASSOCIAZIONE PER I BAMBINI CON TUMORE - ALTO ADIGE - ODV",
+          "comune": "BOLZANO",
+          "provincia": "BZ",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 89873.03
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
+          "cinque_2025": 232521.24
         },
         {
-          "cf": "90010660778",
-          "denominazione": "ANFFAS DI POLICORO - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVA E DISTURBI DEL NEUROSVILUPPO",
-          "comune": "POLICORO",
-          "provincia": "MT",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 56119.91
-        },
-        {
-          "cf": "93004160722",
-          "denominazione": "ASSOCIAZIONE PER LA LOTTA CONTRO LE EMOPATIE ED I TUMORI DELL'INFANZIA - APLETI",
-          "comune": "BARI",
-          "provincia": "BA",
+          "cf": "01084150323",
+          "denominazione": "A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL BURLO - ODV ETS",
+          "comune": "TRIESTE",
+          "provincia": "TS",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 35058.14
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
+          "cinque_2025": 150644.13
         },
         {
-          "cf": "93041430724",
-          "denominazione": "A.GE.B.E.O. ASSOCIAZIONE GENITORI BAMBINI EMATO-ONCOLOGICI E AMICI DI VINCENZO ODV",
-          "comune": "BARI",
-          "provincia": "BA",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV",
-          "cinque_2025": 31326.69
-        },
-        {
-          "cf": "91002400884",
-          "denominazione": "CENTRO CULTURALE CRISTIANO ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "LENTINI",
-          "provincia": "SR",
-          "capacita": "medio-alta",
+          "cf": "92006060120",
+          "denominazione": "ASSOCIAZIONE CULTURALE EUROPEA APS",
+          "comune": "ISPRA",
+          "provincia": "VA",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 11922.48
+          "score": 113,
+          "motivo": "match tema + sezione; capacità alta; grant UE; APS",
+          "cinque_2025": NaN
         },
         {
-          "cf": "95106460652",
-          "denominazione": "ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE PER L'INCLUSIONE E LA CITTADINANZA ATTIVA APS",
-          "comune": "SALERNO",
-          "provincia": "SA",
-          "capacita": "medio-alta",
+          "cf": "02916091206",
+          "denominazione": "TEATRO A MOLLA-APS",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 1916.85
-        },
-        {
-          "cf": "01849680747",
-          "denominazione": "ASSOCIAZIONE COLLETTIVO MUSIC ARTE ODV",
-          "comune": "MESAGNE",
-          "provincia": "BR",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; ODV",
-          "cinque_2025": 388.54
-        },
-        {
-          "cf": "91058300681",
-          "denominazione": "ASSOCIAZIONE GENITORI BAMBINI EMOPATICI LEUCEMICI ED ONCOLOGICI  AGBE ODV",
-          "comune": "PESCARA",
-          "provincia": "PE",
-          "capacita": "media",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >10k; ODV",
-          "cinque_2025": 80541.49
-        },
-        {
-          "cf": "94080620654",
-          "denominazione": "I RAGAZZI DI DON LUIGI LA MURA",
-          "comune": "ANGRI",
-          "provincia": "SA",
-          "capacita": "media",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >10k; APS",
-          "cinque_2025": 49418.89
-        },
-        {
-          "cf": "02225640743",
-          "denominazione": "ASSOCIAZIONE MUSICALE CULTURALE LE VOCI DELL'ARTE  - APS",
-          "comune": "BRINDISI",
-          "provincia": "BR",
-          "capacita": "media",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >10k; APS",
-          "cinque_2025": 38990.78
+          "score": 113,
+          "motivo": "match tema + sezione; capacità alta; grant UE; APS",
+          "cinque_2025": NaN
         }
       ]
     },
@@ -3030,8 +3023,7 @@
       "gg_rimasti": 43,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "Minori",
@@ -3558,8 +3550,7 @@
       "gg_rimasti": 14,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "Ambiente",
@@ -4209,8 +4200,7 @@
       "gg_rimasti": 60,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "Cultura",
@@ -4471,8 +4461,8 @@
         "Nazionale"
       ],
       "tags": [
-        "salute",
-        "donne"
+        "donne",
+        "salute"
       ],
       "candidati": [
         {
@@ -4727,8 +4717,8 @@
         "Nazionale"
       ],
       "tags": [
-        "inclusione sociale",
-        "digitale"
+        "digitale",
+        "inclusione sociale"
       ],
       "candidati": [
         {
@@ -5108,9 +5098,7 @@
       "gg_rimasti": 83,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale",
-        "regionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "minori",
@@ -5622,12 +5610,11 @@
       "gg_rimasti": 65,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
-        "giovani",
         "premi",
+        "giovani",
         "lavoro"
       ],
       "candidati": [
@@ -5880,9 +5867,7 @@
       "gg_rimasti": 74,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale",
-        "regionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "giovani"
@@ -6009,8 +5994,7 @@
       "gg_rimasti": 74,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "giovani"
@@ -6137,8 +6121,7 @@
       "gg_rimasti": 76,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "volontariato"
@@ -6265,123 +6248,121 @@
       "gg_rimasti": 76,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "mezzogiorno",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "volontariato"
       ],
       "candidati": [
         {
-          "cf": "91113670722",
-          "denominazione": "M.I.CRO. ITALIA ODV",
-          "comune": "GRAVINA IN PUGLIA",
-          "provincia": "BA",
+          "cf": "13669721006",
+          "denominazione": "ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZAZIONE DI VOLONTARIATO",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 133,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV",
+          "cinque_2025": 36039.24
+        },
+        {
+          "cf": "97457060586",
+          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV",
+          "cinque_2025": 1514.12
+        },
+        {
+          "cf": "01152360317",
+          "denominazione": "CROCE ROSSA ITALIANA COMITATO DI GORIZIA ORGANIZZAZIONE DI VOLONTARIATO",
+          "comune": "GORIZIA",
+          "provincia": "GO",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV",
+          "cinque_2025": 1340.81
+        },
+        {
+          "cf": "80116050586",
+          "denominazione": "ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV",
+          "comune": "ROMA",
+          "provincia": "RM",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 272730.84
+          "cinque_2025": 2299911.59
         },
         {
-          "cf": "90052450955",
-          "denominazione": "EFFETTO PALLA - PER GLI ANIMALI DI NESSUNO - ODV",
-          "comune": "ORISTANO",
-          "provincia": "OR",
+          "cf": "97019350152",
+          "denominazione": "VIDAS VOLONTARI ITALIANI DOMICILIARI PER L'ASSISTENZA AI SOFFERENTI ODV",
+          "comune": "MILANO",
+          "provincia": "MI",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 217270.5
+          "cinque_2025": 1657370.97
         },
         {
-          "cf": "93060270753",
-          "denominazione": "ASSOCIAZIONE CUORE E MANI APERTE - ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "LECCE",
-          "provincia": "LE",
+          "cf": "80006120218",
+          "denominazione": "LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE PROVINCIALE DI SOCCORSO CROCE BIANCA ODV",
+          "comune": "BOLZANO",
+          "provincia": "BZ",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 164743.3
+          "cinque_2025": 1254449.96
         },
         {
-          "cf": "06913090723",
-          "denominazione": "AMOPUGLIA - ORGANIZZAZIONE DI VOLONTARIATO - ENTE DEL TERZO SETTORE",
-          "comune": "BARI",
-          "provincia": "BA",
+          "cf": "03958751004",
+          "denominazione": "FEDERAZIONE NAZIONALE DELLE ASSOCIAZIONI PER I DIRITTI DEGLI ANZIANI (ADA) DI VOLONTARIATO - ODV - RETE ASSOCIATIVA ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 145510.08
+          "cinque_2025": 867447.9
         },
         {
-          "cf": "01976050904",
-          "denominazione": "LIDA SEZIONE OLBIA ODV",
-          "comune": "OLBIA",
-          "provincia": "SS",
+          "cf": "03031110582",
+          "denominazione": "AMNESTY INTERNATIONAL SEZIONE ITALIANA ODV",
+          "comune": "ROMA",
+          "provincia": "RM",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 139548.1
+          "cinque_2025": 709217.93
         },
         {
-          "cf": "03263200754",
-          "denominazione": "LEGA ITALIANA PER LA LOTTA CONTRO I TUMORI - ASSOCIAZIONE PROVINCIALE DI LECCE ODV",
-          "comune": "CASARANO",
-          "provincia": "LE",
+          "cf": "97229260159",
+          "denominazione": "OIPA ITALIA ODV",
+          "comune": "MILANO",
+          "provincia": "MI",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 133637.91
+          "cinque_2025": 573853.46
         },
         {
-          "cf": "97076940820",
-          "denominazione": "MISSIONE SPERANZA E CARITA' ODV ETS",
-          "comune": "PALERMO",
-          "provincia": "PA",
+          "cf": "80032350482",
+          "denominazione": "LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI)",
+          "comune": "PARMA",
+          "provincia": "PR",
           "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 124589.86
-        },
-        {
-          "cf": "90041650616",
-          "denominazione": "CIBO SOCIALE ODV",
-          "comune": "TRENTOLA DUCENTA",
-          "provincia": "CE",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 114676.11
-        },
-        {
-          "cf": "90234800739",
-          "denominazione": "A.N.F. ASSOCIAZIONE NAZIONALE FAMIGLIE ODV",
-          "comune": "TARANTO",
-          "provincia": "TA",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 104355.4
-        },
-        {
-          "cf": "93260530725",
-          "denominazione": "UNITI - ODV",
-          "comune": "BARI",
-          "provincia": "BA",
-          "capacita": "media",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV",
-          "cinque_2025": 224099.68
+          "cinque_2025": 526744.9
         }
       ]
     },
@@ -6394,9 +6375,7 @@
       "gg_rimasti": 76,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale",
-        "regionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "giovani"
@@ -6523,9 +6502,7 @@
       "gg_rimasti": 6,
       "status": "attivo",
       "territorio": [
-        "europa",
-        "nazionale",
-        "regionale"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "lavoro"
@@ -6652,7 +6629,7 @@
       "gg_rimasti": 432,
       "status": "attivo",
       "territorio": [
-        "europa"
+        "Nazionale/da verificare"
       ],
       "tags": [
         "volontariato"
@@ -6785,8 +6762,7 @@
         "Cooperazione allo sviluppo"
       ],
       "territorio": [
-        "europa",
-        "nazionale"
+        "Nazionale/da verificare"
       ],
       "status": "attivo",
       "motivo": "nessun pattern tag"

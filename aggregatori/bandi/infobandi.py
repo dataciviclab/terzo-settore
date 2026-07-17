@@ -141,45 +141,6 @@ def _campo(html: str, label: str) -> str | None:
     return None
 
 
-def filtra_per_territorio(bandi: list[dict], comune: str = None, regione: str = None) -> list[dict]:
-    risultati = []
-    for b in bandi:
-        testo = f"{b.get('titolo', '')} {b.get('obiettivi', '')} {b.get('ammissibili', '')}"
-        if comune and comune.lower() in testo.lower():
-            risultati.append(b)
-        elif regione and regione.lower() in testo.lower():
-            risultati.append(b)
-    return risultati
-
-
-def bandi_in_scadenza(bandi: list[dict], giorni: int = 60) -> list[dict]:
-    oggi = datetime.now()
-    risultati = []
-    for b in bandi:
-        scad = b.get("scadenza", "")
-        if not scad:
-            continue
-        try:
-            data = _parsa_data(scad)
-            if data and 0 <= (data - oggi).days <= giorni:
-                risultati.append(b)
-        except ValueError:
-            continue
-    return sorted(risultati, key=lambda x: x.get("scadenza", ""))
-
-
-def _parsa_data(testo: str) -> datetime | None:
-    mese_map = {
-        "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4,
-        "maggio": 5, "giugno": 6, "luglio": 7, "agosto": 8,
-        "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
-    }
-    m = re.search(r"(\d+)\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(\d{4})", testo, re.I)
-    if m:
-        return datetime(int(m.group(3)), mese_map[m.group(2).lower()], int(m.group(1)))
-    return None
-
-
 if __name__ == "__main__":
     bandi = fetch_bandi(force=True)
     print(f"Totale bandi: {len(bandi)}")

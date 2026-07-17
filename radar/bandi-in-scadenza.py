@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Vista latest del radar: bandi operativi in scadenza nei prossimi 60 giorni."""
 
-import sys
+import json, sys
 from datetime import datetime
 from pathlib import Path
 
@@ -11,11 +11,21 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text, run_scan
+from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text
 
 ETS_FILE = ROOT / "data" / "unified_ets.parquet"
+RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
 GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
 INPS_RDC_URL = f"{GCS_BASE}/inps_rdc_pdc/2020/inps_rdc_pdc_2020_clean.parquet"
+
+
+def load_scan():
+    """Carica scan da JSON già calcolato."""
+    if not RADAR_JSON.exists():
+        print(f"❌ {RADAR_JSON} non trovato. Esegui prima scan_completo.py")
+        sys.exit(1)
+    with open(RADAR_JSON) as f:
+        return json.load(f)
 
 
 def gap_rcd(con):
@@ -52,11 +62,12 @@ def territory_matches(r, filtro_territorio):
 
 def genera_report(scan, con, filtro_territorio=None, giorni=60):
     oggi = datetime.now()
-    risultati = [
-        r
-        for r in scan["resultados"]
-        if 0 <= r["gg"] <= giorni and territory_matches(r, filtro_territorio)
-    ]
+    risultati = []
+    for r in scan["resultados"]:
+        gg = r.get("gg_rimasti", r.get("gg", 999))
+        if 0 <= gg <= giorni and territory_matches(r, filtro_territorio):
+            r["gg"] = gg  # normalizza
+            risultati.append(r)
 
     lines = []
     lines.append(f"# 📡 Radar bandi — {oggi.strftime('%d/%m/%Y')}")
@@ -77,11 +88,12 @@ def genera_report(scan, con, filtro_territorio=None, giorni=60):
         for c in r["candidati"][:5]:
             comune = fmt_text(c.get("comune"), "")
             provincia = fmt_text(c.get("provincia"))
-            lines.append(
-                f"  · **{c['capacita_progettuale']}** {c['denominazione'][:55]} "
-                f"— {comune} ({provincia}) — score {int(c.get('score', 0))}, "
-                f"{fmt_match_reason(c)} — 5x1000: {fmt_euro(c.get('cinque_2025'))}"
-            )
+        cap = c.get("capacita", c.get("capacita_progettuale", "?"))
+        lines.append(
+            f"  · **{cap}** {c['denominazione'][:55]} "
+            f"— {comune} ({provincia}) — score {int(c.get('score', 0))}, "
+            f"{fmt_match_reason(c)} — 5x1000: {fmt_euro(c.get('cinque_2025'))}"
+        )
         lines.append("")
 
     lines.append("---")
@@ -98,7 +110,7 @@ def genera_report(scan, con, filtro_territorio=None, giorni=60):
 def main():
     filtro = sys.argv[2] if len(sys.argv) > 2 and sys.argv[1] == "--territorio" else None
     con = duckdb.connect()
-    scan = run_scan(con=con)
+    scan = load_scan()
     report = genera_report(scan, con, filtro_territorio=filtro)
     out = ROOT / "cruscotto" / "radar-latest.md"
     out.parent.mkdir(parents=True, exist_ok=True)

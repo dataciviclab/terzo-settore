@@ -1,7 +1,7 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 17/07/2026 23:25
+Generato: 17/07/2026 23:38
 
-**45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **180** esclusi  |  **164** ETS unici coinvolti
+**45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **180** esclusi  |  **154** ETS unici coinvolti
 
 ---
 
@@ -11,7 +11,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 23 luglio 2026 (6 giorni)
 - **Ente**: Commissione Europea  &#8211; DG Occupazione, Affari sociali e Inclusione
 - **Stato**: attivo
-- **Territorio**: europa, nazionale, regionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: lavoro
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
@@ -51,7 +51,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 31 luglio 2026 (14 giorni)
 - **Ente**: Fondazione Armonia e Rispetto ETS
 - **Stato**: attivo
-- **Territorio**: europa, nazionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: Ambiente, Animali, Salute mentale, Cooperazione internazionale
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
@@ -72,7 +72,7 @@ Generato: 17/07/2026 23:25
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: inclusione sociale, minori, sport, educazione
+- **Tag**: sport, educazione, minori, inclusione sociale
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -91,7 +91,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 3 agosto 2026 (17 giorni)
 - **Ente**: UEFA Foundation for children
 - **Stato**: attivo
-- **Territorio**: europa, nazionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: Minori, Salute, Sport, Adolescenti, Cooperazione internazionale, UEFA Foundation
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
@@ -134,7 +134,7 @@ Generato: 17/07/2026 23:25
 - **Ente**: Innovation Norway
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: salute, donne
+- **Tag**: donne, salute
 
   · **alta** ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMEN — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €1,640
   · **medio-alta** VOLONTARIATO INTERNAZIONALE DONNA EDUCAZIONE SVILU — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; ODV — 5x1000: €24,087
@@ -151,7 +151,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi) (43 giorni)
 - **Ente**: Dipartimento per le politiche in favore delle persone con disabilità &#8211; Presidenza del Consiglio dei Ministri
 - **Stato**: attivo
-- **Territorio**: europa, nazionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: Minori, Disabilità, Inclusione sociale, Lavoro, Agricoltura sociale
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale — 5x1000: €1,010
@@ -188,7 +188,7 @@ Generato: 17/07/2026 23:25
 - **Ente**: AICS
 - **Stato**: attivo
 - **Territorio**: Europa, Libia, Locale, Nazionale
-- **Tag**: salute, ambiente
+- **Tag**: ambiente, salute
 
   · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €262,688
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS — 5x1000: €217,081
@@ -277,7 +277,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 15 settembre 2026 alle ore 12:00 (60 giorni)
 - **Ente**: Ministero della  Cultura
 - **Stato**: attivo
-- **Territorio**: europa, nazionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: Cultura, Inclusione sociale, premi nazionali
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale — 5x1000: €1,010
@@ -295,7 +295,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 18 settembre 2026 alle ore 11.00 (63 giorni)
 - **Ente**: Fondo per la Repubblica Digitale &#8211; Impresa sociale srl
 - **Stato**: attivo
-- **Territorio**: europa, nazionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: In evidenza, Disabilità, Inclusione sociale, Lavoro, Formazione, Digitale, Fondo per la Repubblica Digitale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
@@ -314,7 +314,7 @@ Generato: 17/07/2026 23:25
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
-- **Tag**: inclusione sociale, disabilità, digitale
+- **Tag**: digitale, disabilità, inclusione sociale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €3,485
@@ -349,8 +349,8 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 20 settembre 2026 (65 giorni)
 - **Ente**: Commissione Europea &#8211; DG del Mercato interno, dell’industria, dell’imprenditoria e delle PMI
 - **Stato**: attivo
-- **Territorio**: europa, nazionale
-- **Tag**: giovani, premi, lavoro
+- **Territorio**: Nazionale/da verificare
+- **Tag**: premi, giovani, lavoro
 
   · **alta** CENTRO INFORMAZIONE DOCUMENTAZIONE E INIZIATIVA PE — PERUGIA (PG) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €1,819
   · **alta** COMUNITA' DEI GIOVANI SOCIETA' COOPERATIVA SOCIALE — VERONA (VR) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €1,673
@@ -385,7 +385,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 29 settembre 2026 (74 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
-- **Territorio**: europa, nazionale, regionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: giovani
 
   · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €581
@@ -403,7 +403,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 29 settembre 2026 (74 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
-- **Territorio**: europa, nazionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: giovani
 
   · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €581
@@ -421,19 +421,19 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 30 settembre 2026 alle ore 13:00 (75 giorni)
 - **Ente**: Impresa sociale CON I BAMBINI
 - **Stato**: attivo
-- **Territorio**: europa, mezzogiorno, regionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: Giovani, Inclusione sociale, Lavoro, Dispersione scolastica, Adolescenti, CON I BAMBINI Impresa Sociale
 
+  · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
+  · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €3,485
+  · **alta** VI.VA. PARTECIPAZIONE E SOLIDARIETA' — ASSISI (PG) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €2,426
   · **medio-alta** ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI  — MESSINA (ME) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €115,522
+  · **alta** "SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - S — DARFO BOARIO TERME (BS) — score 113, match tema + sezione; capacità alta; grant UE; Impresa Sociale — 5x1000: -
+  · **alta** CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARI — FIRENZE (FI) — score 113, match tema + sezione; capacità alta; grant UE; Impresa Sociale — 5x1000: -
+  · **media** FONDO DI SOLIDARIETA'  EDO TEMPIA VALENTA PER LA L — BIELLA (BI) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €432,809
   · **media** ASSOCIAZIONE NAZIONALE TUTTE LE ETA' ATTIVE PER LA — PALERMO (PA) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €170,168
+  · **media** ANTEAS REGIONALE PIEMONTE- ASSOCIAZIONE NAZIONALE  — TORINO (TO) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €164,176
   · **media** ASSOCIAZIONE REGIONALE TERZA ETA' ATTIVA PER LA SO — BARI (BA) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €113,777
-  · **medio-alta** ASSOCIAZIONE PROMOZIONE SOCIALE E SOLIDARIETA' - O — TRANI (BT) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €32,242
-  · **medio-alta** GRUPPO DI VOLONTARIATO SOLIDARIETA'  - ORGANIZZAZI — POTENZA (PZ) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €17,381
-  · **medio-alta** ASS. CENTRO SOLIDARIETA' GRUPPO SOLIDARIETA' ODV — PESCARA (PE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €16,787
-  · **medio-alta** ANTEAS, SOLIDARIETA' BRINDISINA APS — BRINDISI (BR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €16,578
-  · **medio-alta** NUOVA SOLIDARIETA' ODV — REGGIO DI CALABRIA (RC) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €11,465
-  · **medio-alta** CENTRO DI SOLIDARIETA' DELLA COMPAGNIA DELLE OPERE — SIRACUSA (SR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; ODV — 5x1000: €4,621
-  · **medio-alta** SOLIDARIETA' CERVINESE ODV — CERVINO (CE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; ODV — 5x1000: €3,880
 
 ### Bando volontariato 2026
 - **Scadenza**: 30 settembre 2026 (75 giorni)
@@ -493,7 +493,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 01 ottobre 2026 (76 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
-- **Territorio**: europa, nazionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: volontariato
 
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 133, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV — 5x1000: €36,039
@@ -511,25 +511,25 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 01 ottobre 2026 (76 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
-- **Territorio**: europa, mezzogiorno, nazionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: volontariato
 
-  · **medio-alta** M.I.CRO. ITALIA ODV — GRAVINA IN PUGLIA (BA) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €272,731
-  · **medio-alta** EFFETTO PALLA - PER GLI ANIMALI DI NESSUNO - ODV — ORISTANO (OR) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €217,270
-  · **medio-alta** ASSOCIAZIONE CUORE E MANI APERTE - ORGANIZZAZIONE  — LECCE (LE) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €164,743
-  · **medio-alta** AMOPUGLIA - ORGANIZZAZIONE DI VOLONTARIATO - ENTE  — BARI (BA) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €145,510
-  · **medio-alta** LIDA SEZIONE OLBIA ODV — OLBIA (SS) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €139,548
-  · **medio-alta** LEGA ITALIANA PER LA LOTTA CONTRO I TUMORI - ASSOC — CASARANO (LE) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €133,638
-  · **medio-alta** MISSIONE SPERANZA E CARITA' ODV ETS — PALERMO (PA) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €124,590
-  · **medio-alta** CIBO SOCIALE ODV — TRENTOLA DUCENTA (CE) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €114,676
-  · **medio-alta** A.N.F. ASSOCIAZIONE NAZIONALE FAMIGLIE ODV — TARANTO (TA) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €104,355
-  · **media** UNITI - ODV — BARI (BA) — score 115, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €224,100
+  · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 133, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV — 5x1000: €36,039
+  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV — 5x1000: €1,514
+  · **alta** CROCE ROSSA ITALIANA COMITATO DI GORIZIA ORGANIZZA — GORIZIA (GO) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV — 5x1000: €1,341
+  · **medio-alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €2,299,912
+  · **medio-alta** VIDAS VOLONTARI ITALIANI DOMICILIARI PER L'ASSISTE — MILANO (MI) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €1,657,371
+  · **medio-alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE — BOLZANO (BZ) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €1,254,450
+  · **medio-alta** FEDERAZIONE NAZIONALE DELLE ASSOCIAZIONI PER I DIR — ROMA (RM) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €867,448
+  · **medio-alta** AMNESTY INTERNATIONAL SEZIONE ITALIANA ODV — ROMA (RM) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €709,218
+  · **medio-alta** OIPA ITALIA ODV — MILANO (MI) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €573,853
+  · **medio-alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €526,745
 
 ### KA1 Attività di partecipazione dei giovani – 2^ scadenza
 - **Scadenza**: 01 ottobre 2026 (76 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
-- **Territorio**: europa, nazionale, regionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: giovani
 
   · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €581
@@ -547,7 +547,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 08 ottobre 2026 (con proroga) ore 12.00 (83 giorni)
 - **Ente**: Commissione europea – Autorità di Gestione FAMI Ministero Interno &#8211; Direzione Centrale per le Politiche migratorie
 - **Stato**: attivo
-- **Territorio**: europa, nazionale, regionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: minori, migranti
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale — 5x1000: €1,010
@@ -583,19 +583,19 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 16 ottobre 2026 alle ore 13:00 (91 giorni)
 - **Ente**: Impresa sociale CON I BAMBINI
 - **Stato**: attivo
-- **Territorio**: europa, mezzogiorno, regionale
+- **Territorio**: Nazionale/da verificare
 - **Tag**: Minori, Cultura, Musica, Adolescenti, CON I BAMBINI Impresa Sociale
 
-  · **medio-alta** ASSOCIAZIONE SICILIANA LOTTA ALLE LEUCEMIE E AI TU — PALERMO (PA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €89,873
-  · **medio-alta** ANFFAS DI POLICORO - ASSOCIAZIONE LOCALE DI FAMIGL — POLICORO (MT) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €56,120
-  · **medio-alta** ASSOCIAZIONE PER LA LOTTA CONTRO LE EMOPATIE ED I  — BARI (BA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €35,058
-  · **medio-alta** A.GE.B.E.O. ASSOCIAZIONE GENITORI BAMBINI EMATO-ON — BARI (BA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €31,327
-  · **medio-alta** CENTRO CULTURALE CRISTIANO ASSOCIAZIONE DI PROMOZI — LENTINI (SR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €11,922
-  · **medio-alta** ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE P — SALERNO (SA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €1,917
-  · **medio-alta** ASSOCIAZIONE COLLETTIVO MUSIC ARTE ODV — MESAGNE (BR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; ODV — 5x1000: €389
-  · **media** ASSOCIAZIONE GENITORI BAMBINI EMOPATICI LEUCEMICI  — PESCARA (PE) — score 105, match tema + sezione; capacità media; 5x1000 >10k; ODV — 5x1000: €80,541
-  · **media** I RAGAZZI DI DON LUIGI LA MURA — ANGRI (SA) — score 105, match tema + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €49,419
-  · **media** ASSOCIAZIONE MUSICALE CULTURALE LE VOCI DELL'ARTE  — BRINDISI (BR) — score 105, match tema + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €38,991
+  · **alta** ASSOCIAZIONE CULTURALE PHOTOLUX APS — LUCCA (LU) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €2,459
+  · **alta** FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE -  — FORLI' (FC) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €915
+  · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €581
+  · **alta** ASSOCIAZIONE CULTURALE EUFEMIA APS — TORINO (TO) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €499
+  · **alta** FERRARA LA CITTA' DEL CINEMA APS — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €346
+  · **alta** ASSOCIAZIONE CULTURALE MUSICASTRADA APS — MONTOPOLI IN VAL D'ARNO (PI) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €173
+  · **medio-alta** PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER -  — BOLZANO (BZ) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €232,521
+  · **medio-alta** A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL — TRIESTE (TS) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €150,644
+  · **alta** ASSOCIAZIONE CULTURALE EUROPEA APS — ISPRA (VA) — score 113, match tema + sezione; capacità alta; grant UE; APS — 5x1000: -
+  · **alta** TEATRO A MOLLA-APS — BOLOGNA (BO) — score 113, match tema + sezione; capacità alta; grant UE; APS — 5x1000: -
 
 ### Perform Europe 2026-2028: mobilità internazionale delle arti performative
 - **Scadenza**: 22 ottobre 2026 (97 giorni)
@@ -655,19 +655,19 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 13 novembre 2026 (119 giorni)
 - **Ente**: Fondazione Cattolica
 - **Stato**: attivo
-- **Territorio**: europa, mezzogiorno
+- **Territorio**: Nazionale/da verificare
 - **Tag**: Disabilità, Inclusione sociale, Lavoro, Anziani, Povertà, Fondazione Cattolica
 
+  · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
+  · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €3,485
+  · **alta** VI.VA. PARTECIPAZIONE E SOLIDARIETA' — ASSISI (PG) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €2,426
+  · **medio-alta** FEDERAZIONE NAZIONALE DELLE ASSOCIAZIONI PER I DIR — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €867,448
   · **medio-alta** ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI  — MESSINA (ME) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €115,522
-  · **media** ASSOCIAZIONE NAZIONALE TUTTE LE ETA' ATTIVE PER LA — PALERMO (PA) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €170,168
-  · **media** ASSOCIAZIONE REGIONALE TERZA ETA' ATTIVA PER LA SO — BARI (BA) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €113,777
-  · **medio-alta** ANFFAS DI POLICORO - ASSOCIAZIONE LOCALE DI FAMIGL — POLICORO (MT) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €56,120
-  · **medio-alta** ASSOCIAZIONE ONCOLOGICA PEDIATRICA E NEUROBLASTOMA — SALERNO (SA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €41,136
-  · **medio-alta** ASSOCIAZIONE PROMOZIONE SOCIALE E SOLIDARIETA' - O — TRANI (BT) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €32,242
-  · **medio-alta** ASSOCIAZIONE ITALIANA PERSONE DOWN - SEZIONE DI BA — BARI (BA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €29,130
-  · **medio-alta** ASSOCIAZIONE ITALIANA PERSONE DOWN ETS — NARDO' (LE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €26,168
-  · **medio-alta** ANFFAS SULMONA APS - ASSOCIAZIONE LOCALE DI FAMIGL — SULMONA (AQ) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €21,081
-  · **medio-alta** GRUPPO DI VOLONTARIATO SOLIDARIETA'  - ORGANIZZAZI — POTENZA (PZ) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €17,381
+  · **medio-alta** UNIONE ITALIANA DEI CIECHI E DEGLI IPOVEDENTI ETS- — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS — 5x1000: €111,610
+  · **alta** "SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - S — DARFO BOARIO TERME (BS) — score 113, match tema + sezione; capacità alta; grant UE; Impresa Sociale — 5x1000: -
+  · **alta** CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARI — FIRENZE (FI) — score 113, match tema + sezione; capacità alta; grant UE; Impresa Sociale — 5x1000: -
+  · **alta** ANZIANI E NON SOLO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 113, match tema + sezione; capacità alta; grant UE; Impresa Sociale — 5x1000: -
+  · **media** FONDO DI SOLIDARIETA'  EDO TEMPIA VALENTA PER LA L — BIELLA (BI) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €432,809
 
 ### Iniziativa Beni confiscati &#8211; Regolamento 2026
 - **Scadenza**: 10 dicembre 2026 (146 giorni)
@@ -692,7 +692,7 @@ Generato: 17/07/2026 23:25
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: cultura, premi, digitale, ambiente, arte
+- **Tag**: cultura, ambiente, digitale, premi, arte
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale — 5x1000: €1,010
   · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN — SAN LAZZARO DI SAVENA (BO) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,259
@@ -728,7 +728,7 @@ Generato: 17/07/2026 23:25
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: inclusione sociale, digitale
+- **Tag**: digitale, inclusione sociale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €3,485
@@ -763,7 +763,7 @@ Generato: 17/07/2026 23:25
 - **Scadenza**: 22 settembre 2027 (432 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Cultura e Audiovisivo
 - **Stato**: attivo
-- **Territorio**: europa
+- **Territorio**: Nazionale/da verificare
 - **Tag**: volontariato
 
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 133, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV — 5x1000: €36,039
@@ -835,7 +835,7 @@ Generato: 17/07/2026 23:25
 ## ⚠️ Bandi senza ETS candidabili
 
 - 🟡 **iF Social Impact Prize &#8211; ultima scadenza 2026** — iF Design — scad. 19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno) (33gg) — _nessun pattern tag_
-  Stato: attivo | Territorio: europa, nazionale | Tag: Premi internazionali, Obiettivi per lo Sviluppo Sostenibile, iF Design, Cooperazione allo sviluppo
+  Stato: attivo | Territorio: Nazionale/da verificare | Tag: Premi internazionali, Obiettivi per lo Sviluppo Sostenibile, iF Design, Cooperazione allo sviluppo
 
 ---
 ## Esclusi dal matching

@@ -10,7 +10,10 @@ from pathlib import Path
 import duckdb
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
-from patterns import get_pattern_from_tags, extract_tags_from_text
+from patterns import (
+    get_pattern_from_tags, extract_tags_from_text,
+    get_sections_from_tags, get_province_filter,
+)
 from radar.core import classify_bando, parse_date_flex
 
 ETS_FILE = Path("data/unified_ets.parquet")
@@ -160,6 +163,85 @@ def main():
                 pass  # silent if gold passes
     else:
         print(f"\n⚠️  Gold set non trovato: {gold_path}")
+
+    # ── Test sezione gate ────────────────────────────────────────────
+    print()
+    print("🧪 Section gate test:")
+    section_tests = [
+        ("volontariato", ["volontariato"], ["ORGANIZZAZIONI DI VOLONTARIATO"]),
+        ("sport", ["sport"], ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"]),
+        ("lavoro", ["lavoro"], ["IMPRESE SOCIALI"]),
+        ("cultura", ["cultura"], ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"]),
+        ("donne+volontariato", ["donne", "volontariato"], ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "ORGANIZZAZIONI DI VOLONTARIATO"]),
+        ("tag sconosciuto", ["xyz_non_existent"], []),
+    ]
+    for name, tags, expected in section_tests:
+        result = get_sections_from_tags(tags)
+        ok = set(result) == set(expected)
+        status = "✅" if ok else "❌"
+        if not ok:
+            failures += 1
+        print(f" {status} {name}: {result} (atteso {expected})")
+
+    # ── Test filtro geografico ──────────────────────────────────────
+    print()
+    print("🧪 Geographic filter test:")
+    geo_tests = [
+        ("nazionale", ["Nazionale"], []),
+        ("mezzogiorno", ["Mezzogiorno"], ["AQ","CH","PE","TE","MT","PZ","CZ","CS","KR","RC","VV","AV","BN","CE","NA","SA","CB","IS","BA","BR","BT","FG","LE","TA","CA","NU","OR","SS","SU","AG","CL","CT","EN","ME","PA","RG","SR","TP"]),
+        ("lombardia", ["Lombardia"], ["BG","BS","CO","CR","LC","LO","MB","MI","MN","PV","SO","VA"]),
+        ("vuoto", [], []),
+        ("europa", ["Europa"], []),
+    ]
+    for name, terr, expected in geo_tests:
+        result = get_province_filter(terr)
+        ok = set(result) == set(expected)
+        status = "✅" if ok else "❌"
+        if not ok:
+            failures += 1
+            print(f"   (got {len(result)} province, expected {len(expected)})")
+        print(f" {status} {name}: {len(result)} province (atteso {len(expected)})")
+
+    # ── Test strategia mista NLP (simula info-cooperazione) ─────────
+    print()
+    print("🧪 NLP mixed strategy test:")
+    nlp_texts = [
+        ("violenza genere minori", "Bando per contrastare la violenza di genere e la violenza sui minori", ["minori", "donne"]),
+        ("sport", "progetti di sport inclusivo", ["sport"]),
+        ("testo corto senza tag", "Bando della Commissione Europea", []),
+        ("volontariato giovani", "Progetti di volontariato giovanile", ["volontariato", "giovani"]),
+        ("premio innovazione", "Premio innovazione sociale 2026", ["premi"]),
+        ("cultura ucraina", "Progetti culturali Ucraina", ["migranti"]),
+    ]
+    for name, text, expected_tags in nlp_texts:
+        extracted = set(extract_tags_from_text(text))
+        ok = all(t in extracted for t in expected_tags) and len(extracted) >= len(expected_tags)
+        status = "✅" if ok else "❌"
+        if not ok:
+            failures += 1
+        print(f" {status} {name}: {extracted} (atteso {expected_tags})")
+
+    # ── Test integrità scan ─────────────────────────────────────────
+    print()
+    print("🧪 Scan integrity test:")
+    radar_json = Path(__file__).resolve().parent / "cruscotto/radar-completo.json"
+    if radar_json.exists():
+        with open(radar_json) as f:
+            report = json.load(f)
+        checks = [
+            ("Bandi totali > 200", report["bandi_totali"] > 200),
+            ("Match > 30", report["match"] > 30),
+            ("ETS unici > 100", report["ets_unici"] > 100),
+            ("Nessun gap con opendoor", all(g["motivo"] != "nessun ETS matcha" for g in report["sin_match"])),
+            ("Tutti i resultados hanno candidati", all(len(r["candidati"]) > 0 for r in report["resultados"])),
+        ]
+        for name, ok in checks:
+            status = "✅" if ok else "❌"
+            if not ok:
+                failures += 1
+            print(f" {status} {name}")
+    else:
+        print(" ⚠️  Scan JSON non trovato, salto test integrità")
 
     con.close()
     print()

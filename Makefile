@@ -6,7 +6,7 @@ all: build scan
 # Costruisce l'hub ETS (da RUNTS + 5x1000 + FTS + RNA + PNRR + OC)
 build:
 	duckdb < sql/build_unified_ets.sql
-	@echo "✅ unified_ets ricostruito"
+	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/unified_ets.parquet'\").fetchone(); assert 140000 < r[0] < 160000, f'Row count {r[0]} fuori range'; print(f'✅ {r[0]} ETS — integrità OK')"
 
 # Scan completo: bandi → match → report
 scan radar:
@@ -37,11 +37,7 @@ bandi-info-coop-full:
 bandi: bandi-infobandi bandi-info-coop
 	@echo "✅ Bandi aggiornati"
 
-# Integrazione OC
-oc:
-	python3 aggregatori/integra_oc.py
-
-# Test matching (pattern + gold set)
+# Test matching (pattern + gold set + sezione + geografia + scan integrity)
 test:
 	python3 test_match.py
 
@@ -52,7 +48,7 @@ test-verbose:
 # Pulisce file temporanei
 clean:
 	find . -type d -name __pycache__ -prune -exec rm -rf {} +
-	rm -f cruscotto/radar-completo.md cruscotto/radar-latest.md
+	rm -f cruscotto/radar-completo.md cruscotto/radar-latest.md cruscotto/radar-completo.json
 	@echo "✅ Pulito"
 
 # Pulisce eventuale cache locale legacy. Build/report leggono da GCS.
