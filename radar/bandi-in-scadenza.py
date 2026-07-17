@@ -17,7 +17,8 @@ ETS_FILE = ROOT / "data" / "unified_ets.parquet"
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
 GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
 INPS_RDC_URL = f"{GCS_BASE}/inps_rdc_pdc/2020/inps_rdc_pdc_2020_clean.parquet"
-COMUNI_URL = f"{GCS_BASE}/unified_comuni/2026/unified_comuni_2026_clean.parquet"
+COMUNI_URL = f"{GCS_BASE}/istat_elenco_comuni/2026/istat_elenco_comuni_2026_clean.parquet"
+UNIFIED_COMUNI_URL = f"{GCS_BASE}/unified_comuni/2026/unified_comuni_2026_clean.parquet"
 ANAC_URLS = ", ".join(
     f"'{GCS_BASE}/anac_bandi_gara/{y}/anac_bandi_gara_{y}_clean.parquet'"
     for y in [2023, 2024, 2025]
@@ -36,9 +37,9 @@ def load_scan():
 def gap_territoriale(con):
     """Gap analysis: incrocia ANAC appalti riservati + ETS + RdC + reddito.
     
-    Identifica comuni dove c'è domanda pubblica di ETS (appalti riservati)
-    ma poca offerta (pochi ETS matchabili), o dove c'è disagio sociale
-    (RdC alto) e zero ETS.
+    Usa istat_elenco_comuni come base (tutti i comuni italiani), 
+    unified_comuni per metriche socioeconomiche.
+    Normalizza apostrofi per massimizzare match con ETS.
     """
     r = con.sql(f"""
         WITH anac AS (
@@ -51,27 +52,41 @@ def gap_territoriale(con):
               AND codice_istat_luogo IS NOT NULL AND codice_istat_luogo != ''
             GROUP BY codice_istat_luogo
         ),
+        -- Base: tutti i comuni da ISTAT (7889 comuni, vs 7512 di unified_comuni)
         comuni AS (
             SELECT codice_istat, denominazione, sigla_provincia,
+                   REPLACE(LOWER(TRIM(denominazione)), '''', '') as denom_norm
+            FROM '{COMUNI_URL}'
+        ),
+        -- Metriche socioeconomiche da unified_comuni (solo per comuni presenti)
+        metriche AS (
+            SELECT codice_istat,
                    ROUND(popolazione_residente)::INT as pop,
                    ROUND(reddito_procapite, 0)::INT as reddito
-            FROM '{COMUNI_URL}'
+            FROM '{UNIFIED_COMUNI_URL}'
             WHERE anno = 2023
         ),
+        -- ETS raggruppati per comune (nome normalizzato senza apostrofi)
         ets_locali AS (
-            SELECT TRIM(comune) as c, provincia,
-                   COUNT(*)::INT as ets_tot,
-                   SUM(CASE WHEN capacita_progettuale IN ('media','medio-alta','alta') THEN 1 ELSE 0 END)::INT as ets_ok
+            SELECT 
+                REPLACE(LOWER(TRIM(comune)), '''', '') as c_norm,
+                provincia,
+                COUNT(*)::INT as ets_tot,
+                SUM(CASE WHEN capacita_progettuale IN ('media','medio-alta','alta') THEN 1 ELSE 0 END)::INT as ets_ok
             FROM '{ETS_FILE.as_posix()}'
-            GROUP BY TRIM(comune), provincia
+            WHERE comune IS NOT NULL AND comune != ''
+            GROUP BY REPLACE(LOWER(TRIM(comune)), '''', ''), provincia
         ),
         rdc AS (
-            SELECT TRIM(comune) as c, 
-                   ROUND(takeup * 100, 1) as rd_pct,
-                   ROUND(nuclei_familiari_percettori_rdc_luglio_2020)::INT as nuclei
+            SELECT 
+                REPLACE(LOWER(TRIM(comune)), '''', '') as c_norm,
+                ROUND(takeup * 100, 1) as rd_pct,
+                ROUND(nuclei_familiari_percettori_rdc_luglio_2020)::INT as nuclei
             FROM '{INPS_RDC_URL}'
         )
-        SELECT c.denominazione, c.sigla_provincia, c.pop, c.reddito,
+        SELECT c.denominazione, c.sigla_provincia,
+               COALESCE(m.pop, 0)::INT as pop,
+               COALESCE(m.reddito, 0)::INT as reddito,
                COALESCE(a.appalti_riservati, 0)::INT as appalti,
                COALESCE(ROUND(a.importo_totale / 1000000, 1), 0) as importo_M,
                COALESCE(e.ets_ok, 0)::INT as ets_ok,
@@ -85,9 +100,11 @@ def gap_territoriale(con):
                  ELSE NULL
                END as gap_segnale
         FROM comuni c
+        LEFT JOIN metriche m ON c.codice_istat = m.codice_istat
         LEFT JOIN anac a ON c.codice_istat = a.codice_istat_luogo
-        LEFT JOIN ets_locali e ON LOWER(c.denominazione) = LOWER(e.c) AND c.sigla_provincia = e.provincia
-        LEFT JOIN rdc r ON LOWER(c.denominazione) = LOWER(r.c)
+        LEFT JOIN ets_locali e ON c.denom_norm = e.c_norm 
+                              AND c.sigla_provincia = COALESCE(NULLIF(e.provincia, ''), c.sigla_provincia)
+        LEFT JOIN rdc r ON c.denom_norm = r.c_norm
         WHERE COALESCE(a.appalti_riservati, 0) >= 1 
            OR (COALESCE(e.ets_ok, 0) = 0 AND COALESCE(r.rd_pct, 0) > 5)
         ORDER BY a.appalti_riservati DESC NULLS LAST, e.ets_ok ASC

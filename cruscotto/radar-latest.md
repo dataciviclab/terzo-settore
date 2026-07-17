@@ -146,7 +146,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 | Terni | TR | 358 app. €203.1M | 111 | 4.4% | €16,404 |  |
 | Roma | RM | 278 app. €1122.6M | 2575 | 3.5% | €20,292 |  |
 | Torino | TO | 79 app. €431.3M | 1028 | 5.5% | €19,791 |  |
-| Napoli | NA | 78 app. €33.8M | 0 | 18.0% | €12,096 | 🔴 domanda pubblica alta, pochi ETS |
+| Napoli | NA | 78 app. €33.8M | 734 | 18.0% | €12,096 |  |
 | Milano | MI | 70 app. €251.2M | 1784 | 3.6% | €28,084 |  |
 | Capaccio Paestum | SA | 66 app. €0.9M | 17 | 0.0% | €10,289 |  |
 | Catanzaro | CZ | 58 app. €19.0M | 106 | 11.1% | €14,014 |  |
