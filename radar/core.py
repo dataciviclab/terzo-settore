@@ -264,9 +264,14 @@ def load_bandi(files=None):
                 raw = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             continue
+        fonte = "infobandi" if "infobandi" in fpath.name else "info_cooperazione"
         if isinstance(raw, list):
+            for b in raw:
+                b["_fonte"] = fonte
             bandi.extend(raw)
         elif isinstance(raw, dict) and "bandi" in raw:
+            for b in raw["bandi"]:
+                b["_fonte"] = fonte
             bandi.extend(raw["bandi"])
     return deduplicate_bandi(bandi)
 
@@ -276,21 +281,45 @@ def normalise_bando(b):
     url = b.get("url", "")
     scadenza_str = b.get("scadenza", "")
     ente = b.get("ente_erogatore", b.get("donatore", ""))
+    fonte = b.get("_fonte", "unknown")
+    
     tags = b.get("tag", b.get("tags", []))
     if isinstance(tags, str):
         tags = [tags]
-    if not tags:
-        tags_nlp = extract_tags_from_text(titolo)
-        if tags_nlp:
-            tags = tags_nlp
-        categorie = b.get("categorie", [])
-        if categorie:
-            for cat_id in categorie:
-                tag_from_cat = INFOBANDI_CAT_MAP.get(cat_id)
-                if tag_from_cat and tag_from_cat not in tags:
-                    tags.append(tag_from_cat)
+    
+    if fonte == "info_cooperazione":
+        # Strategia mista: NLP sul testo + nativi validati (solo keyword nel testo)
+        testo = b.get("testo_nlp", "") or b.get("descrizione", "") or ""
+        tags_nlp = extract_tags_from_text(testo) if testo else []
+        
+        # Nativi validati: keyword che appaiono ANCHE nel testo (filtra rumore HTML)
+        testo_lower = testo.lower()
+        nativi_validi = set()
+        for kw in tags:
+            kw_clean = kw.strip().lower()
+            if kw_clean in testo_lower:
+                # Mappa keyword nativo → tag standard (es. "inclusione" → "inclusione sociale")
+                tag_map = {
+                    "inclusione": "inclusione sociale",
+                }
+                nativi_validi.add(tag_map.get(kw_clean, kw_clean))
+        
+        tags = list(set(tags_nlp) | nativi_validi)
+    else:
+        # Infobandi: tag nativi + NLP fallback (logica attuale)
+        if not tags:
+            tags_nlp = extract_tags_from_text(titolo)
+            if tags_nlp:
+                tags = tags_nlp
+            categorie = b.get("categorie", [])
+            if categorie:
+                for cat_id in categorie:
+                    tag_from_cat = INFOBANDI_CAT_MAP.get(cat_id)
+                    if tag_from_cat and tag_from_cat not in tags:
+                        tags.append(tag_from_cat)
+    
     territorio = extract_territory(b)
-    return titolo, url, scadenza_str, ente, tags, territorio
+    return titolo, url, scadenza_str, ente, tags, territorio, fonte
 
 
 def is_sport_bando(tags):
@@ -358,7 +387,7 @@ def run_scan(con=None, bandi=None, match_limit=10, include_statuses=None):
     stats_ets = set()
 
     for b in bandi:
-        titolo, url, scadenza_str, ente, tags, territorio = normalise_bando(b)
+        titolo, url, scadenza_str, ente, tags, territorio, fonte = normalise_bando(b)
         scadenza, gg_rimasti = parse_date_flex(scadenza_str)
         status, status_motivo = classify_bando(b, scadenza, gg_rimasti)
         if status not in include_statuses:
@@ -374,14 +403,19 @@ def run_scan(con=None, bandi=None, match_limit=10, include_statuses=None):
             )
             continue
 
-        # Testo NLP: da cache (infobandi) o da HTML fallback (info-cooperazione)
-        testo_nlp = b.get("testo_nlp", "")
-        if not tags and testo_nlp:
-            nlp_tags = extract_tags_from_text(testo_nlp)
-            if nlp_tags:
-                tags = nlp_tags
-        
-        # Budget: da cache o HTML fallback
+        # Per info-cooperazione senza tag: prova ad arricchire con pagina singola
+        if fonte == "info_cooperazione" and not tags:
+            testo_corto = b.get("testo_nlp", "") or b.get("descrizione", "") or ""
+            if len(testo_corto) < 500 and url:
+                extra = arricchisci(url)
+                testo_lungo = extra.get("testo_nlp", "")
+                if len(testo_lungo) > len(testo_corto):
+                    nlp_tags = extract_tags_from_text(testo_lungo)
+                    if nlp_tags:
+                        tags = nlp_tags
+                        b["testo_nlp"] = testo_lungo  # aggiorna per uso futuro
+
+        # Budget: da cache o HTML fallback (solo se non già presente)
         if not b.get("budget") and url:
             extra = arricchisci(url)
             if extra.get("budget"):
