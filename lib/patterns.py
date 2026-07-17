@@ -1,5 +1,7 @@
 """Pattern di matching e NLP: unica fonte di verità per scan_completo e segnale."""
 
+import unicodedata
+
 TAG_PATTERN = {
     "sport":                r"(sport|asd|calcio|atletica|nuoto|pallavolo|ginnastica|basket|tennis|scherma|ciclismo|equitazion|vela|canottaggio)",
     "disabilità":           r"(disabil|handicap|anffas|down|autism|sord|paralisi|lesion|ipov|neuro|demen)",
@@ -215,3 +217,175 @@ def get_province_filter(territorio):
                 break
     
     return list(set(province_filtro))
+
+
+def normalize_comune(s: str) -> str:
+    """Normalizza nome comune per match: ASCII, uppercase, no apostrofi/trattini.
+    
+    Stessa logica di cruscotto-italia/etl/sources/runts.py.
+    Gestisce bilingui ('/' mantiene solo IT), accenti (NFD+ASCII strip),
+    apostrofi dritti e tipografici, trattini.
+    """
+    if not s:
+        return ""
+    s = s.split("/")[0]  # Bilingui: keep Italian first
+    s = unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode()
+    s = s.replace("'", "").replace("\u2019", "")  # apostrofi dritti e tipografici
+    s = s.replace("-", " ")
+    return " ".join(s.upper().split())
+
+
+# Mappa comuni con nomi anomali nel RUNTS/ETS rispetto all'anagrafe ISTAT.
+# Compilata da cruscotto-italia (SPECIAL_ACI + PNRR_SPECIAL_NAMES + RUNTS_EXTRA_ALIASES).
+# Chiave: nome normalizzato (via normalize_comune). Valore: codice ISTAT.
+SPECIAL_COMUNI: dict[str, str] = {
+    # --- Bilingui Alto Adige (RUNTS scrive solo italiano, bundle ha "X/Y") ---
+    "BOLZANO":                  "021008",  # Bolzano/Bozen
+    "MERANO":                   "021051",  # Merano/Meran
+    "BRESSANONE":               "021011",  # Bressanone/Brixen
+    "BRUNICO":                  "021013",  # Brunico/Bruneck
+    "LAIVES":                   "021040",  # Laives/Leifers
+    "VIPITENO":                 "021115",  # Vipiteno/Sterzing
+    "MONTAGNA":                 "021053",  # Montagna sulla Strada del Vino/Montan (BZ)
+    "SALORNO":                  "021076",  # Salorno sulla Strada del Vino (BZ)
+    "DUINO AURISINA":           "032001",  # Duino-Aurisina/Devin Nabrezina (TS)
+    "CHIENES":                  "021021",  # Chienes/Kiens  (da PNRR: "CHIENES GEMEINDE KIENS")
+    "NOVA PONENTE":             "021060",  # Nova Ponente/Deutschnofen
+    "SAN GIOVANNI DI FASSA":    "022250",  # Sen Jan di Fassa (TN, fus. 2018)
+    # --- Bilingui FVG ---
+    "DOBERDO DEL LAGO":         "031003",  # Doberdo del Lago-Doberdob
+    "SAN DORLIGO DELLA VALLE":  "032004",  # San Dorligo della Valle-Dolina
+    "SAN FLORIANO DEL COLLIO":  "031019",  # San Floriano del Collio-Steverjan
+    "MONRUPINO":                "032002",  # Monrupino-Repentabor
+    "SGONICO":                  "032005",  # Sgonico-Zgonik
+    "SAVOGNA DISONZO":          "031022",  # Savogna d'Isonzo-Sovodnje ob Soci
+    # --- Preposizioni e forme diverse ---
+    "REGGIO CALABRIA":          "080063",  # Reggio di Calabria
+    "REGGIO EMILIA":            "035033",  # Reggio nell'Emilia
+    "CASSANO ALLO IONIO":       "078029",  # Cassano all'Ionio
+    "CASTELNUOVO VAL DI CECINA": "050011", # Castelnuovo di Val di Cecina (PI)
+    "CASTELNOVO NE MONTI":      "035016",  # Castelnovo ne' Monti (RE)
+    "BARBERINO VAL D ELSA":     "048054",  # -> Barberino Tavarnelle (FI, fus. 2019)
+    "CAPACCIO":                 "065025",  # Capaccio Paestum (SA, rinom. 2016)
+    "SANNICANDRO GARGANICO":    "071049",  # San Nicandro Garganico (FG)
+    "PUEGNAGO":                 "017158",  # Puegnago del Garda (BS, rinom.)
+    "PUEGNAGO SUL GARDA":       "017158",  # Puegnago del Garda (BS)
+    "CASSANO ALLO IONIO":       "078029",  # Cassano all'Ionio (ridondante, OK)
+    # --- Bilingui FVG e fusioni FVG ---
+    "TERZO DI AQUILEIA":        "030120",  # Terzo d'Aquileia (UD)
+    "FIUMICELLO":               "030190",  # -> Fiumicello Villa Vicentina (UD, fus. 2018)
+    "VALVASONE":                "093053",  # -> Valvasone Arzene (PN, fus. 2015)
+    "REANA DEL ROIALE":         "030090",  # Reana del Rojale (UD)
+    # --- Fusioni Trentino ---
+    "TAIO":                     "022230",  # -> Predaia (TN, fus. 2015)
+    "TUENNO":                   "022230",  # -> Predaia (TN, fus. 2015)
+    "CEMBRA":                   "022241",  # -> Cembra Lisignago (TN, fus. 2016)
+    "ZAMBANA":                  "022167",  # -> San Michele all'Adige (TN, fus. 2018)
+    "MOLINA DI LEDRO":          "022229",  # -> Ledro (TN, fus. 2010)
+    "SAN LORENZO IN BANALE":    "022231",  # -> San Lorenzo Dorsino (TN, fus. 2015)
+    "SPERA":                    "022240",  # -> Castel Ivano (TN, fus. 2016)
+    "BREZ":                     "022253",  # -> Novella (TN, 2020)
+    "CAGNO":                    "022253",  # -> Novella (TN, 2020)
+    "CLOZ":                     "022253",  # -> Novella (TN, 2020)
+    "REVO":                     "022253",  # -> Novella (TN, 2020)
+    "ROMALLO":                  "022253",  # -> Novella (TN, 2020)
+    "CARANO":                   "022254",  # -> Ville di Fiemme (TN, 2020)
+    "DAIANO":                   "022254",  # -> Ville di Fiemme (TN, 2020)
+    "VARENA":                   "022254",  # -> Ville di Fiemme (TN, 2020)
+    "CASTELFONDO":              "022252",  # -> Borgo d'Anaunia (TN, 2020)
+    "FONDO":                    "022252",  # -> Borgo d'Anaunia (TN, 2020)
+    "MALOSCO":                  "022252",  # -> Borgo d'Anaunia (TN, 2020)
+    "FAEDO":                    "022167",  # -> San Michele all'Adige (TN, 2020)
+    # --- TN forme troncate ---
+    "PRIMIERO SAN MARTINO DI CASTRO": "022245",  # Primiero S.M. di Castrozza (RUNTS truncated)
+    # --- BZ forme troncate ---
+    "CORTACCIA SULLA STRADA DEL VIN": "021023",  # Cortaccia s.S.d.V./Kurtatsch (RUNTS truncated)
+    # --- Fusioni Piemonte ---
+    "MONTEMAGNO":               "005077",  # Montemagno Monferrato (AT)
+    "CASORZO":                  "005020",  # Casorzo Monferrato (AT, 2023)
+    "GRANA":                    "005056",  # Grana Monferrato (AT, 2023)
+    "MORANSENGO":               "005122",  # -> Moransengo-Tonengo (AT, 2023)
+    "TONENGO":                  "005122",  # -> Moransengo-Tonengo (AT, 2023)
+    "CASTELLINALDO":            "004051",  # Castellinaldo d'Alba (CN)
+    "CERESOLE D ALBA":          "004062",  # Ceresole Alba (CN)
+    "PECCO":                    "001318",  # -> Valchiusa (TO, fus. 2019)
+    # --- Fusioni Veneto ---
+    "CRESPANO DEL GRAPPA":      "026096",  # -> Pieve del Grappa (TV, fus. 2019)
+    "QUERO VAS":                "025075",  # -> Setteville (BL, 2024)
+    "ALANO DI PIAVE":           "025075",  # -> Setteville (BL, 2024)
+    "VIGHIZZOLO DESTE":         "028037",  # -> Este (PD, fus. 2024)
+    "CARCERI":                  "028107",  # -> Borgo Veneto (PD, 2018)
+    # --- Fusioni Lombardia ---
+    "BREMBILLA":                "016253",  # -> Val Brembilla (BG, fus. 2014)
+    "VALLE MOSSO":              "096088",  # -> Valdilana (BI, fus. 2019)
+    "TRIVERO":                  "096088",  # -> Valdilana (BI, fus. 2019)
+    "SOPRANA":                  "096088",  # -> Valdilana (BI, fus. 2019)
+    "CAVALLASCA":               "013206",  # -> San Fermo della Battaglia (CO, fus. 2017)
+    "LENNO":                    "013252",  # -> Tremezzina (CO, fus. 2014)
+    "MACCAGNO":                 "012142",  # -> Maccagno con Pino e Veddasca (VA)
+    "SAN FEDELE INTELVI":       "013254",  # -> Centro Valle Intelvi (CO, fus. 2017)
+    "VERMEZZO":                 "015251",  # -> Vermezzo con Zelo (MI, fus. 2019)
+    "RUINO":                    "018193",  # -> Colli Verdi (PV, fus. 2019)
+    "RONAGO":                   "013256",  # -> Uggiate con Ronago (CO, 2024)
+    "UGGIATE TREVANO":          "013256",  # -> Uggiate con Ronago (CO, 2024)
+    "BREGANO":                  "012144",  # -> Bardello con Malgesso e Bregano (VA, 2024)
+    "BARDELLO":                 "012144",  # -> Bardello con Malgesso e Bregano (VA, 2024)
+    "MALGESSO":                 "012144",  # -> Bardello con Malgesso e Bregano (VA, 2024)
+    "ALBAREDO ARNABOLDI":       "018026",  # -> Campospinoso Albaredo (PV, 2024)
+    "CAMPOSPINOSO":             "018026",  # -> Campospinoso Albaredo (PV, 2024)
+    "GAMBUGLIANO":              "024128",  # -> Sovizzo (VI, 2024)
+    # --- Veneto ---
+    "MEL":                      "025074",  # -> Borgo Valbelluna (BL, fus. 2019)
+    "COSTERMANO":               "023030",  # Costermano sul Garda (VR, rinom. 2017)
+    # --- Fusioni Toscana ---
+    "FIGLINE VALDARNO":         "048052",  # -> Figline e Incisa Valdarno (FI, fus. 2014)
+    "PERGINE VALDARNO":         "051042",  # -> Laterina Pergine Valdarno (AR, fus. 2018)
+    "LATERINA":                 "051042",  # -> Laterina Pergine Valdarno (AR, fus. 2018)
+    "SCARPERIA":                "048053",  # -> Scarperia e San Piero (FI, fus. 2014)
+    "PIAN DI SCO":              "051040",  # -> Castelfranco Piandisco (AR, fus. 2014)
+    "RIO MARINA":               "049021",  # -> Rio (LI, fus. 2018)
+    "VERGEMOLI":                "046036",  # -> Fabbriche di Vergemoli (LU, fus. 2014)
+    "GIUNCUGNANO":              "046037",  # -> Sillano Giuncugnano (LU, fus. 2015)
+    "SAN MARCELLO PISTOIESE":   "047024",  # -> San Marcello Piteglio (PT, fus. 2017)
+    "CASCIANA TERME":           "050040",  # -> Casciana Terme Lari (PI, fus. 2014)
+    "CRESPINA":                 "050041",  # -> Crespina Lorenzana (PI, fus. 2014)
+    # --- Emilia-Romagna + Marche ---
+    "SORBOLO":                  "034051",  # -> Sorbolo Mezzani (PR, fus. 2019)
+    "ZIBELLO":                  "034050",  # -> Polesine Zibello (PR, fus. 2016)
+    "MONTESCUDO":               "099029",  # -> Montescudo-Monte Colombo (RN, fus. 2016)
+    "SASSOCORVARO":             "041071",  # -> Sassocorvaro Auditore (PU, fus. 2019)
+    "MONTECICCARDO":            "041044",  # -> Pesaro (PU, 2024)
+    "POPOLI":                   "068033",  # -> Popoli Terme (PE, 2024)
+    "PIEVEBOVIGLIANA":          "043058",  # -> Valfornace (MC, fus. 2017)
+    # --- Campania/Calabria/Puglia ---
+    "MONTORO INFERIORE":        "064121",  # -> Montoro (AV, fus. 2013)
+    "SANT ANDREA APOSTOLO DELLO ION": "079118",  # Sant'Andrea Apostolo dello Ionio (CZ, trunc.)
+    "PRESICCE":                 "075098",  # -> Presicce-Acquarica (LE, fus. 2019)
+    "CORIGLIANO CALABRO":       "078157",  # -> Corigliano-Rossano (CS, fus. 2018)
+    "PEDACE":                   "078156",  # -> Casali del Manco (CS, fus. 2017)
+    "VENDROGNO":                "097008",  # -> Bellano (LC, fus. 2018)
+    # --- Sicilia / Sardegna ---
+    "CALATAFIMI":               "081003",  # Calatafimi-Segesta (TP)
+    "RACCUIA":                  "083069",  # Raccuja (ME) -- RUNTS con I, bundle con J
+    "NIZZA SICILIA":            "083061",  # Nizza di Sicilia (ME)
+    "BARISARDO":                "091005",  # Bari Sardo (NU)
+    "IERZU":                    "091035",  # Jerzu (NU) -- RUNTS con I, bundle con J
+    # --- Lombardia/PC ---
+    "PECORARA":                 "033049",  # -> Alta Val Tidone (PC, fus. 2018)
+    # --- VCO / VI ---
+    "FALMENTA":                 "103079",  # -> Valle Cannobina (VB, fus. 2019)
+    "MOLVENA":                  "024126",  # -> Colceresa (VI, fus. 2019)
+    # --- Roma ---
+    "ROMA CAPITALE":            "058091",
+    "COMUNE DI ROMA":           "058091",
+    # --- Casi vari ---
+    "MONTORO SUPERIORE":        "064121",  # -> Montoro (AV, fus. 2013)
+    "VIRGILIO":                 "020071",  # -> Borgo Virgilio (MN, fus. 2014)
+    "VILLA POMA":               "020072",  # -> Borgo Mantovano (MN, fus. 2017)
+    "FELONICA":                 "020061",  # -> Sermide e Felonica (MN, fus. 2017)
+    "CARBONARA DI PO":          "020072",  # -> Borgo Mantovano (MN, fus. 2017)
+    "DRIZZONA":                 "019116",  # -> Piadena Drizzona (CR, fus. 2019)
+    "PIADENA":                  "019116",  # -> Piadena Drizzona (CR, fus. 2019)
+    "MIGLIARO":                 "038027",  # -> Fiscaglia (FE, fus. 2014)
+    "MIGLIARINO":               "038027",  # -> Fiscaglia (FE, fus. 2014)
+}
