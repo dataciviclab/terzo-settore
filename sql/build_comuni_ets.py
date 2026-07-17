@@ -163,6 +163,7 @@ def load_ets(con):
                 "ets_tot", "ets_matchabili", "capacita_alta", "capacita_medio_alta", "capacita_media",
                 "odv", "aps", "imprese_sociali", "enti_filantropici", "altri_enti", "sms",
                 "con_grant_ue", "con_pnrr", "sport",
+                "con_appalti",
             ]}
         agg[norm]["ets_tot"] += 1
         agg[norm]["ets_matchabili"] += int(r["matchabile"])
@@ -182,6 +183,80 @@ def load_ets(con):
     return agg
 
 
+# ── 3b. ANAC aggiudicatari (chi vince gli appalti) ──────────────────
+
+ANAC_AGGIUDICATARI_URL = "https://dati.anticorruzione.it/opendata/download/dataset/aggiudicatari/filesystem/20260501-aggiudicatari_json.zip"
+ANAC_AGGIUDICATARI_CACHE = Path("/tmp/anac_aggiudicatari_cache.pq")
+
+
+def _scarica_aggiudicatari():
+    """Scarica e cache aggiudicatari ANAC, restituisce set di CF."""
+    if ANAC_AGGIUDICATARI_CACHE.exists():
+        return duckdb.connect().sql(f"SELECT cf FROM '{ANAC_AGGIUDICATARI_CACHE}'").fetchdf()["cf"].tolist()
+    
+    import requests, zipfile, io, json
+    print("📥 Scarico aggiudicatari ANAC...")
+    r = requests.get(ANAC_AGGIUDICATARI_URL, timeout=300,
+                     headers={"User-Agent": "Mozilla/5.0"})
+    r.raise_for_status()
+    
+    cf_list = []
+    with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+        with z.open("20260501-aggiudicatari_json.json") as f:
+            reader = io.TextIOWrapper(f, 'utf-8')
+            for line in reader:
+                rec = json.loads(line)
+                cf = rec.get("codice_fiscale")
+                if cf and isinstance(cf, str) and len(cf.strip()) >= 11:
+                    cf_list.append(cf.strip())
+    
+    # Cache parquet
+    pd.DataFrame({"cf": list(set(cf_list))}).to_parquet(ANAC_AGGIUDICATARI_CACHE, index=False)
+    print(f"   {len(set(cf_list)):,} CF unici salvati in cache")
+    return cf_list
+
+
+def load_aggiudicatari(con, ets_agg):
+    """Aggrega ETS con appalti ANAC per comune.
+    
+    Aggiunge a ets_agg le chiavi 'con_appalti' conta ETS con almeno un appalto.
+    """
+    cf_list = _scarica_aggiudicatari()
+    
+    # Carica CF → comune dalla unified_ets
+    df = con.sql(f"""
+        SELECT DISTINCT codice_fiscale, TRIM(comune) as c, provincia,
+               CASE WHEN capacita_progettuale IN ('media','medio-alta','alta') THEN 1 ELSE 0 END as matchabile
+        FROM '{ETS_FILE}'
+        WHERE codice_fiscale IS NOT NULL AND codice_fiscale != ''
+          AND comune IS NOT NULL AND comune != ''
+    """).fetchdf()
+    
+    # Costruisce set di CF ETS che sono anche aggiudicatari
+    cf_ets_set = set(df["codice_fiscale"].tolist())
+    cf_match = cf_ets_set & set(cf_list)
+    print(f"   CF ETS con appalti: {len(cf_match):,}")
+    
+    # Per ogni CF matchato, normalizza il comune e aggrega
+    df_match = df[df["codice_fiscale"].isin(cf_match)]
+    for _, r in df_match.iterrows():
+        norm = normalize_comune(r["c"])
+        if not norm:
+            continue
+        if norm not in ets_agg:
+            continue  # skip, già gestito da load_ets
+        if "con_appalti" not in ets_agg[norm]:
+            ets_agg[norm]["con_appalti"] = 0
+        ets_agg[norm]["con_appalti"] += 1
+    
+    # Assicura che tutti gli entry abbiano la chiave
+    for norm in ets_agg:
+        if "con_appalti" not in ets_agg[norm]:
+            ets_agg[norm]["con_appalti"] = 0
+    
+    return cf_match
+
+
 # ── 4. Build finale ─────────────────────────────────────────────────
 
 def main():
@@ -190,6 +265,9 @@ def main():
     lookup, istat_data = load_comuni(con)
     anac_data = load_anac(con)
     ets_agg = load_ets(con)
+    
+    # Aggiudicatari ANAC: ETS che vincono appalti
+    cf_match = load_aggiudicatari(con, ets_agg)
     con.close()
     
     print("🔗 Join e scrittura...")
@@ -233,6 +311,7 @@ def main():
                 "capacita_alta", "capacita_medio_alta", "capacita_media",
                 "odv", "aps", "imprese_sociali", "enti_filantropici", "altri_enti", "sms",
                 "con_grant_ue", "con_pnrr", "sport",
+                "con_appalti",
             ]},
             # Derivate
             "ets_sconosciuti": et.get("ets_tot", 0) - et.get("ets_matchabili", 0),
@@ -246,6 +325,7 @@ def main():
     print(f"\n✅ {len(df_out)} comuni in {OUTPUT}")
     print(f"   {df_out['ets_tot'].sum():.0f} ETS totali")
     print(f"   {df_out['appalti_riservati'].sum():.0f} appalti riservati ANAC")
+    print(f"   {df_out['con_appalti'].sum():.0f} ETS con appalti ANAC")
     print(f"   Tempo: {elapsed:.1f}s")
 
 
