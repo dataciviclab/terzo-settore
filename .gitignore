@@ -5,3 +5,5 @@ data/cache/
 data/open_cooperazione_organizzazioni.csv
 data/enrich/
 data/enriched_candidates.json
+contatta-*.csv
+contatta-*.json

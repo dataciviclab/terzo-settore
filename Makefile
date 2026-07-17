@@ -21,6 +21,14 @@ segnale:
 	[ -n "$(T)" ] || (echo "Usa: make segnale T=MI [C=Comune]" && exit 1)
 	python3 radar/segnale.py --territorio $(T) $(if $(C),--comune "$(C)",)
 
+# Esporta candidati da contattare per un bando
+# make contatta B="BPER"          — CSV top 10
+# make contatta B="UEFA" ENRICH=1 — con Google Places (lento)
+# make contatta B="BPER" FMT=json
+contatta:
+	[ -n "$(B)" ] || (echo "Usa: make contatta B='BPER' [TOP=10] [ENRICH=1] [FMT=csv]" && exit 1)
+	python3 radar/contatta.py --bando "$(B)" --top $(if $(TOP),$(TOP),10) $(if $(ENRICH),--enrich,) $(if $(FMT),--formato $(FMT),) || true
+
 # Build/report leggono direttamente da GCS
 # I dati 5x1000, FTS, RNA, PNRR sono letti via HTTP da build_unified_ets.sql
 
