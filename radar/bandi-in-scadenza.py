@@ -6,6 +6,7 @@ from datetime import datetime
 from pathlib import Path
 
 import duckdb
+import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -37,176 +38,69 @@ def load_scan():
         return json.load(f)
 
 
-def _build_comune_lookup(con=None):
-    """Costruisce mapping nome_normalizzato → (codice_istat, provincia).
-    
-    Usa normalize_comune() (NFD+ASCII per accenti, apostrofi, bilingui)
-    e integra SPECIAL_COMUNI per fusioni, bilingui, casi anomali.
-    Cache in memoria (variabile globale _COMUNI_LOOKUP).
-    """
-    global _COMUNI_LOOKUP
-    if _COMUNI_LOOKUP is not None:
-        return _COMUNI_LOOKUP
-    
-    from patterns import SPECIAL_COMUNI
-    import pandas as pd
-    close_con = con is None
-    if con is None:
-        con = duckdb.connect()
-    
-    df = con.sql(f"SELECT codice_istat, denominazione, sigla_provincia FROM '{COMUNI_URL}'").fetchdf()
-    if close_con:
-        con.close()
-    
-    # lookup: nome_normalizzato → (codice_istat, provincia)
-    # istat_nome: codice_istat → nome ISTAT originale (per display)
-    lookup = {}
-    istat_nome = {}
-    for _, r in df.iterrows():
-        istat = str(r["codice_istat"]).strip()
-        nome_orig = str(r["denominazione"]).strip()
-        prov = str(r["sigla_provincia"]).strip() if r["sigla_provincia"] and str(r["sigla_provincia"]) != "nan" else ""
-        norm = normalize_comune(nome_orig)
-        if norm:
-            lookup[norm] = (istat, prov)
-            if istat not in istat_nome:
-                istat_nome[istat] = nome_orig
-    
-    # SPECIAL_COMUNI: aggiunge nomi alternativi per comuni gia' esistenti
-    for nome, istat in SPECIAL_COMUNI.items():
-        norm = normalize_comune(nome)
-        if norm:
-            if norm not in lookup:
-                prov = ""
-                # cerca provincia dal nome principale se possibile
-                for k, (i, p) in lookup.items():
-                    if i == istat and p:
-                        prov = p
-                        break
-                lookup[norm] = (istat, prov)
-    
-    _COMUNI_LOOKUP = (lookup, istat_nome)
-    return lookup, istat_nome
+# Cache per comuni_ets (caricato una tantum)
+_COMUNI_ETS = None
+_COMUNI_ETS_PATH = ROOT / "data" / "comuni_ets.parquet"
+
+
+def _get_comuni_ets(con):
+    """Carica comuni_ets.parquet (lo costruisce se non esiste)."""
+    global _COMUNI_ETS
+    if _COMUNI_ETS is not None:
+        return _COMUNI_ETS
+    if not _COMUNI_ETS_PATH.exists():
+        print("⚠️  comuni_ets.parquet non trovato. Eseguo build...")
+        import subprocess
+        subprocess.run([sys.executable, str(ROOT / "sql/build_comuni_ets.py")], check=True)
+    _COMUNI_ETS = con.sql(f"SELECT * FROM '{_COMUNI_ETS_PATH}'").fetchdf()
+    return _COMUNI_ETS
 
 
 def gap_territoriale(con):
-    """Gap analysis: incrocia ANAC appalti riservati + ETS + RdC + reddito.
+    """Gap analysis: legge da comuni_ets.parquet (pre-aggregato).
     
-    I nomi dei comuni sono normalizzati con normalize_comune()
-    (NFD+ASCII, apostrofi, SPECIAL_COMUNI per fusioni/bilingui)
-    per massimizzare il match tra fonti diverse.
+    Mostra comuni con appalti riservati ANAC o gap sociale,
+    ordinati per appalti decrescenti, ETS ok ascendenti.
     """
-    import pandas as pd
-    import math
+    df = _get_comuni_ets(con)
     
-    # 1. ANAC: aggregato per codice_istat (in DuckDB, via GCS)
-    df_anac = con.sql(f"""
-        SELECT codice_istat_luogo as istat,
-               COUNT(*)::INT as appalti,
-               ROUND(SUM(importo_complessivo_gara), 0) as importo_totale
-        FROM read_parquet([{ANAC_URLS}], union_by_name=true)
-        WHERE TIPO_APPALTO_RISERVATO NOT IN ('', 'LA PARTECIPAZIONE NON È RISERVATA.')
-          AND TIPO_APPALTO_RISERVATO IS NOT NULL
-          AND codice_istat_luogo IS NOT NULL AND codice_istat_luogo != ''
-        GROUP BY codice_istat_luogo
-    """).fetchdf()
-    anac_map = {r["istat"]: (int(r["appalti"]), float(r["importo_totale"]))
-                for _, r in df_anac.iterrows()}
-    
-    # 2. Metriche: unificate per codice_istat
-    df_metr = con.sql(f"""
-        SELECT codice_istat as istat,
-               ROUND(popolazione_residente)::INT as pop,
-               ROUND(reddito_procapite, 0)::INT as reddito
-        FROM '{UNIFIED_COMUNI_URL}'
-        WHERE anno = 2023
-    """).fetchdf()
-    metr_map = {r["istat"]: (int(r["pop"]) if r["pop"] and not pd.isna(r["pop"]) else 0,
-                              int(r["reddito"]) if r["reddito"] and not pd.isna(r["reddito"]) else 0)
-                for _, r in df_metr.iterrows()}
-    
-    # 3. Costruisce lookup comuni (cached)
-    lookup, istat_nome = _build_comune_lookup(con)
-    
-    # 4. ETS: normalizza nomi e aggrega
-    df_ets = con.sql(f"""
-        SELECT TRIM(comune) as c, provincia,
-               CASE WHEN capacita_progettuale IN ('media','medio-alta','alta') THEN 1 ELSE 0 END as ok
-        FROM '{ETS_FILE.as_posix()}'
-        WHERE comune IS NOT NULL AND comune != ''
-    """).fetchdf()
-    ets_agg = {}
-    for _, r in df_ets.iterrows():
-        norm = normalize_comune(r["c"])
-        prov = str(r["provincia"]).strip() if r["provincia"] and str(r["provincia"]) not in ("nan", "-", "") else ""
-        if norm:
-            if norm not in ets_agg:
-                ets_agg[norm] = {"ets_tot": 0, "ets_ok": 0, "prov": ""}
-            ets_agg[norm]["ets_tot"] += 1
-            ets_agg[norm]["ets_ok"] += int(r["ok"])
-            if prov:
-                ets_agg[norm]["prov"] = prov
-    
-    # 5. RdC: normalizza nomi
-    df_rdc = con.sql(f"""
-        SELECT DISTINCT TRIM(comune) as c,
-               ROUND(takeup * 100, 1) as rd_pct,
-               ROUND(nuclei_familiari_percettori_rdc_luglio_2020)::INT as nuclei
-        FROM '{INPS_RDC_URL}'
-    """).fetchdf()
-    rdc_map = {}
-    for _, r in df_rdc.iterrows():
-        norm = normalize_comune(r["c"])
-        if norm and r["rd_pct"] and not pd.isna(r["rd_pct"]):
-            rdc_map[norm] = (float(r["rd_pct"]),
-                             int(r["nuclei"]) if r["nuclei"] and not pd.isna(r["nuclei"]) else 0)
-    
-    # 6. JOIN in Python
     rows = []
-    seen_istat = set()
-    for norm, (istat, prov) in lookup.items():
-        appalti, importo_tot = anac_map.get(istat, (0, 0))
-        pop, reddito = metr_map.get(istat, (0, 0))
-        ets = ets_agg.get(norm, {"ets_tot": 0, "ets_ok": 0, "prov": ""})
-        rd_pct, nuclei = rdc_map.get(norm, (0, 0))
+    for _, r in df.iterrows():
+        appalti = int(r["appalti_riservati"]) if pd.notna(r.get("appalti_riservati")) else 0
+        ets_ok = int(r["ets_matchabili"]) if pd.notna(r.get("ets_matchabili")) else 0
+        rd_pct = float(r["rd_pct"]) if pd.notna(r.get("rd_pct")) else 0.0
+        pop = int(r["popolazione"]) if pd.notna(r.get("popolazione")) else 0
+        reddito = int(r["reddito_procapite"]) if pd.notna(r.get("reddito_procapite")) else 0
+        importo = float(r["importo_anac_totale"]) if pd.notna(r.get("importo_anac_totale")) else 0
+        ets_tot = int(r["ets_tot"]) if pd.notna(r.get("ets_tot")) else 0
+        nuclei = int(r["nuclei_rdc"]) if pd.notna(r.get("nuclei_rdc")) else 0
         
-        # Filtra: solo comuni con appalti o con gap sociale
         if appalti == 0 and rd_pct <= 5:
             continue
         
-        # Usa il nome ISTAT originale (evita duplicati "Roma"/"Roma Capitale")
-        nome_display = istat_nome.get(istat, norm.title())
-        
-        # Deduplica per ISTAT (se gia' visto, salta — tiene primo nome)
-        if istat in seen_istat:
-            continue
-        seen_istat.add(istat)
-        
-        # Segnale
-        if appalti >= 5 and ets["ets_ok"] < 5:
+        if appalti >= 5 and ets_ok < 5:
             segnale = "🔴 domanda pubblica alta, pochi ETS"
-        elif appalti >= 1 and ets["ets_ok"] == 0:
+        elif appalti >= 1 and ets_ok == 0:
             segnale = "🟠 domanda pubblica, zero ETS"
-        elif ets["ets_ok"] == 0 and rd_pct > 10:
+        elif ets_ok == 0 and rd_pct > 10:
             segnale = "🟡 RdC alto, zero ETS"
         else:
             segnale = ""
         
         rows.append({
-            "denominazione": nome_display,
-            "sigla_provincia": prov,
+            "denominazione": str(r["comune"]),
+            "sigla_provincia": str(r["provincia"]) if pd.notna(r.get("provincia")) else "",
             "pop": pop, "reddito": reddito,
-            "appalti": appalti, "importo_M": round(importo_tot / 1_000_000, 1),
-            "ets_ok": ets["ets_ok"], "ets_tot": ets["ets_tot"],
+            "appalti": appalti, "importo_M": round(importo / 1_000_000, 1),
+            "ets_ok": ets_ok, "ets_tot": ets_tot,
             "rd_pct": rd_pct, "nuclei_rdc": nuclei,
             "gap_segnale": segnale,
         })
     
-    df_out = pd.DataFrame(rows)
-    if df_out.empty:
+    if not rows:
         return []
     
-    # Ordina: appalti desc, ets_ok asc
+    df_out = pd.DataFrame(rows)
     df_out = df_out.sort_values(["appalti", "ets_ok"], ascending=[False, True]).head(10)
     return df_out.to_dict("records")
 

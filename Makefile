@@ -1,7 +1,7 @@
 # Terzo Settore Intelligence — Makefile
 .PHONY: build scan radar latest segnale test clean clean-cache all
 
-all: build scan
+all: build comuni-ets scan
 
 # Costruisce l'hub ETS (da RUNTS + 5x1000 + FTS + RNA + PNRR + OC)
 build:
@@ -31,6 +31,10 @@ contatta:
 
 # Build/report leggono direttamente da GCS
 # I dati 5x1000, FTS, RNA, PNRR sono letti via HTTP da build_unified_ets.sql
+
+# Costruisce dataset aggregato per comune (ETS + ANAC + RdC + reddito)
+comuni-ets:
+	python3 sql/build_comuni_ets.py
 
 # Aggregazione bandi
 bandi-infobandi:
