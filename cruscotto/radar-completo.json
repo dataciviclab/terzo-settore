@@ -1,5 +1,5 @@
 {
-  "generato": "2026-07-17T23:38:23.373476",
+  "generato": "2026-07-18T00:01:30.591347",
   "bandi_totali": 226,
   "match": 45,
   "gap": 1,
@@ -913,7 +913,7 @@
       "ente": "Banca d’Italia",
       "budget": null,
       "scadenza": "31 agosto 2026 (domande a partire dal 1° luglio)",
-      "gg_rimasti": 45,
+      "gg_rimasti": 44,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -1184,7 +1184,7 @@
       "ente": "BPER Banca",
       "budget": 50000.0,
       "scadenza": "7 settembre 2026 alle ore 12:00",
-      "gg_rimasti": 52,
+      "gg_rimasti": 51,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -1318,7 +1318,7 @@
       "ente": "UEFA Foundation",
       "budget": null,
       "scadenza": "03 agosto 2026",
-      "gg_rimasti": 17,
+      "gg_rimasti": 16,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -1326,10 +1326,10 @@
         "Nazionale"
       ],
       "tags": [
-        "sport",
-        "educazione",
         "minori",
-        "inclusione sociale"
+        "sport",
+        "inclusione sociale",
+        "educazione"
       ],
       "candidati": [
         {
@@ -1450,18 +1450,18 @@
       "ente": "Fondazione Cariplo",
       "budget": null,
       "scadenza": "31 dicembre 2026",
-      "gg_rimasti": 167,
+      "gg_rimasti": 166,
       "status": "attivo",
       "territorio": [
         "Europa",
         "Nazionale"
       ],
       "tags": [
-        "cultura",
-        "ambiente",
         "digitale",
+        "arte",
         "premi",
-        "arte"
+        "cultura",
+        "ambiente"
       ],
       "candidati": [
         {
@@ -1582,7 +1582,7 @@
       "ente": "Fondo per la Repubblica Digitale &#8211; Impresa sociale srl",
       "budget": null,
       "scadenza": "18 settembre 2026 alle ore 11.00",
-      "gg_rimasti": 63,
+      "gg_rimasti": 62,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -1715,15 +1715,15 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "03 novembre 2026",
-      "gg_rimasti": 109,
+      "gg_rimasti": 108,
       "status": "attivo",
       "territorio": [
         "Europa",
         "Nazionale"
       ],
       "tags": [
-        "donne",
-        "minori"
+        "minori",
+        "donne"
       ],
       "candidati": [
         {
@@ -1844,7 +1844,7 @@
       "ente": "Fondo per la Repubblica Digitale",
       "budget": null,
       "scadenza": "18 settembre 2026",
-      "gg_rimasti": 63,
+      "gg_rimasti": 62,
       "status": "attivo",
       "territorio": [
         "Locale",
@@ -1852,8 +1852,8 @@
       ],
       "tags": [
         "digitale",
-        "disabilità",
-        "inclusione sociale"
+        "inclusione sociale",
+        "disabilità"
       ],
       "candidati": [
         {
@@ -1974,7 +1974,7 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "30 settembre 2027",
-      "gg_rimasti": 440,
+      "gg_rimasti": 439,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -2103,7 +2103,7 @@
       "ente": "Impresa sociale CON I BAMBINI",
       "budget": 5834453.0,
       "scadenza": "30 settembre 2026 alle ore 13:00",
-      "gg_rimasti": 75,
+      "gg_rimasti": 74,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -2235,7 +2235,7 @@
       "ente": "UEFA Foundation for children",
       "budget": null,
       "scadenza": "3 agosto 2026",
-      "gg_rimasti": 17,
+      "gg_rimasti": 16,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -2367,7 +2367,7 @@
       "ente": "Fondazione Cattolica",
       "budget": null,
       "scadenza": "13 novembre 2026",
-      "gg_rimasti": 119,
+      "gg_rimasti": 118,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -2499,7 +2499,7 @@
       "ente": "AICS",
       "budget": null,
       "scadenza": "31 agosto 2026",
-      "gg_rimasti": 45,
+      "gg_rimasti": 44,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -2508,8 +2508,8 @@
         "Nazionale"
       ],
       "tags": [
-        "ambiente",
-        "salute"
+        "salute",
+        "ambiente"
       ],
       "candidati": [
         {
@@ -2630,7 +2630,7 @@
       "ente": "Fondazione Compagnia di San Paolo",
       "budget": null,
       "scadenza": "31 dicembre 2026",
-      "gg_rimasti": 167,
+      "gg_rimasti": 166,
       "status": "attivo",
       "territorio": [
         "Nazionale",
@@ -2758,7 +2758,7 @@
       "ente": "Impresa sociale CON I BAMBINI",
       "budget": 1944818.0,
       "scadenza": "16 ottobre 2026 alle ore 13:00",
-      "gg_rimasti": 91,
+      "gg_rimasti": 90,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -2889,7 +2889,7 @@
       "ente": "Ministero della Cultura e Ministero dell&#8217;Istruzione e del Merito",
       "budget": 180000.0,
       "scadenza": "18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio)",
-      "gg_rimasti": 63,
+      "gg_rimasti": 62,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -3020,7 +3020,7 @@
       "ente": "Dipartimento per le politiche in favore delle persone con disabilità &#8211; Presidenza del Consiglio dei Ministri",
       "budget": null,
       "scadenza": "29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi)",
-      "gg_rimasti": 43,
+      "gg_rimasti": 42,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -3151,7 +3151,7 @@
       "ente": "Impresa sociale Con i Bambini",
       "budget": 200000.0,
       "scadenza": "30 giugno 2027. Le idee saranno selezionate man mano che vengono proposte fino ad esaurimento delle risorse disponibili.",
-      "gg_rimasti": 348,
+      "gg_rimasti": 347,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -3282,7 +3282,7 @@
       "ente": "Fondazione con il Sud",
       "budget": null,
       "scadenza": "30 settembre 2026",
-      "gg_rimasti": 75,
+      "gg_rimasti": 74,
       "status": "attivo",
       "territorio": [
         "Basilicata",
@@ -3417,7 +3417,7 @@
       "ente": "European Network of Migrant Women (ENoMW) in partenariato con Fondazione Pangea (Italia), Monika – Multicultural Women’s Association (Finlandia), e Melissa Network (Grecia)",
       "budget": 1020000.0,
       "scadenza": "31 luglio 2026 (secondo ciclo di finanziamento)",
-      "gg_rimasti": 14,
+      "gg_rimasti": 13,
       "status": "attivo",
       "territorio": [
         "Europa"
@@ -3547,7 +3547,7 @@
       "ente": "Fondazione Armonia e Rispetto ETS",
       "budget": null,
       "scadenza": "31 luglio 2026",
-      "gg_rimasti": 14,
+      "gg_rimasti": 13,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -3677,7 +3677,7 @@
       "ente": "Fondazione CON IL SUD",
       "budget": null,
       "scadenza": "10 dicembre 2026",
-      "gg_rimasti": 146,
+      "gg_rimasti": 145,
       "status": "attivo",
       "territorio": [
         "Basilicata",
@@ -3812,7 +3812,7 @@
       "ente": "Fondazione CDP",
       "budget": null,
       "scadenza": "30 settembre 2026",
-      "gg_rimasti": 75,
+      "gg_rimasti": 74,
       "status": "attivo",
       "territorio": [
         "Mezzogiorno",
@@ -3940,7 +3940,7 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "15 settembre 2026",
-      "gg_rimasti": 60,
+      "gg_rimasti": 59,
       "status": "attivo",
       "territorio": [
         "Locale",
@@ -4068,15 +4068,15 @@
       "ente": "European Fund for the Balkans",
       "budget": null,
       "scadenza": "03 settembre 2026",
-      "gg_rimasti": 48,
+      "gg_rimasti": 47,
       "status": "attivo",
       "territorio": [
         "Nazionale",
         "Regionale"
       ],
       "tags": [
-        "lavoro",
-        "ambiente"
+        "ambiente",
+        "lavoro"
       ],
       "candidati": [
         {
@@ -4197,7 +4197,7 @@
       "ente": "Ministero della  Cultura",
       "budget": null,
       "scadenza": "15 settembre 2026 alle ore 12:00",
-      "gg_rimasti": 60,
+      "gg_rimasti": 59,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -4326,7 +4326,7 @@
       "ente": "Acri &#8211; Associazione di Fondazioni e di Casse di Risparmio",
       "budget": 10000.0,
       "scadenza": "14 settembre 2026",
-      "gg_rimasti": 59,
+      "gg_rimasti": 58,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -4455,14 +4455,14 @@
       "ente": "Innovation Norway",
       "budget": null,
       "scadenza": "17 agosto 2026",
-      "gg_rimasti": 31,
+      "gg_rimasti": 30,
       "status": "attivo",
       "territorio": [
         "Nazionale"
       ],
       "tags": [
-        "donne",
-        "salute"
+        "salute",
+        "donne"
       ],
       "candidati": [
         {
@@ -4583,7 +4583,7 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "22 settembre 2026",
-      "gg_rimasti": 67,
+      "gg_rimasti": 66,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -4711,7 +4711,7 @@
       "ente": "Fondo per la Repubblica Digitale",
       "budget": null,
       "scadenza": "31 dicembre 2026",
-      "gg_rimasti": 167,
+      "gg_rimasti": 166,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -4839,7 +4839,7 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "01 ottobre 2026",
-      "gg_rimasti": 76,
+      "gg_rimasti": 75,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -4966,7 +4966,7 @@
       "ente": "Commissione Europea",
       "budget": 1200000.0,
       "scadenza": "29 ottobre 2026",
-      "gg_rimasti": 104,
+      "gg_rimasti": 103,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -5095,7 +5095,7 @@
       "ente": "Commissione europea – Autorità di Gestione FAMI Ministero Interno &#8211; Direzione Centrale per le Politiche migratorie",
       "budget": null,
       "scadenza": "08 ottobre 2026 (con proroga) ore 12.00",
-      "gg_rimasti": 83,
+      "gg_rimasti": 82,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -5223,7 +5223,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "22 ottobre 2026",
-      "gg_rimasti": 97,
+      "gg_rimasti": 96,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -5350,7 +5350,7 @@
       "ente": "Commissione Europea – HaDEA Agenzia esecutiva per la salute e il digitale",
       "budget": 300000.0,
       "scadenza": "15 ottobre 2026",
-      "gg_rimasti": 90,
+      "gg_rimasti": 89,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -5607,14 +5607,14 @@
       "ente": "Commissione Europea &#8211; DG del Mercato interno, dell’industria, dell’imprenditoria e delle PMI",
       "budget": null,
       "scadenza": "20 settembre 2026",
-      "gg_rimasti": 65,
+      "gg_rimasti": 64,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
       ],
       "tags": [
-        "premi",
         "giovani",
+        "premi",
         "lavoro"
       ],
       "candidati": [
@@ -5736,7 +5736,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura tramite Ukrainian Cultural Foundation",
       "budget": null,
       "scadenza": "14 agosto 2026",
-      "gg_rimasti": 28,
+      "gg_rimasti": 27,
       "status": "attivo",
       "territorio": [
         "Ucraina"
@@ -5864,7 +5864,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "29 settembre 2026",
-      "gg_rimasti": 74,
+      "gg_rimasti": 73,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -5991,7 +5991,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "29 settembre 2026",
-      "gg_rimasti": 74,
+      "gg_rimasti": 73,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -6118,7 +6118,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "01 ottobre 2026",
-      "gg_rimasti": 76,
+      "gg_rimasti": 75,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -6245,7 +6245,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "01 ottobre 2026",
-      "gg_rimasti": 76,
+      "gg_rimasti": 75,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -6372,7 +6372,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "01 ottobre 2026",
-      "gg_rimasti": 76,
+      "gg_rimasti": 75,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -6499,7 +6499,7 @@
       "ente": "Commissione Europea  &#8211; DG Occupazione, Affari sociali e Inclusione",
       "budget": null,
       "scadenza": "23 luglio 2026",
-      "gg_rimasti": 6,
+      "gg_rimasti": 5,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -6626,7 +6626,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Cultura e Audiovisivo",
       "budget": null,
       "scadenza": "22 settembre 2027",
-      "gg_rimasti": 432,
+      "gg_rimasti": 431,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -6754,7 +6754,7 @@
       "url": "https://infobandi.csvnet.it/if-social-impact-prize-ultima-scadenza-2026/",
       "ente": "iF Design",
       "scadenza": "19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno)",
-      "gg_rimasti": 33,
+      "gg_rimasti": 32,
       "tags": [
         "Premi internazionali",
         "Obiettivi per lo Sviluppo Sostenibile",

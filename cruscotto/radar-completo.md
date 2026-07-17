@@ -1,5 +1,5 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 17/07/2026 23:38
+Generato: 18/07/2026 00:01
 
 **45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **180** esclusi  |  **154** ETS unici coinvolti
 
@@ -8,7 +8,7 @@ Generato: 17/07/2026 23:38
 ## 🔴 Bandi urgenti (≤30gg) con ETS candidabili
 
 ### 🔴 Bando della Commissione europea per rafforzare il ruolo delle parti sociali
-- **Scadenza**: 23 luglio 2026 (6 giorni)
+- **Scadenza**: 23 luglio 2026 (5 giorni)
 - **Ente**: Commissione Europea  &#8211; DG Occupazione, Affari sociali e Inclusione
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -28,7 +28,7 @@ Generato: 17/07/2026 23:38
 | LITOGRAFI VESUVIANI - SERVIZI SALUTE E LAVORO | SAN GIORGIO A CREMAN | - | medio-alta | 105 | match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale | €7,482 |
 
 ### 🔴 Bando RIZA per progetti di donne con background migratorio &#8211; 2^ ciclo
-- **Scadenza**: 31 luglio 2026 (secondo ciclo di finanziamento) (14 giorni)
+- **Scadenza**: 31 luglio 2026 (secondo ciclo di finanziamento) (13 giorni)
 - **Ente**: European Network of Migrant Women (ENoMW) in partenariato con Fondazione Pangea (Italia), Monika – Multicultural Women’s Association (Finlandia), e Melissa Network (Grecia)
 - **Stato**: attivo
 - **Territorio**: Europa
@@ -48,7 +48,7 @@ Generato: 17/07/2026 23:38
 | FONDO DI SOLIDARIETA'  EDO TEMPIA VALENTA PER | BIELLA | BI | media | 110 | match tema + sezione; capacità media; 5x1000 >100k; ODV | €432,809 |
 
 ### 🔴 Bando &#8220;Voci senza voce&#8221;
-- **Scadenza**: 31 luglio 2026 (14 giorni)
+- **Scadenza**: 31 luglio 2026 (13 giorni)
 - **Ente**: Fondazione Armonia e Rispetto ETS
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -68,11 +68,11 @@ Generato: 17/07/2026 23:38
 | 3A PER L'INNOVAZIONE E LO SVILUPPO DELLA PERS | ROMA | RM | media | 110 | match tema + sezione; capacità media; 5x1000 >100k; APS | €222,005 |
 
 ### 🟡 Bando UEFA Foundation for Children 2026
-- **Scadenza**: 03 agosto 2026 (17 giorni)
+- **Scadenza**: 03 agosto 2026 (16 giorni)
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: sport, educazione, minori, inclusione sociale
+- **Tag**: minori, sport, inclusione sociale, educazione
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -88,7 +88,7 @@ Generato: 17/07/2026 23:38
 | REAL EYES SPORT ASSOCIAZIONE SPORTIVA DILETTA | GALLARATE | VA | media | 125 | match tema + sport + sezione; capacità media; 5x1000 >10k; APS | €45,034 |
 
 ### 🟡 Fondazione UEFA per i bambini &#8211; bando 2026
-- **Scadenza**: 3 agosto 2026 (17 giorni)
+- **Scadenza**: 3 agosto 2026 (16 giorni)
 - **Ente**: UEFA Foundation for children
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -108,7 +108,7 @@ Generato: 17/07/2026 23:38
 | ASSOCIAZIONE SPORTIVA DILETTANTISTICA DIAPHOR | LATINA | LT | media | 125 | match tema + sport + sezione; capacità media; 5x1000 >10k; APS | €28,011 |
 
 ### 🟡 Cultural Horizons &#8211; prodotti culturali innovativi tra UE e Ucraina
-- **Scadenza**: 14 agosto 2026 (28 giorni)
+- **Scadenza**: 14 agosto 2026 (27 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura tramite Ukrainian Cultural Foundation
 - **Stato**: attivo
 - **Territorio**: Ucraina
@@ -127,28 +127,30 @@ Generato: 17/07/2026 23:38
 | FERRARA LA CITTA' DEL CINEMA APS | FERRARA | FE | alta | 118 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS | €346 |
 | ASSOCIAZIONE CULTURALE MUSICASTRADA APS | MONTOPOLI IN VAL D'A | PI | alta | 118 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS | €173 |
 
-## 🟢 Bandi con ETS candidabili (>30gg)
-
-### Dalla Norvegia 10 milioni per l'innovazione umanitaria
-- **Scadenza**: 17 agosto 2026 (31 giorni)
+### 🟡 Dalla Norvegia 10 milioni per l'innovazione umanitaria
+- **Scadenza**: 17 agosto 2026 (30 giorni)
 - **Ente**: Innovation Norway
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: donne, salute
+- **Tag**: salute, donne
 
-  · **alta** ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMEN — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €1,640
-  · **medio-alta** VOLONTARIATO INTERNAZIONALE DONNA EDUCAZIONE SVILU — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; ODV — 5x1000: €24,087
-  · **medio-alta** CASA DELLE DONNE PER NON SUBIRE VIOLENZA - ASSOCIA — BOLOGNA (BO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €57,983
-  · **medio-alta** CASA DI ACCOGLIENZA DELLE DONNE MALTRATTATE ORGANI — MILANO (MI) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €53,173
-  · **medio-alta** ASSOCIAZIONE SALUTE DONNA- ODV  — MILANO (MI) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €26,678
-  · **medio-alta** ASSOCIAZIONE DIFFERENZA DONNA APS — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €25,970
-  · **medio-alta** BELLUNO-DONNA ODV — BELLUNO (BL) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €14,074
-  · **medio-alta**  CASA DELLE DONNE LUCHA Y SIESTA APS — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €10,638
-  · **medio-alta** ASSOCIAZIONE MADONNA DELLA TENDA DI CRISTO — ACIREALE (CT) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €10,635
-  · **medio-alta** ASSOCIAZIONE CASA DELLE DONNE CONTRO LA VIOLENZA - — MODENA (MO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €10,260
+| ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
+|-----|--------|------|----------|-------|--------|-------------|
+| ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DO | ROMA | RM | alta | 118 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS | €1,640 |
+| VOLONTARIATO INTERNAZIONALE DONNA EDUCAZIONE  | ROMA | RM | medio-alta | 115 | match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; ODV | €24,087 |
+| CASA DELLE DONNE PER NON SUBIRE VIOLENZA - AS | BOLOGNA | BO | medio-alta | 110 | match tema + sezione; capacità medio-alta; 5x1000 >10k; APS | €57,983 |
+| CASA DI ACCOGLIENZA DELLE DONNE MALTRATTATE O | MILANO | MI | medio-alta | 110 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV | €53,173 |
+| ASSOCIAZIONE SALUTE DONNA- ODV  | MILANO | MI | medio-alta | 110 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV | €26,678 |
+| ASSOCIAZIONE DIFFERENZA DONNA APS | ROMA | RM | medio-alta | 110 | match tema + sezione; capacità medio-alta; 5x1000 >10k; APS | €25,970 |
+| BELLUNO-DONNA ODV | BELLUNO | BL | medio-alta | 110 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV | €14,074 |
+|  CASA DELLE DONNE LUCHA Y SIESTA APS | ROMA | RM | medio-alta | 110 | match tema + sezione; capacità medio-alta; 5x1000 >10k; APS | €10,638 |
+| ASSOCIAZIONE MADONNA DELLA TENDA DI CRISTO | ACIREALE | CT | medio-alta | 110 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV | €10,635 |
+| ASSOCIAZIONE CASA DELLE DONNE CONTRO LA VIOLE | MODENA | MO | medio-alta | 110 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV | €10,260 |
+
+## 🟢 Bandi con ETS candidabili (>30gg)
 
 ### Avviso &#8220;Vita &#038; Opportunità&#8221;
-- **Scadenza**: 29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi) (43 giorni)
+- **Scadenza**: 29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi) (42 giorni)
 - **Ente**: Dipartimento per le politiche in favore delle persone con disabilità &#8211; Presidenza del Consiglio dei Ministri
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -166,7 +168,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL — TRIESTE (TS) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €150,644
 
 ### Contributi annuali della Banca d’Italia – 2^ scadenza 2026
-- **Scadenza**: 31 agosto 2026 (domande a partire dal 1° luglio) (45 giorni)
+- **Scadenza**: 31 agosto 2026 (domande a partire dal 1° luglio) (44 giorni)
 - **Ente**: Banca d’Italia
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -184,11 +186,11 @@ Generato: 17/07/2026 23:38
   · **alta** FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE -  — FORLI' (FC) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €915
 
 ### Sostegno alle municipalità in Libia
-- **Scadenza**: 31 agosto 2026 (45 giorni)
+- **Scadenza**: 31 agosto 2026 (44 giorni)
 - **Ente**: AICS
 - **Stato**: attivo
 - **Territorio**: Europa, Libia, Locale, Nazionale
-- **Tag**: ambiente, salute
+- **Tag**: salute, ambiente
 
   · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €262,688
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS — 5x1000: €217,081
@@ -202,11 +204,11 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CROCE VERDE BOSISIO PARINI ODV — BOSISIO PARINI (LC) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €27,737
 
 ### Grant per rafforzare democrazia e società civile nei Balcani
-- **Scadenza**: 03 settembre 2026 (48 giorni)
+- **Scadenza**: 03 settembre 2026 (47 giorni)
 - **Ente**: European Fund for the Balkans
 - **Stato**: attivo
 - **Territorio**: Nazionale, Regionale
-- **Tag**: lavoro, ambiente
+- **Tag**: ambiente, lavoro
 
   · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €262,688
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS — 5x1000: €217,081
@@ -220,7 +222,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CROCE VERDE ASSOCIAZIONE VOLONTARIA DI SOCCORSO PU — CIVITANOVA MARCHE (MC) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €29,886
 
 ### Bando BPER 2026: progetti di sport inclusivo da finanziare in crowdfunding
-- **Scadenza**: 7 settembre 2026 alle ore 12:00 (52 giorni)
+- **Scadenza**: 7 settembre 2026 alle ore 12:00 (51 giorni)
 - **Ente**: BPER Banca
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -238,7 +240,7 @@ Generato: 17/07/2026 23:38
   · **media** REAL EYES SPORT ASSOCIAZIONE SPORTIVA DILETTANTIST — GALLARATE (VA) — score 125, match tema + sport + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €45,034
 
 ### 2° edizione Premio GenP &#8211; Giovani che partecipano
-- **Scadenza**: 14 settembre 2026 (59 giorni)
+- **Scadenza**: 14 settembre 2026 (58 giorni)
 - **Ente**: Acri &#8211; Associazione di Fondazioni e di Casse di Risparmio
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -256,7 +258,7 @@ Generato: 17/07/2026 23:38
   · **media** YOUTH AND FUTURE - PAROLA AI GIOVANI — MODICA (RG) — score 105, match tema + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €18,985
 
 ### Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
-- **Scadenza**: 15 settembre 2026 (60 giorni)
+- **Scadenza**: 15 settembre 2026 (59 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
@@ -274,7 +276,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CROCE VERDE BOSISIO PARINI ODV — BOSISIO PARINI (LC) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €27,737
 
 ### Premio Olivetti per l&#8217;accessibilità culturale
-- **Scadenza**: 15 settembre 2026 alle ore 12:00 (60 giorni)
+- **Scadenza**: 15 settembre 2026 alle ore 12:00 (59 giorni)
 - **Ente**: Ministero della  Cultura
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -292,7 +294,7 @@ Generato: 17/07/2026 23:38
   · **alta** FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE -  — FORLI' (FC) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €915
 
 ### Bando &#8220;Zenit&#8221;: competenze digitali delle persone con disabilità
-- **Scadenza**: 18 settembre 2026 alle ore 11.00 (63 giorni)
+- **Scadenza**: 18 settembre 2026 alle ore 11.00 (62 giorni)
 - **Ente**: Fondo per la Repubblica Digitale &#8211; Impresa sociale srl
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -310,11 +312,11 @@ Generato: 17/07/2026 23:38
   · **media** ASSOCIAZIONE NAZIONALE TUTTE LE ETA' ATTIVE PER LA — PALERMO (PA) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €170,168
 
 ### Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
-- **Scadenza**: 18 settembre 2026 (63 giorni)
+- **Scadenza**: 18 settembre 2026 (62 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
-- **Tag**: digitale, disabilità, inclusione sociale
+- **Tag**: digitale, inclusione sociale, disabilità
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €3,485
@@ -328,7 +330,7 @@ Generato: 17/07/2026 23:38
   · **media** ASSOCIAZIONE NAZIONALE TUTTE LE ETA' ATTIVE PER LA — PALERMO (PA) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €170,168
 
 ### Piano Nazionale &#8220;Cinema e immagini per la scuola&#8221;: progetti di rilev
-- **Scadenza**: 18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio) (63 giorni)
+- **Scadenza**: 18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio) (62 giorni)
 - **Ente**: Ministero della Cultura e Ministero dell&#8217;Istruzione e del Merito
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -346,11 +348,11 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CENTRO CULTURALE CRISTIANO ASSOCIAZIONE DI PROMOZI — LENTINI (SR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €11,922
 
 ### Youth Start-Up Challenge 2026: concorso per giovani imprenditori
-- **Scadenza**: 20 settembre 2026 (65 giorni)
+- **Scadenza**: 20 settembre 2026 (64 giorni)
 - **Ente**: Commissione Europea &#8211; DG del Mercato interno, dell’industria, dell’imprenditoria e delle PMI
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
-- **Tag**: premi, giovani, lavoro
+- **Tag**: giovani, premi, lavoro
 
   · **alta** CENTRO INFORMAZIONE DOCUMENTAZIONE E INIZIATIVA PE — PERUGIA (PG) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €1,819
   · **alta** COMUNITA' DEI GIOVANI SOCIETA' COOPERATIVA SOCIALE — VERONA (VR) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €1,673
@@ -364,7 +366,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** COFOL-COOPERATIVA SOCIALE DI SOLIDARIETA' E LAVORO — PARABIAGO (MI) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale — 5x1000: €21,723
 
 ### Bandi Programma LIFE 2026
-- **Scadenza**: 22 settembre 2026 (67 giorni)
+- **Scadenza**: 22 settembre 2026 (66 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
@@ -382,7 +384,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CROCE VERDE BOSISIO PARINI ODV — BOSISIO PARINI (LC) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €27,737
 
 ### KA 1 – Accreditamento nel settore della Gioventù
-- **Scadenza**: 29 settembre 2026 (74 giorni)
+- **Scadenza**: 29 settembre 2026 (73 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -400,7 +402,7 @@ Generato: 17/07/2026 23:38
   · **media** YOUTH AND FUTURE - PAROLA AI GIOVANI — MODICA (RG) — score 105, match tema + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €18,985
 
 ### KA1 &#8211; Accreditamento nei settori della formazione professionale, dell’istr
-- **Scadenza**: 29 settembre 2026 (74 giorni)
+- **Scadenza**: 29 settembre 2026 (73 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -418,7 +420,7 @@ Generato: 17/07/2026 23:38
   · **media** YOUTH AND FUTURE - PAROLA AI GIOVANI — MODICA (RG) — score 105, match tema + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €18,985
 
 ### Bando “Opportunità per me, un futuro migliore. Percorsi di seconda occasione”
-- **Scadenza**: 30 settembre 2026 alle ore 13:00 (75 giorni)
+- **Scadenza**: 30 settembre 2026 alle ore 13:00 (74 giorni)
 - **Ente**: Impresa sociale CON I BAMBINI
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -436,7 +438,7 @@ Generato: 17/07/2026 23:38
   · **media** ASSOCIAZIONE REGIONALE TERZA ETA' ATTIVA PER LA SO — BARI (BA) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €113,777
 
 ### Bando volontariato 2026
-- **Scadenza**: 30 settembre 2026 (75 giorni)
+- **Scadenza**: 30 settembre 2026 (74 giorni)
 - **Ente**: Fondazione con il Sud
 - **Stato**: attivo
 - **Territorio**: Basilicata, Calabria, Campania, Mezzogiorno, Molise, Nazionale, Puglia, Sardegna, Sicilia
@@ -454,7 +456,7 @@ Generato: 17/07/2026 23:38
   · **media** UNITI - ODV — BARI (BA) — score 115, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €224,100
 
 ### 1,2 milioni per contrastare la dispersione scolastica
-- **Scadenza**: 30 settembre 2026 (75 giorni)
+- **Scadenza**: 30 settembre 2026 (74 giorni)
 - **Ente**: Fondazione CDP
 - **Stato**: attivo
 - **Territorio**: Mezzogiorno, Nazionale
@@ -472,7 +474,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** SCUOLA DEI FIORI - SOCIETA' COOPERATIVA SOCIALE — BARI (BA) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale — 5x1000: €455
 
 ### Ecco il calendario delle call 2026 del Programma CERV
-- **Scadenza**: 01 ottobre 2026 (76 giorni)
+- **Scadenza**: 01 ottobre 2026 (75 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -490,7 +492,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** ASSOCIAZIONE CASA DELLE DONNE CONTRO LA VIOLENZA - — MODENA (MO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €10,260
 
 ### Progetti di solidarietà – 2^ scadenza
-- **Scadenza**: 01 ottobre 2026 (76 giorni)
+- **Scadenza**: 01 ottobre 2026 (75 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -508,7 +510,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €526,745
 
 ### Progetti di volontariato – 2^ scadenza
-- **Scadenza**: 01 ottobre 2026 (76 giorni)
+- **Scadenza**: 01 ottobre 2026 (75 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -526,7 +528,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €526,745
 
 ### KA1 Attività di partecipazione dei giovani – 2^ scadenza
-- **Scadenza**: 01 ottobre 2026 (76 giorni)
+- **Scadenza**: 01 ottobre 2026 (75 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -544,7 +546,7 @@ Generato: 17/07/2026 23:38
   · **media** YOUTH AND FUTURE - PAROLA AI GIOVANI — MODICA (RG) — score 105, match tema + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €18,985
 
 ### Interventi di rafforzamento dell’integrazione scolastica di alunni e studenti di
-- **Scadenza**: 08 ottobre 2026 (con proroga) ore 12.00 (83 giorni)
+- **Scadenza**: 08 ottobre 2026 (con proroga) ore 12.00 (82 giorni)
 - **Ente**: Commissione europea – Autorità di Gestione FAMI Ministero Interno &#8211; Direzione Centrale per le Politiche migratorie
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -562,7 +564,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** INTERCULTURA APS — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €60,283
 
 ### Prevenire gli sprechi alimentari
-- **Scadenza**: 15 ottobre 2026 (90 giorni)
+- **Scadenza**: 15 ottobre 2026 (89 giorni)
 - **Ente**: Commissione Europea – HaDEA Agenzia esecutiva per la salute e il digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -580,7 +582,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CROCE VERDE ASSOCIAZIONE VOLONTARIA DI SOCCORSO PU — CIVITANOVA MARCHE (MC) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €29,886
 
 ### Bando “Note di comunità. Esperienze musicali di quartiere”
-- **Scadenza**: 16 ottobre 2026 alle ore 13:00 (91 giorni)
+- **Scadenza**: 16 ottobre 2026 alle ore 13:00 (90 giorni)
 - **Ente**: Impresa sociale CON I BAMBINI
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -598,7 +600,7 @@ Generato: 17/07/2026 23:38
   · **alta** TEATRO A MOLLA-APS — BOLOGNA (BO) — score 113, match tema + sezione; capacità alta; grant UE; APS — 5x1000: -
 
 ### Perform Europe 2026-2028: mobilità internazionale delle arti performative
-- **Scadenza**: 22 ottobre 2026 (97 giorni)
+- **Scadenza**: 22 ottobre 2026 (96 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -616,7 +618,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CENTRO CULTURALE CRISTIANO ASSOCIAZIONE DI PROMOZI — LENTINI (SR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €11,922
 
 ### NEXT MED per il turismo sostenibile
-- **Scadenza**: 29 ottobre 2026 (104 giorni)
+- **Scadenza**: 29 ottobre 2026 (103 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Europa, Mediterraneo, Nazionale
@@ -634,11 +636,11 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CROCE VERDE BOSISIO PARINI ODV — BOSISIO PARINI (LC) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €27,737
 
 ### Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori
-- **Scadenza**: 03 novembre 2026 (109 giorni)
+- **Scadenza**: 03 novembre 2026 (108 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: donne, minori
+- **Tag**: minori, donne
 
   · **alta** ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMEN — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €1,640
   · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €581
@@ -652,7 +654,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** CASA DELLE DONNE PER NON SUBIRE VIOLENZA - ASSOCIA — BOLOGNA (BO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €57,983
 
 ### Bando Intraprendere nel sociale 2026
-- **Scadenza**: 13 novembre 2026 (119 giorni)
+- **Scadenza**: 13 novembre 2026 (118 giorni)
 - **Ente**: Fondazione Cattolica
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -670,7 +672,7 @@ Generato: 17/07/2026 23:38
   · **media** FONDO DI SOLIDARIETA'  EDO TEMPIA VALENTA PER LA L — BIELLA (BI) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €432,809
 
 ### Iniziativa Beni confiscati &#8211; Regolamento 2026
-- **Scadenza**: 10 dicembre 2026 (146 giorni)
+- **Scadenza**: 10 dicembre 2026 (145 giorni)
 - **Ente**: Fondazione CON IL SUD
 - **Stato**: attivo
 - **Territorio**: Basilicata, Calabria, Campania, Puglia, Sardegna, Sicilia
@@ -688,11 +690,11 @@ Generato: 17/07/2026 23:38
   · **medio-alta** ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE P — SALERNO (SA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €1,917
 
 ### Fondazione Cariplo sostiene la progettazione europea
-- **Scadenza**: 31 dicembre 2026 (167 giorni)
+- **Scadenza**: 31 dicembre 2026 (166 giorni)
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: cultura, ambiente, digitale, premi, arte
+- **Tag**: digitale, arte, premi, cultura, ambiente
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale — 5x1000: €1,010
   · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN — SAN LAZZARO DI SAVENA (BO) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,259
@@ -706,7 +708,7 @@ Generato: 17/07/2026 23:38
   · **alta** ASSOCIAZIONE CULTURALE MUSICASTRADA APS — MONTOPOLI IN VAL D'ARNO (PI) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €173
 
 ### Compagnia di San Paolo: contributi per lo sviluppo organizzativo del Terzo Setto
-- **Scadenza**: 31 dicembre 2026 (167 giorni)
+- **Scadenza**: 31 dicembre 2026 (166 giorni)
 - **Ente**: Fondazione Compagnia di San Paolo
 - **Stato**: attivo
 - **Territorio**: Nazionale, Piemonte
@@ -724,7 +726,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** TEATRO DELLA CADUTA APS — TORINO (TO) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €741
 
 ### Cofinanziamento per programmi su competenze digitali
-- **Scadenza**: 31 dicembre 2026 (167 giorni)
+- **Scadenza**: 31 dicembre 2026 (166 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -742,7 +744,7 @@ Generato: 17/07/2026 23:38
   · **media** ANTEAS REGIONALE PIEMONTE- ASSOCIAZIONE NAZIONALE  — TORINO (TO) — score 110, match tema + sezione; capacità media; 5x1000 >100k; ODV — 5x1000: €164,176
 
 ### V edizione Iniziative in cofinanziamento a contrasto della povertà educativa
-- **Scadenza**: 30 giugno 2027. Le idee saranno selezionate man mano che vengono proposte fino ad esaurimento delle risorse disponibili. (348 giorni)
+- **Scadenza**: 30 giugno 2027. Le idee saranno selezionate man mano che vengono proposte fino ad esaurimento delle risorse disponibili. (347 giorni)
 - **Ente**: Impresa sociale Con i Bambini
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -760,7 +762,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** SOS BAMBINO INTERNATIONAL ADOPTION APS — VICENZA (VI) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €44,308
 
 ### Marchio di Qualità per il volontariato nel settore degli aiuti umanitari
-- **Scadenza**: 22 settembre 2027 (432 giorni)
+- **Scadenza**: 22 settembre 2027 (431 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Cultura e Audiovisivo
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -778,7 +780,7 @@ Generato: 17/07/2026 23:38
   · **medio-alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €526,745
 
 ### Horizon Europe: al via Africa Initiative IV per rafforzare la cooperazione UE–Af
-- **Scadenza**: 30 settembre 2027 (440 giorni)
+- **Scadenza**: 30 settembre 2027 (439 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
@@ -834,7 +836,7 @@ Generato: 17/07/2026 23:38
 ---
 ## ⚠️ Bandi senza ETS candidabili
 
-- 🟡 **iF Social Impact Prize &#8211; ultima scadenza 2026** — iF Design — scad. 19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno) (33gg) — _nessun pattern tag_
+- 🟡 **iF Social Impact Prize &#8211; ultima scadenza 2026** — iF Design — scad. 19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno) (32gg) — _nessun pattern tag_
   Stato: attivo | Territorio: Nazionale/da verificare | Tag: Premi internazionali, Obiettivi per lo Sviluppo Sostenibile, iF Design, Cooperazione allo sviluppo
 
 ---
