@@ -1,7 +1,7 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 18/07/2026 17:07
+Generato: 18/07/2026 17:16
 
-**46** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **17** esclusi  |  **302** ETS unici coinvolti
+**49** bandi operativi con ETS candidabili  |  **2** operativi senza match  |  **18** esclusi  |  **334** ETS unici coinvolti
 
 ---
 
@@ -12,7 +12,7 @@ Generato: 18/07/2026 17:07
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: arte, ambiente, cultura
+- **Tag**: cultura, arte, ambiente
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -132,7 +132,7 @@ Generato: 18/07/2026 17:07
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: sport, educazione, inclusione sociale, minori
+- **Tag**: minori, educazione, inclusione sociale, sport
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -157,35 +157,35 @@ Generato: 18/07/2026 17:07
 | VIVI SANO APS - ASD | PALERMO | PA | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €4,405 |
 | COOPERATIVA INSERIMENTO DISABILI ASSISTENZA S | FERRARA | FE | alta | 128 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 | €3,485 |
 
-### 🟡 Fondazione UEFA per i bambini &#8211; bando 2026
-- **Scadenza**: 3 agosto 2026 (16 giorni)
-- **Ente**: UEFA Foundation for children
+### 🟡 Contributi per indagini giornalistiche sull&#8217;ambiente &#8211; ultima scaden
+- **Scadenza**: 6 agosto 2026 (19 giorni)
+- **Ente**: Journalismfund.eu
 - **Stato**: attivo
-- **Territorio**: Nazionale/da verificare
-- **Tag**: Minori, Salute, Sport, Adolescenti, Cooperazione internazionale, UEFA Foundation
+- **Territorio**: Europa
+- **Tag**: Ambiente, Europa, Giornalismo, Journalismfund.eu
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
-| ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSP | SANT'ANTONIO ABATE | - | medio-alta | 135 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; PNRR; APS | €14,026 |
-| POLISPORTIVA GAREGNANO 1976 ASD APS | MILANO | MI | medio-alta | 135 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici | €10,138 |
-| LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIA | SANTA MARGHERITA DI  | AG | medio-alta | 133 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici | €28,369 |
-| ASSOCIAZIONE SPORTIVA DILETTANTISTICA CALICAN | TRIESTE | TS | medio-alta | 132 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,375,296 | €4,490 |
-| Associazione sportiva dilettantistica Polispo | RICCIONE | RN | medio-alta | 132 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,969,898 | €919 |
-| SPORTABILI ALBA APS ASD | RODDI | CN | medio-alta | 130 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS | €17,837 |
-| ASD RUBENS APS | TORINO | TO | medio-alta | 130 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS | €13,365 |
-| A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZI | PALERMO | PA | medio-alta | 130 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS | €12,355 |
-| IL VOLO ASD APS | SAN LORENZO NUOVO | VT | medio-alta | 130 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS | €10,716 |
-| RICREAMENTE ASSOCIAZIONE DI PROMOZIONE SOCIAL | ZOLA PREDOSA | BO | medio-alta | 130 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €939 |
-| ORATORIO SENTINELLE DEL MATTINO DI SAN SISTO  | PERUGIA | PG | media | 128 | match tema + sport + sezione; capacità media; 5x1000 >10k; APS; appalti pubblici | €11,264 |
-| ASSOCIAZIONE SPORTIVA DILETTANTISTICA BAYWATC | BISCEGLIE | BT | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €9,497 |
-| ASD SPORTABILI APS | PREDAZZO | TN | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €8,654 |
-| TMA PRENDIMI PER MANO ASD APS | MARSCIANO | PG | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €5,608 |
-| VIVI SANO APS - ASD | PALERMO | PA | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €4,405 |
-| PETTIROSSO ASSOCIAZIONE DI PROMOZIONE SOCIALE | ROVIGO | RO | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €3,173 |
-| SCUOLA DI CIRCO CIRCOPLA' ASSOCIAZIONE SPORTI | SERRA DE' CONTI | AN | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €869 |
-| ASSOCIAZIONE SPORTIVA DILETTANTISTCA  LUST AP | MODENA | MO | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €810 |
-| ARCIRAGAZZI  APS | ROMA | RM | alta | 128 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici | €581 |
-| A.R.A.T.E.A. ASSOCIAZIONE DI PROMOZIONE SOCIA | REGGIO DI CALABRIA | RC | medio-alta | 128 | match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici | €436 |
+| LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA  | ROMA | RM | medio-alta | 122 | match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 | €217,081 |
+| ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE | TORINO | TO | alta | 121 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici | €1,431 |
+| FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL | MILANO | MI | medio-alta | 120 | match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici | €2,316,836 |
+| LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E D | MILANO | MI | medio-alta | 120 | match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici | €262,688 |
+| PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZO | VIADANA | MN | medio-alta | 120 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569 | €27,404 |
+| URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROP | NAPOLI | - | alta | 118 | match tema + sezione; capacità alta; 5x1000 presente; grant UE | €121 |
+| U.N.A. (UOMO - NATURA - ANIMALI) ODV ETS | GENOVA | GE | media | 117 | match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €3,660,848 | €118,401 |
+| CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE D | CASTELFIDARDO | AN | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,144,621 | €36,061 |
+| P.A. CROCE VERDE CASTELNOVO NE' MONTI - VETTO | CASTELNOVO NE' MONTI | RE | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152 | €32,928 |
+| CROCE VERDE BOSISIO PARINI ODV | BOSISIO PARINI | LC | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734 | €27,737 |
+| CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZ | ORZINUOVI | BS | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600 | €25,186 |
+| CROCE VERDE TORINO ODV | TORINO | TO | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727 | €21,818 |
+| PUBBLICA ASSISTENZA CROCE VERDE FERMO -ORGANI | FERMO | FM | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,184,700 | €20,214 |
+| CASCINA VERDE SPES ETS | MILANO | MI | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €6,726,995 | €13,974 |
+| PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE MA | MANTOVA | MN | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €9,407,864 | €12,633 |
+| Pubblica Assistenza CROCE VERDE PAVESE organi | PAVIA | PV | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €2,007,474 | €12,576 |
+| P.A. CROCE VERDE PIOLTELLO ORGANIZZAZIONE DI  | PIOLTELLO | MI | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,685,367 | €12,210 |
+| CROCE VERDE BASSO FRIULI CERVIGNANO ODV | CERVIGNANO DEL FRIUL | UD | medio-alta | 117 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,597,958 | €10,485 |
+| PUBBLICA ASSISTENZA CROCE VERDE DI REGGIO EMI | REGGIO NELL'EMILIA | RE | medio-alta | 115 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici | €27,302 |
+| PUBBLICA ASSISTENZA CROCE VERDE ORGANIZZAZION | MONTE SAN GIUSTO | MC | medio-alta | 115 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici | €20,071 |
 
 ### 🟡 Cultural Horizons &#8211; prodotti culturali innovativi tra UE e Ucraina
 - **Scadenza**: 14 agosto 2026 (27 giorni)
@@ -338,7 +338,7 @@ Generato: 18/07/2026 17:07
 - **Ente**: European Fund for the Balkans
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale, Regionale
-- **Tag**: ambiente, lavoro
+- **Tag**: lavoro, ambiente
 
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
   · **alta** ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUT — TORINO (TO) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €1,431
@@ -641,33 +641,33 @@ Generato: 18/07/2026 17:07
   · **medio-alta** OASI GIOVANI E.T.S. — SAVIGLIANO (CN) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €9,354
   · **medio-alta** OPERA NAZIONALE PER LE CITTA' DEI RAGAZZI - RAMO E — ROMA (RM) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €5,462
 
-### KA1 &#8211; Accreditamento nei settori della formazione professionale, dell’istr
-- **Scadenza**: 29 settembre 2026 (73 giorni)
-- **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
+### Richieste di contributo alla DWF Foundation &#8211; 3^ scadenza 2026
+- **Scadenza**: 30 settembre 2026 (ultima scadenza dell&#8217;anno) (74 giorni)
+- **Ente**: DWF Foundation
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
-- **Tag**: giovani
+- **Tag**: Lavoro, Salute, Volontariato, Povertà, Ambiente, scuole, DWF Foundation
 
-  · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €581
-  · **medio-alta** FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CIT — SAN LAZZARO DI SAVENA (BO) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857 — 5x1000: €43,285
-  · **medio-alta** JUNIOR ACHIEVEMENT - YOUNG ENTERPRISE ITALY ENTE D — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici — 5x1000: €11,694
-  · **medio-alta** OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL — CHIAVARI (GE) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534 — 5x1000: €1,955
-  · **medio-alta** FONDAZIONE ETS CENTRO ITALIANO DI SOLIDARIETA' CE. — LUCCA (LU) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €149,327,007 — 5x1000: €1,887
-  · **medio-alta** ASSOCIAZIONE GIOVANILE SALESIANA PER IL TERRITORIO — TORINO (TO) — score 113, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici — 5x1000: €11,537
-  · **medio-alta** REPUBBLICA DEI RAGAZZI  — CIVITAVECCHIA (RM) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €5,450,319 — 5x1000: €6,247
-  · **medio-alta** COMUNITA' TERAPEUTICA - CASA DEI GIOVANI - — BAGHERIA (PA) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €1,111,320 — 5x1000: €3,812
-  · **medio-alta** ARCIRAGAZZI TARANTO — TARANTO (TA) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,131,349 — 5x1000: €639
-  · **medio-alta** EFYS - (EQUIPE FORMAZIONE YOUTHSTART SARDEGNA) APS — CAGLIARI (CA) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,329,915 — 5x1000: €334
-  · **medio-alta** ASSOCIAZIONE GIOVANI CON DIABETE BARI - BAT - TARA — MODUGNO (BA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €12,551
-  · **medio-alta** ASSOCIAZIONE LUCA BRANDI PER LE ENERGIE DEI GIOVAN — ISCHIA (-) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €11,117
-  · **medio-alta** COMUNITA' GIOVANILE - ENTE DEL TERZO SETTORE — CONEGLIANO (TV) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €5,196
-  · **medio-alta** CENTRO GIOVANILE DON GIUSEPPE PUGLISI APS — PALERMO (PA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €4,647
-  · **medio-alta** TURISMO GIOVANILE E SOCIALE APS — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €2,607
-  · **medio-alta** RAGAZZI ON THE ROAD APS — BERGAMO (BG) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €2,044
-  · **medio-alta** POLISPORTIVE GIOVANILI SALESIANE - ASSOCIAZIONE DI — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €1,115
-  · **medio-alta** H.R.Y.O. HUMAN RIGHTS YOUTH ORGANIZATION A.P.S. — MONREALE (PA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €366
-  · **medio-alta** OASI GIOVANI E.T.S. — SAVIGLIANO (CN) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €9,354
-  · **medio-alta** OPERA NAZIONALE PER LE CITTA' DEI RAGAZZI - RAMO E — ROMA (RM) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €5,462
+  · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 143, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 131, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **medio-alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
+  · **medio-alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE — BOLZANO (BZ) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €186,333,458 — 5x1000: €1,254,450
+  · **medio-alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — SAN FELICE A CANCELLO (CE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; appalti pubblici — 5x1000: €735
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 128, match tema + sezione; capacità alta; grant UE; PNRR; appalti €23,549,683 — 5x1000: -
+  · **medio-alta** VIDAS VOLONTARI ITALIANI DOMICILIARI PER L'ASSISTE — MILANO (MI) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,142,300 — 5x1000: €1,657,371
+  · **medio-alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,030,780 — 5x1000: €526,745
+  · **medio-alta** AMOPUGLIA - ORGANIZZAZIONE DI VOLONTARIATO - ENTE  — BARI (BA) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,277,767 — 5x1000: €145,510
+  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 126, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,514
+  · **alta** CROCE ROSSA ITALIANA COMITATO DI GORIZIA ORGANIZZA — GORIZIA (GO) — score 126, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,341
+  · **medio-alta** OIPA ITALIA ODV — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €573,853
+  · **medio-alta** ASSOCIAZIONE NAZIONALE VOLONTARI ITALIANI DEL SANG — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €287,620
+  · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €262,688
+  · **medio-alta** LEGA ITALIANA PER LA LOTTA CONTRO I TUMORI ASSOCIA — TRENTO (TN) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €154,475
+  · **medio-alta** PUBBLICA ASSISTENZA SOCIETA' VOLONTARIA DI SOCCORS — LIVORNO (LI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €147,280
+  · **media** AIUT ALPIN DOLOMITES ODV — LAION (BZ) — score 125, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €23,999,260 — 5x1000: €136,441
+  · **media** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 125, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €11,421,631 — 5x1000: €113,052
+  · **medio-alta** ANTEAS ROMA ODV — ROMA (RM) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €20,074,453 — 5x1000: €67,710
 
 ### Bando “Opportunità per me, un futuro migliore. Percorsi di seconda occasione”
 - **Scadenza**: 30 settembre 2026 alle ore 13:00 (74 giorni)
@@ -808,62 +808,6 @@ Generato: 18/07/2026 17:07
   · **media** AIUT ALPIN DOLOMITES ODV — LAION (BZ) — score 125, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €23,999,260 — 5x1000: €136,441
   · **media** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 125, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €11,421,631 — 5x1000: €113,052
   · **medio-alta** ANTEAS ROMA ODV — ROMA (RM) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €20,074,453 — 5x1000: €67,710
-
-### Progetti di volontariato – 2^ scadenza
-- **Scadenza**: 01 ottobre 2026 (75 giorni)
-- **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
-- **Stato**: attivo
-- **Territorio**: Nazionale/da verificare
-- **Tag**: volontariato
-
-  · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 143, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
-  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 131, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
-  · **medio-alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
-  · **medio-alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE — BOLZANO (BZ) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €186,333,458 — 5x1000: €1,254,450
-  · **medio-alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
-  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — SAN FELICE A CANCELLO (CE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; appalti pubblici — 5x1000: €735
-  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 128, match tema + sezione; capacità alta; grant UE; PNRR; appalti €23,549,683 — 5x1000: -
-  · **medio-alta** VIDAS VOLONTARI ITALIANI DOMICILIARI PER L'ASSISTE — MILANO (MI) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,142,300 — 5x1000: €1,657,371
-  · **medio-alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,030,780 — 5x1000: €526,745
-  · **medio-alta** AMOPUGLIA - ORGANIZZAZIONE DI VOLONTARIATO - ENTE  — BARI (BA) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,277,767 — 5x1000: €145,510
-  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 126, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,514
-  · **alta** CROCE ROSSA ITALIANA COMITATO DI GORIZIA ORGANIZZA — GORIZIA (GO) — score 126, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,341
-  · **medio-alta** OIPA ITALIA ODV — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €573,853
-  · **medio-alta** ASSOCIAZIONE NAZIONALE VOLONTARI ITALIANI DEL SANG — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €287,620
-  · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €262,688
-  · **medio-alta** LEGA ITALIANA PER LA LOTTA CONTRO I TUMORI ASSOCIA — TRENTO (TN) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €154,475
-  · **medio-alta** PUBBLICA ASSISTENZA SOCIETA' VOLONTARIA DI SOCCORS — LIVORNO (LI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €147,280
-  · **media** AIUT ALPIN DOLOMITES ODV — LAION (BZ) — score 125, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €23,999,260 — 5x1000: €136,441
-  · **media** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 125, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €11,421,631 — 5x1000: €113,052
-  · **medio-alta** ANTEAS ROMA ODV — ROMA (RM) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €20,074,453 — 5x1000: €67,710
-
-### KA1 Attività di partecipazione dei giovani – 2^ scadenza
-- **Scadenza**: 01 ottobre 2026 (75 giorni)
-- **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
-- **Stato**: attivo
-- **Territorio**: Nazionale/da verificare
-- **Tag**: giovani
-
-  · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €581
-  · **medio-alta** FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CIT — SAN LAZZARO DI SAVENA (BO) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857 — 5x1000: €43,285
-  · **medio-alta** JUNIOR ACHIEVEMENT - YOUNG ENTERPRISE ITALY ENTE D — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici — 5x1000: €11,694
-  · **medio-alta** OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL — CHIAVARI (GE) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534 — 5x1000: €1,955
-  · **medio-alta** FONDAZIONE ETS CENTRO ITALIANO DI SOLIDARIETA' CE. — LUCCA (LU) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €149,327,007 — 5x1000: €1,887
-  · **medio-alta** ASSOCIAZIONE GIOVANILE SALESIANA PER IL TERRITORIO — TORINO (TO) — score 113, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici — 5x1000: €11,537
-  · **medio-alta** REPUBBLICA DEI RAGAZZI  — CIVITAVECCHIA (RM) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €5,450,319 — 5x1000: €6,247
-  · **medio-alta** COMUNITA' TERAPEUTICA - CASA DEI GIOVANI - — BAGHERIA (PA) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €1,111,320 — 5x1000: €3,812
-  · **medio-alta** ARCIRAGAZZI TARANTO — TARANTO (TA) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,131,349 — 5x1000: €639
-  · **medio-alta** EFYS - (EQUIPE FORMAZIONE YOUTHSTART SARDEGNA) APS — CAGLIARI (CA) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,329,915 — 5x1000: €334
-  · **medio-alta** ASSOCIAZIONE GIOVANI CON DIABETE BARI - BAT - TARA — MODUGNO (BA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €12,551
-  · **medio-alta** ASSOCIAZIONE LUCA BRANDI PER LE ENERGIE DEI GIOVAN — ISCHIA (-) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €11,117
-  · **medio-alta** COMUNITA' GIOVANILE - ENTE DEL TERZO SETTORE — CONEGLIANO (TV) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €5,196
-  · **medio-alta** CENTRO GIOVANILE DON GIUSEPPE PUGLISI APS — PALERMO (PA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €4,647
-  · **medio-alta** TURISMO GIOVANILE E SOCIALE APS — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €2,607
-  · **medio-alta** RAGAZZI ON THE ROAD APS — BERGAMO (BG) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €2,044
-  · **medio-alta** POLISPORTIVE GIOVANILI SALESIANE - ASSOCIAZIONE DI — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €1,115
-  · **medio-alta** H.R.Y.O. HUMAN RIGHTS YOUTH ORGANIZATION A.P.S. — MONREALE (PA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS — 5x1000: €366
-  · **medio-alta** OASI GIOVANI E.T.S. — SAVIGLIANO (CN) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €9,354
-  · **medio-alta** OPERA NAZIONALE PER LE CITTA' DEI RAGAZZI - RAMO E — ROMA (RM) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €5,462
 
 ### Interventi di rafforzamento dell’integrazione scolastica di alunni e studenti di
 - **Scadenza**: 08 ottobre 2026 (con proroga) ore 12.00 (82 giorni)
@@ -1010,7 +954,35 @@ Generato: 18/07/2026 17:07
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: minori, donne
+- **Tag**: donne, minori
+
+  · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
+  · **alta** C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E — TORINO (TO) — score 123, match tema + sezione; capacità alta; 5x1000 >10k; grant UE — 5x1000: €42,118
+  · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €581
+  · **medio-alta** ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989 — 5x1000: €7,925,761
+  · **medio-alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751 — 5x1000: €173,631
+  · **medio-alta** AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO — SAN GIULIANO MILANESE (MI) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083 — 5x1000: €115,128
+  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,514
+  · **medio-alta** PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRA — PADOVA (PD) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €770,112
+  · **medio-alta** S.O.S. - IL TELEFONO AZZURRO ETS - LINEA NAZIONALE — MILANO (MI) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €178,761
+  · **medio-alta** SOS VILLAGGI DEI BAMBINI ETS — MILANO (MI) — score 118, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €217,255
+  · **alta** ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMEN — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €1,640
+  · **alta** CSB ETS - CENTRO PER LA SALUTE DELLE BAMBINE E DEI — TRIESTE (TS) — score 118, match tema + sezione; capacità alta; grant UE; appalti pubblici — 5x1000: -
+  · **medio-alta** FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CIT — SAN LAZZARO DI SAVENA (BO) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857 — 5x1000: €43,285
+  · **medio-alta** ASSOCIAZIONE DIFFERENZA DONNA APS — ROMA (RM) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €7,635,872 — 5x1000: €25,970
+  · **medio-alta**  CASA DELLE DONNE LUCHA Y SIESTA APS — ROMA (RM) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €5,813,423 — 5x1000: €10,638
+  · **alta** SEGNI D'INFANZIA - ASSOCIAZIONE ARTISTICA E CULTUR — MANTOVA (MN) — score 116, match tema + sezione; capacità alta; grant UE; appalti pubblici — 5x1000: -
+  · **medio-alta** PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER -  — BOLZANO (BZ) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €232,521
+  · **medio-alta** FONDAZIONE PER L'OSPEDALE DEI BAMBINI BUZZI E.T.S. — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k — 5x1000: €176,021
+  · **medio-alta** A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL — TRIESTE (TS) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €150,644
+  · **medio-alta** CIAI - CENTRO ITALIANO AIUTI ALL'INFANZIA - ETS — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k — 5x1000: €130,690
+
+### DAPHNE 2026: Prevenire e combattere la violenza di genere e nei confronti dei mi
+- **Scadenza**: 03 novembre 2026 (108 giorni)
+- **Ente**: Commissione Europea &#8211; DG Giustizia e Consumatori
+- **Stato**: attivo
+- **Territorio**: Nazionale/da verificare
+- **Tag**: donne, minori, diritti
 
   · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
   · **alta** C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E — TORINO (TO) — score 123, match tema + sezione; capacità alta; 5x1000 >10k; grant UE — 5x1000: €42,118
@@ -1094,7 +1066,7 @@ Generato: 18/07/2026 17:07
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: cultura, premi, digitale, arte, ambiente
+- **Tag**: cultura, digitale, premi, arte, ambiente
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici — 5x1000: €1,010
   · **alta** OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, C — AREZZO (AR) — score 128, match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852 — 5x1000: -
@@ -1122,7 +1094,7 @@ Generato: 18/07/2026 17:07
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: inclusione sociale, digitale
+- **Tag**: digitale, inclusione sociale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
@@ -1144,6 +1116,62 @@ Generato: 18/07/2026 17:07
   · **alta** DE LA SALLE SOLIDARIETA' INTERNAZIONALE - ONLUS — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE — 5x1000: €5,869
   · **alta** VI.VA. PARTECIPAZIONE E SOLIDARIETA' — ASSISI (PG) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €2,426
   · **alta** ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMEN — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €1,640
+
+### Iniziative in cofinanziamento per l&#8217;inclusione digitale &#8211; Regolament
+- **Scadenza**: 31 dicembre 2026 (166 giorni)
+- **Ente**: Fondo per la Repubblica Digitale &#8211; Impresa sociale srl
+- **Stato**: attivo
+- **Territorio**: Nazionale
+- **Tag**: Formazione, Digitale, Fondo per la Repubblica Digitale
+
+  · **alta** FONDAZIONE MONDO DIGITALE ETS — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €4,242
+  · **medio-alta** EMERGENCY - LIFE SUPPORT FOR CIVILIAN WAR VICTIMS  — MILANO (MI) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €13,440,958
+  · **alta** MEET DIGITAL COMMUNICATION S.R.L. IMPRESA SOCIALE — MILANO (MI) — score 118, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti pubblici — 5x1000: -
+  · **medio-alta** PICTOR SOCIETA' COOPERATIVA SOCIALE IMPRESA SOCIAL — BUDRIO (BO) — score 110, match tema + sezione; capacità medio-alta; Impresa Sociale; appalti €37,119,284 — 5x1000: -
+  · **medio-alta** LIONS DIGITAL BOOK@LIBRARY SOCIETA' COOPERATIVA SO — MASSAFRA (TA) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti pubblici — 5x1000: €1,794
+  · **medio-alta** RE TECH LIFE COOPERATIVA SOCIALE — USMATE VELATE (MB) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti pubblici — 5x1000: €837
+  · **medio-alta** TECNOLOGIA E RICERCA PER L'EDUCAZIONE MUSICALE E L — VIGARANO MAINARDA (FE) — score 107, match tema + sezione; capacità medio-alta; Impresa Sociale; appalti €1,032,797 — 5x1000: -
+  · **media** U.N.A.UOMO-NATURA-ANIMALIDI AGRIGENTO-PALMA DI MON — PALMA DI MONTECHIARO (AG) — score 105, match tema + sezione; capacità media; 5x1000 >10k — 5x1000: €27,720
+  · **medio-alta** FONDAZIONE ONCOTECH IMPRESA SOCIALE — MILANO (MI) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale — 5x1000: €7,030
+  · **medio-alta** ISTITUTO CATECHISTICO ANNUNCIAZIONE DI MARIA ENTE  — ACI SANT'ANTONIO (CT) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente — 5x1000: €5,033
+  · **medio-alta** INVICTUS - SOCIETA' COOPERATIVA SOCIALE ONLUS — VILLARICCA (-) — score 105, match tema + sezione; capacità medio-alta; Impresa Sociale; appalti pubblici — 5x1000: -
+  · **medio-alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MONTECHIARO D'ACQUI (AL) — score 105, match tema + sezione; capacità medio-alta; PNRR — 5x1000: -
+  · **medio-alta** ARCOBALENO VICTORINE LE DIEU SOCIETA'COOPERATIVA S — CATANIA (CT) — score 105, match tema + sezione; capacità medio-alta; Impresa Sociale; appalti pubblici — 5x1000: -
+  · **medio-alta** FORUM COOPERAZIONE E TECNOLOGIA ETS — MILANO (MI) — score 105, match tema + sezione; capacità medio-alta; appalti pubblici — 5x1000: -
+  · **medio-alta** DIGITAL GREEN JOBS  - IMPRESA SOCIALE S.R.L.  IN S — PADOVA (PD) — score 105, match tema + sezione; capacità medio-alta; Impresa Sociale; appalti pubblici — 5x1000: -
+  · **medio-alta** INFORMATIC WORLD - ETS — REGGIO DI CALABRIA (RC) — score 105, match tema + sezione; capacità medio-alta; appalti pubblici — 5x1000: -
+  · **medio-alta** DIGITAL EDUCATION LAB SOCIETA' A RESPONSABILITA' L — ROMA (RM) — score 105, match tema + sezione; capacità medio-alta; Impresa Sociale; appalti pubblici — 5x1000: -
+  · **medio-alta** TECHLAB4KIDS SOCIETA' A RESPONSABILITA' LIMITATA I — CARBONIA (SU) — score 105, match tema + sezione; capacità medio-alta; Impresa Sociale; appalti pubblici — 5x1000: -
+  · **media** FONDAZIONE ANICA ACADEMY DEL CINEMA, DELL'AUDIOVIS — ROMA (RM) — score 103, match tema + sezione; capacità media; 5x1000 presente; appalti pubblici — 5x1000: €1,836
+  · **medio-alta** PROFESSIONAL SERVICES & INFORMATION TECHNOLOGIES S — BOLZANO (BZ) — score 103, match tema + sezione; capacità medio-alta; Impresa Sociale; appalti pubblici — 5x1000: -
+
+### Compagnia di San Paolo: contributi per lo sviluppo organizzativo del Terzo Setto
+- **Scadenza**: 31 dicembre 2026 (166 giorni)
+- **Ente**: Fondazione Compagnia di San Paolo
+- **Stato**: attivo
+- **Territorio**: Nazionale, Piemonte
+- **Tag**: cultura
+
+  · **alta** ASSOCIAZIONE CULTURALE EUFEMIA APS — TORINO (TO) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €499
+  · **alta** FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA  — TORINO (TO) — score 118, match tema + sezione; capacità alta; grant UE; appalti pubblici — 5x1000: -
+  · **medio-alta** ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S. — CARMAGNOLA (TO) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €165,436,108 — 5x1000: €1,580
+  · **alta** ASSOCIAZIONE CULTURALE FRAMEWORK — TORINO (TO) — score 113, match tema + sezione; capacità alta; grant UE — 5x1000: -
+  · **medio-alta** ASSOCIAZIONE FILARMONICA CASTELLAMONTE - SCUOLA DI — CASTELLAMONTE (TO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €11,756
+  · **medio-alta** FONDAZIONE UNIONE MUSICALE ETS — TORINO (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €5,566
+  · **medio-alta** ASSOCIAZIONE CULTURALE “FRANCESCO LO BUE” ETS — LUSERNA SAN GIOVANNI (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €2,458
+  · **medio-alta** COMPAGNIA DI MUSICA-TEATRO ACCADEMIA DEI FOLLI ETS — TORINO (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €1,746
+  · **medio-alta** LINGOTTO MUSICA ENTE DEL TERZO SETTORE — TORINO (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €1,352
+  · **medio-alta** ASSOCIAZIONE RETE ITALIANA DI CULTURA POPOLARE APS — TORINO (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €806
+  · **medio-alta** TEATRO DELLA CADUTA APS — TORINO (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €741
+  · **medio-alta** ASSOCIAZIONE CULTURALE LARIBALTA — NOVARA (NO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €632
+  · **medio-alta** TANGRAM TEATRO - ETS — TORINO (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €281
+  · **medio-alta** ASSOCIAZIONE CULTURALE CAMERATA DUCALE — VERCELLI (VC) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici — 5x1000: €178
+  · **medio-alta** MULINO AD ARTE APS — CUMIANA (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €143
+  · **media** CONSULTA PER LA VALORIZZAZIONE DEI BENI ARTISTICI  — FOSSANO (CN) — score 105, match tema + sezione; capacità media; 5x1000 >10k — 5x1000: €17,757
+  · **media** ASSOCIAZIONE CULTURALE VIVERE D'ARTE ETS — TORINO (TO) — score 105, match tema + sezione; capacità media; 5x1000 >10k — 5x1000: €10,164
+  · **medio-alta** ASSOCIAZIONE IPPOCRATE LA CULTURA DELLA SALUTE APS — TORINO (TO) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €8,422
+  · **medio-alta** ASSOCIAZIONE MUSICA INSIEME APS — GRUGLIASCO (TO) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €3,977
+  · **medio-alta** FONDAZIONE BIBLIOTECA E CASA DI CULTURA ACHILLE MA — BORGOMANERO (NO) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente — 5x1000: €3,892
 
 ### V edizione Iniziative in cofinanziamento a contrasto della povertà educativa
 - **Scadenza**: 30 giugno 2027. Le idee saranno selezionate man mano che vengono proposte fino ad esaurimento delle risorse disponibili. (347 giorni)
@@ -1172,6 +1200,34 @@ Generato: 18/07/2026 17:07
   · **medio-alta** A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL — TRIESTE (TS) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €150,644
   · **medio-alta** CIAI - CENTRO ITALIANO AIUTI ALL'INFANZIA - ETS — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k — 5x1000: €130,690
   · **medio-alta** FONDAZIONE BAMBINI E AUTISMO PER IL FUTURO ETS — PORDENONE (PN) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici — 5x1000: €75,718
+
+### Da Con i bambini 10 milioni per iniziative in cofinanziamento
+- **Scadenza**: 30 giugno 2027 (347 giorni)
+- **Ente**: Con i Bambini
+- **Stato**: attivo
+- **Territorio**: Nazionale, Regionale
+- **Tag**: minori
+
+  · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
+  · **alta** C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E — TORINO (TO) — score 123, match tema + sezione; capacità alta; 5x1000 >10k; grant UE — 5x1000: €42,118
+  · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €581
+  · **medio-alta** ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989 — 5x1000: €7,925,761
+  · **medio-alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751 — 5x1000: €173,631
+  · **medio-alta** AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO — SAN GIULIANO MILANESE (MI) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083 — 5x1000: €115,128
+  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,514
+  · **medio-alta** PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRA — PADOVA (PD) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €770,112
+  · **medio-alta** S.O.S. - IL TELEFONO AZZURRO ETS - LINEA NAZIONALE — MILANO (MI) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €178,761
+  · **medio-alta** SOS VILLAGGI DEI BAMBINI ETS — MILANO (MI) — score 118, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €217,255
+  · **alta** CSB ETS - CENTRO PER LA SALUTE DELLE BAMBINE E DEI — TRIESTE (TS) — score 118, match tema + sezione; capacità alta; grant UE; appalti pubblici — 5x1000: -
+  · **medio-alta** FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CIT — SAN LAZZARO DI SAVENA (BO) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857 — 5x1000: €43,285
+  · **alta** SEGNI D'INFANZIA - ASSOCIAZIONE ARTISTICA E CULTUR — MANTOVA (MN) — score 116, match tema + sezione; capacità alta; grant UE; appalti pubblici — 5x1000: -
+  · **medio-alta** PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER -  — BOLZANO (BZ) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €232,521
+  · **medio-alta** FONDAZIONE PER L'OSPEDALE DEI BAMBINI BUZZI E.T.S. — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k — 5x1000: €176,021
+  · **medio-alta** A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL — TRIESTE (TS) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €150,644
+  · **medio-alta** CIAI - CENTRO ITALIANO AIUTI ALL'INFANZIA - ETS — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k — 5x1000: €130,690
+  · **medio-alta** FONDAZIONE BAMBINI E AUTISMO PER IL FUTURO ETS — PORDENONE (PN) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici — 5x1000: €75,718
+  · **medio-alta** ASSOCIAZIONE CASA DELLA MAMMA E DEL BAMBINO ETS E  — BORGOSESIA (VC) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici — 5x1000: €30,964
+  · **medio-alta** ASSOCIAZIONE PROVINCIALE PER I MINORI ETS — TRENTO (TN) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €41,463,716 — 5x1000: €6,391
 
 ### Marchio di Qualità per il volontariato nel settore degli aiuti umanitari
 - **Scadenza**: 22 settembre 2027 (431 giorni)
@@ -1228,6 +1284,34 @@ Generato: 18/07/2026 17:07
   · **medio-alta** HANDS CENTRO RICERCA ED INTERVENTO PER PROBLEMI DI — BOLZANO (BZ) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €4,979,374 — 5x1000: €3,154
   · **medio-alta** ASSOCIAZIONE CULTURALE C.E.T.R.A. CULTURA EDUCAZIO — CASTELFIORENTINO (FI) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,110,738 — 5x1000: €810
   · **medio-alta** C.R.A.S.S. CENTRO RICERCA E ASSISTENZA SOCIO SANIT — AUGUSTA (SR) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €4,632,775 — 5x1000: €750
+
+### Marchio di Qualità per il volontariato
+- **Scadenza**: 31 dicembre 2027 (531 giorni)
+- **Ente**: Commissione Europea &#8211; DG Educazione, Cultura e Audiovisivo
+- **Stato**: attivo
+- **Territorio**: Nazionale/da verificare
+- **Tag**: volontariato
+
+  · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 143, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 131, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **medio-alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
+  · **medio-alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE — BOLZANO (BZ) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €186,333,458 — 5x1000: €1,254,450
+  · **medio-alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 130, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — SAN FELICE A CANCELLO (CE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; appalti pubblici — 5x1000: €735
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 128, match tema + sezione; capacità alta; grant UE; PNRR; appalti €23,549,683 — 5x1000: -
+  · **medio-alta** VIDAS VOLONTARI ITALIANI DOMICILIARI PER L'ASSISTE — MILANO (MI) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,142,300 — 5x1000: €1,657,371
+  · **medio-alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,030,780 — 5x1000: €526,745
+  · **medio-alta** AMOPUGLIA - ORGANIZZAZIONE DI VOLONTARIATO - ENTE  — BARI (BA) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,277,767 — 5x1000: €145,510
+  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 126, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,514
+  · **alta** CROCE ROSSA ITALIANA COMITATO DI GORIZIA ORGANIZZA — GORIZIA (GO) — score 126, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,341
+  · **medio-alta** OIPA ITALIA ODV — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €573,853
+  · **medio-alta** ASSOCIAZIONE NAZIONALE VOLONTARI ITALIANI DEL SANG — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €287,620
+  · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €262,688
+  · **medio-alta** LEGA ITALIANA PER LA LOTTA CONTRO I TUMORI ASSOCIA — TRENTO (TN) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €154,475
+  · **medio-alta** PUBBLICA ASSISTENZA SOCIETA' VOLONTARIA DI SOCCORS — LIVORNO (LI) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €147,280
+  · **media** AIUT ALPIN DOLOMITES ODV — LAION (BZ) — score 125, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €23,999,260 — 5x1000: €136,441
+  · **media** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 125, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €11,421,631 — 5x1000: €113,052
+  · **medio-alta** ANTEAS ROMA ODV — ROMA (RM) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €20,074,453 — 5x1000: €67,710
 
 ### Bando aperto &#8211; Sportello della solidarietà
 - **Scadenza**: Lo sportello opera attraverso un bando aperto, senza scadenza. (999 giorni)
@@ -1318,11 +1402,13 @@ Generato: 18/07/2026 17:07
 
 - 🟡 **iF Social Impact Prize &#8211; ultima scadenza 2026** — iF Design — scad. 19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno) (32gg) — _nessun pattern tag_
   Stato: attivo | Territorio: Nazionale/da verificare | Tag: Premi internazionali, Obiettivi per lo Sviluppo Sostenibile, iF Design, Cooperazione allo sviluppo
+- 🟡 **Sostenere l&#8217;applicazione della Carta dei diritti fondamentali de** — Commissione Europea &#8211; DG Giustizia e Consumatori — scad. 15 settembre 2026 (59gg) — _nessun pattern tag_
+  Stato: attivo | Territorio: Nazionale/da verificare | Tag: diritti
 
 ---
 ## Esclusi dal matching
 
-**notizia/esito**: 1, **senza data**: 16
+**notizia/esito**: 1, **senza data**: 17
 
 - **Linee Guida 2025-2026 per le richieste di contributo al Fondo di beneficenza di ** — senza data — scadenza non parsabile
 - **Presentazione di progetti a Enel Cuore: online la nuova piattaforma** — senza data — scadenza non parsabile
@@ -1337,10 +1423,11 @@ Generato: 18/07/2026 17:07
 - **Contributi per progetti di utilità sociale &#8211; direttrici di intervento 2026** — senza data — scadenza non parsabile
 - **Bandi 2026: &#8220;La musica che fa bene ai bambini&#8221;** — senza data — scadenza non parsabile
 - **Dal MUR 1 milione per quattro progetti congiunti tra università italiane e afric** — senza data — scadenza non parsabile
+- **Iniziative in cofinanziamento per l&#8217;infrastrutturazione sociale del Mezzog** — senza data — scadenza non parsabile
 - **Cinque progetti approvati dal bando AICS in Costa d'Avorio** — notizia/esito — titolo non operativo
 - **Nature Calling - Fondazione Cariplo** — senza data — scadenza non parsabile
 - **42 nuovi progetti del bando AICS 2023 con la dotazione aggiuntiva** — senza data — scadenza non parsabile
 - **Territori in transizione: soluzioni per il cambiamento nelle aree marine e monta** — senza data — scadenza non parsabile
 
 ---
-_64 bandi processati, 46 match trovati, 1 gap operativi, 17 esclusi._
+_69 bandi processati, 49 match trovati, 2 gap operativi, 18 esclusi._

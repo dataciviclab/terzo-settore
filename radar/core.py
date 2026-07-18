@@ -250,26 +250,57 @@ def classify_bando(b, scadenza, gg_rimasti):
 
 
 def deduplicate_bandi(bandi):
+    """Deduplica bandi per (ente + scadenza + hash titolo).
+
+    Stesso ente erogatore e stessa data di scadenza = stesso bando,
+    anche se il titolo è in lingue diverse (es. italiano vs inglese).
+    Tiene il record con più tag (arricchimento massimo).
+    """
+    from hashlib import sha256
     unique = []
     seen_urls = set()
-    seen_titles = set()
+    seen_keys = set()
+
+    # Ordina per ricchezza di tag (i più ricchi primi)
     for b in sorted(bandi, key=lambda x: len(x.get("tag", x.get("tags", [])) or []), reverse=True):
-        titolo_b = (b.get("titolo", b.get("title", "")) or "").strip().lower()
         url_b = (b.get("url", "") or "").strip()
         if url_b and url_b in seen_urls:
             continue
-        if titolo_b in seen_titles:
+
+        # Chiave: ente + scadenza
+        ente = (b.get("ente_erogatore", b.get("donatore", "")) or "").strip().lower()
+        scadenza_raw = (b.get("scadenza", "") or "").strip().lower()
+        # Normalizza ente: toglie variazioni minori
+        ente_norm = re.sub(r'\b(for|the|di|del|della|per|e|ed|a|children|foundation)\b', '', ente).strip()
+        ente_norm = re.sub(r'\s+', ' ', ente_norm).strip()
+        # Normalizza scadenza: estrai solo GG MESE AAAA, ignora ore
+        m_scad = re.match(r'(\d{1,2})\s+([a-z]+)\s+(\d{4})', scadenza_raw)
+        scadenza = f"{int(m_scad.group(1)):02d}{m_scad.group(2)}{m_scad.group(3)}" if m_scad else scadenza_raw[:20]
+        
+        # Per bandi senza ente, usa titolo normalizzato
+        if not ente_norm or ente_norm in ('?', ''):
+            titolo = (b.get("titolo", b.get("title", "")) or "").strip().lower()
+            titolo_norm = re.sub(r'[^a-z0-9 ]', '', titolo)
+            titolo_norm = re.sub(r'\s+', ' ', titolo_norm).strip()
+            key = titolo_norm[:40]
+        else:
+            key = f"{ente_norm[:40]}|{scadenza[:20]}"
+
+        if key in seen_keys:
             continue
-        dup = False
-        for t in seen_titles:
-            if len(titolo_b) > 15 and len(t) > 15:
-                if any(titolo_b[i : i + 25] in t for i in range(len(titolo_b) - 24)):
-                    dup = True
-                    break
-        if dup:
-            continue
+
+        # Fallback: substring match su titolo (solo per bandi lunghi)
+        if not ente_norm or ente_norm in ('?', ''):
+            titolo_b = (b.get("titolo", b.get("title", "")) or "").strip().lower()
+            for existing_key in seen_keys:
+                if '|' not in existing_key:  # anche questo è un titolo
+                    if len(titolo_b) > 20 and len(existing_key) > 20:
+                        if titolo_b[:30] in existing_key or existing_key[:30] in titolo_b:
+                            key = existing_key  # merge
+                            break
+
         seen_urls.add(url_b)
-        seen_titles.add(titolo_b)
+        seen_keys.add(key)
         unique.append(b)
     return unique
 
