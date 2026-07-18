@@ -38,6 +38,18 @@ monitor:
 opportunita:
 	python3 radar/opportunita.py $(if $(TOP),--top $(TOP),) $(if $(TAG),--tag $(TAG),)
 
+# Preparazione chiamate lunedì: CSV urgenti + report
+lunedi: scan
+	python3 radar/contatta.py --bando "RIZA" --top 10 --enrich
+	python3 radar/contatta.py --bando "UEFA" --top 10 --enrich
+	python3 radar/contatta.py --bando "BPER" --top 10 --enrich
+	@echo ""
+	@echo "✅ Materiale pronto per lunedì:"
+	@echo "   contatta-riza-*.csv  — RIZA (€1M, scade 31/7)"
+	@echo "   contatta-uefa-*.csv — UEFA Foundation (scade 3/8)"
+	@echo "   contatta-bper-*.csv — BPER (€50k, scade 7/9)"
+	@echo "   cruscotto/radar-latest.md — report completo"
+
 # Build/report leggono direttamente da GCS
 # I dati 5x1000, FTS, RNA, PNRR sono letti via HTTP da build_unified_ets.sql
 

@@ -1,6 +1,6 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-07-18T16:46:31.391756",
+  "scraped_at": "2026-07-18T17:37:07.457342",
   "totale": 22,
   "bandi": [
     {
@@ -12,7 +12,8 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando-daphne-2025-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "disabilità",
@@ -34,7 +35,6 @@
         "nazionale"
       ],
       "tags": [
-        "migranti",
         "lavoro"
       ]
     },
@@ -48,13 +48,14 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/volontariato-bandi-120x120.jpg",
       "territorio": [
         "Mezzogiorno",
-        "nazionale"
+        "nazionale",
+        "locale",
+        "Europa"
       ],
       "tags": [
         "giovani",
         "donne",
         "lavoro",
-        "educazione",
         "volontariato"
       ]
     },
@@ -92,11 +93,10 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/06/scuola-per-il-futuro-fondazionecdp-bando-2026-120x120.jpg",
       "territorio": [
         "Mezzogiorno",
-        "nazionale",
-        "locale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
+        "giovani",
         "lavoro",
         "educazione",
         "inclusione"
@@ -112,8 +112,7 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/06/libia_water-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale",
-        "Europa"
+        "locale"
       ],
       "tags": [
         "disabilità",
@@ -121,6 +120,7 @@
         "donne",
         "salute",
         "lavoro",
+        "ricerca",
         "inclusione"
       ]
     },
@@ -133,11 +133,14 @@
       "donatore": "Innovation Norway",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/innovation_norway_hip-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
+        "giovani",
         "salute",
         "lavoro",
+        "educazione",
         "digitale"
       ]
     },
@@ -157,7 +160,6 @@
         "lavoro",
         "digitale",
         "ricerca",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -175,7 +177,6 @@
       "tags": [
         "cultura",
         "ambiente",
-        "salute",
         "lavoro",
         "digitale",
         "ricerca",
@@ -195,10 +196,10 @@
         "locale"
       ],
       "tags": [
+        "sport",
         "ambiente",
-        "giovani",
         "lavoro",
-        "educazione"
+        "volontariato"
       ]
     },
     {
@@ -210,9 +211,11 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/website_830x426px_-_calls_for_proposals_-_eulife26-120x120.jpg",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
+        "ambiente",
         "lavoro"
       ]
     },
@@ -225,17 +228,13 @@
       "donatore": "Fondazione Cariplo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/riprogettiamo_futuro_2026-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "cultura",
         "ambiente",
         "giovani",
-        "donne",
-        "migranti",
-        "lavoro",
-        "inclusione"
+        "lavoro"
       ]
     },
     {
@@ -257,8 +256,7 @@
         "donne",
         "salute",
         "lavoro",
-        "ricerca",
-        "volontariato"
+        "ricerca"
       ]
     },
     {
@@ -271,7 +269,7 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2022/02/Repubblica-Digitale-720x283-120x120.jpg",
       "territorio": [
         "nazionale",
-        "Europa"
+        "locale"
       ],
       "tags": [
         "lavoro",
@@ -290,14 +288,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/efb-120x120.png",
       "territorio": [
         "nazionale",
-        "regionale",
-        "Europa"
+        "regionale"
       ],
       "tags": [
         "ambiente",
-        "lavoro",
-        "digitale",
-        "ricerca"
+        "giovani",
+        "lavoro"
       ]
     },
     {
@@ -326,12 +322,12 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/cerv-programme-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "giovani",
         "lavoro",
-        "educazione",
         "ricerca"
       ]
     },
@@ -348,8 +344,12 @@
         "regionale"
       ],
       "tags": [
+        "giovani",
         "minori",
-        "lavoro"
+        "donne",
+        "lavoro",
+        "educazione",
+        "volontariato"
       ]
     },
     {
@@ -361,9 +361,11 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/Bernini_Etiopia_mur-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
+        "giovani",
         "lavoro",
         "educazione",
         "digitale",
@@ -384,8 +386,7 @@
         "Europa"
       ],
       "tags": [
-        "lavoro",
-        "ricerca"
+        "lavoro"
       ]
     },
     {
@@ -400,6 +401,7 @@
         "nazionale"
       ],
       "tags": [
+        "giovani",
         "minori",
         "lavoro",
         "educazione"

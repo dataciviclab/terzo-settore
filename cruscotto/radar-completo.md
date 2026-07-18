@@ -1,5 +1,5 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 18/07/2026 17:22
+Generato: 18/07/2026 17:38
 
 **49** bandi operativi con ETS candidabili  |  **2** operativi senza match  |  **18** esclusi  |  **331** ETS unici coinvolti
 
@@ -11,8 +11,8 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 23 luglio 2026 (5 giorni)
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
-- **Territorio**: Europa, Nazionale
-- **Tag**: ambiente, cultura, arte
+- **Territorio**: Nazionale
+- **Tag**: arte, cultura, ambiente
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -132,7 +132,7 @@ Generato: 18/07/2026 17:22
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: inclusione sociale, sport, educazione, minori
+- **Tag**: sport, inclusione sociale, educazione, minori
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -221,7 +221,7 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 17 agosto 2026 (30 giorni)
 - **Ente**: Innovation Norway
 - **Stato**: attivo
-- **Territorio**: Nazionale
+- **Territorio**: Europa, Nazionale
 - **Tag**: ricerca
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
@@ -309,7 +309,7 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 31 agosto 2026 (44 giorni)
 - **Ente**: AICS
 - **Stato**: attivo
-- **Territorio**: Europa, Libia, Locale, Nazionale
+- **Territorio**: Libia, Locale, Nazionale
 - **Tag**: ambiente, salute
 
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
@@ -337,7 +337,7 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 03 settembre 2026 (47 giorni)
 - **Ente**: European Fund for the Balkans
 - **Stato**: attivo
-- **Territorio**: Europa, Nazionale, Regionale
+- **Territorio**: Nazionale, Regionale
 - **Tag**: ambiente, lavoro
 
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
@@ -482,36 +482,8 @@ Generato: 18/07/2026 17:22
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
-  · **alta** "SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - S — DARFO BOARIO TERME (BS) — score 118, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264 — 5x1000: -
   · **alta** CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARI — FIRENZE (FI) — score 118, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093 — 5x1000: -
-  · **medio-alta** ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI  — MESSINA (ME) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €6,812,384 — 5x1000: €115,522
-  · **medio-alta** COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI — FORLI' (FC) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €19,851,650 — 5x1000: €52,347
-  · **medio-alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E P — TRENTO (TN) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €146,054,738 — 5x1000: €50,779
-  · **medio-alta** ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTE — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €149,556,065 — 5x1000: €43,482
-  · **medio-alta** FONDAZIONE SOLIDARIETA' CARITAS - ETS — FIRENZE (FI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €98,454,978 — 5x1000: €32,996
-  · **medio-alta** SOLIDARIETA' E SERVIZI COOPERATIVA SOCIALE — BUSTO ARSIZIO (VA) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €130,910,583 — 5x1000: €21,596
-  · **medio-alta** CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE  — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790 — 5x1000: €21,096
-  · **medio-alta** COMIN - COOPERATIVA SOCIALE DI SOLIDARIETA' — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €80,957,135 — 5x1000: €17,642
-  · **medio-alta** DOMUS LAETITIAE SOCIETA' COOPERATIVA SOCIALE DI SO — SAGLIANO MICCA (BI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €33,474,880 — 5x1000: €16,358
-  · **medio-alta** COOPERATIVA DI SOLIDARIETA' SOCIALE SOS VILLAGGIO  — TRENTO (TN) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €15,765,409 — 5x1000: €11,655
-  · **medio-alta** CENTRO CALABRESE DI SOLIDARIETA' ETS — CATANZARO (CZ) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105 — 5x1000: €11,405
-  · **alta** FONDAZIONE MONDO DIGITALE ETS — ROMA (RM) — score 115, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €4,242
-  · **medio-alta** SOLIDARIETA' - SOCIETA' COOPERATIVA SOCIALE — BINETTO (BA) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €33,882,477 — 5x1000: €590
-  · **medio-alta** CON SOLIDARIETA'  CONSOL SOCIETA' COOPERATIVA SOCI — CHIETI (CH) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €177,091,989 — 5x1000: €142
-  · **medio-alta** EMERGENCY - LIFE SUPPORT FOR CIVILIAN WAR VICTIMS  — MILANO (MI) — score 112, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €13,440,958
-  · **medio-alta** MONTEVERDE COOPERATIVA SOCIALE DI SOLIDARIETA' - O — BADIA CALAVENA (VR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €4,238,918 — 5x1000: €73,863
-
-### Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
-- **Scadenza**: 18 settembre 2026 (62 giorni)
-- **Ente**: Fondo per la Repubblica Digitale
-- **Stato**: attivo
-- **Territorio**: Nazionale
-- **Tag**: disabilità, digitale, inclusione sociale
-
-  · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
-  · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
   · **alta** "SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - S — DARFO BOARIO TERME (BS) — score 118, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264 — 5x1000: -
-  · **alta** CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARI — FIRENZE (FI) — score 118, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093 — 5x1000: -
   · **medio-alta** ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI  — MESSINA (ME) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €6,812,384 — 5x1000: €115,522
   · **medio-alta** COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI — FORLI' (FC) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €19,851,650 — 5x1000: €52,347
   · **medio-alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E P — TRENTO (TN) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €146,054,738 — 5x1000: €50,779
@@ -557,12 +529,40 @@ Generato: 18/07/2026 17:22
   · **medio-alta** ARIATEATRO ETS — PERGINE VALSUGANA (TN) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €1,987,500 — 5x1000: €1,248
   · **alta** ARTE SELLA IMPRESA SOCIALE — BORGO VALSUGANA (TN) — score 105, match su denominazione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici — 5x1000: €1,220
 
+### Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
+- **Scadenza**: 18 settembre 2026 (62 giorni)
+- **Ente**: Fondo per la Repubblica Digitale
+- **Stato**: attivo
+- **Territorio**: Nazionale
+- **Tag**: inclusione sociale, digitale, disabilità
+
+  · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
+  · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
+  · **alta** "SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - S — DARFO BOARIO TERME (BS) — score 118, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264 — 5x1000: -
+  · **alta** CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARI — FIRENZE (FI) — score 118, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093 — 5x1000: -
+  · **medio-alta** ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI  — MESSINA (ME) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €6,812,384 — 5x1000: €115,522
+  · **medio-alta** COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI — FORLI' (FC) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €19,851,650 — 5x1000: €52,347
+  · **medio-alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E P — TRENTO (TN) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €146,054,738 — 5x1000: €50,779
+  · **medio-alta** ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTE — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €149,556,065 — 5x1000: €43,482
+  · **medio-alta** FONDAZIONE SOLIDARIETA' CARITAS - ETS — FIRENZE (FI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €98,454,978 — 5x1000: €32,996
+  · **medio-alta** SOLIDARIETA' E SERVIZI COOPERATIVA SOCIALE — BUSTO ARSIZIO (VA) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €130,910,583 — 5x1000: €21,596
+  · **medio-alta** CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE  — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790 — 5x1000: €21,096
+  · **medio-alta** COMIN - COOPERATIVA SOCIALE DI SOLIDARIETA' — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €80,957,135 — 5x1000: €17,642
+  · **medio-alta** DOMUS LAETITIAE SOCIETA' COOPERATIVA SOCIALE DI SO — SAGLIANO MICCA (BI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €33,474,880 — 5x1000: €16,358
+  · **medio-alta** COOPERATIVA DI SOLIDARIETA' SOCIALE SOS VILLAGGIO  — TRENTO (TN) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €15,765,409 — 5x1000: €11,655
+  · **medio-alta** CENTRO CALABRESE DI SOLIDARIETA' ETS — CATANZARO (CZ) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105 — 5x1000: €11,405
+  · **alta** FONDAZIONE MONDO DIGITALE ETS — ROMA (RM) — score 115, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €4,242
+  · **medio-alta** SOLIDARIETA' - SOCIETA' COOPERATIVA SOCIALE — BINETTO (BA) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €33,882,477 — 5x1000: €590
+  · **medio-alta** CON SOLIDARIETA'  CONSOL SOCIETA' COOPERATIVA SOCI — CHIETI (CH) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €177,091,989 — 5x1000: €142
+  · **medio-alta** EMERGENCY - LIFE SUPPORT FOR CIVILIAN WAR VICTIMS  — MILANO (MI) — score 112, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €13,440,958
+  · **medio-alta** MONTEVERDE COOPERATIVA SOCIALE DI SOLIDARIETA' - O — BADIA CALAVENA (VR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €4,238,918 — 5x1000: €73,863
+
 ### Youth Start-Up Challenge 2026: concorso per giovani imprenditori
 - **Scadenza**: 20 settembre 2026 (64 giorni)
 - **Ente**: Commissione Europea &#8211; DG del Mercato interno, dell’industria, dell’imprenditoria e delle PMI
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
-- **Tag**: premi, giovani, lavoro
+- **Tag**: giovani, premi, lavoro
 
   · **alta** CENTRO INFORMAZIONE DOCUMENTAZIONE E INIZIATIVA PE — PERUGIA (PG) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €8,994,130 — 5x1000: €1,819
   · **alta** COMUNITA' DEI GIOVANI SOCIETA' COOPERATIVA SOCIALE — VERONA (VR) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €6,822,645 — 5x1000: €1,673
@@ -701,7 +701,7 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 30 settembre 2026 (74 giorni)
 - **Ente**: Fondazione con il Sud
 - **Stato**: attivo
-- **Territorio**: Basilicata, Calabria, Campania, Mezzogiorno, Molise, Nazionale, Puglia, Sardegna, Sicilia
+- **Territorio**: Basilicata, Calabria, Campania, Europa, Locale, Mezzogiorno, Molise, Nazionale, Puglia, Sardegna, Sicilia
 - **Tag**: volontariato
 
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 123, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
@@ -729,7 +729,7 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 30 settembre 2026 (74 giorni)
 - **Ente**: Fondazione CDP
 - **Stato**: attivo
-- **Territorio**: Europa, Locale, Mezzogiorno, Nazionale
+- **Territorio**: Mezzogiorno, Nazionale
 - **Tag**: educazione
 
   · **medio-alta** LA SCOLASTICA SOCIETA' COOPERATIVA SOCIALE — LAMEZIA TERME (CZ) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €5,015,409 — 5x1000: €676
@@ -757,7 +757,7 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 01 ottobre 2026 (75 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
-- **Territorio**: Nazionale
+- **Territorio**: Europa, Nazionale
 - **Tag**: donne
 
   · **medio-alta** ASSOCIAZIONE DIFFERENZA DONNA APS — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €7,635,872 — 5x1000: €25,970
@@ -953,7 +953,7 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 03 novembre 2026 (108 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
-- **Territorio**: Nazionale
+- **Territorio**: Europa, Nazionale
 - **Tag**: donne, minori
 
   · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
@@ -1066,7 +1066,7 @@ Generato: 18/07/2026 17:22
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: cultura, premi, ambiente, digitale, arte
+- **Tag**: digitale, premi, arte, ambiente, cultura
 
   · **alta** OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, C — AREZZO (AR) — score 123, match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852 — 5x1000: -
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 120, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici — 5x1000: €1,010
@@ -1093,8 +1093,8 @@ Generato: 18/07/2026 17:22
 - **Scadenza**: 31 dicembre 2026 (166 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
-- **Territorio**: Europa, Nazionale
-- **Tag**: digitale, inclusione sociale
+- **Territorio**: Locale, Nazionale
+- **Tag**: inclusione sociale, digitale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
@@ -1173,34 +1173,6 @@ Generato: 18/07/2026 17:22
   · **medio-alta** FONDAZIONE BIBLIOTECA E CASA DI CULTURA ACHILLE MA — BORGOMANERO (NO) — score 95, match tema + sezione; capacità medio-alta; 5x1000 presente — 5x1000: €3,892
   · **medio-alta** TEATRO SOCIALE OMEGNA SOLIDALE APS ETS — OMEGNA (VB) — score 95, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €3,165
 
-### V edizione Iniziative in cofinanziamento a contrasto della povertà educativa
-- **Scadenza**: 30 giugno 2027. Le idee saranno selezionate man mano che vengono proposte fino ad esaurimento delle risorse disponibili. (347 giorni)
-- **Ente**: Impresa sociale Con i Bambini
-- **Stato**: attivo
-- **Territorio**: Nazionale/da verificare
-- **Tag**: Minori, Adolescenti, CON I BAMBINI Impresa Sociale, povertà educativa, coprogettazione
-
-  · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
-  · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 120, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici — 5x1000: €1,010
-  · **medio-alta** ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989 — 5x1000: €7,925,761
-  · **medio-alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751 — 5x1000: €173,631
-  · **medio-alta** AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO — SAN GIULIANO MILANESE (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083 — 5x1000: €115,128
-  · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 115, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €581
-  · **alta** C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E — TORINO (TO) — score 113, match tema + sezione; capacità alta; 5x1000 >10k; grant UE — 5x1000: €42,118
-  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 113, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,514
-  · **medio-alta** PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRA — PADOVA (PD) — score 112, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €770,112
-  · **medio-alta** S.O.S. - IL TELEFONO AZZURRO ETS - LINEA NAZIONALE — MILANO (MI) — score 112, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €178,761
-  · **medio-alta** SOS VILLAGGI DEI BAMBINI ETS — MILANO (MI) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €217,255
-  · **medio-alta** FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CIT — SAN LAZZARO DI SAVENA (BO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857 — 5x1000: €43,285
-  · **medio-alta** CASA DEI RAGAZZI ISTITUTO ASSISTENZA MINORI ED ANZ — MILANO (MI) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €2,962,159 — 5x1000: €12,010
-  · **medio-alta** ASSOCIAZIONE PROVINCIALE PER I MINORI ETS — TRENTO (TN) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €41,463,716 — 5x1000: €6,391
-  · **medio-alta** TITOLI MINORI - SOCIETA' COOPERATIVA SOCIALE — CHIOGGIA (VE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €11,855,008 — 5x1000: €5,652
-  · **medio-alta** COOPERATIVA SOCIALE IL SENTIERO DEL MOVIMENTO RAGA — GENOVA (GE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €61,686,171 — 5x1000: €4,325
-  · **medio-alta** C.A.D.I.A.I. - COOPERATIVA ASSISTENZA DOMICILIARE  — BOLOGNA (BO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €442,373,702 — 5x1000: €2,024
-  · **medio-alta** OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL — CHIAVARI (GE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534 — 5x1000: €1,955
-  · **medio-alta** COOPERATIVA FAMIGLIE ANZIANI INFANZIA (F.A.I.) SOC — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €36,344,784 — 5x1000: €1,427
-  · **medio-alta** COOPERATIVA SOCIALE L'INFANZIA — SONA (VR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €38,071,782 — 5x1000: €1,226
-
 ### Da Con i bambini 10 milioni per iniziative in cofinanziamento
 - **Scadenza**: 30 giugno 2027 (347 giorni)
 - **Ente**: Con i Bambini
@@ -1228,6 +1200,34 @@ Generato: 18/07/2026 17:22
   · **medio-alta** ASSOCIAZIONE CASA DELLA MAMMA E DEL BAMBINO ETS E  — BORGOSESIA (VC) — score 107, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici — 5x1000: €30,964
   · **medio-alta** PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER -  — BOLZANO (BZ) — score 105, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €232,521
   · **medio-alta** FONDAZIONE PER L'OSPEDALE DEI BAMBINI BUZZI E.T.S. — MILANO (MI) — score 105, match tema + sezione; capacità medio-alta; 5x1000 >100k — 5x1000: €176,021
+
+### V edizione Iniziative in cofinanziamento a contrasto della povertà educativa
+- **Scadenza**: 30 giugno 2027. Le idee saranno selezionate man mano che vengono proposte fino ad esaurimento delle risorse disponibili. (347 giorni)
+- **Ente**: Impresa sociale Con i Bambini
+- **Stato**: attivo
+- **Territorio**: Nazionale/da verificare
+- **Tag**: Minori, Adolescenti, CON I BAMBINI Impresa Sociale, povertà educativa, coprogettazione
+
+  · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
+  · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 120, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici — 5x1000: €1,010
+  · **medio-alta** ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989 — 5x1000: €7,925,761
+  · **medio-alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751 — 5x1000: €173,631
+  · **medio-alta** AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO — SAN GIULIANO MILANESE (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083 — 5x1000: €115,128
+  · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 115, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €581
+  · **alta** C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E — TORINO (TO) — score 113, match tema + sezione; capacità alta; 5x1000 >10k; grant UE — 5x1000: €42,118
+  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 113, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,514
+  · **medio-alta** PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRA — PADOVA (PD) — score 112, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €770,112
+  · **medio-alta** S.O.S. - IL TELEFONO AZZURRO ETS - LINEA NAZIONALE — MILANO (MI) — score 112, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €178,761
+  · **medio-alta** SOS VILLAGGI DEI BAMBINI ETS — MILANO (MI) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €217,255
+  · **medio-alta** FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CIT — SAN LAZZARO DI SAVENA (BO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857 — 5x1000: €43,285
+  · **medio-alta** CASA DEI RAGAZZI ISTITUTO ASSISTENZA MINORI ED ANZ — MILANO (MI) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €2,962,159 — 5x1000: €12,010
+  · **medio-alta** ASSOCIAZIONE PROVINCIALE PER I MINORI ETS — TRENTO (TN) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €41,463,716 — 5x1000: €6,391
+  · **medio-alta** TITOLI MINORI - SOCIETA' COOPERATIVA SOCIALE — CHIOGGIA (VE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €11,855,008 — 5x1000: €5,652
+  · **medio-alta** COOPERATIVA SOCIALE IL SENTIERO DEL MOVIMENTO RAGA — GENOVA (GE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €61,686,171 — 5x1000: €4,325
+  · **medio-alta** C.A.D.I.A.I. - COOPERATIVA ASSISTENZA DOMICILIARE  — BOLOGNA (BO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €442,373,702 — 5x1000: €2,024
+  · **medio-alta** OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL — CHIAVARI (GE) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534 — 5x1000: €1,955
+  · **medio-alta** COOPERATIVA FAMIGLIE ANZIANI INFANZIA (F.A.I.) SOC — ROMA (RM) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €36,344,784 — 5x1000: €1,427
+  · **medio-alta** COOPERATIVA SOCIALE L'INFANZIA — SONA (VR) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €38,071,782 — 5x1000: €1,226
 
 ### Marchio di Qualità per il volontariato nel settore degli aiuti umanitari
 - **Scadenza**: 22 settembre 2027 (431 giorni)
@@ -1426,8 +1426,8 @@ Generato: 18/07/2026 17:22
 - **Iniziative in cofinanziamento per l&#8217;infrastrutturazione sociale del Mezzog** — senza data — scadenza non parsabile
 - **Cinque progetti approvati dal bando AICS in Costa d'Avorio** — notizia/esito — titolo non operativo
 - **Nature Calling - Fondazione Cariplo** — senza data — scadenza non parsabile
-- **42 nuovi progetti del bando AICS 2023 con la dotazione aggiuntiva** — senza data — scadenza non parsabile
 - **Territori in transizione: soluzioni per il cambiamento nelle aree marine e monta** — senza data — scadenza non parsabile
+- **42 nuovi progetti del bando AICS 2023 con la dotazione aggiuntiva** — senza data — scadenza non parsabile
 
 ---
 _69 bandi processati, 49 match trovati, 2 gap operativi, 18 esclusi._
