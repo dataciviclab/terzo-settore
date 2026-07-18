@@ -1,38 +1,55 @@
-# Fonti bandi aperti per il Terzo Settore
+# Fonti bandi — stato e lesson learned
 
-## Attive (integrate nel radar)
+## Fonti attive (3)
 
-| Fonte | Tipo | Accesso | Bandi catturati | Note |
-|-------|------|---------|-----------------|------|
-| [infobandi.csvnet.it](https://infobandi.csvnet.it/) | WordPress REST + RSS | API JSON | 68 | Aggregatore CSVnet: fondazioni, PA, EU, privati |
-| [info-cooperazione.it](https://www.info-cooperazione.it/Category/Bandi) | ASP.NET MVC | HTML scraping | 100+ | Cooperazione internazionale, fondazioni bancarie, 8x1000, AICS, MAECI, EU |
-| [open-cooperazione.it](https://www.open-cooperazione.it/web/Scarica-Dati.aspx) | ASP.NET | CSV export (POST) | 1.592 org (84 match ETS) | Registry IATI: bilanci, contatti, progetti |
+| Fonte | Tipo | Accesso | Bandi attivi | Affidabilità |
+|---|---|---|---|---|
+| [Infobandi](https://infobandi.csvnet.it/) | WordPress REST API | JSON | 52 | Alta — API stabile |
+| [Info-cooperazione](https://www.info-cooperazione.it/) | ASP.NET MVC | HTML scraping | 22 | Media — sito cambia URL |
+| [IndiceBandi](https://www.indicebandi.it/) | Drupal 9 | RSS + HTML | 2 (TS) | Alta — feed RSS strutturato |
 
-## Da verificare / future
-
-| Fonte | Tipo | Accesso | Note |
-|-------|------|---------|------|
-| [Fondazione Con il Sud](https://www.fondazioneconilsud.it/bandi/) | WordPress | API REST | Già coperto da infobandi/info-cooperazione |
-| [Fondazione Cariplo](https://www.fondazionecariplo.it/) | Sito | 403 bot | Già coperto da info-cooperazione (4 bandi) |
-| [Compagnia San Paolo](https://www.compagniadisanpaolo.it/) | Sito | 404 pagine | Già coperto da info-cooperazione (3 bandi) |
-| [CSVnet nazionale](https://www.csvnet.it/) | Joomla | Cookie wall | Potrebbe avere notiziario bandi RSS |
-| [EU Funding & Tenders](https://ec.europa.eu/info/funding-tenders/opportunities/portal/) | API | Da verificare | Bandi UE diretti |
-
-## Statistiche attuali (17/07/2026)
-
-```
-Bandi totali lordi:    268 (68 infobandi + 200 info-cooperazione)
-Bandi unici non scaduti: 48 (dopo deduplicazione + filtro date)
-Bandi matchati:         45/48 (94%)
-Bandi senza match:       1/48 (2%) — senza pattern tag
-ETS matchabili:        55.552 su 150.125 (37%)
-ETS unici coinvolti:   164 (nei match)
-```
+**Totale catalogo attivo**: ~69 bandi unici (dopo dedup per ente+scadenza)
 
 ## Cosa abbiamo imparato
 
-- **Nessuna fonte singola basta**: infobandi copre bandi italiani, info-cooperazione copre EU/cooperazione
-- **30% dei bandi sono duplicati** tra le due fonti → deduplicazione necessaria
-- **Info-cooperazione è archivio storico**: 80/100 bandi sono scaduti, solo 18 validi
-- **Open Cooperazione** non è fonte di bandi ma registry organizzativo → arricchisce ETS con contatti e capacità
-- **Fondazioni bancarie** (Cariplo, San Paolo, etc.) sono già su info-cooperazione — non serve scraping diretto
+### Le fonti sono complementari, non sovrapposte
+- **Infobandi**: bandi UE, Ministeri, pochi privati. Budget spesso presente.
+- **Info-cooperazione**: fondazioni (Cariplo, San Paolo, PuntoSud), UE, bandi sociali. Il 90% dei bandi è scaduto — serve filtro.
+- **IndiceBandi**: Regioni, fondazioni, INAIL. Budget raramente presente nei campi strutturati.
+- Zero duplicati tra le 3 dopo il dedup per ente+scadenza.
+
+### Il 70% del catalogo era rumore
+Prima del filtro scaduti alla fonte: 295 bandi, di cui 187 scaduti (63%).
+Dopo: 69 bandi, zero scaduti.
+
+### I duplicati sono cross-lingua
+Stesso bando (es. UEFA) può apparire in italiano su una fonte e inglese su un'altra.
+Il dedup per titolo non basta — serve ente + scadenza.
+
+### Info-cooperazione è fragile
+- Usa ASP.NET MVC, l'URL delle pagine cambia (era `/bandi/`, ora `/Category/Bandi`)
+- Ha Cloudflare con CSP restrittivo
+- Fortunatamente ha un campo `scaduto` esplicito → filtro facile
+
+### IndiceBandi ha budget raro
+Solo 2/27 bandi avevano budget parsato. I bandi regionali/fondazioni
+pubblicano budget solo nella pagina singola, non nel feed RSS.
+
+## Statistiche attuali (18/07/2026)
+
+```
+Catalogo:    69 bandi (52 infobandi + 22 info-coop + 2 indicebandi, 7 duplicati rimossi)
+Match:       46/47 bandi attivi hanno ETS candidati (97.9%)
+Gap:         1 bando senza match (tag non riconosciuti)
+Candidature: 920 (20/bando, match_limit)
+ETS unici:   302
+Score medio: 112 (range 90-138)
+Budget:      11/46 bandi con budget noto, €35M totali
+```
+
+## Da fare / miglioramenti
+
+- [ ] Budget: parsare da pagina singola IndiceBandi (--full option già esiste)
+- [ ] Fonte aggiuntiva: Fondazione Cariplo direttamente (ma già coperta)
+- [ ] Fonte aggiuntiva: EU Funding & Tenders API (bandi UE strutturati)
+- [ ] Monitoraggio salute fonti (alert se info-coop cambia HTML)
