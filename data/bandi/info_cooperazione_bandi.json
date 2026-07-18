@@ -1,7 +1,7 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-07-18T13:57:38.827080",
-  "totale": 200,
+  "scraped_at": "2026-07-18T16:46:31.391756",
+  "totale": 22,
   "bandi": [
     {
       "titolo": "Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori",
@@ -16,7 +16,6 @@
       ],
       "tags": [
         "disabilità",
-        "giovani",
         "minori",
         "donne",
         "lavoro",
@@ -35,10 +34,8 @@
         "nazionale"
       ],
       "tags": [
-        "disabilità",
-        "lavoro",
-        "educazione",
-        "inclusione"
+        "migranti",
+        "lavoro"
       ]
     },
     {
@@ -51,14 +48,13 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/volontariato-bandi-120x120.jpg",
       "territorio": [
         "Mezzogiorno",
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "giovani",
-        "minori",
         "donne",
         "lavoro",
+        "educazione",
         "volontariato"
       ]
     },
@@ -83,7 +79,6 @@
         "salute",
         "lavoro",
         "educazione",
-        "ricerca",
         "inclusione"
       ]
     },
@@ -97,7 +92,9 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/06/scuola-per-il-futuro-fondazionecdp-bando-2026-120x120.jpg",
       "territorio": [
         "Mezzogiorno",
-        "nazionale"
+        "nazionale",
+        "locale",
+        "Europa"
       ],
       "tags": [
         "lavoro",
@@ -115,45 +112,17 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/06/libia_water-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale"
+        "locale",
+        "Europa"
       ],
       "tags": [
         "disabilità",
         "giovani",
-        "minori",
         "donne",
         "salute",
         "lavoro",
-        "ricerca",
         "inclusione"
       ]
-    },
-    {
-      "titolo": "Bando “Our Rights, Our Future!” per reti e coalizioni della società civile",
-      "url": "https://www.info-cooperazione.it/2026/6/bando-our-rights-our-future-per-reti-e-coalizioni-della-societa-civile",
-      "descrizione": "Sostenere le organizzazioni che difendono i diritti fondamentali e contrastare il progressivo restringimento dello spazio civico in molte aree del mondo. È questo l'obiettivo del nuovo bando promosso nell'ambito del progetto “Our Rights, Our Future!”, finanziato dall'Unione Europea e realizzato da un partenariato composto da ForumCiv, COSPE e Centre for Civil and Political Rights (CCPR). L'iniziativa",
-      "scadenza": "13 luglio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/06/our_future_call-120x120.png"
-    },
-    {
-      "titolo": "Affidato AICS per promuovere la parità di genere attraverso le industrie creative",
-      "url": "https://www.info-cooperazione.it/2026/6/affidato-aics-per-promuovere-la-parita-di-genere-attraverso-le-industrie-creative",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS), attraverso la sede di Gerusalemme, ha pubblicato un nuovo bando nell’ambito dell’iniziativa “Intervento Multidisciplinare a Sostegno dell’Educazione alla Parità di Genere in Palestina” (AID 012708/01/3), da affidare alle Organizzazioni della Società Civile (OSC) italiane. L’avviso mette a disposizione un finanziamento complessivo di 500.000 euro per sostenere un",
-      "scadenza": "12 luglio 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2021/04/Aics-120x120.png"
-    },
-    {
-      "titolo": "Bando AICS per l'emergenza Ebola in RDC",
-      "url": "https://www.info-cooperazione.it/2026/6/bando-aics-per-lemergenza-ebola-in-rdc",
-      "descrizione": "La Sede di Nairobi dell'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato un bando di primissima emergenza per la Repubblica Democratica del Congo, nell'ambito di due iniziative di aiuto umanitario dedicate alla risposta regionale alla crisi dei Grandi Laghi. \r\nLa call nasce dalla convergenza di due emergenze sovrapposte. Da un lato, le province orientali della",
-      "scadenza": "10 giugno 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/06/ebola_rdc-120x120.png"
     },
     {
       "titolo": "Dalla Norvegia 10 milioni per l'innovazione umanitaria",
@@ -167,10 +136,8 @@
         "nazionale"
       ],
       "tags": [
-        "giovani",
         "salute",
         "lavoro",
-        "educazione",
         "digitale"
       ]
     },
@@ -187,10 +154,10 @@
       ],
       "tags": [
         "disabilità",
-        "giovani",
         "lavoro",
         "digitale",
         "ricerca",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -203,46 +170,17 @@
       "donatore": "Fondazione Cariplo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/strumento_co_fin_cariplo-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
-        "sport",
         "cultura",
         "ambiente",
-        "minori",
+        "salute",
         "lavoro",
         "digitale",
         "ricerca",
         "inclusione"
       ]
-    },
-    {
-      "titolo": "UnWomen per le organizzazioni guidate da donne in Palestina",
-      "url": "https://www.info-cooperazione.it/2026/5/unwomen-per-le-organizzazioni-guidate-da-donne-in-palestina",
-      "descrizione": "Il Women's Peace & Humanitarian Fund (WPHF) di UNWomen ha aperto una nuova call for proposals dedicata alla Palestina, con l'obiettivo di finanziare organizzazioni della società civile locale impegnate nel peacebuilding, nel recupero post-conflitto e nel rafforzamento istituzionale delle organizzazioni per i diritti delle donne. Secondo UNWomen, oltre 38.000 donne e ragazze sono state uccise a",
-      "scadenza": "21 giugno 2026",
-      "scaduto": true,
-      "donatore": "UNWOMEN",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/donne_gaza-120x120.png"
-    },
-    {
-      "titolo": "Educazione non formale per i giovani in Ucraina",
-      "url": "https://www.info-cooperazione.it/2026/5/educazione-non-formale-per-i-giovani-in-ucraina",
-      "descrizione": "Il progetto \"Resilience and Inclusion for Ukraine\", finanziato dall'Unione Europea e implementato dall'Institute for Economic Research and Policy Consulting (IER), ha aperto una call for proposals rivolta alle organizzazioni della società civile in Ucraina che operano nell'educazione non formale per i giovani nelle regioni colpite dal conflitto. Il programma punta a rafforzare le competenze digitali e",
-      "scadenza": "12 giugno 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/ucraina-eu-120x120.png"
-    },
-    {
-      "titolo": "Intelligenza artificiale al servizio dei piccoli agricoltori",
-      "url": "https://www.info-cooperazione.it/2026/5/intelligenza-artificiale-al-servizio-dei-piccoli-agricoltori",
-      "descrizione": "Il Fondo Internazionale per lo Sviluppo Agricolo (IFAD) ha aperto una call for proposals per selezionare un partner implementatore incaricato di sviluppare, adattare e testare sul campo moduli di intelligenza artificiale per i servizi di consulenza e assistenza agricola (AEAS) in quattro Paesi: Brasile, Messico, Sierra Leone e Costa d'Avorio. Il budget disponibile è compreso",
-      "scadenza": "29 maggio 2026",
-      "scaduto": true,
-      "donatore": "IFAD",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/ifad_hq-120x120.jpg"
     },
     {
       "titolo": "Bando CERV per l'attuazione della Carta dei diritti fondamentali UE",
@@ -258,27 +196,10 @@
       ],
       "tags": [
         "ambiente",
-        "donne",
-        "lavoro"
+        "giovani",
+        "lavoro",
+        "educazione"
       ]
-    },
-    {
-      "titolo": "Bando FAMI inclusione ed empowerment delle donne migranti",
-      "url": "https://www.info-cooperazione.it/2026/5/bando-fami-inclusione-ed-empowerment-delle-donne-migranti",
-      "descrizione": "La Direzione Generale per le Politiche migratorie e per l'inserimento sociale e lavorativo dei migranti del Ministero del lavoro e delle politiche sociali ha pubblicato il bando \"Favorire l’inclusione socio-lavorativa delle donne migranti\" e la loro emancipazione da condizioni di subalternità e isolamento che le rendono particolarmente esposte a marginalizzazione, violazioni dei diritti e abusi e",
-      "scadenza": "23 giugno 2026",
-      "scaduto": true,
-      "donatore": "Ministero del lavoro e delle politiche sociali",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/wall_donne-120x120.jpg"
-    },
-    {
-      "titolo": "Canada Fund for Local Initiatives",
-      "url": "https://www.info-cooperazione.it/2026/5/canada-fund-for-local-initiatives",
-      "descrizione": "Il Canada Fund for Local Initiatives (CFLI) è uno dei programmi di finanziamento per la cooperazione internazionale più capillari al mondo. Gestito da Global Affairs Canada — il Ministero degli Affari Esteri canadese — finanzia ogni anno circa 650 progetti di piccola scala a guida comunitaria nei Paesi in via di sviluppo, con un budget",
-      "scadenza": "22 maggio 2026",
-      "scaduto": true,
-      "donatore": "Governo del Canada",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/canada-fund-for-local-initiatives-120x120.png"
     },
     {
       "titolo": "Bandi Programma LIFE 2026",
@@ -296,42 +217,6 @@
       ]
     },
     {
-      "titolo": "Quinto bando del Due Diligence Fund",
-      "url": "https://www.info-cooperazione.it/2026/4/quinto-bando-del-due-diligence-fund",
-      "descrizione": "Il Due Diligence Fund (DDF) ha aperto il suo quinto ciclo di finanziamento, rivolto a partenariati innovativi che vogliono sviluppare approcci concreti e scalabili alla due diligence in materia di diritti umani e ambiente (HREDD) nelle filiere agricole globali. Il fondo è commissionato dal Ministero federale tedesco per la Cooperazione economica e lo Sviluppo (BMZ)",
-      "scadenza": "15 giugno 2026",
-      "scaduto": true,
-      "donatore": "Due Diligence Fund",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/due_diligence_fund_5-120x120.jpg"
-    },
-    {
-      "titolo": "Joint Innovation Facility Africa-Europa",
-      "url": "https://www.info-cooperazione.it/2026/4/joint-innovation-facility-africa-europa",
-      "descrizione": "Il Joint Innovation Facility (JIF) è un meccanismo di finanziamento e collaborazione Africa-Europa progettato per portare a scala soluzioni digitali commercialmente valide e con impatto positivo sul clima. Il programma è implementato nell'ambito dell'Africa-Europe Digital Innovation Bridge (AEDIB) e del Global Gateway Africa-Europe Investment Package dell'Unione Europea, ed è co-sviluppato dal Ministero federale tedesco per la",
-      "scadenza": "30 aprile 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/joint_innovation_facility-120x120.png"
-    },
-    {
-      "titolo": "Bando UNICEF per interventi WASH in Cisgiordania",
-      "url": "https://www.info-cooperazione.it/2026/4/bando-unicef-per-interventi-wash-in-cisgiordania",
-      "descrizione": "L'UNICEF ha pubblicato una Call for Expression of Interest per la selezione di partner ONG nazionali e locali incaricati di attuare interventi urgenti nel settore acqua, igiene e servizi sanitari — in inglese WASH (Water, Sanitation and Hygiene) — in Cisgiordania. Con un budget indicativo di 3 milioni di dollari, il programma risponde all'escalation di",
-      "scadenza": "07 maggio 2026",
-      "scaduto": true,
-      "donatore": "UNICEF",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/cisgiordania-1-120x120.jpg"
-    },
-    {
-      "titolo": "Aggiornamento bandi EuropeAid (Aprile 2026)",
-      "url": "https://www.info-cooperazione.it/2026/4/aggiornamento-bandi-europeaid-aprile-2026",
-      "descrizione": "Torna l’aggiornamento sui bandi paese aperti presso EuropeAid a livello globale e paese. Si tratta di bandi appartenenti a diversi programmi tematici dello strumento NDICI-Europa Globale come quelli relativi alle Organizzazioni della società civile e alle Autorità locali, lo European Instrument for Democracy and Human Rights (EIDHR) e il programma sul Vicinato Europeo. Vediamo nel dettaglio quali sono i",
-      "scadenza": "08 luglio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg"
-    },
-    {
       "titolo": "Al via l'edizione 2026 di \"Riprogettiamo il futuro\"",
       "url": "https://www.info-cooperazione.it/2026/4/al-via-ledizione-2026-di-riprogettiamo-il-futuro",
       "descrizione": "Fondazione Cariplo ha pubblicato il bando \"Riprogettiamo il futuro\", un programma intersettoriale rivolto agli enti non profit attivi nei settori dell'Ambiente, dell'Arte e della Cultura e dei Servizi alla Persona. Con una dotazione complessiva di 2.250.000 euro, il bando punta a sostenere la trasformazione organizzativa delle organizzazioni del Terzo Settore in un momento storico di",
@@ -340,42 +225,18 @@
       "donatore": "Fondazione Cariplo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/riprogettiamo_futuro_2026-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "cultura",
         "ambiente",
         "giovani",
+        "donne",
+        "migranti",
         "lavoro",
-        "ricerca"
+        "inclusione"
       ]
-    },
-    {
-      "titolo": "Migrazione e mobilità: aperto il bando del MMD Grant Facility",
-      "url": "https://www.info-cooperazione.it/2026/4/migrazione-e-mobilita-aperto-il-bando-del-mmd-grant-facility",
-      "descrizione": "È stato recentemente aperto il secondo bando del MMD Grant Facility, lo strumento finanziario del programma Africa-EU Migration and Mobility Dialogue (MMD) Support Programme, gestito dall'ICMPD e finanziato dalla Direzione Generale INTPA della Commissione Europea. Il fondo sostiene iniziative promosse da autorità locali, organizzazioni della società civile e organizzazioni della diaspora nel campo della migrazione e",
-      "scadenza": "01 maggio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/mmd_gran_facility-120x120.png"
-    },
-    {
-      "titolo": "West Africa Democracy Fund",
-      "url": "https://www.info-cooperazione.it/2026/4/west-africa-democracy-fund",
-      "descrizione": "TrustAfrica ha recentemente aperto il ciclo di candidature del West Africa Democracy Fund (WADF), un fondo dedicato al rafforzamento della governance democratica in Africa occidentale. Sostenuto da alcuni importanti finanziatori internazionali — tra cui Ford Foundation, MacArthur Foundation, Luminate Group, Open Society Foundations e Carnegie Corporation of New York — il WADF rappresenta un'opportunità concreta",
-      "scadenza": "30 aprile 2026",
-      "scaduto": true,
-      "donatore": "TrustAfrica",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/west_africa-120x120.jpg"
-    },
-    {
-      "titolo": "6 milioni dalla UE per la società civile in Etiopia",
-      "url": "https://www.info-cooperazione.it/2026/4/6-milioni-dalla-ue-per-la-societa-civile-in-etiopia",
-      "descrizione": "La Commissione Europea ha pubblicato un invito a presentare proposte progettuali rivolto alle organizzazioni della società civile (OSC) impegnate in Etiopia. Il bando, con una dotazione complessiva di quasi 6 milioni di euro, mira a rafforzare il ruolo delle OSC come attori indipendenti, resilienti e responsabili nel campo della governance inclusiva, dello sviluppo sostenibile e",
-      "scadenza": "13 maggio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/eu_etiopia-120x120.jpg"
     },
     {
       "titolo": "Horizon Europe: al via Africa Initiative IV per rafforzare la cooperazione UE–Africa",
@@ -393,50 +254,12 @@
         "cultura",
         "ambiente",
         "giovani",
-        "minori",
         "donne",
-        "migranti",
         "salute",
         "lavoro",
         "ricerca",
-        "inclusione"
+        "volontariato"
       ]
-    },
-    {
-      "titolo": "Generare conoscenza per ridurre le disuguaglianze",
-      "url": "https://www.info-cooperazione.it/2026/4/generare-conoscenza-per-ridurre-le-disuguaglianze",
-      "descrizione": "La Fondazione Cariplo ha pubblicato il bando “Inequalities Research – Generare conoscenza per ridurre le disuguaglianze”, un’iniziativa che mira a sostenere progetti di ricerca multidisciplinare dedicati all’analisi delle disuguaglianze e alla costruzione di società più inclusive. Il bando si inserisce nella linea strategica della Fondazione orientata alla riduzione delle diverse forme di povertà e fragilità, in",
-      "scadenza": "12 maggio 2026",
-      "scaduto": true,
-      "donatore": "Fondazione Cariplo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/inequality_research_cariplo-120x120.png"
-    },
-    {
-      "titolo": "Bando AICS per progetti umanitari in Giordania",
-      "url": "https://www.info-cooperazione.it/2026/4/bando-aics-per-progetti-umanitari-in-giordania",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo ha pubblicato un nuovo bando per il finanziamento di interventi di aiuto umanitario in Giordania, nell’ambito del programma di emergenza AID 013390. Il bando è rivolto a organizzazioni non profit con comprovata esperienza nel settore e mira a sostenere iniziative in contesti di vulnerabilità, con particolare attenzione alla protezione",
-      "scadenza": "01 giugno 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/minori_giordania-120x120.jpg"
-    },
-    {
-      "titolo": "Bando NOPLANETB per la biodiversità urbana",
-      "url": "https://www.info-cooperazione.it/2026/3/bando-noplanetb-per-la-biodiversita-urbana",
-      "descrizione": "Il programma NOPLANETB ha recentemente aperto un nuovo bando con l'obiettivo di contrastare la crisi climatica ed ecologica mettendo al centro la biodiversità urbana: quella straordinaria varietà di forme di vita (piante, animali, funghi e microrganismi) che popola e rende resilienti i contesti cittadini. \r\nNOPLANETB si impegna a sostenere progetti che sappiano trasformare questa sfida ambientale",
-      "scadenza": "24 aprile 2026",
-      "scaduto": true,
-      "donatore": "NOPLANETB",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/spazi_comuni-120x120.png"
-    },
-    {
-      "titolo": "Bando 2026 della Regione Friuli Venezia Giulia",
-      "url": "https://www.info-cooperazione.it/2026/3/bando-2026-della-regione-friuli-venezia-giulia",
-      "descrizione": "La Regione Friuli Venezia Giulia ha pubblicato il bando 2026 per l’erogazione di contributi in materia di cooperazione allo sviluppo, finalizzato al finanziamento di progetti promossi da enti pubblici e privati senza scopo di lucro. L’iniziativa si inserisce nel quadro della Legge regionale 30 ottobre 2000 n. 19, che sostiene interventi di cooperazione e partenariato",
-      "scadenza": "20 maggio 2025",
-      "scaduto": true,
-      "donatore": "Regione FVG",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2019/07/mondo-120x120.jpg"
     },
     {
       "titolo": "Cofinanziamento per programmi su competenze digitali",
@@ -447,77 +270,15 @@
       "donatore": "Fondo per la Repubblica Digitale",
       "img": "https://www.info-cooperazione.it/public/Immagini/2022/02/Repubblica-Digitale-720x283-120x120.jpg",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
-        "minori",
         "lavoro",
         "digitale",
+        "ricerca",
         "inclusione"
       ]
-    },
-    {
-      "titolo": "Bando a sostegno delle organizzazioni femminili in Etiopia",
-      "url": "https://www.info-cooperazione.it/2026/3/bando-a-sostegno-delle-organizzazioni-femminili-in-etiopia",
-      "descrizione": "È stato pubblicato un nuovo bando promosso dal Women’s Peace and Humanitarian Fund (WPHF) per sostenere organizzazioni della società civile attive in Etiopia, con particolare attenzione alle realtà guidate da donne e giovani donne. L’iniziativa si inserisce nel più ampio impegno internazionale per rafforzare il ruolo delle donne nei contesti di crisi e promuovere società",
-      "scadenza": "21 aprile 2026",
-      "scaduto": true,
-      "donatore": "UNWOMEN",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/bando-aics-displaced-afar-etiopia-120x120.jpg"
-    },
-    {
-      "titolo": "10 milioni per prevenire le dipendenze tra gli adolescenti",
-      "url": "https://www.info-cooperazione.it/2026/3/10-milioni-per-prevenire-le-dipendenze-tra-gli-adolescenti",
-      "descrizione": "È stato pubblicato il bando “Legami di libertà”, promosso dall’impresa sociale Con i Bambini nell’ambito del Fondo per il contrasto della povertà educativa minorile. L’iniziativa mette a disposizione complessivamente 10 milioni di euro per sostenere progetti rivolti a ragazzi e ragazze tra gli 11 e i 18 anni, con l’obiettivo di prevenire e contrastare le",
-      "scadenza": "21 maggio 2026",
-      "scaduto": true,
-      "donatore": "Con i Bambini",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/shutterstock_legami-di-liberta-1-120x120.jpg"
-    },
-    {
-      "titolo": "Bandi PRIMA 2026: nuove opportunità per ricerca e innovazione nel Mediterraneo",
-      "url": "https://www.info-cooperazione.it/2026/3/bandi-prima-2026-nuove-opportunita-per-ricerca-e-innovazione-nel-mediterraneo",
-      "descrizione": "È stato pubblicato il PRIMA Work Programme 2026, il programma annuale del partenariato PRIMA (Partnership for Research and Innovation in the Mediterranean Area), dedicato al finanziamento di progetti di ricerca e innovazione nei settori della gestione delle risorse idriche, dei sistemi agricoli e delle filiere agroalimentari.\r\nIl programma rappresenta il secondo piano operativo della partnership estesa",
-      "scadenza": "15 maggio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/prima_call_2026-120x120.jpg"
-    },
-    {
-      "titolo": "Premio UNESCO per l’Educazione delle ragazze e delle donne",
-      "url": "https://www.info-cooperazione.it/2026/3/premio-unesco-per-leducazione-delle-ragazze-e-delle-donne",
-      "descrizione": "Il Premio UNESCO per l’educazione delle donne e delle ragazze è dedicato a individui, istituzioni o organizzazioni che svolgono un lavoro straordinario nel promuovere approcci pedagogici innovativi che hanno al centro l’uguaglianza di genere. Nella pratica questo significa promuovere l’uguaglianza di genere nei curricula e nella pedagogia, creando ambienti di apprendimento sicuri, inclusivi e trasformativi, sostenendo collaborazioni",
-      "scadenza": "30 aprile 2026",
-      "scaduto": true,
-      "donatore": "UNESCO",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/unesco_prize-120x120.png"
-    },
-    {
-      "titolo": "Aggiornamento bandi EuropeAid (Marzo 2026)",
-      "url": "https://www.info-cooperazione.it/2026/3/aggiornamento-bandi-europeaid-marzo-2026",
-      "descrizione": "Torna l’aggiornamento sui bandi paese aperti presso EuropeAid a livello globale e paese. Si tratta di bandi appartenenti a diversi programmi tematici dello strumento NDICI-Europa Globale come quelli relativi alle Organizzazioni della società civile e alle Autorità locali, lo European Instrument for Democracy and Human Rights (EIDHR) e il programma sul Vicinato Europeo. Vediamo nel dettaglio quali sono i",
-      "scadenza": "04 giugno 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg"
-    },
-    {
-      "titolo": "Sostegno pluriennale per enti strategici e organizzazioni a rilevanza tematica",
-      "url": "https://www.info-cooperazione.it/2026/3/sostegno-pluriennale-per-enti-strategici-e-organizzazioni-a-rilevanza-tematica",
-      "descrizione": "La Fondazione Compagnia di San Paolo ha pubblicato le nuove Linee Guida per il sostegno a Enti strategici e a Enti con elevata rilevanza tematica, un’iniziativa che mira a rafforzare il ruolo delle organizzazioni del terzo settore impegnate nell’ambito sociale ed educativo. L’obiettivo è costruire alleanze stabili con enti che svolgono una funzione chiave nei",
-      "scadenza": "29 aprile 2026",
-      "scaduto": true,
-      "donatore": "Fondazione Compagnia di San Paolo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/linee_guida_fcsp-120x120.png"
-    },
-    {
-      "titolo": "Bandi 2026 della Regione Emilia Romagna",
-      "url": "https://www.info-cooperazione.it/2026/3/bandi-2026-della-regione-emilia-romagna",
-      "descrizione": "La Regione Emilia Romagna mette a disposizione risorse per progetti di cooperazione internazionale  e progetti di emergenza e aiuto umanitario in Ucraina e Palestina. Entrambi gli avvisi sono rivolti a enti locali, organizzazioni della società civile (OSC), organizzazioni di volontariato, associazioni di promozione sociale, cooperative sociali, altri enti del terzo settore (ETS) non commerciali.\r\nBando Cooperazione",
-      "scadenza": "27 aprile 2026",
-      "scaduto": true,
-      "donatore": "Regione Emilia Romagna",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/ocpi-piano-mattei-120x120.png"
     },
     {
       "titolo": "Grant per rafforzare democrazia e società civile nei Balcani",
@@ -529,41 +290,15 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/efb-120x120.png",
       "territorio": [
         "nazionale",
-        "regionale"
+        "regionale",
+        "Europa"
       ],
       "tags": [
         "ambiente",
-        "giovani",
-        "migranti",
-        "lavoro"
+        "lavoro",
+        "digitale",
+        "ricerca"
       ]
-    },
-    {
-      "titolo": "Youth Empowerment Fund 2026",
-      "url": "https://www.info-cooperazione.it/2026/3/youth-empowerment-fund-2026",
-      "descrizione": "È aperto il nuovo bando Youth Empowerment Fund 2026 (YEF), un’iniziativa internazionale che mira a sostenere progetti guidati da giovani capaci di generare impatto sociale, ambientale ed economico a livello locale. Il fondo è promosso dall’European Union in collaborazione con Global Youth Mobilization, una piattaforma internazionale guidata dalle principali organizzazioni giovanili globali. L’obiettivo del programma",
-      "scadenza": "31 marzo 2026",
-      "scaduto": true,
-      "donatore": "Youth Empowerment Fund",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/yef_2026-120x120.png"
-    },
-    {
-      "titolo": "UNDP lancia una call alla società civile per sostenere la ripresa a Gaza",
-      "url": "https://www.info-cooperazione.it/2026/3/undp-lancia-una-call-alla-societa-civile-per-sostenere-la-ripresa-a-gaza",
-      "descrizione": "Il Programma delle Nazioni Unite per lo Sviluppo (UNDP) ha aperto una nuova call rivolta alle organizzazioni della società civile per sostenere iniziative di early recovery, resilienza comunitaria e benessere sociale nella Striscia di Gaza. Il bando intende promuovere progetti capaci di rispondere ai bisogni immediati della popolazione colpita dalla crisi, favorendo al tempo stesso",
-      "scadenza": "31 marzo 2026",
-      "scaduto": true,
-      "donatore": "UNDP",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/aiuti-gaza-humanitarian-gaza-foundation-120x120.png"
-    },
-    {
-      "titolo": "Bando AICS per interventi umanitari in Etiopia",
-      "url": "https://www.info-cooperazione.it/2026/3/bando-aics-per-interventi-umanitari-in-etiopia",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato un bando per rafforzare la risposta umanitaria in Etiopia attraverso interventi rivolti alle popolazioni colpite da conflitti, sfollamenti e shock climatici. L’obiettivo generale è mitigare gli effetti di crisi multiple e rafforzare il nesso tra azione umanitaria, sviluppo e pace nelle aree più vulnerabili del",
-      "scadenza": "13 aprile 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2023/10/bando-ue-etiopia-sicurezza-alimentare-120x120.png"
     },
     {
       "titolo": "Compagnia di San Paolo: contributi per lo sviluppo organizzativo del Terzo Settore",
@@ -574,322 +309,13 @@
       "donatore": "Fondazione Compagnia di San Paolo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/next-gen-you-head-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "minori",
-        "lavoro",
-        "digitale"
-      ]
-    },
-    {
-      "titolo": "Nuovo bando CERV per promuovere partecipazione civica e diritti dei cittadini",
-      "url": "https://www.info-cooperazione.it/2026/3/nuovo-bando-cerv-per-promuovere-partecipazione-civica-e-diritti-dei-cittadini",
-      "descrizione": "La Commissione europea ha pubblicato il nuovo bando CERV-2026-CITIZENS-CIV, nell’ambito del programma Citizens, Equality, Rights and Values (CERV), con l’obiettivo di rafforzare la partecipazione democratica, il coinvolgimento civico e la tutela dei valori fondamentali dell’Unione europea. Il bando sostiene progetti transnazionali capaci di promuovere la cittadinanza attiva, la partecipazione ai processi decisionali europei e il",
-      "scadenza": "29 aprile 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/cerv_call-120x120.jpg"
-    },
-    {
-      "titolo": "Affidato AICS sulla violenza di genere in Kenya",
-      "url": "https://www.info-cooperazione.it/2026/3/affidato-aics-sulla-violenza-di-genere-in-kenya",
-      "descrizione": "La Sede Regionale AICS di Nairobi ha pubblicato un bando per l'affidamento dell'Iniziativa PEACE \"Promuovere Equità, Ascolto, Consapevolezza ed Engagement Comunitario\" (Codice AID 013184011), che mira a rafforzare i servizi di salute mentale a livello comunitario in Kenya, focalizzandosi sulle sopravvissute a violenze di genere (GBV).\r\nLa violenza di genere (Gender-based violence - GBV) rappresenta una",
-      "scadenza": "27 aprile 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/kenya_violenza_genere-120x120.jpg"
-    },
-    {
-      "titolo": "Quarto bando della European Urban Initiative",
-      "url": "https://www.info-cooperazione.it/2026/3/quarto-bando-della-european-urban-initiative",
-      "descrizione": "Pubblicato ufficialmente il quarto bando per azioni innovative (EUI-IA) dell’European Urban Initiative, lo strumento finanziato dal Fondo europeo di sviluppo regionale (FESR) che sostiene le città nello sviluppo e nella sperimentazione di soluzioni innovative per affrontare sfide urbane complesse. Con un budget di circa 60 milioni di euro, il bando sostiene le città europee nella",
-      "scadenza": "15 giugno 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/eui-120x120.png"
-    },
-    {
-      "titolo": "Bando AICS HealthPro in Sudan",
-      "url": "https://www.info-cooperazione.it/2026/2/bando-aics-healthpro-in-sudan",
-      "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo ha pubblicato le Linee Guida per il Bando Grant02HealthPro2, nell'ambito del programma \"HealthPro Phase II – Primary Health Care Provision for Vulnerable Populations Affected by Food Insecurity and Malnutrition in 3 Targeted States, Sudan\". Il bando ha l'obiettivo di migliorare la salute dei gruppi colpiti da povertà, fame",
-      "scadenza": "22 maggio 2026",
-      "scaduto": true,
-      "donatore": "AICS/UE",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/bando-sud-sudan-730x310-120x120.jpg"
-    },
-    {
-      "titolo": "Bando Prospettive+",
-      "url": "https://www.info-cooperazione.it/2026/2/bando-prospettive",
-      "descrizione": "Il mercato del lavoro in Italia è caratterizzato da un tasso di occupazione complessivo pari al 62,6%, ancora tra i più bassi in Europa, dove la media si attesta al 76,2%, e da una forte presenza di inattivi. Rispetto ai Paesi dell’Ue, l’Italia presenta infatti un alto tasso di inattività in età lavorativa (33,5%), che",
-      "scadenza": "15 maggio 2026",
-      "scaduto": true,
-      "donatore": "Fondo per la Repubblica Digitale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/prospettive-120x120.png"
-    },
-    {
-      "titolo": "Contributi MAECI per progetti di scambio giovanili",
-      "url": "https://www.info-cooperazione.it/2026/2/contributi-maeci-per-progetti-di-scambio-giovanili",
-      "descrizione": "Il Ministero degli Affari Esteri e della Cooperazione Internazionale (MAECI) eroga annualmente dei contributi per il cofinanziamento di progetti di Scambi Giovanili. Dal 2016 i contributi sono erogati sulla base di un bando che viene pubblicato annualmente su questa pagina e che consigliamo di leggere attentamente.I contributi sono offerti a progetti volti alla realizzazione di percorsi",
-      "scadenza": "06 marzo 2026",
-      "scaduto": true,
-      "donatore": "MAECI",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/scambi_maeci-120x120.jpg"
-    },
-    {
-      "titolo": "Bando ACT 2026",
-      "url": "https://www.info-cooperazione.it/2026/2/bando-act-2026",
-      "descrizione": "La Fondazione Unipolis promuove la terza edizione del Bando ACT – Aspirare. Coinvolgere. Trasformare. per contribuire a realizzare nel Paese una società maggiormente coesa, equa e solidale, sostenendo le persone che vivono situazione di fragilità nella creazione e nell’accesso a opportunità orientate all’autonomia, ai diritti, al benessere personale e collettivo.\r\n\r\nLa Fondazione stanzia 450 mila euro per sostenere progetti presentati da organizzazioni",
-      "scadenza": "09 aprile 2026",
-      "scaduto": true,
-      "donatore": "Fondazione Unipolis",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/bando-act-2026-120x120.png"
-    },
-    {
-      "titolo": "4 progetti finanziati dal bando Fondo Globale 2025",
-      "url": "https://www.info-cooperazione.it/2026/2/4-progetti-finanziati-dal-bando-fondo-globale-2025",
-      "descrizione": "AICS ha pubblicato la graduatoria finale del bando per la concessione di contributi a “Iniziative sinergiche” proposte da OSC, Università ed Enti Pubblici di Ricerca nel Quadro del Technical Support Spending al Fondo Globale per la lotta all’AIDS, alla tubercolosi e alla malaria.”- Dotazione finanziaria 2025.\r\n\r\nSo quattro i progetti che saranno co-finanziati con la dotazione finanziaria di 3.100.000",
-      "scadenza": "",
-      "scaduto": false,
-      "donatore": "",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2021/07/zanzare-malaria-africa-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "lavoro",
-        "ricerca"
-      ]
-    },
-    {
-      "titolo": "UNESCO Participation Programme",
-      "url": "https://www.info-cooperazione.it/2026/2/unesco-participation-programme",
-      "descrizione": "Il Participation Programme di UNESCO rappresenta uno degli strumenti attraverso cui l’Organizzazione sostiene l’attuazione di iniziative nazionali, subregionali, regionali e interregionali coerenti con il proprio mandato in ambito educativo, scientifico, culturale e della comunicazione. Per il biennio 2026–2027, il programma si conferma un meccanismo complementare al Programma Regolare UNESCO, con l’obiettivo di rafforzare la cooperazione",
-      "scadenza": "27 febbraio 2026",
-      "scaduto": true,
-      "donatore": "UNESCO",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/unesco-120x120.png"
-    },
-    {
-      "titolo": "Call for African Urban Innovations",
-      "url": "https://www.info-cooperazione.it/2026/2/call-for-african-urban-innovations",
-      "descrizione": "Million Lives Collective ha lanciato la Call for African Urban Innovations, un’iniziativa rivolta a innovatori, imprenditori sociali e organizzazioni della società civile impegnate ad affrontare le principali sfide urbane nelle città dell’Africa subsahariana. In un contesto segnato da una rapida urbanizzazione – che vedrà la popolazione urbana africana raddoppiare entro il 2050 – il bando",
-      "scadenza": "31 marzo 2026",
-      "scaduto": true,
-      "donatore": "Million Lives Collective",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/african-innovation-120x120.png"
-    },
-    {
-      "titolo": "Bando Nature Calling della Fondazione Cariplo",
-      "url": "https://www.info-cooperazione.it/2026/2/bando-nature-calling-della-fondazione-cariplo-a7d09ef1-a59905fb-5df6c83c",
-      "descrizione": "“Nature calling” è il nuovo bando pubblicato dall’Area Ambiente di Fondazione Cariplo nell’ambito della Linea di mandato 2 “Ridurre le disuguaglianze intervenendo sulle diverse forme di povertà e fragilità”. Coinvolgendo i ragazzi e le ragazze della scuola secondaria di primo grado, il bando intende contribuire a diffondere e radicare una cultura di tutela della biodiversità",
-      "scadenza": "18 marzo 2026",
-      "scaduto": true,
-      "donatore": "Fondazione Cariplo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/nature-calling-120x120.png"
-    },
-    {
-      "titolo": "Bando per progetti di assistenza alle vittime di tratta",
-      "url": "https://www.info-cooperazione.it/2026/2/bando-per-progetti-di-assistenza-alle-vittime-di-tratta",
-      "descrizione": "Il United Nations Voluntary Trust Fund for Victims of Trafficking in Persons (UNVTF) ha lanciato il decimo ciclo del suo Small Grants Programme, un bando globale rivolto alle organizzazioni della società civile impegnate nell’assistenza diretta alle vittime di tratta di esseri umani, con particolare attenzione a donne, bambini e gruppi maggiormente esclusi. Gestito da UNODC,",
-      "scadenza": "28 febbraio 2026",
-      "scaduto": true,
-      "donatore": "UNVTF",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/fondo-UN-tratta-esseri-umani-120x120.png"
-    },
-    {
-      "titolo": "Sostegno alle ONG locali per acquisire terre protette",
-      "url": "https://www.info-cooperazione.it/2026/2/sostegno-alle-ong-locali-per-acquisire-terre-protette",
-      "descrizione": "IUCN invita le ONG e le organizzazioni della società civile locali in Africa, Asia, America Latina e Pacifico a presentare proposte per l’acquisto o l’affitto a lungo termine di aree naturali minacciate, la creazione di riserve sicure e la connessione di habitat per specie vulnerabili o in pericolo. ​ \r\nDal 2001 il Land Acquisition Fund",
-      "scadenza": "01 maggio 2026",
-      "scaduto": true,
-      "donatore": "IUCN",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/iucn-land-120x120.jpg"
-    },
-    {
-      "titolo": "Violenza di genere e sui minori in Ucraina",
-      "url": "https://www.info-cooperazione.it/2026/2/violenza-di-genere-e-sui-minori-in-ucraina",
-      "descrizione": "UNICEF ha aperto una Call for Expressions of Interest per l’individuazione di consorzi guidati da organizzazioni femminili locali chiamati a implementare un programma integrato di prevenzione e risposta alla violenza di genere (GBV) e alla violenza contro bambini e adolescenti (VAC) in Ucraina. L’iniziativa si inserisce nel quadro del Comprehensive Community Recovery Programme di UNICEF e",
-      "scadenza": "25 febbraio 2026",
-      "scaduto": true,
-      "donatore": "UNICEF",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/02/gender-children-ucraina-120x120.jpg"
-    },
-    {
-      "titolo": "Aggiornamento bandi EuropeAid (Febbraio 2026)",
-      "url": "https://www.info-cooperazione.it/2026/1/aggiornamento-bandi-europeaid-febbraio-2026",
-      "descrizione": "Torna l’aggiornamento sui bandi paese aperti presso EuropeAid a livello globale e paese. Si tratta di bandi appartenenti a diversi programmi tematici dello strumento NDICI-Europa Globale come quelli relativi alle Organizzazioni della società civile e alle Autorità locali, lo European Instrument for Democracy and Human Rights (EIDHR) e il programma sul Vicinato Europeo. Vediamo nel dettaglio quali sono i",
-      "scadenza": "30 aprile 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg"
-    },
-    {
-      "titolo": "Bando CERV Gender Equality",
-      "url": "https://www.info-cooperazione.it/2026/1/bando-cerv-gender-equality",
-      "descrizione": "E' stato appena pubblicato dalla Commissione Europea il bando Gender Equality 2026, finanziato nell’ambito del programma CERV (Citizens, Equality, Rights and Values). Con una dotazione complessiva di 23 milioni di euro, la call mira a sostenere e rafforzare politiche e interventi volti a garantire il pieno godimento dei diritti delle donne, la parità di genere",
-      "scadenza": "28 aprile 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/01/gender-eqaulity-120x120.png"
-    },
-    {
-      "titolo": "Bando Unicef per la protezione dell’infanzia in Brasile",
-      "url": "https://www.info-cooperazione.it/2026/1/bando-unicef-per-la-protezione-dellinfanzia-in-brasile",
-      "descrizione": "UNICEF ha pubblicato una Call for Expressions of Interest (EOI) finalizzata a rafforzare i sistemi di protezione dell’infanzia e dell’adolescenza nel nord del Brasile (Stato del Pará), uno dei contesti più complessi del Paese in termini di violenza contro minori,  L’iniziativa si inserisce nel quadro delle azioni portate avanti da UNICEF per prevenire e contrastare",
-      "scadenza": "22 febbraio 2026",
-      "scaduto": true,
-      "donatore": "UNICEF",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/01/brasile-indanzia-120x120.jpg"
-    },
-    {
-      "titolo": "Ambiente e pace nei contesti fragili",
-      "url": "https://www.info-cooperazione.it/2026/1/ambiente-e-pace-nei-contesti-fragili",
-      "descrizione": "La PeaceNexus Foundation ha lanciato l’Environment and Peace International Grant Program, un programma di finanziamento e accompagnamento organizzativo rivolto a organizzazioni ambientali internazionali che operano in contesti fragili e colpiti da conflitti. L’iniziativa nasce dalla consapevolezza che interventi su biodiversità, clima e risorse naturali, se non adeguatamente progettati, possono involontariamente aggravare tensioni sociali e dinamiche",
-      "scadenza": "16 febbraio 2026",
-      "scaduto": true,
-      "donatore": "PeaceNexus Foundation",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/01/peacenexus-120x120.png"
-    },
-    {
-      "titolo": "Partenariati di cooperazione nel settore giovanile",
-      "url": "https://www.info-cooperazione.it/2026/1/partenariati-di-cooperazione-nel-settore-giovanile",
-      "descrizione": "La Commissione europea ha pubblicato un nuovo bando nell’ambito del programma Erasmus+, dedicato ai Cooperation Partnerships in the Field of Youth, con l’obiettivo di rafforzare il ruolo delle ONG europee nel settore giovanile attraverso partenariati transnazionali, innovazione e scambio di buone pratiche. Il bando rappresenta un’opportunità rilevante per le organizzazioni che operano a livello europeo",
-      "scadenza": "05 marzo 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/01/youth-cooperation-ngo-erasmus-120x120.jpg"
-    },
-    {
-      "titolo": "Microprogetti otto per mille Luterano",
-      "url": "https://www.info-cooperazione.it/2026/1/microprogetti-otto-per-mille-luterano",
-      "descrizione": "Attraverso i fondi ripartiti dall'otto per mille, la Chiesa Evangelica Luterana in Italia concorre a sostenere attività di rilievo sociale, educativo e culturale realizzate dalla diaconia luterana o da soggetti terzi. Il bando recentemente aperto, alla sua terza edizione, finanzia interventi sociali, assistenziali, umanitari e culturali proposti da Organizzazioni associative culturali, sociali, assistenziali e comunque",
-      "scadenza": "02 febbraio 2026",
-      "scaduto": true,
-      "donatore": "Chiesa Evangelica Luterana",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/01/otto-per-mille-luterano-120x120.png"
-    },
-    {
-      "titolo": "Intervento umanitario multisettoriale in Afghanistan",
-      "url": "https://www.info-cooperazione.it/2026/1/intervento-umanitario-multisettoriale-in-afghanistan",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS), attraverso la Sede di Islamabad, ha pubblicato un bando per la selezione di progetti di aiuto umanitario multisettoriale in risposta alla crisi umanitaria protratta in Afghanistan (Iniziativa AID 013365/01/0), per un importo complessivo pari a 7 milioni di euro. Il bando si inserisce nel quadro dell’impegno italiano a",
-      "scadenza": "08 febbraio 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/10/emergenza-afghanistan-120x120.png"
-    },
-    {
-      "titolo": "60 nuovi progetti finanziati dal bando \"Riprogettiamo il futuro\"",
-      "url": "https://www.info-cooperazione.it/2026/1/60-nuovi-progetti-finanziati-dal-bando-riprogettiamo-il-futuro",
-      "descrizione": "La Fondazione Cariplo ha pubblicato gli esiti del bando \"Riprogettiamo il Futuro\", con l’obiettivo di sostenere il rafforzamento organizzativo degli enti non profit nei settori dell’ambiente, della cultura e dei servizi alla persona. L’iniziativa rientra nella Linea di mandato della Fondazione, dedicata alla creazione di condizioni abilitanti per il rafforzamento delle comunità e della società",
-      "scadenza": "",
-      "scaduto": false,
-      "donatore": "",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/riprogettiamo-futuro-bando-2025-120x120.png",
-      "territorio": [
         "nazionale"
       ],
       "tags": [
         "cultura",
-        "ambiente",
         "lavoro",
-        "digitale",
-        "ricerca",
-        "volontariato"
+        "digitale"
       ]
-    },
-    {
-      "titolo": "Iniziativa AICS per la crisi dei Grandi Laghi in Uganda e Burundi",
-      "url": "https://www.info-cooperazione.it/2026/1/iniziativa-aics-per-la-crisi-dei-grandi-laghi-in-uganda-e-burundi",
-      "descrizione": "La Sede di Kampala dell’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha lanciato una Call for Proposals per selezionare progetti di emergenza nella regione dei Grandi Laghi, specificamente in Uganda e Burundi, nell’ambito dell’iniziativa “Intervento di risposta regionale alla crisi dei Grandi Laghi: Uganda e Burundi”.\r\nObiettivi del bando\r\nL’iniziativa risponde alla grave crisi umanitaria generata dal",
-      "scadenza": "27 febbraio 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/AICS-arcobaleno-120x120.png"
-    },
-    {
-      "titolo": "Bando Simbiosi 2026",
-      "url": "https://www.info-cooperazione.it/2026/1/bando-simbiosi-2026",
-      "descrizione": "La Fondazione Compagnia di San Paolo ha pubblicato l’edizione 2026 di \"Simbiosi - Insieme alla natura per il futuro del Pianeta\", nell’ambito della Missione Proteggere l’Ambiente della fondazione. Il bando si inserisce in una strategia pluriennale volta a valorizzare ecosistemi e risorse naturali dei territori, promuovendo una cultura condivisa di rispetto e cura dell’ambiente. L’iniziativa si rivolge a enti pubblici e",
-      "scadenza": "27 febbraio 2026",
-      "scaduto": true,
-      "donatore": "Fondazione Compagnia di San Paolo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/01/simbiosi-head-120x120.png"
-    },
-    {
-      "titolo": "Bando CERV \"Reti di città\"",
-      "url": "https://www.info-cooperazione.it/2025/12/bando-cerv-reti-di-citta",
-      "descrizione": "E' stato recentemente pubblicato il bando 2026 per Reti di città nell’ambito del Programma CERV 2026-2027 - Cittadini, Uguaglianza, Diritti e Valori. (CERV). La call mette a disposizione 12 milioni di euro per finanziare progetti transnazionali orientati alle seguenti priorità:\r\n\r\nIncoraggiare l'impegno, la partecipazione e il coinvolgimento democratico dei cittadini a livello locale, nazionale e dell'UE, promuovendo la cittadinanza dell'UE, i valori condivisi e gli",
-      "scadenza": "16 aprile 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando_town_twinnings-cerv-2025-120x120.jpg"
-    },
-    {
-      "titolo": "Bando emergenza AICS in Libano",
-      "url": "https://www.info-cooperazione.it/2025/12/bando-emergenza-aics-in-libano",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS), attraverso la Sede di Beirut, ha pubblicato una nuova Call for Proposals nell’ambito dell’Iniziativa di Emergenza nei Settori Educazione, Protezione e Livelihoods (AID 13328.0.1.0). Il bando mira a finanziare interventi di emergenza volti a garantire l’accesso a servizi essenziali e a rafforzare la resilienza delle popolazioni più",
-      "scadenza": "16 febbraio 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/10/libano-aiuti-umanitari-120x120.jpg"
-    },
-    {
-      "titolo": "Bando per progetti di ricerca e innovazione sull’agroecologia",
-      "url": "https://www.info-cooperazione.it/2025/12/bando-per-progetti-di-ricerca-e-innovazione-sullagroecologia",
-      "descrizione": "La nuova co-funded call dell’Agroecology Partnership offre un’importante opportunità per progetti di ricerca e innovazione sull’agroecologia. Il bando sostiene iniziative transnazionali che puntano a rafforzare la sostenibilità dei sistemi agricoli tramite biodiversità genetica e pratiche agroecologiche guidate dagli agricoltori. Questa terza call dell’Agroecology Partnership mira a finanziare progetti che accelerino la transizione agroecologica in Europa",
-      "scadenza": "18 febbraio 2026",
-      "scaduto": true,
-      "donatore": "Agroecology Partnership",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/agroecology-partnership-120x120.png"
-    },
-    {
-      "titolo": "Capacity building per il supporto alle vittime di violenza di genere",
-      "url": "https://www.info-cooperazione.it/2025/12/capacity-building-per-il-supporto-alle-vittime-di-violenza-di-genere",
-      "descrizione": "Victim Support Europe (VSE) ha lanciato una nuova call for proposals rivolta alle organizzazioni non profit che lavorano direttamente con vittime di violenza di genere (GBV), violenza domestica (DV) e violenza da partner intimo (IPV). Il bando si inserisce nel progetto 2Gether4Victims (2G4V), un’iniziativa pan-europea cofinanziata dalla Commissione europea nell’ambito del programma CERV.\r\nL’obiettivo dell’iniziativa è",
-      "scadenza": "15 gennaio 2026",
-      "scaduto": true,
-      "donatore": "Victim Support Europe",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/2gether-4victims-120x120.png"
-    },
-    {
-      "titolo": "Accelerare la localizzazione in Africa orientale",
-      "url": "https://www.info-cooperazione.it/2025/12/accelerare-la-localizzazione-in-africa-orientale",
-      "descrizione": "È aperto il Mama Hope Localization Development Accelerator (LDA) Program, un’iniziativa dedicata al rafforzamento delle capacità organizzative delle realtà locali dell’Africa orientale. Il programma si rivolge a piccole organizzazioni guidate localmente, con l’obiettivo di sostenere processi di localizzazione dell’aiuto, migliorare i sistemi interni e costruire una maggiore resilienza organizzativa nel lungo periodo.\r\n\r\nObiettivi del programma\r\nIl Localization",
-      "scadenza": "10 gennaio 2026",
-      "scaduto": true,
-      "donatore": "Mama Hope",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/lda-program-120x120.png"
-    },
-    {
-      "titolo": "Integrazione dei migranti e sfruttamento lavorativo",
-      "url": "https://www.info-cooperazione.it/2025/12/integrazione-dei-migranti-e-sfruttamento-lavorativo",
-      "descrizione": "Il Ministero del Lavoro e delle Politiche Sociali – Direzione Generale per le Politiche migratorie e per l’inserimento sociale e lavorativo dei migranti, ha pubblicato un avviso pubblico per la presentazione di progetti da finanziare a valere sul Fondo Asilo, Migrazione e Integrazione 2021-2027 (Obiettivo Specifico 2 Migrazione legale e Integrazione, Misura di attuazione 2.d, Ambito",
-      "scadenza": "03 marzo 2026",
-      "scaduto": true,
-      "donatore": "FAMI",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/caporalato-120x120.jpg"
-    },
-    {
-      "titolo": "Sostegno alla ricerca e innovazione agricola in America Latina",
-      "url": "https://www.info-cooperazione.it/2025/12/sostegno-alla-ricerca-e-innovazione-agricola-in-america-latina",
-      "descrizione": "Il fondo di investimento strategico e co-finanziamento FONTAGRO ha pubblicato la Call for Proposals 2026, una nuova opportunità rivolta a consorzi di ricerca, sviluppo e innovazione attivi nei sistemi agroalimentari dell’America Latina e dei Caraibi. L’obiettivo è selezionare progetti regionali capaci di aumentare produttività, redditività e competitività del settore agroalimentare, riducendo al contempo l’impatto ambientale",
-      "scadenza": "30 marzo 2026",
-      "scaduto": true,
-      "donatore": "FONTAGRO",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/fontagro-2026-120x120.png"
-    },
-    {
-      "titolo": "Sviluppo rurale inclusivo e sostenibile in Albania",
-      "url": "https://www.info-cooperazione.it/2025/12/sviluppo-rurale-inclusivo-e-sostenibile-in-albania",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) – Sede di Tirana ha pubblicato il bando per l’affidamento dell’iniziativa “Sviluppo rurale inclusivo e sostenibile nel Nord dell’Albania”, con l’obiettivo di rafforzare lo sviluppo economico, sociale e ambientale delle comunità rurali nelle regioni di Shkoder, Lezhe e Kukes.\r\nObiettivi del bando\r\nL’iniziativa mira a promuovere uno sviluppo rurale",
-      "scadenza": "30 gennaio 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/turismo-eco-albania-120x120.jpg"
     },
     {
       "titolo": "Ecco il calendario delle call 2026 del Programma CERV",
@@ -900,52 +326,14 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/cerv-programme-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
-        "ambiente",
         "giovani",
-        "salute",
         "lavoro",
+        "educazione",
         "ricerca"
       ]
-    },
-    {
-      "titolo": "Bando Small Grant della International Climate Initiative",
-      "url": "https://www.info-cooperazione.it/2025/12/bando-small-grant-della-international-climate-initiative",
-      "descrizione": "Dall’avvio del programma nel 2019, l'International Climate Initiative (IKI) del governo tedesco ha finanziato oltre 250 progetti su larga scala che supportano l'attuazione sia della Convenzione quadro sui cambiamenti climatici (UNFCCC) delle Nazioni Unite così come la Convenzione sulla diversità biologica (CBD) nell'affrontare la perdita globale di biodiversità (Obiettivi di Aichi e obiettivi del Global",
-      "scadenza": "15 gennaio 2026",
-      "scaduto": true,
-      "donatore": "International Climate Initiative",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2023/01/IKI-Small-Grants-Call-7-EN.jpg.pagespeed.ce_.pUUXbfA3TE-120x120.jpg"
-    },
-    {
-      "titolo": "Climate Action Engagement Fund",
-      "url": "https://www.info-cooperazione.it/2025/12/climate-action-engagement-fund",
-      "descrizione": "Il Climate Action Engagement Fund offre un sostegno finanziario alle organizzazioni della società civile e ai gruppi di base attivi nell’UE, nei Balcani occidentali e in Turchia per promuovere la giustizia climatica e una transizione giusta. Il bando supporta iniziative di coinvolgimento pubblico, advocacy, campaigning e azioni climatiche inclusive nell'ambito di un progetto co-finanziato dal programma",
-      "scadenza": "26 gennaio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/can-europe-call-2026-120x120.png"
-    },
-    {
-      "titolo": "Bando 2026 del Corpo Europeo di Solidarietà",
-      "url": "https://www.info-cooperazione.it/2025/12/bando-2026-del-corpo-europeo-di-solidarieta",
-      "descrizione": "La Commissione Europea ha pubblicato il bando 2026 del Corpo Europeo di Solidarietà, che sostiene la partecipazione dei giovani ad attività di solidarietà e volontariato in tutta l’UE e oltre. Il budget di 175,3 milioni di euro supera i 166 milioni di euro del 2025, un aumento significativo di risorse che giunge in occasione di",
-      "scadenza": "18 febbraio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/25_Website_News_ESC@2x-120x120.jpg"
-    },
-    {
-      "titolo": "Bando AICS per l’accesso ai servizi di base in Libia",
-      "url": "https://www.info-cooperazione.it/2025/12/bando-aics-per-laccesso-ai-servizi-di-base-in-libia",
-      "descrizione": "La Sede di Tunisi dell’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato una Call for Proposals per selezionare progetti di emergenza volti a migliorare l’accesso ai servizi di base per la popolazione più vulnerabile in Libia, nell’ambito dell’iniziativa “Risposta multisettoriale per aumentare le possibilità di accesso ai servizi di base per la popolazione",
-      "scadenza": "31 gennaio 2026",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/profughi-sudan-in-libia-120x120.png"
     },
     {
       "titolo": "Da Con i bambini 10 milioni per iniziative in cofinanziamento",
@@ -961,189 +349,8 @@
       ],
       "tags": [
         "minori",
-        "salute",
         "lavoro"
       ]
-    },
-    {
-      "titolo": "Bando Edu-Fund Platform di UniCredit Foundation",
-      "url": "https://www.info-cooperazione.it/2025/11/bando-edu-fund-platform-di-unicredit-foundation",
-      "descrizione": "UniCredit Foundation ha lanciato il bando \"UCF Edu-Fund Platform\", un'iniziativa  che ha l'obiettivo di combattere la povertà educativa e sostenere la crescita delle competenze tra gli studenti di scuole secondarie inferiori e superiori, di età compresa tra 11 e 19 anni. Il bando si rivolge a organizzazioni non profit che operano in diversi Paesi europei,",
-      "scadenza": "16 febbraio 2026",
-      "scaduto": true,
-      "donatore": "UniCredit Foundation",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/10/scuola-120x120.png"
-    },
-    {
-      "titolo": "Linee guida per il bando Otto per mille Valdese 2026",
-      "url": "https://www.info-cooperazione.it/2025/11/linee-guida-per-il-bando-otto-per-mille-valdese-2026",
-      "descrizione": "Sono state pubblicate le nuove linee guida per partecipare al bando 2026 dell’Otto per Mille Valdese con il quale la Chiesa Evangelica Valdese concorre, come altre confessioni religiose, alla ripartizione dei fondi Otto per Mille IRPEF e ha scelto di destinare tutti i contributi ad essa spettanti esclusivamente al sostegno di interventi sia in Italia che all’estero. Ogni",
-      "scadenza": "30 gennaio 2026",
-      "scaduto": true,
-      "donatore": "Otto per mille Valdese",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/linee-guida-26-opm-valdese-120x120.jpg"
-    },
-    {
-      "titolo": "Azioni di sensibilizzazione per la settimana contro il razzismo",
-      "url": "https://www.info-cooperazione.it/2025/11/azioni-di-sensibilizzazione-per-la-settimana-contro-il-razzismo",
-      "descrizione": "L’UNAR – Ufficio Nazionale Antidiscriminazioni Razziali della Presidenza del Consiglio – ha pubblicato l’avviso per sostenere nuove iniziative nell’ambito della XXII Settimana di azione contro il razzismo, in programma dal 14 al 22 marzo 2026, con un’attenzione particolare alla giornata del 21 marzo, ricorrenza internazionale contro la discriminazione razziale.\r\nIl bando mette a disposizione 350.000 euro",
-      "scadenza": "12 dicembre 2025",
-      "scaduto": true,
-      "donatore": "UNAR",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/Logo-2025_XXI_settimana_no_razzismo_01-120x120.jpg"
-    },
-    {
-      "titolo": "AU–EU Youth Action Lab per scambi giovanili tra Europa e Africa",
-      "url": "https://www.info-cooperazione.it/2025/11/au-eu-youth-action-lab-per-scambi-giovanili-tra-europa-e-africa",
-      "descrizione": "È aperta la seconda call del programma AU–EU Youth Action Lab, un’iniziativa congiunta dell’Unione Africana e dell’Unione Europea pensata per sostenere le organizzazioni giovanili impegnate nel cambiamento sociale. Il nuovo bando finanzia Cooperation Grants destinati a progetti guidati da giovani e sviluppati in partenariati tra Europa e Africa per costruire collaborazioni transcontinentali, influenzare le politiche pubbliche",
-      "scadenza": "12 febbraio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/AU-EU-Youth-Lab-Programme-120x120.png"
-    },
-    {
-      "titolo": "\"RiGenerazioni\" per contrastare il disagio giovanile",
-      "url": "https://www.info-cooperazione.it/2025/11/rigenerazioni-per-contrastare-il-disagio-giovanile",
-      "descrizione": "Promuovere il protagonismo giovanile, contrastare le forme di disagio psicologico, sociale ed educativo, rafforzare le reti territoriali, generare un impatto duraturo nelle comunità e creare opportunità concrete per i giovani dai 14 ai 35 anni. Sono questi gli obiettivi di RiGenerazioni, un intervento finalizzato alla realizzazione di progetti finanziati attraverso le risorse del Fondo per le",
-      "scadenza": "09 gennaio 2026",
-      "scaduto": true,
-      "donatore": "Ministero per lo Sport e i Giovani",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/progetto-rigenerazioni-120x120.jpg"
-    },
-    {
-      "titolo": "Bando Erasmus+ 2026",
-      "url": "https://www.info-cooperazione.it/2025/11/bando-erasmus-2026",
-      "descrizione": "La nuova call Erasmus+ apre nuove opportunità per studenti, educatori, youth workers e organizzazioni in tutta Europa e oltre. Con un budget di circa 5,2 miliardi di euro per il 2026, Erasmus+ continua a sostenere la mobilità transfrontaliera e i progetti di cooperazione che aiutano le persone a sviluppare le competenze di cui hanno bisogno",
-      "scadenza": "19 febbraio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/erasmus-2026-120x120.png"
-    },
-    {
-      "titolo": "Il Fondo per la Repubblica Digitale ricerca un partner operativo",
-      "url": "https://www.info-cooperazione.it/2025/11/il-fondo-per-la-repubblica-digitale-ricerca-un-partner-operativo",
-      "descrizione": "Due dei maggiori nodi strutturali che caratterizzano il nostro Paese sono oggi l’arretratezza nelle competenze digitali e le persistenti diseguaglianze di genere nel mercato del lavoro e nell’imprenditoria. La ridotta diffusione delle competenze digitali di base fra la popolazione italiana penalizza sensibilmente la capacità delle micro e piccole imprese — dove è concentrata gran parte dell’imprenditorialità femminile — di adottare strumenti digitali,",
-      "scadenza": "28 novembre 2025",
-      "scaduto": true,
-      "donatore": "Fondo per la Repubblica Digitale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/Immagine-notizia-call-for-proposals-1-120x120.png"
-    },
-    {
-      "titolo": "Bando Quartieri reMIx",
-      "url": "https://www.info-cooperazione.it/2025/11/bando-quartieri-remix",
-      "descrizione": "Questo nuovo bando vuole supportare iniziative che offrono a persone giovani (15-30 anni) opportunità di empowerment, incentivando l’attivismo di quartiere su tematiche globali. Quartieri reMIx è promosso da ACRA nell'ambito del programma \"Global Districts\", che mira a coinvolgere persone giovani marginalizzate, favorendone l'inclusione come attori e attrici di cambiamento nell'affrontare sfide globali quali differenti forme di povertà, cambiamento climatico e discriminazioni",
-      "scadenza": "19 dicembre 2025",
-      "scaduto": true,
-      "donatore": "ACRA",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/attivismo-govani-120x120.png"
-    },
-    {
-      "titolo": "Aperte le candidature al Fellowships Programme 2025/2026",
-      "url": "https://www.info-cooperazione.it/2025/11/a-ottobre-scadenza-del-fellowships-programme-2025",
-      "descrizione": "Si è recentemente aperta la finestra temporale per le candidature al “Fellowships Programme 2025/2026”, iniziativa finanziata dalla Direzione Generale per la Cooperazione allo Sviluppo del Ministero Italiano degli Affari Esteri e della Cooperazione Internazionale (MAECI) e curata dal Dipartimento degli Affari Economici e Sociali delle Nazioni Unite (UN/DESA).\r\n\r\nLe borse di studio nell'ambito di questo Programma vengono",
-      "scadenza": "18 dicembre 2024",
-      "scaduto": true,
-      "donatore": "MAECI/UNDESA",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2019/05/jpo-field-120x120.jpg"
-    },
-    {
-      "titolo": "Rafforzare la resilienza sanitaria e climatica delle comunità più vulnerabili",
-      "url": "https://www.info-cooperazione.it/2025/11/rafforzare-la-resilienza-sanitaria-e-climatica-delle-comunita-piu-vulnerabili",
-      "descrizione": "Foundation S, la fondazione filantropica del gruppo Sanofi, ha aperto la Call for Proposals 2025 del programma Climate Action & Health Resilience Grants, un’iniziativa volta a sostenere le comunità più esposte agli effetti dei cambiamenti climatici. L’obiettivo è promuovere approcci innovativi e sostenibili per rafforzare i sistemi sanitari comunitari di fronte a sfide sempre più",
-      "scadenza": "28 novembre 2025",
-      "scaduto": true,
-      "donatore": "Fondation S",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/donne-acqua-africa-120x120.png"
-    },
-    {
-      "titolo": "FemFocus 2026-2030",
-      "url": "https://www.info-cooperazione.it/2025/11/femfocus-2026-2030",
-      "descrizione": "Il Ministero degli Affari Esteri dei Paesi Bassi ha lanciato FemFocus 2026–2030, un nuovo e ambizioso programma di finanziamento rivolto alle organizzazioni della società civile impegnate nella promozione dei diritti delle donne, nella lotta alla violenza di genere e nel rafforzamento della leadership femminile nei processi di pace. FemFocus rientra nel quadro politico olandese “Focus”,",
-      "scadenza": "07 gennaio 2026",
-      "scaduto": true,
-      "donatore": "Ministero degli Affari Esteri dei Paesi Bassi",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/femfocus-120x120.jpg"
-    },
-    {
-      "titolo": "Bando Global Districts per l’educazione alla cittadinanza globale",
-      "url": "https://www.info-cooperazione.it/2025/11/bando-global-districts-per-leducazione-alla-cittadinanza-globale",
-      "descrizione": "Global Districs è un bando per il supporto finanziario e il rafforzamento delle competenze di organizzazioni della società civile nell’adozione di metodologie inclusive di Educazione alla Cittadinanza Globale, con l’obiettivo di coinvolgere i giovani a rischio di marginalità come attori di cambiamento a Bologna e Napoli. \r\n\r\nIl bando è promosso da WeWorld in collaborazione con ACRA",
-      "scadenza": "07 dicembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/global-districs-120x120.png"
-    },
-    {
-      "titolo": "FIFA Global Citizen Education Fund",
-      "url": "https://www.info-cooperazione.it/2025/10/fifa-global-citizen-education-fund",
-      "descrizione": "Il FIFA Global Citizen Education Fund ha recentemente aperto una call per sostenere organizzazioni di base e comunitarie che lavorano per migliorare l’accesso all’educazione e allo sport nei contesti più fragili del mondo. Il Fondo, avviato in collaborazione con Global Citizen, mira a utilizzare il potere sociale del calcio e dello sport per offrire ai",
-      "scadenza": "31 dicembre 2025",
-      "scaduto": true,
-      "donatore": "FIFA",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/fifa-education-fund-120x120.png"
-    },
-    {
-      "titolo": "OIM chiama le imprese a rafforzare la resilienza in Mozambico",
-      "url": "https://www.info-cooperazione.it/2025/10/oim-chiama-le-imprese-a-rafforzare-la-resilienza-in-mozambico",
-      "descrizione": "L’Organizzazione Internazionale per le Migrazioni (OIM) ha aperto una Request for Proposals (RFP) per l’attuazione del progetto “Empowering Displaced Communities through the Eco-System Approach”, un’iniziativa innovativa volta a promuovere energia pulita, resilienza ambientale e inclusione economica nelle comunità colpite da sfollamenti in Mozambico.\r\nIl progetto mira ad ampliare su scala nazionale i risultati positivi della fase",
-      "scadenza": "17 novembre 2025",
-      "scaduto": true,
-      "donatore": "OIM",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/fornelli-mozambico-120x120.png"
-    },
-    {
-      "titolo": "WFP cerca partners per ridurre la malnutrizione in Burkina Faso",
-      "url": "https://www.info-cooperazione.it/2025/10/wfp-cerca-partners-per-ridurre-la-malnutrizione-in-burkina-faso",
-      "descrizione": "Il Programma Alimentare Mondiale delle Nazioni Unite (WFP) ha lanciato una serie di Call for Proposals rivolte alle organizzazioni non profit interessate a collaborare alla realizzazione di programmi di resilienza e sicurezza alimentare nel Burkina Faso.L’iniziativa rientra nel Resilience and Malnutrition Reduction Programme 2026, con interventi previsti nella Regione del Plateau-Central e in altre aree",
-      "scadenza": "09 novembre 2025",
-      "scaduto": true,
-      "donatore": "WFP",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/Burkina-Faso_wfp-120x120.jpg"
-    },
-    {
-      "titolo": "NOPLANETB per le aree marine e montane",
-      "url": "https://www.info-cooperazione.it/2025/10/noplanetb-per-le-aree-marine-e-montane",
-      "descrizione": "Torna il programma NOPLANETB che, con un nuovo bando, fornirà supporto finanziario e tecnico a quei progetti che coinvolgeranno le persone e le istituzioni disimpegnate nelle aree marine e montane italiane. L’obiettivo è aumentare la consapevolezza rispetto all’importanza di azioni per il clima che promuovano pratiche sostenibili e approcci integrati basati sulla natura.\r\nLe aree marine e montane,",
-      "scadenza": "28 novembre 2025",
-      "scaduto": true,
-      "donatore": "NOPLANETB",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/noplanetb-2025-120x120.png"
-    },
-    {
-      "titolo": "Small grants per progetti contro la tratta di esseri umani",
-      "url": "https://www.info-cooperazione.it/2025/10/small-grants-per-progetti-contro-la-tratta-di-esseri-umani",
-      "descrizione": "Il Fondo delle Nazioni Unite per le Vittime della Tratta di Persone (UNVTF), gestito dall’UNODC – Ufficio delle Nazioni Unite contro la Droga e il Crimine, ha lanciato il 10° ciclo del Programma di Small Grants (Special Window). Questo bando speciale è rivolto alle organizzazioni della società civile (OSC) che operano in Asia-Pacifico, America Latina",
-      "scadenza": "16 novembre 2025",
-      "scaduto": true,
-      "donatore": "UNVTF",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/Cycle_10.1-120x120.png"
-    },
-    {
-      "titolo": "Accoglienza dei Minori Stranieri non Accompagnati",
-      "url": "https://www.info-cooperazione.it/2025/10/accoglienza-minori-non-accompagnati",
-      "descrizione": "Il Ministero dell’Interno, Dipartimento per Le Libertà Civili e l’Immigrazione ha pubblicato un avviso, nell'ambito del Fondo FAMI, per potenziare il sistema nazionale di seconda accoglienza attraverso l’attivazione di 210 posti per Minori Stranieri non Accompagnati con bisogni specifici, mediante soluzioni di accoglienza in comunità educative di tipo familiare, comunità alloggio, gruppi appartamento, case-famiglia e",
-      "scadenza": "26 novembre 2025",
-      "scaduto": true,
-      "donatore": "Ministero dell’Interno",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2020/07/minori-non-accompagnati-120x120.jpg"
-    },
-    {
-      "titolo": "Bando per misure di informazione sulla politica di coesione UE",
-      "url": "https://www.info-cooperazione.it/2025/10/bando-per-misure-di-informazione-sulla-politica-di-coesione-ue",
-      "descrizione": "La Commissione Europea ha pubblicato il bando annuale per \"Misure di informazione sulla politica di coesione dell’UE\". L'obiettivo della Call è fornire sostegno alla produzione e diffusione di informazioni e contenuti relativi alla politica di coesione europea, incluso il Fondo per la transizione giusta o lo Strumento di sostegno tecnico. I progetti proposti dovrebbero offrire informazioni coerenti, oggettive",
-      "scadenza": "15 gennaio 2026",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/ue-cohesion-policy-2021-2027-120x120.png"
-    },
-    {
-      "titolo": "Bando UN Women per rafforzare la partecipazione politica e la leadership delle donne",
-      "url": "https://www.info-cooperazione.it/2025/10/bando-un-women-per-rafforzare-la-partecipazione-politica-e-la-leadership-delle-donne",
-      "descrizione": "Le organizzazioni della società civile impegnate nella promozione dei diritti delle donne e dell’uguaglianza di genere hanno una nuova opportunità di finanziamento che arriva da UN Women che, con il sostegno dell’Unione Europea, ha lanciato la Call for Proposals “WYDE | Women’s Leadership Initiative” (CFP No. UNW-HQ-WPP-CFP-2025-001), un bando globale dedicato a rafforzare la partecipazione",
-      "scadenza": "10 novembre 2025",
-      "scaduto": true,
-      "donatore": "UNWOMEN",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/unwomen-wyde-call-120x120.png"
     },
     {
       "titolo": "Dal MUR 1 milione per quattro progetti congiunti tra università italiane e africane",
@@ -1165,226 +372,6 @@
       ]
     },
     {
-      "titolo": "Rafforzamento dei servizi sanitari in Sudan",
-      "url": "https://www.info-cooperazione.it/2025/10/rafforzamento-dei-servizi-sanitari-in-sudan",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato il bando Grant/01/HealthPro2 – Primary Health Care Provision for Vulnerable Populations Affected by Food Insecurity and Malnutrition, finanziato nell’ambito del programma NDICI Africa/2023/441-988 dell'Unione Europea. L’iniziativa rientra nella Fase II del programma HealthPro e mira a migliorare le condizioni sanitarie delle popolazioni più vulnerabili del",
-      "scadenza": "29 dicembre 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/10/bando-sud-sudan-120x120.jpg"
-    },
-    {
-      "titolo": "Sostegno all'apicoltura in Burkina Faso",
-      "url": "https://www.info-cooperazione.it/2025/10/sostegno-allapicoltura-in-burkina-faso",
-      "descrizione": "L'AICS di Ouagadougou ha pubblicato un bando affidato per la realizzazione dell'iniziativa “Sostegno dello sviluppo sostenibile dell’apicoltura in Burkina Faso” PADDA/BF. Il progetto punta a migliorare la produttività e il reddito dei piccoli apicoltori di diverse province del paese.\r\n\r\nUna componente del progetto sarà orientata ad aumentare la quantità e migliorare la qualità del miele secondo gli standard",
-      "scadenza": "03 novembre 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/apicoltura-120x120.jpg"
-    },
-    {
-      "titolo": "Aggiornamento bandi Agenzie Nazioni Unite (ottobre 2025)",
-      "url": "https://www.info-cooperazione.it/2025/9/aggiornamento-bandi-agenzie-nazioni-unite-ottobre-2025",
-      "descrizione": "Torna l’aggiornamento sui bandi aperti dalle Agenzie delle Nazioni Unite a livello paese. Si tratta di call for proposal o altri tipi di avvisi emessi dalle sedi locali delle Agenzie delle Nazioni Unite (Unicef, WFP, UNHCR, FAO, ecc) per l’individuazione di attori che implementino attività in diversi ambiti (Food security, Protection, Education, WASH, ecc). Vediamo nel dettaglio quali sono",
-      "scadenza": "16 ottobre 2025",
-      "scaduto": true,
-      "donatore": "Agenzie Nazioni Unite",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2019/10/logos-delle-agenzie-delle-nazioni-unite-120x120.jpg"
-    },
-    {
-      "titolo": "Bando ReForEst Uganda",
-      "url": "https://www.info-cooperazione.it/2025/9/bando-reforest-uganda",
-      "descrizione": "ReForEst Uganda è un’azione quinquennale implementata da AICS con il finanziamento dell’Unione Europea nell’ambito del programma Partnership for Forest (P4F) in Uganda, parte dell’Accordo Forestale tra l’Unione Europea e il Governo dell’Uganda firmato nel novembre 2023. Il programma vuole contribuire alla sostenibilità ambientale e alla crescita economica della regione orientale attraverso la promozione della riforestazione,",
-      "scadenza": "01 dicembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/reforst-uganda-120x120.jpg"
-    },
-    {
-      "titolo": "UN Trust Fund contro la violenza sulle donne e ragazze",
-      "url": "https://www.info-cooperazione.it/2025/9/un-trust-fund-contro-la-violenza-sulle-donne-e-ragazze",
-      "descrizione": "Il UN Trust Fund to End Violence against Women and Girls ha lanciato il nuovo bando 2025 “Resourcing Resilience – Investing in Civil Society Leadership to End Violence against Women and Girls” per le organizzazioni della società civile che lavorano in prima linea contro la violenza di genere.\r\nLa violenza contro donne e ragazze rimane la violazione dei",
-      "scadenza": "19 novembre 2025",
-      "scaduto": true,
-      "donatore": "UNWOMEN",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/un-women-120x120.png"
-    },
-    {
-      "titolo": "Contrasto allo sfruttamento lavorativo e al caporalato",
-      "url": "https://www.info-cooperazione.it/2025/9/contrasto-allo-sfruttamento-lavorativo-e-al-caporalato",
-      "descrizione": "Il Ministero del Lavoro e delle Politiche Sociali, nell'ambito del Fondo Asilo, Migrazione e Integrazione 2021-2027, ha aperto un bando per promuovere un’azione interregionale coordinata per prevenire e contrastare lo sfruttamento lavorativo e il caporalato nei confronti dei cittadini di Paesi terzi, sostenendo le vittime attraverso servizi integrati.\r\nObiettivi specifici\r\n\r\n \tRafforzare i sistemi pubblici regionali/interregionali di identificazione, protezione",
-      "scadenza": "30 ottobre 2025",
-      "scaduto": true,
-      "donatore": "Ministero del Lavoro e delle Politiche Sociali",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/caporalato-120x120.jpg"
-    },
-    {
-      "titolo": "Avviso 2025 per progetti di rilevanza nazionale del Terzo Settore",
-      "url": "https://www.info-cooperazione.it/2025/9/avviso-2025-per-progetti-di-rilevanza-nazionale-del-terzo-settore",
-      "descrizione": "Il Ministero del Lavoro e delle Politiche sociali ha pubblicato l’Avviso per il finanziamento di iniziative e progetti di rilevanza nazionale per l’anno 2025 degli enti del Terzo Settore.\r\n\r\nSi tratta di una dotazione finanziaria di 13.537.043,39 euro, così distribuiti: 10.829.634,71 euro per il 2025 (a titolo di anticipo pari all’80% dei progetti o delle iniziative ammesse al",
-      "scadenza": "28 ottobre 2025",
-      "scaduto": true,
-      "donatore": "Ministero del Lavoro e delle Politiche Sociali",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/09/ministero-lavoro-politiche-sociali--120x120.jpg"
-    },
-    {
-      "titolo": "Bando Futura per le competenze digitali delle donne",
-      "url": "https://www.info-cooperazione.it/2025/9/bando-futura-digitale-donne",
-      "descrizione": "Il Fondo per la Repubblica Digitale ha pubblicato il bando “Futura+” che mira a garantire migliori opportunità e condizioni di inserimento nel mondo del lavoro accrescendo le competenze digitali delle donne.\r\n\r\nLe problematiche legate alla condizione femminile in Italia sono ben note: nonostante oltre il 60% dei laureati dell’anno 2023 siano donne, i dati sull’occupazione mostrano un costante vantaggio di genere a favore degli uomini.",
-      "scadenza": "18 dicembre 2025",
-      "scaduto": true,
-      "donatore": "Fondo per la Repubblica Digitale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/futura-bando-2025-120x120.jpg"
-    },
-    {
-      "titolo": "Bando umanitario Otto per Mille Buddisti",
-      "url": "https://www.info-cooperazione.it/2025/9/bando-umanitario-otto-per-mille-buddisti",
-      "descrizione": "L’U.B.I. (Unione Buddisti Italiani) concorre anche quest'anno alla ripartizione dell'8 per mille dell’IRPEF e destina le somme devolute a tale titolo dallo Stato ad interventi culturali, sociali ed umanitari anche a favore di altri Paesi, nonché assistenziali e di sostegno al culto. A tal fine, ogni anno, viene offerta la possibilità di presentare delle proposte",
-      "scadenza": "17 ottobre 2025",
-      "scaduto": true,
-      "donatore": "Otto per mille Buddisti",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2021/04/8xtutti-buddisti-120x120.jpg"
-    },
-    {
-      "titolo": "1463 progetti finanziati dall’Otto per Mille Valdese",
-      "url": "https://www.info-cooperazione.it/2025/9/1463-progetti-finanziati-dallotto-per-mille-valdese",
-      "descrizione": "Sono stati pubblicati oggi gli esiti del bando 2025 dell’Otto per mille valdese presentati dalle organizzazioni del terzo settore alla scadenza di gennaio scorso. Con circa 45 milioni di euro la Chiesa Valdese sosterrà 1463 progetti di cui 1032 in Italia e 431 estero selezionati tra le migliaia di proposte progettuali pervenute. \r\n\r\n\r\n\r\n\r\nLe principali categorie di",
-      "scadenza": "",
-      "scaduto": false,
-      "donatore": "",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/8x1000-valdese-120x120.png",
-      "territorio": [
-        "nazionale"
-      ],
-      "tags": [
-        "disabilità",
-        "cultura",
-        "ambiente",
-        "donne",
-        "migranti",
-        "salute",
-        "lavoro",
-        "educazione"
-      ]
-    },
-    {
-      "titolo": "Bando Onlife per le competenze digitali dei NEET",
-      "url": "https://www.info-cooperazione.it/2025/9/bando-onlife-per-le-competenze-digitali-dei-neet",
-      "descrizione": "Il Fondo per la Repubblica Digitale ha pubblicato il bando “Onlife+” che mira a garantire migliori opportunità e condizioni di inserimento e permanenza nel mondo del lavoro accrescendo le competenze digitali dei NEET.\r\n\r\nIn Italia, il 2030 Digital Decade Report della Commissione europea di luglio 2025 afferma che oltre il 54% della popolazione tra i 16 e i 74 anni non possiede competenze digitali di base, una percentuale nettamente superiore alla media",
-      "scadenza": "18 dicembre 2025",
-      "scaduto": true,
-      "donatore": "Fondo per la Repubblica Digitale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/onlife-bando-2025-120x120.jpg"
-    },
-    {
-      "titolo": "Bando Cittadinanza digitale",
-      "url": "https://www.info-cooperazione.it/2025/9/bando-cittadinanza-digitale",
-      "descrizione": "La Presidenza del Consiglio dei Ministri, Dipartimento per la trasformazione digitale, ha pubblicato un avviso pubblico per la selezione di progetti volti alla sensibilizzazione e formazione delle giovani generazioni sui temi della cittadinanza digitale, dell’intelligenza artificiale, della disinformazione on line e sui rischi da iperconnessione.\r\n\r\nL’obiettivo è aumentare la consapevolezza trasmettendo informazioni e promuovendo comportamenti responsabili. Alla base",
-      "scadenza": "06 ottobre 2025",
-      "scaduto": true,
-      "donatore": "Presidenza Consiglio Ministri",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/giovani-digitale-120x120.webp"
-    },
-    {
-      "titolo": "Bando della Regione Toscana a sostegno della popolazione Palestinese",
-      "url": "https://www.info-cooperazione.it/2025/9/bando-della-regione-toscana-a-sostegno-della-popolazione-palestinese",
-      "descrizione": "La Regione Toscana ha pubblicato un avviso pubblico finalizzato a sostenere la popolazione palestinese e a promuovere processi di pace nell’area mediorientale. Il bando mette a disposizione circa 130.000 euro per il finanziamento di progetti di cooperazione internazionale. Le iniziative ammesse dovranno essere presentate da partenariati composti da almeno quattro soggetti, tra cui enti locali",
-      "scadenza": "10 ottobre 2025",
-      "scaduto": true,
-      "donatore": "Regione Toscana",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/wall-palestina-120x120.png"
-    },
-    {
-      "titolo": "Bando Driving Urban Transitions 2025",
-      "url": "https://www.info-cooperazione.it/2025/8/bando-driving-urban-transitions-2025",
-      "descrizione": "La Commissione Europea, nell’ambito del programma Horizon Europe, ha aperto un nuovo bando dedicato alla sostenibilità urbana. Si tratta di Driving Urban Transitions (Dut) 2025 che ha l’obiettivo di finanziare progetti di ricerca e innovazione transnazionali, capaci di trasformare gli spazi urbani in modelli di neutralità climatica, resilienza ambientale e inclusione sociale.\r\n\r\nI progetti dovranno focalizzarsi su",
-      "scadenza": "17 novembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/08/dut-2025-120x120.png"
-    },
-    {
-      "titolo": "Emergenza climatica e umanitaria in Kenya",
-      "url": "https://www.info-cooperazione.it/2025/8/emergenza-climatica-umanitaria-in-kenya",
-      "descrizione": "L'Agenzia per la Cooperazione ha pubblicato un nuovo bando di emergenza per migliorare le condizioni di vita e la capacità di risposta agli shock per la popolazione più esposta alla povertà multidimensionale e agli effetti del cambiamento climatico in Kenya. L'obiettivo specifico è quindi rispondere ai bisogni umanitari e promuovere la resilienza delle comunità vulnerabili",
-      "scadenza": "30 settembre 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/08/kenya-siccita-120x120.png"
-    },
-    {
-      "titolo": "Lavoro Inclusivo e Crescita in Iraq",
-      "url": "https://www.info-cooperazione.it/2025/8/lavoro-inclusivo-e-crescita-in-iraq",
-      "descrizione": "La Sede regionale AICS di Amman ha pubblicato un avviso per l’affidamento a una o più Organizzazioni della Società Civile (OSC) dell’iniziativa “LINC – Lavoro Inclusivo e Crescita”, con l’obiettivo di favorire l’inclusione lavorativa di categorie vulnerabili in Iraq attraverso percorsi di sviluppo economico locale. Il progetto vuole contribuire all’emancipazione economica e alla riduzione delle",
-      "scadenza": "15 ottobre 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/08/iraq-aics-120x120.jpg"
-    },
-    {
-      "titolo": "Bando ADAPT per lo sviluppo dell’agricoltura e della pesca artigianale in Tunisia",
-      "url": "https://www.info-cooperazione.it/2025/8/bando-adapt-per-lo-sviluppo-dellagricoltura-e-della-pesca-artigianale-in-tunisia",
-      "descrizione": "Il bando ADAPT – Appui au Développement durable dans le secteur de l’Agriculture et de la Pêche artisanale en Tunisie rientra in una iniziativa finanziata dall’Unione Europea e implementata dall’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) in partnership con il Programma Alimentare Mondiale (PAM). Il programma ha una durata complessiva di circa 8 anni (2020-2028)",
-      "scadenza": "30 ottobre 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/08/pesca-tunisia-adapt-120x120.png"
-    },
-    {
-      "titolo": "Bando 2025 del Fondo Globale contro AIDS, Tubercolosi e Malaria",
-      "url": "https://www.info-cooperazione.it/2025/7/bando-2025-del-fondo-globale-contro-aids-tubercolosi-e-malaria",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato il bando per il finanziamento di iniziative sinergiche al Fondo Globale per la lotta contro AIDS, Tubercolosi e Malaria, nell’ambito della strategia 2023-2028. Si tratta di uno dei meccanismi con cui la Cooperazione Italiana sostiene l’azione del Fondo Globale per la lotta all’AIDS, alla Tubercolosi",
-      "scadenza": "15 ottobre 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/07/global-fund-2025-120x120.jpg"
-    },
-    {
-      "titolo": "Bando Educazione alla Cittadinanza",
-      "url": "https://www.info-cooperazione.it/2025/7/bando-educazione-alla-cittadinanza",
-      "descrizione": "La promozione di una cittadinanza attiva, consapevole e solidale è uno degli snodi cruciali per affrontare le sfide del nostro tempo. In questa prospettiva, la Regione Piemonte e la Fondazione Compagnia di San Paolo lanciano congiuntamente il Bando “Educazione alla Cittadinanza Globale per la sostenibilità e la solidarietà internazionale – Anno 2025”, con l’obiettivo di sostenere iniziative educative capaci di generare consapevolezza, partecipazione e coesione sociale.\r\n\r\nL’azione si colloca all’interno di",
-      "scadenza": "31 ottobre 2025",
-      "scaduto": true,
-      "donatore": "Fondazione Compagnia di San Paolo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2019/08/ecg-eduzaione-civica-120x120.png"
-    },
-    {
-      "titolo": "Verso il nuovo Bando Profit 4.0 dell'AICS",
-      "url": "https://www.info-cooperazione.it/2025/7/verso-il-nuovo-bando-bando-profit-4-0-dellaics",
-      "descrizione": "Quasi cinque anni dopo l'ultimo bando AICS per il privato profit nella cooperazione, l'Agenzia muove i primi passi verso la quarta edizione, un \"Bando Profit 4.0\" completamente rinnovato con l’obiettivo di potenziare il contributo del settore privato nella cooperazione internazionale.\r\n\r\nViste le criticità del modello precedente, che non si era mostrato in grado di attrarre l'interesse",
-      "scadenza": "18 settembre 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2019/06/aics-120x120.jpg"
-    },
-    {
-      "titolo": "UNHCR cerca un partner per promuovere l’inclusione lavorativa dei rifugiati in Italia",
-      "url": "https://www.info-cooperazione.it/2025/7/unhcr-cerca-un-partner-per-promuovere-linclusione-lavorativa-dei-rifugiati-in-italia",
-      "descrizione": "Il 1° agosto 2025 scade il termine per partecipare alla manifestazione di interesse lanciata da UNHCR Italia, rivolta alle organizzazioni della società civile impegnate nell’inclusione socio-economica dei rifugiati. L’iniziativa, intitolata \"Welcome in Action: Reti Locali per l’Occupazione e l’Inclusione dei Rifugiati\", punta a rafforzare l’integrazione lavorativa di persone rifugiate e apolidi in Italia, tramite la",
-      "scadenza": "01 agosto 2025",
-      "scaduto": true,
-      "donatore": "UNHCR",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/07/IAM3661_EDITED-1-1024x682-1-120x120.jpg"
-    },
-    {
-      "titolo": "Contributi della UEFA Foundation for Children",
-      "url": "https://www.info-cooperazione.it/2025/7/contributi-della-uefa-foundation-for-children",
-      "descrizione": "Anche quest'anno la UEFA Foundation for Children ha aperto il suo programma di grant per promuovere i diritti fondamentali dei bambini vulnerabili in tutto il mondo. Gli obiettivi principali sono la solidarietà e l'aiuto allo sviluppo, radicati nel rispetto dei valori etici condivisi con i partner. Per raggiungere i suoi obiettivi, la fondazione organizza un",
-      "scadenza": "01 agosto 2025",
-      "scaduto": true,
-      "donatore": "UEFA Foundation",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/07/uefa-120x120.png"
-    },
-    {
-      "titolo": "Da San Paolo una call per nuove partnership sulla partecipazione attiva",
-      "url": "https://www.info-cooperazione.it/2025/7/da-san-paolo-una-call-per-nuove-partnership-sulla-partecipazione-attiva",
-      "descrizione": "La Fondazione Compagnia di San Paolo ha avviato una nuova Call for Partnerships: un’iniziativa che si propone di individuare fino a 11 realtà o partenariati in grado di co-progettare azioni con la Compagnia volte a promuovere una partecipazione più ampia e inclusiva in cinque campi specifici. La call si inserisce nel quadro del Documento Programmatico Pluriennale 2025–2028, il piano strategico",
-      "scadenza": "15 settembre 2025",
-      "scaduto": true,
-      "donatore": "Fondazione Compagnia di San Paolo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/07/CSP_Call-for-Partnerships-_-815x350-1-120x120.png"
-    },
-    {
       "titolo": "42 nuovi progetti del bando AICS 2023 con la dotazione aggiuntiva",
       "url": "https://www.info-cooperazione.it/2025/7/42-nuovi-progetti-del-bando-aics-2023-con-la-dotazione-aggiuntiva",
       "descrizione": "Con una determina del Direttore AICS è stata allocata la dotazione finanziaria aggiuntiva di circa 85 milioni di euro deliberata dal Comitato Congiunto del 2 aprile 2025 per il “Bando 2023 per la concessione di contributi a Iniziative promosse da Enti Territoriali (ET) e dalle Organizzazioni della Società Civile (OSC)”.\r\n\r\nIn virtù di tale provvedimento, 42",
@@ -1393,210 +380,13 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/AICS-arcobaleno-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "lavoro",
         "ricerca"
       ]
-    },
-    {
-      "titolo": "Protezione e Empowerment economico per rifugiati e comunità ospitanti in Giordania",
-      "url": "https://www.info-cooperazione.it/2025/7/protezione-e-empowerment-economico-per-rifugiati-e-comunita-ospitanti-in-giordania",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS), Sede di Amman, ha lanciato una nuova Call for Proposals per la realizzazione di due importanti iniziative rivolte a migliorare la protezione e l'empowerment economico di rifugiati siriani e delle comunità giordane vulnerabili. La Giordania ospita oltre 1,3 milioni di rifugiati siriani, insieme a migliaia di rifugiati",
-      "scadenza": "15 settembre 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/07/aics-giordania-120x120.jpg"
-    },
-    {
-      "titolo": "Bando ECOBLU per lo sviluppo sostenibile delle risorse marine in Mozambico",
-      "url": "https://www.info-cooperazione.it/2025/7/bando-ecoblu-per-lo-sviluppo-sostenibile-delle-risorse-marine-in-mozambico",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) – sede di Maputo – ha pubblicato un avviso per l’affidamento della realizzazione dell’iniziativa “Sviluppo sostenibile ed integrato delle risorse marine e costiere nella provincia di Cabo Delgado – ECOBLU”, approvata dal Comitato Congiunto nel novembre 2024.\r\nIl bando è stato recentemente presentato in occasione della firma a",
-      "scadenza": "31 luglio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/07/cabo-delgado-120x120.jpg"
-    },
-    {
-      "titolo": "Bando EQUAL per contrastare razzismo e xenofobia",
-      "url": "https://www.info-cooperazione.it/2025/6/bando-equal-per-contrastare-razzismo-e-xenofobia",
-      "descrizione": "La Commissione Europea ha pubblicato l'edizione 2025 del bando EQUAL, per la promozione dell'uguaglianza e la lotta al razzismo, alla xenofobia e tutte le forme di discriminazione all'interno del programma CERV con una dotazione finanziaria di 20 milioni di euro. In particolare il bando mira a:\r\n\r\n \tSostenere, promuovere e attuare politiche con un approccio intersezionale",
-      "scadenza": "23 ottobre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/xenofobia-razzismo-120x120.jpg"
-    },
-    {
-      "titolo": "Sostegno ai difensori dei diritti umani nel Sud del Mediterraneo",
-      "url": "https://www.info-cooperazione.it/2025/6/sostegno-ai-difensori-dei-diritti-umani-nel-sud-del-mediterraneo",
-      "descrizione": "La Euro-Mediterranean Foundation of Support to Human Rights Defenders (EMHRF) ha aperto le candidature per la sua linea di finanziamento “Standard Grants”, destinata a sostenere attivisti, organizzazioni e gruppi impegnati nella promozione e nella difesa dei diritti umani nella regione del Sud del Mediterraneo. Il bando si rivolge a chi lavora in contesti difficili, con",
-      "scadenza": "05 agosto 2025",
-      "scaduto": true,
-      "donatore": "Euro-Mediterranean Foundation",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2023/03/empowerment-donne-med-120x120.png"
-    },
-    {
-      "titolo": "Sviluppo del turismo locale in Albania",
-      "url": "https://www.info-cooperazione.it/2025/6/sviluppo-del-turismo-locali-in-albania",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo, sede di Tirana, ha lanciato un nuovo bando nell’ambito del programma europeo “EU for Economic Development – Tourism-led, Local, Economic Development, with a focus on Cultural Heritage”, finanziato dallo strumento IPA 2018. Il progetto mira a promuovere lo sviluppo sostenibile in Albania attraverso il rafforzamento del turismo locale",
-      "scadenza": "21 agosto 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/06/albania-turismo-120x120.jpg"
-    },
-    {
-      "titolo": "Aggiornamento bandi EuropeAid (Giugno 2025)",
-      "url": "https://www.info-cooperazione.it/2025/6/aggiornamento-bandi-europeaid-giugno-2025",
-      "descrizione": "Torna l’aggiornamento sui bandi paese aperti presso EuropeAid a livello globale e paese. Si tratta di bandi appartenenti a diversi programmi tematici dello strumento NDICI-Europa Globale come quelli relativi alle Organizzazioni della società civile e alle Autorità locali, lo European Instrument for Democracy and Human Rights (EIDHR) e il programma sul Vicinato Europeo. Vediamo nel dettaglio quali sono",
-      "scadenza": "12 settembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg"
-    },
-    {
-      "titolo": "Bando Inclusione contro la violenza di genere",
-      "url": "https://www.info-cooperazione.it/2025/6/bando-inclusione-contro-la-violenza-di-genere",
-      "descrizione": "La Fondazione TIM ha aperto il Bando Inclusione 2025 con l’obiettivo di rafforzare concretamente i percorsi di uscita dalla violenza per le donne che hanno subito abusi. Il bando, con una dotazione finanziaria di 500.000 euro, intende sostenere la rete delle “case di seconda accoglienza”, strutture fondamentali per accompagnare le donne e i loro figli verso",
-      "scadenza": "10 luglio 2025",
-      "scaduto": true,
-      "donatore": "Fondazione TIM",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/06/fondazione-tim-120x120.png"
-    },
-    {
-      "titolo": "Supporto per piccole realtà attive nel settore educativo",
-      "url": "https://www.info-cooperazione.it/2025/6/supporto-per-piccole-realta-attive-nel-settore-educativo",
-      "descrizione": "Generas Foundation Onlus ha sviluppato un innovativo meccanismo di supporto basato sulla fiducia per le non profit attive nel settore educativo e per le scuole in Italia. Attraverso un Assessment autovalutativo verranno identificate una serie di organizzazioni che potranno avviare un percorso di dialogo e crescita con la Fondazione, creando le premesse per nuove opportunità di",
-      "scadenza": "31 dicembre 2025",
-      "scaduto": true,
-      "donatore": "Generas Foundation",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/06/edunauta-1024x430-1-120x120.jpg"
-    },
-    {
-      "titolo": "Al via il nuovo bando della Regione Veneto per progetti di cooperazione",
-      "url": "https://www.info-cooperazione.it/2025/5/al-via-il-nuovo-bando-della-regione-veneto-per-progetti-di-cooperazione",
-      "descrizione": "La Regione del Veneto ha pubblicato il bando 2025 per il finanziamento di progetti di cooperazione allo sviluppo sostenibile, nell’ambito della Legge Regionale 21/2018. L’iniziativa, fortemente incentrata sugli Obiettivi di Sviluppo Sostenibile (SDGs), mira a sostenere interventi concreti nei Paesi del Sud globale, con un’attenzione particolare al continente africano. Il bando intende finanziare progetti che",
-      "scadenza": "29 luglio 2025",
-      "scaduto": true,
-      "donatore": "Regione Veneto",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2020/06/mondo-120x120.jpg"
-    },
-    {
-      "titolo": "Bando di cooperazione allo sviluppo della Regione Sardegna",
-      "url": "https://www.info-cooperazione.it/2025/5/bando-di-cooperazione-allo-sviluppo-della-regione-sardegna",
-      "descrizione": "La Regione Autonoma della Sardegna ha pubblicato un nuovo bando per finanziare interventi di cooperazione internazionale allo sviluppo, coerenti con la Legge Regionale n. 19/1996. L’avviso riguarda le annualità 2025-2027 e si rivolge a enti, organizzazioni e realtà del Terzo settore con sede operativa in Sardegna. Gli interventi possono essere realizzati nei Paesi prioritari della",
-      "scadenza": "30 giugno 2025",
-      "scaduto": true,
-      "donatore": "Regione Sardegna",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/cooperazione-allo-sviluppo_bando_sardegna_2025-120x120.jpg"
-    },
-    {
-      "titolo": "Affidato AICS per l’inclusione lavorativa dei giovani in Guinea",
-      "url": "https://www.info-cooperazione.it/2025/5/affidato-aics-per-linclusione-lavorativa-dei-giovani-in-guinea",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo – Sede Regionale di Dakar ha pubblicato un nuovo bando per l’affidamento dell’iniziativa PROJEUNE (AID 013116), un progetto strategico per sostenere l’inserimento socio-professionale dei giovani delle aree rurali nella Repubblica di Guinea (Regioni di Kindia e Kankan), con particolare attenzione alle donne, ai migranti di ritorno e alle",
-      "scadenza": "11 luglio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/06/agricoltura-guinea-120x120.jpg"
-    },
-    {
-      "titolo": "Horizon Europe, al via i bandi su cultura, creatività e società inclusiva",
-      "url": "https://www.info-cooperazione.it/2025/5/horizon-europe-al-via-i-bandi-su-cultura-creativita-e-societa-inclusiva",
-      "descrizione": "La Commissione europea ha ufficialmente pubblicato il Work Programme 2025 di Horizon Europe dedicato alla cultura, creatività e società inclusiva. Il Programma di lavoro vuole finanziare progetti che mirano a soddisfare gli obiettivi e le priorità dell'Unione europea in materia di rafforzamento della governance democratica e della partecipazione dei cittadini, di tutela e promozione del patrimonio culturale e di risposta e definizione delle molteplici trasformazioni sociali, economiche, tecnologiche",
-      "scadenza": "16 settembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/Horizon-Europe-Cluster-2-120x120.jpeg"
-    },
-    {
-      "titolo": "Civitates lancia una call per difendere la società civile in Italia",
-      "url": "https://www.info-cooperazione.it/2025/5/civitates-lancia-una-call-per-difendere-la-societa-civile-in-italia",
-      "descrizione": "Negli ultimi anni, anche in Italia — come in altri paesi europei — si assiste a una preoccupante restrizione dello spazio civico. Le libertà fondamentali, come il diritto di protesta, la libertà di associazione, la libertà di stampa e il diritto all’informazione indipendente, sono sempre più messe in discussione. Le manifestazioni pacifiche vengono spesso criminalizzate,",
-      "scadenza": "30 giugno 2025",
-      "scaduto": true,
-      "donatore": "Civitates",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/sandra-seitamaa-rg-3DFEo3v0-unsplash-2048x1367-1-120x120.png"
-    },
-    {
-      "titolo": "Promozione dei diritti e dei valori dell’Unione Europea",
-      "url": "https://www.info-cooperazione.it/2025/5/promozione-dei-diritti-e-dei-valori-dellunione-europea",
-      "descrizione": "Il programma CERV ha recentemente pubblicato il bando sull'implementazione della Carta dei Diritti Fondamentali (CHAR-LITI). Complessivamente, il bando ha un budget di 18 milioni di euro e si rivolge agli attori della società civile europea.\r\n\r\nIl bando ha l’obiettivo di proteggere, promuovere e sensibilizzare in materia di diritti fondamentali fornendo sostegno finanziario alle organizzazioni della società",
-      "scadenza": "18 settembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/CERV_new_visual-120x120.png"
-    },
-    {
-      "titolo": "5 milioni per co-finanziare progetti sul digitale",
-      "url": "https://www.info-cooperazione.it/2025/5/5-milioni-per-co-finanziare-progetti-sul-digitale",
-      "descrizione": "Il Fondo per la Repubblica Digitale ha recentemente annunciato l’attivazione di un canale di cofinanziamento da 5 milioni di euro, destinato a sostenere progetti ed iniziative congiunte orientate allo sviluppo delle competenze digitali e all’inclusione sociale, economica e lavorativa dei cittadini. L’iniziativa, parte del Piano Strategico 2025–2026 approvato dal Comitato di Indirizzo Strategico del Fondo per la Repubblica Digitale, rappresenta uno strumento innovativo per",
-      "scadenza": "31 dicembre 2025",
-      "scaduto": true,
-      "donatore": "Fondo per la Repubblica Digitale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/fondo-digitale-120x120.png"
-    },
-    {
-      "titolo": "Secondo Bando Connect for Global Change",
-      "url": "https://www.info-cooperazione.it/2025/5/secondo-bando-connect-for-global-change",
-      "descrizione": "Nell’ambito del progetto europeo Connect for Global Change (DEAR) è stato lanciato il 15 maggio 2025 dal Consorzio delle Ong Piemontesi il secondo bando per supportare le organizzazioni della società civile di piccole e medie dimensioni con sede in Piemonte nel realizzare azioni di educazione alla cittadinanza globale creative e di grande impatto.  Connect for Global Change è un progetto finanziato dalla Commissione Europea",
-      "scadenza": "15 settembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/Logo-Connect-con-COP3-120x120.png"
-    },
-    {
-      "titolo": "Emergenza AICS in Siria",
-      "url": "https://www.info-cooperazione.it/2025/5/emergenza-aics-in-siria",
-      "descrizione": "La Sede di Beirut dell’Agenzia italiana per la cooperazione allo sviluppo (AICS) ha aperto un bando per selezionare progetti presentati soggetti non profit per la realizzazione dell’Iniziativa di emergenza “Intervento multisettoriale di emergenza ed early recovery in risposta alla crisi umanitaria protratta in Siria” (AID 013139/01/0) che ha l’obiettivo specifico di fornire assistenza umanitaria salvavita,",
-      "scadenza": "16 giugno 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/05/siria-120x120.jpeg"
-    },
-    {
-      "titolo": "Cinque nuovi bandi paesi AICS",
-      "url": "https://www.info-cooperazione.it/2025/5/cinque-nuovi-bandi-paesi-aics",
-      "descrizione": "Nei giorni scorsi l’Agenzia per la Cooperazione ha pubblicato attraverso le proprie sedi all’estero alcuni bandi paese relativi a iniziative di emergenza o affidate. Le scadenze sono comprese tra maggio e luglio 2025. Ecco di seguito un riepilogo delle cinque iniziative aperte che si riferiscono a Sudan, Algeria, Sud Sudan, Libano e Palestina.",
-      "scadenza": "03 luglio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2021/04/Aics-120x120.png"
-    },
-    {
-      "titolo": "12 milioni per progetti dedicati alla tutela dei diritti dei minori",
-      "url": "https://www.info-cooperazione.it/2025/5/12-milioni-per-progetti-dedicati-alla-tutela-dei-diritti-dei-minori",
-      "descrizione": "Il Dipartimento per le politiche della famiglia della Presidenza del Consiglio dei Ministri ha aperto un bando per il finanziamento di progetti di cooperazione internazionale dedicati alla tutela dei diritti dei minori. Si tratta di risorse stabilite dalla Commissione per le adozioni internazionali per interventi relativi alle tematiche della prevenzione, promozione, protezione e partecipazione e per interventi che dovranno essere",
-      "scadenza": "01 luglio 2025",
-      "scaduto": true,
-      "donatore": "Presidenza Consiglio Ministri",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/05/CAI_bando_2025-120x120.jpg"
-    },
-    {
-      "titolo": "Bando del Veneto sull'accesso all'acqua in Africa",
-      "url": "https://www.info-cooperazione.it/2025/5/bando-del-veneto-sullaccesso-allacqua-in-africa",
-      "descrizione": "La Regione Veneto, nell'ambito della legge regionale n° 21 del 2018, ha aperto un bando per il finanziamento di interventi per la realizzazione e/o il ripristino e/o il potenziamento di pozzi da realizzarsi nel continente africano e degli interventi tesi a favorirne l’immediato accesso da parte della popolazione. Il bando mette a disposizione 147.292 euro",
-      "scadenza": "02 giugno 2025",
-      "scaduto": true,
-      "donatore": "Regione Veneto",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/04/pozzo-africa-120x120.jpg"
-    },
-    {
-      "titolo": "Bando della Regione Marche per attività di Educazione alla Cittadinanza Globale",
-      "url": "https://www.info-cooperazione.it/2025/5/bando-della-regione-marche-per-attivita-di-educazione-alla-cittadinanza-globale",
-      "descrizione": "Al fine di promuovere le attività di Educazione alla Cittadinanza Globale (ECG) e favorire lo sviluppo di progettualità dei soggetti del territorio marchigiano, la Regione Marche intende supportare la realizzazione di progetti promossi da Enti Locali ed Organizzazioni della Società Civile (OSC) della Regione Marche. I progetti saranno cofinanziati tramite i fondi del progetto “GEAR",
-      "scadenza": "15 giugno 2025",
-      "scaduto": true,
-      "donatore": "Regione Marche",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2020/04/mondo-africa-120x120.png"
-    },
-    {
-      "titolo": "Bandi PRIMA 2025 per la resilienza ambientale nel Mediterraneo",
-      "url": "https://www.info-cooperazione.it/2025/4/bandi-prima-2025-per-la-resilienza-ambientale-nel-mediterraneo",
-      "descrizione": "Il Partenariato per la Ricerca e l'Innovazione nell'Area Mediterranea (PRIMA) ha lanciato le nuove call che affrontano gli obiettivi strategici di ricerca e innovazione del partenariato attraverso una risposta globale e interconnessa. PRIMA è il programma euro-mediterraneo che finanzia progetti di ricerca e innovazione sui sistemi agroalimentari sostenibili e la gestione delle risorse idriche nel bacino del Mediterraneo. Il Programma",
-      "scadenza": "15 luglio 2025",
-      "scaduto": true,
-      "donatore": "PRIMA",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/04/prima-call-2025-120x120.png"
     },
     {
       "titolo": "Cinque progetti approvati dal bando AICS in Costa d'Avorio",
@@ -1616,234 +406,6 @@
       ]
     },
     {
-      "titolo": "Nuovo bando NOPLANETB per coinvolgere cittadini e istituzioni",
-      "url": "https://www.info-cooperazione.it/2025/4/nuovo-bando-noplanetb-per-coinvolgere-cittadini-e-istituzioni",
-      "descrizione": "Si apre in questi giorni una nuova call di NOPLANETB, che mira a supportare progetti volti a sensibilizzare i cittadini e le istituzioni meno attenti alle tematiche climatiche ed ecologiche. Questa nuova iniziativa si inserisce nell'ambito di un progetto quadriennale cofinanziato dalla Commissione Europea nell’ambito del programma DEAR, attuato in otto Paesi dell'UE: Portogallo, Spagna,",
-      "scadenza": "30 maggio 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/10/noplanetb-2025-1-730x310-1-120x120.png"
-    },
-    {
-      "titolo": "Aggiornamento bandi EuropeAid (Aprile 2025)",
-      "url": "https://www.info-cooperazione.it/2025/4/aggiornamento-bandi-europeaid-aprile-2025",
-      "descrizione": "Torna l’aggiornamento sui bandi paese aperti presso EuropeAid a livello globale e paese. Si tratta di bandi appartenenti a diversi programmi tematici dello strumento NDICI-Europa Globale come quelli relativi alle Organizzazioni della società civile e alle Autorità locali, lo European Instrument for Democracy and Human Rights (EIDHR) e il programma sul Vicinato Europeo. Vediamo nel dettaglio quali sono i",
-      "scadenza": "30 giugno 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg"
-    },
-    {
-      "titolo": "Dritti al Punto per migliorare le competenze digitali",
-      "url": "https://www.info-cooperazione.it/2025/4/dritti-al-punto-per-migliorare-le-competenze-digitali",
-      "descrizione": "Lo sviluppo delle competenze digitali è uno degli obiettivi strategici dell’Unione europea, che mira a dotare almeno l’80% dei cittadini tra i 16 e i 74 anni di competenze digitali di base entro il 2030. A guidare questo processo è il quadro europeo DigComp 2.2, che individua cinque aree chiave – dalla sicurezza informatica, alla creazione di contenuti",
-      "scadenza": "30 maggio 2025",
-      "scaduto": true,
-      "donatore": "Fondo per la Repubblica Digitale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/04/dritti-al-punto-bando-2025-120x120.png"
-    },
-    {
-      "titolo": "Bando AICS di aiuto umanitario in Colombia",
-      "url": "https://www.info-cooperazione.it/2025/4/bando-aics-di-aiuto-umanitario-in-colombia",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo – Sede di Bogotá ha pubblicato un nuovi bando rivolto a soggetti non profit per la realizzazione dell’iniziativa di emergenza AID 012907/01/0, intitolata “Aiuto umanitario, servizi e inclusione per migranti, rifugiati e vittime del conflitto armato in Colombia, in particolare donne, giovani e bambini”.\r\nL’intervento mira a fornire:\r\n\r\n\r\n \tAssistenza",
-      "scadenza": "16 maggio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/04/emergenza-sfollati-Colombia-120x120.jpg"
-    },
-    {
-      "titolo": "34 milioni dal fondo FAMI per azioni transnazionali",
-      "url": "https://www.info-cooperazione.it/2025/4/34-milioni-dal-fondo-fami-per-azioni-transnazionali",
-      "descrizione": "Nell’ambito del Fondo Asilo, migrazione e integrazione (FAMI) la Commissione europea ha aperto un nuovo bando per Azioni transnazionali con una dotazione finanziaria complessiva di 34 milioni di euro. Il bando permette di per finanziare progetti focalizzati sui cinque topic specifici identificati (ciascuna candidatura può riguardare un solo topic):\r\n1) Sostegno a misure per l’integrazione economica e sociale",
-      "scadenza": "16 settembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/04/AMIFFundingcalls-120x120.png"
-    },
-    {
-      "titolo": "Riabitare il Sud per lo sviluppo locale e la rigenerazione",
-      "url": "https://www.info-cooperazione.it/2025/4/riabitare-il-sud-per-lo-sviluppo-locale-e-la-rigenerazione",
-      "descrizione": "La Fondazione con il Sud torna a trattare il tema dello sviluppo locale con una iniziativa finalizzata a intraprendere processi di rigenerazione demografica e di rivitalizzazione sociale delle comunità, individuati come priorità strategica nell’ambito della programmazione triennale 2025-2027. Si tratta del bando “Riabitare il Sud\" che mette a disposizione un importo complessivo pari a 8",
-      "scadenza": "16 luglio 2025",
-      "scaduto": true,
-      "donatore": "Fondazione Con il Sud",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/04/shutterstock_2220139435-1-800x520-1-120x120.jpg"
-    },
-    {
-      "titolo": "Iniziativa di emergenza in Myanmar",
-      "url": "https://www.info-cooperazione.it/2025/4/iniziativa-di-emergenza-in-myanmar",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato una nuova Call for Proposals per la realizzazione dell’iniziativa di emergenza “Intervento di Emergenza ed Early Recovery nei settori della Sicurezza Alimentare e Livelihoods, Salute e Istruzione per il rafforzamento della capacità di resilienza della popolazione vulnerabile in Myanmar” (AID 012884/01/0).\r\n\r\nLa popolazione del Myanmar sta",
-      "scadenza": "08 maggio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/04/terremoto-myanmar-birmania-120x120.png"
-    },
-    {
-      "titolo": "Emergenza salute e nutrizione nella Repubblica Centrafricana",
-      "url": "https://www.info-cooperazione.it/2025/4/emergenza-salute-e-nutrizione-nella-repubblica-centrafricana",
-      "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato una nuova Call for Proposals per interventi umanitari volti a migliorare l’accesso ai servizi di salute e nutrizione nella Repubblica Centrafricana, con un’attenzione particolare alle fasce più vulnerabili della popolazione. L’iniziativa mira a migliorare l'accesso ai servizi di salute e nutrizione per le popolazioni vulnerabili",
-      "scadenza": "11 maggio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/rca-120x120.png"
-    },
-    {
-      "titolo": "Bando MASE per lo sviluppo sostenibile",
-      "url": "https://www.info-cooperazione.it/2025/4/bando-mase-per-lo-sviluppo-sostenibile",
-      "descrizione": "Il Ministero dell’Ambiente e della Sicurezza Energetica ha aperto un bando per supportare iniziative progettuali che contribuiscano al processo di attuazione della Strategia Nazionale per lo Sviluppo Sostenibile, con particolare attenzione ai Vettori di sostenibilità: Coerenza delle politiche per lo sviluppo sostenibile, Cultura per la sostenibilità e Partecipazione per lo sviluppo sostenibile.\r\n\r\nGli interventi proposti potranno ricadere in una o più delle",
-      "scadenza": "20 maggio 2025",
-      "scaduto": true,
-      "donatore": "MASE",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/strategia-nazionale-sviluppo-sostenibile-120x120.jpg"
-    },
-    {
-      "titolo": "Bando Cultura della pace e dei diritti umani",
-      "url": "https://www.info-cooperazione.it/2025/3/bando-cultura-della-pace-e-dei-diritti-umani",
-      "descrizione": "Anche quest'anno la Regione Emilia Romagna rinnova l'impegno per la promozione della pace, dell'intercultura, dei diritti umani, del dialogo fra le religioni, dell'educazione alla cittadinanza globale e della solidarietà internazionale. Il bando per supportare progetti tesi in questi ambiti vuole selezionare iniziative culturali, educative, informative, didattiche e di ricerca, promosse da enti locali, università, terzo settore",
-      "scadenza": "23 aprile 2025",
-      "scaduto": true,
-      "donatore": "Regione Emilia Romagna",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/92becf97-f394-446c-9d26-12a64013cdbe-120x120.jpeg"
-    },
-    {
-      "titolo": "Affidato AICS in Palestina",
-      "url": "https://www.info-cooperazione.it/2025/3/affidato-aics-in-palestina",
-      "descrizione": "La Sede di Gerusalemme dell’Agenzia Italiana per la Cooperazione allo Sviluppo ha aperto un bando affidato per intende individuare gli Enti esecutori per la realizzazione di progetti nell’ambito dell’iniziativa denominata “Sostenere lo sviluppo socio-economico delle comunità vulnerabili in Palestina, valorizzando le aree con comunità cristiane\" (AID 013275).\r\n\r\nLa componente da affidare alle OSC, oggetto del bando,",
-      "scadenza": "18 aprile 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/cisgiordania-1-120x120.jpg"
-    },
-    {
-      "titolo": "Nuovo bando di emergenza AICS per l'Ucraina",
-      "url": "https://www.info-cooperazione.it/2025/3/nuovo-bando-di-emergenza-aics-per-lucraina",
-      "descrizione": "La crisi umanitaria in Ucraina continua ad aggravarsi dopo tre anni di guerra su larga scala. Le conseguenze del conflitto stanno colpendo in modo particolarmente grave la popolazione delle regioni orientali, meridionali e settentrionali del Paese, dove milioni di persone si trovano in condizioni di estrema vulnerabilità. Per rispondere a questa situazione, l’Agenzia Italiana per",
-      "scadenza": "11 maggio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/ucraina-bando-aics-2025-120x120.png"
-    },
-    {
-      "titolo": "“Riprogettiamo il Futuro” per lo sviluppo organizzativo del Terzo Settore",
-      "url": "https://www.info-cooperazione.it/2025/3/riprogettiamo-il-futuro-per-lo-sviluppo-organizzativo-del-terzo-settore",
-      "descrizione": "La Fondazione Cariplo ha pubblicato una nuova edizione del bando \"Riprogettiamo il Futuro\", con l’obiettivo di sostenere il rafforzamento organizzativo degli enti non profit nei settori dell’ambiente, della cultura e dei servizi alla persona. L’iniziativa rientra nella Linea di mandato della Fondazione, dedicata alla creazione di condizioni abilitanti per il rafforzamento delle comunità e della",
-      "scadenza": "26 giugno 2025",
-      "scaduto": true,
-      "donatore": "Fondazione Cariplo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/riprogettiamo-futuro-bando-2025-120x120.png"
-    },
-    {
-      "titolo": "Bando interventi di emergenza in RDC",
-      "url": "https://www.info-cooperazione.it/2025/3/bando-interventi-di-emergenza-in-rdc",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS), attraverso la sua sede di Nairobi, ha pubblicato una Call for Proposals per finanziare progetti di emergenza nella Repubblica Democratica del Congo (RDC). Il bando si inserisce all’interno dell’Intervento di risposta regionale alla crisi dei Grandi Laghi e mira a sostenere la popolazione colpita dal conflitto nella",
-      "scadenza": "06 maggio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/congo-rd-120x120.png"
-    },
-    {
-      "titolo": "Bando vIvA per la formazione in Intelligenza Artificiale per persone vulnerabili",
-      "url": "https://www.info-cooperazione.it/2025/3/bando-viva-per-la-formazione-in-intelligenza-artificiale-per-persone-vulnerabili",
-      "descrizione": "Il Fondo per la Repubblica Digitale, in collaborazione con Google.org, ha lanciato il bando vIvA, un'iniziativa mirata a promuovere la formazione e l'inclusione digitale attraverso lo sviluppo di competenze in Intelligenza Artificiale (IA). Il bando è rivolto a soggetti pubblici, enti non profit e organizzazioni del terzo settore che intendano proporre progetti di formazione per",
-      "scadenza": "12 giugno 2025",
-      "scaduto": true,
-      "donatore": "Fondo per la Repubblica Digitale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/viva-120x120.png"
-    },
-    {
-      "titolo": "Seconda scadenza bando Connecting Spheres contro la violenza di genere",
-      "url": "https://www.info-cooperazione.it/2025/3/connecting-spheres-contro-la-violenza-di-genere",
-      "descrizione": "Oxfam Italia, con Fondazione Giacomo Brodolini e Oxfam Italia Intercultura, ha aperto un bando del valore di 1.000.000 di euro nell’ambito di Connecting Spheres, un’azione finalizzata a sovvenzionare interventi di prevenzione e risposta efficace alla violenza di genere nei confronti delle persone LGBTQIA+ finanziata dal programma CERV-DAPHNE-2023. Il bando si rivolge a piccole e medie",
-      "scadenza": "31 maggio 2025",
-      "scaduto": true,
-      "donatore": "OXFAM",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/09/connetting-spheres-bando-120x120.png"
-    },
-    {
-      "titolo": "Bando Brave Actions for a Better World",
-      "url": "https://www.info-cooperazione.it/2025/3/bando-brave-actions-for-a-better-world",
-      "descrizione": "OTB Foundation ha annunciato l'apertura della quarta edizione del bando \"Brave Actions for a Better World\", con un contributo di 200.000 € per progetti di integrazione sociale e lavorativa a supporto di donne, giovani e persone con background migratorio. Il bando supporta organizzazioni non profit con sede in Italia, USA e Regno Unito che promuovono l’inclusione sociale, l'empowerment delle persone e le",
-      "scadenza": "14 maggio 2025",
-      "scaduto": true,
-      "donatore": "OTB Foundation",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/otb-foundation-grant-2025-120x120.png"
-    },
-    {
-      "titolo": "Bando AICS in sostegno alle popolazioni vulnerabili del Burkina Faso",
-      "url": "https://www.info-cooperazione.it/2025/3/bando-aics-in-sostegno-alle-popolazioni-vulnerabili-del-burkina-faso",
-      "descrizione": "La sede di Ouagadougou dell'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha lanciato una Call for Proposals per sostenere iniziative di emergenza in Burkina Faso. Il bando, con una dotazione finanziaria di circa 4 milioni di euro, è destinato a soggetti non profit per la realizzazione di interventi volti a migliorare l’accesso ai servizi",
-      "scadenza": "02 maggio 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/burkina-120x120.png"
-    },
-    {
-      "titolo": "24 progetti finanziati dal bando Digitale Sociale",
-      "url": "https://www.info-cooperazione.it/2025/3/24-progetti-finanziati-dal-bando-digitale-sociale",
-      "descrizione": "Il Fondo per la Repubblica Digitale ha pubblicato oggi l'esito del bando “Digitale sociale” dedicato all’empowerment di conoscenze e competenze digitali di dipendenti, collaboratori stabili e volontari degli enti che operano in uno o più settori di interesse generale dell’economia sociale.\r\n\r\nAlla scadenza dello scorso 19 luglio erano state sottoposte al Fondo 233 proposte progettuali. A",
-      "scadenza": "",
-      "scaduto": false,
-      "donatore": "",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/04/Video-bando-Digitale-sociale-1-120x120.png",
-      "territorio": [
-        "nazionale",
-        "regionale"
-      ],
-      "tags": [
-        "sport",
-        "ambiente",
-        "donne",
-        "lavoro",
-        "digitale",
-        "ricerca"
-      ]
-    },
-    {
-      "titolo": "Nuove linee guida del Fondo Beneficenza Intesa Sanpaolo",
-      "url": "https://www.info-cooperazione.it/2025/3/fondo-beneficenza-intesa-sanpaolo-focus-su-donne-giovani-e-divario-educativo-e-digitale",
-      "descrizione": "L’azione del Fondo di Beneficenza di Intesa Sanpaolo vuole contribuire alla realizzazione degli obiettivi sociali del Piano d’impresa del gruppo e si prefigge di concorrere al raggiungimento degli Obiettivi di Sviluppo Sostenibile fissati dall’Agenda 2030 delle Nazioni Unite. Le nuove Linee Guida 2025-2026 sono state redatte recentemente dopo un’analisi del contesto nazionale e internazionale e la consultazione di",
-      "scadenza": "31 dicembre 2025",
-      "scaduto": true,
-      "donatore": "Fondo di Beneficenza Intesa Sanpaolo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/04/linee-guida-intesa-san-paolo-120x120.png"
-    },
-    {
-      "titolo": "Bando AICS per interventi di emergenza in Niger, Camerun e Ciad",
-      "url": "https://www.info-cooperazione.it/2025/3/bando-aics-per-interventi-di-emergenza-in-niger-camerun-e-ciad",
-      "descrizione": "L’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) – Sede di Niamey ha pubblicato una Call for Proposals per selezionare progetti di organizzazioni non profit finalizzati alla realizzazione di iniziative di emergenza in Niger, Camerun e Ciad. Questa iniziativa si inserisce nella strategia della Cooperazione Italiana per affrontare le crisi alimentari e nutrizionali che colpiscono",
-      "scadenza": "26 marzo 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/africa-occidentale-120x120.jpg"
-    },
-    {
-      "titolo": "Aggiornamento bandi EuropeAid (Marzo 2025)",
-      "url": "https://www.info-cooperazione.it/2025/3/aggiornamento-bandi-europeaid-marzo-2025",
-      "descrizione": "Torna l’aggiornamento sui bandi paese aperti presso EuropeAid a livello globale e paese. Si tratta di bandi appartenenti a diversi programmi tematici dello strumento NDICI-Europa Globale come quelli relativi alle Organizzazioni della società civile e alle Autorità locali, lo European Instrument for Democracy and Human Rights (EIDHR) e il programma sul Vicinato Europeo. Vediamo nel dettaglio quali sono i",
-      "scadenza": "30 maggio 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg"
-    },
-    {
-      "titolo": "Bando Erasmus per accordi quadro con organizzazioni della società civile",
-      "url": "https://www.info-cooperazione.it/2025/2/bando-erasmus-per-accordi-quadro-con-organizzazioni-della-societa-civile",
-      "descrizione": "Nell’ambito del programma Erasmus+ è stato recentemente aperto un bando per accordi quadro di partenariato per sostenere organizzazioni della società civile attive nel settore della gioventù. L’obiettivo è, infatti, fornire un sostegno strutturale, in forma di sovvenzioni di funzionamento, a ONG europee (ENGO) e a reti a livello UE che perseguono i seguenti obiettivi:\r\n\r\n \tsensibilizzare in merito alla Strategia dell’UE per la",
-      "scadenza": "15 maggio 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2018/11/erasmus-upb-banner-1-120x120.jpg"
-    },
-    {
-      "titolo": "Gemellaggi tra città per rafforzare l'identità europea",
-      "url": "https://www.info-cooperazione.it/2025/2/gemellaggi-tra-citta-per-rafforzare-lidentita-europea",
-      "descrizione": "La Commissione Europea, nell'ambito del programma Citizens, Equality, Rights and Values (CERV), ha pubblicato il bando per promuovere i gemellaggi tra città europee. Questa iniziativa mira a rafforzare la comprensione reciproca, la coesione sociale e il senso di appartenenza all'Unione Europea attraverso scambi culturali e dibattiti su temi chiave dell'agenda politica europea. Questo bando rappresenta",
-      "scadenza": "17 settembre 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando_town_twinnings-cerv-2025-120x120.jpg"
-    },
-    {
       "titolo": "Ecco l'elenco dei progetti idonei del Bando AICS 2023",
       "url": "https://www.info-cooperazione.it/2025/2/ecco-lelenco-dei-progetti-idonei-del-bando-aics-2023",
       "descrizione": "L'Agenzia per la cooperazione ha finalmente reso noto l’elenco delle iniziative risultate idonee, tra quelle presentate al “Bando 2023 per la concessione di contributi a Iniziative promosse da Enti Territoriali e dalle Organizzazioni della società civile\". Non si tratta però dell'elenco delle iniziative finanziate poiché l’iter di approvazione delle iniziative è ancora in corso e",
@@ -1852,8 +414,7 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/aics-banner-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "disabilità",
@@ -1867,246 +428,6 @@
         "volontariato",
         "inclusione"
       ]
-    },
-    {
-      "titolo": "Bando AICS per la resilienza delle popolazioni vulnerabili in Afghanistan",
-      "url": "https://www.info-cooperazione.it/2025/2/bando-aics-per-la-resilienza-delle-popolazioni-vulnerabili-in-afghanistan",
-      "descrizione": "La Sede di Islamabad dell’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato una Call for Proposals rivolta a sostenere interventi umanitari in Afghanistan. Questo bando, parte dell’iniziativa “Programma multisettoriale a sostegno della resilienza delle popolazioni vulnerabili in Afghanistan” (AID 013073/01/0), mira a fornire aiuti salvavita e a rafforzare la resilienza delle comunità più",
-      "scadenza": "18 marzo 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/10/emergenza-afghanistan-120x120.png"
-    },
-    {
-      "titolo": "Bando del Consiglio d’Europa per rifugiati e rimpatriati in Ucraina",
-      "url": "https://www.info-cooperazione.it/2025/2/bando-del-consiglio-deuropa-per-rifugiati-e-rimpatriati-in-ucraina",
-      "descrizione": "Il Consiglio d’Europa ha lanciato il bando “Access to Human Rights and Services for Internally Displaced Persons and Returnees at Local Level”, nell’ambito del Piano d’Azione per l’Ucraina “Resilience, Recovery, Reconstruction” (2023-2026). L’iniziativa mira a finanziare progetti che favoriscano l’accesso ai diritti fondamentali e ai servizi essenziali per gli sfollati interni (IDPs) e i cittadini",
-      "scadenza": "05 marzo 2025",
-      "scaduto": true,
-      "donatore": "Consiglio d’Europa",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/ucraina-eu-120x120.png"
-    },
-    {
-      "titolo": "CiviCo25, un bando dedicato alla cittadinanza attiva",
-      "url": "https://www.info-cooperazione.it/2025/2/civico25-un-bando-dedicato-alla-cittadinanza-attiva",
-      "descrizione": "Fondazione Finanza Etica e Ashoka Italia hanno recentemente presentato CiviCo25, un bando dedicato all’innovazione civica e alla cittadinanza attiva per imprese sociali, enti del terzo settore, e gruppi, anche senza riconoscimento giuridico, gestiti interamente da persone under 29.\r\n\r\nPartecipare a questa iniziativa non significa solo ricevere un supporto economico, ma anche far parte di un percorso di crescita e",
-      "scadenza": "17 marzo 2025",
-      "scaduto": true,
-      "donatore": "Fondazione Finanza Etica",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/civico25-120x120.png"
-    },
-    {
-      "titolo": "Bando AICS per rafforzare la risposta umanitaria e la resilienza in Somalia",
-      "url": "https://www.info-cooperazione.it/2025/2/bando-aics-per-rafforzare-la-risposta-umanitaria-e-la-resilienza-in-somalia",
-      "descrizione": "La Sede di Nairobi dell'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato un nuovo bando per progetti di emergenza in Somalia. Questo intervento, che si inserisce nelle iniziative AID 012989/01/0 e AID 012690/01/0, mira a fornire una risposta multisettoriale alle crisi umanitarie e ambientali che affliggono il Paese. Il bando si propone di:",
-      "scadenza": "10 marzo 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/Somalia-Crisis-120x120.jpg"
-    },
-    {
-      "titolo": "Bando DAPHNE per contrastare la violenza sulle donne",
-      "url": "https://www.info-cooperazione.it/2025/2/bando-daphne-per-contrastare-la-violenza-sulle-donne",
-      "descrizione": "E' stato pubblicato sul portale Funding & Tenders della Commissione Europea il bando DAPHNE 2025 che rientra nello strand sul contrasto alla violenza di genere previsto dal Programma CERV. La call è gestita dalla DG JUST e mette a disposizione un budget di 23 milioni di euro per contrastare la violenza sulle donne e sui",
-      "scadenza": "07 maggio 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando-daphne-2025-120x120.png"
-    },
-    {
-      "titolo": "Mitigazione degli effetti del cambiamento climatico in Mozambico, Malawi e Zambia",
-      "url": "https://www.info-cooperazione.it/2025/1/mitigazione-degli-effetti-del-cambiamento-climatico-in-mozambico-malawi-e-zambia",
-      "descrizione": "La sede AICS di Maputo ha pubblicato una nuova Call for Proposals per affrontare gli effetti negativi del cambiamento climatico sulla sicurezza alimentare in Mozambico, Malawi e Zambia. L’iniziativa (AID 13154/01/0) è rivolta alle Organizzazioni della Società Civile (OSC) con esperienza nel campo umanitario e capacità operative nei Paesi target. La dotazione finanziaria complessiva è",
-      "scadenza": "17 marzo 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/mondo-africa-120x120.png"
-    },
-    {
-      "titolo": "Bando Clima Creativo",
-      "url": "https://www.info-cooperazione.it/2025/1/bando-clima-creativo",
-      "descrizione": "È online la seconda edizione del  bando “Clima creativo” di Fondazione Cariplo, che intende sostenere percorsi di educazione alla sostenibilità ambientale fondati sui linguaggi artistici e creativi e valorizzare la scuola come laboratorio sociale e comunità di partecipazione. Il bando si rivolge alle organizzazioni non profit attive in campo ambientale e culturale e, intervenendo nel mondo della scuola, intende coinvolgere",
-      "scadenza": "09 aprile 2025",
-      "scaduto": true,
-      "donatore": "Fondazione Cariplo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/03/clima-creativo-1-120x120.jpg"
-    },
-    {
-      "titolo": "Bando del Fondo delle Nazioni Unite per le Vittime di Tortura",
-      "url": "https://www.info-cooperazione.it/2025/1/bando-del-fondo-delle-nazioni-unite-per-le-vittime-di-tortura",
-      "descrizione": "Il Fondo Volontario delle Nazioni Unite per le Vittime di Tortura (United Nations Voluntary Fund for Victims of Torture) rappresenta uno strumento fondamentale per sostenere progetti a favore delle vittime di tortura e dei loro familiari. Il Fondo offre supporto finanziario ad organizzazioni della società civile e altre istituzioni che si dedicano a fornire assistenza",
-      "scadenza": "01 marzo 2025",
-      "scaduto": true,
-      "donatore": "United Nations Voluntary Fund for Victims of Torture",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/fund-torture-un-call-2025-120x120.png"
-    },
-    {
-      "titolo": "Affidato AICS su empowerment socio-economico in Ciad",
-      "url": "https://www.info-cooperazione.it/2025/1/affidato-aics-su-empowerment-socio-economico-in-ciad",
-      "descrizione": "La sede di Niamey dell’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato un bando per la realizzazione dell’iniziativa “Promuovere l’empowerment socio-economico di giovani e donne nelle filiere agro-silvo-pastorali sostenibili in Ciad (FASENDA)”. Questo progetto mira a rafforzare i sistemi produttivi resilienti nelle province di Ouaddaï, Dar Sila, Salamat e Moyen-Chari.\r\nObiettivi del bando\r\nL’obiettivo principale",
-      "scadenza": "28 marzo 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/ciad-120x120.jpg"
-    },
-    {
-      "titolo": "Fondo ONU per combattere le schiavitù moderne",
-      "url": "https://www.info-cooperazione.it/2025/1/fondo-onu-per-combattere-le-schiavitu-moderne",
-      "descrizione": "Il “United Nations Voluntary Trust Fund on Contemporary Forms of Slavery – UNVTFCFS” è un fondo gestito dall'Ufficio per i diritti umani delle Nazioni Unite, con la consulenza di un Consiglio composto da esperti indipendenti. Il Fondo riceve contributi volontari da Governi, enti privati ​​o pubblici e sostenitori privati. Dalla sua istituzione da parte dell'Assemblea",
-      "scadenza": "01 marzo 2025",
-      "scaduto": true,
-      "donatore": "United Nations Voluntary Trust Fund on Contemporary Forms of Slavery",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/un-fund-slavery-2025-120x120.png"
-    },
-    {
-      "titolo": "Secondo bando del progetto NORA",
-      "url": "https://www.info-cooperazione.it/2025/1/secondo-bando-del-progetto-nora",
-      "descrizione": "Nell’ambito del Progetto NORA, co-finanziato dall’Unione Europea, Fondazione Realizza il Cambiamento e ActionAid International Italia E.T.S., hanno pubblicato il secondo bando per la presentazione di proposte volte a prevenire e contrastare la violenza maschile contro le donne attraverso il sostegno, il potenziamento e lo sviluppo delle capacità delle organizzazioni della società civile (OSC) attive a livello nazionale e/o regionale",
-      "scadenza": "22 marzo 2025",
-      "scaduto": true,
-      "donatore": "Action Aid",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/bando-nora-2025-120x120.png"
-    },
-    {
-      "titolo": "69 progetti di rilevanza nazionale finanziati al Terzo Settore",
-      "url": "https://www.info-cooperazione.it/2025/1/69-progetti-di-rilevanza-nazionale-finanziati-al-terzo-settore",
-      "descrizione": "E' stato pubblicato dal Ministero del Lavoro e delle Politiche Sociali il Decreto direttoriale n. 358 del 12 dicembre 2024, registrato dalla Corte dei Conti al n. 39 il 13 gennaio 2025, concernente l’approvazione della graduatoria delle iniziative e dei progetti di rilevanza nazionale di cui all’art. 72, comma 1 del Decreto legislativo n.117 del",
-      "scadenza": "",
-      "scaduto": false,
-      "donatore": "",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/09/ministero-lavoro-politiche-sociali--120x120.jpg",
-      "territorio": [
-        "nazionale"
-      ],
-      "tags": [
-        "minori",
-        "lavoro",
-        "ricerca"
-      ]
-    },
-    {
-      "titolo": "Nuova call della European Climate Initiative",
-      "url": "https://www.info-cooperazione.it/2025/1/nuova-call-della-european-climate-initiative",
-      "descrizione": "La European Climate Initiative (EUKI), promossa dal Ministero Federale Tedesco per gli Affari Economici e l’Azione Climatica (BMWK), ha pubblicato una nuova call per progetti innovativi finalizzati alla mitigazione del cambiamento climatico in Europa. Con un finanziamento disponibile tra 120.000 e 1.000.000 di euro per progetto, il bando mira a sostenere iniziative che riducano le",
-      "scadenza": "12 marzo 2025",
-      "scaduto": true,
-      "donatore": "EUKI",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/EUKI-120x120.png"
-    },
-    {
-      "titolo": "Bando a sostegno della gioventù Senegalese",
-      "url": "https://www.info-cooperazione.it/2025/1/bando-a-sostegno-della-gioventu-senegalese",
-      "descrizione": "La Commissione Europea ha lanciato un bando per promuovere il coinvolgimento delle organizzazioni della società civile nel sostenere la gioventù senegalese, focalizzandosi su imprenditoria giovanile, partecipazione pubblica, e inclusione sociale. Con un budget totale di 6 milioni di euro, il bando mira a rafforzare l'impatto della società civile in settori strategici.\r\nObiettivi del Bando\r\n\r\n \tPromuovere l'imprenditoria",
-      "scadenza": "04 febbraio 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/agribusiness-senegal-120x120.jpg"
-    },
-    {
-      "titolo": "Nuovo bando di Interreg NEXT MED per la transizione verde",
-      "url": "https://www.info-cooperazione.it/2025/1/nuovo-bando-interreg-next-med-transizione-verde-di",
-      "descrizione": "Il Programma Interreg NEXT MED ha aperto un nuovo Bando per Progetti di Transizione Verde, che prevede un finanziamento di 83,7 milioni di euro dall'Unione Europea per affrontare le sfide climatiche nella regione del Mediterraneo. Basandosi sul successo della prima call, che ha visto la presentazione di 630 progetti, questa seconda edizione mira a promuovere",
-      "scadenza": "15 maggio 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/NEXT-MED-Map-eng-1024x724-1-120x120.png"
-    },
-    {
-      "titolo": "Programma Erasmus, ecco i bandi utili alle ONG",
-      "url": "https://www.info-cooperazione.it/2025/1/programma-erasmus-ecco-i-bandi-utili-alle-ong",
-      "descrizione": "Sono aperti da circa un mese gli inviti a presentare proposte per il Programma Erasmus+ per il 2025: la nuova Call ha una dotazione finanziaria di quasi 5 miliardi di euro a supporto della mobilità ai fini di apprendimento e cooperazione nei settori dell’Istruzione, della Formazione, della Gioventù e dello Sport.\r\n\r\nErasmus+ supporta una vasta gamma di modelli di cooperazione che coinvolgono non solo le scuole",
-      "scadenza": "05 marzo 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2021/12/ERASMUS-1.original-2022-bando-120x120.jpg"
-    },
-    {
-      "titolo": "Bando AICS di cooperazione delegata in Etiopia",
-      "url": "https://www.info-cooperazione.it/2025/1/bando-aics-di-cooperazione-delegata-in-etiopia",
-      "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS), Ufficio di Addis Abeba, ha recentemente aperto un bando all'interno del programma europeo “Sustainable Support to Persons Displaced by Conflict and Natural Disasters and their Host Communities in Afar Region of Ethiopia\". Questo bando, della dotazione complessiva di € 6.900.000, si rivolge alle OSC e alle organizzazioni",
-      "scadenza": "07 marzo 2025",
-      "scaduto": true,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/bando-aics-displaced-afar-etiopia-120x120.jpg"
-    },
-    {
-      "titolo": "Esito del bando della Regione Marche",
-      "url": "https://www.info-cooperazione.it/2025/1/esito-del-bando-della-regione-marche",
-      "descrizione": "La Regione Marche ha reso note le graduatorie relative all’avviso pubblico per progetti di Cooperazione Internazionale ed Educazione alla Cittadinanza Globale dell'anno 2024. Con la dotazione complessiva di 500. 000 euro sono state co-finanziati 12 progetti di Cooperazione Internazionale e 7 di Educazione alla Cittadinanza Globale.\r\n\r\nEcco di seguito le OSC che hanno ricevuto un co-finanziamento",
-      "scadenza": "",
-      "scaduto": false,
-      "donatore": "",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2020/06/mondo-120x120.jpg",
-      "territorio": [
-        "nazionale"
-      ],
-      "tags": [
-        "lavoro",
-        "educazione"
-      ]
-    },
-    {
-      "titolo": "Bando Geopolitica e Tecnologia di Compagnia di San Paolo",
-      "url": "https://www.info-cooperazione.it/2025/1/bando-geopolitica-e-tecnologia-di-compagnia-di-san-paolo",
-      "descrizione": "A seguito dei risultati positivi della prima edizione del bando “Geopolitica e tecnologia”, pubblicato per la prima volta tra il 2022 e il 2023, la Fondazione Compagnia di San Paolo lancia ora la seconda edizione del bando che si pone l’obiettivo di esaminare le implicazioni geopolitiche poste in essere dallo sviluppo tecnologico e in particolare",
-      "scadenza": "14 febbraio 2025",
-      "scaduto": true,
-      "donatore": "Fondazione Compagnia di San Paolo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/Geopolitica-e-Tecnologia_815x350-120x120.png"
-    },
-    {
-      "titolo": "2,5 milioni per progetti legati all’intelligenza artificiale",
-      "url": "https://www.info-cooperazione.it/2025/1/25-milioni-per-progetti-legati-allintelligenza-artificiale",
-      "descrizione": "Il Ministero del Lavoro e delle Politiche Sociali, tramite l’Avviso 3/2024, mira a finanziare progetti di rilevanza nazionale legati all’intelligenza artificiale per promuovere un utilizzo etico, consapevole e critico dell’I.A. e delle nuove tecnologie, mitigare i rischi connessi, come fake news, hate speech e deepfake e favorire l’inclusione e la parità di genere nel contesto",
-      "scadenza": "25 marzo 2025",
-      "scaduto": true,
-      "donatore": "Ministero del Lavoro e delle Politiche Sociali",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/01/intelligenza-artificiale-120x120.png"
-    },
-    {
-      "titolo": "Esito del bando 5% Fondo Globale 2024",
-      "url": "https://www.info-cooperazione.it/2025/1/esito-del-bando-5-fondo-globale-2024",
-      "descrizione": "L'Agenzia per la cooperazione AICS ha pubblicato la determina di approvazione delle iniziative ammissibili al finanziamento e la graduatoria finale del Bando per la concessione di contributi a “Iniziative sinergiche” proposte da OSC, Università ed Enti Pubblici di Ricerca nel Quadro del Technical Support Spending al Fondo Globale per la lotta all’AIDS, alla tubercolosi e alla malaria.” La dotazione finanziaria",
-      "scadenza": "",
-      "scaduto": false,
-      "donatore": "",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2021/07/zanzare-malaria-africa-120x120.jpg",
-      "territorio": [
-        "nazionale"
-      ],
-      "tags": [
-        "giovani",
-        "lavoro",
-        "ricerca",
-        "volontariato"
-      ]
-    },
-    {
-      "titolo": "Bando del UN Fund for Victims of Trafficking in Persons",
-      "url": "https://www.info-cooperazione.it/2024/12/bando-del-un-fund-for-victims-of-trafficking-in-persons",
-      "descrizione": "Il United Nations Voluntary Trust Fund for Victims of Trafficking in Persons (UNVTF) ha aperto il nono ciclo del programma di finanziamento, volto a supportare progetti che forniscono assistenza diretta alle vittime della tratta, con particolare attenzione a donne, bambini e gruppi vulnerabili. Il bando si propone di fornire assistenza diretta e protezione alle vittime",
-      "scadenza": "31 gennaio 2025",
-      "scaduto": true,
-      "donatore": "UNVTF",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/12/un-trust-violence-women-120x120.png"
-    },
-    {
-      "titolo": "Bando UE su diritti dell’infanzia e partecipazione dei bambini",
-      "url": "https://www.info-cooperazione.it/2024/12/bando-ue-su-diritti-dellinfanzia-e-partecipazione-dei-bambini",
-      "descrizione": "La Commissione Europea ha lanciato il bando sui diritti dell’infanzia e la partecipazione dei bambini nell’ambito del programma Citizens, Equality, Rights and Values (CERV), mirato a sostenere progetti dedicati alla promozione dei diritti dell’infanzia e alla partecipazione dei bambini. Ecco una panoramica degli obiettivi, dei criteri di eleggibilità e delle principali scadenze per presentare i progetti.\r\nObiettivi del",
-      "scadenza": "29 aprile 2025",
-      "scaduto": true,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/12/cerv-child-2025-120x120.png"
-    },
-    {
-      "titolo": "Aperto il Bando per 62.549 operatori volontari del Servizio civile universale",
-      "url": "https://www.info-cooperazione.it/2024/12/aperto-il-bando-per-62-549-operatori-volontari-del-servizio-civile-universale",
-      "descrizione": "Pubblicato il Bando per la selezione di 62.549 operatori volontari da impiegare in progetti afferenti a programmi di intervento di Servizio civile universale da realizzarsi in Italia e all’estero. Fino alle ore 14.00 del 18 febbraio 2025 è possibile presentare domanda di partecipazione ad uno dei progetti che si realizzeranno tra il 2025 e il 2026 su",
-      "scadenza": "18 febbraio 2025",
-      "scaduto": true,
-      "donatore": "Servizio Civile Universale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/12/IR-servizio-civile-universale-120x120.jpeg"
     }
   ]
 }

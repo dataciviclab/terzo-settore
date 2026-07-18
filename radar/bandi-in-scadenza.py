@@ -157,6 +157,22 @@ def genera_report(scan, con, filtro_territorio=None, giorni=60):
         )
         lines.append("")
 
+    # ── Sezione 20/80: bandi con budget ──
+    con_budget = [r for r in risultati if r.get("budget")]
+    if con_budget:
+        lines.append("")
+        lines.append("---")
+        lines.append("## 💰 TOP OPPORTUNITÀ (bandi con budget)")
+        lines.append("")
+        lines.append(f"| Budget | GG | Ente | Bando |")
+        lines.append(f"|--------|----|------|-------|")
+        for r in sorted(con_budget, key=lambda x: -(x.get("budget") or 0)):
+            budget = fmt_euro(r.get("budget"))
+            gg = r.get("gg", 999)
+            urg = " 🔴" if gg <= 30 else (" 🟡" if gg <= 60 else "")
+            lines.append(f"| {budget}{urg} | {gg}gg | {fmt_text(r['ente'], '?')[:30]} | {r['titolo'][:50]} |")
+        lines.append("")
+
     lines.append("---")
     lines.append("## ⚠️ Gap territoriali (appalti ANAC + ETS + contesto sociale)")
     lines.append("")

@@ -230,7 +230,7 @@ def main():
         with open(radar_json) as f:
             report = json.load(f)
         checks = [
-            ("Bandi totali > 200", report["bandi_totali"] > 200),
+            ("Bandi totali > 50", report["bandi_totali"] > 50),
             ("Match > 30", report["match"] > 30),
             ("ETS unici > 100", report["ets_unici"] > 100),
             ("Nessun gap con opendoor", all(g["motivo"] != "nessun ETS matcha" for g in report["sin_match"])),

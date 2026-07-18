@@ -193,6 +193,9 @@ def main():
 
     # Salva cache
     CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    sys.path.insert(0, str(CACHE_FILE.parents[2] / "lib"))
+    from config import filtra_bandi_attivi  # noqa: E402
+    tutti = filtra_bandi_attivi(tutti)
     data = {
         "fonte": "info-cooperazione.it",
         "scraped_at": datetime.now().isoformat(),

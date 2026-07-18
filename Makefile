@@ -34,6 +34,10 @@ contatta:
 monitor:
 	python3 -m tsi.monitor.fonti
 
+# Report 20/80: bandi attivi prioritari per budget+urgenza
+opportunita:
+	python3 radar/opportunita.py $(if $(TOP),--top $(TOP),) $(if $(TAG),--tag $(TAG),)
+
 # Build/report leggono direttamente da GCS
 # I dati 5x1000, FTS, RNA, PNRR sono letti via HTTP da build_unified_ets.sql
 

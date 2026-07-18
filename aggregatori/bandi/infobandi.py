@@ -11,6 +11,7 @@ Uso diretto:
 import json
 import os
 import re
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -119,6 +120,11 @@ def fetch_bandi(force: bool = False) -> list[dict]:
             break
         page += 1
         time.sleep(0.3)
+
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
+    # ruff: noqa: E402
+    from config import filtra_bandi_attivi
+    bandi = filtra_bandi_attivi(bandi)
 
     with open(CACHE_FILE, "w") as f:
         json.dump(bandi, f, ensure_ascii=False, indent=2)

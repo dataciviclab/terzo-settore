@@ -9,7 +9,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Territorio**: Nazionale/da verificare
 - **Tag**: lavoro
 
-  · **alta** CONSORZIO SOCIALE ABELE LAVORO SOCIETA' COOPERATIVA SOC — TORINO (TO) — score 120, match; Impresa Sociale — 5x1000: -
+  · **medio-alta** ISFORCOOP - ISTITUTO DI FORMAZIONE COOPERATIVA - COOPER — GENOVA (GE) — score 120, match; 5x1000 presente; Impresa Sociale — 5x1000: €158
 
 ## Bando RIZA per progetti di donne con background migratorio &#8211; 2^ ciclo
 - **Ente**: European Network of Migrant Women (ENoMW) in partenariato con Fondazione Pangea (Italia), Monika – Multicultural Women’s Association (Finlandia), e Melissa Network (Grecia)
@@ -27,14 +27,14 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Ambiente, Animali, Salute mentale, Cooperazione internazionale
 
-  · **medio-alta** ASCS - AGENZIA SCALABRINIANA PER LA COOPERAZIONE ALLO S — MILANO (MI) — score 120, match; 5x1000 >10k; ODV — 5x1000: €19,056
+  · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIE — MILANO (MI) — score 120, match; 5x1000 >100k; ODV — 5x1000: €262,688
 
 ## Bando UEFA Foundation for Children 2026
 - **Ente**: UEFA Foundation
 - **Scadenza**: 03 agosto 2026 (16 giorni)
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: minori, inclusione sociale, educazione, sport
+- **Tag**: inclusione sociale, minori, sport, educazione
 
   · **medio-alta** Associazione sportiva dilettantistica Polisportiva Ricc — RICCIONE (RN) — score 132, match; 5x1000 presente; APS — 5x1000: €919
 
@@ -61,9 +61,9 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Scadenza**: 17 agosto 2026 (30 giorni)
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: donne, salute
+- **Tag**: ricerca
 
-  · **medio-alta** ASSOCIAZIONE SALUTE DONNA- ODV  — MILANO (MI) — score 115, match; 5x1000 >10k; ODV — 5x1000: €26,678
+  · **alta** URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ET — NAPOLI (-) — score 118, match; 5x1000 presente — 5x1000: €121
 
 ## Avviso &#8220;Vita &#038; Opportunità&#8221;
 - **Ente**: Dipartimento per le politiche in favore delle persone con disabilità &#8211; Presidenza del Consiglio dei Ministri
@@ -72,7 +72,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Minori, Disabilità, Inclusione sociale, Lavoro, Agricoltura sociale
 
-  · **alta** SALE DELLA TERRA - CONSORZIO PREVALENTEMENTE DI COOPERA — BENEVENTO (BN) — score 125, match; Impresa Sociale — 5x1000: -
+  · **alta** I TESORI DELLA TERRA SOCIETA' COOPERATIVA AGRICOLA SOCI — CERVASCA (CN) — score 125, match; 5x1000 presente; Impresa Sociale — 5x1000: €275
 
 ## Contributi annuali della Banca d’Italia – 2^ scadenza 2026
 - **Ente**: Banca d’Italia
@@ -81,7 +81,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Territorio**: Nazionale
 - **Tag**: Minori, Cultura, Giovani, Inclusione sociale, Salute, Anziani, Ricerca, Scuola, Banca d'Italia, Contributi annuali
 
-  · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGL — SAN LAZZARO DI SAVENA (BO) — score 123, match; 5x1000 presente; Impresa Sociale — 5x1000: €9,259
+  · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 125, match; 5x1000 >100k — 5x1000: €137,952
 
 ## Sostegno alle municipalità in Libia
 - **Ente**: AICS
@@ -90,16 +90,16 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Territorio**: Libia, Locale, Nazionale
 - **Tag**: salute, ambiente
 
-  · **medio-alta** CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOLONTAR — CASTELFIDARDO (AN) — score 117, match; 5x1000 >10k; ODV — 5x1000: €36,061
+  · **medio-alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-P — VIADANA (MN) — score 120, match; 5x1000 >10k; ODV — 5x1000: €27,404
 
 ## Grant per rafforzare democrazia e società civile nei Balcani
 - **Ente**: European Fund for the Balkans
 - **Scadenza**: 03 settembre 2026 (47 giorni)
 - **Stato**: attivo
 - **Territorio**: Nazionale, Regionale
-- **Tag**: lavoro, ambiente
+- **Tag**: ambiente, lavoro
 
-  · **medio-alta** MONTEVERDE COOPERATIVA SOCIALE DI SOLIDARIETA' - O.N.L. — BADIA CALAVENA (VR) — score 117, match; 5x1000 >10k; Impresa Sociale — 5x1000: €73,863
+  · **medio-alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-P — VIADANA (MN) — score 120, match; 5x1000 >10k; ODV — 5x1000: €27,404
 
 ## Bando BPER 2026: progetti di sport inclusivo da finanziare in crowdfunding
 - **Ente**: BPER Banca
@@ -117,7 +117,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Giovani, premi nazionali, ACRI
 
-  · **medio-alta** CENTRO GIOVANILE DON GIUSEPPE PUGLISI APS — PALERMO (PA) — score 110, match; 5x1000 presente; APS — 5x1000: €4,647
+  · **medio-alta** FONDAZIONE ETS CENTRO ITALIANO DI SOLIDARIETA' CE.I.S.  — LUCCA (LU) — score 115, match; 5x1000 presente — 5x1000: €1,887
 
 ## Premio Olivetti per l&#8217;accessibilità culturale
 - **Ente**: Ministero della  Cultura
@@ -135,7 +135,17 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Territorio**: Locale, Nazionale
 - **Tag**: ambiente
 
-  · **medio-alta** CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOLONTAR — CASTELFIDARDO (AN) — score 117, match; 5x1000 >10k; ODV — 5x1000: €36,061
+  · **medio-alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-P — VIADANA (MN) — score 120, match; 5x1000 >10k; ODV — 5x1000: €27,404
+
+
+---
+## 💰 TOP OPPORTUNITÀ (bandi con budget)
+
+| Budget | GG | Ente | Bando |
+|--------|----|------|-------|
+| €1,020,000 🔴 | 13gg | European Network of Migrant Wo | Bando RIZA per progetti di donne con background mi |
+| €50,000 🟡 | 51gg | BPER Banca | Bando BPER 2026: progetti di sport inclusivo da fi |
+| €10,000 🟡 | 58gg | Acri &#8211; Associazione di F | 2° edizione Premio GenP &#8211; Giovani che partec |
 
 ---
 ## ⚠️ Gap territoriali (appalti ANAC + ETS + contesto sociale)

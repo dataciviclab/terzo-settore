@@ -1,7 +1,7 @@
 {
-  "generato": "2026-07-18T16:33:54.240056",
-  "bandi_totali": 227,
-  "match": 45,
+  "generato": "2026-07-18T16:48:14.760583",
+  "bandi_totali": 64,
+  "match": 46,
   "gap": 1,
   "esclusi": [
     {
@@ -28,11 +28,6 @@
       "titolo": "The Peace First Challenge: micro-progetti dei giovani per combattere le ingiustizie",
       "status": "senza data",
       "motivo": "scadenza non parsabile"
-    },
-    {
-      "titolo": "1463 progetti finanziati dall’Otto per Mille Valdese",
-      "status": "notizia/esito",
-      "motivo": "titolo non operativo"
     },
     {
       "titolo": "Contributi di Reale Foundation",
@@ -70,24 +65,9 @@
       "motivo": "scadenza non parsabile"
     },
     {
-      "titolo": "Diritti e partecipazione dei minori",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "60 nuovi progetti finanziati dal bando \"Riprogettiamo il futuro\"",
-      "status": "notizia/esito",
-      "motivo": "titolo non operativo"
-    },
-    {
       "titolo": "Dal MUR 1 milione per quattro progetti congiunti tra università italiane e africane",
       "status": "senza data",
       "motivo": "scadenza non parsabile"
-    },
-    {
-      "titolo": "Esito del bando 5% Fondo Globale 2024",
-      "status": "notizia/esito",
-      "motivo": "titolo non operativo"
     },
     {
       "titolo": "Cinque progetti approvati dal bando AICS in Costa d'Avorio",
@@ -95,822 +75,22 @@
       "motivo": "titolo non operativo"
     },
     {
+      "titolo": "Nature Calling - Fondazione Cariplo",
+      "status": "senza data",
+      "motivo": "scadenza non parsabile"
+    },
+    {
       "titolo": "42 nuovi progetti del bando AICS 2023 con la dotazione aggiuntiva",
       "status": "senza data",
       "motivo": "scadenza non parsabile"
     },
     {
-      "titolo": "Esito del bando della Regione Marche",
-      "status": "notizia/esito",
-      "motivo": "titolo non operativo"
-    },
-    {
-      "titolo": "Costruzione della pace Israele-Palestina: bando EUPI 2024",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "KA 3 – European Youth Together",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Eventi sportivi senza scopo di lucro",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "KA 2 &#8211; Sviluppo delle capacità nel settore dello sport",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "KA 2 &#8211; Partenariati di piccola scala nel settore dello Sport",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "KA 2 – Alleanze per l’innovazione",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Democrazia e diritti umani: call globale 2023",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Innovazioni sociali per la riqualificazione dei giovani vulnerabili &#8211; Scadenza posticipata",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Gruppi di volontariato in settori ad alta priorità",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando “Our Rights, Our Future!” per reti e coalizioni della società civile",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Affidato AICS per promuovere la parità di genere attraverso le industrie creative",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS per l'emergenza Ebola in RDC",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "UnWomen per le organizzazioni guidate da donne in Palestina",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Educazione non formale per i giovani in Ucraina",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Intelligenza artificiale al servizio dei piccoli agricoltori",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando FAMI inclusione ed empowerment delle donne migranti",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Canada Fund for Local Initiatives",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Quinto bando del Due Diligence Fund",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Joint Innovation Facility Africa-Europa",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando UNICEF per interventi WASH in Cisgiordania",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Aggiornamento bandi EuropeAid (Aprile 2026)",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Migrazione e mobilità: aperto il bando del MMD Grant Facility",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "West Africa Democracy Fund",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "6 milioni dalla UE per la società civile in Etiopia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Generare conoscenza per ridurre le disuguaglianze",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS per progetti umanitari in Giordania",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando NOPLANETB per la biodiversità urbana",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando 2026 della Regione Friuli Venezia Giulia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando a sostegno delle organizzazioni femminili in Etiopia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "10 milioni per prevenire le dipendenze tra gli adolescenti",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bandi PRIMA 2026: nuove opportunità per ricerca e innovazione nel Mediterraneo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Premio UNESCO per l’Educazione delle ragazze e delle donne",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Sostegno pluriennale per enti strategici e organizzazioni a rilevanza tematica",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bandi 2026 della Regione Emilia Romagna",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Youth Empowerment Fund 2026",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "UNDP lancia una call alla società civile per sostenere la ripresa a Gaza",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS per interventi umanitari in Etiopia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Nuovo bando CERV per promuovere partecipazione civica e diritti dei cittadini",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Affidato AICS sulla violenza di genere in Kenya",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Quarto bando della European Urban Initiative",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS HealthPro in Sudan",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Prospettive+",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Contributi MAECI per progetti di scambio giovanili",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando ACT 2026",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "UNESCO Participation Programme",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Call for African Urban Innovations",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Nature Calling della Fondazione Cariplo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando per progetti di assistenza alle vittime di tratta",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Sostegno alle ONG locali per acquisire terre protette",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Violenza di genere e sui minori in Ucraina",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando CERV Gender Equality",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Unicef per la protezione dell’infanzia in Brasile",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Ambiente e pace nei contesti fragili",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Partenariati di cooperazione nel settore giovanile",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Microprogetti otto per mille Luterano",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Intervento umanitario multisettoriale in Afghanistan",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Iniziativa AICS per la crisi dei Grandi Laghi in Uganda e Burundi",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Simbiosi 2026",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando CERV \"Reti di città\"",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando emergenza AICS in Libano",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando per progetti di ricerca e innovazione sull’agroecologia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Capacity building per il supporto alle vittime di violenza di genere",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Accelerare la localizzazione in Africa orientale",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Integrazione dei migranti e sfruttamento lavorativo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Sostegno alla ricerca e innovazione agricola in America Latina",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Sviluppo rurale inclusivo e sostenibile in Albania",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Small Grant della International Climate Initiative",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Climate Action Engagement Fund",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando 2026 del Corpo Europeo di Solidarietà",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS per l’accesso ai servizi di base in Libia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Edu-Fund Platform di UniCredit Foundation",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Linee guida per il bando Otto per mille Valdese 2026",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Azioni di sensibilizzazione per la settimana contro il razzismo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "AU–EU Youth Action Lab per scambi giovanili tra Europa e Africa",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "\"RiGenerazioni\" per contrastare il disagio giovanile",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Erasmus+ 2026",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Il Fondo per la Repubblica Digitale ricerca un partner operativo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Quartieri reMIx",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Aperte le candidature al Fellowships Programme 2025/2026",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Rafforzare la resilienza sanitaria e climatica delle comunità più vulnerabili",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "FemFocus 2026-2030",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Global Districts per l’educazione alla cittadinanza globale",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "FIFA Global Citizen Education Fund",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "WFP cerca partners per ridurre la malnutrizione in Burkina Faso",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "NOPLANETB per le aree marine e montane",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Small grants per progetti contro la tratta di esseri umani",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Accoglienza dei Minori Stranieri non Accompagnati",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando per misure di informazione sulla politica di coesione UE",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando UN Women per rafforzare la partecipazione politica e la leadership delle donne",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Rafforzamento dei servizi sanitari in Sudan",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Sostegno all'apicoltura in Burkina Faso",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Aggiornamento bandi Agenzie Nazioni Unite (ottobre 2025)",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando ReForEst Uganda",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "UN Trust Fund contro la violenza sulle donne e ragazze",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Contrasto allo sfruttamento lavorativo e al caporalato",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando umanitario Otto per Mille Buddisti",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Onlife per le competenze digitali dei NEET",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Cittadinanza digitale",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando della Regione Toscana a sostegno della popolazione Palestinese",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Driving Urban Transitions 2025",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Emergenza climatica e umanitaria in Kenya",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Lavoro Inclusivo e Crescita in Iraq",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando ADAPT per lo sviluppo dell’agricoltura e della pesca artigianale in Tunisia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando 2025 del Fondo Globale contro AIDS, Tubercolosi e Malaria",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Verso il nuovo Bando Profit 4.0 dell'AICS",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "UNHCR cerca un partner per promuovere l’inclusione lavorativa dei rifugiati in Italia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Da San Paolo una call per nuove partnership sulla partecipazione attiva",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Protezione e Empowerment economico per rifugiati e comunità ospitanti in Giordania",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando ECOBLU per lo sviluppo sostenibile delle risorse marine in Mozambico",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando EQUAL per contrastare razzismo e xenofobia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Sostegno ai difensori dei diritti umani nel Sud del Mediterraneo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Sviluppo del turismo locale in Albania",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Inclusione contro la violenza di genere",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Supporto per piccole realtà attive nel settore educativo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Al via il nuovo bando della Regione Veneto per progetti di cooperazione",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando di cooperazione allo sviluppo della Regione Sardegna",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Horizon Europe, al via i bandi su cultura, creatività e società inclusiva",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Civitates lancia una call per difendere la società civile in Italia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Promozione dei diritti e dei valori dell’Unione Europea",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "5 milioni per co-finanziare progetti sul digitale",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Secondo Bando Connect for Global Change",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Emergenza AICS in Siria",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Cinque nuovi bandi paesi AICS",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "12 milioni per progetti dedicati alla tutela dei diritti dei minori",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando del Veneto sull'accesso all'acqua in Africa",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bandi PRIMA 2025 per la resilienza ambientale nel Mediterraneo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Nuovo bando NOPLANETB per coinvolgere cittadini e istituzioni",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Dritti al Punto per migliorare le competenze digitali",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS di aiuto umanitario in Colombia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "34 milioni dal fondo FAMI per azioni transnazionali",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Riabitare il Sud per lo sviluppo locale e la rigenerazione",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Iniziativa di emergenza in Myanmar",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Emergenza salute e nutrizione nella Repubblica Centrafricana",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Cultura della pace e dei diritti umani",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Affidato AICS in Palestina",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Nuovo bando di emergenza AICS per l'Ucraina",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "“Riprogettiamo il Futuro” per lo sviluppo organizzativo del Terzo Settore",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando interventi di emergenza in RDC",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Brave Actions for a Better World",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS in sostegno alle popolazioni vulnerabili del Burkina Faso",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Nuove linee guida del Fondo Beneficenza Intesa Sanpaolo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Gemellaggi tra città per rafforzare l'identità europea",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando del Consiglio d’Europa per rifugiati e rimpatriati in Ucraina",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "CiviCo25, un bando dedicato alla cittadinanza attiva",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS per rafforzare la risposta umanitaria e la resilienza in Somalia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Mitigazione degli effetti del cambiamento climatico in Mozambico, Malawi e Zambia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Clima Creativo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando del Fondo delle Nazioni Unite per le Vittime di Tortura",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Affidato AICS su empowerment socio-economico in Ciad",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Fondo ONU per combattere le schiavitù moderne",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Secondo bando del progetto NORA",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Nuova call della European Climate Initiative",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando a sostegno della gioventù Senegalese",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Nuovo bando di Interreg NEXT MED per la transizione verde",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Programma Erasmus, ecco i bandi utili alle ONG",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando AICS di cooperazione delegata in Etiopia",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando Geopolitica e Tecnologia di Compagnia di San Paolo",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "2,5 milioni per progetti legati all’intelligenza artificiale",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando del UN Fund for Victims of Trafficking in Persons",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Bando UE su diritti dell’infanzia e partecipazione dei bambini",
-      "status": "scaduto",
-      "motivo": "scaduto"
-    },
-    {
-      "titolo": "Aperto il Bando per 62.549 operatori volontari del Servizio civile universale",
-      "status": "scaduto",
-      "motivo": "scaduto"
+      "titolo": "Territori in transizione: soluzioni per il cambiamento nelle aree marine e montane italiane",
+      "status": "senza data",
+      "motivo": "scadenza non parsabile"
     }
   ],
-  "ets_unici": 154,
+  "ets_unici": 155,
   "resultados": [
     {
       "titolo": "Contributi annuali della Banca d’Italia – 2^ scadenza 2026",
@@ -1045,134 +225,6 @@
           "score": 123,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
           "cinque_2025": 172.7
-        }
-      ]
-    },
-    {
-      "titolo": "Horizon Europe: al via Africa Initiative IV per rafforzare la cooperazione UE–Africa",
-      "url": "https://www.info-cooperazione.it/2026/4/horizon-europe-al-via-africa-initiative-iv-per-rafforzare-la-cooperazione-ueafrica",
-      "ente": "Commissione Europea",
-      "budget": null,
-      "scadenza": "30 settembre 2027",
-      "gg_rimasti": 439,
-      "status": "attivo",
-      "territorio": [
-        "Europa",
-        "Nazionale"
-      ],
-      "tags": [
-        "ricerca"
-      ],
-      "candidati": [
-        {
-          "cf": "04344650371",
-          "denominazione": "ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICERCA E L'INTERVENTO SUI DISTURBI DI APPRENDIMENTO",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici",
-          "cinque_2025": 318718.29
-        },
-        {
-          "cf": "05203531008",
-          "denominazione": "PARENT PROJECT PER LA RICERCA SULLA DISTROFIA MUSCOLARE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS",
-          "cinque_2025": 242045.97
-        },
-        {
-          "cf": "80051890152",
-          "denominazione": "FONDAZIONE AIRC PER LA RICERCA SUL CANCRO ETS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
-          "cinque_2025": 82724522.08
-        },
-        {
-          "cf": "00957930910",
-          "denominazione": "LARISO - LABORATORIO PER LA RICERCA E L'INTERVENTO SOCIALE SOCIETA' COOPERATIVA SOCIALE ONLUS",
-          "comune": "NUORO",
-          "provincia": "NU",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €38,039,618",
-          "cinque_2025": 2022.66
-        },
-        {
-          "cf": "95319280632",
-          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
-          "comune": "NAPOLI",
-          "provincia": NaN,
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
-          "cinque_2025": 120.56
-        },
-        {
-          "cf": "91006310337",
-          "denominazione": "LA RICERCA - DON GIORGIO BOSINI - ETS",
-          "comune": "PIACENZA",
-          "provincia": "PC",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €5,024,935",
-          "cinque_2025": 10462.38
-        },
-        {
-          "cf": "05161950653",
-          "denominazione": "EUROPEAN BIOMEDICAL RESEARCH INSTITUTE OF SALERNO - EBRIS - ETS",
-          "comune": "SALERNO",
-          "provincia": "SA",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 116,
-          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "97519070011",
-          "denominazione": "FONDAZIONE ALLEGRA AGNELLI PER LA RICERCA SUL CANCRO ENTE DEL TERZO SETTORE",
-          "comune": "CANDIOLO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
-          "cinque_2025": 14314168.1
-        },
-        {
-          "cf": "93100600233",
-          "denominazione": "FONDAZIONE PER LA RICERCA SULLA FIBROSI CISTICA ETS",
-          "comune": "VERONA",
-          "provincia": "VR",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
-          "cinque_2025": 1136634.88
-        },
-        {
-          "cf": "97510450014",
-          "denominazione": "FONDAZIONE F.A.R.O. ETS - FONDAZIONE ASSISTENZA RICERCA ONCOLOGICA PIEMONTE",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
-          "cinque_2025": 453352.9
         }
       ]
     },
@@ -1312,138 +364,6 @@
       ]
     },
     {
-      "titolo": "Bando UEFA Foundation for Children 2026",
-      "url": "https://www.info-cooperazione.it/2026/7/bando-uefa-foundation-for-children-2026",
-      "ente": "UEFA Foundation",
-      "budget": null,
-      "scadenza": "03 agosto 2026",
-      "gg_rimasti": 16,
-      "status": "attivo",
-      "territorio": [
-        "Europa",
-        "Locale",
-        "Nazionale"
-      ],
-      "tags": [
-        "inclusione sociale",
-        "minori",
-        "sport",
-        "educazione"
-      ],
-      "candidati": [
-        {
-          "cf": "90081250632",
-          "denominazione": "ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSPI ASSOCIAZIONE SPORTIVA DILETTANTISTICA APS-ETS",
-          "comune": "SANT'ANTONIO ABATE",
-          "provincia": NaN,
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 135,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; PNRR; APS",
-          "cinque_2025": 14025.8
-        },
-        {
-          "cf": "07841770964",
-          "denominazione": "POLISPORTIVA GAREGNANO 1976 ASD APS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 135,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
-          "cinque_2025": 10137.52
-        },
-        {
-          "cf": "92020760846",
-          "denominazione": "LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E SPORTIVA DILETTANTISTICA",
-          "comune": "SANTA MARGHERITA DI BELICE",
-          "provincia": "AG",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
-          "cinque_2025": 28369.24
-        },
-        {
-          "cf": "90094070324",
-          "denominazione": "ASSOCIAZIONE SPORTIVA DILETTANTISTICA CALICANTO - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "TRIESTE",
-          "provincia": "TS",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 132,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,375,296",
-          "cinque_2025": 4490.13
-        },
-        {
-          "cf": "82008250407",
-          "denominazione": "Associazione sportiva dilettantistica Polisportiva Riccione APS",
-          "comune": "RICCIONE",
-          "provincia": "RN",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 132,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,969,898",
-          "cinque_2025": 919.4
-        },
-        {
-          "cf": "00450130760",
-          "denominazione": "SOCIETA' COOPERATIVA SPORTIVA DILETTANTISTICA PEGASO - COOPERATIVA SOCIALE",
-          "comune": "RIONERO IN VULTURE",
-          "provincia": "PZ",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 132,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €1,726,984",
-          "cinque_2025": 309.31
-        },
-        {
-          "cf": "04846730960",
-          "denominazione": "L'ORMA SOCIETA' SPORTIVA DILETTANTISTICA A R.L. - IMPRESA SOCIALE \" IN BREVE \"L'ORMA SSD A R.L. - IMPRESA SOCIALE\"",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 131,
-          "motivo": "match tema + sport + sezione; capacità alta; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "90037680049",
-          "denominazione": "SPORTABILI ALBA APS ASD",
-          "comune": "RODDI",
-          "provincia": "CN",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 130,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 17836.84
-        },
-        {
-          "cf": "97754630016",
-          "denominazione": "ASD RUBENS APS",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 130,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 13365.04
-        },
-        {
-          "cf": "97165330826",
-          "denominazione": "A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI OSTEO ARTICOLARI ASD APS",
-          "comune": "PALERMO",
-          "provincia": "PA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 130,
-          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 12354.92
-        }
-      ]
-    },
-    {
       "titolo": "Bando BPER 2026: progetti di sport inclusivo da finanziare in crowdfunding",
       "url": "https://infobandi.csvnet.it/bando-bper-2026-progetti-di-sport-inclusivo-da-finanziare-in-crowdfunding/",
       "ente": "BPER Banca",
@@ -1578,77 +498,196 @@
       ]
     },
     {
-      "titolo": "Sostegno alle municipalità in Libia",
-      "url": "https://www.info-cooperazione.it/2026/6/sostegno-alle-municipalita-in-libia",
-      "ente": "AICS",
+      "titolo": "Bando UEFA Foundation for Children 2026",
+      "url": "https://www.info-cooperazione.it/2026/7/bando-uefa-foundation-for-children-2026",
+      "ente": "UEFA Foundation",
       "budget": null,
-      "scadenza": "31 agosto 2026",
-      "gg_rimasti": 44,
+      "scadenza": "03 agosto 2026",
+      "gg_rimasti": 16,
       "status": "attivo",
       "territorio": [
-        "Libia",
+        "Europa",
         "Locale",
         "Nazionale"
       ],
       "tags": [
-        "salute",
-        "ambiente"
+        "educazione",
+        "minori",
+        "sport",
+        "inclusione sociale"
       ],
       "candidati": [
         {
-          "cf": "80458470582",
-          "denominazione": "LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS",
-          "comune": "ROMA",
-          "provincia": "RM",
+          "cf": "90081250632",
+          "denominazione": "ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSPI ASSOCIAZIONE SPORTIVA DILETTANTISTICA APS-ETS",
+          "comune": "SANT'ANTONIO ABATE",
+          "provincia": NaN,
           "capacita": "medio-alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 122,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861",
-          "cinque_2025": 217080.73
+          "score": 135,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; PNRR; APS",
+          "cinque_2025": 14025.8
         },
         {
-          "cf": "02793420015",
-          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "cf": "07841770964",
+          "denominazione": "POLISPORTIVA GAREGNANO 1976 ASD APS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 135,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
+          "cinque_2025": 10137.52
+        },
+        {
+          "cf": "92020760846",
+          "denominazione": "LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E SPORTIVA DILETTANTISTICA",
+          "comune": "SANTA MARGHERITA DI BELICE",
+          "provincia": "AG",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
+          "cinque_2025": 28369.24
+        },
+        {
+          "cf": "90094070324",
+          "denominazione": "ASSOCIAZIONE SPORTIVA DILETTANTISTICA CALICANTO - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
+          "comune": "TRIESTE",
+          "provincia": "TS",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 132,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,375,296",
+          "cinque_2025": 4490.13
+        },
+        {
+          "cf": "82008250407",
+          "denominazione": "Associazione sportiva dilettantistica Polisportiva Riccione APS",
+          "comune": "RICCIONE",
+          "provincia": "RN",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 132,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,969,898",
+          "cinque_2025": 919.4
+        },
+        {
+          "cf": "00450130760",
+          "denominazione": "SOCIETA' COOPERATIVA SPORTIVA DILETTANTISTICA PEGASO - COOPERATIVA SOCIALE",
+          "comune": "RIONERO IN VULTURE",
+          "provincia": "PZ",
+          "capacita": "medio-alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 132,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €1,726,984",
+          "cinque_2025": 309.31
+        },
+        {
+          "cf": "04846730960",
+          "denominazione": "L'ORMA SOCIETA' SPORTIVA DILETTANTISTICA A R.L. - IMPRESA SOCIALE \" IN BREVE \"L'ORMA SSD A R.L. - IMPRESA SOCIALE\"",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 131,
+          "motivo": "match tema + sport + sezione; capacità alta; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "90037680049",
+          "denominazione": "SPORTABILI ALBA APS ASD",
+          "comune": "RODDI",
+          "provincia": "CN",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 130,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS",
+          "cinque_2025": 17836.84
+        },
+        {
+          "cf": "97754630016",
+          "denominazione": "ASD RUBENS APS",
           "comune": "TORINO",
           "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
-          "cinque_2025": 1431.15
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 130,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS",
+          "cinque_2025": 13365.04
         },
         {
-          "cf": "80102030154",
-          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "cf": "97165330826",
+          "denominazione": "A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI OSTEO ARTICOLARI ASD APS",
+          "comune": "PALERMO",
+          "provincia": "PA",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 130,
+          "motivo": "match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS",
+          "cinque_2025": 12354.92
+        }
+      ]
+    },
+    {
+      "titolo": "Horizon Europe: al via Africa Initiative IV per rafforzare la cooperazione UE–Africa",
+      "url": "https://www.info-cooperazione.it/2026/4/horizon-europe-al-via-africa-initiative-iv-per-rafforzare-la-cooperazione-ueafrica",
+      "ente": "Commissione Europea",
+      "budget": null,
+      "scadenza": "30 settembre 2027",
+      "gg_rimasti": 439,
+      "status": "attivo",
+      "territorio": [
+        "Europa",
+        "Nazionale"
+      ],
+      "tags": [
+        "ricerca"
+      ],
+      "candidati": [
+        {
+          "cf": "04344650371",
+          "denominazione": "ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICERCA E L'INTERVENTO SUI DISTURBI DI APPRENDIMENTO",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici",
+          "cinque_2025": 318718.29
+        },
+        {
+          "cf": "05203531008",
+          "denominazione": "PARENT PROJECT PER LA RICERCA SULLA DISTROFIA MUSCOLARE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS",
+          "cinque_2025": 242045.97
+        },
+        {
+          "cf": "80051890152",
+          "denominazione": "FONDAZIONE AIRC PER LA RICERCA SUL CANCRO ETS",
           "comune": "MILANO",
           "provincia": "MI",
           "capacita": "medio-alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
-          "cinque_2025": 2316835.68
+          "cinque_2025": 82724522.08
         },
         {
-          "cf": "02692940139",
-          "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
+          "cf": "00957930910",
+          "denominazione": "LARISO - LABORATORIO PER LA RICERCA E L'INTERVENTO SOCIALE SOCIETA' COOPERATIVA SOCIALE ONLUS",
+          "comune": "NUORO",
+          "provincia": "NU",
           "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "sezione": "IMPRESE SOCIALI",
           "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici",
-          "cinque_2025": 262687.72
-        },
-        {
-          "cf": "92000890209",
-          "denominazione": "PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-PO ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "VIADANA",
-          "provincia": "MN",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
-          "cinque_2025": 27403.94
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €38,039,618",
+          "cinque_2025": 2022.66
         },
         {
           "cf": "95319280632",
@@ -1662,180 +701,59 @@
           "cinque_2025": 120.56
         },
         {
-          "cf": "95069820108",
-          "denominazione": "U.N.A. (UOMO - NATURA - ANIMALI) ODV ETS",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "media",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "cf": "91006310337",
+          "denominazione": "LA RICERCA - DON GIORGIO BOSINI - ETS",
+          "comune": "PIACENZA",
+          "provincia": "PC",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 117,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €3,660,848",
-          "cinque_2025": 118400.65
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €5,024,935",
+          "cinque_2025": 10462.38
         },
         {
-          "cf": "93003550428",
-          "denominazione": "CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOLONTARIATO - CROCE VERDE ODV",
-          "comune": "CASTELFIDARDO",
-          "provincia": "AN",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,144,621",
-          "cinque_2025": 36061.26
-        },
-        {
-          "cf": "00767730351",
-          "denominazione": "P.A. CROCE VERDE CASTELNOVO NE' MONTI - VETTO ODV",
-          "comune": "CASTELNOVO NE' MONTI",
-          "provincia": "RE",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152",
-          "cinque_2025": 32927.85
-        },
-        {
-          "cf": "91000190131",
-          "denominazione": "CROCE VERDE BOSISIO PARINI ODV",
-          "comune": "BOSISIO PARINI",
-          "provincia": "LC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
-          "cinque_2025": 27736.87
-        }
-      ]
-    },
-    {
-      "titolo": "Fondazione Cariplo sostiene la progettazione europea",
-      "url": "https://www.info-cooperazione.it/2026/5/fondazione-cariplo-sostiene-la-progettazione-europea",
-      "ente": "Fondazione Cariplo",
-      "budget": null,
-      "scadenza": "31 dicembre 2026",
-      "gg_rimasti": 166,
-      "status": "attivo",
-      "territorio": [
-        "Europa",
-        "Nazionale"
-      ],
-      "tags": [
-        "arte",
-        "cultura",
-        "premi",
-        "ambiente",
-        "digitale"
-      ],
-      "candidati": [
-        {
-          "cf": "05504141002",
-          "denominazione": "MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
+          "cf": "05161950653",
+          "denominazione": "EUROPEAN BIOMEDICAL RESEARCH INSTITUTE OF SALERNO - EBRIS - ETS",
+          "comune": "SALERNO",
+          "provincia": "SA",
           "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 128,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 1009.87
-        },
-        {
-          "cf": "01764350516",
-          "denominazione": "OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, COOPERATIVA SOCIALE DI TIPO A, COOPERATIVA A MUTUALITA' PREVALENTE, IMPRESA SOCIALE, ENTE DEL TERZO SETTORE",
-          "comune": "AREZZO",
-          "provincia": "AR",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 128,
-          "motivo": "match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 116,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
           "cinque_2025": NaN
         },
         {
-          "cf": "02522171202",
-          "denominazione": "TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGLA TEATRO DELL'ARGINE COOP.SOCIALE",
-          "comune": "SAN LAZZARO DI SAVENA",
-          "provincia": "BO",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 9259.28
-        },
-        {
-          "cf": "06499101001",
-          "denominazione": "FONDAZIONE MONDO DIGITALE ETS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
-          "cinque_2025": 4242.47
-        },
-        {
-          "cf": "01294330228",
-          "denominazione": "ARTE SELLA IMPRESA SOCIALE",
-          "comune": "BORGO VALSUGANA",
-          "provincia": "TN",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 1219.6
-        },
-        {
-          "cf": "01535300501",
-          "denominazione": "ASSOCIAZIONE CULTURALE MUSICASTRADA APS",
-          "comune": "MONTOPOLI IN VAL D'ARNO",
-          "provincia": "PI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
-          "cinque_2025": 172.7
-        },
-        {
-          "cf": "80458470582",
-          "denominazione": "LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS",
-          "comune": "ROMA",
-          "provincia": "RM",
+          "cf": "97519070011",
+          "denominazione": "FONDAZIONE ALLEGRA AGNELLI PER LA RICERCA SUL CANCRO ENTE DEL TERZO SETTORE",
+          "comune": "CANDIOLO",
+          "provincia": "TO",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 122,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861",
-          "cinque_2025": 217080.73
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 14314168.1
         },
         {
-          "cf": "00824740047",
-          "denominazione": "DISPARI TEATRO COOPERATIVA SOCIALE ETS",
-          "comune": "CUNEO",
-          "provincia": "CN",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 3616.24
+          "cf": "93100600233",
+          "denominazione": "FONDAZIONE PER LA RICERCA SULLA FIBROSI CISTICA ETS",
+          "comune": "VERONA",
+          "provincia": "VR",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 1136634.88
         },
         {
-          "cf": "02793420015",
-          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "cf": "97510450014",
+          "denominazione": "FONDAZIONE F.A.R.O. ETS - FONDAZIONE ASSISTENZA RICERCA ONCOLOGICA PIEMONTE",
           "comune": "TORINO",
           "provincia": "TO",
-          "capacita": "alta",
+          "capacita": "medio-alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
-          "cinque_2025": 1431.15
-        },
-        {
-          "cf": "01900520204",
-          "denominazione": "TEATRO MAGRO COOPERATIVA SOCIALE O.N.L.U.S.",
-          "comune": "MANTOVA",
-          "provincia": "MN",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 1108.05
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 453352.9
         }
       ]
     },
@@ -1969,6 +887,268 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €146,054,738",
           "cinque_2025": 50778.51
+        }
+      ]
+    },
+    {
+      "titolo": "Fondazione Cariplo sostiene la progettazione europea",
+      "url": "https://www.info-cooperazione.it/2026/5/fondazione-cariplo-sostiene-la-progettazione-europea",
+      "ente": "Fondazione Cariplo",
+      "budget": null,
+      "scadenza": "31 dicembre 2026",
+      "gg_rimasti": 166,
+      "status": "attivo",
+      "territorio": [
+        "Europa",
+        "Nazionale"
+      ],
+      "tags": [
+        "arte",
+        "ambiente",
+        "premi",
+        "digitale",
+        "cultura"
+      ],
+      "candidati": [
+        {
+          "cf": "05504141002",
+          "denominazione": "MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 1009.87
+        },
+        {
+          "cf": "01764350516",
+          "denominazione": "OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, COOPERATIVA SOCIALE DI TIPO A, COOPERATIVA A MUTUALITA' PREVALENTE, IMPRESA SOCIALE, ENTE DEL TERZO SETTORE",
+          "comune": "AREZZO",
+          "provincia": "AR",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "02522171202",
+          "denominazione": "TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGLA TEATRO DELL'ARGINE COOP.SOCIALE",
+          "comune": "SAN LAZZARO DI SAVENA",
+          "provincia": "BO",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 9259.28
+        },
+        {
+          "cf": "06499101001",
+          "denominazione": "FONDAZIONE MONDO DIGITALE ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 4242.47
+        },
+        {
+          "cf": "01294330228",
+          "denominazione": "ARTE SELLA IMPRESA SOCIALE",
+          "comune": "BORGO VALSUGANA",
+          "provincia": "TN",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 1219.6
+        },
+        {
+          "cf": "01535300501",
+          "denominazione": "ASSOCIAZIONE CULTURALE MUSICASTRADA APS",
+          "comune": "MONTOPOLI IN VAL D'ARNO",
+          "provincia": "PI",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
+          "cinque_2025": 172.7
+        },
+        {
+          "cf": "80458470582",
+          "denominazione": "LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861",
+          "cinque_2025": 217080.73
+        },
+        {
+          "cf": "00824740047",
+          "denominazione": "DISPARI TEATRO COOPERATIVA SOCIALE ETS",
+          "comune": "CUNEO",
+          "provincia": "CN",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 3616.24
+        },
+        {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "01900520204",
+          "denominazione": "TEATRO MAGRO COOPERATIVA SOCIALE O.N.L.U.S.",
+          "comune": "MANTOVA",
+          "provincia": "MN",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 1108.05
+        }
+      ]
+    },
+    {
+      "titolo": "Al via l'edizione 2026 di \"Riprogettiamo il futuro\"",
+      "url": "https://www.info-cooperazione.it/2026/4/al-via-ledizione-2026-di-riprogettiamo-il-futuro",
+      "ente": "Fondazione Cariplo",
+      "budget": 2250000.0,
+      "scadenza": "23 luglio 2026",
+      "gg_rimasti": 5,
+      "status": "attivo",
+      "territorio": [
+        "Europa",
+        "Nazionale"
+      ],
+      "tags": [
+        "arte",
+        "ambiente",
+        "cultura"
+      ],
+      "candidati": [
+        {
+          "cf": "01535300501",
+          "denominazione": "ASSOCIAZIONE CULTURALE MUSICASTRADA APS",
+          "comune": "MONTOPOLI IN VAL D'ARNO",
+          "provincia": "PI",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
+          "cinque_2025": 172.7
+        },
+        {
+          "cf": "80458470582",
+          "denominazione": "LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861",
+          "cinque_2025": 217080.73
+        },
+        {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "97726440015",
+          "denominazione": "ASSOCIAZIONE CULTURALE EUFEMIA APS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
+          "cinque_2025": 498.85
+        },
+        {
+          "cf": "93089600386",
+          "denominazione": "FERRARA LA CITTA' DEL CINEMA APS",
+          "comune": "FERRARA",
+          "provincia": "FE",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
+          "cinque_2025": 345.81
+        },
+        {
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 2316835.68
+        },
+        {
+          "cf": "02692940139",
+          "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici",
+          "cinque_2025": 262687.72
+        },
+        {
+          "cf": "92000890209",
+          "denominazione": "PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-PO ORGANIZZAZIONE DI VOLONTARIATO",
+          "comune": "VIADANA",
+          "provincia": "MN",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
+          "cinque_2025": 27403.94
+        },
+        {
+          "cf": "02285960460",
+          "denominazione": "ASSOCIAZIONE CULTURALE PHOTOLUX APS",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 2458.75
+        },
+        {
+          "cf": "02483330409",
+          "denominazione": "FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE - APS",
+          "comune": "FORLI'",
+          "provincia": "FC",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 915.1
         }
       ]
     },
@@ -2369,130 +1549,133 @@
       ]
     },
     {
-      "titolo": "Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori",
-      "url": "https://www.info-cooperazione.it/2026/7/bando-daphne-2026-per-contrastare-la-violenza-di-genere-e-la-violenza-sui-minori",
-      "ente": "Commissione Europea",
+      "titolo": "Sostegno alle municipalità in Libia",
+      "url": "https://www.info-cooperazione.it/2026/6/sostegno-alle-municipalita-in-libia",
+      "ente": "AICS",
       "budget": null,
-      "scadenza": "03 novembre 2026",
-      "gg_rimasti": 108,
+      "scadenza": "31 agosto 2026",
+      "gg_rimasti": 44,
       "status": "attivo",
       "territorio": [
+        "Europa",
+        "Libia",
+        "Locale",
         "Nazionale"
       ],
       "tags": [
-        "donne",
-        "minori"
+        "salute",
+        "ambiente"
       ],
       "candidati": [
         {
-          "cf": "01098680372",
-          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
+          "cf": "80458470582",
+          "denominazione": "LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
           "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 125,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
-          "cinque_2025": 137952.32
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861",
+          "cinque_2025": 217080.73
         },
         {
-          "cf": "97501240010",
-          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
           "comune": "TORINO",
           "provincia": "TO",
           "capacita": "alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
-          "cinque_2025": 42117.74
-        },
-        {
-          "cf": "06273640588",
-          "denominazione": "ARCIRAGAZZI  APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
-          "cinque_2025": 581.16
-        },
-        {
-          "cf": "97227450158",
-          "denominazione": "ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 122,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989",
-          "cinque_2025": 7925761.31
-        },
-        {
-          "cf": "97010160154",
-          "denominazione": "CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI - ENTE DEL TERZO SETTORE",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 122,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751",
-          "cinque_2025": 173631.41
-        },
-        {
-          "cf": "92504680155",
-          "denominazione": "AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO SETTORE O ANCHE AI.BI. AMICI DEI BAMBINI FONDAZIONE ETS",
-          "comune": "SAN GIULIANO MILANESE",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 122,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083",
-          "cinque_2025": 115127.89
-        },
-        {
-          "cf": "97457060586",
-          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
           "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
-          "cinque_2025": 1514.12
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
         },
         {
-          "cf": "00226500288",
-          "denominazione": "PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRATI MINORI CONVENTUALI - CARITAS S. ANTONIO",
-          "comune": "PADOVA",
-          "provincia": "PD",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
-          "cinque_2025": 770111.54
-        },
-        {
-          "cf": "92012690373",
-          "denominazione": "S.O.S. - IL TELEFONO AZZURRO ETS - LINEA NAZIONALE PER LA PREVENZIONE DELL'ABUSO ALL'INFANZIA ",
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
           "comune": "MILANO",
           "provincia": "MI",
           "capacita": "medio-alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
-          "cinque_2025": 178760.76
+          "cinque_2025": 2316835.68
         },
         {
-          "cf": "80017510225",
-          "denominazione": "SOS VILLAGGI DEI BAMBINI ETS",
+          "cf": "02692940139",
+          "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
           "comune": "MILANO",
           "provincia": "MI",
           "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici",
+          "cinque_2025": 262687.72
+        },
+        {
+          "cf": "92000890209",
+          "denominazione": "PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-PO ORGANIZZAZIONE DI VOLONTARIATO",
+          "comune": "VIADANA",
+          "provincia": "MN",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
+          "cinque_2025": 27403.94
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 118,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
-          "cinque_2025": 217254.63
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
+        },
+        {
+          "cf": "95069820108",
+          "denominazione": "U.N.A. (UOMO - NATURA - ANIMALI) ODV ETS",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "media",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €3,660,848",
+          "cinque_2025": 118400.65
+        },
+        {
+          "cf": "93003550428",
+          "denominazione": "CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOLONTARIATO - CROCE VERDE ODV",
+          "comune": "CASTELFIDARDO",
+          "provincia": "AN",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,144,621",
+          "cinque_2025": 36061.26
+        },
+        {
+          "cf": "00767730351",
+          "denominazione": "P.A. CROCE VERDE CASTELNOVO NE' MONTI - VETTO ODV",
+          "comune": "CASTELNOVO NE' MONTI",
+          "provincia": "RE",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152",
+          "cinque_2025": 32927.85
+        },
+        {
+          "cf": "91000190131",
+          "denominazione": "CROCE VERDE BOSISIO PARINI ODV",
+          "comune": "BOSISIO PARINI",
+          "provincia": "LC",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
+          "cinque_2025": 27736.87
         }
       ]
     },
@@ -2508,8 +1691,8 @@
         "Nazionale"
       ],
       "tags": [
-        "inclusione sociale",
         "disabilità",
+        "inclusione sociale",
         "digitale"
       ],
       "candidati": [
@@ -2995,14 +2178,14 @@
           "cinque_2025": 581.16
         },
         {
-          "cf": "01717760985",
-          "denominazione": "\"SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - SOCIETA' COOPERA TIVA SOCIALE CONSORTILE - ONLUS\"",
-          "comune": "DARFO BOARIO TERME",
-          "provincia": "BS",
+          "cf": "04876970486",
+          "denominazione": "CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARIETA'-CONSORZIO DI COOPERATIVE SOCIALI-SOCIETA' COOPERATIVA SOCIALE",
+          "comune": "FIRENZE",
+          "provincia": "FI",
           "capacita": "alta",
           "sezione": "IMPRESE SOCIALI",
           "score": 123,
-          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264",
+          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093",
           "cinque_2025": NaN
         },
         {
@@ -3150,6 +2333,134 @@
       ]
     },
     {
+      "titolo": "Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori",
+      "url": "https://www.info-cooperazione.it/2026/7/bando-daphne-2026-per-contrastare-la-violenza-di-genere-e-la-violenza-sui-minori",
+      "ente": "Commissione Europea",
+      "budget": null,
+      "scadenza": "03 novembre 2026",
+      "gg_rimasti": 108,
+      "status": "attivo",
+      "territorio": [
+        "Nazionale"
+      ],
+      "tags": [
+        "minori",
+        "donne"
+      ],
+      "candidati": [
+        {
+          "cf": "01098680372",
+          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 125,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
+          "cinque_2025": 137952.32
+        },
+        {
+          "cf": "97501240010",
+          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
+          "cinque_2025": 42117.74
+        },
+        {
+          "cf": "06273640588",
+          "denominazione": "ARCIRAGAZZI  APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
+          "cinque_2025": 581.16
+        },
+        {
+          "cf": "97227450158",
+          "denominazione": "ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989",
+          "cinque_2025": 7925761.31
+        },
+        {
+          "cf": "97010160154",
+          "denominazione": "CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI - ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751",
+          "cinque_2025": 173631.41
+        },
+        {
+          "cf": "92504680155",
+          "denominazione": "AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO SETTORE O ANCHE AI.BI. AMICI DEI BAMBINI FONDAZIONE ETS",
+          "comune": "SAN GIULIANO MILANESE",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083",
+          "cinque_2025": 115127.89
+        },
+        {
+          "cf": "97457060586",
+          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
+          "cinque_2025": 1514.12
+        },
+        {
+          "cf": "00226500288",
+          "denominazione": "PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRATI MINORI CONVENTUALI - CARITAS S. ANTONIO",
+          "comune": "PADOVA",
+          "provincia": "PD",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 770111.54
+        },
+        {
+          "cf": "92012690373",
+          "denominazione": "S.O.S. - IL TELEFONO AZZURRO ETS - LINEA NAZIONALE PER LA PREVENZIONE DELL'ABUSO ALL'INFANZIA ",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 178760.76
+        },
+        {
+          "cf": "80017510225",
+          "denominazione": "SOS VILLAGGI DEI BAMBINI ETS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 217254.63
+        }
+      ]
+    },
+    {
       "titolo": "Bando volontariato 2026",
       "url": "https://www.info-cooperazione.it/2026/7/bando-volontariato-2026",
       "ente": "Fondazione con il Sud",
@@ -3161,7 +2472,6 @@
         "Basilicata",
         "Calabria",
         "Campania",
-        "Europa",
         "Mezzogiorno",
         "Molise",
         "Nazionale",
@@ -3282,261 +2592,6 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
           "cinque_2025": 272730.84
-        }
-      ]
-    },
-    {
-      "titolo": "Dalla Norvegia 10 milioni per l'innovazione umanitaria",
-      "url": "https://www.info-cooperazione.it/2026/5/dalla-norvegia-10-milioni-per-linnovazione-umanitaria",
-      "ente": "Innovation Norway",
-      "budget": null,
-      "scadenza": "17 agosto 2026",
-      "gg_rimasti": 30,
-      "status": "attivo",
-      "territorio": [
-        "Nazionale"
-      ],
-      "tags": [
-        "ricerca"
-      ],
-      "candidati": [
-        {
-          "cf": "04344650371",
-          "denominazione": "ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICERCA E L'INTERVENTO SUI DISTURBI DI APPRENDIMENTO",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici",
-          "cinque_2025": 318718.29
-        },
-        {
-          "cf": "05203531008",
-          "denominazione": "PARENT PROJECT PER LA RICERCA SULLA DISTROFIA MUSCOLARE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS",
-          "cinque_2025": 242045.97
-        },
-        {
-          "cf": "80051890152",
-          "denominazione": "FONDAZIONE AIRC PER LA RICERCA SUL CANCRO ETS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
-          "cinque_2025": 82724522.08
-        },
-        {
-          "cf": "00957930910",
-          "denominazione": "LARISO - LABORATORIO PER LA RICERCA E L'INTERVENTO SOCIALE SOCIETA' COOPERATIVA SOCIALE ONLUS",
-          "comune": "NUORO",
-          "provincia": "NU",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €38,039,618",
-          "cinque_2025": 2022.66
-        },
-        {
-          "cf": "95319280632",
-          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
-          "comune": "NAPOLI",
-          "provincia": NaN,
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
-          "cinque_2025": 120.56
-        },
-        {
-          "cf": "91006310337",
-          "denominazione": "LA RICERCA - DON GIORGIO BOSINI - ETS",
-          "comune": "PIACENZA",
-          "provincia": "PC",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €5,024,935",
-          "cinque_2025": 10462.38
-        },
-        {
-          "cf": "05161950653",
-          "denominazione": "EUROPEAN BIOMEDICAL RESEARCH INSTITUTE OF SALERNO - EBRIS - ETS",
-          "comune": "SALERNO",
-          "provincia": "SA",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 116,
-          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "97519070011",
-          "denominazione": "FONDAZIONE ALLEGRA AGNELLI PER LA RICERCA SUL CANCRO ENTE DEL TERZO SETTORE",
-          "comune": "CANDIOLO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
-          "cinque_2025": 14314168.1
-        },
-        {
-          "cf": "93100600233",
-          "denominazione": "FONDAZIONE PER LA RICERCA SULLA FIBROSI CISTICA ETS",
-          "comune": "VERONA",
-          "provincia": "VR",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
-          "cinque_2025": 1136634.88
-        },
-        {
-          "cf": "97510450014",
-          "denominazione": "FONDAZIONE F.A.R.O. ETS - FONDAZIONE ASSISTENZA RICERCA ONCOLOGICA PIEMONTE",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
-          "cinque_2025": 453352.9
-        }
-      ]
-    },
-    {
-      "titolo": "Ecco il calendario delle call 2026 del Programma CERV",
-      "url": "https://www.info-cooperazione.it/2025/12/ecco-il-calendario-delle-call-2026-del-programma-cerv",
-      "ente": "Commissione Europea",
-      "budget": null,
-      "scadenza": "01 ottobre 2026",
-      "gg_rimasti": 75,
-      "status": "attivo",
-      "territorio": [
-        "Europa",
-        "Nazionale"
-      ],
-      "tags": [
-        "donne"
-      ],
-      "candidati": [
-        {
-          "cf": "97307800587",
-          "denominazione": "ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMENTAZIONE DELLE DONNE - APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
-          "cinque_2025": 1639.57
-        },
-        {
-          "cf": "96126560588",
-          "denominazione": "ASSOCIAZIONE DIFFERENZA DONNA APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €7,635,872",
-          "cinque_2025": 25969.56
-        },
-        {
-          "cf": "97566950586",
-          "denominazione": " CASA DELLE DONNE LUCHA Y SIESTA APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €5,813,423",
-          "cinque_2025": 10637.66
-        },
-        {
-          "cf": "97086840150",
-          "denominazione": "CASA DI ACCOGLIENZA DELLE DONNE MALTRATTATE ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 53172.63
-        },
-        {
-          "cf": "97160150153",
-          "denominazione": "ASSOCIAZIONE SALUTE DONNA- ODV ",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 26678.09
-        },
-        {
-          "cf": "96118860582",
-          "denominazione": "VOLONTARIATO INTERNAZIONALE DONNA EDUCAZIONE SVILUPPO - ODV",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; ODV",
-          "cinque_2025": 24086.91
-        },
-        {
-          "cf": "02964900175",
-          "denominazione": "Fondazione Madonna del Corlo ETS",
-          "comune": "LONATO DEL GARDA",
-          "provincia": "BS",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
-          "cinque_2025": 14407.81
-        },
-        {
-          "cf": "92041820371",
-          "denominazione": "MONDODONNA - ENTE DEL TERZO SETTORE",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €71,729,313",
-          "cinque_2025": 3999.02
-        },
-        {
-          "cf": "00893280107",
-          "denominazione": "OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL RAGAZZO",
-          "comune": "CHIAVARI",
-          "provincia": "GE",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534",
-          "cinque_2025": 1955.25
-        },
-        {
-          "cf": "94070160018",
-          "denominazione": "ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S.",
-          "comune": "CARMAGNOLA",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €165,436,108",
-          "cinque_2025": 1580.06
         }
       ]
     },
@@ -3923,14 +2978,14 @@
           "cinque_2025": 17324.05
         },
         {
-          "cf": "05994670726",
-          "denominazione": "UNISCO - NETWORK PER LO SVILUPPO LOCALE E.T.S.",
-          "comune": "BARI",
-          "provincia": "BA",
+          "cf": "01499600672",
+          "denominazione": "ITACA, IL TERRITORIO AL CENTRO DELL'ATTENZIONE - ASSOCIAZIONE PER LO SVILUPPO LOCALE",
+          "comune": "CELLINO ATTANASIO",
+          "provincia": "TE",
           "capacita": "alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 120,
-          "motivo": "match tema + sezione; capacità alta; grant UE; appalti €9,942,666",
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti €1,211,857",
           "cinque_2025": NaN
         }
       ]
@@ -4071,15 +3126,15 @@
       ]
     },
     {
-      "titolo": "NEXT MED per il turismo sostenibile",
-      "url": "https://www.info-cooperazione.it/2026/7/next-med-per-il-turismo-sostenibile",
+      "titolo": "Bando CERV per l'attuazione della Carta dei diritti fondamentali UE",
+      "url": "https://www.info-cooperazione.it/2026/5/bando-cerv-per-lattuazione-della-carta-dei-diritti-fondamentali-ue",
       "ente": "Commissione Europea",
-      "budget": 1200000.0,
-      "scadenza": "29 ottobre 2026",
-      "gg_rimasti": 103,
+      "budget": null,
+      "scadenza": "15 settembre 2026",
+      "gg_rimasti": 59,
       "status": "attivo",
       "territorio": [
-        "Mediterraneo",
+        "Locale",
         "Nazionale"
       ],
       "tags": [
@@ -4207,11 +3262,12 @@
       "gg_rimasti": 166,
       "status": "attivo",
       "territorio": [
+        "Europa",
         "Nazionale"
       ],
       "tags": [
-        "inclusione sociale",
-        "digitale"
+        "digitale",
+        "inclusione sociale"
       ],
       "candidati": [
         {
@@ -4335,12 +3391,13 @@
       "gg_rimasti": 47,
       "status": "attivo",
       "territorio": [
+        "Europa",
         "Nazionale",
         "Regionale"
       ],
       "tags": [
-        "ambiente",
-        "lavoro"
+        "lavoro",
+        "ambiente"
       ],
       "candidati": [
         {
@@ -4452,6 +3509,133 @@
           "score": 117,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152",
           "cinque_2025": 32927.85
+        }
+      ]
+    },
+    {
+      "titolo": "Ecco il calendario delle call 2026 del Programma CERV",
+      "url": "https://www.info-cooperazione.it/2025/12/ecco-il-calendario-delle-call-2026-del-programma-cerv",
+      "ente": "Commissione Europea",
+      "budget": null,
+      "scadenza": "01 ottobre 2026",
+      "gg_rimasti": 75,
+      "status": "attivo",
+      "territorio": [
+        "Nazionale"
+      ],
+      "tags": [
+        "donne"
+      ],
+      "candidati": [
+        {
+          "cf": "97307800587",
+          "denominazione": "ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMENTAZIONE DELLE DONNE - APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 1639.57
+        },
+        {
+          "cf": "96126560588",
+          "denominazione": "ASSOCIAZIONE DIFFERENZA DONNA APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €7,635,872",
+          "cinque_2025": 25969.56
+        },
+        {
+          "cf": "97566950586",
+          "denominazione": " CASA DELLE DONNE LUCHA Y SIESTA APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €5,813,423",
+          "cinque_2025": 10637.66
+        },
+        {
+          "cf": "97086840150",
+          "denominazione": "CASA DI ACCOGLIENZA DELLE DONNE MALTRATTATE ORGANIZZAZIONE DI VOLONTARIATO",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
+          "cinque_2025": 53172.63
+        },
+        {
+          "cf": "97160150153",
+          "denominazione": "ASSOCIAZIONE SALUTE DONNA- ODV ",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
+          "cinque_2025": 26678.09
+        },
+        {
+          "cf": "96118860582",
+          "denominazione": "VOLONTARIATO INTERNAZIONALE DONNA EDUCAZIONE SVILUPPO - ODV",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; ODV",
+          "cinque_2025": 24086.91
+        },
+        {
+          "cf": "02964900175",
+          "denominazione": "Fondazione Madonna del Corlo ETS",
+          "comune": "LONATO DEL GARDA",
+          "provincia": "BS",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 14407.81
+        },
+        {
+          "cf": "92041820371",
+          "denominazione": "MONDODONNA - ENTE DEL TERZO SETTORE",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €71,729,313",
+          "cinque_2025": 3999.02
+        },
+        {
+          "cf": "00893280107",
+          "denominazione": "OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL RAGAZZO",
+          "comune": "CHIAVARI",
+          "provincia": "GE",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534",
+          "cinque_2025": 1955.25
+        },
+        {
+          "cf": "94070160018",
+          "denominazione": "ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S.",
+          "comune": "CARMAGNOLA",
+          "provincia": "TO",
+          "capacita": "medio-alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €165,436,108",
+          "cinque_2025": 1580.06
         }
       ]
     },
@@ -4722,6 +3906,8 @@
       "gg_rimasti": 74,
       "status": "attivo",
       "territorio": [
+        "Europa",
+        "Locale",
         "Mezzogiorno",
         "Nazionale"
       ],
@@ -4842,15 +4028,142 @@
       ]
     },
     {
-      "titolo": "Bando CERV per l'attuazione della Carta dei diritti fondamentali UE",
-      "url": "https://www.info-cooperazione.it/2026/5/bando-cerv-per-lattuazione-della-carta-dei-diritti-fondamentali-ue",
-      "ente": "Commissione Europea",
+      "titolo": "Dalla Norvegia 10 milioni per l'innovazione umanitaria",
+      "url": "https://www.info-cooperazione.it/2026/5/dalla-norvegia-10-milioni-per-linnovazione-umanitaria",
+      "ente": "Innovation Norway",
       "budget": null,
-      "scadenza": "15 settembre 2026",
-      "gg_rimasti": 59,
+      "scadenza": "17 agosto 2026",
+      "gg_rimasti": 30,
       "status": "attivo",
       "territorio": [
-        "Locale",
+        "Nazionale"
+      ],
+      "tags": [
+        "ricerca"
+      ],
+      "candidati": [
+        {
+          "cf": "04344650371",
+          "denominazione": "ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICERCA E L'INTERVENTO SUI DISTURBI DI APPRENDIMENTO",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici",
+          "cinque_2025": 318718.29
+        },
+        {
+          "cf": "05203531008",
+          "denominazione": "PARENT PROJECT PER LA RICERCA SULLA DISTROFIA MUSCOLARE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS",
+          "cinque_2025": 242045.97
+        },
+        {
+          "cf": "80051890152",
+          "denominazione": "FONDAZIONE AIRC PER LA RICERCA SUL CANCRO ETS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 82724522.08
+        },
+        {
+          "cf": "00957930910",
+          "denominazione": "LARISO - LABORATORIO PER LA RICERCA E L'INTERVENTO SOCIALE SOCIETA' COOPERATIVA SOCIALE ONLUS",
+          "comune": "NUORO",
+          "provincia": "NU",
+          "capacita": "medio-alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €38,039,618",
+          "cinque_2025": 2022.66
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
+        },
+        {
+          "cf": "91006310337",
+          "denominazione": "LA RICERCA - DON GIORGIO BOSINI - ETS",
+          "comune": "PIACENZA",
+          "provincia": "PC",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €5,024,935",
+          "cinque_2025": 10462.38
+        },
+        {
+          "cf": "05161950653",
+          "denominazione": "EUROPEAN BIOMEDICAL RESEARCH INSTITUTE OF SALERNO - EBRIS - ETS",
+          "comune": "SALERNO",
+          "provincia": "SA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 116,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "97519070011",
+          "denominazione": "FONDAZIONE ALLEGRA AGNELLI PER LA RICERCA SUL CANCRO ENTE DEL TERZO SETTORE",
+          "comune": "CANDIOLO",
+          "provincia": "TO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 14314168.1
+        },
+        {
+          "cf": "93100600233",
+          "denominazione": "FONDAZIONE PER LA RICERCA SULLA FIBROSI CISTICA ETS",
+          "comune": "VERONA",
+          "provincia": "VR",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 1136634.88
+        },
+        {
+          "cf": "97510450014",
+          "denominazione": "FONDAZIONE F.A.R.O. ETS - FONDAZIONE ASSISTENZA RICERCA ONCOLOGICA PIEMONTE",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 453352.9
+        }
+      ]
+    },
+    {
+      "titolo": "NEXT MED per il turismo sostenibile",
+      "url": "https://www.info-cooperazione.it/2026/7/next-med-per-il-turismo-sostenibile",
+      "ente": "Commissione Europea",
+      "budget": 1200000.0,
+      "scadenza": "29 ottobre 2026",
+      "gg_rimasti": 103,
+      "status": "attivo",
+      "territorio": [
+        "Mediterraneo",
         "Nazionale"
       ],
       "tags": [
@@ -5620,8 +4933,8 @@
         "Nazionale/da verificare"
       ],
       "tags": [
-        "giovani",
         "premi",
+        "giovani",
         "lavoro"
       ],
       "candidati": [

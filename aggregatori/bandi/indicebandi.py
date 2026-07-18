@@ -59,6 +59,10 @@ def fetch_bandi(force=False):
             print(f"   [{i+1}/{len(urls)}]", file=sys.stderr)
         time.sleep(0.3)
 
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
+    from config import filtra_bandi_attivi  # noqa: E402
+    bandi = filtra_bandi_attivi(bandi)
+
     with open(CACHE_FILE, "w") as f:
         json.dump(bandi, f, ensure_ascii=False, indent=2)
 
