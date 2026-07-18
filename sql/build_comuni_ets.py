@@ -185,71 +185,52 @@ def load_ets(con):
 
 # ── 3b. ANAC aggiudicatari (chi vince gli appalti) + importi ───────────
 
-ANAC_AGGIUDICATARI_URL = "https://dati.anticorruzione.it/opendata/download/dataset/aggiudicatari/filesystem/20260501-aggiudicatari_json.zip"
+ANAC_AGGIUDICATARI_GCS = f"{GCS_BASE}/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet"
 ANAC_AGGIUDICAZIONI_GCS = f"{GCS_BASE}/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet"
-ANAC_AGGIUDICATARI_CACHE = Path("/tmp/anac_aggiudicatari_cache.parquet")
 
 
-def _scarica_aggiudicatari_con_importi():
-    """Scarica aggiudicatari (CF per CIG) e JOIN con aggiudicazioni (importi).
+def _join_aggiudicatari_importi():
+    """JOIN aggiudicatari (GCS) -> aggiudicazioni (GCS) per importi per CF.
     
+    Legge entrambi i dataset direttamente da GCS, nessun download locale.
     Restituisce dict: cf -> {n_appalti, importo_totale}.
     """
-    # 1. Aggiudicatari (vincitori): CF per CIG
-    if not ANAC_AGGIUDICATARI_CACHE.exists():
-        import requests, zipfile, io, json
-        print("📥 Scarico aggiudicatari ANAC...")
-        r = requests.get(ANAC_AGGIUDICATARI_URL, timeout=300,
-                         headers={"User-Agent": "Mozilla/5.0"})
-        r.raise_for_status()
-        
-        records = []
-        with zipfile.ZipFile(io.BytesIO(r.content)) as z:
-            with z.open("20260501-aggiudicatari_json.json") as f:
-                reader = io.TextIOWrapper(f, 'utf-8')
-                for line in reader:
-                    rec = json.loads(line)
-                    cf = rec.get("codice_fiscale")
-                    if cf and isinstance(cf, str) and len(cf.strip()) >= 11:
-                        records.append({"cf": cf.strip(), "cig": rec.get("cig", "")})
-        pd.DataFrame(records).to_parquet(ANAC_AGGIUDICATARI_CACHE, index=False)
-        print(f"   {len(records):,} record aggiudicatari salvati")
-    
-    # 2. JOIN con aggiudicazioni su GCS per importi
     print("📥 JOIN aggiudicatari -> aggiudicazioni (GCS)...")
     con = duckdb.connect()
     df = con.sql(f"""
-        SELECT a.cf,
+        SELECT a.codice_fiscale as cf,
                COUNT(*)::INT as n_appalti,
                ROUND(SUM(ag.importo_aggiudicazione), 0) as importo_totale
-        FROM '{ANAC_AGGIUDICATARI_CACHE}' a
+        FROM '{ANAC_AGGIUDICATARI_GCS}' a
         JOIN '{ANAC_AGGIUDICAZIONI_GCS}' ag ON a.cig = ag.cig
         WHERE ag.importo_aggiudicazione > 0
           AND ag.importo_aggiudicazione < 100000000000
           AND EXTRACT(YEAR FROM ag.data_aggiudicazione_definitiva) BETWEEN 2000 AND 2026
-        GROUP BY a.cf
+        GROUP BY a.codice_fiscale
     """).fetchdf()
     con.close()
     
     result = {}
     for _, r in df.iterrows():
-        result[str(r["cf"])] = {
-            "n_appalti": int(r["n_appalti"]),
-            "importo_totale": float(r["importo_totale"]),
-        }
+        cf = str(r["cf"]).strip()
+        if cf and len(cf) >= 11:
+            result[cf] = {
+                "n_appalti": int(r["n_appalti"]),
+                "importo_totale": float(r["importo_totale"]),
+            }
     print(f"   {len(result):,} CF con importi")
     return result
 
 
 def load_aggiudicatari(con, ets_agg):
-    """Aggrega ETS con appalti ANAC per comune.
+    """Aggrega ETS con appalti ANAC per comune (legge da GCS).
     
     Aggiunge a ets_agg:
     - con_appalti: ETS con almeno un appalto
     - con_appalti_importo: ETS con importo noto
     - importo_appalti_totale: somma importi per comune
     """
-    aggiudicatari = _scarica_aggiudicatari_con_importi()
+    aggiudicatari = _join_aggiudicatari_importi()
     
     df = con.sql(f"""
         SELECT codice_fiscale, TRIM(comune) as c, provincia
