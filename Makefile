@@ -1,5 +1,6 @@
 # Terzo Settore Intelligence — Makefile
-.PHONY: build scan radar latest segnale test clean clean-cache all
+# Il package tsi/ è la fonte di verità. radar/ e lib/ sono wrapper backward-compat.
+.PHONY: build scan radar latest segnale test monitor clean clean-cache all
 
 all: build comuni-ets scan
 
@@ -28,6 +29,10 @@ segnale:
 contatta:
 	[ -n "$(B)" ] || (echo "Usa: make contatta B='BPER' [TOP=10] [ENRICH=1] [FMT=csv]" && exit 1)
 	python3 radar/contatta.py --bando "$(B)" --top $(if $(TOP),$(TOP),10) $(if $(ENRICH),--enrich,) $(if $(FMT),--formato $(FMT),) || true
+
+# Monitoraggio salute fonti
+monitor:
+	python3 -m tsi.monitor.fonti
 
 # Build/report leggono direttamente da GCS
 # I dati 5x1000, FTS, RNA, PNRR sono letti via HTTP da build_unified_ets.sql
