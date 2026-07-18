@@ -84,6 +84,10 @@ def gap_territoriale(con):
             segnale = "🟠 domanda pubblica, zero ETS"
         elif ets_ok == 0 and rd_pct > 10:
             segnale = "🟡 RdC alto, zero ETS"
+        elif ets_ok < 3 and reddito > 0 and reddito < 10000:
+            segnale = "🟠 reddito basso, pochissimi ETS"
+        elif ets_ok == 0 and reddito > 0 and reddito < 12000:
+            segnale = "🟠 reddito basso, zero ETS"
         else:
             segnale = ""
         
@@ -154,7 +158,7 @@ def genera_report(scan, con, filtro_territorio=None, giorni=60):
         lines.append("")
 
     lines.append("---")
-    lines.append("## ⚠️ Gap territoriali (appalti riservati ANAC + ETS + RdC)")
+    lines.append("## ⚠️ Gap territoriali (appalti ANAC + ETS + contesto sociale)")
     lines.append("")
     lines.append("| Comune | Prov | Appalti riservati | ETS ok | RdC% | Reddito | Segnale |")
     lines.append("|--------|------|------------------|--------|------|---------|---------|")

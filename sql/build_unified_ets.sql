@@ -88,6 +88,19 @@ pnrr AS (
         SUM(fin_totale) as pnrr_totale
     FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/pnrr_progetti/2026/pnrr_progetti_2026_clean.parquet', union_by_name=true)
     GROUP BY TRIM(cf_soggetto_attuatore)
+),
+
+anac AS (
+    SELECT a.codice_fiscale as cf,
+           ROUND(SUM(ag.importo_aggiudicazione), 0) as importo_appalti
+    FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
+    JOIN read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
+      ON a.cig = ag.cig
+    WHERE ag.importo_aggiudicazione > 0
+      AND ag.importo_aggiudicazione < 100000000000
+      AND EXTRACT(YEAR FROM ag.data_aggiudicazione_definitiva) BETWEEN 2000 AND 2026
+      AND a.codice_fiscale IS NOT NULL AND a.codice_fiscale != ''
+    GROUP BY a.codice_fiscale
 )
 
 SELECT 
@@ -127,6 +140,10 @@ SELECT
     pnrr.pnrr_progetti,
     pnrr.pnrr_totale,
 
+    -- Appalti pubblici ANAC
+    CASE WHEN COALESCE(anac.importo_appalti, 0) > 0 THEN TRUE ELSE FALSE END as ha_appalti,
+    COALESCE(anac.importo_appalti, 0) as importo_appalti,
+
     -- Indicatore composito di capacità
     -- Alta: grant UE (progetti europei finanziati)
     -- Medio-alta: aiuti stato o PNRR (progetti co-finanziati)
@@ -148,5 +165,6 @@ LEFT JOIN cinque_agg c ON r.codice_fiscale = c.cf
 LEFT JOIN fts f ON r.codice_fiscale = f.cf
 LEFT JOIN rna ON r.codice_fiscale = rna.cf
 LEFT JOIN pnrr ON r.codice_fiscale = pnrr.cf
+LEFT JOIN anac ON r.codice_fiscale = anac.cf
 ORDER BY r.provincia, r.comune, r.denominazione)
 TO 'data/unified_ets.parquet' (FORMAT PARQUET);

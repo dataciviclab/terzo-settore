@@ -71,7 +71,7 @@ TERRITORY_KEYWORDS = {
 MATCH_ETS_SQL = """
     SELECT codice_fiscale, denominazione, comune, provincia, capacita_progettuale,
            cinque_2025, flag_sport_denom, sezione,
-           ha_grant_ue, ha_pnrr,
+           ha_grant_ue, ha_pnrr, ha_appalti, importo_appalti,
            CASE
              WHEN regexp_matches(lower(denominazione), '{pattern}') AND flag_sport_denom AND {sez_match_bool} THEN 'tema+sport+sezione'
              WHEN regexp_matches(lower(denominazione), '{pattern}') AND flag_sport_denom THEN 'tema+sport'
@@ -107,6 +107,14 @@ MATCH_ETS_SQL = """
              + CASE WHEN ha_grant_ue THEN 8 ELSE 0 END
              -- PNRR (0-5) — peso ridotto
              + CASE WHEN ha_pnrr THEN 5 ELSE 0 END
+             -- Appalti pubblici ANAC (0-10) — capacità dimostrata
+             + CASE
+                 WHEN importo_appalti >= 10000000 THEN 10
+                 WHEN importo_appalti >= 1000000 THEN 7
+                 WHEN importo_appalti >= 100000 THEN 5
+                 WHEN ha_appalti THEN 3
+                 ELSE 0
+               END
              -- Impresa Sociale (0-5) — invariato
              + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
            ) AS score
@@ -199,6 +207,12 @@ def fmt_match_reason(c):
         parts.append("ODV")
     elif sez == "ASSOCIAZIONI DI PROMOZIONE SOCIALE":
         parts.append("APS")
+    if c.get("ha_appalti") is True:
+        imp = c.get("importo_appalti", 0)
+        if not is_missing(imp) and imp >= 1000000:
+            parts.append(f"appalti €{imp:,.0f}")
+        else:
+            parts.append("appalti pubblici")
     return "; ".join(parts)
 
 
