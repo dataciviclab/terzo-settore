@@ -168,11 +168,11 @@ def main():
     print()
     print("🧪 Section gate test:")
     section_tests = [
-        ("volontariato", ["volontariato"], ["ORGANIZZAZIONI DI VOLONTARIATO"]),
+        ("volontariato", ["volontariato"], ["ORGANIZZAZIONI DI VOLONTARIATO", "ALTRI ENTI DEL TERZO SETTORE"]),
         ("sport", ["sport"], ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"]),
-        ("lavoro", ["lavoro"], ["IMPRESE SOCIALI"]),
-        ("cultura", ["cultura"], ["ASSOCIAZIONI DI PROMOZIONE SOCIALE"]),
-        ("donne+volontariato", ["donne", "volontariato"], ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "ORGANIZZAZIONI DI VOLONTARIATO"]),
+        ("lavoro", ["lavoro"], ["IMPRESE SOCIALI", "ALTRI ENTI DEL TERZO SETTORE"]),
+        ("cultura", ["cultura"], ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "ALTRI ENTI DEL TERZO SETTORE"]),
+        ("donne+volontariato", ["donne", "volontariato"], ["ASSOCIAZIONI DI PROMOZIONE SOCIALE", "ORGANIZZAZIONI DI VOLONTARIATO", "ALTRI ENTI DEL TERZO SETTORE"]),
         ("tag sconosciuto", ["xyz_non_existent"], []),
     ]
     for name, tags, expected in section_tests:
@@ -211,7 +211,8 @@ def main():
         ("testo corto senza tag", "Bando della Commissione Europea", []),
         ("volontariato giovani", "Progetti di volontariato giovanile", ["volontariato", "giovani"]),
         ("premio innovazione", "Premio innovazione sociale 2026", ["premi"]),
-        ("cultura ucraina", "Progetti culturali Ucraina", ["migranti"]),
+        ("migranti", "Richiedenti asilo e rifugiati", ["migranti"]),
+        ("cultura ucraina (no FP)", "Progetti culturali in Moldavia", []),
     ]
     for name, text, expected_tags in nlp_texts:
         extracted = set(extract_tags_from_text(text))

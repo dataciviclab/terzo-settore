@@ -1,5 +1,5 @@
 {
-  "generato": "2026-07-18T14:00:20.771539",
+  "generato": "2026-07-18T14:33:34.969348",
   "bandi_totali": 227,
   "match": 45,
   "gap": 1,
@@ -910,7 +910,7 @@
       "motivo": "scaduto"
     }
   ],
-  "ets_unici": 151,
+  "ets_unici": 147,
   "resultados": [
     {
       "titolo": "Contributi annuali della Banca d’Italia – 2^ scadenza 2026",
@@ -981,6 +981,28 @@
           "cinque_2025": NaN
         },
         {
+          "cf": "01098680372",
+          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 125,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
+          "cinque_2025": 137952.32
+        },
+        {
+          "cf": "97501240010",
+          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
+          "cinque_2025": 42117.74
+        },
+        {
           "cf": "02522171202",
           "denominazione": "TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGLA TEATRO DELL'ARGINE COOP.SOCIALE",
           "comune": "SAN LAZZARO DI SAVENA",
@@ -1023,28 +1045,6 @@
           "score": 123,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
           "cinque_2025": 172.7
-        },
-        {
-          "cf": "01717760985",
-          "denominazione": "\"SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - SOCIETA' COOPERA TIVA SOCIALE CONSORTILE - ONLUS\"",
-          "comune": "DARFO BOARIO TERME",
-          "provincia": "BS",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "04876970486",
-          "denominazione": "CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARIETA'-CONSORZIO DI COOPERATIVE SOCIALI-SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "FIRENZE",
-          "provincia": "FI",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093",
-          "cinque_2025": NaN
         }
       ]
     },
@@ -1087,6 +1087,17 @@
           "cinque_2025": 242045.97
         },
         {
+          "cf": "80051890152",
+          "denominazione": "FONDAZIONE AIRC PER LA RICERCA SUL CANCRO ETS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 82724522.08
+        },
+        {
           "cf": "00957930910",
           "denominazione": "LARISO - LABORATORIO PER LA RICERCA E L'INTERVENTO SOCIALE SOCIETA' COOPERATIVA SOCIALE ONLUS",
           "comune": "NUORO",
@@ -1098,81 +1109,70 @@
           "cinque_2025": 2022.66
         },
         {
-          "cf": "03786700587",
-          "denominazione": "COOPERATIVA SOCIALE PRASSI E RICERCA - ENTE DEL TERZO SETTORE IN BREVE COOPERATIVA SOCIALE PRASSI E RICERCA - ETS",
-          "comune": "ROMA",
-          "provincia": "RM",
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
+        },
+        {
+          "cf": "91006310337",
+          "denominazione": "LA RICERCA - DON GIORGIO BOSINI - ETS",
+          "comune": "PIACENZA",
+          "provincia": "PC",
           "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €5,024,935",
+          "cinque_2025": 10462.38
+        },
+        {
+          "cf": "05161950653",
+          "denominazione": "EUROPEAN BIOMEDICAL RESEARCH INSTITUTE OF SALERNO - EBRIS - ETS",
+          "comune": "SALERNO",
+          "provincia": "SA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 116,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "97519070011",
+          "denominazione": "FONDAZIONE ALLEGRA AGNELLI PER LA RICERCA SUL CANCRO ENTE DEL TERZO SETTORE",
+          "comune": "CANDIOLO",
+          "provincia": "TO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €62,850,197",
-          "cinque_2025": 1061.0
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 14314168.1
         },
         {
-          "cf": "00358530434",
-          "denominazione": "NUOVA RICERCA - AGENZIA RES SOCIETA' COOPERATIVA SOCIALE ONLUS",
-          "comune": "FERMO",
-          "provincia": "FM",
+          "cf": "93100600233",
+          "denominazione": "FONDAZIONE PER LA RICERCA SULLA FIBROSI CISTICA ETS",
+          "comune": "VERONA",
+          "provincia": "VR",
           "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €60,740,817",
-          "cinque_2025": 403.77
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 1136634.88
         },
         {
-          "cf": "01877550796",
-          "denominazione": "ASSOCIAZIONE PER LA RICERCA NEUROGENETICA APS",
-          "comune": "LAMEZIA TERME",
-          "provincia": "CZ",
+          "cf": "97510450014",
+          "denominazione": "FONDAZIONE F.A.R.O. ETS - FONDAZIONE ASSISTENZA RICERCA ONCOLOGICA PIEMONTE",
+          "comune": "TORINO",
+          "provincia": "TO",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
-          "cinque_2025": 13147.36
-        },
-        {
-          "cf": "94004830215",
-          "denominazione": "HANDS CENTRO RICERCA ED INTERVENTO PER PROBLEMI DI ALCOL E       FARMACODIPENDENZA - ASSOCIAZIONE - IMPRESA SOCIALE ETS",
-          "comune": "BOLZANO",
-          "provincia": "BZ",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 112,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €4,979,374",
-          "cinque_2025": 3153.85
-        },
-        {
-          "cf": "91033910489",
-          "denominazione": "ASSOCIAZIONE CULTURALE C.E.T.R.A. CULTURA EDUCAZIONE TURISMO RICERCA ARCHEOLOGICA",
-          "comune": "CASTELFIORENTINO",
-          "provincia": "FI",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 112,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,110,738",
-          "cinque_2025": 810.26
-        },
-        {
-          "cf": "00632080891",
-          "denominazione": "C.R.A.S.S. CENTRO RICERCA E ASSISTENZA SOCIO SANITARIA - SOCIETA' COOPERATIVA ONLUS",
-          "comune": "AUGUSTA",
-          "provincia": "SR",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 112,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €4,632,775",
-          "cinque_2025": 750.0
-        },
-        {
-          "cf": "03975650718",
-          "denominazione": "CANTIERI DI INNOVAZIONE SOCIALE SOCIETA' COOPERATIVA SOCIALE - IMPRESA SOCIALE",
-          "comune": "SAN GIOVANNI ROTONDO",
-          "provincia": "FG",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 112,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €1,036,452",
-          "cinque_2025": 191.12
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 453352.9
         }
       ]
     },
@@ -1326,9 +1326,9 @@
       ],
       "tags": [
         "minori",
-        "inclusione sociale",
+        "sport",
         "educazione",
-        "sport"
+        "inclusione sociale"
       ],
       "candidati": [
         {
@@ -1607,6 +1607,28 @@
           "cinque_2025": 217080.73
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 2316835.68
+        },
+        {
           "cf": "02692940139",
           "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
           "comune": "MILANO",
@@ -1627,6 +1649,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
           "cinque_2025": 27403.94
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
         },
         {
           "cf": "95069820108",
@@ -1671,39 +1704,6 @@
           "score": 117,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
           "cinque_2025": 27736.87
-        },
-        {
-          "cf": "00815900980",
-          "denominazione": "CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZINUOVI - ODV",
-          "comune": "ORZINUOVI",
-          "provincia": "BS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600",
-          "cinque_2025": 25185.64
-        },
-        {
-          "cf": "05248350018",
-          "denominazione": "CROCE VERDE TORINO ODV",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727",
-          "cinque_2025": 21817.99
-        },
-        {
-          "cf": "00932630445",
-          "denominazione": "PUBBLICA ASSISTENZA CROCE VERDE FERMO -ORGANIZZAZIONE DI VOLONTARIATO IN BREVE P.A.CROCE VERDE FERMO -ODV",
-          "comune": "FERMO",
-          "provincia": "FM",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,184,700",
-          "cinque_2025": 20214.06
         }
       ]
     },
@@ -1720,10 +1720,10 @@
         "Nazionale"
       ],
       "tags": [
-        "arte",
-        "premi",
         "digitale",
+        "arte",
         "ambiente",
+        "premi",
         "cultura"
       ],
       "candidati": [
@@ -1759,6 +1759,17 @@
           "score": 123,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
           "cinque_2025": 9259.28
+        },
+        {
+          "cf": "06499101001",
+          "denominazione": "FONDAZIONE MONDO DIGITALE ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 4242.47
         },
         {
           "cf": "01294330228",
@@ -1805,6 +1816,17 @@
           "cinque_2025": 3616.24
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
           "cf": "01900520204",
           "denominazione": "TEATRO MAGRO COOPERATIVA SOCIALE O.N.L.U.S.",
           "comune": "MANTOVA",
@@ -1814,28 +1836,6 @@
           "score": 121,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
           "cinque_2025": 1108.05
-        },
-        {
-          "cf": "97726440015",
-          "denominazione": "ASSOCIAZIONE CULTURALE EUFEMIA APS",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
-          "cinque_2025": 498.85
-        },
-        {
-          "cf": "93089600386",
-          "denominazione": "FERRARA LA CITTA' DEL CINEMA APS",
-          "comune": "FERRARA",
-          "provincia": "FE",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
-          "cinque_2025": 345.81
         }
       ]
     },
@@ -1883,15 +1883,15 @@
           "cinque_2025": 3485.34
         },
         {
-          "cf": "01717760985",
-          "denominazione": "\"SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - SOCIETA' COOPERA TIVA SOCIALE CONSORTILE - ONLUS\"",
-          "comune": "DARFO BOARIO TERME",
-          "provincia": "BS",
+          "cf": "06499101001",
+          "denominazione": "FONDAZIONE MONDO DIGITALE ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
           "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 123,
-          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264",
-          "cinque_2025": NaN
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 4242.47
         },
         {
           "cf": "04876970486",
@@ -1902,6 +1902,17 @@
           "sezione": "IMPRESE SOCIALI",
           "score": 123,
           "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "01717760985",
+          "denominazione": "\"SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - SOCIETA' COOPERA TIVA SOCIALE CONSORTILE - ONLUS\"",
+          "comune": "DARFO BOARIO TERME",
+          "provincia": "BS",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264",
           "cinque_2025": NaN
         },
         {
@@ -1916,6 +1927,28 @@
           "cinque_2025": 115522.29
         },
         {
+          "cf": "01575580798",
+          "denominazione": "CENTRO CALABRESE DI SOLIDARIETA' ETS",
+          "comune": "CATANZARO",
+          "provincia": "CZ",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105",
+          "cinque_2025": 11405.24
+        },
+        {
+          "cf": "97147110155",
+          "denominazione": "EMERGENCY - LIFE SUPPORT FOR CIVILIAN WAR VICTIMS - ONG ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 13440958.32
+        },
+        {
           "cf": "01876160407",
           "denominazione": "COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI  SOCIETA' COOPERATIVA SOCIALE",
           "comune": "FORLI'",
@@ -1927,48 +1960,15 @@
           "cinque_2025": 52346.59
         },
         {
-          "cf": "04928591009",
-          "denominazione": "ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTENZA DEI SORDI ETS APS",
-          "comune": "ROMA",
-          "provincia": "RM",
+          "cf": "01785780220",
+          "denominazione": "ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVE E DISTURBI DEL NEUROSVILUPPO",
+          "comune": "TRENTO",
+          "provincia": "TN",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €149,556,065",
-          "cinque_2025": 43482.33
-        },
-        {
-          "cf": "00782980122",
-          "denominazione": "SOLIDARIETA' E SERVIZI COOPERATIVA SOCIALE",
-          "comune": "BUSTO ARSIZIO",
-          "provincia": "VA",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €130,910,583",
-          "cinque_2025": 21595.89
-        },
-        {
-          "cf": "11656010151",
-          "denominazione": "CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' A RESPONSABILITA' LIMITATA - ONLUS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790",
-          "cinque_2025": 21095.74
-        },
-        {
-          "cf": "02340750153",
-          "denominazione": "COMIN - COOPERATIVA SOCIALE DI SOLIDARIETA'",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €80,957,135",
-          "cinque_2025": 17641.51
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €146,054,738",
+          "cinque_2025": 50778.51
         }
       ]
     },
@@ -2048,6 +2048,17 @@
           "cinque_2025": 115522.29
         },
         {
+          "cf": "01575580798",
+          "denominazione": "CENTRO CALABRESE DI SOLIDARIETA' ETS",
+          "comune": "CATANZARO",
+          "provincia": "CZ",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105",
+          "cinque_2025": 11405.24
+        },
+        {
           "cf": "01876160407",
           "denominazione": "COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI  SOCIETA' COOPERATIVA SOCIALE",
           "comune": "FORLI'",
@@ -2057,6 +2068,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €19,851,650",
           "cinque_2025": 52346.59
+        },
+        {
+          "cf": "94043850489",
+          "denominazione": "FONDAZIONE SOLIDARIETA' CARITAS - ETS",
+          "comune": "FIRENZE",
+          "provincia": "FI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €98,454,978",
+          "cinque_2025": 32995.63
         },
         {
           "cf": "00782980122",
@@ -2079,28 +2101,6 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790",
           "cinque_2025": 21095.74
-        },
-        {
-          "cf": "02340750153",
-          "denominazione": "COMIN - COOPERATIVA SOCIALE DI SOLIDARIETA'",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €80,957,135",
-          "cinque_2025": 17641.51
-        },
-        {
-          "cf": "01461560029",
-          "denominazione": "DOMUS LAETITIAE SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' - ON LUS",
-          "comune": "SAGLIANO MICCA",
-          "provincia": "BI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €33,474,880",
-          "cinque_2025": 16357.59
         }
       ]
     },
@@ -2312,6 +2312,17 @@
           "cinque_2025": 115522.29
         },
         {
+          "cf": "01575580798",
+          "denominazione": "CENTRO CALABRESE DI SOLIDARIETA' ETS",
+          "comune": "CATANZARO",
+          "provincia": "CZ",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105",
+          "cinque_2025": 11405.24
+        },
+        {
           "cf": "01876160407",
           "denominazione": "COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI  SOCIETA' COOPERATIVA SOCIALE",
           "comune": "FORLI'",
@@ -2321,6 +2332,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €19,851,650",
           "cinque_2025": 52346.59
+        },
+        {
+          "cf": "01785780220",
+          "denominazione": "ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVE E DISTURBI DEL NEUROSVILUPPO",
+          "comune": "TRENTO",
+          "provincia": "TN",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €146,054,738",
+          "cinque_2025": 50778.51
         },
         {
           "cf": "04928591009",
@@ -2334,37 +2356,15 @@
           "cinque_2025": 43482.33
         },
         {
-          "cf": "00782980122",
-          "denominazione": "SOLIDARIETA' E SERVIZI COOPERATIVA SOCIALE",
-          "comune": "BUSTO ARSIZIO",
-          "provincia": "VA",
+          "cf": "94043850489",
+          "denominazione": "FONDAZIONE SOLIDARIETA' CARITAS - ETS",
+          "comune": "FIRENZE",
+          "provincia": "FI",
           "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €130,910,583",
-          "cinque_2025": 21595.89
-        },
-        {
-          "cf": "11656010151",
-          "denominazione": "CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' A RESPONSABILITA' LIMITATA - ONLUS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790",
-          "cinque_2025": 21095.74
-        },
-        {
-          "cf": "02340750153",
-          "denominazione": "COMIN - COOPERATIVA SOCIALE DI SOLIDARIETA'",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €80,957,135",
-          "cinque_2025": 17641.51
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €98,454,978",
+          "cinque_2025": 32995.63
         }
       ]
     },
@@ -2385,6 +2385,28 @@
       ],
       "candidati": [
         {
+          "cf": "01098680372",
+          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 125,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
+          "cinque_2025": 137952.32
+        },
+        {
+          "cf": "97501240010",
+          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
+          "cinque_2025": 42117.74
+        },
+        {
           "cf": "06273640588",
           "denominazione": "ARCIRAGAZZI  APS",
           "comune": "ROMA",
@@ -2396,103 +2418,81 @@
           "cinque_2025": 581.16
         },
         {
-          "cf": "97307800587",
-          "denominazione": "ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMENTAZIONE DELLE DONNE - APS",
+          "cf": "97227450158",
+          "denominazione": "ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS",
           "comune": "ROMA",
           "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989",
+          "cinque_2025": 7925761.31
+        },
+        {
+          "cf": "97010160154",
+          "denominazione": "CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI - ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751",
+          "cinque_2025": 173631.41
+        },
+        {
+          "cf": "92504680155",
+          "denominazione": "AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO SETTORE O ANCHE AI.BI. AMICI DEI BAMBINI FONDAZIONE ETS",
+          "comune": "SAN GIULIANO MILANESE",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083",
+          "cinque_2025": 115127.89
+        },
+        {
+          "cf": "97457060586",
+          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
+          "comune": "GENOVA",
+          "provincia": "GE",
           "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
+          "cinque_2025": 1514.12
+        },
+        {
+          "cf": "00226500288",
+          "denominazione": "PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRATI MINORI CONVENTUALI - CARITAS S. ANTONIO",
+          "comune": "PADOVA",
+          "provincia": "PD",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 770111.54
+        },
+        {
+          "cf": "92012690373",
+          "denominazione": "S.O.S. - IL TELEFONO AZZURRO ETS - LINEA NAZIONALE PER LA PREVENZIONE DELL'ABUSO ALL'INFANZIA ",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 178760.76
+        },
+        {
+          "cf": "80017510225",
+          "denominazione": "SOS VILLAGGI DEI BAMBINI ETS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
-          "cinque_2025": 1639.57
-        },
-        {
-          "cf": "96126560588",
-          "denominazione": "ASSOCIAZIONE DIFFERENZA DONNA APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €7,635,872",
-          "cinque_2025": 25969.56
-        },
-        {
-          "cf": "97566950586",
-          "denominazione": " CASA DELLE DONNE LUCHA Y SIESTA APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €5,813,423",
-          "cinque_2025": 10637.66
-        },
-        {
-          "cf": "01716760218",
-          "denominazione": "PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER - SUEDTIROL - EO_PETER PAN - ASSOCIAZIONE PER I BAMBINI CON TUMORE - ALTO ADIGE - ODV",
-          "comune": "BOLZANO",
-          "provincia": "BZ",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 232521.24
-        },
-        {
-          "cf": "01084150323",
-          "denominazione": "A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL BURLO - ODV ETS",
-          "comune": "TRIESTE",
-          "provincia": "TS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 150644.13
-        },
-        {
-          "cf": "97086840150",
-          "denominazione": "CASA DI ACCOGLIENZA DELLE DONNE MALTRATTATE ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 53172.63
-        },
-        {
-          "cf": "91006870025",
-          "denominazione": "ASSOCIAZIONE CASA DELLA MAMMA E DEL BAMBINO ETS E ODV",
-          "comune": "BORGOSESIA",
-          "provincia": "VC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 30964.22
-        },
-        {
-          "cf": "97160150153",
-          "denominazione": "ASSOCIAZIONE SALUTE DONNA- ODV ",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 26678.09
-        },
-        {
-          "cf": "96118860582",
-          "denominazione": "VOLONTARIATO INTERNAZIONALE DONNA EDUCAZIONE SVILUPPO - ODV",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; ODV",
-          "cinque_2025": 24086.91
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 217254.63
         }
       ]
     },
@@ -2508,9 +2508,9 @@
         "Nazionale"
       ],
       "tags": [
-        "inclusione sociale",
         "digitale",
-        "disabilità"
+        "disabilità",
+        "inclusione sociale"
       ],
       "candidati": [
         {
@@ -2534,6 +2534,17 @@
           "score": 128,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087",
           "cinque_2025": 3485.34
+        },
+        {
+          "cf": "06499101001",
+          "denominazione": "FONDAZIONE MONDO DIGITALE ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 4242.47
         },
         {
           "cf": "01717760985",
@@ -2569,6 +2580,28 @@
           "cinque_2025": 115522.29
         },
         {
+          "cf": "01575580798",
+          "denominazione": "CENTRO CALABRESE DI SOLIDARIETA' ETS",
+          "comune": "CATANZARO",
+          "provincia": "CZ",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105",
+          "cinque_2025": 11405.24
+        },
+        {
+          "cf": "97147110155",
+          "denominazione": "EMERGENCY - LIFE SUPPORT FOR CIVILIAN WAR VICTIMS - ONG ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 13440958.32
+        },
+        {
           "cf": "01876160407",
           "denominazione": "COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI  SOCIETA' COOPERATIVA SOCIALE",
           "comune": "FORLI'",
@@ -2580,48 +2613,15 @@
           "cinque_2025": 52346.59
         },
         {
-          "cf": "04928591009",
-          "denominazione": "ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTENZA DEI SORDI ETS APS",
-          "comune": "ROMA",
-          "provincia": "RM",
+          "cf": "01785780220",
+          "denominazione": "ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVE E DISTURBI DEL NEUROSVILUPPO",
+          "comune": "TRENTO",
+          "provincia": "TN",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €149,556,065",
-          "cinque_2025": 43482.33
-        },
-        {
-          "cf": "00782980122",
-          "denominazione": "SOLIDARIETA' E SERVIZI COOPERATIVA SOCIALE",
-          "comune": "BUSTO ARSIZIO",
-          "provincia": "VA",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €130,910,583",
-          "cinque_2025": 21595.89
-        },
-        {
-          "cf": "11656010151",
-          "denominazione": "CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' A RESPONSABILITA' LIMITATA - ONLUS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790",
-          "cinque_2025": 21095.74
-        },
-        {
-          "cf": "02340750153",
-          "denominazione": "COMIN - COOPERATIVA SOCIALE DI SOLIDARIETA'",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €80,957,135",
-          "cinque_2025": 17641.51
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €146,054,738",
+          "cinque_2025": 50778.51
         }
       ]
     },
@@ -2645,6 +2645,28 @@
       ],
       "candidati": [
         {
+          "cf": "01098680372",
+          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 125,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
+          "cinque_2025": 137952.32
+        },
+        {
+          "cf": "97501240010",
+          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
+          "cinque_2025": 42117.74
+        },
+        {
           "cf": "06273640588",
           "denominazione": "ARCIRAGAZZI  APS",
           "comune": "ROMA",
@@ -2667,6 +2689,50 @@
           "cinque_2025": 172.7
         },
         {
+          "cf": "97227450158",
+          "denominazione": "ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989",
+          "cinque_2025": 7925761.31
+        },
+        {
+          "cf": "97010160154",
+          "denominazione": "CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI - ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751",
+          "cinque_2025": 173631.41
+        },
+        {
+          "cf": "92504680155",
+          "denominazione": "AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO SETTORE O ANCHE AI.BI. AMICI DEI BAMBINI FONDAZIONE ETS",
+          "comune": "SAN GIULIANO MILANESE",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083",
+          "cinque_2025": 115127.89
+        },
+        {
+          "cf": "97457060586",
+          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
+          "cinque_2025": 1514.12
+        },
+        {
           "cf": "97726440015",
           "denominazione": "ASSOCIAZIONE CULTURALE EUFEMIA APS",
           "comune": "TORINO",
@@ -2687,72 +2753,6 @@
           "score": 121,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
           "cinque_2025": 345.81
-        },
-        {
-          "cf": "02285960460",
-          "denominazione": "ASSOCIAZIONE CULTURALE PHOTOLUX APS",
-          "comune": "LUCCA",
-          "provincia": "LU",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
-          "cinque_2025": 2458.75
-        },
-        {
-          "cf": "02483330409",
-          "denominazione": "FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE - APS",
-          "comune": "FORLI'",
-          "provincia": "FC",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
-          "cinque_2025": 915.1
-        },
-        {
-          "cf": "08780880962",
-          "denominazione": "ASSOCIAZIONE CULTURALE LANDSCAPE CHOREOGRAPHY APS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 116,
-          "motivo": "match tema + sezione; capacità alta; grant UE; APS; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "01716760218",
-          "denominazione": "PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER - SUEDTIROL - EO_PETER PAN - ASSOCIAZIONE PER I BAMBINI CON TUMORE - ALTO ADIGE - ODV",
-          "comune": "BOLZANO",
-          "provincia": "BZ",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 232521.24
-        },
-        {
-          "cf": "01084150323",
-          "denominazione": "A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL BURLO - ODV ETS",
-          "comune": "TRIESTE",
-          "provincia": "TS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 150644.13
-        },
-        {
-          "cf": "91006870025",
-          "denominazione": "ASSOCIAZIONE CASA DELLA MAMMA E DEL BAMBINO ETS E ODV",
-          "comune": "BORGOSESIA",
-          "provincia": "VC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 30964.22
         }
       ]
     },
@@ -2831,6 +2831,50 @@
           "cinque_2025": 915.1
         },
         {
+          "cf": "11903640016",
+          "denominazione": "FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA ENTE DEL TERZO SETTORE",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "00405220872",
+          "denominazione": "ASSOCIAZIONE MUSICALE ETNEA ETS",
+          "comune": "CATANIA",
+          "provincia": "CT",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "94002660713",
+          "denominazione": "ASSORI ASSOCIAZIONE PER LA PROMOZIONE SOCIO-CULTURALE, SPORTIVO-DILETTANTISTICA PER LA RIABILITAZIONE E L’INCLUSIONE SOCIALE DELLA PERSONA DISABILE ETS",
+          "comune": "FOGGIA",
+          "provincia": "FG",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €4,008,100",
+          "cinque_2025": 11723.99
+        },
+        {
+          "cf": "07154490481",
+          "denominazione": "TOSCANA PRODUZIONE MUSICA ETS",
+          "comune": "FIRENZE",
+          "provincia": "FI",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 116,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
           "cf": "08780880962",
           "denominazione": "ASSOCIAZIONE CULTURALE LANDSCAPE CHOREOGRAPHY APS",
           "comune": "MILANO",
@@ -2839,50 +2883,6 @@
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 116,
           "motivo": "match tema + sezione; capacità alta; grant UE; APS; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "94070160018",
-          "denominazione": "ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S.",
-          "comune": "CARMAGNOLA",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €165,436,108",
-          "cinque_2025": 1580.06
-        },
-        {
-          "cf": "95130700107",
-          "denominazione": "TEATRO NECESSARIO APS",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
-          "cinque_2025": 10589.81
-        },
-        {
-          "cf": "95106460652",
-          "denominazione": "ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE PER L'INCLUSIONE E LA CITTADINANZA ATTIVA APS",
-          "comune": "SALERNO",
-          "provincia": "SA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS; appalti pubblici",
-          "cinque_2025": 1916.85
-        },
-        {
-          "cf": "92006060120",
-          "denominazione": "ASSOCIAZIONE CULTURALE EUROPEA APS",
-          "comune": "ISPRA",
-          "provincia": "VA",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità alta; grant UE; APS",
           "cinque_2025": NaN
         }
       ]
@@ -2940,6 +2940,17 @@
           "cinque_2025": 1009.87
         },
         {
+          "cf": "01098680372",
+          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 125,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
+          "cinque_2025": 137952.32
+        },
+        {
           "cf": "02814420044",
           "denominazione": "I TESORI DELLA TERRA SOCIETA' COOPERATIVA AGRICOLA SOCIALE - ONLUS - IMPRESA SOCIALE",
           "comune": "CERVASCA",
@@ -2962,6 +2973,17 @@
           "cinque_2025": NaN
         },
         {
+          "cf": "97501240010",
+          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
+          "cinque_2025": 42117.74
+        },
+        {
           "cf": "06273640588",
           "denominazione": "ARCIRAGAZZI  APS",
           "comune": "ROMA",
@@ -2981,28 +3003,6 @@
           "sezione": "IMPRESE SOCIALI",
           "score": 123,
           "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "04876970486",
-          "denominazione": "CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARIETA'-CONSORZIO DI COOPERATIVE SOCIALI-SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "FIRENZE",
-          "provincia": "FI",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "01595760990",
-          "denominazione": "OMNIA CONSORZIO OPPORTUNITA' LAVORATIVE SOCIETA' CONSORTILE IN FORMA DI COOPERATIVA SOCIALE O.N.L.U.S.",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €59,677,075",
           "cinque_2025": NaN
         },
         {
@@ -3049,6 +3049,28 @@
           "cinque_2025": 1009.87
         },
         {
+          "cf": "01098680372",
+          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 125,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
+          "cinque_2025": 137952.32
+        },
+        {
+          "cf": "97501240010",
+          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
+          "cinque_2025": 42117.74
+        },
+        {
           "cf": "06273640588",
           "denominazione": "ARCIRAGAZZI  APS",
           "comune": "ROMA",
@@ -3060,92 +3082,70 @@
           "cinque_2025": 581.16
         },
         {
-          "cf": "97026170155",
-          "denominazione": "CASA DEI RAGAZZI ISTITUTO ASSISTENZA MINORI ED ANZIANI IMPRESA SOCIALE",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €2,962,159",
-          "cinque_2025": 12009.82
-        },
-        {
-          "cf": "01716760218",
-          "denominazione": "PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER - SUEDTIROL - EO_PETER PAN - ASSOCIAZIONE PER I BAMBINI CON TUMORE - ALTO ADIGE - ODV",
-          "comune": "BOLZANO",
-          "provincia": "BZ",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 232521.24
-        },
-        {
-          "cf": "01084150323",
-          "denominazione": "A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL BURLO - ODV ETS",
-          "comune": "TRIESTE",
-          "provincia": "TS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 150644.13
-        },
-        {
-          "cf": "91006870025",
-          "denominazione": "ASSOCIAZIONE CASA DELLA MAMMA E DEL BAMBINO ETS E ODV",
-          "comune": "BORGOSESIA",
-          "provincia": "VC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 30964.22
-        },
-        {
-          "cf": "03209900277",
-          "denominazione": "TITOLI MINORI - SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "CHIOGGIA",
-          "provincia": "VE",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €11,855,008",
-          "cinque_2025": 5651.54
-        },
-        {
-          "cf": "03865870103",
-          "denominazione": "COOPERATIVA SOCIALE IL SENTIERO DEL MOVIMENTO RAGAZZI SOCIETA' COOPERATIVA A RESPONSABILITA' LIMITATA",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €61,686,171",
-          "cinque_2025": 4325.2
-        },
-        {
-          "cf": "00672690377",
-          "denominazione": "C.A.D.I.A.I. - COOPERATIVA ASSISTENZA DOMICILIARE INFERMI ANZIANI INFANZIA SOCIETA' COOPERATIVA SOCIALE SOC. A R.L. IN SIGLA C.A.D.I.A.I. COOPERATIVA SOCIALE",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €442,373,702",
-          "cinque_2025": 2024.48
-        },
-        {
-          "cf": "03020700583",
-          "denominazione": "COOPERATIVA FAMIGLIE ANZIANI INFANZIA (F.A.I.) SOCIETA' COOPERATIVA SOCIALE E.T.S.",
+          "cf": "97227450158",
+          "denominazione": "ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS",
           "comune": "ROMA",
           "provincia": "RM",
           "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €36,344,784",
-          "cinque_2025": 1426.94
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989",
+          "cinque_2025": 7925761.31
+        },
+        {
+          "cf": "97010160154",
+          "denominazione": "CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI - ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751",
+          "cinque_2025": 173631.41
+        },
+        {
+          "cf": "92504680155",
+          "denominazione": "AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO SETTORE O ANCHE AI.BI. AMICI DEI BAMBINI FONDAZIONE ETS",
+          "comune": "SAN GIULIANO MILANESE",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083",
+          "cinque_2025": 115127.89
+        },
+        {
+          "cf": "97457060586",
+          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
+          "cinque_2025": 1514.12
+        },
+        {
+          "cf": "00226500288",
+          "denominazione": "PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRATI MINORI CONVENTUALI - CARITAS S. ANTONIO",
+          "comune": "PADOVA",
+          "provincia": "PD",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 770111.54
+        },
+        {
+          "cf": "92012690373",
+          "denominazione": "S.O.S. - IL TELEFONO AZZURRO ETS - LINEA NAZIONALE PER LA PREVENZIONE DELL'ABUSO ALL'INFANZIA ",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 178760.76
         }
       ]
     },
@@ -3173,6 +3173,28 @@
         "volontariato"
       ],
       "candidati": [
+        {
+          "cf": "00080270838",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE CITTA' DI MESSINA",
+          "comune": "MESSINA",
+          "provincia": "ME",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 131,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici",
+          "cinque_2025": 23806.21
+        },
+        {
+          "cf": "00163150618",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE DI SAN FELICE A CANCELLO",
+          "comune": "SAN FELICE A CANCELLO",
+          "provincia": "CE",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; appalti pubblici",
+          "cinque_2025": 735.1
+        },
         {
           "cf": "06913090723",
           "denominazione": "AMOPUGLIA - ORGANIZZAZIONE DI VOLONTARIATO - ENTE DEL TERZO SETTORE",
@@ -3260,28 +3282,6 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
           "cinque_2025": 272730.84
-        },
-        {
-          "cf": "90052450955",
-          "denominazione": "EFFETTO PALLA - PER GLI ANIMALI DI NESSUNO - ODV",
-          "comune": "ORISTANO",
-          "provincia": "OR",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 217270.5
-        },
-        {
-          "cf": "93060270753",
-          "denominazione": "ASSOCIAZIONE CUORE E MANI APERTE - ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "LECCE",
-          "provincia": "LE",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 164743.3
         }
       ]
     },
@@ -3297,119 +3297,118 @@
         "Nazionale"
       ],
       "tags": [
-        "donne",
-        "salute"
+        "ricerca"
       ],
       "candidati": [
         {
-          "cf": "97307800587",
-          "denominazione": "ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMENTAZIONE DELLE DONNE - APS",
+          "cf": "04344650371",
+          "denominazione": "ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICERCA E L'INTERVENTO SUI DISTURBI DI APPRENDIMENTO",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici",
+          "cinque_2025": 318718.29
+        },
+        {
+          "cf": "05203531008",
+          "denominazione": "PARENT PROJECT PER LA RICERCA SULLA DISTROFIA MUSCOLARE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
           "comune": "ROMA",
           "provincia": "RM",
           "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS",
+          "cinque_2025": 242045.97
+        },
+        {
+          "cf": "80051890152",
+          "denominazione": "FONDAZIONE AIRC PER LA RICERCA SUL CANCRO ETS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 82724522.08
+        },
+        {
+          "cf": "00957930910",
+          "denominazione": "LARISO - LABORATORIO PER LA RICERCA E L'INTERVENTO SOCIALE SOCIETA' COOPERATIVA SOCIALE ONLUS",
+          "comune": "NUORO",
+          "provincia": "NU",
+          "capacita": "medio-alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €38,039,618",
+          "cinque_2025": 2022.66
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
-          "cinque_2025": 1639.57
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
         },
         {
-          "cf": "96126560588",
-          "denominazione": "ASSOCIAZIONE DIFFERENZA DONNA APS",
-          "comune": "ROMA",
-          "provincia": "RM",
+          "cf": "91006310337",
+          "denominazione": "LA RICERCA - DON GIORGIO BOSINI - ETS",
+          "comune": "PIACENZA",
+          "provincia": "PC",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €7,635,872",
-          "cinque_2025": 25969.56
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €5,024,935",
+          "cinque_2025": 10462.38
         },
         {
-          "cf": "97566950586",
-          "denominazione": " CASA DELLE DONNE LUCHA Y SIESTA APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti €5,813,423",
-          "cinque_2025": 10637.66
+          "cf": "05161950653",
+          "denominazione": "EUROPEAN BIOMEDICAL RESEARCH INSTITUTE OF SALERNO - EBRIS - ETS",
+          "comune": "SALERNO",
+          "provincia": "SA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 116,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
         },
         {
-          "cf": "97086840150",
-          "denominazione": "CASA DI ACCOGLIENZA DELLE DONNE MALTRATTATE ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 53172.63
-        },
-        {
-          "cf": "97160150153",
-          "denominazione": "ASSOCIAZIONE SALUTE DONNA- ODV ",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 26678.09
-        },
-        {
-          "cf": "96118860582",
-          "denominazione": "VOLONTARIATO INTERNAZIONALE DONNA EDUCAZIONE SVILUPPO - ODV",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; ODV",
-          "cinque_2025": 24086.91
-        },
-        {
-          "cf": "94070160018",
-          "denominazione": "ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S.",
-          "comune": "CARMAGNOLA",
+          "cf": "97519070011",
+          "denominazione": "FONDAZIONE ALLEGRA AGNELLI PER LA RICERCA SUL CANCRO ENTE DEL TERZO SETTORE",
+          "comune": "CANDIOLO",
           "provincia": "TO",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €165,436,108",
-          "cinque_2025": 1580.06
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 14314168.1
         },
         {
-          "cf": "92006000514",
-          "denominazione": "PRONTO DONNA - ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "AREZZO",
-          "provincia": "AR",
+          "cf": "93100600233",
+          "denominazione": "FONDAZIONE PER LA RICERCA SULLA FIBROSI CISTICA ETS",
+          "comune": "VERONA",
+          "provincia": "VR",
           "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; ODV; appalti €37,135,765",
-          "cinque_2025": 1487.48
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 1136634.88
         },
         {
-          "cf": "92023590372",
-          "denominazione": "CASA DELLE DONNE PER NON SUBIRE VIOLENZA - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
+          "cf": "97510450014",
+          "denominazione": "FONDAZIONE F.A.R.O. ETS - FONDAZIONE ASSISTENZA RICERCA ONCOLOGICA PIEMONTE",
+          "comune": "TORINO",
+          "provincia": "TO",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
-          "cinque_2025": 57983.44
-        },
-        {
-          "cf": "92050100285",
-          "denominazione": "CENTRO VENETO PROGETTI DONNA - ODV",
-          "comune": "PADOVA",
-          "provincia": "PD",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 112,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; ODV; appalti €1,496,187",
-          "cinque_2025": 7424.86
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k",
+          "cinque_2025": 453352.9
         }
       ]
     },
@@ -3496,6 +3495,39 @@
           "cinque_2025": 24086.91
         },
         {
+          "cf": "02964900175",
+          "denominazione": "Fondazione Madonna del Corlo ETS",
+          "comune": "LONATO DEL GARDA",
+          "provincia": "BS",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 14407.81
+        },
+        {
+          "cf": "92041820371",
+          "denominazione": "MONDODONNA - ENTE DEL TERZO SETTORE",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €71,729,313",
+          "cinque_2025": 3999.02
+        },
+        {
+          "cf": "00893280107",
+          "denominazione": "OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL RAGAZZO",
+          "comune": "CHIAVARI",
+          "provincia": "GE",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534",
+          "cinque_2025": 1955.25
+        },
+        {
           "cf": "94070160018",
           "denominazione": "ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S.",
           "comune": "CARMAGNOLA",
@@ -3505,39 +3537,6 @@
           "score": 115,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €165,436,108",
           "cinque_2025": 1580.06
-        },
-        {
-          "cf": "92006000514",
-          "denominazione": "PRONTO DONNA - ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "AREZZO",
-          "provincia": "AR",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; ODV; appalti €37,135,765",
-          "cinque_2025": 1487.48
-        },
-        {
-          "cf": "92023590372",
-          "denominazione": "CASA DELLE DONNE PER NON SUBIRE VIOLENZA - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
-          "cinque_2025": 57983.44
-        },
-        {
-          "cf": "92050100285",
-          "denominazione": "CENTRO VENETO PROGETTI DONNA - ODV",
-          "comune": "PADOVA",
-          "provincia": "PD",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 112,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; ODV; appalti €1,496,187",
-          "cinque_2025": 7424.86
         }
       ]
     },
@@ -3565,6 +3564,17 @@
       ],
       "candidati": [
         {
+          "cf": "94002660713",
+          "denominazione": "ASSORI ASSOCIAZIONE PER LA PROMOZIONE SOCIO-CULTURALE, SPORTIVO-DILETTANTISTICA PER LA RIABILITAZIONE E L’INCLUSIONE SOCIALE DELLA PERSONA DISABILE ETS",
+          "comune": "FOGGIA",
+          "provincia": "FG",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €4,008,100",
+          "cinque_2025": 11723.99
+        },
+        {
           "cf": "95106460652",
           "denominazione": "ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE PER L'INCLUSIONE E LA CITTADINANZA ATTIVA APS",
           "comune": "SALERNO",
@@ -3576,6 +3586,17 @@
           "cinque_2025": 1916.85
         },
         {
+          "cf": "98047230788",
+          "denominazione": "ASSOCIAZIONE CULTURALE MULTIETNICA LA KASBAH ETS",
+          "comune": "COSENZA",
+          "provincia": "CS",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €1,483,240",
+          "cinque_2025": 955.65
+        },
+        {
           "cf": "90013000808",
           "denominazione": "ACCADEMIA DI MUSICA LETTERE E ARTI SENOCRITO APS",
           "comune": "GERACE",
@@ -3585,6 +3606,17 @@
           "score": 110,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
           "cinque_2025": 1619.84
+        },
+        {
+          "cf": "93062670778",
+          "denominazione": "BASILICATA CREATIVA, CLUSTER INDUSTRIE CULTURALI E CREATIVE DELLA BASILICATA",
+          "comune": "MATERA",
+          "provincia": "MT",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 110,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR",
+          "cinque_2025": 527.19
         },
         {
           "cf": "93019420657",
@@ -3609,6 +3641,17 @@
           "cinque_2025": 7424.87
         },
         {
+          "cf": "82050390796",
+          "denominazione": "ASSOCIAZIONE MANIFESTAZIONI ARTISTICHE CALABRIA ETS",
+          "comune": "LAMEZIA TERME",
+          "provincia": "CZ",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 108,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici",
+          "cinque_2025": 3787.23
+        },
+        {
           "cf": "08307830722",
           "denominazione": "ASSOCIAZIONE MUSICALE GIOACCHINO LIGONZO APS",
           "comune": "CONVERSANO",
@@ -3620,59 +3663,15 @@
           "cinque_2025": 1295.51
         },
         {
-          "cf": "02225640743",
-          "denominazione": "ASSOCIAZIONE MUSICALE CULTURALE LE VOCI DELL'ARTE  - APS",
-          "comune": "BRINDISI",
-          "provincia": "BR",
-          "capacita": "media",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >10k; APS",
-          "cinque_2025": 38990.78
-        },
-        {
-          "cf": "93470410726",
-          "denominazione": "MUSICA D'INCANTO DAVIDE GAETANO D'ACCOLTI- A.P.S.",
-          "comune": "POLIGNANO A MARE",
-          "provincia": "BA",
-          "capacita": "media",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >10k; APS",
-          "cinque_2025": 11232.5
-        },
-        {
-          "cf": "93128110751",
-          "denominazione": "ASSOCIAZIONE CULTURALE CROMATICA APS",
-          "comune": "CAVALLINO",
-          "provincia": "LE",
+          "cf": "03180790721",
+          "denominazione": "CULTURA E MUSICA G. CURCI - ETS",
+          "comune": "BARLETTA",
+          "provincia": "BT",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS",
-          "cinque_2025": 3771.58
-        },
-        {
-          "cf": "92054600629",
-          "denominazione": "ARTEM E MUSICAM",
-          "comune": "BENEVENTO",
-          "provincia": "BN",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS",
-          "cinque_2025": 3241.58
-        },
-        {
-          "cf": "97031130780",
-          "denominazione": "MUSICA CONTRO LE MAFIE APS",
-          "comune": "CORIGLIANO-ROSSANO",
-          "provincia": "CS",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS",
-          "cinque_2025": 3010.66
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 108,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici",
+          "cinque_2025": 725.02
         }
       ]
     },
@@ -3761,6 +3760,17 @@
           "cinque_2025": 115522.29
         },
         {
+          "cf": "01575580798",
+          "denominazione": "CENTRO CALABRESE DI SOLIDARIETA' ETS",
+          "comune": "CATANZARO",
+          "provincia": "CZ",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105",
+          "cinque_2025": 11405.24
+        },
+        {
           "cf": "01876160407",
           "denominazione": "COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI  SOCIETA' COOPERATIVA SOCIALE",
           "comune": "FORLI'",
@@ -3772,6 +3782,17 @@
           "cinque_2025": 52346.59
         },
         {
+          "cf": "94043850489",
+          "denominazione": "FONDAZIONE SOLIDARIETA' CARITAS - ETS",
+          "comune": "FIRENZE",
+          "provincia": "FI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €98,454,978",
+          "cinque_2025": 32995.63
+        },
+        {
           "cf": "00782980122",
           "denominazione": "SOLIDARIETA' E SERVIZI COOPERATIVA SOCIALE",
           "comune": "BUSTO ARSIZIO",
@@ -3781,28 +3802,6 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €130,910,583",
           "cinque_2025": 21595.89
-        },
-        {
-          "cf": "11656010151",
-          "denominazione": "CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' A RESPONSABILITA' LIMITATA - ONLUS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790",
-          "cinque_2025": 21095.74
-        },
-        {
-          "cf": "02340750153",
-          "denominazione": "COMIN - COOPERATIVA SOCIALE DI SOLIDARIETA'",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €80,957,135",
-          "cinque_2025": 17641.51
         }
       ]
     },
@@ -3847,6 +3846,28 @@
           "cinque_2025": 217080.73
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 2316835.68
+        },
+        {
           "cf": "02692940139",
           "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
           "comune": "MILANO",
@@ -3856,6 +3877,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici",
           "cinque_2025": 262687.72
+        },
+        {
+          "cf": "01785780220",
+          "denominazione": "ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVE E DISTURBI DEL NEUROSVILUPPO",
+          "comune": "TRENTO",
+          "provincia": "TN",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €146,054,738",
+          "cinque_2025": 50778.51
         },
         {
           "cf": "92000890209",
@@ -3880,59 +3912,26 @@
           "cinque_2025": 19056.36
         },
         {
-          "cf": "92195620288",
-          "denominazione": "LEGA NAZIONALE PER LA DIFESA DEL CANE-SEZIONE DI PADOVA RIFUGIO DI RUBANO APS",
-          "comune": "RUBANO",
-          "provincia": "PD",
+          "cf": "94145440486",
+          "denominazione": "FONDAZIONE GIOVANNI PAOLO II - PER IL DIALOGO, LA COOPERAZIONE E LO SVILUPPO - ENTE DEL TERZO SETTORE",
+          "comune": "FIRENZE",
+          "provincia": "FI",
           "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti pubblici",
-          "cinque_2025": 194024.47
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €68,550,636",
+          "cinque_2025": 17324.05
         },
         {
-          "cf": "95069820108",
-          "denominazione": "U.N.A. (UOMO - NATURA - ANIMALI) ODV ETS",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "media",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €3,660,848",
-          "cinque_2025": 118400.65
-        },
-        {
-          "cf": "93003550428",
-          "denominazione": "CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOLONTARIATO - CROCE VERDE ODV",
-          "comune": "CASTELFIDARDO",
-          "provincia": "AN",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,144,621",
-          "cinque_2025": 36061.26
-        },
-        {
-          "cf": "00767730351",
-          "denominazione": "P.A. CROCE VERDE CASTELNOVO NE' MONTI - VETTO ODV",
-          "comune": "CASTELNOVO NE' MONTI",
-          "provincia": "RE",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152",
-          "cinque_2025": 32927.85
-        },
-        {
-          "cf": "91000190131",
-          "denominazione": "CROCE VERDE BOSISIO PARINI ODV",
-          "comune": "BOSISIO PARINI",
-          "provincia": "LC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
-          "cinque_2025": 27736.87
+          "cf": "01499600672",
+          "denominazione": "ITACA, IL TERRITORIO AL CENTRO DELL'ATTENZIONE - ASSOCIAZIONE PER LO SVILUPPO LOCALE",
+          "comune": "CELLINO ATTANASIO",
+          "provincia": "TE",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti €1,211,857",
+          "cinque_2025": NaN
         }
       ]
     },
@@ -3971,6 +3970,17 @@
           "cinque_2025": 115522.29
         },
         {
+          "cf": "01575580798",
+          "denominazione": "CENTRO CALABRESE DI SOLIDARIETA' ETS",
+          "comune": "CATANZARO",
+          "provincia": "CZ",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105",
+          "cinque_2025": 11405.24
+        },
+        {
           "cf": "04753020728",
           "denominazione": "SOLIDARIETA' - SOCIETA' COOPERATIVA SOCIALE",
           "comune": "BINETTO",
@@ -3982,6 +3992,17 @@
           "cinque_2025": 589.87
         },
         {
+          "cf": "94002660713",
+          "denominazione": "ASSORI ASSOCIAZIONE PER LA PROMOZIONE SOCIO-CULTURALE, SPORTIVO-DILETTANTISTICA PER LA RIABILITAZIONE E L’INCLUSIONE SOCIALE DELLA PERSONA DISABILE ETS",
+          "comune": "FOGGIA",
+          "provincia": "FG",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €4,008,100",
+          "cinque_2025": 11723.99
+        },
+        {
           "cf": "92061790801",
           "denominazione": "NUOVA SOLIDARIETA' ODV",
           "comune": "REGGIO DI CALABRIA",
@@ -3991,6 +4012,17 @@
           "score": 117,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,596,300",
           "cinque_2025": 11464.53
+        },
+        {
+          "cf": "90010820885",
+          "denominazione": "ASSOCIAZIONE SERVIZIOCIVILE E SOLIDARIETA' DIFFUSA - ENTE DEL TERZO SETTORE",
+          "comune": "ISPICA",
+          "provincia": "RG",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €1,215,529",
+          "cinque_2025": 10514.54
         },
         {
           "cf": "01061120620",
@@ -4035,39 +4067,6 @@
           "score": 115,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €24,383,187",
           "cinque_2025": 1654.66
-        },
-        {
-          "cf": "03457100729",
-          "denominazione": "OCCUPAZIONE E SOLIDARIETA' TIPO A SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "BARI",
-          "provincia": "BA",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €133,314,279",
-          "cinque_2025": 236.29
-        },
-        {
-          "cf": "93063310614",
-          "denominazione": "SOLIDARIETA' CERVINESE ODV",
-          "comune": "CERVINO",
-          "provincia": "CE",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; ODV; appalti pubblici",
-          "cinque_2025": 3880.19
-        },
-        {
-          "cf": "95106460652",
-          "denominazione": "ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE PER L'INCLUSIONE E LA CITTADINANZA ATTIVA APS",
-          "comune": "SALERNO",
-          "provincia": "SA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS; appalti pubblici",
-          "cinque_2025": 1916.85
         }
       ]
     },
@@ -4099,6 +4098,28 @@
           "cinque_2025": 217080.73
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 2316835.68
+        },
+        {
           "cf": "02692940139",
           "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
           "comune": "MILANO",
@@ -4119,6 +4140,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
           "cinque_2025": 27403.94
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
         },
         {
           "cf": "95069820108",
@@ -4163,39 +4195,6 @@
           "score": 117,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
           "cinque_2025": 27736.87
-        },
-        {
-          "cf": "00815900980",
-          "denominazione": "CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZINUOVI - ODV",
-          "comune": "ORZINUOVI",
-          "provincia": "BS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600",
-          "cinque_2025": 25185.64
-        },
-        {
-          "cf": "05248350018",
-          "denominazione": "CROCE VERDE TORINO ODV",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727",
-          "cinque_2025": 21817.99
-        },
-        {
-          "cf": "00932630445",
-          "denominazione": "PUBBLICA ASSISTENZA CROCE VERDE FERMO -ORGANIZZAZIONE DI VOLONTARIATO IN BREVE P.A.CROCE VERDE FERMO -ODV",
-          "comune": "FERMO",
-          "provincia": "FM",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,184,700",
-          "cinque_2025": 20214.06
         }
       ]
     },
@@ -4211,8 +4210,8 @@
         "Nazionale"
       ],
       "tags": [
-        "inclusione sociale",
-        "digitale"
+        "digitale",
+        "inclusione sociale"
       ],
       "candidati": [
         {
@@ -4236,6 +4235,17 @@
           "score": 128,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087",
           "cinque_2025": 3485.34
+        },
+        {
+          "cf": "06499101001",
+          "denominazione": "FONDAZIONE MONDO DIGITALE ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 4242.47
         },
         {
           "cf": "01717760985",
@@ -4271,6 +4281,28 @@
           "cinque_2025": 115522.29
         },
         {
+          "cf": "01575580798",
+          "denominazione": "CENTRO CALABRESE DI SOLIDARIETA' ETS",
+          "comune": "CATANZARO",
+          "provincia": "CZ",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; PNRR; appalti €2,163,105",
+          "cinque_2025": 11405.24
+        },
+        {
+          "cf": "97147110155",
+          "denominazione": "EMERGENCY - LIFE SUPPORT FOR CIVILIAN WAR VICTIMS - ONG ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 13440958.32
+        },
+        {
           "cf": "01876160407",
           "denominazione": "COOPERATIVA DI SOLIDARIETA' SOCIALE  PAOLO  BABINI  SOCIETA' COOPERATIVA SOCIALE",
           "comune": "FORLI'",
@@ -4282,48 +4314,15 @@
           "cinque_2025": 52346.59
         },
         {
-          "cf": "00782980122",
-          "denominazione": "SOLIDARIETA' E SERVIZI COOPERATIVA SOCIALE",
-          "comune": "BUSTO ARSIZIO",
-          "provincia": "VA",
+          "cf": "94043850489",
+          "denominazione": "FONDAZIONE SOLIDARIETA' CARITAS - ETS",
+          "comune": "FIRENZE",
+          "provincia": "FI",
           "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €130,910,583",
-          "cinque_2025": 21595.89
-        },
-        {
-          "cf": "11656010151",
-          "denominazione": "CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' A RESPONSABILITA' LIMITATA - ONLUS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790",
-          "cinque_2025": 21095.74
-        },
-        {
-          "cf": "02340750153",
-          "denominazione": "COMIN - COOPERATIVA SOCIALE DI SOLIDARIETA'",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €80,957,135",
-          "cinque_2025": 17641.51
-        },
-        {
-          "cf": "01461560029",
-          "denominazione": "DOMUS LAETITIAE SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' - ON LUS",
-          "comune": "SAGLIANO MICCA",
-          "provincia": "BI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €33,474,880",
-          "cinque_2025": 16357.59
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €98,454,978",
+          "cinque_2025": 32995.63
         }
       ]
     },
@@ -4356,6 +4355,28 @@
           "cinque_2025": 217080.73
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 2316835.68
+        },
+        {
           "cf": "02692940139",
           "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
           "comune": "MILANO",
@@ -4376,6 +4397,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
           "cinque_2025": 27403.94
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
         },
         {
           "cf": "95069820108",
@@ -4420,39 +4452,6 @@
           "score": 117,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152",
           "cinque_2025": 32927.85
-        },
-        {
-          "cf": "91000190131",
-          "denominazione": "CROCE VERDE BOSISIO PARINI ODV",
-          "comune": "BOSISIO PARINI",
-          "provincia": "LC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
-          "cinque_2025": 27736.87
-        },
-        {
-          "cf": "00815900980",
-          "denominazione": "CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZINUOVI - ODV",
-          "comune": "ORZINUOVI",
-          "provincia": "BS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600",
-          "cinque_2025": 25185.64
-        },
-        {
-          "cf": "05248350018",
-          "denominazione": "CROCE VERDE TORINO ODV",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727",
-          "cinque_2025": 21817.99
         }
       ]
     },
@@ -4614,6 +4613,83 @@
           "cinque_2025": 581.16
         },
         {
+          "cf": "80016010367",
+          "denominazione": "FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CITTA' DEI RAGAZZI",
+          "comune": "SAN LAZZARO DI SAVENA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857",
+          "cinque_2025": 43285.0
+        },
+        {
+          "cf": "97339000156",
+          "denominazione": "JUNIOR ACHIEVEMENT - YOUNG ENTERPRISE ITALY ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 11693.68
+        },
+        {
+          "cf": "00893280107",
+          "denominazione": "OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL RAGAZZO",
+          "comune": "CHIAVARI",
+          "provincia": "GE",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534",
+          "cinque_2025": 1955.25
+        },
+        {
+          "cf": "92000760469",
+          "denominazione": "FONDAZIONE ETS CENTRO ITALIANO DI SOLIDARIETA' CE.I.S. GRUPPO GIOVANI E COMUNITA' DI LUCCA",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €149,327,007",
+          "cinque_2025": 1886.88
+        },
+        {
+          "cf": "97585800010",
+          "denominazione": "ASSOCIAZIONE GIOVANILE SALESIANA PER IL TERRITORIO",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 11537.4
+        },
+        {
+          "cf": "10973971004",
+          "denominazione": "REPUBBLICA DEI RAGAZZI ",
+          "comune": "CIVITAVECCHIA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €5,450,319",
+          "cinque_2025": 6247.15
+        },
+        {
+          "cf": "03324680820",
+          "denominazione": "COMUNITA' TERAPEUTICA - CASA DEI GIOVANI -",
+          "comune": "BAGHERIA",
+          "provincia": "PA",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €1,111,320",
+          "cinque_2025": 3812.07
+        },
+        {
           "cf": "90023550735",
           "denominazione": "ARCIRAGAZZI TARANTO",
           "comune": "TARANTO",
@@ -4625,92 +4701,15 @@
           "cinque_2025": 639.28
         },
         {
-          "cf": "80032930721",
-          "denominazione": "ASSOCIAZIONE GIOVANI CON DIABETE BARI - BAT - TARANTO APS ETS",
-          "comune": "MODUGNO",
-          "provincia": "BA",
+          "cf": "92078170922",
+          "denominazione": "EFYS - (EQUIPE FORMAZIONE YOUTHSTART SARDEGNA) APS",
+          "comune": "CAGLIARI",
+          "provincia": "CA",
           "capacita": "medio-alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 12551.06
-        },
-        {
-          "cf": "06170201211",
-          "denominazione": "ASSOCIAZIONE LUCA BRANDI PER LE ENERGIE DEI GIOVANI - APS",
-          "comune": "ISCHIA",
-          "provincia": NaN,
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 11116.92
-        },
-        {
-          "cf": "97235650823",
-          "denominazione": "CENTRO GIOVANILE DON GIUSEPPE PUGLISI APS",
-          "comune": "PALERMO",
-          "provincia": "PA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 4647.25
-        },
-        {
-          "cf": "80210590586",
-          "denominazione": "TURISMO GIOVANILE E SOCIALE APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 2607.13
-        },
-        {
-          "cf": "95199290164",
-          "denominazione": "RAGAZZI ON THE ROAD APS",
-          "comune": "BERGAMO",
-          "provincia": "BG",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
-          "cinque_2025": 2043.92
-        },
-        {
-          "cf": "80210550580",
-          "denominazione": "POLISPORTIVE GIOVANILI SALESIANE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 1115.18
-        },
-        {
-          "cf": "91046070701",
-          "denominazione": "CIRCOLO MCL - UN PAESE PER GIOVANI - APS",
-          "comune": "TERMOLI",
-          "provincia": "CB",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 108,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
-          "cinque_2025": 3727.55
-        },
-        {
-          "cf": "01409210562",
-          "denominazione": "juppiter aps giovanile",
-          "comune": "CAPRANICA",
-          "provincia": "VT",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 107,
-          "motivo": "match tema + sezione; capacità medio-alta; APS; appalti €1,277,501",
-          "cinque_2025": NaN
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,329,915",
+          "cinque_2025": 334.35
         }
       ]
     },
@@ -4753,6 +4752,17 @@
           "cinque_2025": 442.53
         },
         {
+          "cf": "92020640667",
+          "denominazione": "DOCEMUS  TRAINING SCHOOL THEORY PRACTICE FOR IMPROVING SPECIALISTIC MEDICINE ETS",
+          "comune": "TORREVECCHIA TEATINA",
+          "provincia": "CH",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 110,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k",
+          "cinque_2025": 14675.32
+        },
+        {
           "cf": "03121930923",
           "denominazione": "NOA - NESSUNO OSTACOLI L'APPRENDIMENTO  - SOCIETA' COOPERATIVA SO CIALE",
           "comune": "CAGLIARI",
@@ -4773,6 +4783,17 @@
           "score": 110,
           "motivo": "match tema + sezione; capacità medio-alta; Impresa Sociale; appalti €23,567,726",
           "cinque_2025": NaN
+        },
+        {
+          "cf": "97222420826",
+          "denominazione": "CENTRO INTERNAZIONALE PER LA PROMOZIONE DELL'EDUCAZIONE E SVILUPPO ETS",
+          "comune": "PALERMO",
+          "provincia": "PA",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 108,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti pubblici",
+          "cinque_2025": 365.07
         },
         {
           "cf": "97127420822",
@@ -4817,28 +4838,6 @@
           "score": 105,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale",
           "cinque_2025": 2305.72
-        },
-        {
-          "cf": "05173340877",
-          "denominazione": "CANTIERE SCUOLA SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "CATANIA",
-          "provincia": "CT",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale",
-          "cinque_2025": 1992.98
-        },
-        {
-          "cf": "98330700794",
-          "denominazione": "SCUOLA MATERNA QUI, QUO, QUA APS",
-          "comune": "CIRO' MARINA",
-          "provincia": "KR",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 105,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS",
-          "cinque_2025": 877.61
         }
       ]
     },
@@ -4870,6 +4869,28 @@
           "cinque_2025": 217080.73
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 2316835.68
+        },
+        {
           "cf": "02692940139",
           "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
           "comune": "MILANO",
@@ -4890,6 +4911,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
           "cinque_2025": 27403.94
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
         },
         {
           "cf": "95069820108",
@@ -4934,39 +4966,6 @@
           "score": 117,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
           "cinque_2025": 27736.87
-        },
-        {
-          "cf": "00815900980",
-          "denominazione": "CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZINUOVI - ODV",
-          "comune": "ORZINUOVI",
-          "provincia": "BS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600",
-          "cinque_2025": 25185.64
-        },
-        {
-          "cf": "05248350018",
-          "denominazione": "CROCE VERDE TORINO ODV",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727",
-          "cinque_2025": 21817.99
-        },
-        {
-          "cf": "00932630445",
-          "denominazione": "PUBBLICA ASSISTENZA CROCE VERDE FERMO -ORGANIZZAZIONE DI VOLONTARIATO IN BREVE P.A.CROCE VERDE FERMO -ODV",
-          "comune": "FERMO",
-          "provincia": "FM",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,184,700",
-          "cinque_2025": 20214.06
         }
       ]
     },
@@ -4998,6 +4997,28 @@
           "cinque_2025": 217080.73
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 2316835.68
+        },
+        {
           "cf": "02692940139",
           "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
           "comune": "MILANO",
@@ -5018,6 +5039,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
           "cinque_2025": 27403.94
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
         },
         {
           "cf": "95069820108",
@@ -5062,39 +5094,6 @@
           "score": 117,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
           "cinque_2025": 27736.87
-        },
-        {
-          "cf": "00815900980",
-          "denominazione": "CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZINUOVI - ODV",
-          "comune": "ORZINUOVI",
-          "provincia": "BS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600",
-          "cinque_2025": 25185.64
-        },
-        {
-          "cf": "05248350018",
-          "denominazione": "CROCE VERDE TORINO ODV",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727",
-          "cinque_2025": 21817.99
-        },
-        {
-          "cf": "00932630445",
-          "denominazione": "PUBBLICA ASSISTENZA CROCE VERDE FERMO -ORGANIZZAZIONE DI VOLONTARIATO IN BREVE P.A.CROCE VERDE FERMO -ODV",
-          "comune": "FERMO",
-          "provincia": "FM",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,184,700",
-          "cinque_2025": 20214.06
         }
       ]
     },
@@ -5137,6 +5136,28 @@
           "cinque_2025": NaN
         },
         {
+          "cf": "01098680372",
+          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
+          "comune": "BOLOGNA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 125,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
+          "cinque_2025": 137952.32
+        },
+        {
+          "cf": "97501240010",
+          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
+          "cinque_2025": 42117.74
+        },
+        {
           "cf": "06273640588",
           "denominazione": "ARCIRAGAZZI  APS",
           "comune": "ROMA",
@@ -5148,81 +5169,59 @@
           "cinque_2025": 581.16
         },
         {
-          "cf": "97026170155",
-          "denominazione": "CASA DEI RAGAZZI ISTITUTO ASSISTENZA MINORI ED ANZIANI IMPRESA SOCIALE",
+          "cf": "97227450158",
+          "denominazione": "ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989",
+          "cinque_2025": 7925761.31
+        },
+        {
+          "cf": "97010160154",
+          "denominazione": "CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI - ENTE DEL TERZO SETTORE",
           "comune": "MILANO",
           "provincia": "MI",
           "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €2,962,159",
-          "cinque_2025": 12009.82
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751",
+          "cinque_2025": 173631.41
         },
         {
-          "cf": "01716760218",
-          "denominazione": "PETER PAN - VEREINIGUNG FUER KREBSKRANKE KINDER - SUEDTIROL - EO_PETER PAN - ASSOCIAZIONE PER I BAMBINI CON TUMORE - ALTO ADIGE - ODV",
-          "comune": "BOLZANO",
-          "provincia": "BZ",
+          "cf": "92504680155",
+          "denominazione": "AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO SETTORE O ANCHE AI.BI. AMICI DEI BAMBINI FONDAZIONE ETS",
+          "comune": "SAN GIULIANO MILANESE",
+          "provincia": "MI",
           "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 232521.24
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 122,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083",
+          "cinque_2025": 115127.89
         },
         {
-          "cf": "01084150323",
-          "denominazione": "A.B.C. - ASSOCIAZIONE PER I BAMBINI CHIRURGICI DEL BURLO - ODV ETS",
-          "comune": "TRIESTE",
-          "provincia": "TS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV",
-          "cinque_2025": 150644.13
-        },
-        {
-          "cf": "91006870025",
-          "denominazione": "ASSOCIAZIONE CASA DELLA MAMMA E DEL BAMBINO ETS E ODV",
-          "comune": "BORGOSESIA",
-          "provincia": "VC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti pubblici",
-          "cinque_2025": 30964.22
-        },
-        {
-          "cf": "92109830346",
-          "denominazione": "CENTRO IMMIGRAZIONE ASILO COOPERAZIONE INTERNAZIONALE DI PARMA E PROVINCIA IMPRESA SOCIALE ETS",
-          "comune": "PARMA",
-          "provincia": "PR",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €37,787,568",
-          "cinque_2025": 6366.2
-        },
-        {
-          "cf": "03209900277",
-          "denominazione": "TITOLI MINORI - SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "CHIOGGIA",
-          "provincia": "VE",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €11,855,008",
-          "cinque_2025": 5651.54
-        },
-        {
-          "cf": "03865870103",
-          "denominazione": "COOPERATIVA SOCIALE IL SENTIERO DEL MOVIMENTO RAGAZZI SOCIETA' COOPERATIVA A RESPONSABILITA' LIMITATA",
+          "cf": "97457060586",
+          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
           "comune": "GENOVA",
           "provincia": "GE",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
+          "cinque_2025": 1514.12
+        },
+        {
+          "cf": "00226500288",
+          "denominazione": "PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRATI MINORI CONVENTUALI - CARITAS S. ANTONIO",
+          "comune": "PADOVA",
+          "provincia": "PD",
           "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €61,686,171",
-          "cinque_2025": 4325.2
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 770111.54
         }
       ]
     },
@@ -5297,6 +5296,50 @@
           "cinque_2025": 915.1
         },
         {
+          "cf": "11903640016",
+          "denominazione": "FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA ENTE DEL TERZO SETTORE",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "00405220872",
+          "denominazione": "ASSOCIAZIONE MUSICALE ETNEA ETS",
+          "comune": "CATANIA",
+          "provincia": "CT",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "94002660713",
+          "denominazione": "ASSORI ASSOCIAZIONE PER LA PROMOZIONE SOCIO-CULTURALE, SPORTIVO-DILETTANTISTICA PER LA RIABILITAZIONE E L’INCLUSIONE SOCIALE DELLA PERSONA DISABILE ETS",
+          "comune": "FOGGIA",
+          "provincia": "FG",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €4,008,100",
+          "cinque_2025": 11723.99
+        },
+        {
+          "cf": "07154490481",
+          "denominazione": "TOSCANA PRODUZIONE MUSICA ETS",
+          "comune": "FIRENZE",
+          "provincia": "FI",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 116,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
           "cf": "08780880962",
           "denominazione": "ASSOCIAZIONE CULTURALE LANDSCAPE CHOREOGRAPHY APS",
           "comune": "MILANO",
@@ -5305,50 +5348,6 @@
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 116,
           "motivo": "match tema + sezione; capacità alta; grant UE; APS; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "94070160018",
-          "denominazione": "ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S.",
-          "comune": "CARMAGNOLA",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €165,436,108",
-          "cinque_2025": 1580.06
-        },
-        {
-          "cf": "95130700107",
-          "denominazione": "TEATRO NECESSARIO APS",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici",
-          "cinque_2025": 10589.81
-        },
-        {
-          "cf": "95106460652",
-          "denominazione": "ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE PER L'INCLUSIONE E LA CITTADINANZA ATTIVA APS",
-          "comune": "SALERNO",
-          "provincia": "SA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS; appalti pubblici",
-          "cinque_2025": 1916.85
-        },
-        {
-          "cf": "92006060120",
-          "denominazione": "ASSOCIAZIONE CULTURALE EUROPEA APS",
-          "comune": "ISPRA",
-          "provincia": "VA",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 113,
-          "motivo": "match tema + sezione; capacità alta; grant UE; APS",
           "cinque_2025": NaN
         }
       ]
@@ -5381,6 +5380,28 @@
           "cinque_2025": 217080.73
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
+          "cf": "80102030154",
+          "denominazione": "FAI - FONDO PER L' AMBIENTE ITALIANO ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
+          "cinque_2025": 2316835.68
+        },
+        {
           "cf": "02692940139",
           "denominazione": "LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL' AMBIENTE ODV",
           "comune": "MILANO",
@@ -5401,6 +5422,17 @@
           "score": 120,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569",
           "cinque_2025": 27403.94
+        },
+        {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
         },
         {
           "cf": "95069820108",
@@ -5445,39 +5477,6 @@
           "score": 117,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152",
           "cinque_2025": 32927.85
-        },
-        {
-          "cf": "91000190131",
-          "denominazione": "CROCE VERDE BOSISIO PARINI ODV",
-          "comune": "BOSISIO PARINI",
-          "provincia": "LC",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734",
-          "cinque_2025": 27736.87
-        },
-        {
-          "cf": "00815900980",
-          "denominazione": "CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZINUOVI - ODV",
-          "comune": "ORZINUOVI",
-          "provincia": "BS",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600",
-          "cinque_2025": 25185.64
-        },
-        {
-          "cf": "05248350018",
-          "denominazione": "CROCE VERDE TORINO ODV",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727",
-          "cinque_2025": 21817.99
         }
       ]
     },
@@ -5494,54 +5493,9 @@
         "Ucraina"
       ],
       "tags": [
-        "migranti",
         "cultura"
       ],
       "candidati": [
-        {
-          "cf": "05504141002",
-          "denominazione": "MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 128,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 1009.87
-        },
-        {
-          "cf": "01764350516",
-          "denominazione": "OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, COOPERATIVA SOCIALE DI TIPO A, COOPERATIVA A MUTUALITA' PREVALENTE, IMPRESA SOCIALE, ENTE DEL TERZO SETTORE",
-          "comune": "AREZZO",
-          "provincia": "AR",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 128,
-          "motivo": "match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "02522171202",
-          "denominazione": "TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGLA TEATRO DELL'ARGINE COOP.SOCIALE",
-          "comune": "SAN LAZZARO DI SAVENA",
-          "provincia": "BO",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 9259.28
-        },
-        {
-          "cf": "01294330228",
-          "denominazione": "ARTE SELLA IMPRESA SOCIALE",
-          "comune": "BORGO VALSUGANA",
-          "provincia": "TN",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 1219.6
-        },
         {
           "cf": "01535300501",
           "denominazione": "ASSOCIAZIONE CULTURALE MUSICASTRADA APS",
@@ -5552,28 +5506,6 @@
           "score": 123,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
           "cinque_2025": 172.7
-        },
-        {
-          "cf": "00824740047",
-          "denominazione": "DISPARI TEATRO COOPERATIVA SOCIALE ETS",
-          "comune": "CUNEO",
-          "provincia": "CN",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 3616.24
-        },
-        {
-          "cf": "01900520204",
-          "denominazione": "TEATRO MAGRO COOPERATIVA SOCIALE O.N.L.U.S.",
-          "comune": "MANTOVA",
-          "provincia": "MN",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 1108.05
         },
         {
           "cf": "97726440015",
@@ -5598,15 +5530,81 @@
           "cinque_2025": 345.81
         },
         {
-          "cf": "11656010151",
-          "denominazione": "CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' A RESPONSABILITA' LIMITATA - ONLUS",
+          "cf": "02285960460",
+          "denominazione": "ASSOCIAZIONE CULTURALE PHOTOLUX APS",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 2458.75
+        },
+        {
+          "cf": "02483330409",
+          "denominazione": "FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE - APS",
+          "comune": "FORLI'",
+          "provincia": "FC",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
+          "cinque_2025": 915.1
+        },
+        {
+          "cf": "11903640016",
+          "denominazione": "FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA ENTE DEL TERZO SETTORE",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "00405220872",
+          "denominazione": "ASSOCIAZIONE MUSICALE ETNEA ETS",
+          "comune": "CATANIA",
+          "provincia": "CT",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "94002660713",
+          "denominazione": "ASSORI ASSOCIAZIONE PER LA PROMOZIONE SOCIO-CULTURALE, SPORTIVO-DILETTANTISTICA PER LA RIABILITAZIONE E L’INCLUSIONE SOCIALE DELLA PERSONA DISABILE ETS",
+          "comune": "FOGGIA",
+          "provincia": "FG",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €4,008,100",
+          "cinque_2025": 11723.99
+        },
+        {
+          "cf": "07154490481",
+          "denominazione": "TOSCANA PRODUZIONE MUSICA ETS",
+          "comune": "FIRENZE",
+          "provincia": "FI",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 116,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "08780880962",
+          "denominazione": "ASSOCIAZIONE CULTURALE LANDSCAPE CHOREOGRAPHY APS",
           "comune": "MILANO",
           "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790",
-          "cinque_2025": 21095.74
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 116,
+          "motivo": "match tema + sezione; capacità alta; grant UE; APS; appalti pubblici",
+          "cinque_2025": NaN
         }
       ]
     },
@@ -5672,6 +5670,17 @@
           "cinque_2025": 581.16
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
           "cf": "01245940265",
           "denominazione": "VITA E LAVORO SOCIETA' COOPERATIVA SOCIALE",
           "comune": "MONTEBELLUNA",
@@ -5705,6 +5714,17 @@
           "cinque_2025": NaN
         },
         {
+          "cf": "05994670726",
+          "denominazione": "UNISCO - NETWORK PER LO SVILUPPO LOCALE E.T.S.",
+          "comune": "BARI",
+          "provincia": "BA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti €9,942,666",
+          "cinque_2025": NaN
+        },
+        {
           "cf": "02454910593",
           "denominazione": "FATTORIA SOLIDALE DEL CIRCEO COOPERATIVA SOCIALE DI PRODUZIONE E LAVORO  SIGLA: FSDC COOPERATIVA SOCIALE DI PRODUZIONE E LAVORO",
           "comune": "PONTINIA",
@@ -5714,28 +5734,6 @@
           "score": 118,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale",
           "cinque_2025": 828.99
-        },
-        {
-          "cf": "04758320750",
-          "denominazione": "CENTRO DI FORMAZIONE ED ALTA SPECIALIZZAZIONE - Associazione di Promozione Sociale",
-          "comune": "CARMIANO",
-          "provincia": "LE",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; grant UE; APS; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "97026170155",
-          "denominazione": "CASA DEI RAGAZZI ISTITUTO ASSISTENZA MINORI ED ANZIANI IMPRESA SOCIALE",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €2,962,159",
-          "cinque_2025": 12009.82
         }
       ]
     },
@@ -5751,8 +5749,8 @@
         "Ucraina"
       ],
       "tags": [
-        "migranti",
-        "cultura"
+        "cultura",
+        "migranti"
       ],
       "candidati": [
         {
@@ -5894,6 +5892,83 @@
           "cinque_2025": 581.16
         },
         {
+          "cf": "80016010367",
+          "denominazione": "FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CITTA' DEI RAGAZZI",
+          "comune": "SAN LAZZARO DI SAVENA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857",
+          "cinque_2025": 43285.0
+        },
+        {
+          "cf": "97339000156",
+          "denominazione": "JUNIOR ACHIEVEMENT - YOUNG ENTERPRISE ITALY ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 11693.68
+        },
+        {
+          "cf": "00893280107",
+          "denominazione": "OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL RAGAZZO",
+          "comune": "CHIAVARI",
+          "provincia": "GE",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534",
+          "cinque_2025": 1955.25
+        },
+        {
+          "cf": "92000760469",
+          "denominazione": "FONDAZIONE ETS CENTRO ITALIANO DI SOLIDARIETA' CE.I.S. GRUPPO GIOVANI E COMUNITA' DI LUCCA",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €149,327,007",
+          "cinque_2025": 1886.88
+        },
+        {
+          "cf": "97585800010",
+          "denominazione": "ASSOCIAZIONE GIOVANILE SALESIANA PER IL TERRITORIO",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 11537.4
+        },
+        {
+          "cf": "10973971004",
+          "denominazione": "REPUBBLICA DEI RAGAZZI ",
+          "comune": "CIVITAVECCHIA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €5,450,319",
+          "cinque_2025": 6247.15
+        },
+        {
+          "cf": "03324680820",
+          "denominazione": "COMUNITA' TERAPEUTICA - CASA DEI GIOVANI -",
+          "comune": "BAGHERIA",
+          "provincia": "PA",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €1,111,320",
+          "cinque_2025": 3812.07
+        },
+        {
           "cf": "90023550735",
           "denominazione": "ARCIRAGAZZI TARANTO",
           "comune": "TARANTO",
@@ -5905,92 +5980,15 @@
           "cinque_2025": 639.28
         },
         {
-          "cf": "80032930721",
-          "denominazione": "ASSOCIAZIONE GIOVANI CON DIABETE BARI - BAT - TARANTO APS ETS",
-          "comune": "MODUGNO",
-          "provincia": "BA",
+          "cf": "92078170922",
+          "denominazione": "EFYS - (EQUIPE FORMAZIONE YOUTHSTART SARDEGNA) APS",
+          "comune": "CAGLIARI",
+          "provincia": "CA",
           "capacita": "medio-alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 12551.06
-        },
-        {
-          "cf": "06170201211",
-          "denominazione": "ASSOCIAZIONE LUCA BRANDI PER LE ENERGIE DEI GIOVANI - APS",
-          "comune": "ISCHIA",
-          "provincia": NaN,
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 11116.92
-        },
-        {
-          "cf": "97235650823",
-          "denominazione": "CENTRO GIOVANILE DON GIUSEPPE PUGLISI APS",
-          "comune": "PALERMO",
-          "provincia": "PA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 4647.25
-        },
-        {
-          "cf": "80210590586",
-          "denominazione": "TURISMO GIOVANILE E SOCIALE APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 2607.13
-        },
-        {
-          "cf": "95199290164",
-          "denominazione": "RAGAZZI ON THE ROAD APS",
-          "comune": "BERGAMO",
-          "provincia": "BG",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
-          "cinque_2025": 2043.92
-        },
-        {
-          "cf": "80210550580",
-          "denominazione": "POLISPORTIVE GIOVANILI SALESIANE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 1115.18
-        },
-        {
-          "cf": "91046070701",
-          "denominazione": "CIRCOLO MCL - UN PAESE PER GIOVANI - APS",
-          "comune": "TERMOLI",
-          "provincia": "CB",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 108,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
-          "cinque_2025": 3727.55
-        },
-        {
-          "cf": "01409210562",
-          "denominazione": "juppiter aps giovanile",
-          "comune": "CAPRANICA",
-          "provincia": "VT",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 107,
-          "motivo": "match tema + sezione; capacità medio-alta; APS; appalti €1,277,501",
-          "cinque_2025": NaN
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,329,915",
+          "cinque_2025": 334.35
         }
       ]
     },
@@ -6021,6 +6019,83 @@
           "cinque_2025": 581.16
         },
         {
+          "cf": "80016010367",
+          "denominazione": "FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CITTA' DEI RAGAZZI",
+          "comune": "SAN LAZZARO DI SAVENA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857",
+          "cinque_2025": 43285.0
+        },
+        {
+          "cf": "97339000156",
+          "denominazione": "JUNIOR ACHIEVEMENT - YOUNG ENTERPRISE ITALY ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 11693.68
+        },
+        {
+          "cf": "00893280107",
+          "denominazione": "OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL RAGAZZO",
+          "comune": "CHIAVARI",
+          "provincia": "GE",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534",
+          "cinque_2025": 1955.25
+        },
+        {
+          "cf": "92000760469",
+          "denominazione": "FONDAZIONE ETS CENTRO ITALIANO DI SOLIDARIETA' CE.I.S. GRUPPO GIOVANI E COMUNITA' DI LUCCA",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €149,327,007",
+          "cinque_2025": 1886.88
+        },
+        {
+          "cf": "97585800010",
+          "denominazione": "ASSOCIAZIONE GIOVANILE SALESIANA PER IL TERRITORIO",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 11537.4
+        },
+        {
+          "cf": "10973971004",
+          "denominazione": "REPUBBLICA DEI RAGAZZI ",
+          "comune": "CIVITAVECCHIA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €5,450,319",
+          "cinque_2025": 6247.15
+        },
+        {
+          "cf": "03324680820",
+          "denominazione": "COMUNITA' TERAPEUTICA - CASA DEI GIOVANI -",
+          "comune": "BAGHERIA",
+          "provincia": "PA",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €1,111,320",
+          "cinque_2025": 3812.07
+        },
+        {
           "cf": "90023550735",
           "denominazione": "ARCIRAGAZZI TARANTO",
           "comune": "TARANTO",
@@ -6032,92 +6107,15 @@
           "cinque_2025": 639.28
         },
         {
-          "cf": "80032930721",
-          "denominazione": "ASSOCIAZIONE GIOVANI CON DIABETE BARI - BAT - TARANTO APS ETS",
-          "comune": "MODUGNO",
-          "provincia": "BA",
+          "cf": "92078170922",
+          "denominazione": "EFYS - (EQUIPE FORMAZIONE YOUTHSTART SARDEGNA) APS",
+          "comune": "CAGLIARI",
+          "provincia": "CA",
           "capacita": "medio-alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 12551.06
-        },
-        {
-          "cf": "06170201211",
-          "denominazione": "ASSOCIAZIONE LUCA BRANDI PER LE ENERGIE DEI GIOVANI - APS",
-          "comune": "ISCHIA",
-          "provincia": NaN,
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 11116.92
-        },
-        {
-          "cf": "97235650823",
-          "denominazione": "CENTRO GIOVANILE DON GIUSEPPE PUGLISI APS",
-          "comune": "PALERMO",
-          "provincia": "PA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 4647.25
-        },
-        {
-          "cf": "80210590586",
-          "denominazione": "TURISMO GIOVANILE E SOCIALE APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 2607.13
-        },
-        {
-          "cf": "95199290164",
-          "denominazione": "RAGAZZI ON THE ROAD APS",
-          "comune": "BERGAMO",
-          "provincia": "BG",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
-          "cinque_2025": 2043.92
-        },
-        {
-          "cf": "80210550580",
-          "denominazione": "POLISPORTIVE GIOVANILI SALESIANE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 1115.18
-        },
-        {
-          "cf": "91046070701",
-          "denominazione": "CIRCOLO MCL - UN PAESE PER GIOVANI - APS",
-          "comune": "TERMOLI",
-          "provincia": "CB",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 108,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
-          "cinque_2025": 3727.55
-        },
-        {
-          "cf": "01409210562",
-          "denominazione": "juppiter aps giovanile",
-          "comune": "CAPRANICA",
-          "provincia": "VT",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 107,
-          "motivo": "match tema + sezione; capacità medio-alta; APS; appalti €1,277,501",
-          "cinque_2025": NaN
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,329,915",
+          "cinque_2025": 334.35
         }
       ]
     },
@@ -6148,6 +6146,17 @@
           "cinque_2025": 36039.24
         },
         {
+          "cf": "00080270838",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE CITTA' DI MESSINA",
+          "comune": "MESSINA",
+          "provincia": "ME",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 131,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici",
+          "cinque_2025": 23806.21
+        },
+        {
           "cf": "80116050586",
           "denominazione": "ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV",
           "comune": "ROMA",
@@ -6181,6 +6190,28 @@
           "cinque_2025": 143383.31
         },
         {
+          "cf": "00163150618",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE DI SAN FELICE A CANCELLO",
+          "comune": "SAN FELICE A CANCELLO",
+          "provincia": "CE",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; appalti pubblici",
+          "cinque_2025": 735.1
+        },
+        {
+          "cf": "00623530136",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE DI LECCO",
+          "comune": "LECCO",
+          "provincia": "LC",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; grant UE; PNRR; appalti €23,549,683",
+          "cinque_2025": NaN
+        },
+        {
           "cf": "97019350152",
           "denominazione": "VIDAS VOLONTARI ITALIANI DOMICILIARI PER L'ASSISTENZA AI SOFFERENTI ODV",
           "comune": "MILANO",
@@ -6212,39 +6243,6 @@
           "score": 127,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,277,767",
           "cinque_2025": 145510.08
-        },
-        {
-          "cf": "97457060586",
-          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 126,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
-          "cinque_2025": 1514.12
-        },
-        {
-          "cf": "01152360317",
-          "denominazione": "CROCE ROSSA ITALIANA COMITATO DI GORIZIA ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "GORIZIA",
-          "provincia": "GO",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 126,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
-          "cinque_2025": 1340.81
-        },
-        {
-          "cf": "97229260159",
-          "denominazione": "OIPA ITALIA ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 125,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici",
-          "cinque_2025": 573853.46
         }
       ]
     },
@@ -6275,6 +6273,17 @@
           "cinque_2025": 36039.24
         },
         {
+          "cf": "00080270838",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE CITTA' DI MESSINA",
+          "comune": "MESSINA",
+          "provincia": "ME",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 131,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici",
+          "cinque_2025": 23806.21
+        },
+        {
           "cf": "80116050586",
           "denominazione": "ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV",
           "comune": "ROMA",
@@ -6308,6 +6317,28 @@
           "cinque_2025": 143383.31
         },
         {
+          "cf": "00163150618",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE DI SAN FELICE A CANCELLO",
+          "comune": "SAN FELICE A CANCELLO",
+          "provincia": "CE",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; appalti pubblici",
+          "cinque_2025": 735.1
+        },
+        {
+          "cf": "00623530136",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE DI LECCO",
+          "comune": "LECCO",
+          "provincia": "LC",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; grant UE; PNRR; appalti €23,549,683",
+          "cinque_2025": NaN
+        },
+        {
           "cf": "97019350152",
           "denominazione": "VIDAS VOLONTARI ITALIANI DOMICILIARI PER L'ASSISTENZA AI SOFFERENTI ODV",
           "comune": "MILANO",
@@ -6339,39 +6370,6 @@
           "score": 127,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,277,767",
           "cinque_2025": 145510.08
-        },
-        {
-          "cf": "97457060586",
-          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 126,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
-          "cinque_2025": 1514.12
-        },
-        {
-          "cf": "01152360317",
-          "denominazione": "CROCE ROSSA ITALIANA COMITATO DI GORIZIA ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "GORIZIA",
-          "provincia": "GO",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 126,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
-          "cinque_2025": 1340.81
-        },
-        {
-          "cf": "97229260159",
-          "denominazione": "OIPA ITALIA ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 125,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici",
-          "cinque_2025": 573853.46
         }
       ]
     },
@@ -6402,6 +6400,83 @@
           "cinque_2025": 581.16
         },
         {
+          "cf": "80016010367",
+          "denominazione": "FRATERNITA' CRISTIANA OPERA DI PADRE MARELLA - CITTA' DEI RAGAZZI",
+          "comune": "SAN LAZZARO DI SAVENA",
+          "provincia": "BO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 117,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €3,471,857",
+          "cinque_2025": 43285.0
+        },
+        {
+          "cf": "97339000156",
+          "denominazione": "JUNIOR ACHIEVEMENT - YOUNG ENTERPRISE ITALY ENTE DEL TERZO SETTORE",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 11693.68
+        },
+        {
+          "cf": "00893280107",
+          "denominazione": "OPERA DIOCESANA MADONNA DEI BAMBINI  VILLAGGIO DEL RAGAZZO",
+          "comune": "CHIAVARI",
+          "provincia": "GE",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €79,258,534",
+          "cinque_2025": 1955.25
+        },
+        {
+          "cf": "92000760469",
+          "denominazione": "FONDAZIONE ETS CENTRO ITALIANO DI SOLIDARIETA' CE.I.S. GRUPPO GIOVANI E COMUNITA' DI LUCCA",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €149,327,007",
+          "cinque_2025": 1886.88
+        },
+        {
+          "cf": "97585800010",
+          "denominazione": "ASSOCIAZIONE GIOVANILE SALESIANA PER IL TERRITORIO",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 113,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 11537.4
+        },
+        {
+          "cf": "10973971004",
+          "denominazione": "REPUBBLICA DEI RAGAZZI ",
+          "comune": "CIVITAVECCHIA",
+          "provincia": "RM",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €5,450,319",
+          "cinque_2025": 6247.15
+        },
+        {
+          "cf": "03324680820",
+          "denominazione": "COMUNITA' TERAPEUTICA - CASA DEI GIOVANI -",
+          "comune": "BAGHERIA",
+          "provincia": "PA",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €1,111,320",
+          "cinque_2025": 3812.07
+        },
+        {
           "cf": "90023550735",
           "denominazione": "ARCIRAGAZZI TARANTO",
           "comune": "TARANTO",
@@ -6413,92 +6488,15 @@
           "cinque_2025": 639.28
         },
         {
-          "cf": "80032930721",
-          "denominazione": "ASSOCIAZIONE GIOVANI CON DIABETE BARI - BAT - TARANTO APS ETS",
-          "comune": "MODUGNO",
-          "provincia": "BA",
+          "cf": "92078170922",
+          "denominazione": "EFYS - (EQUIPE FORMAZIONE YOUTHSTART SARDEGNA) APS",
+          "comune": "CAGLIARI",
+          "provincia": "CA",
           "capacita": "medio-alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 12551.06
-        },
-        {
-          "cf": "06170201211",
-          "denominazione": "ASSOCIAZIONE LUCA BRANDI PER LE ENERGIE DEI GIOVANI - APS",
-          "comune": "ISCHIA",
-          "provincia": NaN,
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; APS",
-          "cinque_2025": 11116.92
-        },
-        {
-          "cf": "97235650823",
-          "denominazione": "CENTRO GIOVANILE DON GIUSEPPE PUGLISI APS",
-          "comune": "PALERMO",
-          "provincia": "PA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 4647.25
-        },
-        {
-          "cf": "80210590586",
-          "denominazione": "TURISMO GIOVANILE E SOCIALE APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 2607.13
-        },
-        {
-          "cf": "95199290164",
-          "denominazione": "RAGAZZI ON THE ROAD APS",
-          "comune": "BERGAMO",
-          "provincia": "BG",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
-          "cinque_2025": 2043.92
-        },
-        {
-          "cf": "80210550580",
-          "denominazione": "POLISPORTIVE GIOVANILI SALESIANE - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 110,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS",
-          "cinque_2025": 1115.18
-        },
-        {
-          "cf": "91046070701",
-          "denominazione": "CIRCOLO MCL - UN PAESE PER GIOVANI - APS",
-          "comune": "TERMOLI",
-          "provincia": "CB",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 108,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici",
-          "cinque_2025": 3727.55
-        },
-        {
-          "cf": "01409210562",
-          "denominazione": "juppiter aps giovanile",
-          "comune": "CAPRANICA",
-          "provincia": "VT",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 107,
-          "motivo": "match tema + sezione; capacità medio-alta; APS; appalti €1,277,501",
-          "cinque_2025": NaN
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €1,329,915",
+          "cinque_2025": 334.35
         }
       ]
     },
@@ -6540,6 +6538,17 @@
           "cinque_2025": 1651.08
         },
         {
+          "cf": "02793420015",
+          "denominazione": "ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUTURO - WEEC NETWORK ETS",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici",
+          "cinque_2025": 1431.15
+        },
+        {
           "cf": "01245940265",
           "denominazione": "VITA E LAVORO SOCIETA' COOPERATIVA SOCIALE",
           "comune": "MONTEBELLUNA",
@@ -6573,6 +6582,17 @@
           "cinque_2025": NaN
         },
         {
+          "cf": "05994670726",
+          "denominazione": "UNISCO - NETWORK PER LO SVILUPPO LOCALE E.T.S.",
+          "comune": "BARI",
+          "provincia": "BA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti €9,942,666",
+          "cinque_2025": NaN
+        },
+        {
           "cf": "02454910593",
           "denominazione": "FATTORIA SOLIDALE DEL CIRCEO COOPERATIVA SOCIALE DI PRODUZIONE E LAVORO  SIGLA: FSDC COOPERATIVA SOCIALE DI PRODUZIONE E LAVORO",
           "comune": "PONTINIA",
@@ -6584,6 +6604,17 @@
           "cinque_2025": 828.99
         },
         {
+          "cf": "95319280632",
+          "denominazione": "URBAN CLIMATE CHANGE RESEARCH NETWORK - EUROPEAN HUB ETS",
+          "comune": "NAPOLI",
+          "provincia": NaN,
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 118,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE",
+          "cinque_2025": 120.56
+        },
+        {
           "cf": "10644540154",
           "denominazione": "COFOL-COOPERATIVA SOCIALE DI SOLIDARIETA' E LAVORO SOCIETA' COOPE RATIVA",
           "comune": "PARABIAGO",
@@ -6593,39 +6624,6 @@
           "score": 115,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti pubblici",
           "cinque_2025": 21723.02
-        },
-        {
-          "cf": "07336140152",
-          "denominazione": "\"COOPERATIVA SOCIALE SOLARIS - SOCIETA' LAVORO E RIABILITAZIONE S OCIALE O.N.L.U.S.\" DETTA IN BREVE \"COOPERATIVA SOCIALE SOLARIS O.N.L.U.S.\"",
-          "comune": "TRIUGGIO",
-          "provincia": "MB",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €31,607,197",
-          "cinque_2025": 8875.35
-        },
-        {
-          "cf": "02768890648",
-          "denominazione": "ASSEL - ASSISTENZA E LAVORO SOCIETA' COOPERATIVA SOCIALE PER AZIO NI - ETS",
-          "comune": "SALERNO",
-          "provincia": "SA",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €22,704,150",
-          "cinque_2025": 3871.53
-        },
-        {
-          "cf": "01495820886",
-          "denominazione": "FORMAZIONE E COMUNIONE SOCIETA' COOPERATIVA SOCIALE-ONLUS",
-          "comune": "CHIARAMONTE GULFI",
-          "provincia": "RG",
-          "capacita": "medio-alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 115,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €32,596,204",
-          "cinque_2025": 1880.12
         }
       ]
     },
@@ -6654,6 +6652,17 @@
           "score": 143,
           "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762",
           "cinque_2025": 36039.24
+        },
+        {
+          "cf": "00080270838",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE CITTA' DI MESSINA",
+          "comune": "MESSINA",
+          "provincia": "ME",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 131,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici",
+          "cinque_2025": 23806.21
         },
         {
           "cf": "80116050586",
@@ -6689,6 +6698,28 @@
           "cinque_2025": 143383.31
         },
         {
+          "cf": "00163150618",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE DI SAN FELICE A CANCELLO",
+          "comune": "SAN FELICE A CANCELLO",
+          "provincia": "CE",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; appalti pubblici",
+          "cinque_2025": 735.1
+        },
+        {
+          "cf": "00623530136",
+          "denominazione": "GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVILE DI LECCO",
+          "comune": "LECCO",
+          "provincia": "LC",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; grant UE; PNRR; appalti €23,549,683",
+          "cinque_2025": NaN
+        },
+        {
           "cf": "97019350152",
           "denominazione": "VIDAS VOLONTARI ITALIANI DOMICILIARI PER L'ASSISTENZA AI SOFFERENTI ODV",
           "comune": "MILANO",
@@ -6720,39 +6751,6 @@
           "score": 127,
           "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,277,767",
           "cinque_2025": 145510.08
-        },
-        {
-          "cf": "97457060586",
-          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 126,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
-          "cinque_2025": 1514.12
-        },
-        {
-          "cf": "01152360317",
-          "denominazione": "CROCE ROSSA ITALIANA COMITATO DI GORIZIA ORGANIZZAZIONE DI VOLONTARIATO",
-          "comune": "GORIZIA",
-          "provincia": "GO",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 126,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
-          "cinque_2025": 1340.81
-        },
-        {
-          "cf": "97229260159",
-          "denominazione": "OIPA ITALIA ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 125,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici",
-          "cinque_2025": 573853.46
         }
       ]
     }
