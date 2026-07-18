@@ -120,7 +120,11 @@ MATCH_ETS_SQL = """
            ) AS score
     FROM '{ets_file}'
     WHERE {match_condition}
-      AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
+      AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
+           OR ha_appalti = true
+           OR ha_5x1000 = true
+           OR ha_grant_ue = true
+           OR ha_pnrr = true)
       {province_filter}
     ORDER BY score DESC, cinque_2025 DESC NULLS LAST
     LIMIT {limit}
@@ -390,7 +394,7 @@ def match_bando(con, pattern, tags, limit=10, territorio=None):
     return con.sql(sql).fetchdf()
 
 
-def run_scan(con=None, bandi=None, match_limit=10, include_statuses=None):
+def run_scan(con=None, bandi=None, match_limit=20, include_statuses=None):
     con = con or duckdb.connect()
     bandi = bandi or load_bandi()
     include_statuses = include_statuses or {"attivo", "sportello"}

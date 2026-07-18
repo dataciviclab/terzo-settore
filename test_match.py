@@ -58,7 +58,11 @@ def main():
             SELECT COUNT(*) as cnt
             FROM '{ETS_FILE}'
             WHERE {match_condition}
-              AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
+              AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
+                   OR ha_appalti = true
+                   OR ha_5x1000 = true
+                   OR ha_grant_ue = true
+                   OR ha_pnrr = true)
         """
         result = con.sql(sql).fetchone()[0]
 
@@ -74,7 +78,11 @@ def main():
                 SELECT denominazione, comune, capacita_progettuale
                 FROM '{ETS_FILE}'
                 WHERE {match_condition}
-                  AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
+                  AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
+                   OR ha_appalti = true
+                   OR ha_5x1000 = true
+                   OR ha_grant_ue = true
+                   OR ha_pnrr = true)
                 ORDER BY cinque_2025 DESC NULLS LAST
                 LIMIT 2
             """).fetchdf()
@@ -147,7 +155,11 @@ def main():
             count = con.sql(f"""
                 SELECT COUNT(*) FROM '{ETS_FILE}'
                 WHERE {match_condition}
-                  AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
+                  AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
+                   OR ha_appalti = true
+                   OR ha_5x1000 = true
+                   OR ha_grant_ue = true
+                   OR ha_pnrr = true)
             """).fetchone()[0]
 
             atteso = entry["atteso"]
