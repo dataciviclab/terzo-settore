@@ -34,7 +34,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Scadenza**: 03 agosto 2026 (16 giorni)
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: minori, sport, inclusione sociale, educazione
+- **Tag**: sport, educazione, inclusione sociale, minori
 
   · **medio-alta** A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI OSTEO  — PALERMO (PA) — score 130, match; 5x1000 >10k; APS — 5x1000: €12,355
 

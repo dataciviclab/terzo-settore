@@ -1,5 +1,5 @@
 {
-  "generato": "2026-07-18T00:01:30.591347",
+  "generato": "2026-07-18T09:20:17.328572",
   "bandi_totali": 226,
   "match": 45,
   "gap": 1,
@@ -1326,10 +1326,10 @@
         "Nazionale"
       ],
       "tags": [
-        "minori",
         "sport",
+        "educazione",
         "inclusione sociale",
-        "educazione"
+        "minori"
       ],
       "candidati": [
         {
@@ -1457,10 +1457,10 @@
         "Nazionale"
       ],
       "tags": [
-        "digitale",
+        "cultura",
         "arte",
         "premi",
-        "cultura",
+        "digitale",
         "ambiente"
       ],
       "candidati": [
@@ -1851,9 +1851,9 @@
         "Nazionale"
       ],
       "tags": [
+        "disabilità",
         "digitale",
-        "inclusione sociale",
-        "disabilità"
+        "inclusione sociale"
       ],
       "candidati": [
         {
@@ -4717,8 +4717,8 @@
         "Nazionale"
       ],
       "tags": [
-        "digitale",
-        "inclusione sociale"
+        "inclusione sociale",
+        "digitale"
       ],
       "candidati": [
         {
@@ -5613,8 +5613,8 @@
         "Nazionale/da verificare"
       ],
       "tags": [
-        "giovani",
         "premi",
+        "giovani",
         "lavoro"
       ],
       "candidati": [

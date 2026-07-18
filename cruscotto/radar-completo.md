@@ -1,5 +1,5 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 18/07/2026 00:01
+Generato: 18/07/2026 09:20
 
 **45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **180** esclusi  |  **154** ETS unici coinvolti
 
@@ -72,7 +72,7 @@ Generato: 18/07/2026 00:01
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: minori, sport, inclusione sociale, educazione
+- **Tag**: sport, educazione, inclusione sociale, minori
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -316,7 +316,7 @@ Generato: 18/07/2026 00:01
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
-- **Tag**: digitale, inclusione sociale, disabilità
+- **Tag**: disabilità, digitale, inclusione sociale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €3,485
@@ -352,7 +352,7 @@ Generato: 18/07/2026 00:01
 - **Ente**: Commissione Europea &#8211; DG del Mercato interno, dell’industria, dell’imprenditoria e delle PMI
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
-- **Tag**: giovani, premi, lavoro
+- **Tag**: premi, giovani, lavoro
 
   · **alta** CENTRO INFORMAZIONE DOCUMENTAZIONE E INIZIATIVA PE — PERUGIA (PG) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €1,819
   · **alta** COMUNITA' DEI GIOVANI SOCIETA' COOPERATIVA SOCIALE — VERONA (VR) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €1,673
@@ -694,7 +694,7 @@ Generato: 18/07/2026 00:01
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: digitale, arte, premi, cultura, ambiente
+- **Tag**: cultura, arte, premi, digitale, ambiente
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale — 5x1000: €1,010
   · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN — SAN LAZZARO DI SAVENA (BO) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,259
@@ -730,7 +730,7 @@ Generato: 18/07/2026 00:01
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: digitale, inclusione sociale
+- **Tag**: inclusione sociale, digitale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €3,485

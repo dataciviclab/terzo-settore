@@ -187,6 +187,8 @@ def arricchisci_contatti(candidati, use_enrich=False):
     for cand in candidati:
         cf = cand["ets_cf"]
         info = contatti_da_unified(cf)
+        cand["ets_comune"] = info.get("comune", cand.get("comune", ""))
+        cand["ets_provincia"] = info.get("provincia", cand.get("provincia", ""))
         cand["ets_email"] = info.get("email", "")
         cand["ets_sito"] = info.get("sito", "")
         cand["ets_telefono"] = info.get("telefono", "")
