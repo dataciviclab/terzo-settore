@@ -81,11 +81,11 @@ MATCH_ETS_SQL = """
              WHEN {sez_match_bool} THEN 'sezione'
              ELSE 'match'
            END AS motivo_match,
-           (
-              -- Match tematico (0-60) — PESO PRINCIPALE
-              CASE WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 60 ELSE 0 END
-              -- Match per sezione (0-10) — gate, non differenziatore
-              + CASE WHEN {sez_match_bool} THEN 10 ELSE 0 END
+            (
+              -- Match tematico (0-10) — bonus leggero per nome descrittivo
+              CASE WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 10 ELSE 0 END
+              -- Match per sezione (0-25) — criterio principale
+              + CASE WHEN {sez_match_bool} THEN 25 ELSE 0 END
               -- Sport bonus (0-15)
               + CASE WHEN flag_sport_denom AND {sport_bonus} THEN 15 ELSE 0 END
               {section_bonus}
@@ -380,14 +380,14 @@ def match_bando(con, pattern, tags, limit=10, territorio=None):
     sections = get_sections_from_tags(tags)
     sezioni_quote = ", ".join(f"'{s}'" for s in sections) if sections else "''"
 
-    # — Gate condizione: denominazione matcha O sport fallback O sezione pertinente —
+    # — Gate condizione: sezione pertinente O sport fallback —
     sport_fallback = is_sport_bando(tags)
-    match_condition = f"(regexp_matches(lower(denominazione), '{pattern}')"
+    parts = []
     if sport_fallback:
-        match_condition += " OR flag_sport_denom"
+        parts.append("flag_sport_denom")
     if sections:
-        match_condition += f" OR sezione IN ({sezioni_quote})"
-    match_condition += ")"
+        parts.append(f"sezione IN ({sezioni_quote})")
+    match_condition = " OR ".join(parts) if parts else "1=0"
 
     # — Sezione match bool (per CASE e score) —
     sez_match_bool = "FALSE"
