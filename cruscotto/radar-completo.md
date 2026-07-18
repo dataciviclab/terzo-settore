@@ -1,7 +1,7 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 18/07/2026 11:38
+Generato: 18/07/2026 14:00
 
-**45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **180** esclusi  |  **150** ETS unici coinvolti
+**45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **181** esclusi  |  **151** ETS unici coinvolti
 
 ---
 
@@ -72,7 +72,7 @@ Generato: 18/07/2026 11:38
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: inclusione sociale, educazione, sport, minori
+- **Tag**: minori, inclusione sociale, educazione, sport
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -132,7 +132,7 @@ Generato: 18/07/2026 11:38
 - **Ente**: Innovation Norway
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: salute, donne
+- **Tag**: donne, salute
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -189,7 +189,7 @@ Generato: 18/07/2026 11:38
 - **Scadenza**: 31 agosto 2026 (44 giorni)
 - **Ente**: AICS
 - **Stato**: attivo
-- **Territorio**: Europa, Libia, Locale, Nazionale
+- **Territorio**: Libia, Locale, Nazionale
 - **Tag**: salute, ambiente
 
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
@@ -257,24 +257,6 @@ Generato: 18/07/2026 11:38
   · **medio-alta** CIRCOLO MCL - UN PAESE PER GIOVANI - APS — TERMOLI (CB) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €3,728
   · **medio-alta** juppiter aps giovanile — CAPRANICA (VT) — score 107, match tema + sezione; capacità medio-alta; APS; appalti €1,277,501 — 5x1000: -
 
-### Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
-- **Scadenza**: 15 settembre 2026 (59 giorni)
-- **Ente**: Commissione Europea
-- **Stato**: attivo
-- **Territorio**: Locale, Nazionale
-- **Tag**: ambiente
-
-  · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
-  · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €262,688
-  · **medio-alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OG — VIADANA (MN) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569 — 5x1000: €27,404
-  · **media** U.N.A. (UOMO - NATURA - ANIMALI) ODV ETS — GENOVA (GE) — score 117, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €3,660,848 — 5x1000: €118,401
-  · **medio-alta** CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOL — CASTELFIDARDO (AN) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,144,621 — 5x1000: €36,061
-  · **medio-alta** P.A. CROCE VERDE CASTELNOVO NE' MONTI - VETTO ODV — CASTELNOVO NE' MONTI (RE) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152 — 5x1000: €32,928
-  · **medio-alta** CROCE VERDE BOSISIO PARINI ODV — BOSISIO PARINI (LC) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734 — 5x1000: €27,737
-  · **medio-alta** CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZINUOV — ORZINUOVI (BS) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600 — 5x1000: €25,186
-  · **medio-alta** CROCE VERDE TORINO ODV — TORINO (TO) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727 — 5x1000: €21,818
-  · **medio-alta** PUBBLICA ASSISTENZA CROCE VERDE FERMO -ORGANIZZAZI — FERMO (FM) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,184,700 — 5x1000: €20,214
-
 ### Premio Olivetti per l&#8217;accessibilità culturale
 - **Scadenza**: 15 settembre 2026 alle ore 12:00 (59 giorni)
 - **Ente**: Ministero della  Cultura
@@ -292,6 +274,24 @@ Generato: 18/07/2026 11:38
   · **alta** "SOL.CO. CAMUNIA - SOLIDARIETA' E COOPERAZIONE - S — DARFO BOARIO TERME (BS) — score 123, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €13,940,264 — 5x1000: -
   · **alta** CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARI — FIRENZE (FI) — score 123, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093 — 5x1000: -
   · **medio-alta** ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI  — MESSINA (ME) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €6,812,384 — 5x1000: €115,522
+
+### Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
+- **Scadenza**: 15 settembre 2026 (59 giorni)
+- **Ente**: Commissione Europea
+- **Stato**: attivo
+- **Territorio**: Locale, Nazionale
+- **Tag**: ambiente
+
+  · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
+  · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti pubblici — 5x1000: €262,688
+  · **medio-alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OG — VIADANA (MN) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569 — 5x1000: €27,404
+  · **media** U.N.A. (UOMO - NATURA - ANIMALI) ODV ETS — GENOVA (GE) — score 117, match tema + sezione; capacità media; 5x1000 >100k; ODV; appalti €3,660,848 — 5x1000: €118,401
+  · **medio-alta** CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOL — CASTELFIDARDO (AN) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,144,621 — 5x1000: €36,061
+  · **medio-alta** P.A. CROCE VERDE CASTELNOVO NE' MONTI - VETTO ODV — CASTELNOVO NE' MONTI (RE) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,265,152 — 5x1000: €32,928
+  · **medio-alta** CROCE VERDE BOSISIO PARINI ODV — BOSISIO PARINI (LC) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,305,734 — 5x1000: €27,737
+  · **medio-alta** CROCE VERDE VOLONTARI PUBBLICA ASSISTENZA ORZINUOV — ORZINUOVI (BS) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,219,600 — 5x1000: €25,186
+  · **medio-alta** CROCE VERDE TORINO ODV — TORINO (TO) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €4,119,727 — 5x1000: €21,818
+  · **medio-alta** PUBBLICA ASSISTENZA CROCE VERDE FERMO -ORGANIZZAZI — FERMO (FM) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €1,184,700 — 5x1000: €20,214
 
 ### Bando &#8220;Zenit&#8221;: competenze digitali delle persone con disabilità
 - **Scadenza**: 18 settembre 2026 alle ore 11.00 (62 giorni)
@@ -315,8 +315,8 @@ Generato: 18/07/2026 11:38
 - **Scadenza**: 18 settembre 2026 (62 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
-- **Territorio**: Locale, Nazionale
-- **Tag**: disabilità, inclusione sociale, digitale
+- **Territorio**: Nazionale
+- **Tag**: inclusione sociale, digitale, disabilità
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
@@ -441,7 +441,7 @@ Generato: 18/07/2026 11:38
 - **Scadenza**: 30 settembre 2026 (74 giorni)
 - **Ente**: Fondazione con il Sud
 - **Stato**: attivo
-- **Territorio**: Basilicata, Calabria, Campania, Mezzogiorno, Molise, Nazionale, Puglia, Sardegna, Sicilia
+- **Territorio**: Basilicata, Calabria, Campania, Europa, Mezzogiorno, Molise, Nazionale, Puglia, Sardegna, Sicilia
 - **Tag**: volontariato
 
   · **medio-alta** AMOPUGLIA - ORGANIZZAZIONE DI VOLONTARIATO - ENTE  — BARI (BA) — score 127, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,277,767 — 5x1000: €145,510
@@ -477,7 +477,7 @@ Generato: 18/07/2026 11:38
 - **Scadenza**: 01 ottobre 2026 (75 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
-- **Territorio**: Nazionale
+- **Territorio**: Europa, Nazionale
 - **Tag**: donne
 
   · **alta** ARCHIVIA - ARCHIVI, BIBLIOTECHE, CENTRI DI DOCUMEN — ROMA (RM) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €1,640
@@ -621,7 +621,7 @@ Generato: 18/07/2026 11:38
 - **Scadenza**: 29 ottobre 2026 (103 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
-- **Territorio**: Europa, Mediterraneo, Nazionale
+- **Territorio**: Mediterraneo, Nazionale
 - **Tag**: ambiente
 
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
@@ -639,7 +639,7 @@ Generato: 18/07/2026 11:38
 - **Scadenza**: 03 novembre 2026 (108 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
-- **Territorio**: Europa, Nazionale
+- **Territorio**: Nazionale
 - **Tag**: minori, donne
 
   · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €581
@@ -694,7 +694,7 @@ Generato: 18/07/2026 11:38
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: cultura, ambiente, digitale, arte, premi
+- **Tag**: arte, premi, digitale, ambiente, cultura
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici — 5x1000: €1,010
   · **alta** OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, C — AREZZO (AR) — score 128, match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852 — 5x1000: -
@@ -706,24 +706,6 @@ Generato: 18/07/2026 11:38
   · **alta** TEATRO MAGRO COOPERATIVA SOCIALE O.N.L.U.S. — MANTOVA (MN) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici — 5x1000: €1,108
   · **alta** ASSOCIAZIONE CULTURALE EUFEMIA APS — TORINO (TO) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €499
   · **alta** FERRARA LA CITTA' DEL CINEMA APS — FERRARA (FE) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €346
-
-### Compagnia di San Paolo: contributi per lo sviluppo organizzativo del Terzo Setto
-- **Scadenza**: 31 dicembre 2026 (166 giorni)
-- **Ente**: Fondazione Compagnia di San Paolo
-- **Stato**: attivo
-- **Territorio**: Nazionale, Piemonte
-- **Tag**: cultura
-
-  · **alta** ASSOCIAZIONE CULTURALE EUFEMIA APS — TORINO (TO) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €499
-  · **medio-alta** ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S. — CARMAGNOLA (TO) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti €165,436,108 — 5x1000: €1,580
-  · **medio-alta** ASSOCIAZIONE FILARMONICA CASTELLAMONTE - SCUOLA DI — CASTELLAMONTE (TO) — score 110, match tema + sezione; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €11,756
-  · **medio-alta** ASSOCIAZIONE RETE ITALIANA DI CULTURA POPOLARE APS — TORINO (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €806
-  · **medio-alta** TEATRO DELLA CADUTA APS — TORINO (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €741
-  · **medio-alta** ASSOCIAZIONE CULTURALE LARIBALTA — NOVARA (NO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €632
-  · **medio-alta** MULINO AD ARTE APS — CUMIANA (TO) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €143
-  · **medio-alta** ASSOCIAZIONE IPPOCRATE LA CULTURA DELLA SALUTE APS — TORINO (TO) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €8,422
-  · **medio-alta** ASSOCIAZIONE MUSICA INSIEME APS — GRUGLIASCO (TO) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €3,977
-  · **medio-alta** TEATRO SOCIALE OMEGNA SOLIDALE APS ETS — OMEGNA (VB) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €3,165
 
 ### Cofinanziamento per programmi su competenze digitali
 - **Scadenza**: 31 dicembre 2026 (166 giorni)
@@ -783,7 +765,7 @@ Generato: 18/07/2026 11:38
 - **Scadenza**: 30 settembre 2027 (439 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
-- **Territorio**: Europa, Locale, Nazionale
+- **Territorio**: Europa, Nazionale
 - **Tag**: ricerca
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 133, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
@@ -815,6 +797,24 @@ Generato: 18/07/2026 11:38
   · **alta** CO&SO -CONSORZIO PER LA COOPERAZIONE E LA SOLIDARI — FIRENZE (FI) — score 123, match tema + sezione; capacità alta; grant UE; Impresa Sociale; appalti €1,144,596,093 — 5x1000: -
   · **medio-alta** ASSOCIAZIONE DI SOLIDARIETA' SOCIALE ROGAZIONISTI  — MESSINA (ME) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €6,812,384 — 5x1000: €115,522
 
+### &#8220;Cultura Cresce&#8221;: contributi per lo sviluppo delle imprese culturali
+- **Scadenza**: Bando a sportello. Le domande possono essere presentate a partire dalle ore 12.00 del 10 dicembre 2025, fino a esaurimento delle risorse disponibili. (999 giorni)
+- **Ente**: Ministero della Cultura (gestione Invitalia)
+- **Stato**: sportello
+- **Territorio**: Basilicata, Calabria, Campania, Molise, Nazionale, Puglia
+- **Tag**: Cultura, Mezzogiorno, Ministero della Cultura, PN Cultura 2021-2027
+
+  · **medio-alta** ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE P — SALERNO (SA) — score 113, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS; appalti pubblici — 5x1000: €1,917
+  · **medio-alta** ACCADEMIA DI MUSICA LETTERE E ARTI SENOCRITO APS — GERACE (RC) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €1,620
+  · **medio-alta** ASSOCIAZIONE CULTURALE E DI PROMOZIONE SOCIALE FES — ASCEA (SA) — score 110, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €475
+  · **medio-alta** APS AMICI DELLA MUSICA ARCANGELO SPERANZA — TARANTO (TA) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €7,425
+  · **medio-alta** ASSOCIAZIONE MUSICALE GIOACCHINO LIGONZO APS — CONVERSANO (BA) — score 108, match tema + sezione; capacità medio-alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €1,296
+  · **media** ASSOCIAZIONE MUSICALE CULTURALE LE VOCI DELL'ARTE  — BRINDISI (BR) — score 105, match tema + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €38,991
+  · **media** MUSICA D'INCANTO DAVIDE GAETANO D'ACCOLTI- A.P.S. — POLIGNANO A MARE (BA) — score 105, match tema + sezione; capacità media; 5x1000 >10k; APS — 5x1000: €11,232
+  · **medio-alta** ASSOCIAZIONE CULTURALE CROMATICA APS — CAVALLINO (LE) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €3,772
+  · **medio-alta** ARTEM E MUSICAM — BENEVENTO (BN) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €3,242
+  · **medio-alta** MUSICA CONTRO LE MAFIE APS — CORIGLIANO-ROSSANO (CS) — score 105, match tema + sezione; capacità medio-alta; 5x1000 presente; APS — 5x1000: €3,011
+
 ### ZMINA-Resilience: progetti culturali co-creati tra Ucraina e Paesi Europa Creati
 - **Scadenza**: Il bando è organizzato con una procedura a sportello, che prevede più finestre di candidatura nel corso di 16 mesi. (999 giorni)
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
@@ -842,14 +842,13 @@ Generato: 18/07/2026 11:38
 ---
 ## Esclusi dal matching
 
-**notizia/esito**: 5, **scaduto**: 161, **senza data**: 14
+**notizia/esito**: 5, **scaduto**: 162, **senza data**: 14
 
 - **Linee Guida 2025-2026 per le richieste di contributo al Fondo di beneficenza di ** — senza data — scadenza non parsabile
 - **Presentazione di progetti a Enel Cuore: online la nuova piattaforma** — senza data — scadenza non parsabile
 - **Ecco l'elenco dei progetti idonei del Bando AICS 2023** — senza data — scadenza non parsabile
 - **A Grant Everyday** — senza data — scadenza non parsabile
 - **The Peace First Challenge: micro-progetti dei giovani per combattere le ingiusti** — senza data — scadenza non parsabile
-- **Dal MUR 1 milione per quattro progetti congiunti tra università italiane e afric** — senza data — scadenza non parsabile
 - **1463 progetti finanziati dall’Otto per Mille Valdese** — notizia/esito — titolo non operativo
 - **Contributi di Reale Foundation** — senza data — scadenza non parsabile
 - **Internet Freedom Fund** — senza data — scadenza non parsabile
@@ -860,10 +859,11 @@ Generato: 18/07/2026 11:38
 - **Bandi 2026: &#8220;La musica che fa bene ai bambini&#8221;** — senza data — scadenza non parsabile
 - **Diritti e partecipazione dei minori** — scaduto — scaduto
 - **60 nuovi progetti finanziati dal bando "Riprogettiamo il futuro"** — notizia/esito — titolo non operativo
+- **Dal MUR 1 milione per quattro progetti congiunti tra università italiane e afric** — senza data — scadenza non parsabile
+- **Esito del bando 5% Fondo Globale 2024** — notizia/esito — titolo non operativo
 - **Cinque progetti approvati dal bando AICS in Costa d'Avorio** — notizia/esito — titolo non operativo
 - **42 nuovi progetti del bando AICS 2023 con la dotazione aggiuntiva** — senza data — scadenza non parsabile
 - **Esito del bando della Regione Marche** — notizia/esito — titolo non operativo
-- **Esito del bando 5% Fondo Globale 2024** — notizia/esito — titolo non operativo
 
 ---
-_226 bandi processati, 45 match trovati, 1 gap operativi, 180 esclusi._
+_227 bandi processati, 45 match trovati, 1 gap operativi, 181 esclusi._

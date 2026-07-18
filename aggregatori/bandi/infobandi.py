@@ -26,6 +26,66 @@ RSS_URL = "https://infobandi.csvnet.it/feed/"
 HEADERS = {"User-Agent": "terzo-settore-intelligence/0.1 (+https://github.com/dataciviclab)"}
 
 
+MESI_IT = {
+    "gennaio": "01", "febbraio": "02", "marzo": "03", "aprile": "04",
+    "maggio": "05", "giugno": "06", "luglio": "07", "agosto": "08",
+    "settembre": "09", "ottobre": "10", "novembre": "11", "dicembre": "12",
+}
+
+
+def _normalizza_scadenza(scadenza: str) -> str | None:
+    """Normalizza una scadenza in formato italiano in YYYY-MM-DD."""
+    if not scadenza:
+        return None
+    # Pulisce: rimuove "alle ore ...", "(con proroga)", ecc.
+    s = re.sub(r"\s+alle\s+ore\s+[\d:.]+", "", scadenza)
+    s = re.sub(r"\s*\([^)]*\)\s*", " ", s)
+    s = re.sub(r"\s+ore\s+[\d:.]+", "", s)
+    s = s.strip()
+    # Prova formati standard
+    for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y"):
+        try:
+            return datetime.strptime(s, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    # Formato italiano "7 settembre 2026"
+    m = re.match(r"(\d{1,2})\s+([a-z]+)\s+(\d{4})", s, re.IGNORECASE)
+    if m:
+        giorno, mese, anno = m.group(1), m.group(2).lower(), m.group(3)
+        if mese in MESI_IT:
+            return f"{anno}-{MESI_IT[mese]}-{int(giorno):02d}"
+    return None
+
+
+def _gg_rimasti(scadenza: str, oggi: datetime | None = None) -> int | None:
+    """Giorni fino alla scadenza (None se non parsabile)."""
+    norm = _normalizza_scadenza(scadenza)
+    if not norm:
+        return None
+    oggi = oggi or datetime.now()
+    try:
+        scad = datetime.strptime(norm, "%Y-%m-%d")
+        return (scad - oggi).days
+    except ValueError:
+        return None
+
+
+def fmt_euro(valore: float | int | str | None) -> str:
+    """Formatta un valore in euro leggibile."""
+    if valore is None:
+        return "N/D"
+    try:
+        v = float(valore)
+    except (ValueError, TypeError):
+        return str(valore)
+    if v >= 1_000_000:
+        return f"€{v / 1_000_000:,.2f}M".replace(",", ".")
+    elif v >= 1_000:
+        return f"€{v:,.0f}".replace(",", ".")
+    else:
+        return f"€{v:.2f}"
+
+
 def _decode(body: bytes) -> dict | list:
     return json.loads(body.decode("utf-8-sig"))
 
@@ -144,9 +204,11 @@ def _campo(html: str, label: str) -> str | None:
 if __name__ == "__main__":
     bandi = fetch_bandi(force=True)
     print(f"Totale bandi: {len(bandi)}")
-    in_scadenza = bandi_in_scadenza(bandi, 90)
+    # Calcola in scadenza
+    oggi = datetime.now()
+    in_scadenza = [b for b in bandi if b.get("scadenza") and _gg_rimasti(b["scadenza"], oggi) is not None and _gg_rimasti(b["scadenza"], oggi) <= 90]
     print(f"In scadenza (90gg): {len(in_scadenza)}")
-    for b in in_scadenza[:5]:
+    for b in sorted(in_scadenza, key=lambda x: x.get("scadenza", ""))[:5]:
+        budget = fmt_euro(b.get("budget")) if b.get("budget") else "N/D"
         print(f"  · {b['scadenza']} | {b['titolo'][:60]}")
-        budget = b.get('budget') or '?'
-    print(f"    {b.get('ente_erogatore', '?')} — {budget[:50]}")
+        print(f"    {b.get('ente_erogatore', '?')} — {budget}")

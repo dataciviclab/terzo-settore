@@ -34,7 +34,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Scadenza**: 03 agosto 2026 (16 giorni)
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: inclusione sociale, educazione, sport, minori
+- **Tag**: minori, inclusione sociale, educazione, sport
 
   · **medio-alta** Associazione sportiva dilettantistica Polisportiva Ricc — RICCIONE (RN) — score 132, match; 5x1000 presente; APS — 5x1000: €919
 
@@ -61,7 +61,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Scadenza**: 17 agosto 2026 (30 giorni)
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: salute, donne
+- **Tag**: donne, salute
 
   · **medio-alta** ASSOCIAZIONE SALUTE DONNA- ODV  — MILANO (MI) — score 115, match; 5x1000 >10k; ODV — 5x1000: €26,678
 
@@ -87,7 +87,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Ente**: AICS
 - **Scadenza**: 31 agosto 2026 (44 giorni)
 - **Stato**: attivo
-- **Territorio**: Europa, Libia, Locale, Nazionale
+- **Territorio**: Libia, Locale, Nazionale
 - **Tag**: salute, ambiente
 
   · **medio-alta** CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOLONTAR — CASTELFIDARDO (AN) — score 117, match; 5x1000 >10k; ODV — 5x1000: €36,061
@@ -119,15 +119,6 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 
   · **medio-alta** CENTRO GIOVANILE DON GIUSEPPE PUGLISI APS — PALERMO (PA) — score 110, match; 5x1000 presente; APS — 5x1000: €4,647
 
-## Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
-- **Ente**: Commissione Europea
-- **Scadenza**: 15 settembre 2026 (59 giorni)
-- **Stato**: attivo
-- **Territorio**: Locale, Nazionale
-- **Tag**: ambiente
-
-  · **medio-alta** CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOLONTAR — CASTELFIDARDO (AN) — score 117, match; 5x1000 >10k; ODV — 5x1000: €36,061
-
 ## Premio Olivetti per l&#8217;accessibilità culturale
 - **Ente**: Ministero della  Cultura
 - **Scadenza**: 15 settembre 2026 alle ore 12:00 (59 giorni)
@@ -136,6 +127,15 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Tag**: Cultura, Inclusione sociale, premi nazionali
 
   · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGL — SAN LAZZARO DI SAVENA (BO) — score 123, match; 5x1000 presente; Impresa Sociale — 5x1000: €9,259
+
+## Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
+- **Ente**: Commissione Europea
+- **Scadenza**: 15 settembre 2026 (59 giorni)
+- **Stato**: attivo
+- **Territorio**: Locale, Nazionale
+- **Tag**: ambiente
+
+  · **medio-alta** CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOLONTAR — CASTELFIDARDO (AN) — score 117, match; 5x1000 >10k; ODV — 5x1000: €36,061
 
 ---
 ## ⚠️ Gap territoriali (appalti ANAC + ETS + contesto sociale)

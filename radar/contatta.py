@@ -95,11 +95,10 @@ def cerca_google_places(denominazione, comune):
 # ── Contatti da unified_ets (sempre disponibili) ─────────────────────
 
 def contatti_da_unified(cf):
-    """Recupera contatti da unified_ets per un CF."""
+    """Recupera contatti da unified_ets per un CF (solo colonne esistenti)."""
     con = duckdb.connect()
     r = con.sql(f"""
-        SELECT oc_email, oc_sito, oc_telefono,
-               denominazione, comune, provincia, sezione,
+        SELECT denominazione, comune, provincia, sezione,
                capacita_progettuale, cinque_2025,
                ha_grant_ue, ha_pnrr
         FROM '{ETS_FILE.as_posix()}'
@@ -119,9 +118,9 @@ def contatti_da_unified(cf):
         "cinque_2025": None if (isinstance(row.get("cinque_2025"), float) and math.isnan(row["cinque_2025"])) else row.get("cinque_2025"),
         "ha_grant_ue": bool(row.get("ha_grant_ue")) if not (isinstance(row.get("ha_grant_ue"), float) and math.isnan(row["ha_grant_ue"])) else False,
         "ha_pnrr": bool(row.get("ha_pnrr")) if not (isinstance(row.get("ha_pnrr"), float) and math.isnan(row["ha_pnrr"])) else False,
-        "email": row.get("oc_email") if row.get("oc_email") and str(row.get("oc_email")) != "nan" else "",
-        "sito": row.get("oc_sito") if row.get("oc_sito") and str(row.get("oc_sito")) != "nan" else "",
-        "telefono": row.get("oc_telefono") if row.get("oc_telefono") and str(row.get("oc_telefono")) != "nan" else "",
+        "email": "",
+        "sito": "",
+        "telefono": "",
     }
 
 
