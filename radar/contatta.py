@@ -208,6 +208,18 @@ def arricchisci_contatti(candidati, use_enrich=False):
         ha_contatti = bool(cand["ets_email"] or cand["ets_telefono"] or cand["ets_sito"])
         cand["ets_contattabile"] = "SI" if ha_contatti else "NO"
 
+        # Messaggio personalizzato per chi telefona
+        bando_nome = cand.get("bando", "")
+        budget = cand.get("bando_budget", "")
+        motivo = cand.get("ets_motivo", "")
+        budget_txt = f" con budget {fmt_euro(budget)}" if budget else ""
+        cand["ets_messaggio"] = (
+            f"Buongiorno, sono {cand.get('ets_denominazione', '...')[:40]}? "
+            f"La contatto per il bando '{bando_nome[:60]}'{budget_txt}. "
+            f"Il nostro sistema la segnala come candidato ideale ({motivo[:80]}). "
+            f"Ha 5 minuti per parlarne?"
+        )
+
         arricchiti.append(cand)
     return arricchiti
 
