@@ -142,6 +142,7 @@ def genera_report(scan, con, filtro_territorio=None, giorni=60):
         lines.append(f"## {r['titolo'][:80]}")
         lines.append(f"- **Ente**: {r['ente'] or '?'}")
         lines.append(f"- **Scadenza**: {r['scadenza']} ({r['gg']} giorni)")
+        lines.append(f"- **Link**: {r.get('url', '?')}")
         lines.append(f"- **Stato**: {r['status']}")
         lines.append(f"- **Territorio**: {', '.join(r['territorio'])}")
         lines.append(f"- **Tag**: {fmt_tags(r['tags'])}")
@@ -164,13 +165,14 @@ def genera_report(scan, con, filtro_territorio=None, giorni=60):
         lines.append("---")
         lines.append("## 💰 TOP OPPORTUNITÀ (bandi con budget)")
         lines.append("")
-        lines.append(f"| Budget | GG | Ente | Bando |")
-        lines.append(f"|--------|----|------|-------|")
+        lines.append(f"| Budget | GG | Ente | Bando | Link |")
+        lines.append(f"|--------|----|------|-------|------|")
         for r in sorted(con_budget, key=lambda x: -(x.get("budget") or 0)):
             budget = fmt_euro(r.get("budget"))
             gg = r.get("gg", 999)
             urg = " 🔴" if gg <= 30 else (" 🟡" if gg <= 60 else "")
-            lines.append(f"| {budget}{urg} | {gg}gg | {fmt_text(r['ente'], '?')[:30]} | {r['titolo'][:50]} |")
+            url_short = r.get('url', '?')[:50]
+            lines.append(f"| {budget}{urg} | {gg}gg | {fmt_text(r['ente'], '?')[:30]} | {r['titolo'][:40]} | [link]({url_short}) |")
         lines.append("")
 
     lines.append("---")

@@ -1,10 +1,21 @@
 # 📡 Radar bandi — 18/07/2026
 
-Bandi operativi in scadenza nei prossimi 60gg: **15**
+Bandi operativi in scadenza nei prossimi 60gg: **16**
+
+## Al via l'edizione 2026 di "Riprogettiamo il futuro"
+- **Ente**: Fondazione Cariplo
+- **Scadenza**: 23 luglio 2026 (5 giorni)
+- **Link**: https://www.info-cooperazione.it/2026/4/al-via-ledizione-2026-di-riprogettiamo-il-futuro
+- **Stato**: attivo
+- **Territorio**: Europa, Nazionale
+- **Tag**: arte, ambiente, cultura
+
+  · **alta** FERRARA LA CITTA' DEL CINEMA APS — FERRARA (FE) — score 121, match; 5x1000 presente; APS — 5x1000: €346
 
 ## Bando della Commissione europea per rafforzare il ruolo delle parti sociali
 - **Ente**: Commissione Europea  &#8211; DG Occupazione, Affari sociali e Inclusione
 - **Scadenza**: 23 luglio 2026 (5 giorni)
+- **Link**: https://infobandi.csvnet.it/bando-della-commissione-europea-per-rafforzare-il-ruolo-delle-parti-sociali/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
 - **Tag**: lavoro
@@ -14,6 +25,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Bando RIZA per progetti di donne con background migratorio &#8211; 2^ ciclo
 - **Ente**: European Network of Migrant Women (ENoMW) in partenariato con Fondazione Pangea (Italia), Monika – Multicultural Women’s Association (Finlandia), e Melissa Network (Grecia)
 - **Scadenza**: 31 luglio 2026 (secondo ciclo di finanziamento) (13 giorni)
+- **Link**: https://infobandi.csvnet.it/bando-riza-per-progetti-di-donne-con-background-migratorio-2-ciclo/
 - **Stato**: attivo
 - **Territorio**: Europa
 - **Tag**: Donne, Inclusione sociale, Migranti, Programma CERV
@@ -23,6 +35,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Bando &#8220;Voci senza voce&#8221;
 - **Ente**: Fondazione Armonia e Rispetto ETS
 - **Scadenza**: 31 luglio 2026 (13 giorni)
+- **Link**: https://infobandi.csvnet.it/bando-voci-senza-voce/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Ambiente, Animali, Salute mentale, Cooperazione internazionale
@@ -32,15 +45,17 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Bando UEFA Foundation for Children 2026
 - **Ente**: UEFA Foundation
 - **Scadenza**: 03 agosto 2026 (16 giorni)
+- **Link**: https://www.info-cooperazione.it/2026/7/bando-uefa-foundation-for-children-2026
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: inclusione sociale, minori, sport, educazione
+- **Tag**: sport, educazione, inclusione sociale, minori
 
   · **medio-alta** Associazione sportiva dilettantistica Polisportiva Ricc — RICCIONE (RN) — score 132, match; 5x1000 presente; APS — 5x1000: €919
 
 ## Fondazione UEFA per i bambini &#8211; bando 2026
 - **Ente**: UEFA Foundation for children
 - **Scadenza**: 3 agosto 2026 (16 giorni)
+- **Link**: https://infobandi.csvnet.it/fondazione-uefa-per-i-bambini-bando-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Minori, Salute, Sport, Adolescenti, Cooperazione internazionale, UEFA Foundation
@@ -50,6 +65,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Cultural Horizons &#8211; prodotti culturali innovativi tra UE e Ucraina
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura tramite Ukrainian Cultural Foundation
 - **Scadenza**: 14 agosto 2026 (27 giorni)
+- **Link**: https://infobandi.csvnet.it/cultural-horizons-prodotti-culturali-innovativi-tra-ue-e-ucraina/
 - **Stato**: attivo
 - **Territorio**: Ucraina
 - **Tag**: migranti, cultura
@@ -59,6 +75,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Dalla Norvegia 10 milioni per l'innovazione umanitaria
 - **Ente**: Innovation Norway
 - **Scadenza**: 17 agosto 2026 (30 giorni)
+- **Link**: https://www.info-cooperazione.it/2026/5/dalla-norvegia-10-milioni-per-linnovazione-umanitaria
 - **Stato**: attivo
 - **Territorio**: Nazionale
 - **Tag**: ricerca
@@ -68,6 +85,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Avviso &#8220;Vita &#038; Opportunità&#8221;
 - **Ente**: Dipartimento per le politiche in favore delle persone con disabilità &#8211; Presidenza del Consiglio dei Ministri
 - **Scadenza**: 29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi) (42 giorni)
+- **Link**: https://infobandi.csvnet.it/avviso-vita-opportunita/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Minori, Disabilità, Inclusione sociale, Lavoro, Agricoltura sociale
@@ -77,6 +95,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Contributi annuali della Banca d’Italia – 2^ scadenza 2026
 - **Ente**: Banca d’Italia
 - **Scadenza**: 31 agosto 2026 (domande a partire dal 1° luglio) (44 giorni)
+- **Link**: https://infobandi.csvnet.it/contributi-annuali-della-banca-ditalia-2-scadenza-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale
 - **Tag**: Minori, Cultura, Giovani, Inclusione sociale, Salute, Anziani, Ricerca, Scuola, Banca d'Italia, Contributi annuali
@@ -86,8 +105,9 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Sostegno alle municipalità in Libia
 - **Ente**: AICS
 - **Scadenza**: 31 agosto 2026 (44 giorni)
+- **Link**: https://www.info-cooperazione.it/2026/6/sostegno-alle-municipalita-in-libia
 - **Stato**: attivo
-- **Territorio**: Libia, Locale, Nazionale
+- **Territorio**: Europa, Libia, Locale, Nazionale
 - **Tag**: salute, ambiente
 
   · **medio-alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-P — VIADANA (MN) — score 120, match; 5x1000 >10k; ODV — 5x1000: €27,404
@@ -95,8 +115,9 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Grant per rafforzare democrazia e società civile nei Balcani
 - **Ente**: European Fund for the Balkans
 - **Scadenza**: 03 settembre 2026 (47 giorni)
+- **Link**: https://www.info-cooperazione.it/2026/3/grant-per-rafforzare-democrazia-e-societa-civile-nei-balcani
 - **Stato**: attivo
-- **Territorio**: Nazionale, Regionale
+- **Territorio**: Europa, Nazionale, Regionale
 - **Tag**: ambiente, lavoro
 
   · **medio-alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-P — VIADANA (MN) — score 120, match; 5x1000 >10k; ODV — 5x1000: €27,404
@@ -104,6 +125,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## Bando BPER 2026: progetti di sport inclusivo da finanziare in crowdfunding
 - **Ente**: BPER Banca
 - **Scadenza**: 7 settembre 2026 alle ore 12:00 (51 giorni)
+- **Link**: https://infobandi.csvnet.it/bando-bper-2026-progetti-di-sport-inclusivo-da-finanziare-in-crowdfunding/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Minori, Disabilità, Giovani, Inclusione sociale, Sport, Adolescenti, BPER Banca, crowdfunding
@@ -113,39 +135,43 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 ## 2° edizione Premio GenP &#8211; Giovani che partecipano
 - **Ente**: Acri &#8211; Associazione di Fondazioni e di Casse di Risparmio
 - **Scadenza**: 14 settembre 2026 (58 giorni)
+- **Link**: https://infobandi.csvnet.it/2-edizione-premio-genp-giovani-che-partecipano/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Giovani, premi nazionali, ACRI
 
   · **medio-alta** FONDAZIONE ETS CENTRO ITALIANO DI SOLIDARIETA' CE.I.S.  — LUCCA (LU) — score 115, match; 5x1000 presente — 5x1000: €1,887
 
-## Premio Olivetti per l&#8217;accessibilità culturale
-- **Ente**: Ministero della  Cultura
-- **Scadenza**: 15 settembre 2026 alle ore 12:00 (59 giorni)
-- **Stato**: attivo
-- **Territorio**: Nazionale/da verificare
-- **Tag**: Cultura, Inclusione sociale, premi nazionali
-
-  · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGL — SAN LAZZARO DI SAVENA (BO) — score 123, match; 5x1000 presente; Impresa Sociale — 5x1000: €9,259
-
 ## Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
 - **Ente**: Commissione Europea
 - **Scadenza**: 15 settembre 2026 (59 giorni)
+- **Link**: https://www.info-cooperazione.it/2026/5/bando-cerv-per-lattuazione-della-carta-dei-diritti-fondamentali-ue
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
 - **Tag**: ambiente
 
   · **medio-alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OGLIO-P — VIADANA (MN) — score 120, match; 5x1000 >10k; ODV — 5x1000: €27,404
 
+## Premio Olivetti per l&#8217;accessibilità culturale
+- **Ente**: Ministero della  Cultura
+- **Scadenza**: 15 settembre 2026 alle ore 12:00 (59 giorni)
+- **Link**: https://infobandi.csvnet.it/premio-olivetti-per-laccessibilita-culturale/
+- **Stato**: attivo
+- **Territorio**: Nazionale/da verificare
+- **Tag**: Cultura, Inclusione sociale, premi nazionali
+
+  · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGL — SAN LAZZARO DI SAVENA (BO) — score 123, match; 5x1000 presente; Impresa Sociale — 5x1000: €9,259
+
 
 ---
 ## 💰 TOP OPPORTUNITÀ (bandi con budget)
 
-| Budget | GG | Ente | Bando |
-|--------|----|------|-------|
-| €1,020,000 🔴 | 13gg | European Network of Migrant Wo | Bando RIZA per progetti di donne con background mi |
-| €50,000 🟡 | 51gg | BPER Banca | Bando BPER 2026: progetti di sport inclusivo da fi |
-| €10,000 🟡 | 58gg | Acri &#8211; Associazione di F | 2° edizione Premio GenP &#8211; Giovani che partec |
+| Budget | GG | Ente | Bando | Link |
+|--------|----|------|-------|------|
+| €2,250,000 🔴 | 5gg | Fondazione Cariplo | Al via l'edizione 2026 di "Riprogettiamo | [link](https://www.info-cooperazione.it/2026/4/al-via-led) |
+| €1,020,000 🔴 | 13gg | European Network of Migrant Wo | Bando RIZA per progetti di donne con bac | [link](https://infobandi.csvnet.it/bando-riza-per-progett) |
+| €50,000 🟡 | 51gg | BPER Banca | Bando BPER 2026: progetti di sport inclu | [link](https://infobandi.csvnet.it/bando-bper-2026-proget) |
+| €10,000 🟡 | 58gg | Acri &#8211; Associazione di F | 2° edizione Premio GenP &#8211; Giovani  | [link](https://infobandi.csvnet.it/2-edizione-premio-genp) |
 
 ---
 ## ⚠️ Gap territoriali (appalti ANAC + ETS + contesto sociale)
@@ -163,4 +189,4 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 | Catania | CT | 38 app. €22.9M | 285 | 20.5% | €11,537 |  |
 | Viareggio | LU | 35 app. €0.9M | 46 | 3.5% | €17,521 |  |
 
-_Vista latest da scan condiviso: 45 bandi operativi matchati. Dati ANAC: appalti riservati (L.381/1991, D.Lgs 117/2017) 2023-2025._
+_Vista latest da scan condiviso: 46 bandi operativi matchati. Dati ANAC: appalti riservati (L.381/1991, D.Lgs 117/2017) 2023-2025._
