@@ -164,24 +164,53 @@ def report(territorio: str, comune: str = None):
             scrivi(out, f"  · **{r['capacita_progettuale']}** {r['denominazione'][:50]} — {r['comune']} — 5x1000: {cinque}")
     scrivi(out, "")
 
-    # ── 5. ETS nel comune con contatti ─────────────────────────────
+    # ── 5. ETS nel comune con appalti ANAC ──────────────────────────
     if comune:
-        scrivi(out, "## 5. 📇 ETS con contatti")
+        scrivi(out, "## 5. 📊 ETS con appalti pubblici (ANAC)")
         scrivi(out, "")
-        contatti = con.sql(f"""
-            SELECT denominazione, capacita_progettuale, oc_email, oc_sito, oc_telefono
+        appalti = con.sql(f"""
+            SELECT denominazione, capacita_progettuale, ha_grant_ue, ha_pnrr,
+                   CASE WHEN ha_appalti THEN 'SI' ELSE 'NO' END as ha_appalti,
+                   ROUND(importo_appalti, 0) as importo
             FROM 'data/unified_ets.parquet'
-            WHERE UPPER(comune) = '{comune.upper()}' AND oc_email IS NOT NULL
-            ORDER BY capacita_progettuale
+            WHERE UPPER(comune) = '{comune.upper()}'
+              AND ha_appalti = true
+            ORDER BY importo DESC
+            LIMIT 10
         """).fetchdf()
-        if not contatti.empty:
-            for _, r in contatti.iterrows():
-                email = r['oc_email'] or "-"
-                sito = r['oc_sito'] or "-"
-                scrivi(out, f"  · **{r['denominazione'][:45]}** [{r['capacita_progettuale']}] — {email} — {sito}")
+        if not appalti.empty:
+            for _, r in appalti.iterrows():
+                imp = f"€{float(r['importo']):,.0f}" if r['importo'] and float(r['importo']) > 0 else "-"
+                scrivi(out, f"  · **{r['denominazione'][:45]}** [{r['capacita_progettuale']}] — appalti: {imp}")
         else:
-            scrivi(out, "_Nessun ETS con contatti._")
+            scrivi(out, "_Nessun ETS con appalti pubblici._")
+        scrivi(out, "")
 
+        # Gap: comuni vicini con pochi ETS
+        scrivi(out, "## 6. 📍 Gap nei comuni limitrofi")
+        scrivi(out, "")
+        gap = con.sql(f"""
+            SELECT comune, provincia, ets_tot, ets_matchabili as ets_ok,
+                   appalti_riservati, rd_pct, reddito_procapite,
+                   CASE 
+                     WHEN appalti_riservati >= 5 AND ets_matchabili < 5 THEN '🔴 appalti ma pochi ETS'
+                     WHEN ets_matchabili = 0 AND rd_pct > 10 THEN '🟡 RdC alto, zero ETS'
+                     ELSE NULL
+                   END as segnale
+            FROM 'data/comuni_ets.parquet'
+            WHERE provincia = '{territorio}'
+              AND (appalti_riservati > 0 OR rd_pct > 10)
+              AND comune != '{comune.title()}'
+            ORDER BY appalti_riservati DESC, ets_matchabili ASC
+            LIMIT 5
+        """).fetchdf()
+        if not gap.empty:
+            for _, r in gap.iterrows():
+                s = r['segnale'] or ""
+                scrivi(out, f"  · **{r['comune'][:20]}** ({r['provincia']}) — {int(r['ets_tot'])} ETS, RdC {r['rd_pct']}%, reddito €{int(r['reddito_procapite']):,} {s}")
+        else:
+            scrivi(out, "_Tutti i comuni limitrofi hanno ETS sufficienti._")
+    
     report_path = ROOT / f"cruscotto/segnale-{titolo_territorio.lower()}.md"
     report_path.write_text("\n".join(out), encoding="utf-8")
     print(f"✅ Report: {report_path}")

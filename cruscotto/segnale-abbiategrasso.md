@@ -1,5 +1,5 @@
 # 📡 Segnali — Abbiategrasso
-Generato: 17/07/2026 21:09
+Generato: 18/07/2026 13:01
 
 ## 1. 🏛️  ETS sul territorio
 
@@ -38,6 +38,20 @@ _Nessun bando con match locale._
   · **medio-alta** LULE ODV — ABBIATEGRASSO — 5x1000: €3,143
   · **medio-alta** A STEFANO CASATI SOCIETA' COOPERATIVA SOCIALE - O. — ABBIATEGRASSO — 5x1000: €2,637
 
-## 5. 📇 ETS con contatti
+## 5. 📊 ETS con appalti pubblici (ANAC)
 
-_Nessun ETS con contatti._
+  · **ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZUR** [media] — appalti: €2,641,667
+  · **LULE SOC. COOP. SOCIALE O.N.L.U.S.** [medio-alta] — appalti: €2,323,141
+  · **SOCIETA' COOPERATIVA SOCIALE NEW SERVICE ONLU** [medio-alta] — appalti: €486,461
+  · **A STEFANO CASATI SOCIETA' COOPERATIVA SOCIALE** [medio-alta] — appalti: €267,491
+  · **ANFFAS ABBIATEGRASSO - ASSOCIAZIONE LOCALE DI** [sconosciuta] — appalti: €138,392
+  · **LULE ODV** [medio-alta] — appalti: €137,386
+  · **ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE D** [medio-alta] — appalti: €73,500
+
+## 6. 📍 Gap nei comuni limitrofi
+
+  · **Milano** (MI) — 3894 ETS, RdC 3.6%, reddito €28,084 
+  · **Rozzano** (MI) — 43 ETS, RdC 5.7%, reddito €16,854 
+  · **Segrate** (MI) — 68 ETS, RdC 1.1%, reddito €27,663 
+  · **Busto Garolfo** (MI) — 11 ETS, RdC 0.0%, reddito €18,983 
+  · **San Vittore Olona** (MI) — 14 ETS, RdC 0.0%, reddito €19,348 
