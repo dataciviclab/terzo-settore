@@ -1,5 +1,5 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 18/07/2026 09:20
+Generato: 18/07/2026 11:25
 
 **45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **180** esclusi  |  **154** ETS unici coinvolti
 
@@ -72,7 +72,7 @@ Generato: 18/07/2026 09:20
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: sport, educazione, inclusione sociale, minori
+- **Tag**: educazione, sport, minori, inclusione sociale
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -208,7 +208,7 @@ Generato: 18/07/2026 09:20
 - **Ente**: European Fund for the Balkans
 - **Stato**: attivo
 - **Territorio**: Nazionale, Regionale
-- **Tag**: ambiente, lavoro
+- **Tag**: lavoro, ambiente
 
   · **medio-alta** LEGA ITALIANA PER LA DIFESA DEGLI ANIMALI E DELL'  — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV — 5x1000: €262,688
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS — 5x1000: €217,081
@@ -316,7 +316,7 @@ Generato: 18/07/2026 09:20
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
-- **Tag**: disabilità, digitale, inclusione sociale
+- **Tag**: digitale, inclusione sociale, disabilità
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €3,485
@@ -694,7 +694,7 @@ Generato: 18/07/2026 09:20
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: cultura, arte, premi, digitale, ambiente
+- **Tag**: cultura, premi, arte, digitale, ambiente
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale — 5x1000: €1,010
   · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN — SAN LAZZARO DI SAVENA (BO) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale — 5x1000: €9,259

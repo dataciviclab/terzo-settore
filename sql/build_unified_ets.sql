@@ -88,23 +88,6 @@ pnrr AS (
         SUM(fin_totale) as pnrr_totale
     FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/pnrr_progetti/2026/pnrr_progetti_2026_clean.parquet', union_by_name=true)
     GROUP BY TRIM(cf_soggetto_attuatore)
-),
-
-oc_join AS (
-    SELECT DISTINCT r.codice_fiscale,
-           FIRST(o.email) as oc_email,
-           FIRST(o.sito) as oc_sito,
-           FIRST(o.telefono) as oc_telefono,
-           FIRST(o.bilancio_entrate) as oc_bilancio_entrate,
-           FIRST(o.progetti) as oc_progetti,
-           FIRST(o.volontari) as oc_volontari,
-           FIRST(o.dipendenti) as oc_dipendenti
-    FROM read_parquet('data/runts_iscritti.parquet', union_by_name=true) r
-    JOIN read_parquet('data/oc_organizzazioni.parquet') o
-        ON upper(r.comune) = o.citta_oc
-        AND replace(upper(r.denominazione), '''', '') LIKE '%' || replace(o.nome_norm, '''', '') || '%'
-        AND length(o.nome_norm) >= 8
-    GROUP BY r.codice_fiscale
 )
 
 SELECT 
@@ -125,13 +108,7 @@ SELECT
     COALESCE(c.flag_ricerca_scientifica, FALSE) as flag_ricerca_scientifica,
     COALESCE(c.flag_ricerca_sanitaria, FALSE) as flag_ricerca_sanitaria,
     regexp_matches(lower(r.denominazione), '(asd|associazione sportiva|società sportiva|sportiva dilettantistica|polisportiva)') as flag_sport_denom,
-    o.oc_email as oc_email,
-    o.oc_sito as oc_sito,
-    o.oc_telefono as oc_telefono,
-    o.oc_bilancio_entrate as oc_bilancio_entrate,
-    o.oc_progetti as oc_progetti,
-    o.oc_volontari as oc_volontari,
-    o.oc_dipendenti as oc_dipendenti,
+    -- oc_* rimosso: Open Cooperazione non più mantenuto
 
     -- Grant UE
     CASE WHEN f.grant_ue_totale > 0 THEN TRUE ELSE FALSE END as ha_grant_ue,
@@ -154,7 +131,6 @@ SELECT
     -- Alta: grant UE (progetti europei finanziati)
     -- Medio-alta: aiuti stato o PNRR (progetti co-finanziati)
     -- Media: 5x1000 pluriennale (>=3 anni) o singolo >10k
-    --       oppure Open Cooperazione con bilancio >100k o >=3 progetti o >=3 dipendenti
     -- Base: 5x1000 (almeno una donazione) o Impresa Sociale (per statuto)
     CASE 
         WHEN COALESCE(f.grant_ue_totale, 0) > 0 THEN 'alta'
@@ -162,12 +138,8 @@ SELECT
         WHEN COALESCE(pnrr.pnrr_totale, 0) > 0 THEN 'medio-alta'
         WHEN COALESCE(c.cinque_2025, 0) > 10000 THEN 'media'
         WHEN COALESCE(c.cinque_anni, 0) >= 3 AND COALESCE(c.cinque_2025, 0) > 0 THEN 'media'
-        WHEN COALESCE(o.oc_bilancio_entrate, 0) > 100000 THEN 'media'
-        WHEN COALESCE(o.oc_progetti, 0) >= 3 THEN 'media'
-        WHEN COALESCE(o.oc_dipendenti, 0) >= 3 THEN 'media'
         WHEN COALESCE(c.cinque_2025, 0) > 0 THEN 'base'
         WHEN r.sezione = 'IMPRESE SOCIALI' THEN 'base'
-        WHEN COALESCE(o.oc_bilancio_entrate, 0) > 0 THEN 'base'
         ELSE 'sconosciuta'
     END as capacita_progettuale
 
@@ -176,6 +148,5 @@ LEFT JOIN cinque_agg c ON r.codice_fiscale = c.cf
 LEFT JOIN fts f ON r.codice_fiscale = f.cf
 LEFT JOIN rna ON r.codice_fiscale = rna.cf
 LEFT JOIN pnrr ON r.codice_fiscale = pnrr.cf
-LEFT JOIN oc_join o ON r.codice_fiscale = o.codice_fiscale
 ORDER BY r.provincia, r.comune, r.denominazione)
 TO 'data/unified_ets.parquet' (FORMAT PARQUET);

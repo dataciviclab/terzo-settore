@@ -34,7 +34,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Scadenza**: 03 agosto 2026 (16 giorni)
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: sport, educazione, inclusione sociale, minori
+- **Tag**: minori, educazione, inclusione sociale, sport
 
   · **medio-alta** A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI OSTEO  — PALERMO (PA) — score 130, match; 5x1000 >10k; APS — 5x1000: €12,355
 
@@ -61,7 +61,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Scadenza**: 17 agosto 2026 (30 giorni)
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: salute, donne
+- **Tag**: donne, salute
 
   · **medio-alta** ASSOCIAZIONE SALUTE DONNA- ODV  — MILANO (MI) — score 110, match; 5x1000 >10k; ODV — 5x1000: €26,678
 
@@ -97,7 +97,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **15**
 - **Scadenza**: 03 settembre 2026 (47 giorni)
 - **Stato**: attivo
 - **Territorio**: Nazionale, Regionale
-- **Tag**: ambiente, lavoro
+- **Tag**: lavoro, ambiente
 
   · **medio-alta** MONTEVERDE COOPERATIVA SOCIALE DI SOLIDARIETA' - O.N.L. — BADIA CALAVENA (VR) — score 110, match; 5x1000 >10k; Impresa Sociale — 5x1000: €73,863
 

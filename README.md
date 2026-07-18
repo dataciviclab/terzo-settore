@@ -32,7 +32,7 @@ Anagrafe ETS (150k) ──┘    └─ Score: tema 60% + capacità 20% + bonus 
 data/
   unified_ets.parquet          Hub ETS (150k, 6 MB): capacità, contatti, flags
   runts_iscritti.parquet       Anagrafe RUNTS raw (8 MB)
-  oc_organizzazioni.parquet    Open Cooperazione registry (1.592 org)
+  --                         Open Cooperazione rimosso (246 org, 84 match ETS — non scalabile)
   bandi/                       Cache bandi (268 da 2 fonti)
 
 aggregatori/bandi/
@@ -86,7 +86,6 @@ Ogni ETS viene classificato su 5 livelli. Il matching usa solo **media+** (55k E
 | **PNRR** | 1.086 ETS | Progetti PNRR |
 | **Infobandi** | 68 bandi | Fondazioni, PA, EU |
 | **Info-cooperazione** | 200 bandi | Cooperaz., 8x1000, AICS, EU |
-| **Open Cooperazione** | 1.592 org | Bilancio, contatti, progetti |
 | **Google Places** | opzionale | Sito, telefono, rating |
 
 ## Setup
@@ -137,7 +136,7 @@ Dipende da **Python 3.10+**, **DuckDB** e librerie standard.
 
 - `data/unified_ets.parquet` – **6 MB** – hub ETS completo (150k righe, 33 colonne)
 - `data/runts_iscritti.parquet` – **8 MB** – anagrafe RUNTS
-- `data/oc_organizzazioni.parquet` – **1 MB** – registry Open Cooperazione
+- ~~`data/oc_organizzazioni.parquet`~~ — rimosso (246 org, 84 match ETS)
 - `data/bandi/` – **~500 KB** – cache bandi (268 bandi)
 - `data/enrich/` – cache Google Places (generato da `--enrich`)
 
