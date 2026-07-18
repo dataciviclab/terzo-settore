@@ -82,41 +82,41 @@ MATCH_ETS_SQL = """
              ELSE 'match'
            END AS motivo_match,
            (
-             -- Match tematico (0-60) — PESO PRINCIPALE
-             CASE WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 60 ELSE 0 END
-             -- Match per sezione (0-25) — SECONDO PESO
-             + CASE WHEN {sez_match_bool} THEN 25 ELSE 0 END
-             -- Sport bonus (0-15)
-             + CASE WHEN flag_sport_denom AND {sport_bonus} THEN 15 ELSE 0 END
-             {section_bonus}
-             -- Capacità progettuale (0-20) — peso ridotto
-             + CASE capacita_progettuale
-                 WHEN 'alta' THEN 20
-                 WHEN 'medio-alta' THEN 15
-                 WHEN 'media' THEN 10
-                 ELSE 0
-               END
-             -- 5x1000 (0-15) — peso leggermente ridotto
-             + CASE
-                 WHEN cinque_2025 >= 100000 THEN 15
-                 WHEN cinque_2025 >= 10000 THEN 10
-                 WHEN cinque_2025 > 0 THEN 5
-                 ELSE 0
-               END
-             -- Grant UE (0-8) — peso ridotto
-             + CASE WHEN ha_grant_ue THEN 8 ELSE 0 END
-             -- PNRR (0-5) — peso ridotto
-             + CASE WHEN ha_pnrr THEN 5 ELSE 0 END
-             -- Appalti pubblici ANAC (0-10) — capacità dimostrata
-             + CASE
-                 WHEN importo_appalti >= 10000000 THEN 10
-                 WHEN importo_appalti >= 1000000 THEN 7
-                 WHEN importo_appalti >= 100000 THEN 5
-                 WHEN ha_appalti THEN 3
-                 ELSE 0
-               END
-             -- Impresa Sociale (0-5) — invariato
-             + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
+              -- Match tematico (0-60) — PESO PRINCIPALE
+              CASE WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 60 ELSE 0 END
+              -- Match per sezione (0-10) — gate, non differenziatore
+              + CASE WHEN {sez_match_bool} THEN 10 ELSE 0 END
+              -- Sport bonus (0-15)
+              + CASE WHEN flag_sport_denom AND {sport_bonus} THEN 15 ELSE 0 END
+              {section_bonus}
+              -- Capacità progettuale (0-25)
+              + CASE capacita_progettuale
+                  WHEN 'alta' THEN 25
+                  WHEN 'medio-alta' THEN 20
+                  WHEN 'media' THEN 10
+                  ELSE 0
+                END
+              -- 5x1000 (0-15)
+              + CASE
+                  WHEN cinque_2025 >= 100000 THEN 15
+                  WHEN cinque_2025 >= 10000 THEN 10
+                  WHEN cinque_2025 > 0 THEN 5
+                  ELSE 0
+                END
+              -- Grant UE (0-8)
+              + CASE WHEN ha_grant_ue THEN 8 ELSE 0 END
+              -- PNRR (0-5)
+              + CASE WHEN ha_pnrr THEN 5 ELSE 0 END
+              -- Appalti pubblici ANAC (0-15) — capacità dimostrata
+              + CASE
+                  WHEN importo_appalti >= 10000000 THEN 15
+                  WHEN importo_appalti >= 1000000 THEN 10
+                  WHEN importo_appalti >= 100000 THEN 7
+                  WHEN ha_appalti THEN 5
+                  ELSE 0
+                END
+              -- Impresa Sociale (0-5)
+              + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
            ) AS score
     FROM '{ets_file}'
     WHERE {match_condition}
