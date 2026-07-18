@@ -26,6 +26,7 @@ ETS_FILE = ROOT / "data" / "unified_ets.parquet"
 BANDI_FILES = [
     ROOT / "data/bandi/infobandi_bandi.json",
     ROOT / "data/bandi/info_cooperazione_bandi.json",
+    ROOT / "data/bandi/indicebandi_bandi.json",
 ]
 
 MONTH_MAP = {
@@ -278,7 +279,12 @@ def load_bandi(files: list[Path] | None = None) -> list[dict]:
                 raw = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             continue
-        fonte = "infobandi" if "infobandi" in fpath.name else "info_cooperazione"
+        if "infobandi" in fpath.name:
+            fonte = "infobandi"
+        elif "indicebandi" in fpath.name:
+            fonte = "indicebandi"
+        else:
+            fonte = "info_cooperazione"
         if isinstance(raw, list):
             for b in raw:
                 b["_fonte"] = fonte

@@ -51,7 +51,13 @@ bandi-info-coop:
 bandi-info-coop-full:
 	python3 aggregatori/bandi/info_cooperazione.py --full  # TUTTI (lento)
 
-bandi: bandi-infobandi bandi-info-coop
+bandi-indicebandi:
+	python3 aggregatori/bandi/indicebandi.py
+
+bandi-indicebandi-full:
+	python3 aggregatori/bandi/indicebandi.py --full
+
+bandi: bandi-infobandi bandi-info-coop bandi-indicebandi
 	@echo "✅ Bandi aggiornati"
 
 # Test matching (pattern + gold set + sezione + geografia + scan integrity)
