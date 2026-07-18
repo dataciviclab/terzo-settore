@@ -1,7 +1,7 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 18/07/2026 14:33
+Generato: 18/07/2026 16:33
 
-**45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **181** esclusi  |  **147** ETS unici coinvolti
+**45** bandi operativi con ETS candidabili  |  **1** operativi senza match  |  **181** esclusi  |  **154** ETS unici coinvolti
 
 ---
 
@@ -65,14 +65,14 @@ Generato: 18/07/2026 14:33
 | PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZO | VIADANA | MN | medio-alta | 120 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €10,466,569 | €27,404 |
 | ASCS - AGENZIA SCALABRINIANA PER LA COOPERAZI | MILANO | MI | medio-alta | 120 | match tema + sezione; capacità medio-alta; 5x1000 >10k; ODV; appalti €28,390,476 | €19,056 |
 | FONDAZIONE GIOVANNI PAOLO II - PER IL DIALOGO | FIRENZE | FI | medio-alta | 120 | match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €68,550,636 | €17,324 |
-| ITACA, IL TERRITORIO AL CENTRO DELL'ATTENZION | CELLINO ATTANASIO | TE | alta | 120 | match tema + sezione; capacità alta; grant UE; appalti €1,211,857 | - |
+| UNISCO - NETWORK PER LO SVILUPPO LOCALE E.T.S | BARI | BA | alta | 120 | match tema + sezione; capacità alta; grant UE; appalti €9,942,666 | - |
 
 ### 🟡 Bando UEFA Foundation for Children 2026
 - **Scadenza**: 03 agosto 2026 (16 giorni)
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: minori, sport, educazione, inclusione sociale
+- **Tag**: inclusione sociale, minori, sport, educazione
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -112,7 +112,7 @@ Generato: 18/07/2026 14:33
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura tramite Ukrainian Cultural Foundation
 - **Stato**: attivo
 - **Territorio**: Ucraina
-- **Tag**: cultura, migranti
+- **Tag**: migranti, cultura
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -208,7 +208,7 @@ Generato: 18/07/2026 14:33
 - **Ente**: European Fund for the Balkans
 - **Stato**: attivo
 - **Territorio**: Nazionale, Regionale
-- **Tag**: lavoro, ambiente
+- **Tag**: ambiente, lavoro
 
   · **medio-alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
   · **alta** ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUT — TORINO (TO) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €1,431
@@ -316,7 +316,7 @@ Generato: 18/07/2026 14:33
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: digitale, disabilità, inclusione sociale
+- **Tag**: inclusione sociale, disabilità, digitale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
@@ -550,18 +550,18 @@ Generato: 18/07/2026 14:33
 - **Ente**: Commissione europea – Autorità di Gestione FAMI Ministero Interno &#8211; Direzione Centrale per le Politiche migratorie
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
-- **Tag**: minori, migranti
+- **Tag**: migranti
 
-  · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici — 5x1000: €1,010
   · **alta** OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, C — AREZZO (AR) — score 128, match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852 — 5x1000: -
-  · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
-  · **alta** C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E — TORINO (TO) — score 123, match tema + sezione; capacità alta; 5x1000 >10k; grant UE — 5x1000: €42,118
-  · **alta** ARCIRAGAZZI  APS — ROMA (RM) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €581
-  · **medio-alta** ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS — ROMA (RM) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989 — 5x1000: €7,925,761
-  · **medio-alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751 — 5x1000: €173,631
-  · **medio-alta** AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO — SAN GIULIANO MILANESE (MI) — score 122, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083 — 5x1000: €115,128
-  · **alta** DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV — GENOVA (GE) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici — 5x1000: €1,514
-  · **medio-alta** PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRA — PADOVA (PD) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici — 5x1000: €770,112
+  · **medio-alta** REFUGEES WELCOME ITALIA ETS — MILANO (MI) — score 115, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici — 5x1000: €19,924
+  · **medio-alta** CENTRO IMMIGRAZIONE ASILO COOPERAZIONE INTERNAZION — PARMA (PR) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €37,787,568 — 5x1000: €6,366
+  · **medio-alta** CONSORZIO ITALIANO DI SOLIDARIETA' - ITALIAN CONSO — TRIESTE (TS) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €109,551,385 — 5x1000: €2,505
+  · **medio-alta** PIAM - PROGETTO INTEGRAZIONE ACCOGLIENZA MIGRANTI  — ASTI (AT) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €10,514,617 — 5x1000: €2,020
+  · **medio-alta** MIGRANTESLIBERI COOPERATIVA SOCIALE E DI SOLIDARIE — ANDRIA (BT) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €24,383,187 — 5x1000: €1,655
+  · **medio-alta** GRUPPO LAVORO RIFUGIATI ETS — BARI (BA) — score 115, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €12,090,597 — 5x1000: €239
+  · **medio-alta** ASSOCIAZIONE TRENTINA ACCOGLIENZA STRANIERI ETS — TRENTO (TN) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €8,068,604 — 5x1000: €1,121
+  · **medio-alta** MEDICI VOLONTARI PER LAVORATORI STRANIERI -TOLBA'- — MATERA (MT) — score 112, match tema + sezione; capacità medio-alta; 5x1000 presente; ODV; appalti €2,116,624 — 5x1000: €614
+  · **media** CONSIGLIO ITALIANO PER I RIFUGIATI - ETS  — ROMA (RM) — score 110, match tema + sezione; capacità media; 5x1000 presente; appalti €11,451,645 — 5x1000: €8,366
 
 ### Prevenire gli sprechi alimentari
 - **Scadenza**: 15 ottobre 2026 (89 giorni)
@@ -640,7 +640,7 @@ Generato: 18/07/2026 14:33
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: minori, donne
+- **Tag**: donne, minori
 
   · **medio-alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 125, match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
   · **alta** C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E — TORINO (TO) — score 123, match tema + sezione; capacità alta; 5x1000 >10k; grant UE — 5x1000: €42,118
@@ -694,7 +694,7 @@ Generato: 18/07/2026 14:33
 - **Ente**: Fondazione Cariplo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: digitale, arte, ambiente, premi, cultura
+- **Tag**: arte, cultura, premi, ambiente, digitale
 
   · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici — 5x1000: €1,010
   · **alta** OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, C — AREZZO (AR) — score 128, match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852 — 5x1000: -
@@ -712,7 +712,7 @@ Generato: 18/07/2026 14:33
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: digitale, inclusione sociale
+- **Tag**: inclusione sociale, digitale
 
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
@@ -820,18 +820,18 @@ Generato: 18/07/2026 14:33
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
 - **Stato**: sportello
 - **Territorio**: Europa, Ucraina
-- **Tag**: cultura
+- **Tag**: migranti, cultura
 
+  · **alta** MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 128, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici — 5x1000: €1,010
+  · **alta** OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, C — AREZZO (AR) — score 128, match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852 — 5x1000: -
+  · **alta** TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN — SAN LAZZARO DI SAVENA (BO) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici — 5x1000: €9,259
+  · **alta** ARTE SELLA IMPRESA SOCIALE — BORGO VALSUGANA (TN) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici — 5x1000: €1,220
   · **alta** ASSOCIAZIONE CULTURALE MUSICASTRADA APS — MONTOPOLI IN VAL D'ARNO (PI) — score 123, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €173
+  · **alta** DISPARI TEATRO COOPERATIVA SOCIALE ETS — CUNEO (CN) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici — 5x1000: €3,616
+  · **alta** TEATRO MAGRO COOPERATIVA SOCIALE O.N.L.U.S. — MANTOVA (MN) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici — 5x1000: €1,108
   · **alta** ASSOCIAZIONE CULTURALE EUFEMIA APS — TORINO (TO) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €499
   · **alta** FERRARA LA CITTA' DEL CINEMA APS — FERRARA (FE) — score 121, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici — 5x1000: €346
-  · **alta** ASSOCIAZIONE CULTURALE PHOTOLUX APS — LUCCA (LU) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €2,459
-  · **alta** FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE -  — FORLI' (FC) — score 118, match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS — 5x1000: €915
-  · **alta** FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA  — TORINO (TO) — score 118, match tema + sezione; capacità alta; grant UE; appalti pubblici — 5x1000: -
-  · **alta** ASSOCIAZIONE MUSICALE ETNEA ETS — CATANIA (CT) — score 118, match tema + sezione; capacità alta; grant UE; appalti pubblici — 5x1000: -
-  · **medio-alta** ASSORI ASSOCIAZIONE PER LA PROMOZIONE SOCIO-CULTUR — FOGGIA (FG) — score 117, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €4,008,100 — 5x1000: €11,724
-  · **alta** TOSCANA PRODUZIONE MUSICA ETS — FIRENZE (FI) — score 116, match tema + sezione; capacità alta; grant UE; appalti pubblici — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE LANDSCAPE CHOREOGRAPHY APS — MILANO (MI) — score 116, match tema + sezione; capacità alta; grant UE; APS; appalti pubblici — 5x1000: -
+  · **medio-alta** CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE  — MILANO (MI) — score 120, match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790 — 5x1000: €21,096
 
 ---
 ## ⚠️ Bandi senza ETS candidabili

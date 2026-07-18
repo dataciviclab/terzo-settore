@@ -1,5 +1,5 @@
 {
-  "generato": "2026-07-18T14:33:34.969348",
+  "generato": "2026-07-18T16:33:54.240056",
   "bandi_totali": 227,
   "match": 45,
   "gap": 1,
@@ -910,7 +910,7 @@
       "motivo": "scaduto"
     }
   ],
-  "ets_unici": 147,
+  "ets_unici": 154,
   "resultados": [
     {
       "titolo": "Contributi annuali della Banca d’Italia – 2^ scadenza 2026",
@@ -1325,10 +1325,10 @@
         "Nazionale"
       ],
       "tags": [
+        "inclusione sociale",
         "minori",
         "sport",
-        "educazione",
-        "inclusione sociale"
+        "educazione"
       ],
       "candidati": [
         {
@@ -1720,11 +1720,11 @@
         "Nazionale"
       ],
       "tags": [
-        "digitale",
         "arte",
-        "ambiente",
+        "cultura",
         "premi",
-        "cultura"
+        "ambiente",
+        "digitale"
       ],
       "candidati": [
         {
@@ -2380,8 +2380,8 @@
         "Nazionale"
       ],
       "tags": [
-        "minori",
-        "donne"
+        "donne",
+        "minori"
       ],
       "candidati": [
         {
@@ -2508,9 +2508,9 @@
         "Nazionale"
       ],
       "tags": [
-        "digitale",
+        "inclusione sociale",
         "disabilità",
-        "inclusione sociale"
+        "digitale"
       ],
       "candidati": [
         {
@@ -3923,14 +3923,14 @@
           "cinque_2025": 17324.05
         },
         {
-          "cf": "01499600672",
-          "denominazione": "ITACA, IL TERRITORIO AL CENTRO DELL'ATTENZIONE - ASSOCIAZIONE PER LO SVILUPPO LOCALE",
-          "comune": "CELLINO ATTANASIO",
-          "provincia": "TE",
+          "cf": "05994670726",
+          "denominazione": "UNISCO - NETWORK PER LO SVILUPPO LOCALE E.T.S.",
+          "comune": "BARI",
+          "provincia": "BA",
           "capacita": "alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 120,
-          "motivo": "match tema + sezione; capacità alta; grant UE; appalti €1,211,857",
+          "motivo": "match tema + sezione; capacità alta; grant UE; appalti €9,942,666",
           "cinque_2025": NaN
         }
       ]
@@ -4210,8 +4210,8 @@
         "Nazionale"
       ],
       "tags": [
-        "digitale",
-        "inclusione sociale"
+        "inclusione sociale",
+        "digitale"
       ],
       "candidati": [
         {
@@ -4339,8 +4339,8 @@
         "Regionale"
       ],
       "tags": [
-        "lavoro",
-        "ambiente"
+        "ambiente",
+        "lavoro"
       ],
       "candidati": [
         {
@@ -5109,21 +5109,9 @@
         "Nazionale/da verificare"
       ],
       "tags": [
-        "minori",
         "migranti"
       ],
       "candidati": [
-        {
-          "cf": "05504141002",
-          "denominazione": "MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "IMPRESE SOCIALI",
-          "score": 128,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici",
-          "cinque_2025": 1009.87
-        },
         {
           "cf": "01764350516",
           "denominazione": "OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, COOPERATIVA SOCIALE DI TIPO A, COOPERATIVA A MUTUALITA' PREVALENTE, IMPRESA SOCIALE, ENTE DEL TERZO SETTORE",
@@ -5136,92 +5124,103 @@
           "cinque_2025": NaN
         },
         {
-          "cf": "01098680372",
-          "denominazione": "PROVINCIA S. ANTONIO DEI FRATI MINORI",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 125,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €87,215,273",
-          "cinque_2025": 137952.32
-        },
-        {
-          "cf": "97501240010",
-          "denominazione": "C.I.F.A.  - CENTRO INTERNAZIONALE PER L'INFANZIA E LA FAMIGLIA ETS",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 >10k; grant UE",
-          "cinque_2025": 42117.74
-        },
-        {
-          "cf": "06273640588",
-          "denominazione": "ARCIRAGAZZI  APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 123,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
-          "cinque_2025": 581.16
-        },
-        {
-          "cf": "97227450158",
-          "denominazione": "ASSOCIAZIONE SAVE THE CHILDREN ITALIA - ETS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 122,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €1,560,989",
-          "cinque_2025": 7925761.31
-        },
-        {
-          "cf": "97010160154",
-          "denominazione": "CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI - ENTE DEL TERZO SETTORE",
+          "cf": "97737630158",
+          "denominazione": "REFUGEES WELCOME ITALIA ETS",
           "comune": "MILANO",
           "provincia": "MI",
           "capacita": "medio-alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 122,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €2,509,751",
-          "cinque_2025": 173631.41
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti pubblici",
+          "cinque_2025": 19924.02
         },
         {
-          "cf": "92504680155",
-          "denominazione": "AI.BI. AMICI DEI BAMBINI FONDAZIONE ENTE DEL TERZO SETTORE O ANCHE AI.BI. AMICI DEI BAMBINI FONDAZIONE ETS",
-          "comune": "SAN GIULIANO MILANESE",
-          "provincia": "MI",
+          "cf": "92109830346",
+          "denominazione": "CENTRO IMMIGRAZIONE ASILO COOPERAZIONE INTERNAZIONALE DI PARMA E PROVINCIA IMPRESA SOCIALE ETS",
+          "comune": "PARMA",
+          "provincia": "PR",
+          "capacita": "medio-alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €37,787,568",
+          "cinque_2025": 6366.2
+        },
+        {
+          "cf": "90081370323",
+          "denominazione": "CONSORZIO ITALIANO DI SOLIDARIETA' - ITALIAN CONSORTIUM OF SOLIDARITY (ICS) - UFFICIO RIFUGIATI ETS",
+          "comune": "TRIESTE",
+          "provincia": "TS",
           "capacita": "medio-alta",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 122,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti €5,460,083",
-          "cinque_2025": 115127.89
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €109,551,385",
+          "cinque_2025": 2505.41
         },
         {
-          "cf": "97457060586",
-          "denominazione": "DEFENCE FOR CHILDREN INTERNATIONAL ITALIA ODV",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "alta",
+          "cf": "92040930056",
+          "denominazione": "PIAM - PROGETTO INTEGRAZIONE ACCOGLIENZA MIGRANTI - ENTE DEL TERZO SETTORE",
+          "comune": "ASTI",
+          "provincia": "AT",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €10,514,617",
+          "cinque_2025": 2020.04
+        },
+        {
+          "cf": "90073740723",
+          "denominazione": "MIGRANTESLIBERI COOPERATIVA SOCIALE E DI SOLIDARIETA' IMPRESA SOCIALE",
+          "comune": "ANDRIA",
+          "provincia": "BT",
+          "capacita": "medio-alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; Impresa Sociale; appalti €24,383,187",
+          "cinque_2025": 1654.66
+        },
+        {
+          "cf": "93259410723",
+          "denominazione": "GRUPPO LAVORO RIFUGIATI ETS",
+          "comune": "BARI",
+          "provincia": "BA",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 115,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €12,090,597",
+          "cinque_2025": 239.03
+        },
+        {
+          "cf": "01280230226",
+          "denominazione": "ASSOCIAZIONE TRENTINA ACCOGLIENZA STRANIERI ETS",
+          "comune": "TRENTO",
+          "provincia": "TN",
+          "capacita": "medio-alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; appalti €8,068,604",
+          "cinque_2025": 1121.05
+        },
+        {
+          "cf": "93009070777",
+          "denominazione": "MEDICI VOLONTARI PER LAVORATORI STRANIERI -TOLBA'-",
+          "comune": "MATERA",
+          "provincia": "MT",
+          "capacita": "medio-alta",
           "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 121,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; ODV; appalti pubblici",
-          "cinque_2025": 1514.12
+          "score": 112,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 presente; ODV; appalti €2,116,624",
+          "cinque_2025": 613.94
         },
         {
-          "cf": "00226500288",
-          "denominazione": "PROVINCIA ITALIANA DI S. ANTONIO DI PADOVA DEI FRATI MINORI CONVENTUALI - CARITAS S. ANTONIO",
-          "comune": "PADOVA",
-          "provincia": "PD",
-          "capacita": "medio-alta",
+          "cf": "96150030581",
+          "denominazione": "CONSIGLIO ITALIANO PER I RIFUGIATI - ETS ",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "media",
           "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 120,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >100k; appalti pubblici",
-          "cinque_2025": 770111.54
+          "score": 110,
+          "motivo": "match tema + sezione; capacità media; 5x1000 presente; appalti €11,451,645",
+          "cinque_2025": 8365.63
         }
       ]
     },
@@ -5493,9 +5492,54 @@
         "Ucraina"
       ],
       "tags": [
+        "migranti",
         "cultura"
       ],
       "candidati": [
+        {
+          "cf": "05504141002",
+          "denominazione": "MUSEO DEI BAMBINI SOCIETA' COOPERATIVA SOCIALE",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 1009.87
+        },
+        {
+          "cf": "01764350516",
+          "denominazione": "OXFAM ITALIA INTERCULTURA, SOCIETA' COOPERATIVA, COOPERATIVA SOCIALE DI TIPO A, COOPERATIVA A MUTUALITA' PREVALENTE, IMPRESA SOCIALE, ENTE DEL TERZO SETTORE",
+          "comune": "AREZZO",
+          "provincia": "AR",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 128,
+          "motivo": "match tema + sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €183,648,852",
+          "cinque_2025": NaN
+        },
+        {
+          "cf": "02522171202",
+          "denominazione": "TEATRO DELL'ARGINE SOCIETA' COOPERATIVA SOCIALE IN SIGLA TEATRO DELL'ARGINE COOP.SOCIALE",
+          "comune": "SAN LAZZARO DI SAVENA",
+          "provincia": "BO",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 9259.28
+        },
+        {
+          "cf": "01294330228",
+          "denominazione": "ARTE SELLA IMPRESA SOCIALE",
+          "comune": "BORGO VALSUGANA",
+          "provincia": "TN",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 123,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 1219.6
+        },
         {
           "cf": "01535300501",
           "denominazione": "ASSOCIAZIONE CULTURALE MUSICASTRADA APS",
@@ -5506,6 +5550,28 @@
           "score": 123,
           "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS; appalti pubblici",
           "cinque_2025": 172.7
+        },
+        {
+          "cf": "00824740047",
+          "denominazione": "DISPARI TEATRO COOPERATIVA SOCIALE ETS",
+          "comune": "CUNEO",
+          "provincia": "CN",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 3616.24
+        },
+        {
+          "cf": "01900520204",
+          "denominazione": "TEATRO MAGRO COOPERATIVA SOCIALE O.N.L.U.S.",
+          "comune": "MANTOVA",
+          "provincia": "MN",
+          "capacita": "alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 121,
+          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti pubblici",
+          "cinque_2025": 1108.05
         },
         {
           "cf": "97726440015",
@@ -5530,81 +5596,15 @@
           "cinque_2025": 345.81
         },
         {
-          "cf": "02285960460",
-          "denominazione": "ASSOCIAZIONE CULTURALE PHOTOLUX APS",
-          "comune": "LUCCA",
-          "provincia": "LU",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
-          "cinque_2025": 2458.75
-        },
-        {
-          "cf": "02483330409",
-          "denominazione": "FORLI'MUSICA ASSOCIAZIONE DI PROMOZIONE SOCIALE - APS",
-          "comune": "FORLI'",
-          "provincia": "FC",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; 5x1000 presente; grant UE; APS",
-          "cinque_2025": 915.1
-        },
-        {
-          "cf": "11903640016",
-          "denominazione": "FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA ENTE DEL TERZO SETTORE",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "00405220872",
-          "denominazione": "ASSOCIAZIONE MUSICALE ETNEA ETS",
-          "comune": "CATANIA",
-          "provincia": "CT",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 118,
-          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "94002660713",
-          "denominazione": "ASSORI ASSOCIAZIONE PER LA PROMOZIONE SOCIO-CULTURALE, SPORTIVO-DILETTANTISTICA PER LA RIABILITAZIONE E L’INCLUSIONE SOCIALE DELLA PERSONA DISABILE ETS",
-          "comune": "FOGGIA",
-          "provincia": "FG",
-          "capacita": "medio-alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 117,
-          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €4,008,100",
-          "cinque_2025": 11723.99
-        },
-        {
-          "cf": "07154490481",
-          "denominazione": "TOSCANA PRODUZIONE MUSICA ETS",
-          "comune": "FIRENZE",
-          "provincia": "FI",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 116,
-          "motivo": "match tema + sezione; capacità alta; grant UE; appalti pubblici",
-          "cinque_2025": NaN
-        },
-        {
-          "cf": "08780880962",
-          "denominazione": "ASSOCIAZIONE CULTURALE LANDSCAPE CHOREOGRAPHY APS",
+          "cf": "11656010151",
+          "denominazione": "CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE DI SOLIDARIETA' A RESPONSABILITA' LIMITATA - ONLUS",
           "comune": "MILANO",
           "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 116,
-          "motivo": "match tema + sezione; capacità alta; grant UE; APS; appalti pubblici",
-          "cinque_2025": NaN
+          "capacita": "medio-alta",
+          "sezione": "IMPRESE SOCIALI",
+          "score": 120,
+          "motivo": "match tema + sezione; capacità medio-alta; 5x1000 >10k; Impresa Sociale; appalti €10,219,790",
+          "cinque_2025": 21095.74
         }
       ]
     },
@@ -5749,8 +5749,8 @@
         "Ucraina"
       ],
       "tags": [
-        "cultura",
-        "migranti"
+        "migranti",
+        "cultura"
       ],
       "candidati": [
         {
