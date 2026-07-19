@@ -25,6 +25,7 @@ from lib.format import fmt_euro
 
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
 ETS_FILE = ROOT / "data" / "unified_ets.parquet"
+OUTPUT_DIR = ROOT / "cruscotto"
 
 
 # ── Google Places enrichment (opzionale) ─────────────────────────────
@@ -34,34 +35,40 @@ from lib.places import cerca_ets as cerca_google_places
 
 # ── Contatti da unified_ets (sempre disponibili) ─────────────────────
 
-def contatti_da_unified(cf):
-    """Recupera contatti da unified_ets per un CF (solo colonne esistenti)."""
+_ETS_CACHE: dict | None = None
+
+def _carica_ets_cache():
+    """Carica unified_ets una tantum in memoria (dict CF → info)."""
+    global _ETS_CACHE
+    if _ETS_CACHE is not None:
+        return _ETS_CACHE
     con = duckdb.connect()
-    r = con.sql(f"""
-        SELECT denominazione, comune, provincia, sezione,
+    df = con.sql(f"""
+        SELECT codice_fiscale, denominazione, comune, provincia, sezione,
                capacita_progettuale, importo_5x1000_2025,
                ha_finanziamenti_ue, ha_progetti_pnrr
         FROM '{ETS_FILE.as_posix()}'
-        WHERE codice_fiscale = '{cf}'
     """).fetchdf()
     con.close()
-    if r.empty:
-        return {}
-    row = r.iloc[0]
     import math
-    return {
-        "denominazione": row.get("denominazione", ""),
-        "comune": row.get("comune", ""),
-        "provincia": row.get("provincia", ""),
-        "sezione": row.get("sezione", ""),
-        "capacita": row.get("capacita_progettuale", ""),
-        "importo_5x1000_2025": None if (isinstance(row.get("importo_5x1000_2025"), float) and math.isnan(row["importo_5x1000_2025"])) else row.get("importo_5x1000_2025"),
-        "ha_finanziamenti_ue": bool(row.get("ha_finanziamenti_ue")) if not (isinstance(row.get("ha_finanziamenti_ue"), float) and math.isnan(row["ha_finanziamenti_ue"])) else False,
-        "ha_progetti_pnrr": bool(row.get("ha_progetti_pnrr")) if not (isinstance(row.get("ha_progetti_pnrr"), float) and math.isnan(row["ha_progetti_pnrr"])) else False,
-        "email": "",
-        "sito": "",
-        "telefono": "",
-    }
+    _ETS_CACHE = {}
+    for _, row in df.iterrows():
+        cf = row.get("codice_fiscale", "")
+        _ETS_CACHE[cf] = {
+            "denominazione": str(row.get("denominazione", "") or ""),
+            "comune": str(row.get("comune", "") or ""),
+            "provincia": str(row.get("provincia", "") or ""),
+            "sezione": str(row.get("sezione", "") or ""),
+            "capacita": str(row.get("capacita_progettuale", "") or ""),
+            "email": "", "sito": "", "telefono": "",
+        }
+    return _ETS_CACHE
+
+
+def contatti_da_unified(cf):
+    """Recupera contatti da unified_ets per un CF (da cache in memoria)."""
+    cache = _carica_ets_cache()
+    return cache.get(cf, {})
 
 
 # ── Logica principale ────────────────────────────────────────────────
@@ -185,11 +192,71 @@ def esporta_json(candidati, output):
     print(f"✅ {len(candidati)} candidati esportati in {output}")
 
 
-def stampa_riepilogo(candidati):
+# ── ETS → Bandi (vista per ETS) ──────────────────────────────────────
+
+def esporta_per_ets(scan, top_bandi=5):
+    """Inverte: per ogni ETS, lista i suoi migliori bandi."""
+    ets_bandi = {}
+    for r in scan["resultados"]:
+        for c in r["candidati"]:
+            cf = c.get("cf", "")
+            if not cf:
+                continue
+            ets_bandi.setdefault(cf, []).append({
+                "bando": r["titolo"],
+                "bando_url": r.get("url", ""),
+                "bando_ente": r.get("ente", ""),
+                "bando_scadenza": r.get("scadenza", ""),
+                "bando_gg": r.get("gg_rimasti", r.get("gg", 999)),
+                "bando_budget": r.get("budget", ""),
+                "bando_tags": ", ".join(r.get("tags", [])),
+                "ets_score": c.get("score", 0),
+                "ets_motivo": c.get("motivo", ""),
+            })
+
+    risultati = []
+    for cf, bandi in ets_bandi.items():
+        info = contatti_da_unified(cf)
+        for b in sorted(bandi, key=lambda x: -x["ets_score"])[:top_bandi]:
+            risultati.append({
+                "ets_cf": cf,
+                "ets_denominazione": info.get("denominazione", ""),
+                "ets_comune": info.get("comune", ""),
+                "ets_provincia": info.get("provincia", ""),
+                "ets_capacita": info.get("capacita", ""),
+                "ets_email": "",
+                "ets_sito": "",
+                "ets_telefono": "",
+                **b,
+            })
+    return risultati
+
+
+def stampa_riepilogo(candidati, per_ets=False):
     """Stampa un riepilogo leggibile."""
     if not candidati:
         return
-    # raggruppa per bando
+
+    if per_ets:
+        # Raggruppa per CF
+        from collections import OrderedDict
+        gruppi = OrderedDict()
+        for c in candidati:
+            gruppi.setdefault(c["ets_cf"], []).append(c)
+
+        for cf, bandi in gruppi.items():
+            denom = bandi[0].get("ets_denominazione", cf)[:45]
+            cap = bandi[0].get("ets_capacita", "?")
+            print(f"\n📌 {denom}")
+            print(f"   CF: {cf} | Capacità: {cap}")
+            for b in bandi:
+                urg = "🔴" if b["bando_gg"] <= 30 else "🟡" if b["bando_gg"] <= 60 else "  "
+                print(f"   {urg} {b['bando'][:55]} — score {b['ets_score']}, scad. {b['bando_scadenza']} ({b['bando_gg']}gg)")
+            cont = sum(1 for b in bandi if b.get("ets_telefono") or b.get("ets_email") or b.get("ets_sito"))
+            print(f"   ⚡ {cont}/{len(bandi)} bandi con contatti")
+        return
+
+    # Default: raggruppa per bando
     from collections import OrderedDict
     bandi = OrderedDict()
     for c in candidati:
@@ -222,25 +289,40 @@ def main():
     parser = argparse.ArgumentParser(description="Esporta candidati da contattare")
     parser.add_argument("--bando", help="Filtra bandi per testo nel titolo")
     parser.add_argument("--cf", help="Cerca bandi per CF ETS")
-    parser.add_argument("--top", type=int, default=10, help="Top N candidati per bando (default: 10)")
+    parser.add_argument("--per-ets", action="store_true", help="Inverte: per ogni ETS, i suoi migliori bandi")
+    parser.add_argument("--top", type=int, default=10, help="Top N candidati per bando o top N bandi per ETS (default: 10)")
     parser.add_argument("--enrich", action="store_true", help="Arricchisci con Google Places (lento, serve API key)")
     parser.add_argument("--formato", choices=["csv", "json"], default="csv", help="Formato output")
-    parser.add_argument("--output", help="File output (default: contatta-{bando|cf}-{data}.{csv|json})")
+    parser.add_argument("--output", help="File output (default: contatta-{modalità}-{data}.{csv|json})")
     args = parser.parse_args()
-
-    if not args.bando and not args.cf:
-        parser.print_help()
-        print("\n❌ Specifica --bando o --cf")
-        sys.exit(1)
 
     scan = carica_radar()
 
-    # Cerca candidati
+    # Modalità: per ETS (inverte il flusso)
+    if args.per_ets:
+        slug = "per-ets"
+        candidati = esporta_per_ets(scan, top_bandi=args.top)
+        print(f"📋 {len(candidati)} righe: {len(set(c['ets_cf'] for c in candidati))} ETS × top {args.top} bandi")
+        candidati = arricchisci_contatti(candidati, use_enrich=args.enrich)
+        oggi = datetime.now().strftime("%Y%m%d")
+        output = args.output or str(OUTPUT_DIR / f"contatta-{slug}-{oggi}.{args.formato}")
+        if args.formato == "csv":
+            esporta_csv(candidati, output)
+        else:
+            esporta_json(candidati, output)
+        stampa_riepilogo(candidati, per_ets=True)
+        return
+
+    # Modalità: per bando o per CF singolo
+    if not args.bando and not args.cf:
+        parser.print_help()
+        print("\n❌ Specifica --bando, --cf o --per-ets")
+        sys.exit(1)
+
     if args.bando:
         candidati = cerca_per_bando(scan, args.bando, top_n=args.top)
         if not candidati:
             print(f"❌ Nessun bando trovato per: '{args.bando}'")
-            # Suggerisci bandi simili
             suggeriti = [r["titolo"] for r in scan["resultados"] if args.bando.lower() in r["titolo"].lower()]
             if suggeriti:
                 print(f"   Suggerimento: {' | '.join(suggeriti[:5])}")
@@ -253,13 +335,11 @@ def main():
             sys.exit(1)
         slug = f"ets-{args.cf[:8]}"
 
-    # Arricchisci contatti
     print(f"🔍 Arricchisco {len(candidati)} candidati con contatti...")
     candidati = arricchisci_contatti(candidati, use_enrich=args.enrich)
 
-    # Output
     oggi = datetime.now().strftime("%Y%m%d")
-    output = args.output or f"contatta-{slug}-{oggi}.{args.formato}"
+    output = args.output or str(OUTPUT_DIR / f"contatta-{slug}-{oggi}.{args.formato}")
 
     if args.formato == "csv":
         esporta_csv(candidati, output)
