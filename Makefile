@@ -42,8 +42,13 @@ monitor:
 
 # Scheda ETS: profilo completo per debug
 scheda:
-	[ -n "$(CF)$(NOME)" ] || (echo "Usa: make scheda CF=02006180364 [OPZIONI=--anac,--match]" && exit 1)
+	[ -n "$(CF)$(NOME)" ] || (echo "Usa: make scheda CF=02006180364 [OPZIONI=--anac,--match,--benchmark]" && exit 1)
 	python3 match/reports/scheda.py $(if $(CF),--cf "$(CF)",) $(if $(NOME),--nome "$(NOME)",) $(if $(OPZIONI),$(OPZIONI),)
+
+# Report ETS: profilo + benchmark + bandi
+report:
+	[ -n "$(CF)" ] || (echo "Usa: make report CF=02006180364" && exit 1)
+	python3 match/reports/scheda.py --cf "$(CF)" --benchmark --match
 
 # Report 20/80: bandi attivi prioritari per budget+urgenza
 opportunita:
