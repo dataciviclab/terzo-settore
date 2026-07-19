@@ -9,8 +9,13 @@ all: build comuni-ets scan
 anac-temi:
 	python3 ets/enrich_temi.py
 
-# Costruisce l'hub ETS (include temi_anac dalla build precedente)
-build: anac-temi
+# Costruisce la tabella long fatti_ets (uno riga per ETS × fonte × anno)
+fatti-ets:
+	duckdb < ets/build_fatti_ets.sql
+	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/fatti_ets.parquet'\").fetchone(); assert r[0] > 1000000, f'Row count {r[0]} < 1M'; print(f'✅ {r[0]:,} fatti — OK')"
+
+# Costruisce l'hub ETS: fatti_ets → PIVOT + geografia + temi ANAC
+build: fatti-ets anac-temi
 	duckdb < ets/build_unified_ets.sql
 	rm -f data/temi_anac.parquet
 	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/unified_ets.parquet'\").fetchone(); assert 140000 < r[0] < 160000, f'Row count {r[0]} fuori range'; print(f'✅ {r[0]} ETS — integrità OK')"
