@@ -55,7 +55,7 @@ anac AS (
            bg.flag_pnrr
     FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
     JOIN read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
-      ON a.cig = ag.cig
+      ON a.id_aggiudicazione = ag.id_aggiudicazione
     LEFT JOIN bandi_gara bg ON a.cig = bg.cig
     WHERE a.codice_fiscale IS NOT NULL AND a.codice_fiscale != ''
       AND ag.importo_aggiudicazione > 0
