@@ -72,6 +72,57 @@ def scheda_base(row):
     return row['codice_fiscale']
 
 
+def benchmark_ets(cf, con):
+    """Benchmark: percentile dell'ETS rispetto a ETS simili."""
+    print(f"\n{'─'*60}")
+    print(f"📊 BENCHMARK")
+    print(f"{'─'*60}")
+
+    # Trova sezione di questo ETS
+    info = con.sql(f"""
+        SELECT sezione, provincia, importo_5x1000_2025, numero_appalti,
+               ha_finanziamenti_ue, ha_appalti_pubblici
+        FROM '{ETS_FILE}'
+        WHERE codice_fiscale = '{cf}'
+    """).fetchdf()
+    if info.empty:
+        print("   ❌ ETS non trovato")
+        return
+    row = info.iloc[0]
+    sezione = row["sezione"]
+    prov = row["provincia"]
+
+    print(f"   Confronto con altri ETS della stessa sezione ({sezione})")
+
+    # Percentili nazionali per sezione
+    stats = con.sql(f"""
+        SELECT 
+            ROUND(PERCENT_RANK() OVER (ORDER BY importo_5x1000_2025 DESC NULLS LAST) * 100, 0) as pct_5x1000,
+            ROUND(PERCENT_RANK() OVER (ORDER BY numero_appalti DESC) * 100, 0) as pct_appalti
+        FROM '{ETS_FILE}'
+        WHERE sezione = '{sezione}' AND codice_fiscale = '{cf}'
+    """).fetchdf()
+    if not stats.empty:
+        s = stats.iloc[0]
+        p5 = s['pct_5x1000']
+        pa = s['pct_appalti']
+        print(f"   • 5x1000:      {'top' if p5 < 10 else 'oltre il'} {max(p5, 1):.0f}% — {fmt_euro(row['importo_5x1000_2025'])}")
+        print(f"   • Appalti:     {'top' if pa < 10 else 'oltre il'} {max(pa, 1):.0f}% — {row['numero_appalti']} gare")
+
+    # Presenza/assenza segnali
+    print()
+    print(f"   Segnali di capacità:")
+    signals = [
+        ("5x1000", row["importo_5x1000_2025"] and row["importo_5x1000_2025"] > 0),
+        ("Grant UE", row["ha_finanziamenti_ue"]),
+        ("Appalti ANAC", row["ha_appalti_pubblici"]),
+    ]
+    presenti = sum(1 for _, v in signals if v)
+    for nome, presente in signals:
+        print(f"   {'✅' if presente else '⬜'} {nome}")
+    print(f"   {presenti}/{len(signals)} segnali presenti")
+
+
 def scheda_anac(cf, con):
     """Dettaglio ANAC: aggiudicazioni e partecipazioni."""
     print(f"\n{'─'*60}")
@@ -179,6 +230,7 @@ def main():
     parser.add_argument("--nome", help="Nome ETS (ricerca LIKE)")
     parser.add_argument("--anac", action="store_true", help="Mostra dettaglio ANAC")
     parser.add_argument("--match", action="store_true", help="Mostra bandi matchati")
+    parser.add_argument("--benchmark", action="store_true", help="Mostra benchmark vs ETS simili")
     args = parser.parse_args()
 
     if not args.cf and not args.nome:
@@ -198,6 +250,8 @@ def main():
             print(f"# RISULTATO {idx+1}/{len(rows)}")
             print(f"{'#'*60}")
         cf = scheda_base(row)
+        if args.benchmark:
+            benchmark_ets(cf, con)
         if args.anac:
             scheda_anac(cf, con)
         if args.match:
