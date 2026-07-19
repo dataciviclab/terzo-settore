@@ -68,6 +68,8 @@ def scheda_base(row):
     print(f"   Aiuti Stato:      {'✅' if row.get('ha_aiuti_stato') else '❌'} {fmt_euro(row.get('importo_aiuti_stato'))}")
     print(f"   PNRR:             {'✅' if row.get('ha_progetti_pnrr') else '❌'} {fmt_euro(row.get('importo_pnrr'))}")
     print(f"   Appalti ANAC:     {'✅' if row.get('ha_appalti_pubblici') else '❌'} {fmt_euro(row.get('importo_appalti'))}")
+    print(f"   Appalti riservati: {int(row.get('appalti_riservati', 0))}")
+    print(f"   Appalti PNRR:     {int(row.get('appalti_pnrr', 0))}")
     print(f"   Temi ANAC:        {row.get('temi_anac', '') or 'nessuno'}")
     return row['codice_fiscale']
 
@@ -160,6 +162,32 @@ def scheda_anac(cf, con):
     """).fetchdf()
     n_part = int(r2['n_partecipazioni'].iloc[0]) if not r2.empty else 0
     print(f"   Partecipazioni 2026: {'✅' if n_part > 0 else '❌'} {n_part}")
+
+    # Contratti recenti con oggetto (da fatti_ets arricchito)
+    r3 = con.sql(f"""
+        SELECT anno, importo, oggetto_gara, stazione_appaltante, appalto_riservato, flag_pnrr
+        FROM 'data/fatti_ets.parquet'
+        WHERE cf = '{cf}' AND fonte = 'anac' AND oggetto_gara IS NOT NULL
+        ORDER BY anno DESC NULLS LAST, importo DESC
+        LIMIT 5
+    """).fetchdf()
+    if not r3.empty:
+        print(f"\n   📋 Contratti recenti (con oggetto):")
+        print(f"   {'Anno':>4s} {'Importo':>12s} {'Riservato':>3s} {'PNRR':>3s}  Stazione appaltante")
+        print(f"   {'─'*4} {'─'*12} {'─'*3} {'─'*3}  {'─'*30}")
+        for _, r3row in r3.iterrows():
+            ar = r3row.get('appalto_riservato')
+            ris = '✓' if isinstance(ar, str) and ar not in ('', 'LA PARTECIPAZIONE NON È RISERVATA.') else ''
+            pnrr = '✓' if isinstance(r3row.get('flag_pnrr'), bool) and r3row['flag_pnrr'] else ''
+            imp = f"€{float(r3row['importo']):>12,.0f}"
+            sa = (r3row['stazione_appaltante'] or '')[:35]
+            anno = int(r3row['anno']) if r3row['anno'] else 0
+            print(f"   {anno:>4d} {imp} {ris:>3s} {pnrr:>3s}  {sa}")
+        print(f"\n   Oggetti:")
+        for _, r3row in r3.iterrows():
+            oggetto = (r3row.get('oggetto_gara', '') or '')[:120]
+            if oggetto:
+                print(f"   • {oggetto}")
 
     # Fatturato reale (da reportaziende)
     print(f"\n   📌 Fatturato reale (da camera di commercio):")

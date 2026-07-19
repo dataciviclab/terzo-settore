@@ -46,7 +46,8 @@ def _carica_ets_cache():
     df = con.sql(f"""
         SELECT codice_fiscale, denominazione, comune, provincia, sezione,
                capacita_progettuale, importo_5x1000_2025,
-               ha_finanziamenti_ue, ha_progetti_pnrr
+               ha_finanziamenti_ue, ha_progetti_pnrr,
+               appalti_riservati, appalti_pnrr
         FROM '{ETS_FILE.as_posix()}'
     """).fetchdf()
     con.close()
@@ -60,6 +61,8 @@ def _carica_ets_cache():
             "provincia": str(row.get("provincia", "") or ""),
             "sezione": str(row.get("sezione", "") or ""),
             "capacita": str(row.get("capacita_progettuale", "") or ""),
+            "appalti_riservati": int(row.get("appalti_riservati", 0) or 0),
+            "appalti_pnrr": int(row.get("appalti_pnrr", 0) or 0),
             "email": "", "sito": "", "telefono": "",
         }
     return _ETS_CACHE
@@ -135,6 +138,8 @@ def arricchisci_contatti(candidati, use_enrich=False):
         info = contatti_da_unified(cf)
         cand["ets_comune"] = info.get("comune", cand.get("comune", ""))
         cand["ets_provincia"] = info.get("provincia", cand.get("provincia", ""))
+        cand["ets_appalti_riservati"] = info.get("appalti_riservati", 0)
+        cand["ets_appalti_pnrr"] = info.get("appalti_pnrr", 0)
         cand["ets_email"] = info.get("email", "")
         cand["ets_sito"] = info.get("sito", "")
         cand["ets_telefono"] = info.get("telefono", "")
@@ -224,6 +229,8 @@ def esporta_per_ets(scan, top_bandi=5):
                 "ets_comune": info.get("comune", ""),
                 "ets_provincia": info.get("provincia", ""),
                 "ets_capacita": info.get("capacita", ""),
+                "ets_appalti_riservati": info.get("appalti_riservati", 0),
+                "ets_appalti_pnrr": info.get("appalti_pnrr", 0),
                 "ets_email": "",
                 "ets_sito": "",
                 "ets_telefono": "",

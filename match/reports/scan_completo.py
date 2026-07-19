@@ -209,8 +209,23 @@ def report_territorio(scan, con, territorio: str, comune: str = None):
         pass
     scrivi(out, "")
 
+    # ETS con appalti riservati
+    riservati = con.sql(f"""
+        SELECT denominazione, comune, appalti_riservati, appalti_pnrr
+        FROM 'data/unified_ets.parquet' {where}
+          AND appalti_riservati > 0
+        ORDER BY appalti_riservati DESC LIMIT 10
+    """).fetchdf()
+    if not riservati.empty:
+        scrivi(out, "## 4. 📋 ETS con appalti riservati")
+        scrivi(out, "")
+        for _, r in riservati.iterrows():
+            pnrr = f" — PNRR: {int(r['appalti_pnrr'])}" if r['appalti_pnrr'] > 0 else ""
+            scrivi(out, f"  · **{r['denominazione'][:50]}** — {r['comune']} — {int(r['appalti_riservati'])} riservati{pnrr}")
+        scrivi(out, "")
+
     # Top ETS
-    scrivi(out, "## 4. 🏆 Top ETS per capacità progettuale")
+    scrivi(out, "## 5. 🏆 Top ETS per capacità progettuale")
     scrivi(out, "")
     top = con.sql(f"""
         SELECT denominazione, comune, capacita_progettuale, importo_5x1000_2025
@@ -226,7 +241,7 @@ def report_territorio(scan, con, territorio: str, comune: str = None):
 
     # ANAC appalti
     if comune:
-        scrivi(out, "## 5. 📊 ETS con appalti pubblici (ANAC)")
+        scrivi(out, "## 6. 📊 ETS con appalti pubblici (ANAC)")
         scrivi(out, "")
         df = con.sql(f"""
             SELECT denominazione, capacita_progettuale, ha_appalti_pubblici,
@@ -243,7 +258,7 @@ def report_territorio(scan, con, territorio: str, comune: str = None):
             scrivi(out, "_Nessun ETS con appalti pubblici._")
         scrivi(out, "")
 
-        scrivi(out, "## 6. 📍 Gap nei comuni limitrofi")
+        scrivi(out, "## 7. 📍 Gap nei comuni limitrofi")
         scrivi(out, "")
         df = con.sql(f"""
             SELECT comune, provincia, ets_tot, ets_matchabili as ets_ok, appalti_riservati, rd_pct, reddito_procapite,
