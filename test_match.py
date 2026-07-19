@@ -54,17 +54,17 @@ def main():
 
         match_condition = f"(regexp_matches(lower(denominazione), '{pattern}')"
         if is_sport_tags(tags):
-            match_condition += " OR flag_sport_denom"
+            match_condition += " OR ha_sport_in_denominazione"
         match_condition += ")"
         sql = f"""
             SELECT COUNT(*) as cnt
             FROM '{ETS_FILE}'
             WHERE {match_condition}
               AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
-                   OR ha_appalti = true
+                   OR ha_appalti_pubblici = true
                    OR ha_5x1000 = true
-                   OR ha_grant_ue = true
-                   OR ha_pnrr = true)
+                   OR ha_finanziamenti_ue = true
+                   OR ha_progetti_pnrr = true)
         """
         result = con.sql(sql).fetchone()[0]
 
@@ -81,11 +81,11 @@ def main():
                 FROM '{ETS_FILE}'
                 WHERE {match_condition}
                   AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
-                   OR ha_appalti = true
+                   OR ha_appalti_pubblici = true
                    OR ha_5x1000 = true
-                   OR ha_grant_ue = true
-                   OR ha_pnrr = true)
-                ORDER BY cinque_2025 DESC NULLS LAST
+                   OR ha_finanziamenti_ue = true
+                   OR ha_progetti_pnrr = true)
+                ORDER BY importo_5x1000_2025 DESC NULLS LAST
                 LIMIT 2
             """).fetchdf()
             for _, r in top.iterrows():
@@ -100,7 +100,7 @@ def main():
     """).fetchone()[0]
     old_behavior = con.sql(f"""
         SELECT COUNT(*) FROM '{ETS_FILE}'
-        WHERE (regexp_matches(lower(denominazione), '{digitale_pattern}') OR flag_sport_denom)
+        WHERE (regexp_matches(lower(denominazione), '{digitale_pattern}') OR ha_sport_in_denominazione)
           AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
     """).fetchone()[0]
     if old_behavior <= regex_only:
@@ -152,16 +152,16 @@ def main():
             pattern = get_pattern_from_tags(entry["tags"])
             match_condition = f"(regexp_matches(lower(denominazione), '{pattern}')"
             if is_sport_tags(entry["tags"]):
-                match_condition += " OR flag_sport_denom"
+                match_condition += " OR ha_sport_in_denominazione"
             match_condition += ")"
             count = con.sql(f"""
                 SELECT COUNT(*) FROM '{ETS_FILE}'
                 WHERE {match_condition}
                   AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
-                   OR ha_appalti = true
+                   OR ha_appalti_pubblici = true
                    OR ha_5x1000 = true
-                   OR ha_grant_ue = true
-                   OR ha_pnrr = true)
+                   OR ha_finanziamenti_ue = true
+                   OR ha_progetti_pnrr = true)
             """).fetchone()[0]
 
             atteso = entry["atteso"]

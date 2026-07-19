@@ -51,7 +51,7 @@ def genera_report(bandi, resultados, sin_match, skipped, stats_ets):
             scrivi(lines, "| ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |")
             scrivi(lines, "|-----|--------|------|----------|-------|--------|-------------|")
             for c in r["candidati"]:
-                cinque = fmt_euro(c.get("cinque_2025"))
+                cinque = fmt_euro(c.get("importo_5x1000_2025"))
                 comune = fmt_text(c.get("comune"), "")[:20]
                 provincia = fmt_text(c.get("provincia"))
                 scrivi(
@@ -75,7 +75,7 @@ def genera_report(bandi, resultados, sin_match, skipped, stats_ets):
             scrivi(lines, f"- **Tag**: {fmt_tags(r['tags'])}")
             scrivi(lines, "")
             for c in r["candidati"]:
-                cinque = fmt_euro(c.get("cinque_2025"))
+                cinque = fmt_euro(c.get("importo_5x1000_2025"))
                 comune = fmt_text(c.get("comune"), "")
                 provincia = fmt_text(c.get("provincia"))
                 scrivi(
@@ -159,7 +159,7 @@ def main():
                             "sezione": cand.get("sezione"),
                             "score": int(cand.get("score", 0)),
                             "motivo": fmt_match_reason(cand),
-                            "cinque_2025": cand.get("cinque_2025"),
+                            "importo_5x1000_2025": cand.get("importo_5x1000_2025"),
                         }
                         for cand in r["candidati"]
                     ],

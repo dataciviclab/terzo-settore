@@ -50,10 +50,10 @@ if __name__ == "__main__":
         provincia = sys.argv[sys.argv.index("--candidates") + 1]
         r = con.sql(f"""
             SELECT codice_fiscale, denominazione, comune, provincia, sezione, capacita_progettuale,
-                   cinque_2025, ha_grant_ue, ha_aiuti_stato
+                   importo_5x1000_2025, ha_finanziamenti_ue, ha_aiuti_stato
             FROM 'data/unified_ets.parquet'
             WHERE provincia = '{provincia}' AND capacita_progettuale IN ('medio-alta', 'alta')
-            ORDER BY cinque_2025 DESC NULLS LAST LIMIT 20
+            ORDER BY importo_5x1000_2025 DESC NULLS LAST LIMIT 20
         """).fetchdf()
         ets_list = r.to_dict("records")
 

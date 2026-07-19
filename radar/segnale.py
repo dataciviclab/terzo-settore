@@ -104,7 +104,7 @@ def report(territorio: str, comune: str = None):
             scrivi(out, f"- **Tag**: {fmt_tags(r['tags'])}")
             scrivi(out, "")
             for c in candidati_locali[:5]:
-                cinque = fmt_euro(c.get("cinque_2025"))
+                cinque = fmt_euro(c.get("importo_5x1000_2025"))
                 cap = c.get("capacita", c.get("capacita_progettuale", "?"))
                 scrivi(out, f"  · **{cap}** {c['denominazione'][:50]} "
                        f"— {fmt_text(c.get('comune'), '')} — score {int(c.get('score', 0))}, "
@@ -152,15 +152,15 @@ def report(territorio: str, comune: str = None):
     scrivi(out, "## 4. 🏆 Top ETS per capacità progettuale")
     scrivi(out, "")
     top = con.sql(f"""
-        SELECT codice_fiscale, denominazione, comune, capacita_progettuale, cinque_2025
+        SELECT codice_fiscale, denominazione, comune, capacita_progettuale, importo_5x1000_2025
         FROM 'data/unified_ets.parquet'
         {where} AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
-        ORDER BY cinque_2025 DESC NULLS LAST
+        ORDER BY importo_5x1000_2025 DESC NULLS LAST
         LIMIT 10
     """).fetchdf()
     if not top.empty:
         for _, r in top.iterrows():
-            cinque = fmt_euro(r.get("cinque_2025"))
+            cinque = fmt_euro(r.get("importo_5x1000_2025"))
             scrivi(out, f"  · **{r['capacita_progettuale']}** {r['denominazione'][:50]} — {r['comune']} — 5x1000: {cinque}")
     scrivi(out, "")
 
@@ -169,12 +169,12 @@ def report(territorio: str, comune: str = None):
         scrivi(out, "## 5. 📊 ETS con appalti pubblici (ANAC)")
         scrivi(out, "")
         appalti = con.sql(f"""
-            SELECT denominazione, capacita_progettuale, ha_grant_ue, ha_pnrr,
-                   CASE WHEN ha_appalti THEN 'SI' ELSE 'NO' END as ha_appalti,
+            SELECT denominazione, capacita_progettuale, ha_finanziamenti_ue, ha_progetti_pnrr,
+                   CASE WHEN ha_appalti_pubblici THEN 'SI' ELSE 'NO' END as ha_appalti_pubblici,
                    ROUND(importo_appalti, 0) as importo
             FROM 'data/unified_ets.parquet'
             WHERE UPPER(comune) = '{comune.upper()}'
-              AND ha_appalti = true
+              AND ha_appalti_pubblici = true
             ORDER BY importo DESC
             LIMIT 10
         """).fetchdf()

@@ -125,7 +125,7 @@ def load_ets(con):
     print("📥 Carico ETS...")
     df = con.sql(f"""
         SELECT TRIM(comune) as c, provincia, sezione, capacita_progettuale,
-               ha_grant_ue, ha_pnrr, flag_sport_denom,
+               ha_finanziamenti_ue, ha_progetti_pnrr, ha_sport_in_denominazione,
                CASE WHEN capacita_progettuale IN ('media','medio-alta','alta') THEN 1 ELSE 0 END as matchabile,
                CASE WHEN capacita_progettuale = 'alta' THEN 1 ELSE 0 END as capacita_alta,
                CASE WHEN capacita_progettuale = 'medio-alta' THEN 1 ELSE 0 END as capacita_medio_alta,
@@ -164,9 +164,9 @@ def load_ets(con):
         agg[norm]["enti_filantropici"] += int(r["enti_filantropici"])
         agg[norm]["altri_enti"] += int(r["altri_enti"])
         agg[norm]["sms"] += int(r["sms"])
-        agg[norm]["con_grant_ue"] += 1 if r["ha_grant_ue"] else 0
-        agg[norm]["con_pnrr"] += 1 if r["ha_pnrr"] else 0
-        agg[norm]["sport"] += 1 if r["flag_sport_denom"] else 0
+        agg[norm]["con_grant_ue"] += 1 if r["ha_finanziamenti_ue"] else 0
+        agg[norm]["con_pnrr"] += 1 if r["ha_progetti_pnrr"] else 0
+        agg[norm]["sport"] += 1 if r["ha_sport_in_denominazione"] else 0
     
     return agg
 

@@ -53,15 +53,15 @@ TERRITORY_KEYWORDS = {
 
 MATCH_ETS_SQL = """
     SELECT e.codice_fiscale, e.denominazione, e.comune, e.provincia, e.capacita_progettuale,
-           cinque_2025, flag_sport_denom, sezione,
-           ha_grant_ue, ha_pnrr, ha_appalti, n_appalti, importo_appalti,
+           importo_5x1000_2025, ha_sport_in_denominazione, sezione,
+           ha_finanziamenti_ue, ha_progetti_pnrr, ha_appalti_pubblici, numero_appalti, importo_appalti,
             COALESCE(ta.temi_anac, '') as temi_anac,
            CASE
-             WHEN {match_tema} AND flag_sport_denom AND {sez_match_bool} THEN 'tema+sport+sezione'
-             WHEN {match_tema} AND flag_sport_denom THEN 'tema+sport'
+             WHEN {match_tema} AND ha_sport_in_denominazione AND {sez_match_bool} THEN 'tema+sport+sezione'
+             WHEN {match_tema} AND ha_sport_in_denominazione THEN 'tema+sport'
              WHEN {match_tema} AND {sez_match_bool} THEN 'tema+sezione'
              WHEN {match_tema} THEN 'tema'
-             WHEN flag_sport_denom THEN 'sport'
+             WHEN ha_sport_in_denominazione THEN 'sport'
              WHEN {sez_match_bool} THEN 'sezione'
              ELSE 'match'
            END AS motivo_match,
@@ -71,19 +71,19 @@ MATCH_ETS_SQL = """
              -- Match per sezione (0-25)
              + CASE WHEN {sez_match_bool} THEN 25 ELSE 0 END
              -- Sport bonus (0-15)
-             + CASE WHEN flag_sport_denom AND {sport_bonus} THEN 15 ELSE 0 END
+             + CASE WHEN ha_sport_in_denominazione AND {sport_bonus} THEN 15 ELSE 0 END
              {section_bonus}
              -- Capacità progettuale (0-25)
              + CASE capacita_progettuale
                  WHEN 'alta' THEN 25 WHEN 'medio-alta' THEN 20 WHEN 'media' THEN 10 ELSE 0 END
              -- 5x1000 (0-15)
-             + CASE WHEN cinque_2025 >= 100000 THEN 15 WHEN cinque_2025 >= 10000 THEN 10 WHEN cinque_2025 > 0 THEN 5 ELSE 0 END
+             + CASE WHEN importo_5x1000_2025 >= 100000 THEN 15 WHEN importo_5x1000_2025 >= 10000 THEN 10 WHEN importo_5x1000_2025 > 0 THEN 5 ELSE 0 END
              -- Grant UE (0-8)
-             + CASE WHEN ha_grant_ue THEN 8 ELSE 0 END
+             + CASE WHEN ha_finanziamenti_ue THEN 8 ELSE 0 END
              -- PNRR (0-5)
-             + CASE WHEN ha_pnrr THEN 5 ELSE 0 END
+             + CASE WHEN ha_progetti_pnrr THEN 5 ELSE 0 END
              -- Appalti ANAC (0-15)
-             + CASE WHEN n_appalti >= 50 THEN 15 WHEN n_appalti >= 20 THEN 12 WHEN n_appalti >= 10 THEN 10 WHEN n_appalti >= 5 THEN 7 WHEN n_appalti >= 1 THEN 5 ELSE 0 END
+             + CASE WHEN numero_appalti >= 50 THEN 15 WHEN numero_appalti >= 20 THEN 12 WHEN numero_appalti >= 10 THEN 10 WHEN numero_appalti >= 5 THEN 7 WHEN numero_appalti >= 1 THEN 5 ELSE 0 END
              -- Impresa Sociale (0-5)
              + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
             ) AS score
@@ -91,12 +91,12 @@ MATCH_ETS_SQL = """
      LEFT JOIN '{temi_anac_file}' ta ON e.codice_fiscale = ta.codice_fiscale
      WHERE {match_condition}
       AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
-           OR ha_appalti = true
+           OR ha_appalti_pubblici = true
            OR ha_5x1000 = true
-           OR ha_grant_ue = true
-           OR ha_pnrr = true)
+           OR ha_finanziamenti_ue = true
+           OR ha_progetti_pnrr = true)
       {province_filter}
-    ORDER BY score DESC, cinque_2025 DESC NULLS LAST
+    ORDER BY score DESC, importo_5x1000_2025 DESC NULLS LAST
     LIMIT {limit}
 """
 
@@ -162,7 +162,7 @@ def fmt_match_reason(c):
     cap = c.get("capacita_progettuale")
     if cap:
         parts.append(f"capacità {cap}")
-    cinque = c.get("cinque_2025")
+    cinque = c.get("importo_5x1000_2025")
     if not is_missing(cinque):
         if cinque >= 100000:
             parts.append("5x1000 >100k")
@@ -170,9 +170,9 @@ def fmt_match_reason(c):
             parts.append("5x1000 >10k")
         elif cinque > 0:
             parts.append("5x1000 presente")
-    if c.get("ha_grant_ue") is True:
+    if c.get("ha_finanziamenti_ue") is True:
         parts.append("grant UE")
-    if c.get("ha_pnrr") is True:
+    if c.get("ha_progetti_pnrr") is True:
         parts.append("PNRR")
     sez = c.get("sezione")
     if sez == "IMPRESE SOCIALI":
@@ -181,7 +181,7 @@ def fmt_match_reason(c):
         parts.append("ODV")
     elif sez == "ASSOCIAZIONI DI PROMOZIONE SOCIALE":
         parts.append("APS")
-    if c.get("ha_appalti") is True:
+    if c.get("ha_appalti_pubblici") is True:
         imp = c.get("importo_appalti", 0)
         if not is_missing(imp) and imp >= 1000000:
             parts.append(f"appalti €{imp:,.0f}")
@@ -353,7 +353,7 @@ def match_bando(con, pattern, tags, limit=10, territorio=None):
     sport_fallback = is_sport_bando(tags)
     parts = []
     if sport_fallback:
-        parts.append("flag_sport_denom")
+        parts.append("ha_sport_in_denominazione")
     if sections:
         parts.append(f"sezione IN ({sezioni_quote})")
     match_condition = " OR ".join(parts) if parts else "1=0"

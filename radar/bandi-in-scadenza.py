@@ -97,7 +97,7 @@ def genera_report(scan, con, filtro_territorio=None, giorni=60):
         lines.append(
             f"  · **{cap}** {c['denominazione'][:55]} "
             f"— {comune} ({provincia}) — score {int(c.get('score', 0))}, "
-            f"{fmt_match_reason(c)} — 5x1000: {fmt_euro(c.get('cinque_2025'))}"
+            f"{fmt_match_reason(c)} — 5x1000: {fmt_euro(c.get('importo_5x1000_2025'))}"
         )
         lines.append("")
 

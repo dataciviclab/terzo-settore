@@ -39,8 +39,8 @@ def contatti_da_unified(cf):
     con = duckdb.connect()
     r = con.sql(f"""
         SELECT denominazione, comune, provincia, sezione,
-               capacita_progettuale, cinque_2025,
-               ha_grant_ue, ha_pnrr
+               capacita_progettuale, importo_5x1000_2025,
+               ha_finanziamenti_ue, ha_progetti_pnrr
         FROM '{ETS_FILE.as_posix()}'
         WHERE codice_fiscale = '{cf}'
     """).fetchdf()
@@ -55,9 +55,9 @@ def contatti_da_unified(cf):
         "provincia": row.get("provincia", ""),
         "sezione": row.get("sezione", ""),
         "capacita": row.get("capacita_progettuale", ""),
-        "cinque_2025": None if (isinstance(row.get("cinque_2025"), float) and math.isnan(row["cinque_2025"])) else row.get("cinque_2025"),
-        "ha_grant_ue": bool(row.get("ha_grant_ue")) if not (isinstance(row.get("ha_grant_ue"), float) and math.isnan(row["ha_grant_ue"])) else False,
-        "ha_pnrr": bool(row.get("ha_pnrr")) if not (isinstance(row.get("ha_pnrr"), float) and math.isnan(row["ha_pnrr"])) else False,
+        "importo_5x1000_2025": None if (isinstance(row.get("importo_5x1000_2025"), float) and math.isnan(row["importo_5x1000_2025"])) else row.get("importo_5x1000_2025"),
+        "ha_finanziamenti_ue": bool(row.get("ha_finanziamenti_ue")) if not (isinstance(row.get("ha_finanziamenti_ue"), float) and math.isnan(row["ha_finanziamenti_ue"])) else False,
+        "ha_progetti_pnrr": bool(row.get("ha_progetti_pnrr")) if not (isinstance(row.get("ha_progetti_pnrr"), float) and math.isnan(row["ha_progetti_pnrr"])) else False,
         "email": "",
         "sito": "",
         "telefono": "",
