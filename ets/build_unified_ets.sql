@@ -36,7 +36,10 @@ fatti_pivot AS (
 
         -- Appalti pubblici ANAC
         COUNT(CASE WHEN fonte = 'anac' THEN 1 END) as numero_appalti,
-        SUM(CASE WHEN fonte = 'anac' THEN importo END) as importo_appalti
+        SUM(CASE WHEN fonte = 'anac' THEN importo END) as importo_appalti,
+        COUNT(CASE WHEN fonte = 'anac' AND appalto_riservato IS NOT NULL AND appalto_riservato != ''
+                    AND appalto_riservato != 'LA PARTECIPAZIONE NON È RISERVATA.' THEN 1 END) as appalti_riservati,
+        COUNT(CASE WHEN fonte = 'anac' AND flag_pnrr = true THEN 1 END) as appalti_pnrr
 
     FROM read_parquet('data/fatti_ets.parquet')
     GROUP BY cf
@@ -83,6 +86,8 @@ SELECT
     CASE WHEN COALESCE(importo_appalti, 0) > 0 THEN TRUE ELSE FALSE END as ha_appalti_pubblici,
     COALESCE(numero_appalti, 0) as numero_appalti,
     COALESCE(importo_appalti, 0) as importo_appalti,
+    COALESCE(appalti_riservati, 0) as appalti_riservati,
+    COALESCE(appalti_pnrr, 0) as appalti_pnrr,
 
     -- Temi ANAC
     COALESCE(ta.temi_anac, '') as temi_anac,
@@ -91,6 +96,7 @@ SELECT
     CASE
         WHEN COALESCE(importo_ue, 0) > 0 THEN 'alta'
         WHEN COALESCE(numero_appalti, 0) >= 10 THEN 'alta'
+        WHEN COALESCE(appalti_riservati, 0) >= 3 THEN 'alta'
         WHEN COALESCE(importo_aiuti_stato, 0) > 0 THEN 'medio-alta'
         WHEN COALESCE(importo_pnrr, 0) > 0 THEN 'medio-alta'
         WHEN COALESCE(numero_appalti, 0) >= 3 THEN 'medio-alta'

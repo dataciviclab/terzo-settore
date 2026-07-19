@@ -38,26 +38,38 @@ pnrr AS (
     SELECT TRIM(cf_soggetto_attuatore) as cf, 2026 as anno, fin_totale as importo
     FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/pnrr_progetti/2026/pnrr_progetti_2026_clean.parquet', union_by_name=true)
 ),
+bandi_gara AS (
+    SELECT * FROM read_parquet([
+        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2023/anac_bandi_gara_2023_clean.parquet',
+        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2024/anac_bandi_gara_2024_clean.parquet',
+        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2025/anac_bandi_gara_2025_clean.parquet'
+    ], union_by_name=true)
+),
 anac AS (
     SELECT a.codice_fiscale as cf,
            EXTRACT(YEAR FROM ag.data_aggiudicazione_definitiva) as anno,
-           ag.importo_aggiudicazione as importo
+           ag.importo_aggiudicazione as importo,
+           COALESCE(bg.oggetto_lotto, bg.oggetto_gara) as oggetto_gara,
+           bg.denominazione_amministrazione_appaltante as stazione_appaltante,
+           bg.TIPO_APPALTO_RISERVATO as appalto_riservato,
+           bg.flag_pnrr
     FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
     JOIN read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
       ON a.cig = ag.cig
+    LEFT JOIN bandi_gara bg ON a.cig = bg.cig
     WHERE a.codice_fiscale IS NOT NULL AND a.codice_fiscale != ''
       AND ag.importo_aggiudicazione > 0
       AND ag.importo_aggiudicazione < 100000000000
       AND EXTRACT(YEAR FROM ag.data_aggiudicazione_definitiva) BETWEEN 2000 AND 2026
 )
-SELECT '5x1000' as fonte, cf, anno, importo FROM cinque WHERE cf IS NOT NULL
+SELECT '5x1000' as fonte, cf, anno, importo, NULL as oggetto_gara, NULL as stazione_appaltante, NULL as appalto_riservato, NULL as flag_pnrr FROM cinque WHERE cf IS NOT NULL
 UNION ALL
-SELECT 'grant_ue', cf, anno, importo FROM fts WHERE cf IS NOT NULL
+SELECT 'grant_ue', cf, anno, importo, NULL, NULL, NULL, NULL FROM fts WHERE cf IS NOT NULL
 UNION ALL
-SELECT 'aiuto_stato', cf, anno, importo FROM rna WHERE cf IS NOT NULL
+SELECT 'aiuto_stato', cf, anno, importo, NULL, NULL, NULL, NULL FROM rna WHERE cf IS NOT NULL
 UNION ALL
-SELECT 'pnrr', cf, anno, importo FROM pnrr WHERE cf IS NOT NULL
+SELECT 'pnrr', cf, anno, importo, NULL, NULL, NULL, NULL FROM pnrr WHERE cf IS NOT NULL
 UNION ALL
-SELECT 'anac', cf, anno, importo FROM anac WHERE cf IS NOT NULL
+SELECT 'anac', cf, anno, importo, oggetto_gara, stazione_appaltante, appalto_riservato, flag_pnrr FROM anac WHERE cf IS NOT NULL
 )
 TO 'data/fatti_ets.parquet' (FORMAT PARQUET);
