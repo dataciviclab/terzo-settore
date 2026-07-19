@@ -39,7 +39,10 @@ fatti_pivot AS (
         SUM(CASE WHEN fonte = 'anac' THEN importo END) as importo_appalti,
         COUNT(CASE WHEN fonte = 'anac' AND appalto_riservato IS NOT NULL AND appalto_riservato != ''
                     AND appalto_riservato != 'LA PARTECIPAZIONE NON È RISERVATA.' THEN 1 END) as appalti_riservati,
-        COUNT(CASE WHEN fonte = 'anac' AND flag_pnrr = true THEN 1 END) as appalti_pnrr
+        COUNT(CASE WHEN fonte = 'anac' AND flag_pnrr = true THEN 1 END) as appalti_pnrr,
+
+        -- Subappalti
+        COUNT(CASE WHEN fonte = 'subappalto' THEN 1 END) as subappalti
 
     FROM read_parquet('data/fatti_ets.parquet')
     GROUP BY cf
@@ -88,6 +91,7 @@ SELECT
     COALESCE(importo_appalti, 0) as importo_appalti,
     COALESCE(appalti_riservati, 0) as appalti_riservati,
     COALESCE(appalti_pnrr, 0) as appalti_pnrr,
+    COALESCE(subappalti, 0) as subappalti,
 
     -- Temi ANAC
     COALESCE(ta.temi_anac, '') as temi_anac,
