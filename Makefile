@@ -38,6 +38,11 @@ contatta:
 monitor:
 	python3 -m tsi.monitor.fonti
 
+# Scheda ETS: profilo completo per debug
+scheda:
+	[ -n "$(CF)$(NOME)" ] || (echo "Usa: make scheda CF=02006180364 [OPZIONI=--anac,--match]" && exit 1)
+	python3 radar/scheda.py $(if $(CF),--cf "$(CF)",) $(if $(NOME),--nome "$(NOME)",) $(if $(OPZIONI),$(OPZIONI),)
+
 # Report 20/80: bandi attivi prioritari per budget+urgenza
 opportunita:
 	python3 radar/opportunita.py $(if $(TOP),--top $(TOP),) $(if $(TAG),--tag $(TAG),)

@@ -92,6 +92,7 @@ pnrr AS (
 
 anac AS (
     SELECT a.codice_fiscale as cf,
+           COUNT(DISTINCT a.cig) as n_appalti,
            ROUND(SUM(ag.importo_aggiudicazione), 0) as importo_appalti
     FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
     JOIN read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
@@ -142,6 +143,7 @@ SELECT
 
     -- Appalti pubblici ANAC
     CASE WHEN COALESCE(anac.importo_appalti, 0) > 0 THEN TRUE ELSE FALSE END as ha_appalti,
+    COALESCE(anac.n_appalti, 0) as n_appalti,
     COALESCE(anac.importo_appalti, 0) as importo_appalti,
 
     -- Indicatore composito di capacità
@@ -149,14 +151,18 @@ SELECT
     -- Medio-alta: aiuti stato o PNRR (progetti co-finanziati)
     -- Media: 5x1000 pluriennale (>=3 anni) o singolo >10k
     -- Base: 5x1000 (almeno una donazione) o Impresa Sociale (per statuto)
+    -- ANAC contribuisce alla capacità
     CASE 
         WHEN COALESCE(f.grant_ue_totale, 0) > 0 THEN 'alta'
+        WHEN COALESCE(anac.n_appalti, 0) >= 10 THEN 'alta'
         WHEN COALESCE(rna.aiuti_stato_totale, 0) > 0 THEN 'medio-alta'
         WHEN COALESCE(pnrr.pnrr_totale, 0) > 0 THEN 'medio-alta'
+        WHEN COALESCE(anac.n_appalti, 0) >= 3 THEN 'medio-alta'
         WHEN COALESCE(c.cinque_2025, 0) > 10000 THEN 'media'
         WHEN COALESCE(c.cinque_anni, 0) >= 3 AND COALESCE(c.cinque_2025, 0) > 0 THEN 'media'
+        WHEN COALESCE(anac.n_appalti, 0) >= 1 THEN 'media'
         WHEN COALESCE(c.cinque_2025, 0) > 0 THEN 'base'
-        WHEN r.sezione = 'IMPRESE SOCIALI' THEN 'base'
+        WHEN r.sezione = 'IMPRESI SOCIALI' THEN 'base'
         ELSE 'sconosciuta'
     END as capacita_progettuale
 

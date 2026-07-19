@@ -71,7 +71,7 @@ TERRITORY_KEYWORDS = {
 MATCH_ETS_SQL = """
     SELECT codice_fiscale, denominazione, comune, provincia, capacita_progettuale,
            cinque_2025, flag_sport_denom, sezione,
-           ha_grant_ue, ha_pnrr, ha_appalti, importo_appalti,
+           ha_grant_ue, ha_pnrr, ha_appalti, n_appalti, importo_appalti,
            COALESCE(temi_anac, '') as temi_anac,
            CASE
              WHEN {match_tema} AND flag_sport_denom AND {sez_match_bool} THEN 'tema+sport+sezione'
@@ -100,7 +100,7 @@ MATCH_ETS_SQL = """
              -- PNRR (0-5)
              + CASE WHEN ha_pnrr THEN 5 ELSE 0 END
              -- Appalti ANAC (0-15)
-             + CASE WHEN importo_appalti >= 10000000 THEN 15 WHEN importo_appalti >= 1000000 THEN 10 WHEN importo_appalti >= 100000 THEN 7 WHEN ha_appalti THEN 5 ELSE 0 END
+             + CASE WHEN n_appalti >= 50 THEN 15 WHEN n_appalti >= 20 THEN 12 WHEN n_appalti >= 10 THEN 10 WHEN n_appalti >= 5 THEN 7 WHEN n_appalti >= 1 THEN 5 ELSE 0 END
              -- Impresa Sociale (0-5)
              + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
            ) AS score
