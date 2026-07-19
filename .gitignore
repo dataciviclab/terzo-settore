@@ -7,3 +7,5 @@ data/enrich/
 data/enriched_candidates.json
 contatta-*.csv
 contatta-*.json
+data/report-diagnostica.json
+data/temi_anac.parquet

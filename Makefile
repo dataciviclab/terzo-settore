@@ -13,6 +13,7 @@ anac-temi:
 # Costruisce l'hub ETS (include temi_anac dalla build precedente)
 build: anac-temi
 	duckdb < sql/build_unified_ets.sql
+	rm -f data/temi_anac.parquet
 	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/unified_ets.parquet'\").fetchone(); assert 140000 < r[0] < 160000, f'Row count {r[0]} fuori range'; print(f'✅ {r[0]} ETS — integrità OK')"
 
 # Scan completo: bandi → match → report
