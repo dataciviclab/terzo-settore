@@ -33,7 +33,7 @@ chi eroga e chi può ricevere. Questo strumento prova a ridurre quel gap.
 | "Bandi urgenti questa settimana" | `make latest` | Bandi in scadenza + TOP opportunità |
 | "Bando BPER sport inclusivo" | `make contatta B="BPER" ENRICH=1` | 10 ETS sportivi con telefono e sito |
 | "Comune X ha pochi ETS?" | `make segnale T=MI C=Abbiategrasso` | Landscape ETS + gap sociali |
-| "Questo ETS a quali bandi può candidarsi?" | `python3 radar/contatta.py --cf 90081250632` | Bandi matchati con score |
+| "Questo ETS a quali bandi può candidarsi?" | `python3 match/reports/contatta.py --cf 90081250632` | Bandi matchati con score |
 | "Tutto pronto per lunedì" | `make lunedi` | Scan + CSV RIZA/UEFA/BPER |
 
 ## Numeri chiave (funnel)
@@ -94,27 +94,44 @@ I contatti arrivano da **Google Places** (opzionale, serve API key).
 
 ## Architettura
 
+Il codice è organizzato in 3 layer, uno per fase della pipeline:
+
 ```
 data/
-  unified_ets.parquet          Hub ETS: capacità, contatti, flags
-  comuni_ets.parquet           Metriche territoriali (ETS + ANAC + RdC)
-  bandi/                       Cache bandi (3 fonti, deduplicati)
+  unified_ets.parquet         Hub ETS: capacità, profili, temi (25 colonne)
+  comuni_ets.parquet          Metriche territoriali (ETS + ANAC + RdC)
+  bandi/*.json                Cache bandi (3 fonti, deduplicati)
 
-radar/
-  core.py                      Motore matching e scoring
-  scan_completo.py             Scan unico → cache JSON
-  bandi-in-scadenza.py         Bandi urgenti + TOP opportunità
-  segnale.py                   Report per territorio
-  contatta.py                  CSV contatti
+bandi/                        ← Acquisizione bandi
+  infobandi.py                → data/bandi/infobandi_bandi.json
+  info_cooperazione.py        → data/bandi/info_cooperazione_bandi.json
+  indicebandi.py              → data/bandi/indicebandi_bandi.json
 
-aggregatori/bandi/
-  infobandi.py                 → data/bandi/infobandi_bandi.json
-  info_cooperazione.py         → data/bandi/info_cooperazione_bandi.json
-  indicebandi.py               → data/bandi/indicebandi_bandi.json
+ets/                          ← Costruzione anagrafe ETS
+  build_unified_ets.sql       Incrocia RUNTS + 5x1000 + FTS + RNA + PNRR + ANAC
+  enrich_temi.py              NLP su oggetti ANAC → temi_anac
+  comuni.py                   Metriche aggregate per comune
+  match_ets.sql               Template SQL per il matching (condiviso)
 
-sql/
-  build_unified_ets.sql        Costruisce anagrafe ETS
-  build_comuni_ets.py          Metriche territoriali
+match/                        ← Matching bandi ↔ ETS
+  matcher.py                  Motore: match_bando, classify_bando, normalise
+  pipeline.py                 Orchestrazione: load_bandi, elabora_bando, run_scan
+  reports/
+    contatta.py               CSV contatti con telefono/sito
+    segnale.py                Report per territorio
+    scheda.py                 Profilo singolo ETS
+    scadenza.py               Bandi urgenti + TOP opportunità
+    scan_completo.py          Scan unico → cruscotto/radar-completo.json/md
+
+lib/                          ← Utility condivise
+  config.py                   Path, soglie, geografia, date utils
+  temi.py                     Keyword → tag tematici, sezioni RUNTS
+  format.py                   Formattazione risultati (fmt_euro, fmt_match_reason...)
+  html_utils.py               Fallback HTML per budget e testo NLP
+  places.py                   Google Places enrichment
+
+tests/
+  test_match.py               Test matching: pattern, gold set, sezione, geografia
 ```
 
 ## Fonti dati

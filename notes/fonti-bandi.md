@@ -47,6 +47,15 @@ Score medio: 112 (range 90-138)
 Budget:      11/46 bandi con budget noto, €35M totali
 ```
 
+## Note operative
+
+Gli scraper sono in `bandi/`, ognuno produce un JSON in `data/bandi/`.
+Il Makefile ha target specifici (`make bandi-infobandi`, `make bandi-info-coop`,
+`make bandi-indicebandi`) e `make bandi` per tutti e tre.
+
+Il matching è in `match/matcher.py`, orchestrato da `match/pipeline.py`.
+I report sono in `match/reports/`.
+
 ## Da fare / miglioramenti
 
 - [ ] Budget: parsare da pagina singola IndiceBandi (--full option già esiste)
