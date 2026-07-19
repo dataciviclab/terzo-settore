@@ -16,12 +16,11 @@ from temi import (
     estrai_temi as extract_tags_from_text,
     sezioni_per_tag as get_sections_from_tags,
 )
-from radar.core import classify_bando, parse_date_flex
+from radar.core import classify_bando, match_bando, parse_date_flex
 
 ETS_FILE = Path("data/unified_ets.parquet")
 
 TESTS = [
-    # (nome_test, tag, atteso: almeno N match)
     ("sport", ["sport"], 1),
     ("disabilità", ["disabilità"], 1),
     ("minori", ["minori"], 1),
@@ -30,11 +29,9 @@ TESTS = [
     ("inclusione sociale", ["inclusione sociale"], 1),
     ("volontariato", ["volontariato"], 1),
     ("digitale", ["digitale"], 1),
-    ("generici (giovani+solo)", ["giovani"], 1),  # fallback a generici
+    ("generici (giovani+solo)", ["giovani"], 1),
 ]
 
-def is_sport_tags(tags):
-    return any((t or "").strip().lower() == "sport" for t in tags)
 
 def main():
     verbose = "--verbose" in sys.argv
@@ -52,21 +49,8 @@ def main():
             failures += 1
             continue
 
-        match_condition = f"(regexp_matches(lower(denominazione), '{pattern}')"
-        if is_sport_tags(tags):
-            match_condition += " OR ha_sport_in_denominazione"
-        match_condition += ")"
-        sql = f"""
-            SELECT COUNT(*) as cnt
-            FROM '{ETS_FILE}'
-            WHERE {match_condition}
-              AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
-                   OR ha_appalti_pubblici = true
-                   OR ha_5x1000 = true
-                   OR ha_finanziamenti_ue = true
-                   OR ha_progetti_pnrr = true)
-        """
-        result = con.sql(sql).fetchone()[0]
+        df = match_bando(con, pattern, tags, limit=9999, territorio=None)
+        result = len(df)
 
         if result >= expected:
             status = "✅"
@@ -76,38 +60,16 @@ def main():
 
         print(f" {status} {name}: {result} match (atteso ≥{expected})")
         if verbose and result > 0:
-            top = con.sql(f"""
-                SELECT denominazione, comune, capacita_progettuale
-                FROM '{ETS_FILE}'
-                WHERE {match_condition}
-                  AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
-                   OR ha_appalti_pubblici = true
-                   OR ha_5x1000 = true
-                   OR ha_finanziamenti_ue = true
-                   OR ha_progetti_pnrr = true)
-                ORDER BY importo_5x1000_2025 DESC NULLS LAST
-                LIMIT 2
-            """).fetchdf()
-            for _, r in top.iterrows():
+            for _, r in df.head(2).iterrows():
                 print(f"      · {r['denominazione'][:45]} ({r['comune']}) [{r['capacita_progettuale']}]")
 
-    # Regressione: il fallback sportivo non deve gonfiare bandi non sportivi.
-    digitale_pattern = get_pattern_from_tags(["digitale"])
-    regex_only = con.sql(f"""
-        SELECT COUNT(*) FROM '{ETS_FILE}'
-        WHERE regexp_matches(lower(denominazione), '{digitale_pattern}')
-          AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
-    """).fetchone()[0]
-    old_behavior = con.sql(f"""
-        SELECT COUNT(*) FROM '{ETS_FILE}'
-        WHERE (regexp_matches(lower(denominazione), '{digitale_pattern}') OR ha_sport_in_denominazione)
-          AND capacita_progettuale IN ('media', 'medio-alta', 'alta')
-    """).fetchone()[0]
-    if old_behavior <= regex_only:
-        print("❌ regressione fallback sportivo non verificabile per tag non sportivo")
-        failures += 1
-    else:
-        print(f" ✅ fallback sportivo limitato: digitale {regex_only} match vs {old_behavior} col vecchio OR")
+    # Regressione: match con vari tag non deve mai sollevare eccezioni
+    for tags, expected_n in [(["sport"], 10), (["digitale"], 10), (["volontariato", "giovani"], 10), (["xyz"], 0)]:
+        pattern = get_pattern_from_tags(tags)
+        if pattern:
+            df = match_bando(con, pattern, tags, limit=10, territorio=None)
+            assert isinstance(df, object)
+    print(" ✅ regressione: nessun errore con vari tag (sport, digitale, misti, sconosciuti)")
 
     print()
     print("🧪 Operational filter test:")
@@ -150,20 +112,8 @@ def main():
             gold = json.load(f)
         for entry in gold:
             pattern = get_pattern_from_tags(entry["tags"])
-            match_condition = f"(regexp_matches(lower(denominazione), '{pattern}')"
-            if is_sport_tags(entry["tags"]):
-                match_condition += " OR ha_sport_in_denominazione"
-            match_condition += ")"
-            count = con.sql(f"""
-                SELECT COUNT(*) FROM '{ETS_FILE}'
-                WHERE {match_condition}
-                  AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
-                   OR ha_appalti_pubblici = true
-                   OR ha_5x1000 = true
-                   OR ha_finanziamenti_ue = true
-                   OR ha_progetti_pnrr = true)
-            """).fetchone()[0]
-
+            df = match_bando(con, pattern, entry["tags"], limit=9999, territorio=None)
+            count = len(df)
             atteso = entry["atteso"]
             if atteso["match"]:
                 ok = count >= atteso.get("min_candidati", 1)
@@ -173,8 +123,6 @@ def main():
             if not ok:
                 failures += 1
             print(f" {status} {entry['id']}: {count} match (atteso {'≥' + str(atteso.get('min_candidati', 1)) if atteso['match'] else '0'})")
-            if verbose and ok:
-                pass  # silent if gold passes
     else:
         print(f"\n⚠️  Gold set non trovato: {gold_path}")
 

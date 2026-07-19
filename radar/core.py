@@ -20,6 +20,8 @@ from temi import (
 )
 from html_utils import arricchisci
 
+MATCH_ETS_SQL = (ROOT / "sql/match_ets.sql").read_text()
+
 NON_OPERATIVE_TITLE_RE = re.compile(
     r"\b(esito|esiti|approvat[ioe]|affidat[aoie]|aggiudicat[aoie]|risultat[io]|graduatoria|finanziati)\b",
     re.IGNORECASE,
@@ -385,7 +387,6 @@ def match_bando(con, pattern, tags, limit=10, territorio=None):
 
     sql = MATCH_ETS_SQL.format(
         ets_file=ETS_FILE,
-        pattern=pattern,
         match_condition=match_condition,
         match_tema=match_tema,
         sport_bonus="TRUE" if sport_fallback else "FALSE",
@@ -397,10 +398,75 @@ def match_bando(con, pattern, tags, limit=10, territorio=None):
     return con.sql(sql).fetchdf()
 
 
+def process_bando(con, b, pattern, tags, territorio, match_limit=20):
+    """Matcha un singolo bando contro ETS. Restituisce dict risultato o None se skip/sin_match."""
+    df = match_bando(con, pattern, tags, limit=match_limit, territorio=territorio)
+    if df.empty:
+        return None
+    return {
+        "candidati": df.to_dict("records"),
+        "codici_fiscali": set(df["codice_fiscale"].tolist()) if "codice_fiscale" in df.columns else set(),
+    }
+
+
+def elabora_bando(b, con, match_limit=20):
+    """Normalizza, classifica, arricchisce e matcha un bando. Restituisce resultado, sin_match o skipped."""
+    titolo, url, scadenza_str, ente, tags, territorio, fonte = normalise_bando(b)
+    scadenza, gg_rimasti = parse_date_flex(scadenza_str)
+    status, status_motivo = classify_bando(b, scadenza, gg_rimasti)
+
+    if status not in ("attivo", "sportello"):
+        return {"tipo": "skipped", "titolo": titolo, "url": url, "ente": ente,
+                "scadenza": scadenza_str, "status": status, "motivo": status_motivo}
+
+    # Arricchisci info-cooperazione con HTML se necessario
+    if fonte == "info_cooperazione" and not tags:
+        testo = b.get("testo_nlp", "") or b.get("descrizione", "") or ""
+        if len(testo) < 500 and url:
+            extra = arricchisci(url)
+            testo_lungo = extra.get("testo_nlp", "")
+            if len(testo_lungo) > len(testo):
+                nlp_tags = extract_tags_from_text(testo_lungo)
+                if nlp_tags:
+                    tags = nlp_tags
+
+    # Arricchisci budget/territorio da HTML
+    if not b.get("budget") and url:
+        extra = arricchisci(url)
+        if extra.get("budget"):
+            b["budget"] = extra["budget"]
+        if extra.get("territorio"):
+            if not territorio or territorio == ["Nazionale/da verificare"]:
+                territorio = extra["territorio"]
+
+    pattern = get_pattern_from_tags(tags)
+    if not pattern:
+        if not get_sections_from_tags(tags):
+            return {"tipo": "sin_match", "titolo": titolo, "url": url, "ente": ente,
+                    "scadenza": scadenza_str, "gg": gg_rimasti, "tags": tags,
+                    "territorio": territorio, "status": status, "motivo": "nessun pattern tag"}
+        pattern = ".*"
+
+    result = process_bando(con, b, pattern, tags, territorio, match_limit)
+    if result is None:
+        return {"tipo": "sin_match", "titolo": titolo, "url": url, "ente": ente,
+                "scadenza": scadenza_str, "gg": gg_rimasti, "tags": tags,
+                "territorio": territorio, "status": status, "motivo": "nessun ETS matcha"}
+
+    return {
+        "tipo": "match",
+        "titolo": titolo, "url": url, "ente": ente,
+        "budget": b.get("budget"), "scadenza": scadenza_str,
+        "gg": gg_rimasti, "tags": tags, "territorio": territorio,
+        "status": status, "pattern": pattern,
+        "candidati": result["candidati"],
+        "codici_fiscali": result["codici_fiscali"],
+    }
+
+
 def run_scan(con=None, bandi=None, match_limit=20, include_statuses=None):
     con = con or duckdb.connect()
     bandi = bandi or load_bandi()
-    include_statuses = include_statuses or {"attivo", "sportello"}
 
     resultados = []
     sin_match = []
@@ -408,74 +474,15 @@ def run_scan(con=None, bandi=None, match_limit=20, include_statuses=None):
     stats_ets = set()
 
     for b in bandi:
-        titolo, url, scadenza_str, ente, tags, territorio, fonte = normalise_bando(b)
-        scadenza, gg_rimasti = parse_date_flex(scadenza_str)
-        status, status_motivo = classify_bando(b, scadenza, gg_rimasti)
-        if status not in include_statuses:
-            skipped.append(
-                {
-                    "titolo": titolo,
-                    "url": url,
-                    "ente": ente,
-                    "scadenza": scadenza_str,
-                    "status": status,
-                    "motivo": status_motivo,
-                }
-            )
-            continue
-
-        # Per info-cooperazione senza tag: prova ad arricchire con pagina singola
-        if fonte == "info_cooperazione" and not tags:
-            testo_corto = b.get("testo_nlp", "") or b.get("descrizione", "") or ""
-            if len(testo_corto) < 500 and url:
-                extra = arricchisci(url)
-                testo_lungo = extra.get("testo_nlp", "")
-                if len(testo_lungo) > len(testo_corto):
-                    nlp_tags = extract_tags_from_text(testo_lungo)
-                    if nlp_tags:
-                        tags = nlp_tags
-                        b["testo_nlp"] = testo_lungo  # aggiorna per uso futuro
-
-        # Budget: da cache o HTML fallback (solo se non già presente)
-        if not b.get("budget") and url:
-            extra = arricchisci(url)
-            if extra.get("budget"):
-                b["budget"] = extra["budget"]
-            if extra.get("territorio"):
-                if not territorio or territorio == ["Nazionale/da verificare"]:
-                    territorio = extra["territorio"]
-
-        pattern = get_pattern_from_tags(tags)
-        if not pattern:
-            # Anche senza pattern, proviamo il match per sezione
-            sections = get_sections_from_tags(tags)
-            if not sections:
-                sin_match.append((titolo, url, ente, scadenza_str, gg_rimasti, tags, territorio, status, "nessun pattern tag"))
-                continue
-            pattern = ".*"  # matcha tutto, il filtro è sulla sezione
-
-        df = match_bando(con, pattern, tags, limit=match_limit, territorio=territorio)
-        if df.empty:
-            sin_match.append((titolo, url, ente, scadenza_str, gg_rimasti, tags, territorio, status, "nessun ETS matcha"))
-            continue
-
-        if "codice_fiscale" in df.columns:
-            stats_ets.update(df["codice_fiscale"].tolist())
-        resultados.append(
-            {
-                "titolo": titolo,
-                "url": url,
-                "ente": ente,
-                "budget": b.get("budget"),
-                "scadenza": scadenza_str,
-                "gg": gg_rimasti,
-                "tags": tags,
-                "territorio": territorio,
-                "status": status,
-                "pattern": pattern,
-                "candidati": df.to_dict("records"),
-            }
-        )
+        esito = elabora_bando(b, con, match_limit)
+        t = esito["tipo"]
+        if t == "skipped":
+            skipped.append({k: esito[k] for k in ("titolo", "url", "ente", "scadenza", "status", "motivo")})
+        elif t == "sin_match":
+            sin_match.append(tuple(esito[k] for k in ("titolo", "url", "ente", "scadenza", "gg", "tags", "territorio", "status", "motivo")))
+        else:
+            stats_ets.update(esito["codici_fiscali"])
+            resultados.append({k: esito[k] for k in ("titolo", "url", "ente", "budget", "scadenza", "gg", "tags", "territorio", "status", "pattern", "candidati")})
 
     return {
         "bandi": bandi,
