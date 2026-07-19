@@ -2,169 +2,78 @@
 
 **Da un bando a una lista di numeri di telefono in due comandi.**
 
-Uno strumento per chi lavora con il Terzo Settore e ha bisogno di sapere,
-concretamente, **chi candidare a quale bando, e come contattarlo**.
-
-Non produce report. Produce **lead**.
-
-## Perché esiste
-
-In Italia ci sono **150.000 enti del Terzo Settore (ETS)** iscritti al RUNTS
-e **decine di bandi aperti** ogni mese — fondazioni, enti pubblici, programmi UE.
-
-Il problema non è la mancanza di fondi. È la **mancanza di connessione** tra
-chi eroga e chi può ricevere. Questo strumento prova a ridurre quel gap.
-
-## Cosa fa
-
-- **Tiene traccia** di 69 bandi da 3 fonti (Infobandi, Info-cooperazione, IndiceBandi)
-- **Filtra il rumore**: bandi scaduti e notizie vengono scartati alla fonte
-- **Trova gli ETS giusti** per ogni bando, matchando per sezione RUNTS, competenze
-  e territorio — non solo per nome
-- **Dice chi ha già vinto appalti pubblici** (ANAC: 16.259 ETS con €214 Mld di appalti)
-- **Esporta una lista telefonica** CSV con telefono, sito e rating Google, pronta
-  da importare in un foglio e iniziare a chiamare
+Matcha 150.000 ETS italiani con bandi pubblici e privati. Arricchisce con
+appalti ANAC, donazioni 5x1000, grant UE, PNRR, aiuti di Stato, subappalti.
+Esporta CSV con contatti telefonici pronti per chiamata.
 
 ## Esempi d'uso
 
 | Scenario | Comando | Cosa ottieni |
 |---|---|---|
-| "Bando RIZA da €1M, chi contatto?" | `make contatta B="RIZA" ENRICH=1` | 10 ETS con telefono, scade tra 13gg |
-| "Bandi urgenti questa settimana" | `make latest` | Bandi in scadenza + TOP opportunità |
-| "Bando BPER sport inclusivo" | `make contatta B="BPER" ENRICH=1` | 10 ETS sportivi con telefono e sito |
-| "Comune X ha pochi ETS?" | `make segnale T=MI C=Abbiategrasso` | Landscape ETS + gap sociali |
-| "Questo ETS a quali bandi può candidarsi?" | `python3 match/reports/contatta.py --cf 90081250632` | Bandi matchati con score |
+| "Bando RIZA da €1M, chi contatto?" | `make contatta B="RIZA" ENRICH=1` | 10 ETS con telefono |
+| "Bandi urgenti questa settimana" | `make latest` | Bandi in scadenza + gap territoriali |
+| "Comune X ha pochi ETS?" | `make segnale T=MI C=Abbiategrasso` | Landscape ETS + contesto sociale |
+| "Profilo Nazareno" | `make report CF=02006180364` | Benchmark, ANAC, bandi matchati |
+| "Contratti recenti di Nazareno" | `make scheda CF=02006180364 OPZIONI=--anac` | Oggetto, importo, stazione appaltante |
 | "Tutto pronto per lunedì" | `make lunedi` | Scan + CSV RIZA/UEFA/BPER |
 
-## Numeri chiave (funnel)
-
-| Fase | KPI | Valore |
-|---|---|---|
-| Catalogo | Bandi attivi | **69** (3 fonti) |
-| | Budget totale coperto | **€35M** |
-| Matching | Candidature generate | **920** |
-| | ETS unici matchati | **302** |
-| | Candidati medi per bando | **20** |
-| Profilo ETS | Con 5x1000 | **89.7%** |
-| | Con appalti ANAC | **85.2%** |
-| | Con grant UE | **28.4%** |
-
-## Come iniziare
+## Pipeline
 
 ```bash
-git clone https://github.com/dataciviclab/terzo-settore-intelligence.git
-cd terzo-settore-intelligence
-pip install duckdb requests beautifulsoup4 pandas pyarrow python-dotenv matplotlib
-
-# Scan completo (bandi → match)
-make scan
-
-# Bandi urgenti + TOP opportunità
-make latest
-
-# Chi contattare per un bando specifico
-make contatta B="RIZA" TOP=10
-
-# Con telefono (serve API key Google Maps)
-cp .env.example .env  # Inserisci GOOGLE_MAPS_API_KEY
-make contatta B="RIZA" ENRICH=1
-
-# Preparazione chiamate
-make lunedi
+make build       # fatti_ets (8.7M righe) → PIVOT → unified_ets (150K ETS, 30 colonne)
+make all         # build + comuni-ets + scan completo
+make latest      # bandi ≤60gg + TOP opportunità + gap territoriali
+make contatta B="RIZA" TOP=10 ENRICH=1   # CSV con telefono
 ```
-
-## Come funziona
-
-I dati ETS vengono dal **RUNTS** (Ministero del Lavoro) e vengono arricchiti
-con capacità progettuale da **5x1000**, **grant UE**, **PNRR** e **aiuti di Stato**,
-letti direttamente dal DataCivicLab su Google Cloud Storage.
-
-I bandi arrivano da **3 fonti** complementari:
-- **Infobandi** (API WordPress) — bandi UE, Ministeri, privati
-- **Info-cooperazione** (HTML scraping) — bandi Terzo Settore, fondazioni
-- **IndiceBandi** (RSS + HTML) — bandi Regioni, Fondazioni
-
-Il matching tiene conto di:
-- **Sezione RUNTS** (ODV, APS, Impresa Sociale...) come indicatore di pertinenza
-- **Denominazione** per match tematico (sport, cultura, disabilità...)
-- **Territorio** per circoscrivere la ricerca (bandi locali, Mezzogiorno)
-- **Track record** ANAC (appalti pubblici vinti) come segnale di capacità
-
-I contatti arrivano da **Google Places** (opzionale, serve API key).
 
 ## Architettura
 
-Il codice è organizzato in 3 layer, uno per fase della pipeline:
-
 ```
-data/
-  unified_ets.parquet         Hub ETS: capacità, profili, temi (25 colonne)
-  comuni_ets.parquet          Metriche territoriali (ETS + ANAC + RdC)
-  bandi/*.json                Cache bandi (3 fonti, deduplicati)
+ets/                              ← Hub dati ETS
+  build_fatti_ets.sql             6 fonti (5x1000, grant_ue, aiuto_stato, pnrr, anac, subappalto)
+  build_unified_ets.sql           PIVOT da fatti_ets + geografia (comuni_master) + temi ANAC
+  enrich_temi.py                  NLP su oggetti ANAC → temi per ETS
+  comuni.py                       Metriche aggregate per comune
 
-bandi/                        ← Acquisizione bandi
-  infobandi.py                → data/bandi/infobandi_bandi.json
-  info_cooperazione.py        → data/bandi/info_cooperazione_bandi.json
-  indicebandi.py              → data/bandi/indicebandi_bandi.json
-
-ets/                          ← Costruzione anagrafe ETS
-  build_unified_ets.sql       Incrocia RUNTS + 5x1000 + FTS + RNA + PNRR + ANAC
-  enrich_temi.py              NLP su oggetti ANAC → temi_anac
-  comuni.py                   Metriche aggregate per comune
-  match_ets.sql               Template SQL per il matching (condiviso)
-
-match/                        ← Matching bandi ↔ ETS
-  matcher.py                  Motore: match_bando, classify_bando, normalise
-  pipeline.py                 Orchestrazione: load_bandi, elabora_bando, run_scan
+match/                            ← Matching bandi ↔ ETS
+  matcher.py                      Motore: match_bando (sezione + keyword + territorio)
+  pipeline.py                     Orchestrazione: load_bandi → run_scan
   reports/
-    contatta.py               CSV contatti con telefono/sito
-    segnale.py                Report per territorio
-    scheda.py                 Profilo singolo ETS
-    scadenza.py               Bandi urgenti + TOP opportunità
-    scan_completo.py          Scan unico → cruscotto/radar-completo.json/md
+    scan_completo.py              Scan → radar-completo.json/md. Flag: --latest, --territorio
+    contatta.py                   CSV contatti per bando. Flag: --per-ets, --enrich
+    scheda.py                     Profilo ETS: benchmark, ANAC (oggetti gara), bandi matchati
 
-lib/                          ← Utility condivise
-  config.py                   Path, soglie, geografia, date utils
-  temi.py                     Keyword → tag tematici, sezioni RUNTS
-  format.py                   Formattazione risultati (fmt_euro, fmt_match_reason...)
-  html_utils.py               Fallback HTML per budget e testo NLP
-  places.py                   Google Places enrichment
+bandi/                            ← Acquisizione (3 fonti)
+  infobandi.py, info_cooperazione.py, indicebandi.py
 
-tests/
-  test_match.py               Test matching: pattern, gold set, sezione, geografia
+lib/                              ← Utility condivise
 ```
 
 ## Fonti dati
 
-| Dataset | Cosa contiene |
+| Dataset | Cosa dà |
 |---|---|
-| RUNTS | 150k ETS — anagrafe, sezione, sede |
-| 5x1000 | Donazioni 2023-2025 — capacità fundraising |
-| FTS EU Grants | Grant UE erogati — esperienza europea |
-| RNA | Aiuti di Stato — contributi pubblici |
-| PNRR | Progetti PNRR — capacità su fondi Next Gen EU |
-| ANAC bandi gara | Appalti riservati a ETS/cooperative sociali |
-| ANAC aggiudicazioni | Importi e vincitori di appalti pubblici |
-| ISTAT comuni | Demografia, redditi, popolazione |
-| INPS RdC | Nuclei percettori (2020) |
-| Google Places | Sito, telefono, rating |
+| **fatti_ets** (8.7M righe) | Long format: fonte, cf, anno, importo, oggetto_gara, stazione_appaltante, appalto_riservato, flag_pnrr |
+| **unified_ets** (150K ETS) | 30 colonne: capacità, geografia (98% con istat/regione), appalti riservati, PNRR, subappalti |
+| RUNTS | Anagrafe ETS (sezione, comune, provincia) |
+| ANAC aggiudicazioni + bandi_gara | Appalti pubblici: importi, oggetto, riservati (L.381/91, D.Lgs 117/2017), PNRR |
+| ANAC subappalti | ETS come subappaltatori (119 ETS, 363 subappalti) |
+| 5x1000, FTS, RNA, PNRR | Capacità fundraising, europea, aiuti, Next Gen EU |
 
-## Roadmap
+## Numeri chiave
 
-- [x] Matching per sezione RUNTS + keyword + territorio
-- [x] Tag puliti (rimossi falsi positivi dalle fonti)
-- [x] Catalogo bandi multi-fonte (3 fonti)
-- [x] Filtro bandi scaduti alla fonte
-- [x] Dedup cross-fonte per ente+scadenza
-- [x] Gap analysis ANAC (comuni con appalti ma pochi ETS)
-- [x] CSV contatti con telefono, sito, rating
-- [x] Messaggio personalizzato per chiamata
-- [x] Bonus ANAC e 5x1000 nel matching
-- [x] Match_limit 20, filtro capacità rilassato
-- [ ] Feedback loop (stato contatto: chiamato/interessato/candidato)
-- [ ] Refresh automatico settimanale
+| KPI | Valore |
+|---|---|
+| Bandi attivi tracciati | 69 (3 fonti) |
+| ETS in anagrafe | 150.164 |
+| ETS con appalti ANAC | 16.351 (€140Mld) |
+| ETS con appalti riservati | 319 |
+| ETS con grant UE | 4.778 |
+| ETS con PNRR | 20.703 |
+| ETS con subappalti | 119 |
+| Candidature generate | ~920 |
+| ETS con tutte le fonti (5/6) | 12 |
 
 ---
 
-*Progetto del [DataCivicLab](https://github.com/dataciviclab) —
-dati aperti, civic tech, impatto sociale.*
+*Progetto del [DataCivicLab](https://github.com/dataciviclab) — dati aperti, civic tech, impatto sociale.*
