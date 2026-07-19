@@ -6,11 +6,12 @@ import json, sys
 from datetime import datetime
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
 
 from config import RADAR_REPORT
-from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text, run_scan
+from lib.format import fmt_euro, fmt_match_reason, fmt_tags, fmt_text
+from match.pipeline import run_scan
 
 RADAR_JSON = RADAR_REPORT.with_suffix(".json")
 

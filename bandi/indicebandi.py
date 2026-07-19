@@ -7,8 +7,8 @@ con la pagina singola per ente, scadenza, budget.
 Output: data/bandi/indicebandi_bandi.json (stessa convenzione altre fonti).
 
 Uso:
-    python3 aggregatori/bandi/indicebandi.py          # cache se <1h
-    python3 aggregatori/bandi/indicebandi.py --full    # forza refresh
+    python3 bandi/indicebandi.py          # cache se <1h
+    python3 bandi/indicebandi.py --full    # forza refresh
 """
 
 import json
@@ -21,10 +21,10 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 from config import filtra_bandi_attivi, normalizza_scadenza
 
-CACHE_DIR = Path(__file__).resolve().parents[2] / "data" / "bandi"
+CACHE_DIR = Path(__file__).resolve().parents[1] / "data" / "bandi"
 CACHE_FILE = CACHE_DIR / "indicebandi_bandi.json"
 BASE_URL = "https://www.indicebandi.it"
 CAT_URL = "https://www.indicebandi.it/it/taxonomy/term/30"

@@ -2,21 +2,24 @@
 """Test: verifica che il matching produca risultati attesi.
 
 Fallisce se pattern conosciuti non trovano ETS.
-Uso: python test_match.py [--verbose]
+Uso: python tests/test_match.py [--verbose]
 """
 
 import sys, json
 from pathlib import Path
 import duckdb
 
-sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "lib"))
+sys.path.insert(0, str(ROOT))
 from config import get_province_filter
 from temi import (
     get_pattern_from_tags,
     estrai_temi as extract_tags_from_text,
     sezioni_per_tag as get_sections_from_tags,
 )
-from radar.core import classify_bando, match_bando, parse_date_flex
+from match.matcher import classify_bando, match_bando
+from lib.format import parse_date_flex
 
 ETS_FILE = Path("data/unified_ets.parquet")
 
@@ -104,7 +107,7 @@ def main():
             failures += 1
 
     # ── Gold set ────────────────────────────────────────────────────
-    gold_path = Path(__file__).resolve().parent / "tests/gold_bandi.json"
+    gold_path = Path(__file__).resolve().parents[1] / "tests/gold_bandi.json"
     if gold_path.exists():
         print()
         print("🧪 Gold set test:")
@@ -187,7 +190,7 @@ def main():
     # ── Test integrità scan ─────────────────────────────────────────
     print()
     print("🧪 Scan integrity test:")
-    radar_json = Path(__file__).resolve().parent / "cruscotto/radar-completo.json"
+    radar_json = Path(__file__).resolve().parents[1] / "cruscotto/radar-completo.json"
     if radar_json.exists():
         with open(radar_json) as f:
             report = json.load(f)

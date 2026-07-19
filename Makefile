@@ -6,28 +6,27 @@ all: build comuni-ets scan
 
 # Costruisce l'hub ETS (da RUNTS + 5x1000 + FTS + RNA + PNRR + OC)
 # Arricchisce ETS con temi ANAC dagli oggetti dei bandi partecipati
-# Gira PRIMA di build: legge CF da runts_iscritti, non da unified_ets
 anac-temi:
-	python3 sql/enrich_anac_temi.py
+	python3 ets/enrich_temi.py
 
 # Costruisce l'hub ETS (include temi_anac dalla build precedente)
 build: anac-temi
-	duckdb < sql/build_unified_ets.sql
+	duckdb < ets/build_unified_ets.sql
 	rm -f data/temi_anac.parquet
 	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/unified_ets.parquet'\").fetchone(); assert 140000 < r[0] < 160000, f'Row count {r[0]} fuori range'; print(f'✅ {r[0]} ETS — integrità OK')"
 
 # Scan completo: bandi → match → report
 scan radar: build
-	python3 radar/scan_completo.py
+	python3 match/reports/scan_completo.py
 
 # Vista latest: bandi operativi in scadenza 60gg
 latest:
-	python3 radar/bandi-in-scadenza.py
+	python3 match/reports/scadenza.py
 
 # Report segnale per territorio
 segnale:
 	[ -n "$(T)" ] || (echo "Usa: make segnale T=MI [C=Comune]" && exit 1)
-	python3 radar/segnale.py --territorio $(T) $(if $(C),--comune "$(C)",)
+	python3 match/reports/segnale.py --territorio $(T) $(if $(C),--comune "$(C)",)
 
 # Esporta candidati da contattare per un bando
 # make contatta B="BPER"          — CSV top 10
@@ -35,7 +34,7 @@ segnale:
 # make contatta B="BPER" FMT=json
 contatta:
 	[ -n "$(B)" ] || (echo "Usa: make contatta B='BPER' [TOP=10] [ENRICH=1] [FMT=csv]" && exit 1)
-	python3 radar/contatta.py --bando "$(B)" --top $(if $(TOP),$(TOP),10) $(if $(ENRICH),--enrich,) $(if $(FMT),--formato $(FMT),) || true
+	python3 match/reports/contatta.py --bando "$(B)" --top $(if $(TOP),$(TOP),10) $(if $(ENRICH),--enrich,) $(if $(FMT),--formato $(FMT),) || true
 
 # Monitoraggio salute fonti
 monitor:
@@ -44,7 +43,7 @@ monitor:
 # Scheda ETS: profilo completo per debug
 scheda:
 	[ -n "$(CF)$(NOME)" ] || (echo "Usa: make scheda CF=02006180364 [OPZIONI=--anac,--match]" && exit 1)
-	python3 radar/scheda.py $(if $(CF),--cf "$(CF)",) $(if $(NOME),--nome "$(NOME)",) $(if $(OPZIONI),$(OPZIONI),)
+	python3 match/reports/scheda.py $(if $(CF),--cf "$(CF)",) $(if $(NOME),--nome "$(NOME)",) $(if $(OPZIONI),$(OPZIONI),)
 
 # Report 20/80: bandi attivi prioritari per budget+urgenza
 opportunita:
@@ -52,9 +51,9 @@ opportunita:
 
 # Preparazione chiamate lunedì: CSV urgenti + report
 lunedi: scan
-	python3 radar/contatta.py --bando "RIZA" --top 10 --enrich
-	python3 radar/contatta.py --bando "UEFA" --top 10 --enrich
-	python3 radar/contatta.py --bando "BPER" --top 10 --enrich
+	python3 match/reports/contatta.py --bando "RIZA" --top 10 --enrich
+	python3 match/reports/contatta.py --bando "UEFA" --top 10 --enrich
+	python3 match/reports/contatta.py --bando "BPER" --top 10 --enrich
 	@echo ""
 	@echo "✅ Materiale pronto per lunedì:"
 	@echo "   contatta-riza-*.csv  — RIZA (€1M, scade 31/7)"
@@ -67,34 +66,34 @@ lunedi: scan
 
 # Costruisce dataset aggregato per comune (ETS + ANAC + RdC + reddito)
 comuni-ets:
-	python3 sql/build_comuni_ets.py
+	python3 ets/comuni.py
 
 # Aggregazione bandi
 bandi-infobandi:
-	python3 aggregatori/bandi/infobandi.py
+	python3 bandi/infobandi.py
 
 bandi-info-coop:
-	python3 aggregatori/bandi/info_cooperazione.py  # ultime ~200 (10 pagine)
+	python3 bandi/info_cooperazione.py  # ultime ~200 (10 pagine)
 
 bandi-info-coop-full:
-	python3 aggregatori/bandi/info_cooperazione.py --full  # TUTTI (lento)
+	python3 bandi/info_cooperazione.py --full  # TUTTI (lento)
 
 bandi-indicebandi:
-	python3 aggregatori/bandi/indicebandi.py
+	python3 bandi/indicebandi.py
 
 bandi-indicebandi-full:
-	python3 aggregatori/bandi/indicebandi.py --full
+	python3 bandi/indicebandi.py --full
 
 bandi: bandi-infobandi bandi-info-coop bandi-indicebandi
 	@echo "✅ Bandi aggiornati"
 
 # Test matching (pattern + gold set + sezione + geografia + scan integrity)
 test:
-	python3 test_match.py
+	python3 tests/test_match.py
 
 # Test dettagliato
 test-verbose:
-	python3 test_match.py --verbose
+	python3 tests/test_match.py --verbose
 
 # Pulisce file temporanei
 clean:

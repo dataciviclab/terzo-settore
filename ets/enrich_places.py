@@ -4,8 +4,8 @@ Prende una lista di ETS e per ognuno cerca su Google Places:
 sito web, telefono, indirizzo, rating, categoria.
 
 Uso:
-    python aggregatori/enrich_ets.py --candidates MI    # provincia MI
-    python aggregatori/enrich_ets.py --cf 90005350153   # specifico
+    python ets/enrich_places.py --candidates MI    # provincia MI
+    python ets/enrich_places.py --cf 90005350153   # specifico
 """
 
 import json, sys, time
@@ -58,7 +58,7 @@ if __name__ == "__main__":
         ets_list = r.to_dict("records")
 
     else:
-        print("Uso: python aggregatori/enrich_ets.py --cf CF | --candidates MI")
+        print("Uso: python ets/enrich_places.py --cf CF | --candidates MI")
         exit(1)
 
     print(f"📋 {len(ets_list)} ETS da arricchire")

@@ -5,10 +5,10 @@ Legge da radar-completo.json (già calcolato), arricchisce con contatti
 da unified_ets + Google Places (opzionale), e produce CSV pronto per azione.
 
 Uso:
-    python3 radar/contatta.py --bando "BPER" --top 10
-    python3 radar/contatta.py --bando "BPER" --top 10 --enrich
-    python3 radar/contatta.py --cf 90081250632     # cerca bandi per ETS
-    python3 radar/contatta.py --bando "BPER" --formato json
+    python3 match/reports/contatta.py --bando "BPER" --top 10
+    python3 match/reports/contatta.py --bando "BPER" --top 10 --enrich
+    python3 match/reports/contatta.py --cf 90081250632     # cerca bandi per ETS
+    python3 match/reports/contatta.py --bando "BPER" --formato json
 """
 
 import csv, json, sys
@@ -17,11 +17,11 @@ from pathlib import Path
 
 import duckdb
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from radar.core import fmt_euro
+from lib.format import fmt_euro
 
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
 ETS_FILE = ROOT / "data" / "unified_ets.parquet"

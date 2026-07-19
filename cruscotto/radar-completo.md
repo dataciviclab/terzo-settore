@@ -1,7 +1,7 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 19/07/2026 09:21
+Generato: 19/07/2026 10:57
 
-**49** bandi operativi con ETS candidabili  |  **2** operativi senza match  |  **18** esclusi  |  **193** ETS unici coinvolti
+**49** bandi operativi con ETS candidabili  |  **2** operativi senza match  |  **18** esclusi  |  **178** ETS unici coinvolti
 
 ---
 
@@ -19,6 +19,7 @@ Generato: 19/07/2026 09:21
 | ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE P | BOLOGNA | BO | alta | 93 | match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici | €318,718 |
 | LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BRE | AVEZZANO | AQ | alta | 93 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 | €497 |
 | FONDAZIONE TELETHON ETS | ROMA | RM | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici | €5,195,765 |
+| GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVIL | MILANO | MI | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 | €429,529 |
 | FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO | MILANO | MI | alta | 88 | match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 | €621,207 |
 | ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORG | ROMA | RM | alta | 88 | match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 | €36,039 |
 | "Cooperativa Sociale COOSS MARCHE ONLUS SOCIE | ANCONA | AN | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €743,244,830 | €7,653 |
@@ -35,7 +36,6 @@ Generato: 19/07/2026 09:21
 | OPERA SOCIETA COOPERATIVA SOCIALE - ONLUS SOC | URBINO | PU | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €26,810,095 | €1,204 |
 | PROGRAMMA INTEGRA SOCIETA' COOPERATIVA SOCIAL | ROMA | RM | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €21,817,442 | €1,091 |
 | COOPERATIVA ITACA SOCIETA' COOPERATIVA SOCIAL | PORDENONE | PN | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €549,196,489 | €701 |
-| GRUPPO PLEIADI SOCIETA' COOPERATIVA SOCIALE I | VIGONZA | PD | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €3,000,910 | €569 |
 
 ### 🔴 Bando della Commissione europea per rafforzare il ruolo delle parti sociali
 - **Scadenza**: 23 luglio 2026 (4 giorni)
@@ -50,6 +50,7 @@ Generato: 19/07/2026 09:21
 | LA NOSTRA FAMIGLIA | PONTE LAMBRO | CO | alta | 93 | match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici | €835,361 |
 | NAZARENO SOCIETA' COOPERATIVA SOCIALE | CARPI | MO | alta | 93 | match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 | €22,720 |
 | LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BRE | AVEZZANO | AQ | alta | 93 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 | €497 |
+| COMUNITA' PAPA GIOVANNI XXIII | RIMINI | RN | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 | €454,937 |
 | IRIDE SOCIETA' COOPERATIVA SOCIALE | SCORDIA | CT | alta | 90 | match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 | €40,572 |
 | FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO | MILANO | MI | alta | 88 | match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 | €621,207 |
 | CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIE | REGGIO EMILIA | RE | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 | €9,844 |
@@ -65,7 +66,6 @@ Generato: 19/07/2026 09:21
 | C.A.T. (CENTRO DI ANIMAZIONE TRICCHEBALLACCHE | FIRENZE | FI | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €83,013,452 | €2,338 |
 | UNA CASA PER L'UOMO SOCIETA' COOPERATIVA SOCI | MONTEBELLUNA | TV | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €54,834,395 | €1,544 |
 | IL CIGNO - COOPERATIVA SOCIALE SOCIETA' COOPE | CESENA | FC | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €278,595,345 | €1,442 |
-| OPERA SOCIETA COOPERATIVA SOCIALE - ONLUS SOC | URBINO | PU | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €26,810,095 | €1,204 |
 
 ### 🔴 Bando RIZA per progetti di donne con background migratorio &#8211; 2^ ciclo
 - **Scadenza**: 31 luglio 2026 (secondo ciclo di finanziamento) (12 giorni)
@@ -110,6 +110,7 @@ Generato: 19/07/2026 09:21
 | FONDAZIONE TELETHON ETS | ROMA | RM | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici | €5,195,765 |
 | ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV | ROMA | RM | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 | €2,299,912 |
 | CARITAS DIOEZESE BOZEN - BRIXEN | BOLZANO | BZ | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 | €158,133 |
+| GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE | PAVIA | PV | alta | 90 | match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 | €23,098 |
 | FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO | MILANO | MI | alta | 88 | match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 | €621,207 |
 | ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORG | ROMA | RM | alta | 88 | match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 | €36,039 |
 | COMUNITA' DI S.EGIDIO ACAP APS | ROMA | RM | alta | 87 | match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €9,610,299 | €531,796 |
@@ -125,14 +126,13 @@ Generato: 19/07/2026 09:21
 | FONDAZIONE CEIS ETS | MODENA | MO | alta | 85 | match tema + sezione; capacità alta; 5x1000 >10k; appalti €80,213,664 | €11,411 |
 | FONDAZIONE CASA DI CARITA' ARTI E MESTIERI -  | TORINO | TO | alta | 85 | match tema + sezione; capacità alta; 5x1000 >10k; appalti €132,207,147 | €10,184 |
 | FONDAZIONE AIDA ETS | VERONA | VR | alta | 85 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti €2,391,685 | €912 |
-| LA NOSTRA FAMIGLIA | PONTE LAMBRO | CO | alta | 83 | match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici | €835,361 |
 
 ### 🟡 Bando UEFA Foundation for Children 2026
 - **Scadenza**: 03 agosto 2026 (15 giorni)
 - **Ente**: UEFA Foundation
 - **Stato**: attivo
 - **Territorio**: Europa, Locale, Nazionale
-- **Tag**: sport, educazione, minori, inclusione sociale
+- **Tag**: minori, sport, inclusione sociale, educazione
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -146,6 +146,8 @@ Generato: 19/07/2026 09:21
 | COMUNITA' DI S.EGIDIO ACAP APS | ROMA | RM | alta | 92 | match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €9,610,299 | €531,796 |
 | ORIZZONTE ALTRI COLORI COOPERATIVA SOCIALE -  | FROSINONE | FR | alta | 92 | match tema + sport + sezione; capacità alta; 5x1000 presente; Impresa Sociale; appalti €23,528,427 | €266 |
 | ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV | ROMA | RM | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 | €2,299,912 |
+| COMUNITA' PAPA GIOVANNI XXIII | RIMINI | RN | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 | €454,937 |
+| GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVIL | MILANO | MI | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 | €429,529 |
 | CARITAS DIOEZESE BOZEN - BRIXEN | BOLZANO | BZ | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 | €158,133 |
 | CROCE BIANCA MILANO, Organizzazione di Volont | MILANO | MI | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 | €143,383 |
 | ASSOCIAZIONE COMUNITA SAN BENEDETTO AL PORTO  | GENOVA | GE | alta | 90 | match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €83,351,937 | €49,515 |
@@ -154,8 +156,6 @@ Generato: 19/07/2026 09:21
 | LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIA | SANTA MARGHERITA DI  | AG | medio-alta | 90 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici | €28,369 |
 | GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE | MESSINA | ME | alta | 90 | match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici | €23,806 |
 | ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSP | SANT'ANTONIO ABATE | - | medio-alta | 90 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; PNRR; APS | €14,026 |
-| POLISPORTIVA GAREGNANO 1976 ASD APS | MILANO | MI | medio-alta | 90 | match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici | €10,138 |
-| "COOPERATIVA NUOVI ORIZZONTI SOCIALI - COOPER | SULMONA | AQ | alta | 90 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €158,513,226 | €3,365 |
 
 ### 🟡 Contributi per indagini giornalistiche sull&#8217;ambiente &#8211; ultima scaden
 - **Scadenza**: 6 agosto 2026 (18 giorni)
@@ -178,14 +178,14 @@ Generato: 19/07/2026 09:21
 | CROCE ROSSA ITALIANA - COMITATO DELL'AREA  ME | ROMA | RM | alta | 85 | match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €124,515,396 | €15,995 |
 | LA NOSTRA FAMIGLIA | PONTE LAMBRO | CO | alta | 83 | match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici | €835,361 |
 | ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE P | BOLOGNA | BO | alta | 83 | match su sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici | €318,718 |
+| GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE | LECCO | LC | alta | 83 | match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 | €19,988 |
 | LEBENSHILFE - ETS | BOLZANO | BZ | alta | 82 | match tema + sezione; capacità alta; 5x1000 >10k; appalti €43,576,602 | €23,182 |
 | PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE MA | MANTOVA | MN | alta | 82 | match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €9,407,864 | €12,633 |
 | NONNA ROMA ODV | ROMA | RM | alta | 82 | match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €1,445,308 | €11,504 |
 | ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV | ROMA | RM | alta | 80 | match su sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 | €2,299,912 |
+| COMUNITA' PAPA GIOVANNI XXIII | RIMINI | RN | alta | 80 | match su sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 | €454,937 |
+| GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVIL | MILANO | MI | alta | 80 | match su sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 | €429,529 |
 | CARITAS DIOEZESE BOZEN - BRIXEN | BOLZANO | BZ | alta | 80 | match su sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 | €158,133 |
-| CROCE BIANCA MILANO, Organizzazione di Volont | MILANO | MI | alta | 80 | match su sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 | €143,383 |
-| FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICL | MILANO | MI | alta | 80 | match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti pubblici | €51,540 |
-| CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE D | CASTELFIDARDO | AN | alta | 80 | match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €4,144,621 | €36,061 |
 
 ### 🟡 Cultural Horizons &#8211; prodotti culturali innovativi tra UE e Ucraina
 - **Scadenza**: 14 agosto 2026 (26 giorni)
@@ -200,6 +200,7 @@ Generato: 19/07/2026 09:21
 | ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE P | BOLOGNA | BO | alta | 93 | match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici | €318,718 |
 | NAZARENO SOCIETA' COOPERATIVA SOCIALE | CARPI | MO | alta | 93 | match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 | €22,720 |
 | LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BRE | AVEZZANO | AQ | alta | 93 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 | €497 |
+| GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVIL | MILANO | MI | alta | 90 | match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 | €429,529 |
 | IRIDE SOCIETA' COOPERATIVA SOCIALE | SCORDIA | CT | alta | 90 | match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 | €40,572 |
 | FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO | MILANO | MI | alta | 88 | match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 | €621,207 |
 | "Cooperativa Sociale COOSS MARCHE ONLUS SOCIE | ANCONA | AN | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €743,244,830 | €7,653 |
@@ -215,7 +216,6 @@ Generato: 19/07/2026 09:21
 | UNA CASA PER L'UOMO SOCIETA' COOPERATIVA SOCI | MONTEBELLUNA | TV | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €54,834,395 | €1,544 |
 | OPERA SOCIETA COOPERATIVA SOCIALE - ONLUS SOC | URBINO | PU | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €26,810,095 | €1,204 |
 | PROGRAMMA INTEGRA SOCIETA' COOPERATIVA SOCIAL | ROMA | RM | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €21,817,442 | €1,091 |
-| BALLAFON SOCIETA' COOPERATIVA SOCIALE | VARESE | VA | alta | 88 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €155,679,725 | €923 |
 
 ### 🟡 Dalla Norvegia 10 milioni per l'innovazione umanitaria
 - **Scadenza**: 17 agosto 2026 (29 giorni)
@@ -244,8 +244,8 @@ Generato: 19/07/2026 09:21
 | LA NOSTRA FAMIGLIA | PONTE LAMBRO | CO | alta | 83 | match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici | €835,361 |
 | PARENT PROJECT PER LA RICERCA SULLA DISTROFIA | ROMA | RM | alta | 83 | match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS | €242,046 |
 | NAZARENO SOCIETA' COOPERATIVA SOCIALE | CARPI | MO | alta | 83 | match su sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 | €22,720 |
+| GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE | LECCO | LC | alta | 83 | match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 | €19,988 |
 | FONDAZIONE MONDO DIGITALE ETS | ROMA | RM | alta | 83 | match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici | €4,242 |
-| LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BRE | AVEZZANO | AQ | alta | 83 | match su sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 | €497 |
 
 ## 🟢 Bandi con ETS candidabili (>30gg)
 
@@ -262,6 +262,7 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
@@ -275,7 +276,6 @@ Generato: 19/07/2026 09:21
   · **alta** KIRIKU' SOCIETA' COOPERATIVA SOCIALE ONLUS — MONTEBELLUNA (TV) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €6,505,480 — 5x1000: €5,361
   · **alta** AGORA' SOCIETA' COOPERATIVA SOCIALE — GENOVA (GE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €458,762,155 — 5x1000: €4,025
   · **alta** DEDALUS COOPERATIVA SOCIALE — NAPOLI (-) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €9,831,514 — 5x1000: €3,794
-  · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
 
 ### Contributi annuali della Banca d’Italia – 2^ scadenza 2026
 - **Scadenza**: 31 agosto 2026 (domande a partire dal 1° luglio) (43 giorni)
@@ -290,6 +290,8 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
@@ -302,8 +304,6 @@ Generato: 19/07/2026 09:21
   · **alta** KIRIKU' SOCIETA' COOPERATIVA SOCIALE ONLUS — MONTEBELLUNA (TV) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €6,505,480 — 5x1000: €5,361
   · **alta** AGORA' SOCIETA' COOPERATIVA SOCIALE — GENOVA (GE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €458,762,155 — 5x1000: €4,025
   · **alta** DEDALUS COOPERATIVA SOCIALE — NAPOLI (-) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €9,831,514 — 5x1000: €3,794
-  · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
-  · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
 
 ### Sostegno alle municipalità in Libia
 - **Scadenza**: 31 agosto 2026 (43 giorni)
@@ -378,6 +378,8 @@ Generato: 19/07/2026 09:21
   · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 92, match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €9,610,299 — 5x1000: €531,796
   · **alta** ORIZZONTE ALTRI COLORI COOPERATIVA SOCIALE - SOCIE — FROSINONE (FR) — score 92, match tema + sport + sezione; capacità alta; 5x1000 presente; Impresa Sociale; appalti €23,528,427 — 5x1000: €266
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
   · **alta** ASSOCIAZIONE COMUNITA SAN BENEDETTO AL PORTO APS — GENOVA (GE) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €83,351,937 — 5x1000: €49,515
@@ -386,8 +388,6 @@ Generato: 19/07/2026 09:21
   · **medio-alta** LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E  — SANTA MARGHERITA DI BELICE (AG) — score 90, match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici — 5x1000: €28,369
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
   · **medio-alta** ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSPI ASS — SANT'ANTONIO ABATE (-) — score 90, match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; PNRR; APS — 5x1000: €14,026
-  · **medio-alta** POLISPORTIVA GAREGNANO 1976 ASD APS — MILANO (MI) — score 90, match tema + sport + sezione; capacità medio-alta; 5x1000 >10k; APS; appalti pubblici — 5x1000: €10,138
-  · **alta** "COOPERATIVA NUOVI ORIZZONTI SOCIALI - COOPERATIVA — SULMONA (AQ) — score 90, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €158,513,226 — 5x1000: €3,365
 
 ### 2° edizione Premio GenP &#8211; Giovani che partecipano
 - **Scadenza**: 14 settembre 2026 (57 giorni)
@@ -401,21 +401,21 @@ Generato: 19/07/2026 09:21
   · **alta** FONDAZIONE PROGETTO ARCA ETS — MILANO (MI) — score 85, match su sezione; capacità alta; 5x1000 >100k; PNRR; appalti €446,994,392 — 5x1000: €540,223
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 80, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 80, match su sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
+  · **alta** PROVINCIA LOMBARDO VENETA DELL'ORDINE OSPEDALIERO  — BRESCIA (BS) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; appalti €48,324,659 — 5x1000: €88,526
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PESARO (PU) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €20,752
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE COM — CREMONA (CR) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €18,457
   · **alta** FONDAZIONE GIACOMO BRODOLINI ENTE DEL TERZO SETTOR — ROMA (RM) — score 80, match tema + sezione; capacità alta; 5x1000 presente; appalti €26,545,105 — 5x1000: €850
   · **alta** FONDAZIONE EUROPEAN RESEARCH INSTITUTE ETS — TORINO (TO) — score 80, match tema + sezione; capacità alta; 5x1000 presente; appalti €289,926,214 — 5x1000: €315
-  · **alta** ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUT — TORINO (TO) — score 78, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €1,431
-  · **alta** FONDAZIONE ANT FRANCO PANNUTI - ETS — BOLOGNA (BO) — score 77, match su sezione; capacità alta; 5x1000 >100k; appalti €7,054,709 — 5x1000: €4,019,371
-  · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 77, match su sezione; capacità alta; 5x1000 >100k; APS; appalti €9,610,299 — 5x1000: €531,796
-  · **alta** FONDAZIONE DON CARLO GNOCCHI ETS — MILANO (MI) — score 77, match su sezione; capacità alta; 5x1000 >100k; appalti €3,087,964 — 5x1000: €485,312
-  · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 77, match su sezione; capacità alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
-  · **alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 77, match su sezione; capacità alta; 5x1000 >100k; appalti €2,509,751 — 5x1000: €173,631
-  · **alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 77, match su sezione; capacità alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
-  · **alta** ASSOCIAZIONE CASA FAMIGLIA BICE PORCU ETS — ROMA (RM) — score 77, match tema + sezione; capacità alta; 5x1000 presente; appalti €8,227,452 — 5x1000: €3,929
-  · **alta** ASSOCIAZIONE IL CORTILE APS — CAPACCIO (SA) — score 77, match tema + sezione; capacità alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €3,820
-  · **alta** ARCI - COMITATO TERRITORIALE DI REGGIO EMILIA APS — REGGIO NELL'EMILIA (RE) — score 77, match tema + sezione; capacità alta; 5x1000 presente; APS; appalti €3,732,418 — 5x1000: €2,846
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MODENA (MO) — score 78, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €68,605
+  · **alta** GRUPPO COMUNALE VOLONTARI PROTEZIONE CIVILE VICENZ — VICENZA (VI) — score 78, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €61,551
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — RIMINI (RN) — score 78, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €22,455
 
 ### Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
 - **Scadenza**: 15 settembre 2026 (58 giorni)
@@ -456,6 +456,7 @@ Generato: 19/07/2026 09:21
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 88, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
@@ -471,7 +472,6 @@ Generato: 19/07/2026 09:21
   · **alta** C.A.T. (CENTRO DI ANIMAZIONE TRICCHEBALLACCHE) - S — FIRENZE (FI) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €83,013,452 — 5x1000: €2,338
   · **alta** IL CE.STO COOPERATIVA SOCIALE — GENOVA (GE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €167,811,966 — 5x1000: €2,290
   · **alta** UNA CASA PER L'UOMO SOCIETA' COOPERATIVA SOCIALE — MONTEBELLUNA (TV) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €54,834,395 — 5x1000: €1,544
-  · **alta** IL CIGNO - COOPERATIVA SOCIALE SOCIETA' COOPERATIV — CESENA (FC) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €278,595,345 — 5x1000: €1,442
 
 ### Bando &#8220;Zenit&#8221;: competenze digitali delle persone con disabilità
 - **Scadenza**: 18 settembre 2026 alle ore 11.00 (61 giorni)
@@ -484,6 +484,7 @@ Generato: 19/07/2026 09:21
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
@@ -499,7 +500,6 @@ Generato: 19/07/2026 09:21
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
   · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
   · **alta** LABIRINTO COOPERATIVA SOCIALE — PESARO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €386,041,711 — 5x1000: €2,971
-  · **alta** OPEN GROUP SOCIETA' COOPERATIVA SOCIALE O.N.L.U.S. — BOLOGNA (BO) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €317,219,331 — 5x1000: €2,919
 
 ### Piano Nazionale &#8220;Cinema e immagini per la scuola&#8221;: progetti di rilev
 - **Scadenza**: 18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio) (61 giorni)
@@ -509,6 +509,7 @@ Generato: 19/07/2026 09:21
 - **Tag**: Cultura, Cinema, scuole, Ministero della Cultura, Ministero dell'Istruzione e del Merito
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 87, match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €9,610,299 — 5x1000: €531,796
   · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 87, match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
@@ -520,21 +521,20 @@ Generato: 19/07/2026 09:21
   · **alta** CENTRO ITALIANO DI SOLIDARIETA' DON MARIO PICCHI   — ROMA (RM) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €111,430,695 — 5x1000: €12,048
   · **alta** FONDAZIONE AIDA ETS — VERONA (VR) — score 85, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti €2,391,685 — 5x1000: €912
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
+  · **alta** CSB ETS - CENTRO PER LA SALUTE DELLE BAMBINE E DEI — TRIESTE (TS) — score 83, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €7,186
   · **alta** ASSOCIAZIONE NAZIONALE VOLONTARIE DEL TELEFONO ROS — ROMA (RM) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €6,086,294 — 5x1000: €36,613
   · **alta** ASSOCIAZIONE DIFFERENZA DONNA APS — ROMA (RM) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €7,635,872 — 5x1000: €25,970
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 80, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
-  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
-  · **alta** ISTITUTO DEI CIECHI FRANCESCO CAVAZZA ENTE DEL TER — BOLOGNA (BO) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; appalti pubblici — 5x1000: €11,945
-  · **alta**  CASA DELLE DONNE LUCHA Y SIESTA APS — ROMA (RM) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €5,813,423 — 5x1000: €10,638
-  · **alta** ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S. — CARMAGNOLA (TO) — score 80, match tema + sezione; capacità alta; 5x1000 presente; APS; appalti €165,436,108 — 5x1000: €1,580
 
 ### Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
 - **Scadenza**: 18 settembre 2026 (61 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: animali, digitale, inclusione sociale, disabilità
+- **Tag**: disabilità, inclusione sociale, animali, digitale
 
   · **alta** FONDAZIONE PROGETTO ARCA ETS — MILANO (MI) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €446,994,392 — 5x1000: €540,223
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
@@ -542,10 +542,12 @@ Generato: 19/07/2026 09:21
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 88, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
@@ -554,8 +556,6 @@ Generato: 19/07/2026 09:21
   · **alta** KIRIKU' SOCIETA' COOPERATIVA SOCIALE ONLUS — MONTEBELLUNA (TV) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €6,505,480 — 5x1000: €5,361
   · **alta** AGORA' SOCIETA' COOPERATIVA SOCIALE — GENOVA (GE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €458,762,155 — 5x1000: €4,025
   · **alta** DEDALUS COOPERATIVA SOCIALE — NAPOLI (-) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €9,831,514 — 5x1000: €3,794
-  · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
-  · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
 
 ### Youth Start-Up Challenge 2026: concorso per giovani imprenditori
 - **Scadenza**: 20 settembre 2026 (63 giorni)
@@ -570,20 +570,20 @@ Generato: 19/07/2026 09:21
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 83, match su sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 80, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 80, match su sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
+  · **alta** PROVINCIA LOMBARDO VENETA DELL'ORDINE OSPEDALIERO  — BRESCIA (BS) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; appalti €48,324,659 — 5x1000: €88,526
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 80, match su sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PESARO (PU) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €20,752
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE COM — CREMONA (CR) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €18,457
   · **alta** "COOPERATIVA NUOVI ORIZZONTI SOCIALI - COOPERATIVA — SULMONA (AQ) — score 80, match su sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €158,513,226 — 5x1000: €3,365
   · **alta** COOPERATIVA SOCIALE IDEE VERDI — SELVAZZANO DENTRO (PD) — score 80, match tema + sezione; capacità alta; 5x1000 presente; Impresa Sociale; appalti €37,811,628 — 5x1000: €484
-  · **alta** BIOSPHAERA SOCIETA' COOPERATIVA SOCIALE — SCHIO (VI) — score 80, match tema + sezione; capacità alta; 5x1000 presente; Impresa Sociale; appalti €5,239,195 — 5x1000: €370
-  · **alta** ATLANTIDE STUDI E SERVIZI AMBIENTALI E TURISTICI,  — CERVIA (RA) — score 80, match tema + sezione; capacità alta; 5x1000 presente; Impresa Sociale; appalti €49,967,876 — 5x1000: €310
-  · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 78, match su sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
-  · **alta** COOPERATIVA SOCIALE SAN SATURNINO  ONLUS — ROMA (RM) — score 78, match su sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €225,659,892 — 5x1000: €8,335
-  · **alta** "Cooperativa Sociale COOSS MARCHE ONLUS SOCIETA' C — ANCONA (AN) — score 78, match su sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €743,244,830 — 5x1000: €7,653
-  · **alta** STRANAIDEA - SOCIETA' COOPERATIVA SOCIALE IMPRESA  — TORINO (TO) — score 78, match su sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €393,568,776 — 5x1000: €6,509
-  · **alta** KIRIKU' SOCIETA' COOPERATIVA SOCIALE ONLUS — MONTEBELLUNA (TV) — score 78, match su sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €6,505,480 — 5x1000: €5,361
 
 ### Bandi Programma LIFE 2026
 - **Scadenza**: 22 settembre 2026 (65 giorni)
@@ -598,6 +598,7 @@ Generato: 19/07/2026 09:21
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 88, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
   · **alta** "Cooperativa Sociale COOSS MARCHE ONLUS SOCIETA' C — ANCONA (AN) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €743,244,830 — 5x1000: €7,653
@@ -611,7 +612,6 @@ Generato: 19/07/2026 09:21
   · **alta** 4 EXODUS - SOCIETA' COOPERATIVA SOCIALE — DAVERIO (VA) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €183,001,206 — 5x1000: €1,963
   · **alta** OPERA SOCIETA COOPERATIVA SOCIALE - ONLUS SOCIETA  — URBINO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €26,810,095 — 5x1000: €1,204
   · **alta** COOPERATIVA ITACA SOCIETA' COOPERATIVA SOCIALE O.N — PORDENONE (PN) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €549,196,489 — 5x1000: €701
-  · **alta** LIBRAZIONE SOCIETA' COOPERATIVA SOCIALE — RAVENNA (RA) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €8,950,177 — 5x1000: €473
 
 ### KA 1 – Accreditamento nel settore della Gioventù
 - **Scadenza**: 29 settembre 2026 (72 giorni)
@@ -625,21 +625,21 @@ Generato: 19/07/2026 09:21
   · **alta** FONDAZIONE PROGETTO ARCA ETS — MILANO (MI) — score 85, match su sezione; capacità alta; 5x1000 >100k; PNRR; appalti €446,994,392 — 5x1000: €540,223
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 80, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 80, match su sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
+  · **alta** PROVINCIA LOMBARDO VENETA DELL'ORDINE OSPEDALIERO  — BRESCIA (BS) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; appalti €48,324,659 — 5x1000: €88,526
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PESARO (PU) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €20,752
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE COM — CREMONA (CR) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €18,457
   · **alta** FONDAZIONE GIACOMO BRODOLINI ENTE DEL TERZO SETTOR — ROMA (RM) — score 80, match tema + sezione; capacità alta; 5x1000 presente; appalti €26,545,105 — 5x1000: €850
   · **alta** FONDAZIONE EUROPEAN RESEARCH INSTITUTE ETS — TORINO (TO) — score 80, match tema + sezione; capacità alta; 5x1000 presente; appalti €289,926,214 — 5x1000: €315
-  · **alta** ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUT — TORINO (TO) — score 78, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €1,431
-  · **alta** FONDAZIONE ANT FRANCO PANNUTI - ETS — BOLOGNA (BO) — score 77, match su sezione; capacità alta; 5x1000 >100k; appalti €7,054,709 — 5x1000: €4,019,371
-  · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 77, match su sezione; capacità alta; 5x1000 >100k; APS; appalti €9,610,299 — 5x1000: €531,796
-  · **alta** FONDAZIONE DON CARLO GNOCCHI ETS — MILANO (MI) — score 77, match su sezione; capacità alta; 5x1000 >100k; appalti €3,087,964 — 5x1000: €485,312
-  · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 77, match su sezione; capacità alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
-  · **alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 77, match su sezione; capacità alta; 5x1000 >100k; appalti €2,509,751 — 5x1000: €173,631
-  · **alta** PROVINCIA S. ANTONIO DEI FRATI MINORI — BOLOGNA (BO) — score 77, match su sezione; capacità alta; 5x1000 >100k; appalti €87,215,273 — 5x1000: €137,952
-  · **alta** ASSOCIAZIONE CASA FAMIGLIA BICE PORCU ETS — ROMA (RM) — score 77, match tema + sezione; capacità alta; 5x1000 presente; appalti €8,227,452 — 5x1000: €3,929
-  · **alta** ASSOCIAZIONE IL CORTILE APS — CAPACCIO (SA) — score 77, match tema + sezione; capacità alta; 5x1000 presente; APS; appalti pubblici — 5x1000: €3,820
-  · **alta** ARCI - COMITATO TERRITORIALE DI REGGIO EMILIA APS — REGGIO NELL'EMILIA (RE) — score 77, match tema + sezione; capacità alta; 5x1000 presente; APS; appalti €3,732,418 — 5x1000: €2,846
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MODENA (MO) — score 78, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €68,605
+  · **alta** GRUPPO COMUNALE VOLONTARI PROTEZIONE CIVILE VICENZ — VICENZA (VI) — score 78, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €61,551
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — RIMINI (RN) — score 78, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €22,455
 
 ### Richieste di contributo alla DWF Foundation &#8211; 3^ scadenza 2026
 - **Scadenza**: 30 settembre 2026 (ultima scadenza dell&#8217;anno) (73 giorni)
@@ -651,23 +651,23 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 103, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE — BOLZANO (BZ) — score 92, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €186,333,458 — 5x1000: €1,254,450
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
   · **alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €1,030,780 — 5x1000: €526,745
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €11,421,631 — 5x1000: €113,052
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRATI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €74,281,114 — 5x1000: €30,276
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PESARO (PU) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €20,752
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE COM — CREMONA (CR) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €18,457
   · **alta** CROCE ROSSA ITALIANA - COMITATO DELL'AREA  METROPO — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €124,515,396 — 5x1000: €15,995
   · **alta** PUBBLICA ASSISTENZA CROCE BIANCA GENOVESE ODV — GENOVA (GE) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €122,575,557 — 5x1000: €11,410
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
-  · **alta** "Cooperativa Sociale COOSS MARCHE ONLUS SOCIETA' C — ANCONA (AN) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €743,244,830 — 5x1000: €7,653
-  · **alta** STRANAIDEA - SOCIETA' COOPERATIVA SOCIALE IMPRESA  — TORINO (TO) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €393,568,776 — 5x1000: €6,509
-  · **alta** 4 EXODUS - SOCIETA' COOPERATIVA SOCIALE — DAVERIO (VA) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €183,001,206 — 5x1000: €1,963
-  · **alta** OPERA SOCIETA COOPERATIVA SOCIALE - ONLUS SOCIETA  — URBINO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €26,810,095 — 5x1000: €1,204
-  · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 87, match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €9,610,299 — 5x1000: €531,796
-  · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 87, match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
-  · **alta** MOVIMENTO SHALOM ODV — SAN MINIATO (PI) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €63,429,031 — 5x1000: €58,374
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MODENA (MO) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €68,605
+  · **alta** GRUPPO COMUNALE VOLONTARI PROTEZIONE CIVILE VICENZ — VICENZA (VI) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €61,551
 
 ### Bando “Opportunità per me, un futuro migliore. Percorsi di seconda occasione”
 - **Scadenza**: 30 settembre 2026 alle ore 13:00 (73 giorni)
@@ -713,6 +713,7 @@ Generato: 19/07/2026 09:21
   · **medio-alta** AMOPUGLIA - ORGANIZZAZIONE DI VOLONTARIATO - ENTE  — BARI (BA) — score 82, match tema + sezione; capacità medio-alta; 5x1000 >100k; ODV; appalti €1,277,767 — 5x1000: €145,510
   · **alta**  VALTRIGNO ODV ETS — SAN SALVO (CH) — score 82, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €5,972,146 — 5x1000: €3,598
   · **alta** ARCOIRIS  ODV — QUARTU SANT'ELENA (CA) — score 82, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €9,606,476 — 5x1000: €2,234
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — SALERNO (SA) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; appalti €3,595,530 — 5x1000: €28,350
   · **alta** CONFRATERNITA DI MISERICORDIA DI BISCEGLIE ODV — BISCEGLIE (BT) — score 80, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €2,824,450 — 5x1000: €8,890
   · **alta** ALIVOL PUBBLICA ASSISTENZA ODV — BARI (BA) — score 80, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €2,746,371 — 5x1000: €2,540
   · **alta** RINDERTIMI ASSOCIAZIONE DI VOLONTARIATO E COOPERAZ — AVEZZANO (AQ) — score 80, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €2,891,368 — 5x1000: €2,366
@@ -723,14 +724,13 @@ Generato: 19/07/2026 09:21
   · **alta** PUBBLICA ASSISTENZA SERBARI - SOCCORSO EMERGENZA R — BARI (BA) — score 80, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €4,047,246 — 5x1000: €691
   · **alta** IL CUORE DI ARGO ODV — CASTELLANETA (TA) — score 80, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti pubblici — 5x1000: €682
   · **alta** ASSOCIAZIONE VOLONTARI PUBBLICA ASSISTENZA CASTELL — CASTELLANA GROTTE (BA) — score 80, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €4,502,671 — 5x1000: €496
-  · **alta** CROCE VERDE SAN MARZANO ODV — SAN MARZANO DI SAN GIUSEPPE (TA) — score 80, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €1,703,288 — 5x1000: €396
 
 ### 1,2 milioni per contrastare la dispersione scolastica
 - **Scadenza**: 30 settembre 2026 (73 giorni)
 - **Ente**: Fondazione CDP
 - **Stato**: attivo
 - **Territorio**: Mezzogiorno, Nazionale
-- **Tag**: povertà educativa, educazione
+- **Tag**: educazione, povertà educativa
 
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 83, match su sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 80, match su sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
@@ -751,7 +751,7 @@ Generato: 19/07/2026 09:21
   · **alta** LA CLESSIDRA SOCIETA' COOPERATIVA SOCIALE - ETS — VILLACIDRO (SU) — score 75, match su sezione; capacità alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €46,740,472 — 5x1000: €603
   · **alta** SOLIDARIETA' - SOCIETA' COOPERATIVA SOCIALE — BINETTO (BA) — score 75, match su sezione; capacità alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €33,882,477 — 5x1000: €590
   · **alta** CON SOLIDARIETA'  CONSOL SOCIETA' COOPERATIVA SOCI — CHIETI (CH) — score 75, match su sezione; capacità alta; 5x1000 presente; PNRR; Impresa Sociale; appalti €177,091,989 — 5x1000: €142
-  · **alta** GRUPPO DI RICERCA DEDALOS - SOCIETA' COOPERATIVA S — LECCE (LE) — score 75, match tema + sezione; capacità alta; Impresa Sociale; appalti €1,127,895 — 5x1000: -
+  · **alta** SALE DELLA TERRA - CONSORZIO PREVALENTEMENTE DI CO — BENEVENTO (BN) — score 75, match su sezione; capacità alta; grant UE; PNRR; Impresa Sociale; appalti €8,186,188 — 5x1000: -
 
 ### Ecco il calendario delle call 2026 del Programma CERV
 - **Scadenza**: 01 ottobre 2026 (74 giorni)
@@ -767,19 +767,19 @@ Generato: 19/07/2026 09:21
   · **alta** FONDAZIONE CEIS ETS — MODENA (MO) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €80,213,664 — 5x1000: €11,411
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** FONDAZIONE GRUPPO ABELE - ENTE DEL TERZO SETTORE — TORINO (TO) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; appalti €17,863,903 — 5x1000: €96,188
   · **alta** ASSOCIAZIONE NAZIONALE VOLONTARIE DEL TELEFONO ROS — ROMA (RM) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €6,086,294 — 5x1000: €36,613
   · **alta** ASSOCIAZIONE DIFFERENZA DONNA APS — ROMA (RM) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €7,635,872 — 5x1000: €25,970
   · **alta** LA RICERCA - DON GIORGIO BOSINI - ETS — PIACENZA (PC) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; appalti €5,024,935 — 5x1000: €10,462
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 80, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 80, match su sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 80, match su sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 80, match su sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
+  · **alta** PROVINCIA LOMBARDO VENETA DELL'ORDINE OSPEDALIERO  — BRESCIA (BS) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; appalti €48,324,659 — 5x1000: €88,526
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
-  · **alta** LEGA EUROPEA PER LA DIFESA DEL CANE- ODV — MERLARA (PD) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti pubblici — 5x1000: €22,030
-  · **alta**  CASA DELLE DONNE LUCHA Y SIESTA APS — ROMA (RM) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €5,813,423 — 5x1000: €10,638
-  · **alta** FONDAZIONE MICHELE, GIUSEPPE E CLELIA LAMACCHIA -  — BARLETTA (BT) — score 80, match tema + sezione; capacità alta; 5x1000 presente; appalti €48,289,325 — 5x1000: €3,188
-  · **alta** CROCE ROSSA ITALIANA COMITATO DI UDINE ORGANIZZAZI — UDINE (UD) — score 80, match tema + sezione; capacità alta; 5x1000 presente; ODV; appalti €23,665,401 — 5x1000: €2,131
 
 ### Progetti di solidarietà – 2^ scadenza
 - **Scadenza**: 01 ottobre 2026 (74 giorni)
@@ -793,21 +793,21 @@ Generato: 19/07/2026 09:21
   · **alta** FONDAZIONE PROGETTO ARCA ETS — MILANO (MI) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €446,994,392 — 5x1000: €540,223
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE — BOLZANO (BZ) — score 92, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €186,333,458 — 5x1000: €1,254,450
   · **alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €1,030,780 — 5x1000: €526,745
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €11,421,631 — 5x1000: €113,052
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRATI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €74,281,114 — 5x1000: €30,276
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PESARO (PU) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €20,752
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE COM — CREMONA (CR) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €18,457
   · **alta** CROCE ROSSA ITALIANA - COMITATO DELL'AREA  METROPO — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €124,515,396 — 5x1000: €15,995
   · **alta** PUBBLICA ASSISTENZA CROCE BIANCA GENOVESE ODV — GENOVA (GE) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €122,575,557 — 5x1000: €11,410
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
-  · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
-  · **alta** "Cooperativa Sociale COOSS MARCHE ONLUS SOCIETA' C — ANCONA (AN) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €743,244,830 — 5x1000: €7,653
-  · **alta** KIRIKU' SOCIETA' COOPERATIVA SOCIALE ONLUS — MONTEBELLUNA (TV) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €6,505,480 — 5x1000: €5,361
-  · **alta** AGORA' SOCIETA' COOPERATIVA SOCIALE — GENOVA (GE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €458,762,155 — 5x1000: €4,025
-  · **alta** DEDALUS COOPERATIVA SOCIALE — NAPOLI (-) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €9,831,514 — 5x1000: €3,794
-  · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MODENA (MO) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €68,605
 
 ### Interventi di rafforzamento dell’integrazione scolastica di alunni e studenti di
 - **Scadenza**: 08 ottobre 2026 (con proroga) ore 12.00 (81 giorni)
@@ -823,6 +823,7 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
@@ -835,7 +836,6 @@ Generato: 19/07/2026 09:21
   · **alta** AGORA' SOCIETA' COOPERATIVA SOCIALE — GENOVA (GE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €458,762,155 — 5x1000: €4,025
   · **alta** DEDALUS COOPERATIVA SOCIALE — NAPOLI (-) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €9,831,514 — 5x1000: €3,794
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
-  · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
 
 ### Prevenire gli sprechi alimentari
 - **Scadenza**: 15 ottobre 2026 (88 giorni)
@@ -848,6 +848,7 @@ Generato: 19/07/2026 09:21
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
@@ -863,7 +864,6 @@ Generato: 19/07/2026 09:21
   · **alta** C.A.T. (CENTRO DI ANIMAZIONE TRICCHEBALLACCHE) - S — FIRENZE (FI) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €83,013,452 — 5x1000: €2,338
   · **alta** UNA CASA PER L'UOMO SOCIETA' COOPERATIVA SOCIALE — MONTEBELLUNA (TV) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €54,834,395 — 5x1000: €1,544
   · **alta** IL CIGNO - COOPERATIVA SOCIALE SOCIETA' COOPERATIV — CESENA (FC) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €278,595,345 — 5x1000: €1,442
-  · **alta** OPERA SOCIETA COOPERATIVA SOCIALE - ONLUS SOCIETA  — URBINO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €26,810,095 — 5x1000: €1,204
 
 ### Bando “Note di comunità. Esperienze musicali di quartiere”
 - **Scadenza**: 16 ottobre 2026 alle ore 13:00 (89 giorni)
@@ -874,6 +874,8 @@ Generato: 19/07/2026 09:21
 
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 98, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 88, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
@@ -890,8 +892,6 @@ Generato: 19/07/2026 09:21
   · **alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E P — TRENTO (TN) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €146,054,738 — 5x1000: €50,779
   · **alta** MEETING PER L'AMICIZIA FRA I POPOLI ETS — RIMINI (RN) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €4,463,788 — 5x1000: €49,096
   · **alta** ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTE — ROMA (RM) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €149,556,065 — 5x1000: €43,482
-  · **alta** FONDAZIONE ORIZZONTE SPERANZA - ENTE DEL TERZO SET — BOVES (CN) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €37,944,088 — 5x1000: €37,672
-  · **alta** COMMISSIONE SINODALE PER LA DIACONIA — TORRE PELLICE (TO) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €199,940,127 — 5x1000: €33,490
 
 ### Perform Europe 2026-2028: mobilità internazionale delle arti performative
 - **Scadenza**: 22 ottobre 2026 (95 giorni)
@@ -901,6 +901,7 @@ Generato: 19/07/2026 09:21
 - **Tag**: cultura
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 87, match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €9,610,299 — 5x1000: €531,796
   · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 87, match tema + sezione; capacità alta; 5x1000 >100k; APS; appalti €2,142,861 — 5x1000: €217,081
@@ -912,14 +913,13 @@ Generato: 19/07/2026 09:21
   · **alta** CENTRO ITALIANO DI SOLIDARIETA' DON MARIO PICCHI   — ROMA (RM) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €111,430,695 — 5x1000: €12,048
   · **alta** FONDAZIONE AIDA ETS — VERONA (VR) — score 85, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti €2,391,685 — 5x1000: €912
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
+  · **alta** CSB ETS - CENTRO PER LA SALUTE DELLE BAMBINE E DEI — TRIESTE (TS) — score 83, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €7,186
   · **alta** ASSOCIAZIONE NAZIONALE VOLONTARIE DEL TELEFONO ROS — ROMA (RM) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €6,086,294 — 5x1000: €36,613
   · **alta** ASSOCIAZIONE DIFFERENZA DONNA APS — ROMA (RM) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €7,635,872 — 5x1000: €25,970
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 80, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
-  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 80, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
-  · **alta** ISTITUTO DEI CIECHI FRANCESCO CAVAZZA ENTE DEL TER — BOLOGNA (BO) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; appalti pubblici — 5x1000: €11,945
-  · **alta**  CASA DELLE DONNE LUCHA Y SIESTA APS — ROMA (RM) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti €5,813,423 — 5x1000: €10,638
-  · **alta** ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S. — CARMAGNOLA (TO) — score 80, match tema + sezione; capacità alta; 5x1000 presente; APS; appalti €165,436,108 — 5x1000: €1,580
 
 ### NEXT MED per il turismo sostenibile
 - **Scadenza**: 29 ottobre 2026 (102 giorni)
@@ -940,24 +940,25 @@ Generato: 19/07/2026 09:21
   · **alta** CROCE ROSSA ITALIANA - COMITATO DELL'AREA  METROPO — ROMA (RM) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €124,515,396 — 5x1000: €15,995
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** LEBENSHILFE - ETS — BOLZANO (BZ) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; appalti €43,576,602 — 5x1000: €23,182
   · **alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE MANTOVA — MANTOVA (MN) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €9,407,864 — 5x1000: €12,633
   · **alta** NONNA ROMA ODV — ROMA (RM) — score 82, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €1,445,308 — 5x1000: €11,504
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 80, match su sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 80, match su sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 80, match su sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
-  · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 80, match su sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
-  · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  — MILANO (MI) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; APS; appalti pubblici — 5x1000: €51,540
-  · **alta** CROCE VERDE DI CASTELFIDARDO ORGANIZZAZIONE DI VOL — CASTELFIDARDO (AN) — score 80, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €4,144,621 — 5x1000: €36,061
 
 ### Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori
 - **Scadenza**: 03 novembre 2026 (107 giorni)
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: minori, donne, salute
+- **Tag**: salute, minori, donne
 
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 98, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 88, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
@@ -975,7 +976,6 @@ Generato: 19/07/2026 09:21
   · **alta** FONDAZIONE SOMASCHI - ENTE DEL TERZO SETTORE — MILANO (MI) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €294,136,891 — 5x1000: €29,807
   · **alta** ASSOCIAZIONE ITALIANA ASSISTENZA SPASTICI AIAS ETS — MILANO (MI) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €20,625,307 — 5x1000: €25,581
   · **alta** CASA DELLA DIVINA PROVVIDENZA — CARPI (MO) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €1,969,285 — 5x1000: €16,452
-  · **alta** CROCE ROSSA ITALIANA - COMITATO DELL'AREA  METROPO — ROMA (RM) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €124,515,396 — 5x1000: €15,995
 
 ### DAPHNE 2026: Prevenire e combattere la violenza di genere e nei confronti dei mi
 - **Scadenza**: 03 novembre 2026 (107 giorni)
@@ -986,6 +986,7 @@ Generato: 19/07/2026 09:21
 
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 98, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 88, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
@@ -1003,7 +1004,6 @@ Generato: 19/07/2026 09:21
   · **alta** FONDAZIONE SOMASCHI - ENTE DEL TERZO SETTORE — MILANO (MI) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €294,136,891 — 5x1000: €29,807
   · **alta** ASSOCIAZIONE ITALIANA ASSISTENZA SPASTICI AIAS ETS — MILANO (MI) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €20,625,307 — 5x1000: €25,581
   · **alta** CASA DELLA DIVINA PROVVIDENZA — CARPI (MO) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; appalti €1,969,285 — 5x1000: €16,452
-  · **alta** CROCE ROSSA ITALIANA - COMITATO DELL'AREA  METROPO — ROMA (RM) — score 85, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €124,515,396 — 5x1000: €15,995
 
 ### Bando Intraprendere nel sociale 2026
 - **Scadenza**: 13 novembre 2026 (117 giorni)
@@ -1016,6 +1016,7 @@ Generato: 19/07/2026 09:21
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
@@ -1031,7 +1032,6 @@ Generato: 19/07/2026 09:21
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
   · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
   · **alta** LABIRINTO COOPERATIVA SOCIALE — PESARO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €386,041,711 — 5x1000: €2,971
-  · **alta** OPEN GROUP SOCIETA' COOPERATIVA SOCIALE O.N.L.U.S. — BOLOGNA (BO) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €317,219,331 — 5x1000: €2,919
 
 ### Iniziativa Beni confiscati &#8211; Regolamento 2026
 - **Scadenza**: 10 dicembre 2026 (144 giorni)
@@ -1073,7 +1073,9 @@ Generato: 19/07/2026 09:21
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
   · **alta** FONDAZIONE TELETHON ETS — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €5,195,765
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 88, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
   · **alta** "Cooperativa Sociale COOSS MARCHE ONLUS SOCIETA' C — ANCONA (AN) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €743,244,830 — 5x1000: €7,653
@@ -1086,15 +1088,13 @@ Generato: 19/07/2026 09:21
   · **alta** LABIRINTO COOPERATIVA SOCIALE — PESARO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €386,041,711 — 5x1000: €2,971
   · **alta** OPEN GROUP SOCIETA' COOPERATIVA SOCIALE O.N.L.U.S. — BOLOGNA (BO) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €317,219,331 — 5x1000: €2,919
   · **alta** C.A.T. (CENTRO DI ANIMAZIONE TRICCHEBALLACCHE) - S — FIRENZE (FI) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €83,013,452 — 5x1000: €2,338
-  · **alta** 4 EXODUS - SOCIETA' COOPERATIVA SOCIALE — DAVERIO (VA) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €183,001,206 — 5x1000: €1,963
-  · **alta** UNA CASA PER L'UOMO SOCIETA' COOPERATIVA SOCIALE — MONTEBELLUNA (TV) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €54,834,395 — 5x1000: €1,544
 
 ### Cofinanziamento per programmi su competenze digitali
 - **Scadenza**: 31 dicembre 2026 (165 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
-- **Tag**: animali, digitale, inclusione sociale
+- **Tag**: inclusione sociale, animali, digitale
 
   · **alta** FONDAZIONE PROGETTO ARCA ETS — MILANO (MI) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €446,994,392 — 5x1000: €540,223
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
@@ -1104,6 +1104,7 @@ Generato: 19/07/2026 09:21
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 88, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
   · **alta** CENTRO DI SOLIDARIETA' DI REGGIO EMILIA SOCIETA' C — REGGIO EMILIA (RE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €23,385,439 — 5x1000: €9,844
@@ -1115,7 +1116,6 @@ Generato: 19/07/2026 09:21
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
   · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
   · **alta** LABIRINTO COOPERATIVA SOCIALE — PESARO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €386,041,711 — 5x1000: €2,971
-  · **alta** OPEN GROUP SOCIETA' COOPERATIVA SOCIALE O.N.L.U.S. — BOLOGNA (BO) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €317,219,331 — 5x1000: €2,919
 
 ### Iniziative in cofinanziamento per l&#8217;inclusione digitale &#8211; Regolament
 - **Scadenza**: 31 dicembre 2026 (165 giorni)
@@ -1178,7 +1178,7 @@ Generato: 19/07/2026 09:21
 - **Ente**: Con i Bambini
 - **Stato**: attivo
 - **Territorio**: Nazionale, Regionale
-- **Tag**: povertà educativa, educazione, minori, inclusione sociale
+- **Tag**: minori, povertà educativa, inclusione sociale, educazione
 
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 98, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** FONDAZIONE PROGETTO ARCA ETS — MILANO (MI) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €446,994,392 — 5x1000: €540,223
@@ -1186,6 +1186,7 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
@@ -1199,7 +1200,6 @@ Generato: 19/07/2026 09:21
   · **alta** AGORA' SOCIETA' COOPERATIVA SOCIALE — GENOVA (GE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €458,762,155 — 5x1000: €4,025
   · **alta** DEDALUS COOPERATIVA SOCIALE — NAPOLI (-) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €9,831,514 — 5x1000: €3,794
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
-  · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
 
 ### V edizione Iniziative in cofinanziamento a contrasto della povertà educativa
 - **Scadenza**: 30 giugno 2027. Le idee saranno selezionate man mano che vengono proposte fino ad esaurimento delle risorse disponibili. (346 giorni)
@@ -1212,6 +1212,7 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
@@ -1227,7 +1228,6 @@ Generato: 19/07/2026 09:21
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
   · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
   · **alta** LABIRINTO COOPERATIVA SOCIALE — PESARO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €386,041,711 — 5x1000: €2,971
-  · **alta** OPEN GROUP SOCIETA' COOPERATIVA SOCIALE O.N.L.U.S. — BOLOGNA (BO) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €317,219,331 — 5x1000: €2,919
 
 ### Marchio di Qualità per il volontariato nel settore degli aiuti umanitari
 - **Scadenza**: 22 settembre 2027 (430 giorni)
@@ -1239,23 +1239,23 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 103, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE — BOLZANO (BZ) — score 92, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €186,333,458 — 5x1000: €1,254,450
   · **alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €1,030,780 — 5x1000: €526,745
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €11,421,631 — 5x1000: €113,052
   · **alta** CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRATI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €74,281,114 — 5x1000: €30,276
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PESARO (PU) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €20,752
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE COM — CREMONA (CR) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €18,457
   · **alta** CROCE ROSSA ITALIANA - COMITATO DELL'AREA  METROPO — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €124,515,396 — 5x1000: €15,995
   · **alta** PUBBLICA ASSISTENZA CROCE BIANCA GENOVESE ODV — GENOVA (GE) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €122,575,557 — 5x1000: €11,410
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
-  · **alta** MOVIMENTO SHALOM ODV — SAN MINIATO (PI) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €63,429,031 — 5x1000: €58,374
-  · **alta** ASSOCIAZIONE VOLONTARI DI PRONTO SOCCORSO CROCE AZ — ROVELLASCA (CO) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €13,405,768 — 5x1000: €43,022
-  · **alta** CROCE BIANCA DI BRESCIA - ASSOCIAZIONE PER LA PUBB — BRESCIA (BS) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €12,307,110 — 5x1000: €25,164
-  · **alta** MOVIMENTO PER LA LOTTA CONTRO LA FAME NEL MONDO -  — LODI (LO) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €40,263,573 — 5x1000: €24,806
-  · **alta** ASSOCIAZIONE DI VOLONTARIATO PORTA APERTA - ODV ET — MODENA (MO) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €114,970,075 — 5x1000: €23,827
-  · **alta** PUBBLICA ASSISTENZA FERRARESE ODV — FISCAGLIA (FE) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €48,701,194 — 5x1000: €21,079
-  · **alta** CENTRO DI ACCOGLIENZA SAN VINCENZO  ODV — CAGLIARI (CA) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €1,389,480 — 5x1000: €13,681
-  · **alta** LARIOSOCCORSO ODV — ERBA (CO) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €11,400,589 — 5x1000: €13,458
-  · **alta** VENERABILE ARCICONFRATERNITA DELLA MISERICORDIA DI — EMPOLI (FI) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €53,226,471 — 5x1000: €13,152
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MODENA (MO) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €68,605
+  · **alta** GRUPPO COMUNALE VOLONTARI PROTEZIONE CIVILE VICENZ — VICENZA (VI) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €61,551
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — RIMINI (RN) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €22,455
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — SENIGALLIA (AN) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €11,424
 
 ### Horizon Europe: al via Africa Initiative IV per rafforzare la cooperazione UE–Af
 - **Scadenza**: 30 settembre 2027 (438 giorni)
@@ -1282,8 +1282,8 @@ Generato: 19/07/2026 09:21
   · **alta** LA NOSTRA FAMIGLIA — PONTE LAMBRO (CO) — score 83, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti pubblici — 5x1000: €835,361
   · **alta** PARENT PROJECT PER LA RICERCA SULLA DISTROFIA MUSC — ROMA (RM) — score 83, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS — 5x1000: €242,046
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 83, match su sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** FONDAZIONE MONDO DIGITALE ETS — ROMA (RM) — score 83, match tema + sezione; capacità alta; 5x1000 presente; grant UE; appalti pubblici — 5x1000: €4,242
-  · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 83, match su sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
 
 ### Marchio di Qualità per il volontariato
 - **Scadenza**: 31 dicembre 2027 (530 giorni)
@@ -1295,23 +1295,23 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE DELLA CROCE ROSSA ITALIANA - ORGANIZZ — ROMA (RM) — score 103, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; ODV; appalti €307,091,762 — 5x1000: €36,039
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €36,752,579 — 5x1000: €2,299,912
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 95, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — LECCO (LC) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €23,549,683 — 5x1000: €19,988
   · **alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE — BOLZANO (BZ) — score 92, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €186,333,458 — 5x1000: €1,254,450
   · **alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €1,030,780 — 5x1000: €526,745
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €11,421,631 — 5x1000: €113,052
   · **alta** CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRATI ODV — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €74,281,114 — 5x1000: €30,276
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MESSINA (ME) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €23,806
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PAVIA (PV) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti €1,234,944 — 5x1000: €23,098
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — PESARO (PU) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €20,752
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE COM — CREMONA (CR) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €18,457
   · **alta** CROCE ROSSA ITALIANA - COMITATO DELL'AREA  METROPO — ROMA (RM) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €124,515,396 — 5x1000: €15,995
   · **alta** PUBBLICA ASSISTENZA CROCE BIANCA GENOVESE ODV — GENOVA (GE) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €122,575,557 — 5x1000: €11,410
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
-  · **alta** MOVIMENTO SHALOM ODV — SAN MINIATO (PI) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €63,429,031 — 5x1000: €58,374
-  · **alta** ASSOCIAZIONE VOLONTARI DI PRONTO SOCCORSO CROCE AZ — ROVELLASCA (CO) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €13,405,768 — 5x1000: €43,022
-  · **alta** CROCE BIANCA DI BRESCIA - ASSOCIAZIONE PER LA PUBB — BRESCIA (BS) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €12,307,110 — 5x1000: €25,164
-  · **alta** MOVIMENTO PER LA LOTTA CONTRO LA FAME NEL MONDO -  — LODI (LO) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €40,263,573 — 5x1000: €24,806
-  · **alta** ASSOCIAZIONE DI VOLONTARIATO PORTA APERTA - ODV ET — MODENA (MO) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €114,970,075 — 5x1000: €23,827
-  · **alta** PUBBLICA ASSISTENZA FERRARESE ODV — FISCAGLIA (FE) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €48,701,194 — 5x1000: €21,079
-  · **alta** CENTRO DI ACCOGLIENZA SAN VINCENZO  ODV — CAGLIARI (CA) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €1,389,480 — 5x1000: €13,681
-  · **alta** LARIOSOCCORSO ODV — ERBA (CO) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €11,400,589 — 5x1000: €13,458
-  · **alta** VENERABILE ARCICONFRATERNITA DELLA MISERICORDIA DI — EMPOLI (FI) — score 87, match tema + sezione; capacità alta; 5x1000 >10k; ODV; appalti €53,226,471 — 5x1000: €13,152
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — MODENA (MO) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €68,605
+  · **alta** GRUPPO COMUNALE VOLONTARI PROTEZIONE CIVILE VICENZ — VICENZA (VI) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €61,551
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — RIMINI (RN) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €22,455
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — SENIGALLIA (AN) — score 88, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; PNRR; appalti pubblici — 5x1000: €11,424
 
 ### Bando aperto &#8211; Sportello della solidarietà
 - **Scadenza**: Lo sportello opera attraverso un bando aperto, senza scadenza. (999 giorni)
@@ -1326,6 +1326,8 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** COMUNITA' PAPA GIOVANNI XXIII — RIMINI (RN) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €126,442,960 — 5x1000: €454,937
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** CARITAS DIOEZESE BOZEN - BRIXEN — BOLZANO (BZ) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; appalti €58,357,633 — 5x1000: €158,133
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; ODV; appalti €146,914,311 — 5x1000: €143,383
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
@@ -1338,8 +1340,6 @@ Generato: 19/07/2026 09:21
   · **alta** AGORA' SOCIETA' COOPERATIVA SOCIALE — GENOVA (GE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €458,762,155 — 5x1000: €4,025
   · **alta** DEDALUS COOPERATIVA SOCIALE — NAPOLI (-) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €9,831,514 — 5x1000: €3,794
   · **alta** COOPERATIVA INSERIMENTO DISABILI ASSISTENZA SOLIDA — FERRARA (FE) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €494,159,087 — 5x1000: €3,485
-  · **alta** HORIZON SERVICE SOCIETA' COOPERATIVA SOCIALE IN SI — SULMONA (AQ) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €179,986,604 — 5x1000: €3,288
-  · **alta** LABIRINTO COOPERATIVA SOCIALE — PESARO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €386,041,711 — 5x1000: €2,971
 
 ### &#8220;Cultura Cresce&#8221;: contributi per lo sviluppo delle imprese culturali
 - **Scadenza**: Bando a sportello. Le domande possono essere presentate a partire dalle ore 12.00 del 10 dicembre 2025, fino a esaurimento delle risorse disponibili. (999 giorni)
@@ -1359,15 +1359,15 @@ Generato: 19/07/2026 09:21
   · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — SAN FELICE A CANCELLO (CE) — score 73, match su sezione; capacità alta; 5x1000 presente; grant UE; PNRR; appalti pubblici — 5x1000: €735
   · **alta** FONDAZIONE SAVERIO DE BELLIS ENTE TERZO SETTORE — CASTELLANA GROTTE (BA) — score 72, match su sezione; capacità alta; 5x1000 >10k; appalti €1,024,018 — 5x1000: €16,457
   · **alta** FONDAZIONE OPERA SANTI MEDICI COSMA E DAMIANO BITO — BITONTO (BA) — score 70, match su sezione; capacità alta; 5x1000 >10k; appalti €1,153,975 — 5x1000: €94,631
+  · **alta** GRUPPO COMUNALE DI VOLONTARIATO DI PROTEZIONE CIVI — SALERNO (SA) — score 70, match su sezione; capacità alta; 5x1000 >10k; appalti €3,595,530 — 5x1000: €28,350
   · **alta** FONDAZIONE GIUSEPPE FERRARO ETS — MADDALONI (CE) — score 70, match su sezione; capacità alta; 5x1000 >10k; appalti pubblici — 5x1000: €26,064
   · **alta** PICCOLA OPERA PAPA GIOVANNI ETS — REGGIO CALABRIA (RC) — score 70, match su sezione; capacità alta; 5x1000 >10k; appalti €2,585,519 — 5x1000: €12,829
   · **medio-alta** ASSORI ASSOCIAZIONE PER LA PROMOZIONE SOCIO-CULTUR — FOGGIA (FG) — score 70, match tema + sezione; capacità medio-alta; 5x1000 >10k; appalti €4,008,100 — 5x1000: €11,724
   · **alta** FONDAZIONE MICHELE, GIUSEPPE E CLELIA LAMACCHIA -  — BARLETTA (BT) — score 70, match su sezione; capacità alta; 5x1000 presente; appalti €48,289,325 — 5x1000: €3,188
   · **medio-alta** ASSOCIAZIONE SAN LUIGI PROMOZIONE MULTICULTURALE P — SALERNO (SA) — score 70, match tema + sezione; capacità medio-alta; 5x1000 presente; PNRR; APS; appalti pubblici — 5x1000: €1,917
-  · **alta** ASSOCIAZIONE POLARIS ETS — CATANZARO (CZ) — score 70, match tema + sezione; capacità alta; appalti pubblici — 5x1000: -
   · **alta** UNISCO - NETWORK PER LO SVILUPPO LOCALE E.T.S. — BARI (BA) — score 70, match su sezione; capacità alta; grant UE; appalti €9,942,666 — 5x1000: -
+  · **alta** ASSOCIAZIONE POLARIS ETS — CATANZARO (CZ) — score 70, match tema + sezione; capacità alta; appalti pubblici — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS — PISTICCI (MT) — score 70, match tema + sezione; capacità alta; APS; appalti pubblici — 5x1000: -
-  · **alta** FONDAZIONE GIOVANNI PAOLO II - ETS — BARI (BA) — score 67, match su sezione; capacità alta; 5x1000 presente; appalti €8,654,092 — 5x1000: €5,239
 
 ### ZMINA-Resilience: progetti culturali co-creati tra Ucraina e Paesi Europa Creati
 - **Scadenza**: Il bando è organizzato con una procedura a sportello, che prevede più finestre di candidatura nel corso di 16 mesi. (999 giorni)
@@ -1380,6 +1380,7 @@ Generato: 19/07/2026 09:21
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 93, match tema + sezione; capacità alta; 5x1000 >100k; grant UE; APS; appalti pubblici — 5x1000: €318,718
   · **alta** NAZARENO SOCIETA' COOPERATIVA SOCIALE — CARPI (MO) — score 93, match tema + sezione; capacità alta; 5x1000 >10k; grant UE; Impresa Sociale; appalti €140,450,210 — 5x1000: €22,720
   · **alta** LEONARDO SOCIETA' COOPERATIVA SOCIALE  IN BREVE  L — AVEZZANO (AQ) — score 93, match tema + sezione; capacità alta; 5x1000 presente; grant UE; PNRR; Impresa Sociale; appalti €189,676,493 — 5x1000: €497
+  · **alta** GRUPPO COMUNALE VOLONTARI DI PROTEZIONE CIVILE DI  — MILANO (MI) — score 90, match tema + sezione; capacità alta; 5x1000 >100k; PNRR; appalti €1,353,574 — 5x1000: €429,529
   · **alta** IRIDE SOCIETA' COOPERATIVA SOCIALE — SCORDIA (CT) — score 90, match tema + sezione; capacità alta; 5x1000 >10k; PNRR; Impresa Sociale; appalti €103,306,652 — 5x1000: €40,572
   · **alta** FONDAZIONE L'ALBERO DELLA VITA ENTE DEL TERZO SETT — MILANO (MI) — score 88, match su sezione; capacità alta; 5x1000 >100k; grant UE; appalti €40,428,156 — 5x1000: €621,207
   · **alta** "Cooperativa Sociale COOSS MARCHE ONLUS SOCIETA' C — ANCONA (AN) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €743,244,830 — 5x1000: €7,653
@@ -1395,7 +1396,6 @@ Generato: 19/07/2026 09:21
   · **alta** UNA CASA PER L'UOMO SOCIETA' COOPERATIVA SOCIALE — MONTEBELLUNA (TV) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €54,834,395 — 5x1000: €1,544
   · **alta** OPERA SOCIETA COOPERATIVA SOCIALE - ONLUS SOCIETA  — URBINO (PU) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €26,810,095 — 5x1000: €1,204
   · **alta** PROGRAMMA INTEGRA SOCIETA' COOPERATIVA SOCIALE — ROMA (RM) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €21,817,442 — 5x1000: €1,091
-  · **alta** BALLAFON SOCIETA' COOPERATIVA SOCIALE — VARESE (VA) — score 88, match tema + sezione; capacità alta; 5x1000 presente; grant UE; Impresa Sociale; appalti €155,679,725 — 5x1000: €923
 
 ---
 ## ⚠️ Bandi senza ETS candidabili

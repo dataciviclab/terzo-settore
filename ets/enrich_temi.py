@@ -5,7 +5,7 @@ Legge Partecipanti + Bandi Gara da GCS, estrae temi (minori, educazione, salute.
 dagli oggetti dei bandi a cui ogni ETS ha partecipato, e li salva in unified_ets.
 
 Uso:
-    python3 sql/enrich_anac_temi.py
+    python3 ets/enrich_temi.py
     # Dopo make build
 """
 

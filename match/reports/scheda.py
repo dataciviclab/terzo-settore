@@ -2,10 +2,10 @@
 """Scheda ETS: profilo completo di un ente del Terzo Settore.
 
 Uso:
-    python3 radar/scheda.py --cf 02006180364          # per CF
-    python3 radar/scheda.py --nome "nazareno"          # per nome
-    python3 radar/scheda.py --cf 02006180364 --anac    # con dettaglio ANAC
-    python3 radar/scheda.py --cf 02006180364 --match   # con bandi matchati
+    python3 match/reports/scheda.py --cf 02006180364          # per CF
+    python3 match/reports/scheda.py --nome "nazareno"          # per nome
+    python3 match/reports/scheda.py --cf 02006180364 --anac    # con dettaglio ANAC
+    python3 match/reports/scheda.py --cf 02006180364 --match   # con bandi matchati
 """
 
 import json
@@ -17,12 +17,12 @@ from pathlib import Path
 import duckdb
 import requests
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
 from config import gcs_path
-from radar.core import fmt_euro, fmt_match_reason, is_missing
+from lib.format import fmt_euro, fmt_match_reason, is_missing
 
 ETS_FILE = str(ROOT / "data/unified_ets.parquet")
 

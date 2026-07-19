@@ -7,11 +7,11 @@ from pathlib import Path
 
 import duckdb
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text
+from lib.format import fmt_euro, fmt_match_reason, fmt_tags, fmt_text
 
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
 COMUNI_ETS_PATH = ROOT / "data" / "comuni_ets.parquet"

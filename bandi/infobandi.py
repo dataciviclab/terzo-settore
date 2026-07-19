@@ -4,8 +4,8 @@ Polling: REST API + RSS feed.
 Output: JSON strutturato con ente, scadenza, budget, tag, link.
 
 Uso diretto:
-    python aggregatori/bandi/infobandi.py
-    from aggregatori.bandi.infobandi import fetch_bandi, filtra_per_territorio
+    python bandi/infobandi.py
+    from bandi.infobandi import fetch_bandi, filtra_per_territorio
 """
 
 import json
@@ -18,10 +18,10 @@ from pathlib import Path
 
 import requests
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 from config import filtra_bandi_attivi, normalizza_scadenza
 
-CACHE_DIR = Path(__file__).resolve().parents[2] / "data" / "bandi"
+CACHE_DIR = Path(__file__).resolve().parents[1] / "data" / "bandi"
 CACHE_FILE = CACHE_DIR / "infobandi_bandi.json"
 CACHE_TTL = 3600 
 

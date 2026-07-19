@@ -14,7 +14,7 @@ from urllib.parse import urljoin, parse_qs, urlparse
 import requests
 from bs4 import BeautifulSoup
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 from config import filtra_bandi_attivi, parse_scadenza
 
 BASE_URL = "https://www.info-cooperazione.it"

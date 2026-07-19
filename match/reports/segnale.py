@@ -5,8 +5,8 @@ Usa core.run_scan() per il matching bandi, poi filtra per territorio
 e aggiunge analisi ETS locale (landscape, gap sociali, top candidati).
 
 Uso:
-    python radar/segnale.py --territorio MI
-    python radar/segnale.py --territorio MI --comune Abbiategrasso
+    python match/reports/segnale.py --territorio MI
+    python match/reports/segnale.py --territorio MI --comune Abbiategrasso
 """
 
 import json, sys
@@ -15,12 +15,12 @@ from pathlib import Path
 
 import duckdb
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
 from config import gcs_path, REGION_PROVINCES
-from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text, is_missing
+from lib.format import fmt_euro, fmt_match_reason, fmt_tags, fmt_text, is_missing
 
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
 UNIFIED_COMUNI_URL = gcs_path("unified_comuni", 2026)
