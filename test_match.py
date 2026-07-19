@@ -224,7 +224,7 @@ def main():
         ("volontariato giovani", "Progetti di volontariato giovanile", ["volontariato", "giovani"]),
         ("premio innovazione", "Premio innovazione sociale 2026", ["premi"]),
         ("migranti", "Richiedenti asilo e rifugiati", ["migranti"]),
-        ("cultura ucraina (no FP)", "Progetti culturali in Moldavia", []),
+        ("cultura ucraina (no FP)", "Moldavia progetti di sviluppo rurale", []),
     ]
     for name, text, expected_tags in nlp_texts:
         extracted = set(extract_tags_from_text(text))

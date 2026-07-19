@@ -9,8 +9,12 @@ build:
 	duckdb < sql/build_unified_ets.sql
 	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/unified_ets.parquet'\").fetchone(); assert 140000 < r[0] < 160000, f'Row count {r[0]} fuori range'; print(f'✅ {r[0]} ETS — integrità OK')"
 
+# Arricchisce ETS con temi ANAC dagli oggetti dei bandi partecipati
+anac-temi: build
+	python3 sql/enrich_anac_temi.py
+
 # Scan completo: bandi → match → report
-scan radar:
+scan radar: anac-temi
 	python3 radar/scan_completo.py
 
 # Vista latest: bandi operativi in scadenza 60gg

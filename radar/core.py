@@ -72,51 +72,37 @@ MATCH_ETS_SQL = """
     SELECT codice_fiscale, denominazione, comune, provincia, capacita_progettuale,
            cinque_2025, flag_sport_denom, sezione,
            ha_grant_ue, ha_pnrr, ha_appalti, importo_appalti,
+           COALESCE(temi_anac, '') as temi_anac,
            CASE
-             WHEN regexp_matches(lower(denominazione), '{pattern}') AND flag_sport_denom AND {sez_match_bool} THEN 'tema+sport+sezione'
-             WHEN regexp_matches(lower(denominazione), '{pattern}') AND flag_sport_denom THEN 'tema+sport'
-             WHEN regexp_matches(lower(denominazione), '{pattern}') AND {sez_match_bool} THEN 'tema+sezione'
-             WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 'tema denominazione'
-             WHEN flag_sport_denom THEN 'sport da denominazione'
+             WHEN {match_tema} AND flag_sport_denom AND {sez_match_bool} THEN 'tema+sport+sezione'
+             WHEN {match_tema} AND flag_sport_denom THEN 'tema+sport'
+             WHEN {match_tema} AND {sez_match_bool} THEN 'tema+sezione'
+             WHEN {match_tema} THEN 'tema'
+             WHEN flag_sport_denom THEN 'sport'
              WHEN {sez_match_bool} THEN 'sezione'
              ELSE 'match'
            END AS motivo_match,
-            (
-              -- Match tematico (0-10) — bonus leggero per nome descrittivo
-              CASE WHEN regexp_matches(lower(denominazione), '{pattern}') THEN 10 ELSE 0 END
-              -- Match per sezione (0-25) — criterio principale
-              + CASE WHEN {sez_match_bool} THEN 25 ELSE 0 END
-              -- Sport bonus (0-15)
-              + CASE WHEN flag_sport_denom AND {sport_bonus} THEN 15 ELSE 0 END
-              {section_bonus}
-              -- Capacità progettuale (0-25)
-              + CASE capacita_progettuale
-                  WHEN 'alta' THEN 25
-                  WHEN 'medio-alta' THEN 20
-                  WHEN 'media' THEN 10
-                  ELSE 0
-                END
-              -- 5x1000 (0-15)
-              + CASE
-                  WHEN cinque_2025 >= 100000 THEN 15
-                  WHEN cinque_2025 >= 10000 THEN 10
-                  WHEN cinque_2025 > 0 THEN 5
-                  ELSE 0
-                END
-              -- Grant UE (0-8)
-              + CASE WHEN ha_grant_ue THEN 8 ELSE 0 END
-              -- PNRR (0-5)
-              + CASE WHEN ha_pnrr THEN 5 ELSE 0 END
-              -- Appalti pubblici ANAC (0-15) — capacità dimostrata
-              + CASE
-                  WHEN importo_appalti >= 10000000 THEN 15
-                  WHEN importo_appalti >= 1000000 THEN 10
-                  WHEN importo_appalti >= 100000 THEN 7
-                  WHEN ha_appalti THEN 5
-                  ELSE 0
-                END
-              -- Impresa Sociale (0-5)
-              + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
+           (
+             -- Match tematico (0-10): denominazione OR temi_anac
+             CASE WHEN {match_tema} THEN 10 ELSE 0 END
+             -- Match per sezione (0-25)
+             + CASE WHEN {sez_match_bool} THEN 25 ELSE 0 END
+             -- Sport bonus (0-15)
+             + CASE WHEN flag_sport_denom AND {sport_bonus} THEN 15 ELSE 0 END
+             {section_bonus}
+             -- Capacità progettuale (0-25)
+             + CASE capacita_progettuale
+                 WHEN 'alta' THEN 25 WHEN 'medio-alta' THEN 20 WHEN 'media' THEN 10 ELSE 0 END
+             -- 5x1000 (0-15)
+             + CASE WHEN cinque_2025 >= 100000 THEN 15 WHEN cinque_2025 >= 10000 THEN 10 WHEN cinque_2025 > 0 THEN 5 ELSE 0 END
+             -- Grant UE (0-8)
+             + CASE WHEN ha_grant_ue THEN 8 ELSE 0 END
+             -- PNRR (0-5)
+             + CASE WHEN ha_pnrr THEN 5 ELSE 0 END
+             -- Appalti ANAC (0-15)
+             + CASE WHEN importo_appalti >= 10000000 THEN 15 WHEN importo_appalti >= 1000000 THEN 10 WHEN importo_appalti >= 100000 THEN 7 WHEN ha_appalti THEN 5 ELSE 0 END
+             -- Impresa Sociale (0-5)
+             + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
            ) AS score
     FROM '{ets_file}'
     WHERE {match_condition}
@@ -412,10 +398,14 @@ def match_bando(con, pattern, tags, limit=10, territorio=None):
         section_bonuses.append("+ CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END")
     section_bonus = " ".join(section_bonuses)
 
+    # — Match tema: denominazione OR temi_anac (pre-calcolato) —
+    match_tema = f"(regexp_matches(lower(denominazione), '{pattern}') OR regexp_matches(temi_anac, '{pattern}'))"
+
     sql = MATCH_ETS_SQL.format(
         ets_file=ETS_FILE,
         pattern=pattern,
         match_condition=match_condition,
+        match_tema=match_tema,
         sport_bonus="TRUE" if sport_fallback else "FALSE",
         sez_match_bool=sez_match_bool,
         section_bonus=section_bonus,
