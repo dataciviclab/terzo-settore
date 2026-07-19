@@ -38,9 +38,12 @@ def load_scan():
         return json.load(f)
 
 
-def gap_territoriale(con):
+def gap_territoriale(con, limite=10, provincia=None):
     if not COMUNI_ETS_PATH.exists():
         return []
+    where = "WHERE appalti_riservati > 0 OR rd_pct > 5"
+    if provincia:
+        where += f" AND provincia = '{provincia}'"
     return con.sql(f"""
         SELECT comune as denominazione, provincia as sigla_provincia,
                popolazione as pop, reddito_procapite as reddito,
@@ -49,21 +52,21 @@ def gap_territoriale(con):
                ets_matchabili as ets_ok, ets_tot,
                rd_pct, nuclei_rdc,
                CASE
-                 WHEN appalti_riservati >= 5 AND ets_matchabili < 5 THEN '🔴 domanda pubblica alta, pochi ETS'
-                 WHEN appalti_riservati >= 1 AND ets_matchabili = 0 THEN '🟠 domanda pubblica, zero ETS'
-                 WHEN ets_matchabili = 0 AND rd_pct > 10 THEN '🟡 RdC alto, zero ETS'
-                 WHEN ets_matchabili < 3 AND reddito_procapite > 0 AND reddito_procapite < 10000 THEN '🟠 reddito basso, pochissimi ETS'
-                 WHEN ets_matchabili = 0 AND reddito_procapite > 0 AND reddito_procapite < 12000 THEN '🟠 reddito basso, zero ETS'
+                 WHEN appalti_riservati >= 5 AND ets_matchabili < 5 THEN 'domanda pubblica alta, pochi ETS'
+                 WHEN appalti_riservati >= 1 AND ets_matchabili = 0 THEN 'domanda pubblica, zero ETS'
+                 WHEN ets_matchabili = 0 AND rd_pct > 10 THEN 'RdC alto, zero ETS'
+                 WHEN ets_matchabili < 3 AND reddito_procapite > 0 AND reddito_procapite < 10000 THEN 'reddito basso, pochissimi ETS'
+                 WHEN ets_matchabili = 0 AND reddito_procapite > 0 AND reddito_procapite < 12000 THEN 'reddito basso, zero ETS'
                  ELSE ''
                END as gap_segnale
         FROM '{COMUNI_ETS_PATH}'
-        WHERE appalti_riservati > 0 OR rd_pct > 5
+        {where}
         ORDER BY appalti_riservati DESC, ets_matchabili ASC
-        LIMIT 10
+        LIMIT {limite}
     """).fetchdf().to_dict("records")
 
 
-def report_latest(scan, con, giorni=60):
+def report_latest(scan, con, giorni=60, territorio=None):
     oggi = datetime.now()
     risultati = []
     for r in scan["resultados"]:
@@ -76,6 +79,8 @@ def report_latest(scan, con, giorni=60):
     scrivi(lines, f"# 📡 Radar bandi — {oggi.strftime('%d/%m/%Y')}")
     scrivi(lines, "")
     scrivi(lines, f"Bandi operativi in scadenza nei prossimi {giorni}gg: **{len(risultati)}**")
+    if territorio:
+        scrivi(lines, f"Filtro territorio: **{territorio}**")
     scrivi(lines, "")
 
     for r in sorted(risultati, key=lambda x: x["gg"]):
@@ -98,22 +103,22 @@ def report_latest(scan, con, giorni=60):
     con_budget = [r for r in risultati if r.get("budget")]
     if con_budget:
         scrivi(lines, "---")
-        scrivi(lines, "## 💰 TOP OPPORTUNITÀ (bandi con budget)")
+        scrivi(lines, "## TOP OPPORTUNITÀ (bandi con budget)")
         scrivi(lines, "")
         scrivi(lines, "| Budget | GG | Ente | Bando | Link |")
         scrivi(lines, "|--------|----|------|-------|------|")
         for r in sorted(con_budget, key=lambda x: -(x.get("budget") or 0)):
-            urg = " 🔴" if r.get("gg", 999) <= 30 else (" 🟡" if r.get("gg", 999) <= 60 else "")
+            urg = " (🔴)" if r.get("gg", 999) <= 30 else (" (🟡)" if r.get("gg", 999) <= 60 else "")
             scrivi(lines, f"| {fmt_euro(r.get('budget'))}{urg} | {r.get('gg', 999)}gg "
                    f"| {fmt_text(r['ente'], '?')[:30]} | {r['titolo'][:40]} | [link]({r.get('url', '?')[:50]}) |")
         scrivi(lines, "")
 
     scrivi(lines, "---")
-    scrivi(lines, "## ⚠️ Gap territoriali (appalti ANAC + ETS + contesto sociale)")
+    scrivi(lines, "## Gap territoriali (appalti ANAC + ETS + contesto sociale)")
     scrivi(lines, "")
     scrivi(lines, "| Comune | Prov | Appalti riservati | ETS ok | RdC% | Reddito | Segnale |")
     scrivi(lines, "|--------|------|------------------|--------|------|---------|---------|")
-    for g in gap_territoriale(con):
+    for g in gap_territoriale(con, provincia=territorio):
         segnale = g.get("gap_segnale", "") or ""
         scrivi(lines, f"| {g['denominazione'][:20]} | {g['sigla_provincia']} "
                f"| {g['appalti']} app. €{g['importo_M']}M | {g['ets_ok']} | {g['rd_pct']}% "
@@ -143,7 +148,7 @@ def report_territorio(scan, con, territorio: str, comune: str = None):
     scrivi(out, "")
     for label in ["Per capacità:", "Per tipologia:"]:
         col = "capacita_progettuale" if "capacità" in label else "sezione"
-        df = con.sql(f"SELECT [{col}] as grp, count(*) as n FROM 'data/unified_ets.parquet' {where} GROUP BY grp ORDER BY n DESC").fetchdf()
+        df = con.sql(f"SELECT {col} as grp, count(*) as n FROM 'data/unified_ets.parquet' {where} GROUP BY grp ORDER BY n DESC").fetchdf()
         if not df.empty:
             scrivi(out, f"**{label}**")
             for _, r in df.iterrows():
@@ -388,12 +393,13 @@ def main():
     parser.add_argument("--latest", action="store_true", help="Bandi ≤60gg → radar-latest.md")
     parser.add_argument("--territorio", help="Provincia (es. MI) → segnale-{T}.md")
     parser.add_argument("--comune", help="Comune (opzionale, con --territorio)")
+    parser.add_argument("--giorni", type=int, default=60, help="Giorni per --latest (default 60)")
     args = parser.parse_args()
 
     if args.latest:
         scan = load_scan()
         con = duckdb.connect()
-        report = report_latest(scan, con)
+        report = report_latest(scan, con, giorni=args.giorni, territorio=args.territorio)
         out = Path(__file__).resolve().parents[2] / "cruscotto" / "radar-latest.md"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(report, encoding="utf-8")
