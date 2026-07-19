@@ -21,9 +21,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
+from config import gcs_path
 from radar.core import fmt_euro, fmt_match_reason, is_missing
 
-GCS = "https://storage.googleapis.com/dataciviclab-clean"
 ETS_FILE = str(ROOT / "data/unified_ets.parquet")
 
 
@@ -85,8 +85,8 @@ def scheda_anac(cf, con):
                ROUND(AVG(ag.importo_aggiudicazione), 0) as importo_medio,
                ROUND(MAX(ag.importo_aggiudicazione), 0) as importo_max,
                ROUND(MIN(ag.importo_aggiudicazione), 0) as importo_min
-        FROM read_parquet('{GCS}/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
-        INNER JOIN read_parquet('{GCS}/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
+        FROM read_parquet('{gcs_path("anac_aggiudicatari", 2026)}', union_by_name=true) a
+        INNER JOIN read_parquet('{gcs_path("anac_aggiudicazioni", 2026)}', union_by_name=true) ag
             ON a.cig = ag.cig
         WHERE a.codice_fiscale = '{cf}'
           AND ag.importo_aggiudicazione > 0
@@ -104,7 +104,7 @@ def scheda_anac(cf, con):
     # Partecipazioni 2026
     r2 = con.sql(f"""
         SELECT COUNT(DISTINCT cig) as n_partecipazioni
-        FROM read_parquet('{GCS}/anac_partecipanti/2026/anac_partecipanti_2026_clean.parquet', union_by_name=true)
+        FROM read_parquet('{gcs_path("anac_partecipanti", 2026)}', union_by_name=true)
         WHERE codice_fiscale = '{cf}'
     """).fetchdf()
     n_part = int(r2['n_partecipazioni'].iloc[0]) if not r2.empty else 0

@@ -20,14 +20,13 @@ sys.path.insert(0, str(ROOT / "lib"))
 import duckdb
 import pandas as pd
 
-from config import normalize_comune
+from config import gcs_path, normalize_comune
 
-GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
 ETS_FILE = str(ROOT / "data" / "unified_ets.parquet")
 OUTPUT = str(ROOT / "data" / "comuni_ets.parquet")
 
 ANAC_URLS = ", ".join(
-    f"'{GCS_BASE}/anac_bandi_gara/{y}/anac_bandi_gara_{y}_clean.parquet'"
+    f"'{gcs_path('anac_bandi_gara', y)}'"
     for y in [2023, 2024, 2025]
 )
 
@@ -41,7 +40,7 @@ def load_comuni(con):
     print("📥 Carico anagrafe comuni...")
     df = con.sql(f"""
         SELECT codice_istat, denominazione, sigla_provincia
-        FROM '{GCS_BASE}/istat_elenco_comuni/2026/istat_elenco_comuni_2026_clean.parquet'
+        FROM '{gcs_path("istat_elenco_comuni", 2026)}'
     """).fetchdf()
     
     print("📥 Carico popolazione e reddito...")
@@ -49,7 +48,7 @@ def load_comuni(con):
         SELECT codice_istat,
                ROUND(popolazione_residente)::INT as pop,
                ROUND(reddito_procapite, 0)::INT as reddito
-        FROM '{GCS_BASE}/unified_comuni/2026/unified_comuni_2026_clean.parquet'
+        FROM '{gcs_path("unified_comuni", 2026)}'
         WHERE anno = 2023
     """).fetchdf()
     
@@ -58,7 +57,7 @@ def load_comuni(con):
         SELECT TRIM(comune) as c,
                ROUND(takeup * 100, 1) as rd_pct,
                ROUND(nuclei_familiari_percettori_rdc_luglio_2020)::INT as nuclei_rdc
-        FROM '{GCS_BASE}/inps_rdc_pdc/2020/inps_rdc_pdc_2020_clean.parquet'
+        FROM '{gcs_path("inps_rdc_pdc", 2020)}'
     """).fetchdf()
     
     # Costruisce lookup: nome_normalizzato → (istat, prov)
@@ -174,8 +173,8 @@ def load_ets(con):
 
 # ── 3b. ANAC aggiudicatari (chi vince gli appalti) + importi ───────────
 
-ANAC_AGGIUDICATARI_GCS = f"{GCS_BASE}/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet"
-ANAC_AGGIUDICAZIONI_GCS = f"{GCS_BASE}/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet"
+ANAC_AGGIUDICATARI_GCS = gcs_path("anac_aggiudicatari", 2026)
+ANAC_AGGIUDICAZIONI_GCS = gcs_path("anac_aggiudicazioni", 2026)
 
 
 def _join_aggiudicatari_importi():

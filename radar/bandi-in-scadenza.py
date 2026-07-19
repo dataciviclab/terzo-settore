@@ -6,27 +6,15 @@ from datetime import datetime
 from pathlib import Path
 
 import duckdb
-import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
 from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text
-from config import normalize_comune
 
-ETS_FILE = ROOT / "data" / "unified_ets.parquet"
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
-GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
-INPS_RDC_URL = f"{GCS_BASE}/inps_rdc_pdc/2020/inps_rdc_pdc_2020_clean.parquet"
-COMUNI_URL = f"{GCS_BASE}/istat_elenco_comuni/2026/istat_elenco_comuni_2026_clean.parquet"
-UNIFIED_COMUNI_URL = f"{GCS_BASE}/unified_comuni/2026/unified_comuni_2026_clean.parquet"
-_COMUNI_LOOKUP = None  # cache per _build_comune_lookup
-
-ANAC_URLS = ", ".join(
-    f"'{GCS_BASE}/anac_bandi_gara/{y}/anac_bandi_gara_{y}_clean.parquet'"
-    for y in [2023, 2024, 2025]
-)
+COMUNI_ETS_PATH = ROOT / "data" / "comuni_ets.parquet"
 
 
 def load_scan():
@@ -38,75 +26,30 @@ def load_scan():
         return json.load(f)
 
 
-# Cache per comuni_ets (caricato una tantum)
-_COMUNI_ETS = None
-_COMUNI_ETS_PATH = ROOT / "data" / "comuni_ets.parquet"
-
-
-def _get_comuni_ets(con):
-    """Carica comuni_ets.parquet (lo costruisce se non esiste)."""
-    global _COMUNI_ETS
-    if _COMUNI_ETS is not None:
-        return _COMUNI_ETS
-    if not _COMUNI_ETS_PATH.exists():
-        print("⚠️  comuni_ets.parquet non trovato. Eseguo build...")
-        import subprocess
-        subprocess.run([sys.executable, str(ROOT / "sql/build_comuni_ets.py")], check=True)
-    _COMUNI_ETS = con.sql(f"SELECT * FROM '{_COMUNI_ETS_PATH}'").fetchdf()
-    return _COMUNI_ETS
-
-
 def gap_territoriale(con):
-    """Gap analysis: legge da comuni_ets.parquet (pre-aggregato).
-    
-    Mostra comuni con appalti riservati ANAC o gap sociale,
-    ordinati per appalti decrescenti, ETS ok ascendenti.
-    """
-    df = _get_comuni_ets(con)
-    
-    rows = []
-    for _, r in df.iterrows():
-        appalti = int(r["appalti_riservati"]) if pd.notna(r.get("appalti_riservati")) else 0
-        ets_ok = int(r["ets_matchabili"]) if pd.notna(r.get("ets_matchabili")) else 0
-        rd_pct = float(r["rd_pct"]) if pd.notna(r.get("rd_pct")) else 0.0
-        pop = int(r["popolazione"]) if pd.notna(r.get("popolazione")) else 0
-        reddito = int(r["reddito_procapite"]) if pd.notna(r.get("reddito_procapite")) else 0
-        importo = float(r["importo_anac_totale"]) if pd.notna(r.get("importo_anac_totale")) else 0
-        ets_tot = int(r["ets_tot"]) if pd.notna(r.get("ets_tot")) else 0
-        nuclei = int(r["nuclei_rdc"]) if pd.notna(r.get("nuclei_rdc")) else 0
-        
-        if appalti == 0 and rd_pct <= 5:
-            continue
-        
-        if appalti >= 5 and ets_ok < 5:
-            segnale = "🔴 domanda pubblica alta, pochi ETS"
-        elif appalti >= 1 and ets_ok == 0:
-            segnale = "🟠 domanda pubblica, zero ETS"
-        elif ets_ok == 0 and rd_pct > 10:
-            segnale = "🟡 RdC alto, zero ETS"
-        elif ets_ok < 3 and reddito > 0 and reddito < 10000:
-            segnale = "🟠 reddito basso, pochissimi ETS"
-        elif ets_ok == 0 and reddito > 0 and reddito < 12000:
-            segnale = "🟠 reddito basso, zero ETS"
-        else:
-            segnale = ""
-        
-        rows.append({
-            "denominazione": str(r["comune"]),
-            "sigla_provincia": str(r["provincia"]) if pd.notna(r.get("provincia")) else "",
-            "pop": pop, "reddito": reddito,
-            "appalti": appalti, "importo_M": round(importo / 1_000_000, 1),
-            "ets_ok": ets_ok, "ets_tot": ets_tot,
-            "rd_pct": rd_pct, "nuclei_rdc": nuclei,
-            "gap_segnale": segnale,
-        })
-    
-    if not rows:
+    """Gap analysis: comuni con appalti riservati ANAC o gap sociale."""
+    if not COMUNI_ETS_PATH.exists():
         return []
-    
-    df_out = pd.DataFrame(rows)
-    df_out = df_out.sort_values(["appalti", "ets_ok"], ascending=[False, True]).head(10)
-    return df_out.to_dict("records")
+    return con.sql(f"""
+        SELECT comune as denominazione, provincia as sigla_provincia,
+               popolazione as pop, reddito_procapite as reddito,
+               appalti_riservati as appalti,
+               ROUND(importo_anac_totale / 1000000, 1) as importo_M,
+               ets_matchabili as ets_ok, ets_tot,
+               rd_pct, nuclei_rdc,
+               CASE
+                 WHEN appalti_riservati >= 5 AND ets_matchabili < 5 THEN '🔴 domanda pubblica alta, pochi ETS'
+                 WHEN appalti_riservati >= 1 AND ets_matchabili = 0 THEN '🟠 domanda pubblica, zero ETS'
+                 WHEN ets_matchabili = 0 AND rd_pct > 10 THEN '🟡 RdC alto, zero ETS'
+                 WHEN ets_matchabili < 3 AND reddito_procapite > 0 AND reddito_procapite < 10000 THEN '🟠 reddito basso, pochissimi ETS'
+                 WHEN ets_matchabili = 0 AND reddito_procapite > 0 AND reddito_procapite < 12000 THEN '🟠 reddito basso, zero ETS'
+                 ELSE ''
+               END as gap_segnale
+        FROM '{COMUNI_ETS_PATH}'
+        WHERE appalti_riservati > 0 OR rd_pct > 5
+        ORDER BY appalti_riservati DESC, ets_matchabili ASC
+        LIMIT 10
+    """).fetchdf().to_dict("records")
 
 
 def territory_matches(r, filtro_territorio):

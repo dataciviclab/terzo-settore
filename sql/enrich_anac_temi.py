@@ -20,11 +20,11 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-GCS = "https://storage.googleapis.com/dataciviclab-clean"
+from config import gcs_path
 ETS_FILE = str(ROOT / "data/unified_ets.parquet")
 
-PART_URL = f"{GCS}/anac_partecipanti/2026/anac_partecipanti_2026_clean.parquet"
-BANDI_URL = f"{GCS}/anac_bandi_gara/2025/anac_bandi_gara_2025_clean.parquet"
+PART_URL = gcs_path("anac_partecipanti", 2026)
+BANDI_URL = gcs_path("anac_bandi_gara", 2025)
 
 
 from lib.temi import estrai_temi
@@ -89,21 +89,10 @@ def main():
     import pandas as pd
     df_temi = pd.DataFrame(output)
 
-    print(f"\n💾 Salvo {len(df_temi)} righe in unified_ets...")
-
-    # Leggi unified_ets esistente, aggiungi colonna temi_anac
-    con2 = duckdb.connect()
-    df_ets = con2.sql(f"SELECT * FROM '{ETS_FILE}'").fetchdf()
-    con2.close()
-
-    # Merge: aggiungi temi_anac
-    df_ets = df_ets.merge(df_temi, on="codice_fiscale", how="left")
-    df_ets["temi_anac"] = df_ets["temi_anac"].fillna("")
-
-    # Salva
-    df_ets.to_parquet(ETS_FILE, index=False)
-    print(f"✅ {len(df_ets)} ETS salvati in {ETS_FILE}")
-    print(f"   {len(temi_per_cf)} ETS con temi ANAC arricchiti")
+    print(f"\n💾 Salvo {len(df_temi)} righe in data/temi_anac.parquet...")
+    TEMA_ANAC_OUTPUT = ROOT / "data" / "temi_anac.parquet"
+    df_temi.to_parquet(TEMA_ANAC_OUTPUT, index=False)
+    print(f"✅ {len(df_temi)} righe salvate in {TEMA_ANAC_OUTPUT}")
 
 
 if __name__ == "__main__":

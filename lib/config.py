@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 # Dataset
 ETS_FILE = ROOT / "data/unified_ets.parquet"
+TEMA_ANAC_FILE = ROOT / "data/temi_anac.parquet"
 
 # Bandi
 BANDI_FILES = [
@@ -87,6 +88,14 @@ def filtra_bandi_attivi(bandi: list[dict]) -> list[dict]:
         puliti.append(b)
 
     return puliti
+
+# GCS paths (cross-repo contract — unico posto dove definirli)
+GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
+
+def gcs_path(slug: str, year: int) -> str:
+    """Path GCS per un dataset pulito: {slug}/{year}/{slug}_{year}_clean.parquet"""
+    return f"{GCS_BASE}/{slug}/{year}/{slug}_{year}_clean.parquet"
+
 
 # Output
 RADAR_REPORT = ROOT / "cruscotto/radar-completo.md"

@@ -19,13 +19,12 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from config import REGION_PROVINCES
+from config import gcs_path, REGION_PROVINCES
 from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text, is_missing
 
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
-GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
-UNIFIED_COMUNI_URL = f"{GCS_BASE}/unified_comuni/2026/unified_comuni_2026_clean.parquet"
-INPS_RDC_URL = f"{GCS_BASE}/inps_rdc_pdc/2020/inps_rdc_pdc_2020_clean.parquet"
+UNIFIED_COMUNI_URL = gcs_path("unified_comuni", 2026)
+INPS_RDC_URL = gcs_path("inps_rdc_pdc", 2020)
 
 
 def load_scan():

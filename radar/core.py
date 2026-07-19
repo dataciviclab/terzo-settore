@@ -12,7 +12,7 @@ import duckdb
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "lib"))
 
-from config import BANDI_FILES, ETS_FILE, MESI_IT, INFOBANDI_CAT_MAP, get_province_filter
+from config import BANDI_FILES, ETS_FILE, MESI_IT, TEMA_ANAC_FILE, INFOBANDI_CAT_MAP, get_province_filter
 from temi import (
     estrai_temi as extract_tags_from_text,
     get_pattern_from_tags,
@@ -52,10 +52,10 @@ TERRITORY_KEYWORDS = {
 }
 
 MATCH_ETS_SQL = """
-    SELECT codice_fiscale, denominazione, comune, provincia, capacita_progettuale,
+    SELECT e.codice_fiscale, e.denominazione, e.comune, e.provincia, e.capacita_progettuale,
            cinque_2025, flag_sport_denom, sezione,
            ha_grant_ue, ha_pnrr, ha_appalti, n_appalti, importo_appalti,
-           COALESCE(temi_anac, '') as temi_anac,
+            COALESCE(ta.temi_anac, '') as temi_anac,
            CASE
              WHEN {match_tema} AND flag_sport_denom AND {sez_match_bool} THEN 'tema+sport+sezione'
              WHEN {match_tema} AND flag_sport_denom THEN 'tema+sport'
@@ -86,9 +86,10 @@ MATCH_ETS_SQL = """
              + CASE WHEN n_appalti >= 50 THEN 15 WHEN n_appalti >= 20 THEN 12 WHEN n_appalti >= 10 THEN 10 WHEN n_appalti >= 5 THEN 7 WHEN n_appalti >= 1 THEN 5 ELSE 0 END
              -- Impresa Sociale (0-5)
              + CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END
-           ) AS score
-    FROM '{ets_file}'
-    WHERE {match_condition}
+            ) AS score
+     FROM '{ets_file}' e
+     LEFT JOIN '{temi_anac_file}' ta ON e.codice_fiscale = ta.codice_fiscale
+     WHERE {match_condition}
       AND (capacita_progettuale IN ('media', 'medio-alta', 'alta')
            OR ha_appalti = true
            OR ha_5x1000 = true
@@ -381,10 +382,11 @@ def match_bando(con, pattern, tags, limit=10, territorio=None):
     section_bonus = " ".join(section_bonuses)
 
     # — Match tema: denominazione OR temi_anac (pre-calcolato) —
-    match_tema = f"(regexp_matches(lower(denominazione), '{pattern}') OR regexp_matches(temi_anac, '{pattern}'))"
+    match_tema = f"(regexp_matches(lower(e.denominazione), '{pattern}') OR regexp_matches(ta.temi_anac, '{pattern}'))"
 
     sql = MATCH_ETS_SQL.format(
         ets_file=ETS_FILE,
+        temi_anac_file=TEMA_ANAC_FILE,
         pattern=pattern,
         match_condition=match_condition,
         match_tema=match_tema,
