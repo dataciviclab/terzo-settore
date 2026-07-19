@@ -26,12 +26,12 @@ scan radar: build
 
 # Vista latest: bandi operativi in scadenza 60gg
 latest:
-	python3 match/reports/scadenza.py
+	python3 match/reports/scan_completo.py --latest
 
-# Report segnale per territorio
+# Report segnale per territorio (da scan già eseguito)
 segnale:
 	[ -n "$(T)" ] || (echo "Usa: make segnale T=MI [C=Comune]" && exit 1)
-	python3 match/reports/segnale.py --territorio $(T) $(if $(C),--comune "$(C)",)
+	python3 match/reports/scan_completo.py --territorio $(T) $(if $(C),--comune "$(C)",)
 
 # Esporta candidati da contattare per un bando
 # make contatta B="BPER"          — CSV top 10
