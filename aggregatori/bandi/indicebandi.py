@@ -16,11 +16,13 @@ import re
 import sys
 import time
 from collections import Counter
-from datetime import date, datetime
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
+from config import filtra_bandi_attivi, normalizza_scadenza
 
 CACHE_DIR = Path(__file__).resolve().parents[2] / "data" / "bandi"
 CACHE_FILE = CACHE_DIR / "indicebandi_bandi.json"
@@ -28,12 +30,6 @@ BASE_URL = "https://www.indicebandi.it"
 CAT_URL = "https://www.indicebandi.it/it/taxonomy/term/30"
 HEADERS = {"User-Agent": "tsi/0.2 (+https://github.com/dataciviclab)", "Accept-Encoding": "gzip, deflate"}
 CACHE_TTL = 3600
-
-MESI_IT = {
-    "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4,
-    "maggio": 5, "giugno": 6, "luglio": 7, "agosto": 8,
-    "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
-}
 
 
 def fetch_bandi(force=False):
@@ -59,8 +55,6 @@ def fetch_bandi(force=False):
             print(f"   [{i+1}/{len(urls)}]", file=sys.stderr)
         time.sleep(0.3)
 
-    sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
-    from config import filtra_bandi_attivi  # noqa: E402
     bandi = filtra_bandi_attivi(bandi)
 
     with open(CACHE_FILE, "w") as f:
@@ -153,25 +147,7 @@ def _da_pagina_singola(url):
 
 # ── Helper ───────────────────────────────────────────────
 
-def _parse_scadenza(raw):
-    if not raw:
-        return None
-    s = raw.strip()
-    for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y"):
-        try:
-            return datetime.strptime(s, fmt).strftime("%Y-%m-%d")
-        except ValueError:
-            continue
-    m = re.match(r"(\d{1,2})\s+([a-z]+)\s+(\d{4})", s, re.IGNORECASE)
-    if m:
-        g, mese, a = m.group(1), m.group(2).lower(), m.group(3)
-        if mese in MESI_IT:
-            try:
-                d = date(int(a), MESI_IT[mese], int(g))
-                return d.strftime("%Y-%m-%d")
-            except ValueError:
-                return None
-    return None
+_parse_scadenza = normalizza_scadenza
 
 
 def _parse_budget(testo):

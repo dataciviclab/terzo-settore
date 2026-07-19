@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
 from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text
-from patterns import normalize_comune
+from config import normalize_comune
 
 ETS_FILE = ROOT / "data" / "unified_ets.parquet"
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"

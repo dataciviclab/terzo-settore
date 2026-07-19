@@ -11,12 +11,11 @@ Uso:
     python3 radar/contatta.py --bando "BPER" --formato json
 """
 
-import csv, json, os, sys, time
+import csv, json, sys
 from datetime import datetime
 from pathlib import Path
 
 import duckdb
-import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -30,66 +29,7 @@ ETS_FILE = ROOT / "data" / "unified_ets.parquet"
 
 # ── Google Places enrichment (opzionale) ─────────────────────────────
 
-PLACES_TEXT_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
-PLACES_DETAIL_URL = "https://maps.googleapis.com/maps/api/place/details/json"
-ENRICH_CACHE_DIR = ROOT / "data" / "enrich"
-
-
-def _google_places_key():
-    from dotenv import load_dotenv
-    load_dotenv(ROOT / ".env")
-    return os.getenv("GOOGLE_MAPS_API_KEY")
-
-
-def cerca_google_places(denominazione, comune):
-    """Cerca contatti su Google Places per un ETS. Usa cache locale."""
-    api_key = _google_places_key()
-    if not api_key:
-        return None
-
-    ENRICH_CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    cache_key = f"{denominazione[:50]}_{comune}".replace("/", "_").replace(" ", "_")
-    cache_file = ENRICH_CACHE_DIR / f"{cache_key}.json"
-    if cache_file.exists():
-        return json.loads(cache_file.read_text())
-
-    query = f"{denominazione} {comune}".strip()
-    try:
-        resp = requests.get(PLACES_TEXT_URL, params={
-            "query": query, "key": api_key, "language": "it", "region": "it",
-        }, timeout=15)
-        if resp.status_code != 200:
-            return None
-        data = resp.json()
-        if data.get("status") != "OK" or not data.get("results"):
-            return None
-
-        place = data["results"][0]
-        place_id = place.get("place_id", "")
-        dettagli = {}
-        if place_id:
-            time.sleep(0.1)
-            det = requests.get(PLACES_DETAIL_URL, params={
-                "place_id": place_id,
-                "fields": "website,formatted_phone_number,rating,user_ratings_total",
-                "key": api_key, "language": "it",
-            }, timeout=15)
-            if det.status_code == 200:
-                det_data = det.json()
-                if det_data.get("status") == "OK":
-                    dettagli = det_data.get("result", {})
-
-        result = {
-            "sito_web": dettagli.get("website"),
-            "telefono": dettagli.get("formatted_phone_number"),
-            "rating": dettagli.get("rating"),
-            "recensioni": dettagli.get("user_ratings_total"),
-            "indirizzo": place.get("formatted_address"),
-        }
-        cache_file.write_text(json.dumps(result, ensure_ascii=False, indent=2))
-        return result
-    except Exception:
-        return None
+from lib.places import cerca_ets as cerca_google_places
 
 
 # ── Contatti da unified_ets (sempre disponibili) ─────────────────────
@@ -202,7 +142,7 @@ def arricchisci_contatti(candidati, use_enrich=False):
                 cand["ets_telefono"] = cand["ets_telefono"] or gp.get("telefono", "")
                 cand["ets_sito"] = cand["ets_sito"] or gp.get("sito_web", "")
                 cand["ets_google_rating"] = gp.get("rating", "")
-                cand["ets_google_recensioni"] = gp.get("recensioni", "")
+                cand["ets_google_recensioni"] = gp.get("totale_recensioni", "")
 
         # Flag contattabilità
         ha_contatti = bool(cand["ets_email"] or cand["ets_telefono"] or cand["ets_sito"])

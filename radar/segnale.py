@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
+from config import REGION_PROVINCES
 from radar.core import fmt_euro, fmt_match_reason, fmt_tags, fmt_text, is_missing
 
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
@@ -217,20 +218,9 @@ def report(territorio: str, comune: str = None):
 
 
 def provincia(sigla: str) -> str:
-    """Ritorna il nome della provincia data la sigla."""
-    mappa = {
-        "MI": "Milano", "RM": "Roma", "NA": "Napoli", "TO": "Torino",
-        "PA": "Palermo", "GE": "Genova", "BO": "Bologna", "FI": "Firenze",
-        "VE": "Venezia", "PD": "Padova", "VI": "Vicenza", "VR": "Verona",
-        "BS": "Brescia", "BG": "Bergamo", "CO": "Como", "VA": "Varese",
-        "SO": "Sondrio", "CR": "Cremona", "MN": "Mantova", "LO": "Lodi",
-        "MB": "Monza", "PV": "Pavia", "LC": "Lecco", "CT": "Catania",
-        "ME": "Messina", "AG": "Agrigento", "CL": "Caltanissetta",
-        "EN": "Enna", "RG": "Ragusa", "SR": "Siracusa", "TP": "Trapani",
-        "CA": "Cagliari", "SS": "Sassari", "NU": "Nuoro", "OR": "Oristano",
-        "SU": "Sud Sardegna",
-    }
-    return mappa.get(sigla.upper(), sigla)
+    """Ritorna il nome della provincia data la sigla. Inverte REGION_PROVINCES."""
+    prov_to_name = {p: name for name, provs in REGION_PROVINCES.items() for p in provs}
+    return prov_to_name.get(sigla.upper(), sigla)
 
 
 if __name__ == "__main__":

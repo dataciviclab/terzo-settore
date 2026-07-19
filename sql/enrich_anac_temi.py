@@ -20,8 +20,6 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from lib.patterns import TEXT_KEYWORDS
-
 GCS = "https://storage.googleapis.com/dataciviclab-clean"
 ETS_FILE = str(ROOT / "data/unified_ets.parquet")
 

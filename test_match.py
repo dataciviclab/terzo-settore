@@ -10,9 +10,11 @@ from pathlib import Path
 import duckdb
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
-from patterns import (
-    get_pattern_from_tags, extract_tags_from_text,
-    get_sections_from_tags, get_province_filter,
+from config import get_province_filter
+from temi import (
+    get_pattern_from_tags,
+    estrai_temi as extract_tags_from_text,
+    sezioni_per_tag as get_sections_from_tags,
 )
 from radar.core import classify_bando, parse_date_flex
 

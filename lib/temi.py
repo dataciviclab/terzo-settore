@@ -123,3 +123,20 @@ def sezioni_per_tag(tags: list[str]) -> list[str]:
                 viste.add(s)
                 risultato.append(s)
     return risultato
+
+
+GENERIC_TAGS = {"lavoro", "inclusione", "ricerca", "giovani", "educazione", "salute"}
+
+
+def get_pattern_from_tags(tags):
+    """Costruisce pattern regexp combinato dai tag del bando."""
+    tags_lower = set(t.lower() for t in tags)
+    specific = {t for t in tags_lower if t not in GENERIC_TAGS}
+    specific_validi = {t for t in specific if t in TEMA_PATTERN}
+    generici_validi = {t for t in tags_lower if t in TEMA_PATTERN}
+    use_tags = specific_validi if specific_validi else generici_validi
+    parts = []
+    for tag, pattern in TEMA_PATTERN.items():
+        if tag in use_tags and pattern:
+            parts.append(pattern)
+    return "|".join(parts) if parts else None

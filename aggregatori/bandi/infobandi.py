@@ -18,6 +18,9 @@ from pathlib import Path
 
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
+from config import filtra_bandi_attivi, normalizza_scadenza
+
 CACHE_DIR = Path(__file__).resolve().parents[2] / "data" / "bandi"
 CACHE_FILE = CACHE_DIR / "infobandi_bandi.json"
 CACHE_TTL = 3600 
@@ -27,40 +30,9 @@ RSS_URL = "https://infobandi.csvnet.it/feed/"
 HEADERS = {"User-Agent": "terzo-settore-intelligence/0.1 (+https://github.com/dataciviclab)"}
 
 
-MESI_IT = {
-    "gennaio": "01", "febbraio": "02", "marzo": "03", "aprile": "04",
-    "maggio": "05", "giugno": "06", "luglio": "07", "agosto": "08",
-    "settembre": "09", "ottobre": "10", "novembre": "11", "dicembre": "12",
-}
-
-
-def _normalizza_scadenza(scadenza: str) -> str | None:
-    """Normalizza una scadenza in formato italiano in YYYY-MM-DD."""
-    if not scadenza:
-        return None
-    # Pulisce: rimuove "alle ore ...", "(con proroga)", ecc.
-    s = re.sub(r"\s+alle\s+ore\s+[\d:.]+", "", scadenza)
-    s = re.sub(r"\s*\([^)]*\)\s*", " ", s)
-    s = re.sub(r"\s+ore\s+[\d:.]+", "", s)
-    s = s.strip()
-    # Prova formati standard
-    for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%d-%m-%Y"):
-        try:
-            return datetime.strptime(s, fmt).strftime("%Y-%m-%d")
-        except ValueError:
-            continue
-    # Formato italiano "7 settembre 2026"
-    m = re.match(r"(\d{1,2})\s+([a-z]+)\s+(\d{4})", s, re.IGNORECASE)
-    if m:
-        giorno, mese, anno = m.group(1), m.group(2).lower(), m.group(3)
-        if mese in MESI_IT:
-            return f"{anno}-{MESI_IT[mese]}-{int(giorno):02d}"
-    return None
-
-
 def _gg_rimasti(scadenza: str, oggi: datetime | None = None) -> int | None:
     """Giorni fino alla scadenza (None se non parsabile)."""
-    norm = _normalizza_scadenza(scadenza)
+    norm = normalizza_scadenza(scadenza)
     if not norm:
         return None
     oggi = oggi or datetime.now()
@@ -87,8 +59,7 @@ def fmt_euro(valore: float | int | str | None) -> str:
         return f"€{v:.2f}"
 
 
-def _decode(body: bytes) -> dict | list:
-    return json.loads(body.decode("utf-8-sig"))
+
 
 
 def fetch_bandi(force: bool = False) -> list[dict]:
@@ -107,7 +78,7 @@ def fetch_bandi(force: bool = False) -> list[dict]:
         url = f"{API_BASE}/posts?per_page=100&page={page}&_fields=id,date,title,link,categories,tags,content"
         resp = requests.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
-        data = _decode(resp.content)
+        data = json.loads(resp.content.decode("utf-8-sig"))
 
         if not data:
             break
@@ -121,9 +92,6 @@ def fetch_bandi(force: bool = False) -> list[dict]:
         page += 1
         time.sleep(0.3)
 
-    sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
-    # ruff: noqa: E402
-    from config import filtra_bandi_attivi
     bandi = filtra_bandi_attivi(bandi)
 
     with open(CACHE_FILE, "w") as f:

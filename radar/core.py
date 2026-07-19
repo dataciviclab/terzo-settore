@@ -12,30 +12,13 @@ import duckdb
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "lib"))
 
-from config import BANDI_FILES, ETS_FILE
-from patterns import (
-    INFOBANDI_CAT_MAP,
-    extract_tags_from_text,
+from config import BANDI_FILES, ETS_FILE, MESI_IT, INFOBANDI_CAT_MAP, get_province_filter
+from temi import (
+    estrai_temi as extract_tags_from_text,
     get_pattern_from_tags,
-    get_sections_from_tags,
-    get_province_filter,
+    sezioni_per_tag as get_sections_from_tags,
 )
 from html_utils import arricchisci
-
-MONTH_MAP = {
-    "gennaio": "01",
-    "febbraio": "02",
-    "marzo": "03",
-    "aprile": "04",
-    "maggio": "05",
-    "giugno": "06",
-    "luglio": "07",
-    "agosto": "08",
-    "settembre": "09",
-    "ottobre": "10",
-    "novembre": "11",
-    "dicembre": "12",
-}
 
 NON_OPERATIVE_TITLE_RE = re.compile(
     r"\b(esito|esiti|approvat[ioe]|affidat[aoie]|aggiudicat[aoie]|risultat[io]|graduatoria|finanziati)\b",
@@ -125,7 +108,7 @@ def parse_date_flex(s):
     m = re.match(r"(\d{1,2})\s+([a-z]+)\s+(\d{4})", s)
     if m:
         giorno, mese, anno = m.groups()
-        mese_num = MONTH_MAP.get(mese)
+        mese_num = MESI_IT.get(mese)
         if mese_num:
             try:
                 d = date(int(anno), int(mese_num), int(giorno))
@@ -242,7 +225,6 @@ def deduplicate_bandi(bandi):
     anche se il titolo è in lingue diverse (es. italiano vs inglese).
     Tiene il record con più tag (arricchimento massimo).
     """
-    from hashlib import sha256
     unique = []
     seen_urls = set()
     seen_keys = set()

@@ -1,6 +1,7 @@
 """Paths, thresholds e costanti del sistema."""
 
 import re
+import unicodedata
 from datetime import date, datetime
 from pathlib import Path
 
@@ -42,6 +43,17 @@ def parse_scadenza(raw: str) -> date | None:
             except ValueError:
                 return None
     return None
+
+
+def normalizza_scadenza(raw: str) -> str | None:
+    """Normalizza una scadenza in YYYY-MM-DD (stringa), o None."""
+    if not raw:
+        return None
+    s = re.sub(r"\s+alle\s+ore\s+[\d:.]+", "", raw)
+    s = re.sub(r"\s*\([^)]*\)\s*", " ", s)
+    s = re.sub(r"\s+ore\s+[\d:.]+", "", s)
+    d = parse_scadenza(s)
+    return d.strftime("%Y-%m-%d") if d else None
 
 
 def filtra_bandi_attivi(bandi: list[dict]) -> list[dict]:
@@ -88,3 +100,64 @@ CAP_CINQUE_ANNI = 3
 CAP_OC_BILANCIO = 100000
 CAP_OC_PROGETTI = 3
 CAP_OC_DIPENDENTI = 3
+
+# Dati geografici (regioni → province)
+REGION_PROVINCES = {
+    "Abruzzo": ["AQ", "CH", "PE", "TE"],
+    "Basilicata": ["PZ", "MT"],
+    "Calabria": ["CZ", "CS", "KR", "RC", "VV"],
+    "Campania": ["AV", "BN", "CE", "NA", "SA"],
+    "Emilia-Romagna": ["BO", "FE", "FC", "MO", "PC", "PR", "RA", "RE", "RN"],
+    "Friuli Venezia Giulia": ["GO", "PN", "TS", "UD"],
+    "Lazio": ["FR", "LT", "RI", "RM", "VT"],
+    "Liguria": ["GE", "IM", "SP", "SV"],
+    "Lombardia": ["BG", "BS", "CO", "CR", "LC", "LO", "MB", "MI", "MN", "PV", "SO", "VA"],
+    "Marche": ["AN", "AP", "FM", "MC", "PU"],
+    "Molise": ["CB", "IS"],
+    "Piemonte": ["AL", "AT", "BI", "CN", "NO", "TO", "VB", "VC"],
+    "Puglia": ["BA", "BR", "BT", "FG", "LE", "TA"],
+    "Sardegna": ["CA", "NU", "OR", "SS", "SU"],
+    "Sicilia": ["AG", "CL", "CT", "EN", "ME", "PA", "RG", "SR", "TP"],
+    "Toscana": ["AR", "FI", "GR", "LI", "LU", "MS", "PI", "PO", "PT", "SI"],
+    "Trentino Alto Adige": ["BZ", "TN"],
+    "Umbria": ["PG", "TR"],
+    "Valle d'Aosta": ["AO"],
+    "Veneto": ["BL", "PD", "RO", "TV", "VE", "VI", "VR"],
+}
+
+MEZZOGIORNO_PROVINCES = (
+    REGION_PROVINCES["Abruzzo"] + REGION_PROVINCES["Basilicata"]
+    + REGION_PROVINCES["Calabria"] + REGION_PROVINCES["Campania"]
+    + REGION_PROVINCES["Molise"] + REGION_PROVINCES["Puglia"]
+    + REGION_PROVINCES["Sardegna"] + REGION_PROVINCES["Sicilia"]
+)
+
+INFOBANDI_CAT_MAP = {
+    1200: "giovani", 1199: "volontariato", 803: "volontariato",
+    1201: "cultura", 1234: "diritti", 1434: "migranti",
+    1213: "lavoro", 130: "giovani", 81: "sport",
+    1203: "migranti", 1206: "ambiente", 1208: "giustizia",
+    1204: "ricerca", 128: "cultura", 127: "cooperazione internazionale",
+}
+
+
+def get_province_filter(territorio):
+    if not territorio:
+        return []
+    provinces = []
+    for t in territorio:
+        t_clean = t.strip().title()
+        if t_clean == "Mezzogiorno":
+            return list(MEZZOGIORNO_PROVINCES)
+        if t_clean in REGION_PROVINCES:
+            provinces.extend(REGION_PROVINCES[t_clean])
+    return provinces
+
+
+def normalize_comune(nome):
+    if not nome:
+        return ""
+    nome = unicodedata.normalize("NFD", nome.strip().upper())
+    nome = nome.replace("'", "").replace("`", "").replace("´", "")
+    nome = re.sub(r"\s+", " ", nome).strip()
+    return nome.replace("'", "").replace("`", "").replace("´", "")

@@ -20,7 +20,7 @@ sys.path.insert(0, str(ROOT / "lib"))
 import duckdb
 import pandas as pd
 
-from patterns import normalize_comune, SPECIAL_COMUNI
+from config import normalize_comune
 
 GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
 ETS_FILE = str(ROOT / "data" / "unified_ets.parquet")
@@ -73,17 +73,6 @@ def load_comuni(con):
         if norm:
             lookup[norm] = (istat, prov)
     
-    # SPECIAL_COMUNI
-    for nome, istat in SPECIAL_COMUNI.items():
-        norm = normalize_comune(nome)
-        if norm and norm not in lookup:
-            # cerca provincia dal nome principale
-            prov = ""
-            for k, (i, p) in lookup.items():
-                if i == istat and p:
-                    prov = p
-                    break
-            lookup[norm] = (istat, prov)
     
     # Metriche per istat
     for _, r in metr.iterrows():

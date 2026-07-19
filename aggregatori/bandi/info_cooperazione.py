@@ -6,12 +6,16 @@ Cache locale: data/bandi/info_cooperazione_bandi.json
 """
 
 import json, re, time, sys
-from datetime import datetime
+from collections import Counter
+from datetime import date, datetime
 from pathlib import Path
-from urllib.parse import urljoin, urlencode, parse_qs, urlparse
+from urllib.parse import urljoin, parse_qs, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
+from config import filtra_bandi_attivi, parse_scadenza
 
 BASE_URL = "https://www.info-cooperazione.it"
 SEARCH_URL = f"{BASE_URL}/Category/Search"
@@ -80,18 +84,10 @@ def parse_bandi(html):
         img_url = urljoin(BASE_URL, img_el.get("src", "")) if img_el else ""
 
         # scaduto?
-        from datetime import datetime
         scaduto = False
         if scadenza:
-            try:
-                MONTH_MAP = {"gennaio":"01","febbraio":"02","marzo":"03","aprile":"04","maggio":"05","giugno":"06",
-                            "luglio":"07","agosto":"08","settembre":"09","ottobre":"10","novembre":"11","dicembre":"12"}
-                m2 = re.match(r"(\d{1,2})\s+([a-z]+)\s+(\d{4})", scadenza.lower())
-                if m2:
-                    d = datetime(int(m2.group(3)), int(MONTH_MAP[m2.group(2)]), int(m2.group(1)))
-                    scaduto = d < datetime.now()
-            except:
-                pass
+            d = parse_scadenza(scadenza)
+            scaduto = d is not None and d < date.today()
 
         bandi.append({
             "titolo": titolo,
@@ -193,8 +189,6 @@ def main():
 
     # Salva cache
     CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    sys.path.insert(0, str(CACHE_FILE.parents[2] / "lib"))
-    from config import filtra_bandi_attivi  # noqa: E402
     tutti = filtra_bandi_attivi(tutti)
     data = {
         "fonte": "info-cooperazione.it",
@@ -211,7 +205,6 @@ def main():
     print(f"  Bandi totali: {len(tutti)}")
     print(f"  Donatori unici: {len(donatori)}")
     print(f"  Top donatori:")
-    from collections import Counter
     for don, cnt in Counter(b["donatore"] for b in tutti if b["donatore"]).most_common(10):
         print(f"    · {don}: {cnt}")
 
