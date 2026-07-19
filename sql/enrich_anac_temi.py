@@ -9,7 +9,6 @@ Uso:
     # Dopo make build
 """
 
-import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -21,7 +20,6 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
 from config import gcs_path
-ETS_FILE = str(ROOT / "data/unified_ets.parquet")
 
 PART_URL = gcs_path("anac_partecipanti", 2026)
 BANDI_URL = gcs_path("anac_bandi_gara", 2025)
@@ -34,8 +32,8 @@ def main():
     print("📥 Carico ETS...")
     con = duckdb.connect()
 
-    # CF di tutti gli ETS
-    ets_cf = con.sql(f"SELECT codice_fiscale FROM '{ETS_FILE}'").fetchdf()
+    # CF di tutti gli ETS (da RUNTS, non da unified_ets — rompe dipendenza)
+    ets_cf = con.sql("SELECT codice_fiscale FROM 'data/runts_iscritti.parquet'").fetchdf()
     print(f"   {len(ets_cf)} ETS")
 
     # Crea tabella temporanea con i CF ETS per filtro

@@ -130,6 +130,9 @@ SELECT
     COALESCE(anac.n_appalti, 0) as numero_appalti,
     COALESCE(anac.importo_appalti, 0) as importo_appalti,
 
+    -- Temi ANAC (da partecipazioni a bandi gara)
+    COALESCE(ta.temi_anac, '') as temi_anac,
+
     -- Indicatore composito di capacità
     -- Alta: grant UE (progetti europei finanziati)
     -- Medio-alta: aiuti stato o PNRR (progetti co-finanziati)
@@ -154,7 +157,8 @@ FROM runts r
 LEFT JOIN cinque_agg c ON r.codice_fiscale = c.cf
 LEFT JOIN fts f ON r.codice_fiscale = f.cf
 LEFT JOIN rna ON r.codice_fiscale = rna.cf
-LEFT JOIN pnrr ON r.codice_fiscale = pnrr.cf
-LEFT JOIN anac ON r.codice_fiscale = anac.cf
-ORDER BY r.provincia, r.comune, r.denominazione)
+    LEFT JOIN pnrr ON r.codice_fiscale = pnrr.cf
+    LEFT JOIN anac ON r.codice_fiscale = anac.cf
+    LEFT JOIN read_parquet('data/temi_anac.parquet', union_by_name=true) ta ON r.codice_fiscale = ta.codice_fiscale
+    ORDER BY r.provincia, r.comune, r.denominazione)
 TO 'data/unified_ets.parquet' (FORMAT PARQUET);
