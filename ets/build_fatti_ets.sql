@@ -46,21 +46,35 @@ bandi_gara AS (
     ], union_by_name=true)
 ),
 anac AS (
-    SELECT a.codice_fiscale as cf,
-           EXTRACT(YEAR FROM ag.data_aggiudicazione_definitiva) as anno,
-           ag.importo_aggiudicazione as importo,
+    WITH partecipanti_per_cig AS (
+        SELECT cig, count(DISTINCT codice_fiscale) as n_part
+        FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true)
+        GROUP BY cig
+    ),
+    per_cig AS (
+        SELECT a.codice_fiscale as cf,
+               a.cig,
+               MAX(ag.importo_aggiudicazione) / GREATEST(MAX(COALESCE(p.n_part, 1)), 1) as importo,
+               MAX(ag.data_aggiudicazione_definitiva) as data_max
+        FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
+        JOIN read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
+          ON a.id_aggiudicazione = ag.id_aggiudicazione
+        LEFT JOIN partecipanti_per_cig p ON a.cig = p.cig
+        WHERE a.codice_fiscale IS NOT NULL AND a.codice_fiscale != ''
+          AND ag.importo_aggiudicazione > 0
+          AND ag.importo_aggiudicazione < 100000000000
+          AND EXTRACT(YEAR FROM ag.data_aggiudicazione_definitiva) BETWEEN 2000 AND 2026
+        GROUP BY a.codice_fiscale, a.cig
+    )
+    SELECT p.cf,
+           EXTRACT(YEAR FROM p.data_max) as anno,
+           p.importo,
            COALESCE(bg.oggetto_lotto, bg.oggetto_gara) as oggetto_gara,
            bg.denominazione_amministrazione_appaltante as stazione_appaltante,
            bg.TIPO_APPALTO_RISERVATO as appalto_riservato,
            bg.flag_pnrr
-    FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
-    JOIN read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
-      ON a.id_aggiudicazione = ag.id_aggiudicazione
-    LEFT JOIN bandi_gara bg ON a.cig = bg.cig
-    WHERE a.codice_fiscale IS NOT NULL AND a.codice_fiscale != ''
-      AND ag.importo_aggiudicazione > 0
-      AND ag.importo_aggiudicazione < 100000000000
-      AND EXTRACT(YEAR FROM ag.data_aggiudicazione_definitiva) BETWEEN 2000 AND 2026
+    FROM per_cig p
+    LEFT JOIN bandi_gara bg ON p.cig = bg.cig
 ),
 subappalti AS (
     SELECT cf_subappaltante as cf,
