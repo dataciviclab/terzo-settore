@@ -42,7 +42,11 @@ fatti_pivot AS (
         COUNT(CASE WHEN fonte = 'anac' AND flag_pnrr = true THEN 1 END) as appalti_pnrr,
 
         -- Subappalti
-        COUNT(CASE WHEN fonte = 'subappalto' THEN 1 END) as subappalti
+        COUNT(CASE WHEN fonte = 'subappalto' THEN 1 END) as subappalti,
+
+        -- Patrimonio immobiliare pubblico
+        COUNT(CASE WHEN fonte = 'patrimonio' THEN 1 END) as patrimonio_immobili,
+        SUM(CASE WHEN fonte = 'patrimonio' THEN importo END) as canone_totale
 
     FROM read_parquet('data/fatti_ets.parquet')
     GROUP BY cf
@@ -92,6 +96,8 @@ SELECT
     COALESCE(appalti_riservati, 0) as appalti_riservati,
     COALESCE(appalti_pnrr, 0) as appalti_pnrr,
     COALESCE(subappalti, 0) as subappalti,
+    COALESCE(patrimonio_immobili, 0) as patrimonio_immobili,
+    COALESCE(canone_totale, 0) as canone_totale,
 
     -- Temi ANAC
     COALESCE(ta.temi_anac, '') as temi_anac,

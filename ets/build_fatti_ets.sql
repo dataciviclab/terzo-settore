@@ -83,6 +83,14 @@ subappalti AS (
     FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_subappalti/2026/anac_subappalti_2026_clean.parquet', union_by_name=true)
     WHERE cf_subappaltante IS NOT NULL AND cf_subappaltante != ''
       AND EXTRACT(YEAR FROM data_autorizzazione) BETWEEN 2000 AND 2026
+),
+patrimonio AS (
+    SELECT REPLACE(REPLACE(soggetto_ricevente_cf, '[', ''), ']', '') as cf,
+           anno,
+           COALESCE(canone_annuale, 0) as importo
+    FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/mef_patrimonio_detenzioni/2023/mef_patrimonio_detenzioni_2023_clean.parquet', union_by_name=true)
+    WHERE soggetto_ricevente_cf IS NOT NULL AND soggetto_ricevente_cf != ''
+      AND anno BETWEEN 2000 AND 2026
 )
 SELECT '5x1000' as fonte, cf, anno, importo, NULL as oggetto_gara, NULL as stazione_appaltante, NULL as appalto_riservato, NULL as flag_pnrr FROM cinque WHERE cf IS NOT NULL
 UNION ALL
@@ -95,5 +103,7 @@ UNION ALL
 SELECT 'anac', cf, anno, importo, oggetto_gara, stazione_appaltante, appalto_riservato, flag_pnrr FROM anac WHERE cf IS NOT NULL
 UNION ALL
 SELECT 'subappalto', cf, anno, importo, NULL, NULL, NULL, NULL FROM subappalti WHERE cf IS NOT NULL
+UNION ALL
+SELECT 'patrimonio', cf, anno, importo, NULL, NULL, NULL, NULL FROM patrimonio WHERE cf IS NOT NULL
 )
 TO 'data/fatti_ets.parquet' (FORMAT PARQUET);

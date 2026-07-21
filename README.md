@@ -3,8 +3,8 @@
 **Da un bando a una lista di numeri di telefono in due comandi.**
 
 Matcha 150.000 ETS italiani con bandi pubblici e privati. Arricchisce con
-appalti ANAC, donazioni 5x1000, grant UE, PNRR, aiuti di Stato, subappalti.
-Esporta CSV con contatti telefonici pronti per chiamata.
+appalti ANAC, donazioni 5x1000, grant UE, PNRR, aiuti di Stato, subappalti,
+immobili pubblici. Esporta CSV con contatti telefonici pronti per chiamata.
 
 ## Esempi d'uso
 
@@ -20,7 +20,7 @@ Esporta CSV con contatti telefonici pronti per chiamata.
 ## Pipeline
 
 ```bash
-make build       # fatti_ets (8.7M righe) → PIVOT → unified_ets (150K ETS, 30 colonne)
+make build       # fatti_ets (8.8M righe, 7 fonti) → PIVOT → unified_ets (150K ETS, 33 colonne)
 make all         # build + comuni-ets + scan completo
 make latest      # bandi ≤60gg + TOP opportunità + gap territoriali
 make contatta B="RIZA" TOP=10 ENRICH=1   # CSV con telefono
@@ -30,7 +30,7 @@ make contatta B="RIZA" TOP=10 ENRICH=1   # CSV con telefono
 
 ```
 ets/                              ← Hub dati ETS
-  build_fatti_ets.sql             6 fonti (5x1000, grant_ue, aiuto_stato, pnrr, anac, subappalto)
+  build_fatti_ets.sql             7 fonti (5x1000, grant_ue, aiuto_stato, pnrr, anac, subappalto, patrimonio)
   build_unified_ets.sql           PIVOT da fatti_ets + geografia (comuni_master) + temi ANAC
   enrich_temi.py                  NLP su oggetti ANAC → temi per ETS
   comuni.py                       Metriche aggregate per comune
@@ -53,11 +53,12 @@ lib/                              ← Utility condivise
 
 | Dataset | Cosa dà |
 |---|---|
-| **fatti_ets** (8.7M righe) | Long format: fonte, cf, anno, importo, oggetto_gara, stazione_appaltante, appalto_riservato, flag_pnrr |
-| **unified_ets** (150K ETS) | 30 colonne: capacità, geografia (98% con istat/regione), appalti riservati, PNRR, subappalti |
+| **fatti_ets** (8.8M righe) | Long format: fonte, cf, anno, importo, oggetto_gara, stazione_appaltante, appalto_riservato, flag_pnrr |
+| **unified_ets** (150K ETS) | 33 colonne: capacità, geografia (98% con istat/regione), appalti riservati, PNRR, subappalti, patrimonio immobiliare |
 | RUNTS | Anagrafe ETS (sezione, comune, provincia) |
 | ANAC aggiudicazioni + bandi_gara | Appalti pubblici: importi, oggetto, riservati (L.381/91, D.Lgs 117/2017), PNRR |
 | ANAC subappalti | ETS come subappaltatori (119 ETS, 363 subappalti) |
+| MEF patrimonio detenzioni | Immobili pubblici in uso a ETS (3.301 ETS, 6.163 immobili) |
 | 5x1000, FTS, RNA, PNRR | Capacità fundraising, europea, aiuti, Next Gen EU |
 
 ## Numeri chiave
@@ -71,8 +72,9 @@ lib/                              ← Utility condivise
 | ETS con grant UE | 4.778 |
 | ETS con PNRR | 20.703 |
 | ETS con subappalti | 119 |
+| ETS con immobili pubblici | 3.301 |
 | Candidature generate | ~920 |
-| ETS con tutte le fonti (5/6) | 12 |
+| ETS con tutte le fonti (5/7) | 12 |
 
 ---
 
