@@ -6,9 +6,9 @@ COPY (
 WITH cinque AS (
     SELECT TRIM(REPLACE(codice_fiscale, chr(39), '')) as cf, anno, importo_totale_erogabile as importo
     FROM read_parquet([
-        'https://storage.googleapis.com/dataciviclab-clean/ade_cinque_per_mille/2023/ade_cinque_per_mille_2023_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/ade_cinque_per_mille/2024/ade_cinque_per_mille_2024_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/ade_cinque_per_mille/2025/ade_cinque_per_mille_2025_clean.parquet'
+        'data/gcs_cache/ade_cinque_per_mille_2023_clean.parquet',
+        'data/gcs_cache/ade_cinque_per_mille_2024_clean.parquet',
+        'data/gcs_cache/ade_cinque_per_mille_2025_clean.parquet'
     ], union_by_name=true)
     WHERE flag_ets_onlus = true
 ),
@@ -19,36 +19,36 @@ fts AS (
         ELSE TRIM(beneficiario_partita_iva)
     END as cf, anno, importo_contrattato as importo
     FROM read_parquet([
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2020/fts_eu_grants_2020_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2021/fts_eu_grants_2021_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2022/fts_eu_grants_2022_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2023/fts_eu_grants_2023_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2024/fts_eu_grants_2024_clean.parquet'
+        'data/gcs_cache/fts_eu_grants_2020_clean.parquet',
+        'data/gcs_cache/fts_eu_grants_2021_clean.parquet',
+        'data/gcs_cache/fts_eu_grants_2022_clean.parquet',
+        'data/gcs_cache/fts_eu_grants_2023_clean.parquet',
+        'data/gcs_cache/fts_eu_grants_2024_clean.parquet'
     ], union_by_name=true)
     WHERE TRIM(beneficiario_partita_iva) != '-'
 ),
 rna AS (
     SELECT TRIM(REPLACE(codice_fiscale_beneficiario, chr(39), '')) as cf, anno, importo_nominale as importo
     FROM read_parquet([
-        'https://storage.googleapis.com/dataciviclab-clean/rna_aiuti_stato/2025/rna_aiuti_stato_2025_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/rna_aiuti_stato/2026/rna_aiuti_stato_2026_clean.parquet'
+        'data/gcs_cache/rna_aiuti_stato_2025_clean.parquet',
+        'data/gcs_cache/rna_aiuti_stato_2026_clean.parquet'
     ], union_by_name=true)
 ),
 pnrr AS (
     SELECT TRIM(cf_soggetto_attuatore) as cf, 2026 as anno, fin_totale as importo
-    FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/pnrr_progetti/2026/pnrr_progetti_2026_clean.parquet', union_by_name=true)
+    FROM read_parquet('data/gcs_cache/pnrr_progetti_2026_clean.parquet', union_by_name=true)
 ),
 bandi_gara AS (
     SELECT * FROM read_parquet([
-        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2023/anac_bandi_gara_2023_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2024/anac_bandi_gara_2024_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2025/anac_bandi_gara_2025_clean.parquet'
+        'data/gcs_cache/anac_bandi_gara_2023_clean.parquet',
+        'data/gcs_cache/anac_bandi_gara_2024_clean.parquet',
+        'data/gcs_cache/anac_bandi_gara_2025_clean.parquet'
     ], union_by_name=true)
 ),
 anac AS (
     WITH partecipanti_per_cig AS (
         SELECT cig, count(DISTINCT codice_fiscale) as n_part
-        FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true)
+        FROM read_parquet('data/gcs_cache/anac_aggiudicatari_2026_clean.parquet', union_by_name=true)
         GROUP BY cig
     ),
     per_cig AS (
@@ -56,8 +56,8 @@ anac AS (
                a.cig,
                MAX(ag.importo_aggiudicazione) / GREATEST(MAX(COALESCE(p.n_part, 1)), 1) as importo,
                MAX(ag.data_aggiudicazione_definitiva) as data_max
-        FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
-        JOIN read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
+        FROM read_parquet('data/gcs_cache/anac_aggiudicatari_2026_clean.parquet', union_by_name=true) a
+        JOIN read_parquet('data/gcs_cache/anac_aggiudicazioni_2026_clean.parquet', union_by_name=true) ag
           ON a.id_aggiudicazione = ag.id_aggiudicazione
         LEFT JOIN partecipanti_per_cig p ON a.cig = p.cig
         WHERE a.codice_fiscale IS NOT NULL AND a.codice_fiscale != ''
@@ -80,7 +80,7 @@ subappalti AS (
     SELECT cf_subappaltante as cf,
            EXTRACT(YEAR FROM data_autorizzazione) as anno,
            0 as importo
-    FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/anac_subappalti/2026/anac_subappalti_2026_clean.parquet', union_by_name=true)
+    FROM read_parquet('data/gcs_cache/anac_subappalti_2026_clean.parquet', union_by_name=true)
     WHERE cf_subappaltante IS NOT NULL AND cf_subappaltante != ''
       AND EXTRACT(YEAR FROM data_autorizzazione) BETWEEN 2000 AND 2026
 ),
@@ -88,7 +88,7 @@ patrimonio AS (
     SELECT REPLACE(REPLACE(soggetto_ricevente_cf, '[', ''), ']', '') as cf,
            anno,
            COALESCE(canone_annuale, 0) as importo
-    FROM read_parquet('https://storage.googleapis.com/dataciviclab-clean/mef_patrimonio_detenzioni/2023/mef_patrimonio_detenzioni_2023_clean.parquet', union_by_name=true)
+    FROM read_parquet('data/gcs_cache/mef_patrimonio_detenzioni_2023_clean.parquet', union_by_name=true)
     WHERE soggetto_ricevente_cf IS NOT NULL AND soggetto_ricevente_cf != ''
       AND anno BETWEEN 2000 AND 2026
 )
