@@ -224,8 +224,23 @@ def report_territorio(scan, con, territorio: str, comune: str = None):
             scrivi(out, f"  · **{r['denominazione'][:50]}** — {r['comune']} — {int(r['appalti_riservati'])} riservati{pnrr}")
         scrivi(out, "")
 
+    # ETS con immobili pubblici
+    immobili = con.sql(f"""
+        SELECT denominazione, comune, patrimonio_immobili, round(canone_totale, 0) as canone
+        FROM 'data/unified_ets.parquet' {where}
+          AND patrimonio_immobili > 0
+        ORDER BY patrimonio_immobili DESC LIMIT 5
+    """).fetchdf()
+    if not immobili.empty:
+        scrivi(out, "## 5. 🏠 ETS con immobili pubblici")
+        scrivi(out, "")
+        for _, r in immobili.iterrows():
+            can = f" — €{float(r['canone']):,.0f}/anno" if r['canone'] > 0 else " — gratuito"
+            scrivi(out, f"  · **{r['denominazione'][:50]}** — {r['comune']} — {int(r['patrimonio_immobili'])} immobili{can}")
+        scrivi(out, "")
+
     # Top ETS
-    scrivi(out, "## 5. 🏆 Top ETS per capacità progettuale")
+    scrivi(out, "## 6. 🏆 Top ETS per capacità progettuale")
     scrivi(out, "")
     top = con.sql(f"""
         SELECT denominazione, comune, capacita_progettuale, importo_5x1000_2025
