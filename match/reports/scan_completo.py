@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
 from config import RADAR_REPORT, gcs_path, REGION_PROVINCES
 from lib.format import fmt_euro, fmt_match_reason, fmt_tags, fmt_text
 from match.pipeline import run_scan
+from match.funnel import match_bando_funnel
 
 RADAR_JSON = RADAR_REPORT.with_suffix(".json")
 COMUNI_ETS_PATH = Path(__file__).resolve().parents[2] / "data" / "comuni_ets.parquet"
@@ -129,6 +130,9 @@ def report_latest(scan, con, giorni=60, territorio=None):
 
 
 def report_territorio(scan, con, territorio: str, comune: str = None):
+    from match.pipeline import load_bandi
+    global _bandi_cache
+    _bandi_cache = load_bandi()
     out = []
     oggi = datetime.now()
     where = f"WHERE provincia = '{territorio}'"
@@ -155,31 +159,48 @@ def report_territorio(scan, con, territorio: str, comune: str = None):
                 scrivi(out, f"  · {r['grp']}: {r['n']}")
             scrivi(out, "")
 
-    # Bandi con match locale
+    # Bandi con match locale — ricalcola il match COL GATE territorio,
+    # così il rank è locale (le ODV/APS del comune non vengono schiacciate
+    # dalle grandi organizzazioni nazionali nel rank globale).
     scrivi(out, "## 2. 📋 Bandi con match locale")
     scrivi(out, "")
     match_locali = 0
     for r in scan["resultados"]:
-        candidati_locali = [c for c in r["candidati"]
-                           if str(c.get("provincia", "") or "").upper() == territorio.upper()
-                           and (not comune or str(c.get("comune", "") or "").upper() == comune.upper())]
-        if candidati_locali:
-            match_locali += 1
-            gg = r.get("gg_rimasti", r.get("gg", 999))
-            urgenza = "🔴" if gg <= 14 else "🟡" if gg <= 30 else "🟢"
-            scrivi(out, f"### {urgenza} {r['titolo'][:80]}")
-            scrivi(out, f"- **Scadenza**: {r['scadenza']} ({gg} giorni)")
-            scrivi(out, f"- **Ente**: {r['ente']}")
-            scrivi(out, f"- **Tag**: {fmt_tags(r['tags'])}")
-            scrivi(out, "")
-            for c in candidati_locali[:5]:
-                cap = c.get("capacita", c.get("capacita_progettuale", "?"))
-                scrivi(out, f"  · **{cap}** {c['denominazione'][:50]} "
-                       f"— {fmt_text(c.get('comune'), '')} — score {int(c.get('score', 0))}, "
-                       f"{fmt_match_reason(c)} — 5x1000: {fmt_euro(c.get('importo_5x1000_2025'))}")
-            if len(candidati_locali) > 5:
-                scrivi(out, f"  *...e altri {len(candidati_locali) - 5} candidati*")
-            scrivi(out, "")
+        if r.get("status") not in ("attivo", "sportello"):
+            continue
+        tags = r.get("tags", [])
+        if not tags:
+            continue
+        # testo del bando per il fallback del funnel (dal catalogo bandi)
+        b_orig = next((b for b in _bandi_cache
+                       if str(b.get("titolo", "")) == str(r.get("titolo", ""))), None)
+        testo = ""
+        if b_orig:
+            testo = " ".join(str(b_orig.get(k, "") or "") for k in
+                             ("titolo", "descrizione", "obiettivi", "ammissibili", "testo_nlp"))
+        df_locale = match_bando_funnel(con, tags, limit=1000 if comune else 20,
+                                       territorio=[territorio], testo=testo)
+        if comune:
+            df_locale = df_locale[df_locale["comune"].str.upper() == comune.upper()]
+            df_locale = df_locale.head(10)
+        if df_locale.empty:
+            continue
+        match_locali += 1
+        gg = r.get("gg_rimasti", r.get("gg", 999))
+        urgenza = "🔴" if gg <= 14 else "🟡" if gg <= 30 else "🟢"
+        scrivi(out, f"### {urgenza} {r['titolo'][:80]}")
+        scrivi(out, f"- **Scadenza**: {r['scadenza']} ({gg} giorni)")
+        scrivi(out, f"- **Ente**: {r['ente']}")
+        scrivi(out, f"- **Tag**: {fmt_tags(r['tags'])}")
+        scrivi(out, "")
+        for _, c in df_locale.head(5).iterrows():
+            cap = c.get("capacita_progettuale", "?")
+            scrivi(out, f"  · **{cap}** {c['denominazione'][:50]} "
+                   f"— {fmt_text(c.get('comune'), '')} — score {int(c['score'] or 0)}, "
+                   f"{fmt_match_reason(c)} — 5x1000: {fmt_euro(c.get('importo_5x1000_2025'))}")
+        if len(df_locale) > 5:
+            scrivi(out, f"  *...e altri {len(df_locale) - 5} candidati*")
+        scrivi(out, "")
     if match_locali == 0:
         scrivi(out, "_Nessun bando con match locale._")
         scrivi(out, "")

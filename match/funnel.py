@@ -63,11 +63,21 @@ def _cond_temi(p):
     return f"(regexp_matches(temi_anac, '{p}'))"
 
 
+# Temi dove la SEZIONE RUNTS è di per sé il segnale tematico:
+# un'ODV è per definizione un'organizzazione di volontariato — non serve
+# che la parola compaia nel nome (AVIS, AUSER, Amici dell'Hospice...).
+SEZIONE_AS_TEMA: dict[str, str] = {
+    "volontariato": "ORGANIZZAZIONI DI VOLONTARIATO",
+    "sport": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+}
+
+
 def match_tema_sql(tags, testo=None):
     """Costruisce la condizione SQL di pertinenza.
 
     Ritorna (condizione, motivo_col):
-      - match PRINCIPALE: denominazione matcha il tema dominante (FORTE)
+      - match PRINCIPALE: denominazione matcha il tema dominante (FORTE),
+        OPPURE la sezione è di per sé il tema (ODV=volontariato, APS=sport)
       - match SECONDARIO: denominazione matcha altri tag (DEBOLE)
       - temi_anac matcha: boost debole (ha mai operato nel tema), mai
         come match principale — evita che i grandi enti "tuttofare"
@@ -75,6 +85,7 @@ def match_tema_sql(tags, testo=None):
     """
     tema_prim = tema_principale(tags, testo)
     pattern_prim = TEMA_PATTERN.get(tema_prim) if tema_prim else None
+    sez_prim = SEZIONE_AS_TEMA.get(tema_prim) if tema_prim else None
 
     normalizzati = normalizza_tags(tags)
     if not normalizzati and testo:
@@ -90,26 +101,24 @@ def match_tema_sql(tags, testo=None):
     pattern_sec = "|".join(pattern_sec_parts) if pattern_sec_parts else None
 
     prim_denom = _cond(pattern_prim) if pattern_prim else None
+    prim_sez = f"sezione = '{sez_prim}'" if sez_prim else None
     sec_denom = _cond(pattern_sec) if pattern_sec else None
     prim_temi = _cond_temi(pattern_prim) if pattern_prim else None
 
-    if prim_denom:
-        # principale: denominazione matcha il tema dominante
-        # secondario: denominazione matcha un altro tag, OPPURE temi_anac
-        #             matcha il tema principale (boost debole)
+    # motivi: la sezione-as-tema è un match principale (ODV=volontariato)
+    if prim_denom or prim_sez:
+        parts_cond = [p for p in (prim_denom, prim_sez, sec_denom, prim_temi) if p]
+        cond = "(" + " OR ".join(parts_cond) + ")"
+        whens = []
+        if prim_denom:
+            whens.append(f"WHEN {prim_denom} THEN 'tema_principale'")
+        if prim_sez:
+            whens.append(f"WHEN {prim_sez} THEN 'tema_principale'")
         if sec_denom:
-            cond = f"({prim_denom} OR {sec_denom} OR {prim_temi})"
-            motivo = (
-                f"CASE WHEN {prim_denom} THEN 'tema_principale' "
-                f"WHEN {sec_denom} THEN 'tema_secondario' "
-                f"WHEN {prim_temi} THEN 'tema_temi_anac' ELSE NULL END"
-            )
-        else:
-            cond = f"({prim_denom} OR {prim_temi})"
-            motivo = (
-                f"CASE WHEN {prim_denom} THEN 'tema_principale' "
-                f"WHEN {prim_temi} THEN 'tema_temi_anac' ELSE NULL END"
-            )
+            whens.append(f"WHEN {sec_denom} THEN 'tema_secondario'")
+        if prim_temi:
+            whens.append(f"WHEN {prim_temi} THEN 'tema_temi_anac'")
+        motivo = "CASE " + " ".join(whens) + " ELSE NULL END"
         return cond, motivo
     if sec_denom:
         return sec_denom, f"CASE WHEN {sec_denom} THEN 'tema_secondario' ELSE NULL END"

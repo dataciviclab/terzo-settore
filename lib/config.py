@@ -160,6 +160,12 @@ def get_province_filter(territorio):
             return list(MEZZOGIORNO_PROVINCES)
         if t_clean in REGION_PROVINCES:
             provinces.extend(REGION_PROVINCES[t_clean])
+            continue
+        # Sigla provincia a 2 lettere (es. "MI", "TO", "NA")
+        if re.fullmatch(r"[A-Z]{2}", t.strip().upper()):
+            sigla = t.strip().upper()
+            if sigla not in provinces:
+                provinces.append(sigla)
     return provinces
 
 
