@@ -46,16 +46,16 @@ match/                            ← Matching bandi ↔ ETS
     scan_completo.py              Scan → radar-completo.json/md. Flag: --latest, --territorio
     contatta.py                   CSV contatti per bando. Flag: --per-ets, --enrich
     scheda.py                     Profilo ETS: benchmark, ANAC (oggetti gara), bandi matchati
-    network_graph.py              Grafo relazionale ETS di un territorio
-    partnership.py                Suggeritore partner ETS per collaborazione
 
 bandi/                            ← Acquisizione (3 fonti)
   infobandi.py, info_cooperazione.py, indicebandi.py
 
-dashboard/                        ← Dashboard Streamlit (territorio, bandi, ETS)
-
 lib/                              ← Utility condivise
 ```
+
+> **Sperimentazioni** (dashboard Streamlit, network graph, partnership) vivono nel
+> branch `feat/experiments` — non su main, per tenere il core stabile e senza
+> dipendenze pesanti (networkx, pyvis, matplotlib).
 
 ### Driver-first: perché non si scarica tutto
 
