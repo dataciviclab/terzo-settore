@@ -9,10 +9,16 @@ all: build comuni-ets scan
 anac-temi:
 	python3 ets/enrich_temi.py
 
-# Costruisce la tabella long fatti_ets (uno riga per ETS × fonte × anno)
+# Risolve le sorgenti (lab locale → cache → GCS) e mostra da dove arriva ogni file
+sync-sources:
+	python3 ets/resolve_sources.py
+
+# Costruisce la tabella long fatti_ets (driver-first: RUNTS 150k CF → join filtrato)
+# Legge in-place dal layer clean Lab; scarica da GCS solo i file che mancano altrove.
 fatti-ets:
-	duckdb < ets/build_fatti_ets.sql
-	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/fatti_ets.parquet'\").fetchone(); assert r[0] > 1000000, f'Row count {r[0]} < 1M'; print(f'✅ {r[0]:,} fatti — OK')"
+	python3 ets/resolve_sources.py --sql > /tmp/build_fatti_ets_generated.sql
+	duckdb < /tmp/build_fatti_ets_generated.sql
+	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/fatti_ets.parquet'\").fetchone(); assert 400000 < r[0] < 600000, f'Row count {r[0]} fuori range driver-first (atteso ~485k)'; print(f'✅ {r[0]:,} fatti (driver-first) — OK')"
 
 # Costruisce l'hub ETS: fatti_ets → PIVOT + geografia + temi ANAC
 build: fatti-ets anac-temi

@@ -1,6 +1,6 @@
 -- build_unified_ets.sql
 -- Hub ETS: RUNTS (anagrafe) + PIVOT da fatti_ets + geografia + temi ANAC
--- fatti_ets.parquet deve essere stato generato da build_fatti_ets.sql
+-- fatti_ets.parquet deve essere stato generato dal driver-first (resolve_sources.py)
 -- Output: una riga per ETS con tutti gli indicatori di capacità
 
 COPY (
@@ -54,7 +54,7 @@ fatti_pivot AS (
 
 geo AS (
     SELECT lower(denominazione) as comune_norm, codice_istat, sigla_provincia, provincia as nome_provincia, regione
-    FROM read_parquet('data/gcs_cache/comuni_master_2026_clean.parquet', union_by_name=true)
+    FROM read_parquet('../dataset-incubator/out/data/clean/comuni_master/2026/comuni_master_2026_clean.parquet', union_by_name=true)
 )
 
 SELECT
