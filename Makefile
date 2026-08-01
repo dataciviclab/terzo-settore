@@ -110,3 +110,9 @@ clean:
 	find . -type d -name __pycache__ -prune -exec rm -rf {} +
 	rm -f cruscotto/radar-completo.md cruscotto/radar-latest.md cruscotto/radar-completo.json
 	@echo "✅ Pulito"
+
+# Incrocio territoriale: match ETS × contesto comune (reddito, RdC, sport)
+# make incrocio TAGS="sport minori" TERR=Lombardia OUT=cruscotto/incrocio.md
+incrocio:
+	[ -n "$(TAGS)" ] || (echo "Usa: make incrocio TAGS='sport minori' [TERR=Lombardia] [OUT=file.md]" && exit 1)
+	python3 match/reports/incrocio.py --tags $(TAGS) $(if $(TERR),--terr $(TERR),) $(if $(OUT),--out $(OUT),)

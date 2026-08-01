@@ -167,3 +167,97 @@ def match_bando_funnel(con, tags, limit=10, territorio=None, testo=None):
         .replace("{LIMIT}", str(limit))
     )
     return con.sql(sql).fetchdf()
+
+
+# ── Incrocio territoriale: match ETS × contesto comune ─────────────
+
+COMUNI_ETS_FILE = ROOT / "data" / "comuni_ets.parquet"
+
+
+def match_territoriale(con, tags, limit=200, territorio=None, testo=None, top_comuni=10):
+    """Incrocia i match ETS con il contesto socio-economico del comune.
+
+    Ritorna (match_con_contesto, gap_comuni):
+      - match_con_contesto: ogni ETS matchato + reddito/RdC/sport del suo comune
+      - gap_comuni: comuni ordinati per 'bisogno' (ETS matchabili bassi vs
+        contesto fragile: RdC alto, reddito basso)
+    """
+    df = match_bando_funnel(con, tags, limit=limit, territorio=territorio, testo=testo)
+    if df.empty:
+        return df, con.sql(
+            f"SELECT comune, provincia, rd_pct, reddito_procapite, ets_tot, ets_matchabili "
+            f"FROM '{COMUNI_ETS_FILE}' ORDER BY rd_pct DESC LIMIT {top_comuni}"
+        ).fetchdf()
+
+    # 1. Match + contesto del comune (JOIN normalizzato su comune+provincia)
+    match_ctx = con.sql(f"""
+        SELECT e.codice_fiscale, e.denominazione, e.comune, e.provincia,
+               e.motivo_match, e.score, e.capacita_progettuale,
+               c.reddito_procapite, c.rd_pct, c.ets_tot, c.ets_matchabili,
+               c.sport AS sport_comune, c.popolazione
+        FROM df e
+        LEFT JOIN '{COMUNI_ETS_FILE}' c
+          ON lower(e.comune) = lower(c.comune) AND e.provincia = c.provincia
+        ORDER BY e.score DESC
+    """).fetchdf()
+
+    # 2. Gap: comuni del territorio con contesto fragile ma pochi ETS matchabili
+    if territorio:
+        prov = get_province_filter(territorio)
+        prov_sql = ""
+        if prov:
+            quote = ", ".join(f"'{p}'" for p in prov)
+            prov_sql = f"AND provincia IN ({quote})"
+        gap = con.sql(f"""
+            SELECT comune, provincia, rd_pct, reddito_procapite,
+                   ets_tot, ets_matchabili, capacita_alta, sport,
+                   ROUND(ets_matchabili * 1.0 / GREATEST(ets_tot, 1), 2) AS quota_matchabile
+            FROM '{COMUNI_ETS_FILE}'
+            WHERE 1=1 {prov_sql}
+              AND ets_tot > 0
+            ORDER BY rd_pct DESC, ets_matchabili ASC
+            LIMIT {top_comuni}
+        """).fetchdf()
+    else:
+        gap = con.sql(f"""
+            SELECT comune, provincia, rd_pct, reddito_procapite,
+                   ets_tot, ets_matchabili, capacita_alta, sport,
+                   ROUND(ets_matchabili * 1.0 / GREATEST(ets_tot, 1), 2) AS quota_matchabile
+            FROM '{COMUNI_ETS_FILE}'
+            WHERE ets_tot > 0
+            ORDER BY rd_pct DESC, ets_matchabili ASC
+            LIMIT {top_comuni}
+        """).fetchdf()
+
+    return match_ctx, gap
+
+
+def format_incrocio(match_ctx, gap, titolo="Incrocio territoriale"):
+    """Render testuale dell'incrocio (per report/shell)."""
+    lines = [f"# 🌍 {titolo}", ""]
+    if match_ctx.empty:
+        lines.append("_Nessun ETS matchato._")
+        return "\n".join(lines)
+
+    lines.append(f"## ETS matchati con contesto comune ({len(match_ctx)})")
+    lines.append("")
+    lines.append("| ETS | Comune | Score | Reddito | RdC% | Sport nel comune |")
+    lines.append("|---|---|---|---|---|---|")
+    for _, r in match_ctx.head(15).iterrows():
+        reddito = f"{r['reddito_procapite']:,}" if r["reddito_procapite"] else "—"
+        rdc = f"{r['rd_pct']}%" if r["rd_pct"] is not None else "—"
+        sport = str(r["sport_comune"]) if r["sport_comune"] is not None else "—"
+        lines.append(f"| {r['denominazione'][:35]} | {r['comune']} ({r['provincia']}) "
+                     f"| {r['score']} | {reddito} | {rdc} | {sport} |")
+
+    lines.append("")
+    lines.append("## Gap: comuni con contesto fragile e pochi ETS matchabili")
+    lines.append("")
+    lines.append("| Comune | Prov | RdC% | Reddito | ETS tot | Matchabili | Quota | Sport |")
+    lines.append("|---|---|---|---|---|---|---|---|")
+    for _, r in gap.head(15).iterrows():
+        lines.append(f"| {r['comune']} | {r['provincia']} | {r['rd_pct']}% | "
+                     f"{r['reddito_procapite']:,} | {r['ets_tot']} | {r['ets_matchabili']} "
+                     f"| {r['quota_matchabile']} | {r['sport']} |")
+
+    return "\n".join(lines)
