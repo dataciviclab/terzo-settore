@@ -1,9 +1,10 @@
 """Unico dizionario keyword → tag tematici.
 
 Usato da:
-- aggregatori/ (NLP sui testi dei bandi)
-- scripts/build_unified_ets.py (estrazione temi da denominazione ETS + oggetti ANAC)
-- radar/core.py (matching: temi_ets matcha tag del bando)
+- match/matcher.py (matching: temi_ets matcha tag del bando)
+- match/pipeline.py (orchestrazione scan)
+- ets/enrich_temi.py (estrazione temi da oggetti ANAC)
+- tests/test_match.py
 
 Non duplicare altrove.
 """
@@ -36,8 +37,156 @@ TEMA_PATTERN: dict[str, str] = {
     "premi":                r"\b(premio|premi|prize|concorso|challenge)\b",
 }
 
+# Sinonimi: varianti non normalizzate dei tag reali → tema canonico.
+# Il dizionario ha nomi canonici ("inclusione sociale"); i bandi usano
+# spesso forme diverse ("inclusione", "istruzione", "scuole", "adolescenti").
+TAG_SINONIMI: dict[str, str] = {
+    # forme plurali / abbreviate / varianti del dizionario
+    "inclusione": "inclusione sociale",
+    "inclusione sociali": "inclusione sociale",
+    "inclusiv": "inclusione sociale",
+    "istruzione": "educazione",
+    "istruzion": "educazione",
+    "scuole": "educazione",
+    "scuola": "educazione",
+    "scolastic": "educazione",
+    "adolescenti": "minori",
+    "adolescent": "minori",
+    "bambini": "minori",
+    "infanzia": "minori",
+    "pari opportunità": "donne",
+    "pari opportunita": "donne",
+    "genere": "donne",
+    "disabilita": "disabilità",
+    "handicap": "disabilità",
+    "terza età": "anziani",
+    "anziano": "anziani",
+    "immigrazione": "migranti",
+    "immigrat": "migranti",
+    "rifugiati": "migranti",
+    "rifugiat": "migranti",
+    "stranieri": "migranti",
+    "intercultura": "migranti",
+    "formazione": "lavoro",
+    "formazion": "lavoro",
+    "impiego": "lavoro",
+    "occupazione": "lavoro",
+    "occupazion": "lavoro",
+    "professionale": "lavoro",
+    "professional": "lavoro",
+    "sostenibilità": "ambiente",
+    "sostenibilita": "ambiente",
+    "sostenibil": "ambiente",
+    "transizione ecologica": "ambiente",
+    "rifiuti": "ambiente",
+    "clima": "ambiente",
+    "sportivo": "sport",
+    "sportiva": "sport",
+    "sportivi": "sport",
+    "sportiv": "sport",
+    "attività sportive": "sport",
+    "volontari": "volontariato",
+    "volontar": "volontariato",
+    "ricerca scientifica": "ricerca",
+    "innovazione": "ricerca",
+    "innovazion": "ricerca",
+    "culturale": "cultura",
+    "culturali": "cultura",
+    "cultura": "cultura",
+    "ambiente e sostenibilità": "ambiente",
+    "povertà": "inclusione sociale",
+    "poverta": "inclusione sociale",
+    "poveri": "inclusione sociale",
+    "dispersione scolastica": "povertà educativa",
+    "dispersione scolastic": "povertà educativa",
+    "abbandono scolastico": "povertà educativa",
+    # tag multi-parola reali dai bandi
+    "obiettivi per lo sviluppo sostenibile": "ambiente",
+    "sviluppo sostenibile": "ambiente",
+    "agenda 2030": "ambiente",
+    "cooperazione allo sviluppo": "cooperazione internazionale",
+    "cooperazione internazionale": "cooperazione internazionale",
+    "cooperazione": "cooperazione internazionale",
+    "sviluppo economico": "lavoro",
+    "sostegno alla persona": "inclusione sociale",
+    "smart city": "digitale",
+    "innovazione digitale": "digitale",
+    "internazionalizzazione": "cultura",
+    "energia": "ambiente",
+    "energie rinnovabili": "ambiente",
+    "montagna": "ambiente",
+    "agricoltura": "agricoltura sociale",
+    "famiglia": "minori",
+    "povertà": "inclusione sociale",
+    "premi internazionali": "premi",
+    "iF design": "cultura",
+    "design": "cultura",
+    "beni confiscati": "beni confiscati",
+    "in evidenza": None,
+    "pnrr": None,
+    "turismo": "cultura",
+    "istruzione": "educazione",
+}
+
+# Tag "generici": non discriminano il tema (servono come contesto, non come match)
+GENERIC_TAGS = {"lavoro", "inclusione", "ricerca", "giovani", "educazione", "salute"}
+
+# Priorità dei temi per la scelta del tema PRINCIPALE di un bando.
+# I temi "forti" (attività specifica) dominano su quelli "trasversali"
+# (popolazione target: minori, giovani, anziani, donne, inclusione).
+# Un bando di sport per minori è PRIMA sport, poi minori.
+TEMA_PRIORITA: dict[str, int] = {
+    # temi forti (attività) — priorità alta
+    "sport": 100,
+    "disabilità": 95,
+    "ambiente": 90,
+    "digitale": 85,
+    "cultura": 80,
+    "musica": 80,
+    "volontariato": 75,
+    "agricoltura sociale": 75,
+    "beni confiscati": 70,
+    "povertà educativa": 70,
+    "animali": 65,
+    "ricerca": 60,
+    "premi": 55,
+    "cooperazione internazionale": 55,
+    # temi trasversali (popolazione/contesto) — priorità bassa
+    "migranti": 40,
+    "lavoro": 35,
+    "educazione": 30,
+    "salute": 30,
+    "inclusione sociale": 25,
+    "donne": 25,
+    "minori": 20,
+    "giovani": 20,
+    "anziani": 15,
+}
+
 # Compila i pattern
 TEMA_REGEX = {tag: re.compile(p, re.IGNORECASE) for tag, p in TEMA_PATTERN.items()}
+
+
+def normalizza_tags(tags: list[str]) -> list[str]:
+    """Normalizza i tag del bando verso i nomi canonici del dizionario.
+
+    Applica i sinonimi (es. 'inclusione' → 'inclusione sociale') e tiene i
+    tag già canonici. Scarta i tag con sinonimo None (rumore: 'in evidenza').
+    Rimuove i tag non riconducibili a un tema noto.
+    """
+    normalizzati = []
+    visti = set()
+    for t in tags:
+        t_clean = (t or "").strip().lower()
+        if not t_clean:
+            continue
+        canonico = TAG_SINONIMI.get(t_clean, t_clean)
+        if canonico is None:
+            continue  # rumore da scartare
+        if canonico in TEMA_PATTERN and canonico not in visti:
+            normalizzati.append(canonico)
+            visti.add(canonico)
+    return normalizzati
 
 
 def estrai_temi(testo: str) -> list[str]:
@@ -45,6 +194,54 @@ def estrai_temi(testo: str) -> list[str]:
     if not testo:
         return []
     return [tag for tag, regex in TEMA_REGEX.items() if regex.search(testo)]
+
+
+def tema_principale(tags: list[str], testo: str | None = None) -> str | None:
+    """Identifica il tema dominante del bando.
+
+    Priorità:
+    1. Il tema con priorità più alta (TEMA_PRIORITA): sport > minori,
+       attività > popolazione target
+    2. Se nessun tag mappato, fallback sui temi estratti dal testo
+    3. None se nessun tema è identificabile
+    """
+    normalizzati = normalizza_tags(tags)
+    if not normalizzati and testo:
+        normalizzati = estrai_temi(testo)
+    if not normalizzati:
+        return None
+    # max priorità, a parità tiene l'ordine di apparizione
+    return max(normalizzati, key=lambda t: (TEMA_PRIORITA.get(t, 0), -normalizzati.index(t)))
+
+
+def get_pattern_from_tags(tags, testo: str | None = None):
+    """Costruisce pattern regexp combinato dai tag del bando.
+
+    v2: normalizza i tag (sinonimi → canonici) prima di costruire il pattern,
+    così 'inclusione' e 'inclusione sociale' producono lo stesso pattern.
+    Se nessun tag è mappabile, estrae i temi dal testo (fallback).
+    """
+    normalizzati = normalizza_tags(tags)
+    if not normalizzati and testo:
+        normalizzati = estrai_temi(testo)
+    if not normalizzati:
+        return None
+    specific = [t for t in normalizzati if t not in GENERIC_TAGS]
+    use_tags = specific if specific else normalizzati
+    parts = []
+    for tag in use_tags:
+        pattern = TEMA_PATTERN.get(tag)
+        if pattern:
+            parts.append(pattern)
+    return "|".join(parts) if parts else None
+
+
+def get_pattern_principale(tags, testo: str | None = None):
+    """Pattern del SOLO tema principale (per match stretto nel funnel)."""
+    tema = tema_principale(tags, testo)
+    if not tema:
+        return None
+    return TEMA_PATTERN.get(tema)
 
 
 # Mappa: tag → sezioni RUNTS pertinenti
@@ -113,30 +310,13 @@ SEZIONI_PER_TAG: dict[str, list[str]] = {
 
 
 def sezioni_per_tag(tags: list[str]) -> list[str]:
-    """Restituisce le sezioni RUNTS pertinenti per una lista di tag."""
+    """Restituisce le sezioni RUNTS pertinenti per una lista di tag (normalizzati)."""
+    normalizzati = normalizza_tags(tags)
     viste: set[str] = set()
     risultato: list[str] = []
-    for t in tags:
-        t_clean = t.strip().lower()
-        for s in SEZIONI_PER_TAG.get(t_clean, []):
+    for t in normalizzati:
+        for s in SEZIONI_PER_TAG.get(t, []):
             if s not in viste:
                 viste.add(s)
                 risultato.append(s)
     return risultato
-
-
-GENERIC_TAGS = {"lavoro", "inclusione", "ricerca", "giovani", "educazione", "salute"}
-
-
-def get_pattern_from_tags(tags):
-    """Costruisce pattern regexp combinato dai tag del bando."""
-    tags_lower = set(t.lower() for t in tags)
-    specific = {t for t in tags_lower if t not in GENERIC_TAGS}
-    specific_validi = {t for t in specific if t in TEMA_PATTERN}
-    generici_validi = {t for t in tags_lower if t in TEMA_PATTERN}
-    use_tags = specific_validi if specific_validi else generici_validi
-    parts = []
-    for tag, pattern in TEMA_PATTERN.items():
-        if tag in use_tags and pattern:
-            parts.append(pattern)
-    return "|".join(parts) if parts else None

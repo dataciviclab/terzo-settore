@@ -2,27 +2,46 @@
   {
     "id": "sport-bper",
     "titolo": "BPER 2026: progetti di sport inclusivo da finanziare in crowdfunding",
-    "tags": ["sport", "disabilità", "minori", "inclusione sociale"],
+    "tags": [
+      "sport",
+      "disabilità",
+      "minori",
+      "inclusione sociale"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 3,
-      "top_ets_contiene": ["ASSOCIAZIONE NAZIONALE COMUNITA' SOCIALI E SPORT"]
+      "top_ets_contiene": [
+        "ASSOCIAZIONE NAZIONALE COMUNITA' SOCIALI E SPORT"
+      ]
     }
   },
   {
     "id": "disabilita-zenit",
     "titolo": "Bando Zenit: competenze digitali delle persone con disabilità",
-    "tags": ["disabilità", "digitale", "lavoro", "inclusione sociale"],
+    "tags": [
+      "disabilità",
+      "digitale",
+      "lavoro",
+      "inclusione sociale"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 3,
-      "top_has": ["codice_fiscale", "denominazione", "score"]
+      "top_has": [
+        "codice_fiscale",
+        "denominazione",
+        "score"
+      ]
     }
   },
   {
     "id": "cultura-cresce",
     "titolo": "Cultura Cresce: contributi per lo sviluppo delle imprese culturali",
-    "tags": ["cultura", "mezzogiorno"],
+    "tags": [
+      "cultura",
+      "mezzogiorno"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 3
@@ -31,7 +50,9 @@
   {
     "id": "volontariato-ue",
     "titolo": "Progetti di volontariato – 2^ scadenza",
-    "tags": ["volontariato"],
+    "tags": [
+      "volontariato"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 10
@@ -40,7 +61,13 @@
   {
     "id": "cariplo-riprogettiamo",
     "titolo": "Al via l'edizione 2026 di Riprogettiamo il futuro",
-    "tags": ["cultura", "ambiente", "giovani", "salute", "lavoro"],
+    "tags": [
+      "cultura",
+      "ambiente",
+      "giovani",
+      "salute",
+      "lavoro"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 5
@@ -49,16 +76,26 @@
   {
     "id": "design-prize",
     "titolo": "iF Social Impact Prize – ultima scadenza 2026",
-    "tags": ["premi internazionali", "design", "cooperazione"],
+    "tags": [
+      "premi internazionali",
+      "design",
+      "cooperazione"
+    ],
     "atteso": {
-      "match": false,
-      "motivo_contiene": "nessun pattern"
+      "match": true,
+      "min_candidati": 3,
+      "nota": "v2 funnel: normalizzazione tag (premi→premi, sviluppo sostenibile→ambiente) — prima pattern None = 0 match (bug)"
     }
   },
   {
     "id": "disabilita-vita",
     "titolo": "Avviso Vita & Opportunità",
-    "tags": ["disabilità", "minori", "lavoro", "inclusione sociale"],
+    "tags": [
+      "disabilità",
+      "minori",
+      "lavoro",
+      "inclusione sociale"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 3
@@ -67,7 +104,9 @@
   {
     "id": "ambiente-alimenti",
     "titolo": "Prevenire gli sprechi alimentari",
-    "tags": ["ambiente"],
+    "tags": [
+      "ambiente"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 1
@@ -76,7 +115,11 @@
   {
     "id": "fondazione-con-il-sud",
     "titolo": "Iniziativa Beni confiscati – Regolamento 2026",
-    "tags": ["inclusione sociale", "mezzogiorno", "beni confiscati"],
+    "tags": [
+      "inclusione sociale",
+      "mezzogiorno",
+      "beni confiscati"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 3
@@ -85,7 +128,9 @@
   {
     "id": "giovani-genp",
     "titolo": "2° edizione Premio GenP – Giovani che partecipano",
-    "tags": ["giovani"],
+    "tags": [
+      "giovani"
+    ],
     "atteso": {
       "match": true,
       "min_candidati": 3

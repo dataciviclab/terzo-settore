@@ -106,48 +106,12 @@ def is_sport_bando(tags):
     return any((t or "").strip().lower() == "sport" for t in tags)
 
 
-def match_bando(con, pattern, tags, limit=10, territorio=None):
-    sections = get_sections_from_tags(tags)
-    sezioni_quote = ", ".join(f"'{s}'" for s in sections) if sections else "''"
+def match_bando(con, pattern, tags, limit=10, territorio=None, testo=None):
+    """Match ETS per un bando — DELEGA al funnel a 3 stadi.
 
-    sport_fallback = is_sport_bando(tags)
-    parts = []
-    if sport_fallback:
-        parts.append("ha_sport_in_denominazione")
-    if sections:
-        parts.append(f"sezione IN ({sezioni_quote})")
-    match_condition = " OR ".join(parts) if parts else "1=0"
-
-    sez_match_bool = "FALSE"
-    if sections:
-        sez_match_bool = f"sezione IN ({sezioni_quote})"
-
-    province_filtro = get_province_filter(territorio)
-    province_filter = ""
-    if province_filtro:
-        prov_quote = ", ".join(f"'{p}'" for p in province_filtro)
-        province_filter = f"AND provincia IN ({prov_quote})"
-
-    tags_lower = set(t.lower() for t in tags)
-    section_bonuses = []
-    if "volontariato" in tags_lower:
-        section_bonuses.append("+ CASE WHEN sezione = 'ORGANIZZAZIONI DI VOLONTARIATO' THEN 5 ELSE 0 END")
-    if "sport" in tags_lower:
-        section_bonuses.append("+ CASE WHEN sezione = 'ASSOCIAZIONI DI PROMOZIONE SOCIALE' THEN 5 ELSE 0 END")
-    if "lavoro" in tags_lower or "formazione" in tags_lower:
-        section_bonuses.append("+ CASE WHEN sezione = 'IMPRESI SOCIALI' THEN 5 ELSE 0 END")
-    section_bonus = " ".join(section_bonuses)
-
-    match_tema = f"(regexp_matches(lower(denominazione), '{pattern}') OR regexp_matches(temi_anac, '{pattern}'))"
-
-    sql = MATCH_ETS_SQL.format(
-        ets_file=ETS_FILE,
-        match_condition=match_condition,
-        match_tema=match_tema,
-        sport_bonus="TRUE" if sport_fallback else "FALSE",
-        sez_match_bool=sez_match_bool,
-        section_bonus=section_bonus,
-        province_filter=province_filter,
-        limit=limit,
-    )
-    return con.sql(sql).fetchdf()
+    Mantiene la firma storica (pattern, tags, limit, territorio) per
+    compatibilità con pipeline.py e test; il testo è opzionale e usato
+    dal funnel per il fallback quando i tag non sono mappati.
+    """
+    from match.funnel import match_bando_funnel
+    return match_bando_funnel(con, tags, limit=limit, territorio=territorio, testo=testo)
