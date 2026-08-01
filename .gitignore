@@ -13,6 +13,10 @@ data/temi_anac.parquet
 # Output pipeline — non versionare parquet né cache GCS
 data/*.parquet
 data/gcs_cache/
+data/build/
+
+# Output derivati (CSV contatti) — rigenerabili, non versionati
+cruscotto/output/
 
 # Output visuali generati (network graph)
 cruscotto/*.html

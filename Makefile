@@ -1,5 +1,6 @@
 # Terzo Settore Intelligence — Makefile
-# Il package tsi/ è la fonte di verità. radar/ e lib/ sono wrapper backward-compat.
+# Struttura: ets/ (intelligence), match/ (operativo), bandi/ (acquisizione).
+# Sperimentazioni (dashboard, network, partnership) → branch feat/experiments.
 .PHONY: build scan radar latest segnale test clean all
 
 all: build comuni-ets scan
@@ -9,15 +10,16 @@ all: build comuni-ets scan
 anac-temi:
 	python3 ets/enrich_temi.py
 
-# Risolve le sorgenti (lab locale → cache → GCS) e mostra da dove arriva ogni file
+# Risolve le sorgenti (layer Lab locale → cache → GCS) e mostra da dove arriva ogni file
 sync-sources:
 	python3 ets/resolve_sources.py
 
 # Costruisce la tabella long fatti_ets (driver-first: RUNTS 150k CF → join filtrato)
 # Legge in-place dal layer clean Lab; scarica da GCS solo i file che mancano altrove.
 fatti-ets:
-	python3 ets/resolve_sources.py --sql > /tmp/build_fatti_ets_generated.sql
-	duckdb < /tmp/build_fatti_ets_generated.sql
+	mkdir -p data/build
+	python3 ets/resolve_sources.py --sql > data/build/fatti_ets.sql
+	duckdb < data/build/fatti_ets.sql
 	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/fatti_ets.parquet'\").fetchone(); assert 400000 < r[0] < 600000, f'Row count {r[0]} fuori range driver-first (atteso ~485k)'; print(f'✅ {r[0]:,} fatti (driver-first) — OK')"
 
 # Costruisce l'hub ETS: fatti_ets → PIVOT + geografia + temi ANAC
@@ -46,10 +48,6 @@ segnale:
 contatta:
 	[ -n "$(B)" ] || (echo "Usa: make contatta B='BPER' [TOP=10] [ENRICH=1] [FMT=csv]" && exit 1)
 	python3 match/reports/contatta.py --bando "$(B)" --top $(if $(TOP),$(TOP),10) $(if $(ENRICH),--enrich,) $(if $(FMT),--formato $(FMT),) || true
-
-# Monitoraggio salute fonti — da implementare (tsi/ non esiste ancora)
-# monitor:
-# 	python3 -m tsi.monitor.fonti
 
 # Scheda ETS: profilo completo per debug
 scheda:
