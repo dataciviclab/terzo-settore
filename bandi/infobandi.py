@@ -14,6 +14,7 @@ import re
 import sys
 import time
 from datetime import datetime
+from json import JSONDecoder
 from pathlib import Path
 
 import requests
@@ -62,6 +63,17 @@ def fmt_euro(valore: float | int | str | None) -> str:
 
 
 
+def _parse_json_response(raw: str):
+    """Decodifica il primo documento JSON, ignorando rumore dopo.
+
+    Infobandi inietta script di monitoraggio (X Smart Traffic Monitor)
+    dentro la risposta dopo l'array JSON — raw_decode legge solo il JSON.
+    """
+    decoder = JSONDecoder()
+    data, _ = decoder.raw_decode(raw.lstrip())
+    return data
+
+
 def fetch_bandi(force: bool = False) -> list[dict]:
     if not force and CACHE_FILE.exists():
         age = time.time() - CACHE_FILE.stat().st_mtime
@@ -78,7 +90,7 @@ def fetch_bandi(force: bool = False) -> list[dict]:
         url = f"{API_BASE}/posts?per_page=100&page={page}&_fields=id,date,title,link,categories,tags,content"
         resp = requests.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
-        data = json.loads(resp.content.decode("utf-8-sig"))
+        data = _parse_json_response(resp.content.decode("utf-8-sig"))
 
         if not data:
             break

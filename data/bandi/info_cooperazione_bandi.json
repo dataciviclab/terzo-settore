@@ -1,8 +1,50 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-07-18T17:37:07.457342",
-  "totale": 22,
+  "scraped_at": "2026-08-01T20:16:57.421740",
+  "totale": 24,
   "bandi": [
+    {
+      "titolo": "17 milioni per le minoranze cristiane in aree di crisi",
+      "url": "https://www.info-cooperazione.it/2026/7/17-milioni-per-le-minoranze-cristiane-in-aree-di-crisi",
+      "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato l'Avviso per il finanziamento di interventi di sostegno alle popolazioni appartenenti a minoranze cristiane in applicazione dell'articolo 1, comma 287, della Legge 145/2018. Con una dotazione complessiva di quasi 17 milioni, il bando è rivolto alle organizzazioni della società civile iscritte all'Elenco AICS ex art.",
+      "scadenza": "30 ottobre 2026",
+      "scaduto": false,
+      "donatore": "AICS",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/minoranze_cristiane_bando-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "locale"
+      ],
+      "tags": [
+        "disabilità",
+        "giovani",
+        "lavoro",
+        "educazione",
+        "inclusione"
+      ]
+    },
+    {
+      "titolo": "Bando Con i Bambini sulla dispersione scolastica",
+      "url": "https://www.info-cooperazione.it/2026/7/bando-con-i-bambini-sulla-dispersione-scolastica",
+      "descrizione": "L'Italia ha raggiunto nel 2025 un tasso di abbandono scolastico precoce dell'8,2% — sotto l'obiettivo europeo del 2030 — ma dietro questo dato positivo si nascondono profonde diseguaglianze territoriali e un fenomeno difficile da misurare: la dispersione scolastica implicita, fatta di frequenza irregolare, bassi livelli di apprendimento e demotivazione crescente, soprattutto nei contesti socialmente ed economicamente",
+      "scadenza": "30 settembre 2026",
+      "scaduto": false,
+      "donatore": "Con i Bambini",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/opportunit-per-me-bando-con-i-bambini-dispersione-scolastica-2026-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "locale"
+      ],
+      "tags": [
+        "sport",
+        "giovani",
+        "minori",
+        "donne",
+        "lavoro",
+        "educazione",
+        "ricerca"
+      ]
+    },
     {
       "titolo": "Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori",
       "url": "https://www.info-cooperazione.it/2026/7/bando-daphne-2026-per-contrastare-la-violenza-di-genere-e-la-violenza-sui-minori",
@@ -12,15 +54,36 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando-daphne-2025-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "disabilità",
+        "sport",
         "minori",
         "donne",
         "lavoro",
         "ricerca"
+      ]
+    },
+    {
+      "titolo": "Investo in Senegal",
+      "url": "https://www.info-cooperazione.it/2026/7/investo-in-senegal-un-bando-per-selezionare-nuove-idee-imprenditoriali",
+      "descrizione": "Finanziato con 2 milioni di euro dalla Cooperazione Italiana (AICS Dakar), il progetto \"Investo in Senegal: per uno sviluppo economico, sociale e solidale\" ha aperto ufficialmente il bando per la presentazione delle candidature. L'iniziativa, coordinata da AMREF Health Africa Italia in consorzio con Association Le Réseau, COSPE, Association DISSO, Di.S.S.O.-ODV, E4Impact, il Dipartimento di Scienze Politiche dell'Università di Pisa e PuntoSud,",
+      "scadenza": "16 agosto 2026",
+      "scaduto": false,
+      "donatore": "AICS",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2021/04/italia-senegal-120x120.jpg",
+      "territorio": [
+        "nazionale"
+      ],
+      "tags": [
+        "disabilità",
+        "sport",
+        "cultura",
+        "giovani",
+        "donne",
+        "lavoro",
+        "inclusione"
       ]
     },
     {
@@ -49,7 +112,6 @@
       "territorio": [
         "Mezzogiorno",
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
@@ -80,6 +142,8 @@
         "salute",
         "lavoro",
         "educazione",
+        "digitale",
+        "ricerca",
         "inclusione"
       ]
     },
@@ -96,7 +160,8 @@
         "nazionale"
       ],
       "tags": [
-        "giovani",
+        "disabilità",
+        "salute",
         "lavoro",
         "educazione",
         "inclusione"
@@ -120,7 +185,6 @@
         "donne",
         "salute",
         "lavoro",
-        "ricerca",
         "inclusione"
       ]
     },
@@ -137,10 +201,9 @@
         "Europa"
       ],
       "tags": [
-        "giovani",
+        "migranti",
         "salute",
         "lavoro",
-        "educazione",
         "digitale"
       ]
     },
@@ -178,6 +241,7 @@
         "cultura",
         "ambiente",
         "lavoro",
+        "educazione",
         "digitale",
         "ricerca",
         "inclusione"
@@ -196,10 +260,9 @@
         "locale"
       ],
       "tags": [
-        "sport",
         "ambiente",
-        "lavoro",
-        "volontariato"
+        "minori",
+        "lavoro"
       ]
     },
     {
@@ -211,29 +274,10 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/website_830x426px_-_calls_for_proposals_-_eulife26-120x120.jpg",
       "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "ambiente",
-        "lavoro"
-      ]
-    },
-    {
-      "titolo": "Al via l'edizione 2026 di \"Riprogettiamo il futuro\"",
-      "url": "https://www.info-cooperazione.it/2026/4/al-via-ledizione-2026-di-riprogettiamo-il-futuro",
-      "descrizione": "Fondazione Cariplo ha pubblicato il bando \"Riprogettiamo il futuro\", un programma intersettoriale rivolto agli enti non profit attivi nei settori dell'Ambiente, dell'Arte e della Cultura e dei Servizi alla Persona. Con una dotazione complessiva di 2.250.000 euro, il bando punta a sostenere la trasformazione organizzativa delle organizzazioni del Terzo Settore in un momento storico di",
-      "scadenza": "23 luglio 2026",
-      "scaduto": false,
-      "donatore": "Fondazione Cariplo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/riprogettiamo_futuro_2026-120x120.png",
-      "territorio": [
         "nazionale"
       ],
       "tags": [
-        "cultura",
-        "ambiente",
-        "giovani",
+        "migranti",
         "lavoro"
       ]
     },
@@ -269,12 +313,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2022/02/Repubblica-Digitale-720x283-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale"
+        "Europa"
       ],
       "tags": [
+        "donne",
         "lavoro",
         "digitale",
-        "ricerca",
         "inclusione"
       ]
     },
@@ -293,7 +337,9 @@
       "tags": [
         "ambiente",
         "giovani",
-        "lavoro"
+        "minori",
+        "lavoro",
+        "educazione"
       ]
     },
     {
@@ -305,12 +351,17 @@
       "donatore": "Fondazione Compagnia di San Paolo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/next-gen-you-head-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "cultura",
+        "donne",
+        "migranti",
         "lavoro",
-        "digitale"
+        "digitale",
+        "ricerca",
+        "inclusione"
       ]
     },
     {
@@ -322,11 +373,11 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/cerv-programme-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
-        "giovani",
+        "sport",
+        "donne",
         "lavoro",
         "ricerca"
       ]
@@ -341,15 +392,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/shutterstock_1507947035-768x420-1-120x120.jpg",
       "territorio": [
         "nazionale",
-        "regionale"
+        "regionale",
+        "Europa"
       ],
       "tags": [
-        "giovani",
         "minori",
-        "donne",
-        "lavoro",
-        "educazione",
-        "volontariato"
+        "lavoro"
       ]
     },
     {
@@ -361,8 +409,7 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/Bernini_Etiopia_mur-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "giovani",
@@ -386,7 +433,9 @@
         "Europa"
       ],
       "tags": [
-        "lavoro"
+        "giovani",
+        "lavoro",
+        "educazione"
       ]
     },
     {
@@ -401,7 +450,6 @@
         "nazionale"
       ],
       "tags": [
-        "giovani",
         "minori",
         "lavoro",
         "educazione"
