@@ -1,6 +1,6 @@
 # Terzo Settore Intelligence — Makefile
 # Il package tsi/ è la fonte di verità. radar/ e lib/ sono wrapper backward-compat.
-.PHONY: build scan radar latest segnale test monitor clean clean-cache all
+.PHONY: build scan radar latest segnale test clean all
 
 all: build comuni-ets scan
 
@@ -47,9 +47,9 @@ contatta:
 	[ -n "$(B)" ] || (echo "Usa: make contatta B='BPER' [TOP=10] [ENRICH=1] [FMT=csv]" && exit 1)
 	python3 match/reports/contatta.py --bando "$(B)" --top $(if $(TOP),$(TOP),10) $(if $(ENRICH),--enrich,) $(if $(FMT),--formato $(FMT),) || true
 
-# Monitoraggio salute fonti
-monitor:
-	python3 -m tsi.monitor.fonti
+# Monitoraggio salute fonti — da implementare (tsi/ non esiste ancora)
+# monitor:
+# 	python3 -m tsi.monitor.fonti
 
 # Scheda ETS: profilo completo per debug
 scheda:
@@ -60,10 +60,6 @@ scheda:
 report:
 	[ -n "$(CF)" ] || (echo "Usa: make report CF=02006180364" && exit 1)
 	python3 match/reports/scheda.py --cf "$(CF)" --benchmark --match
-
-# Report 20/80: bandi attivi prioritari per budget+urgenza
-opportunita:
-	python3 radar/opportunita.py $(if $(TOP),--top $(TOP),) $(if $(TAG),--tag $(TAG),)
 
 # Preparazione chiamate lunedì: CSV urgenti + report
 lunedi: scan
@@ -116,8 +112,3 @@ clean:
 	find . -type d -name __pycache__ -prune -exec rm -rf {} +
 	rm -f cruscotto/radar-completo.md cruscotto/radar-latest.md cruscotto/radar-completo.json
 	@echo "✅ Pulito"
-
-# Pulisce eventuale cache locale legacy. Build/report leggono da GCS.
-clean-cache:
-	rm -rf data/cache
-	@echo "✅ Cache locale rimossa"

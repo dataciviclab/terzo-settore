@@ -23,9 +23,8 @@ LAB = Path(__file__).resolve().parents[1].parent / "dataset-incubator" / "out" /
 CACHE = ROOT / "data" / "gcs_cache"
 GCS = "https://storage.googleapis.com/dataciviclab-clean"
 
-# Stessa lista di _scripts/gcs_cache.py (fonte di verità delle dipendenze)
-SRC = (ROOT / "_scripts" / "gcs_cache.py").read_text()
-SOURCES = ast.literal_eval(re.search(r"SOURCES = (\[.*?\n\])\n", SRC, re.DOTALL).group(1))
+# Stessa lista in ets/sources.py (fonte di verità delle dipendenze)
+from sources import SOURCES
 
 
 def parquet_valido(p: Path) -> bool:
