@@ -211,6 +211,7 @@ def match_territoriale(con, tags, limit=200, territorio=None, testo=None, top_co
         gap = con.sql(f"""
             SELECT comune, provincia, rd_pct, reddito_procapite,
                    ets_tot, ets_matchabili, capacita_alta, sport,
+                   siope_uscite, siope_personale, pnrr_progetti,
                    ROUND(ets_matchabili * 1.0 / GREATEST(ets_tot, 1), 2) AS quota_matchabile
             FROM '{COMUNI_ETS_FILE}'
             WHERE 1=1 {prov_sql}
@@ -222,6 +223,7 @@ def match_territoriale(con, tags, limit=200, territorio=None, testo=None, top_co
         gap = con.sql(f"""
             SELECT comune, provincia, rd_pct, reddito_procapite,
                    ets_tot, ets_matchabili, capacita_alta, sport,
+                   siope_uscite, siope_personale, pnrr_progetti,
                    ROUND(ets_matchabili * 1.0 / GREATEST(ets_tot, 1), 2) AS quota_matchabile
             FROM '{COMUNI_ETS_FILE}'
             WHERE ets_tot > 0
@@ -253,11 +255,13 @@ def format_incrocio(match_ctx, gap, titolo="Incrocio territoriale"):
     lines.append("")
     lines.append("## Gap: comuni con contesto fragile e pochi ETS matchabili")
     lines.append("")
-    lines.append("| Comune | Prov | RdC% | Reddito | ETS tot | Matchabili | Quota | Sport |")
-    lines.append("|---|---|---|---|---|---|---|---|")
+    lines.append("| Comune | Prov | RdC% | Reddito | ETS tot | Matchabili | Quota | Spesa SIOPE | PNRR proj |")
+    lines.append("|---|---|---|---|---|---|---|---|---|")
     for _, r in gap.head(15).iterrows():
+        siope = f"{r['siope_uscite']/1e6:.0f}M€" if r["siope_uscite"] and r["siope_uscite"] > 0 else "—"
+        pnrr = str(int(r["pnrr_progetti"])) if r["pnrr_progetti"] and r["pnrr_progetti"] > 0 else "—"
         lines.append(f"| {r['comune']} | {r['provincia']} | {r['rd_pct']}% | "
                      f"{r['reddito_procapite']:,} | {r['ets_tot']} | {r['ets_matchabili']} "
-                     f"| {r['quota_matchabile']} | {r['sport']} |")
+                     f"| {r['quota_matchabile']} | {siope} | {pnrr} |")
 
     return "\n".join(lines)
