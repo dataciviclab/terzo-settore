@@ -88,8 +88,8 @@ def load_bandi(files=None):
     return deduplicate_bandi(bandi)
 
 
-def process_bando(con, b, pattern, tags, territorio, match_limit=20):
-    df = match_bando(con, pattern, tags, limit=match_limit, territorio=territorio)
+def process_bando(con, b, pattern, tags, territorio, match_limit=20, testo=None):
+    df = match_bando(con, pattern, tags, limit=match_limit, territorio=territorio, testo=testo)
     if df.empty:
         return None
     return {
@@ -125,15 +125,15 @@ def elabora_bando(b, con, match_limit=20):
             if not territorio or territorio == ["Nazionale/da verificare"]:
                 territorio = extra["territorio"]
 
-    pattern = get_pattern_from_tags(tags)
-    if not pattern:
-        if not get_sections_from_tags(tags):
-            return {"tipo": "sin_match", "titolo": titolo, "url": url, "ente": ente,
-                    "scadenza": scadenza_str, "gg": gg_rimasti, "tags": tags,
-                    "territorio": territorio, "status": status, "motivo": "nessun pattern tag"}
-        pattern = ".*"
+    # Il pattern serve per compatibilità: il funnel (match_bando) deriva
+    # la pertinenza dai tag normalizzati + testo, non dal pattern grezzo.
+    pattern = get_pattern_from_tags(tags) or ".*"
 
-    result = process_bando(con, b, pattern, tags, territorio, match_limit)
+    # Testo per il fallback del funnel (se i tag non sono mappati)
+    testo_bando = " ".join(str(b.get(k, "") or "") for k in
+                           ("titolo", "descrizione", "obiettivi", "ammissibili", "testo_nlp"))
+
+    result = process_bando(con, b, pattern, tags, territorio, match_limit, testo=testo_bando)
     if result is None:
         return {"tipo": "sin_match", "titolo": titolo, "url": url, "ente": ente,
                 "scadenza": scadenza_str, "gg": gg_rimasti, "tags": tags,

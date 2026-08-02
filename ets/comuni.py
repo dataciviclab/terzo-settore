@@ -47,7 +47,9 @@ def load_comuni(con):
     metr = con.sql(f"""
         SELECT codice_istat,
                ROUND(popolazione_residente)::INT as pop,
-               ROUND(reddito_procapite, 0)::INT as reddito
+               ROUND(reddito_procapite, 0)::INT as reddito,
+               siope_uscite, siope_personale, siope_investimenti,
+               dipendenti_totali, pnrr_progetti, pnrr_fin_totale
         FROM '{gcs_path("unified_comuni", 2026)}'
         WHERE anno = 2023
     """).fetchdf()
@@ -74,11 +76,26 @@ def load_comuni(con):
     
     
     # Metriche per istat
+    def _n(v):
+        """Cast numerico sicuro: None/NaN/NA → 0, altrimenti float."""
+        try:
+            if v is None or pd.isna(v):
+                return 0
+            return float(v)
+        except (TypeError, ValueError):
+            return 0
+
     for _, r in metr.iterrows():
         istat = str(r["codice_istat"]).strip()
         istat_data.setdefault(istat, {})
-        istat_data[istat]["pop"] = int(r["pop"]) if r["pop"] and not pd.isna(r["pop"]) else 0
-        istat_data[istat]["reddito"] = int(r["reddito"]) if r["reddito"] and not pd.isna(r["reddito"]) else 0
+        istat_data[istat]["pop"] = int(_n(r["pop"]))
+        istat_data[istat]["reddito"] = int(_n(r["reddito"]))
+        istat_data[istat]["siope_uscite"] = _n(r["siope_uscite"])
+        istat_data[istat]["siope_personale"] = _n(r["siope_personale"])
+        istat_data[istat]["siope_investimenti"] = _n(r["siope_investimenti"])
+        istat_data[istat]["dipendenti_totali"] = int(_n(r["dipendenti_totali"]))
+        istat_data[istat]["pnrr_progetti"] = int(_n(r["pnrr_progetti"]))
+        istat_data[istat]["pnrr_fin_totale"] = _n(r["pnrr_fin_totale"])
     
     # RdC per istat (match via nome normalizzato)
     for _, r in rdc.iterrows():
@@ -87,8 +104,8 @@ def load_comuni(con):
             istat = lookup[norm][0]
             if istat:
                 istat_data.setdefault(istat, {})
-                istat_data[istat]["rd_pct"] = float(r["rd_pct"]) if r["rd_pct"] and not pd.isna(r["rd_pct"]) else 0.0
-                istat_data[istat]["nuclei_rdc"] = int(r["nuclei_rdc"]) if r["nuclei_rdc"] and not pd.isna(r["nuclei_rdc"]) else 0
+                istat_data[istat]["rd_pct"] = _n(r["rd_pct"])
+                istat_data[istat]["nuclei_rdc"] = int(_n(r["nuclei_rdc"]))
     
     return lookup, istat_data
 
@@ -303,6 +320,13 @@ def main():
             "reddito_procapite": md.get("reddito", 0),
             "rd_pct": md.get("rd_pct", 0.0),
             "nuclei_rdc": md.get("nuclei_rdc", 0),
+            # Contesto dal dataset composito unified_comuni (SIOPE, PA, PNRR)
+            "siope_uscite": md.get("siope_uscite", 0.0),
+            "siope_personale": md.get("siope_personale", 0.0),
+            "siope_investimenti": md.get("siope_investimenti", 0.0),
+            "dipendenti_totali": md.get("dipendenti_totali", 0),
+            "pnrr_progetti": md.get("pnrr_progetti", 0),
+            "pnrr_fin_totale": md.get("pnrr_fin_totale", 0.0),
             "appalti_riservati": appalti,
             "importo_anac_totale": round(an.get("importo_anac_totale", 0), 0),
             **{k: et.get(k, 0) for k in [
