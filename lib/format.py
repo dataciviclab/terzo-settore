@@ -61,6 +61,7 @@ def fmt_match_reason(c):
         "tema denominazione": "match su denominazione",
         "sport da denominazione": "sport da denominazione",
         "sezione": "match su sezione",
+        "solo_sezione": "solo per sezione (nessuna conferma nel nome)",
         "match": "match",
     }
     parts = [motivo_map.get(motivo, motivo)]

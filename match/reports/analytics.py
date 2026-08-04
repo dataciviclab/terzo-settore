@@ -38,7 +38,7 @@ def gap_territoriale(con, limite=10, provincia=None):
     """Comuni con domanda pubblica o disagio sociale e pochi ETS."""
     if not COMUNI_ETS_PATH.exists():
         return []
-    where = "WHERE appalti_riservati > 0 OR rd_pct > 5"
+    where = "WHERE (appalti_riservati > 0 OR rd_pct > 5)"
     if provincia:
         where += f" AND provincia = '{provincia}'"
     df = con.sql(f"""

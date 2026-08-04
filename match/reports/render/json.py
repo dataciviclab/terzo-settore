@@ -48,7 +48,7 @@ def completo(scan):
         "resultados": [
             {"titolo": r["titolo"], "url": r["url"], "ente": r["ente"], "budget": r.get("budget"),
              "scadenza": r["scadenza"], "gg_rimasti": r["gg"], "status": r["status"],
-             "territorio": r["territorio"], "tags": r["tags"],
+             "territorio": r["territorio"], "tags": r["tags"], "n_idonei": r.get("n_idonei", len(r["candidati"])),
              "candidati": [{"cf": cand.get("codice_fiscale"), "denominazione": cand["denominazione"],
                             "comune": cand.get("comune"), "provincia": cand.get("provincia"),
                             "capacita": cand["capacita_progettuale"], "sezione": cand.get("sezione"),

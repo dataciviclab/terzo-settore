@@ -1,7 +1,7 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 04/08/2026 22:19
+Generato: 04/08/2026 23:46
 
-**53** bandi operativi con ETS candidabili  |  **0** operativi senza match  |  **78** esclusi  |  **383** ETS unici coinvolti
+**53** bandi operativi con ETS candidabili  |  **0** operativi senza match  |  **78** esclusi  |  **388** ETS unici coinvolti
 
 ---
 
@@ -59,13 +59,13 @@ Generato: 04/08/2026 22:19
 | ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERC | TORINO | TO | alta | 133 | tema_principale; capacità alta | - |
 | FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CUL | TORINO | TO | alta | 133 | tema_principale; capacità alta | - |
 | TEATRO CHE PAZZIA A.P.S. | TREVISO | TV | alta | 133 | tema_principale; capacità alta; APS | - |
-| LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTUR | PONTE NELLE ALPI | BL | alta | 133 | tema_principale; capacità alta; APS | - |
+| ASSOCIAZIONE CULTURALE ACUARINTO ETS | AGRIGENTO | AG | alta | 133 | tema_principale; capacità alta | - |
+| ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO | CAGLIARI | CA | alta | 133 | tema_principale; capacità alta | - |
 | ASSOCIAZIONE MUSICALE ETNEA ETS | CATANIA | CT | alta | 133 | tema_principale; capacità alta | - |
 | FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS | GENOVA | GE | alta | 133 | tema_principale; capacità alta | - |
-| ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI AP | PISTICCI | MT | alta | 133 | tema_principale; capacità alta; APS | - |
 | ASSOCIAZIONE CULTURALE COMETA ETS | MILANO | MI | alta | 133 | tema_principale; capacità alta | - |
 | ASSOCIAZIONE CULTURALE NUOVO MONDO APS | PIEVE EMANUELE | MI | alta | 133 | tema_principale; capacità alta; APS | - |
-| ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE. | VELLETRI | RM | alta | 133 | tema_principale; capacità alta; APS | - |
+| FONDAZIONE CULTURA & INNOVAZIONE ETS | NAPOLI | NA | alta | 133 | tema_principale; capacità alta | - |
 
 ### 🔴 Investo in Senegal
 - **Scadenza**: 16 agosto 2026 (12 giorni)
@@ -82,7 +82,6 @@ Generato: 04/08/2026 22:19
 | CROCE BIANCA MILANO, Organizzazione di Volont | MILANO | MI | alta | 143 | tema_principale; capacità alta; 5x1000 >100k; ODV | €143,383 |
 | AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOL | MILANO | MI | alta | 143 | tema_principale; capacità alta; 5x1000 >100k; ODV | €113,052 |
 | CROCE GIALLA - ODV | ANCONA | AN | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €78,575 |
-| ASSOCIAZIONE LA CASETTA DEI GATTI | ROMA | RM | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €63,809 |
 | Croce Rossa Italiana - Comitato di Milano - O | MILANO | MI | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €60,815 |
 | MOVIMENTO SHALOM ODV | SAN MINIATO | PI | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €58,374 |
 | CENTRO PER LA TUTELA E LA RICERCA PER LA FAUN | SASSO MARCONI | BO | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €52,779 |
@@ -96,6 +95,7 @@ Generato: 04/08/2026 22:19
 | CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRAT | ROMA | RM | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €30,276 |
 | ASSOCIAZIONE VOLONTARI CANILE DI PORTA PORTES | ROMA | RM | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €27,779 |
 | PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZO | VIADANA | MN | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €27,404 |
+| PROGETTO ONCOLOGIA UMAN.A - ODV | MILANO | MI | alta | 140 | tema_principale; capacità alta; 5x1000 >10k; ODV | €26,827 |
 
 ### 🔴 Dalla Norvegia 10 milioni per l'innovazione umanitaria
 - **Scadenza**: 17 agosto 2026 (13 giorni)
@@ -286,26 +286,26 @@ Generato: 04/08/2026 22:19
 - **Territorio**: Nazionale/da verificare
 - **Tag**: In evidenza, Minori, Disabilità, Giovani, Inclusione sociale, Sport, Adolescenti, BPER Banca, crowdfunding
 
-  · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €531,796
-  · **alta** LIBERA ASSOCIAZIONI, NOMI E NUMERI CONTRO LE MAFIE — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €462,716
-  · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €318,718
-  · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €217,081
-  · **alta** CHIARA E FRANCESCO APS — POMEZIA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €62,332
-  · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €51,540
-  · **alta** ASSOCIAZIONE COMUNITA SAN BENEDETTO AL PORTO APS — GENOVA (GE) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €49,515
-  · **alta** ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTE — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €43,482
-  · **alta** ASSOCIAZIONE NAZIONALE VOLONTARIE DEL TELEFONO ROS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €36,613
-  · **alta** VERBRAUCHERZENTRALE SUEDTIROL VFG__CENTRO TUTELA C — BOLZANO (BZ) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €35,263
-  · **alta** YLENIA E GLI AMICI SPECIALI APS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €30,970
-  · **alta** ANFFAS LUCCA ETS - APS ASSOCIAZIONE LOCALE DI FAMI — LUCCA (LU) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €30,434
-  · **alta** METACOMETA APS — GIARRE (CT) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €27,224
-  · **alta** ASSOCIAZIONE DIFFERENZA DONNA APS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €25,970
-  · **alta** GAY CENTER / GAY HELP LINE APS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €24,320
-  · **alta** ANFFAS LANCIANO - ASSOCIAZIONE LOCALE DI FAMIGLIE  — LANCIANO (CH) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €16,531
-  · **alta** UNIONE ITALIANA DEI CIECHI E DEGLI IPOVEDENTI SEZI — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €13,436
-  · **alta**  CASA DELLE DONNE LUCHA Y SIESTA APS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €10,638
-  · **alta** LA MAISON APS — ROMA (RM) — score 137, tema_principale; capacità alta; 5x1000 presente; APS — 5x1000: €9,144
-  · **alta** TERRA DEI FIORETTI - SAN GIACOMO DELLA MARCA APS I — CINGOLI (MC) — score 137, tema_principale; capacità alta; 5x1000 presente; APS — 5x1000: €7,760
+  · **alta** UNIONE SPORTIVA ACLI TORINO — TORINO (TO) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** ASD COMITATO PRO SAN BORTOLO — VICENZA (VI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** UISP - UNIONE ITALIANA SPORT PER TUTTI - COMITATO  — FIRENZE (FI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** A.S.D.C.R. SPORTLAB A.P.S. — ROMA (RM) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **medio-alta** LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E  — SANTA MARGHERITA DI BELICE (AG) — score 128, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €28,369
+  · **medio-alta** UNIONE SPORTIVA ACLI  COMITATO REGIONALE MARCHE AP — ASCOLI PICENO (AP) — score 128, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €12,078
+  · **medio-alta** POLISPORTIVA GAREGNANO 1976 ASD APS — MILANO (MI) — score 128, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €10,138
+  · **medio-alta** ASSOCIAZIONE  IL PONTE APS ASD — ROMA (RM) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €6,422
+  · **medio-alta** Associazioni Sportive e Sociali Italiane Ente di P — ROMA (RM) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €2,899
+  · **medio-alta** POLISPORTIVA ORATORIO SAN CARLO ASD - APS — RHO (MI) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €2,766
+  · **medio-alta** Associazione sportiva dilettantistica Polisportiva — RICCIONE (RN) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €919
+  · **medio-alta** FUSOLAB APS ASD — ROMA (RM) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €652
+  · **medio-alta** ASSOCIAZIONE ITALIANA CULTURA SPORT COMITATO PROVI — BOLOGNA (BO) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €235
+  · **medio-alta** LA PATRIA 1879 ASSOCIAZIONE SPORTIVA DILETTANTISTI — CARPI (MO) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €133
+  · **media** ASSOCIAZIONE NAZIONALE COMUNITA' SOCIALI E SPORTIV — ROMA (RM) — score 125, tema_principale; capacità media; 5x1000 >100k; APS — 5x1000: €1,778,283
+  · **medio-alta** SPORTABILI ALBA APS ASD — RODDI (CN) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €17,837
+  · **medio-alta** ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSPI ASS — SANT'ANTONIO ABATE (NA) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €14,026
+  · **medio-alta** ASD RUBENS APS — TORINO (TO) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €13,365
+  · **medio-alta** A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI O — PALERMO (PA) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €12,355
+  · **medio-alta** IL VOLO ASD APS — SAN LORENZO NUOVO (VT) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €10,716
 
 ### Contributi filantropici di Autostrade per l&#8217;Italia 2026
 - **Scadenza**: 13 settembre 2026 (40 giorni)
@@ -411,13 +411,13 @@ Generato: 04/08/2026 22:19
   · **alta** ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERCULTUR — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA  — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** TEATRO CHE PAZZIA A.P.S. — TREVISO (TV) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE ACUARINTO ETS — AGRIGENTO (AG) — score 133, tema_principale; capacità alta — 5x1000: -
-  · **alta** ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETT — CAGLIARI (CA) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE A — PONTE NELLE ALPI (BL) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** ASSOCIAZIONE MUSICALE ETNEA ETS — CATANIA (CT) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS — GENOVA (GE) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS — PISTICCI (MT) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE COMETA ETS — MILANO (MI) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE NUOVO MONDO APS — PIEVE EMANUELE (MI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** FONDAZIONE CULTURA & INNOVAZIONE ETS — NAPOLI (NA) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A — VELLETRI (RM) — score 133, tema_principale; capacità alta; APS — 5x1000: -
 
 ### Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
 - **Scadenza**: 15 settembre 2026 (42 giorni)
@@ -536,7 +536,7 @@ Generato: 04/08/2026 22:19
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: digitale, disabilità, animali, inclusione sociale
+- **Tag**: inclusione sociale, animali, digitale, disabilità
 
   · **alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E P — TRENTO (TN) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €50,779
   · **alta** ANFFAS ROMA - ASSOCIAZIONE LOCALE DI FAMIGLIE E PE — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €15,098
@@ -592,7 +592,7 @@ Generato: 04/08/2026 22:19
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: animali, ambiente, ricerca
+- **Tag**: animali, ricerca, ambiente
 
   · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €217,081
   · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €51,540
@@ -796,7 +796,6 @@ Generato: 04/08/2026 22:19
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €143,383
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €113,052
   · **alta** CROCE GIALLA - ODV — ANCONA (AN) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €78,575
-  · **alta** ASSOCIAZIONE LA CASETTA DEI GATTI — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €63,809
   · **alta** Croce Rossa Italiana - Comitato di Milano - Organi — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €60,815
   · **alta** MOVIMENTO SHALOM ODV — SAN MINIATO (PI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €58,374
   · **alta** CENTRO PER LA TUTELA E LA RICERCA PER LA FAUNA ESO — SASSO MARCONI (BO) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €52,779
@@ -810,6 +809,7 @@ Generato: 04/08/2026 22:19
   · **alta** CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRATI ODV — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €30,276
   · **alta** ASSOCIAZIONE VOLONTARI CANILE DI PORTA PORTESE - O — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €27,779
   · **alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OG — VIADANA (MN) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €27,404
+  · **alta** PROGETTO ONCOLOGIA UMAN.A - ODV — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €26,827
 
 ### Ecco il calendario delle call 2026 del Programma CERV
 - **Scadenza**: 01 ottobre 2026 (58 giorni)
@@ -852,7 +852,6 @@ Generato: 04/08/2026 22:19
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €143,383
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €113,052
   · **alta** CROCE GIALLA - ODV — ANCONA (AN) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €78,575
-  · **alta** ASSOCIAZIONE LA CASETTA DEI GATTI — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €63,809
   · **alta** Croce Rossa Italiana - Comitato di Milano - Organi — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €60,815
   · **alta** MOVIMENTO SHALOM ODV — SAN MINIATO (PI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €58,374
   · **alta** CENTRO PER LA TUTELA E LA RICERCA PER LA FAUNA ESO — SASSO MARCONI (BO) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €52,779
@@ -866,6 +865,7 @@ Generato: 04/08/2026 22:19
   · **alta** CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRATI ODV — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €30,276
   · **alta** ASSOCIAZIONE VOLONTARI CANILE DI PORTA PORTESE - O — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €27,779
   · **alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OG — VIADANA (MN) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €27,404
+  · **alta** PROGETTO ONCOLOGIA UMAN.A - ODV — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €26,827
 
 ### Interventi di rafforzamento dell’integrazione scolastica di alunni e studenti di
 - **Scadenza**: 08 ottobre 2026 (con proroga) ore 12.00 (65 giorni)
@@ -930,26 +930,26 @@ Generato: 04/08/2026 22:19
 - **Territorio**: Nazionale
 - **Tag**: Giovani, Inclusione sociale, Sport, Rigenerazione urbana, Adolescenti, Dipartimento per lo Sport, Oratori
 
-  · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €531,796
-  · **alta** LIBERA ASSOCIAZIONI, NOMI E NUMERI CONTRO LE MAFIE — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €462,716
-  · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €318,718
-  · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €217,081
-  · **alta** CHIARA E FRANCESCO APS — POMEZIA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €62,332
-  · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €51,540
-  · **alta** ASSOCIAZIONE COMUNITA SAN BENEDETTO AL PORTO APS — GENOVA (GE) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €49,515
-  · **alta** ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTE — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €43,482
-  · **alta** ASSOCIAZIONE NAZIONALE VOLONTARIE DEL TELEFONO ROS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €36,613
-  · **alta** VERBRAUCHERZENTRALE SUEDTIROL VFG__CENTRO TUTELA C — BOLZANO (BZ) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €35,263
-  · **alta** YLENIA E GLI AMICI SPECIALI APS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €30,970
-  · **alta** ANFFAS LUCCA ETS - APS ASSOCIAZIONE LOCALE DI FAMI — LUCCA (LU) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €30,434
-  · **alta** METACOMETA APS — GIARRE (CT) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €27,224
-  · **alta** ASSOCIAZIONE DIFFERENZA DONNA APS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €25,970
-  · **alta** GAY CENTER / GAY HELP LINE APS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €24,320
-  · **alta** ANFFAS LANCIANO - ASSOCIAZIONE LOCALE DI FAMIGLIE  — LANCIANO (CH) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €16,531
-  · **alta** UNIONE ITALIANA DEI CIECHI E DEGLI IPOVEDENTI SEZI — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €13,436
-  · **alta**  CASA DELLE DONNE LUCHA Y SIESTA APS — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €10,638
-  · **alta** LA MAISON APS — ROMA (RM) — score 137, tema_principale; capacità alta; 5x1000 presente; APS — 5x1000: €9,144
-  · **alta** TERRA DEI FIORETTI - SAN GIACOMO DELLA MARCA APS I — CINGOLI (MC) — score 137, tema_principale; capacità alta; 5x1000 presente; APS — 5x1000: €7,760
+  · **alta** UNIONE SPORTIVA ACLI TORINO — TORINO (TO) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** ASD COMITATO PRO SAN BORTOLO — VICENZA (VI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** UISP - UNIONE ITALIANA SPORT PER TUTTI - COMITATO  — FIRENZE (FI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** A.S.D.C.R. SPORTLAB A.P.S. — ROMA (RM) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **medio-alta** LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E  — SANTA MARGHERITA DI BELICE (AG) — score 128, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €28,369
+  · **medio-alta** UNIONE SPORTIVA ACLI  COMITATO REGIONALE MARCHE AP — ASCOLI PICENO (AP) — score 128, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €12,078
+  · **medio-alta** POLISPORTIVA GAREGNANO 1976 ASD APS — MILANO (MI) — score 128, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €10,138
+  · **medio-alta** ASSOCIAZIONE  IL PONTE APS ASD — ROMA (RM) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €6,422
+  · **medio-alta** Associazioni Sportive e Sociali Italiane Ente di P — ROMA (RM) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €2,899
+  · **medio-alta** POLISPORTIVA ORATORIO SAN CARLO ASD - APS — RHO (MI) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €2,766
+  · **medio-alta** Associazione sportiva dilettantistica Polisportiva — RICCIONE (RN) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €919
+  · **medio-alta** FUSOLAB APS ASD — ROMA (RM) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €652
+  · **medio-alta** ASSOCIAZIONE ITALIANA CULTURA SPORT COMITATO PROVI — BOLOGNA (BO) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €235
+  · **medio-alta** LA PATRIA 1879 ASSOCIAZIONE SPORTIVA DILETTANTISTI — CARPI (MO) — score 128, tema_principale; capacità medio-alta; 5x1000 presente; APS — 5x1000: €133
+  · **media** ASSOCIAZIONE NAZIONALE COMUNITA' SOCIALI E SPORTIV — ROMA (RM) — score 125, tema_principale; capacità media; 5x1000 >100k; APS — 5x1000: €1,778,283
+  · **medio-alta** SPORTABILI ALBA APS ASD — RODDI (CN) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €17,837
+  · **medio-alta** ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSPI ASS — SANT'ANTONIO ABATE (NA) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €14,026
+  · **medio-alta** ASD RUBENS APS — TORINO (TO) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €13,365
+  · **medio-alta** A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI O — PALERMO (PA) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €12,355
+  · **medio-alta** IL VOLO ASD APS — SAN LORENZO NUOVO (VT) — score 125, tema_principale; capacità medio-alta; 5x1000 >10k; APS — 5x1000: €10,716
 
 ### Bando “Note di comunità. Esperienze musicali di quartiere”
 - **Scadenza**: 16 ottobre 2026 alle ore 13:00 (73 giorni)
@@ -1068,7 +1068,7 @@ Generato: 04/08/2026 22:19
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: donne, salute, minori
+- **Tag**: salute, minori, donne
 
   · **alta** FONDAZIONE OPERA SANTI MEDICI COSMA E DAMIANO BITO — BITONTO (BA) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €94,631
   · **alta** FONDAZIONE PER LA RICERCA BIOMEDICA AVANZATA - ENT — PADOVA (PD) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €84,682
@@ -1208,7 +1208,7 @@ Generato: 04/08/2026 22:19
 - **Ente**: Fondazione Compagnia di San Paolo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale, Piemonte
-- **Tag**: ambiente, ricerca
+- **Tag**: ricerca, ambiente
 
   · **alta** ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUT — TORINO (TO) — score 132, tema_principale; capacità alta; 5x1000 presente — 5x1000: €1,431
   · **medio-alta** CROCE VERDE TORINO ODV — TORINO (TO) — score 131, tema_principale; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €21,818
@@ -1236,7 +1236,7 @@ Generato: 04/08/2026 22:19
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: digitale, animali, inclusione sociale
+- **Tag**: inclusione sociale, animali, digitale
 
   · **alta** FONDAZIONE MONDO DIGITALE ETS — ROMA (RM) — score 137, tema_principale; capacità alta; 5x1000 presente — 5x1000: €4,242
   · **alta** CENTRO STUDI IMPARA DIGITALE - ENTE DEL TERZO SETT — BERGAMO (BG) — score 133, tema_principale; capacità alta — 5x1000: -
@@ -1320,7 +1320,7 @@ Generato: 04/08/2026 22:19
 - **Ente**: Con i Bambini
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale, Regionale
-- **Tag**: povertà educativa, educazione, inclusione sociale, minori
+- **Tag**: minori, povertà educativa, educazione, inclusione sociale
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 103, tema_secondario; capacità alta; 5x1000 >100k; APS — 5x1000: €318,718
   · **alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 103, tema_secondario; capacità alta; 5x1000 >100k — 5x1000: €173,631
@@ -1356,7 +1356,6 @@ Generato: 04/08/2026 22:19
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €143,383
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €113,052
   · **alta** CROCE GIALLA - ODV — ANCONA (AN) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €78,575
-  · **alta** ASSOCIAZIONE LA CASETTA DEI GATTI — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €63,809
   · **alta** Croce Rossa Italiana - Comitato di Milano - Organi — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €60,815
   · **alta** MOVIMENTO SHALOM ODV — SAN MINIATO (PI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €58,374
   · **alta** CENTRO PER LA TUTELA E LA RICERCA PER LA FAUNA ESO — SASSO MARCONI (BO) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €52,779
@@ -1370,6 +1369,7 @@ Generato: 04/08/2026 22:19
   · **alta** CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRATI ODV — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €30,276
   · **alta** ASSOCIAZIONE VOLONTARI CANILE DI PORTA PORTESE - O — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €27,779
   · **alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OG — VIADANA (MN) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €27,404
+  · **alta** PROGETTO ONCOLOGIA UMAN.A - ODV — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €26,827
 
 ### Horizon Europe: al via Africa Initiative IV per rafforzare la cooperazione UE–Af
 - **Scadenza**: 30 settembre 2027 (422 giorni)
@@ -1412,7 +1412,6 @@ Generato: 04/08/2026 22:19
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO (MI) — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €143,383
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO (MI) — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €113,052
   · **alta** CROCE GIALLA - ODV — ANCONA (AN) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €78,575
-  · **alta** ASSOCIAZIONE LA CASETTA DEI GATTI — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €63,809
   · **alta** Croce Rossa Italiana - Comitato di Milano - Organi — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €60,815
   · **alta** MOVIMENTO SHALOM ODV — SAN MINIATO (PI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €58,374
   · **alta** CENTRO PER LA TUTELA E LA RICERCA PER LA FAUNA ESO — SASSO MARCONI (BO) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €52,779
@@ -1426,6 +1425,7 @@ Generato: 04/08/2026 22:19
   · **alta** CENTRO ASTALLI PER L'ASSISTENZA AGLI IMMIGRATI ODV — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €30,276
   · **alta** ASSOCIAZIONE VOLONTARI CANILE DI PORTA PORTESE - O — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €27,779
   · **alta** PUBBLICA ASSISTENZA VOLONTARIA CROCE VERDE ZONA OG — VIADANA (MN) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €27,404
+  · **alta** PROGETTO ONCOLOGIA UMAN.A - ODV — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €26,827
 
 ### Bando aperto &#8211; Sportello della solidarietà
 - **Scadenza**: Lo sportello opera attraverso un bando aperto, senza scadenza. (999 giorni)
@@ -1503,13 +1503,13 @@ Generato: 04/08/2026 22:19
   · **alta** ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERCULTUR — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA  — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** TEATRO CHE PAZZIA A.P.S. — TREVISO (TV) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE A — PONTE NELLE ALPI (BL) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE ACUARINTO ETS — AGRIGENTO (AG) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETT — CAGLIARI (CA) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE MUSICALE ETNEA ETS — CATANIA (CT) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS — GENOVA (GE) — score 133, tema_principale; capacità alta — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS — PISTICCI (MT) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE COMETA ETS — MILANO (MI) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE NUOVO MONDO APS — PIEVE EMANUELE (MI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A — VELLETRI (RM) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** FONDAZIONE CULTURA & INNOVAZIONE ETS — NAPOLI (NA) — score 133, tema_principale; capacità alta — 5x1000: -
 
 
 ---
