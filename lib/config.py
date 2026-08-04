@@ -170,9 +170,18 @@ def get_province_filter(territorio):
 
 
 def normalize_comune(nome):
+    """Normalizza il nome di un comune per il join.
+
+    - MAIUSCOLO, NFD (scomposizione accenti)
+    - rimuove i caratteri diacritici combinanti (\u0300-\u036f) → gli accenti spariscono
+    - rimuove ogni variante di apostrofo: ascii ('), tipografico (U+2019), backtick (`),
+      acuto (´), modificatore (ʼ)
+    """
     if not nome:
         return ""
     nome = unicodedata.normalize("NFD", nome.strip().upper())
-    nome = nome.replace("'", "").replace("`", "").replace("´", "")
+    nome = re.sub(r"[\u0300-\u036f]", "", nome)
+    nome = nome.replace("'", "").replace("\u2019", "").replace("\u2018", "")
+    nome = nome.replace("`", "").replace("´", "").replace("\u02bc", "")
     nome = re.sub(r"\s+", " ", nome).strip()
-    return nome.replace("'", "").replace("`", "").replace("´", "")
+    return nome

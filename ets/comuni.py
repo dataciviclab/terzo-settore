@@ -58,7 +58,7 @@ def load_comuni(con):
     rdc = con.sql(f"""
         SELECT TRIM(comune) as c,
                ROUND(takeup * 100, 1) as rd_pct,
-               ROUND(nuclei_familiari_percettori_rdc_luglio_2020)::INT as nuclei_rdc
+               ROUND(nuclei_rdc)::INT as nuclei_rdc
         FROM '{gcs_path("inps_rdc_pdc", 2020)}'
     """).fetchdf()
     
