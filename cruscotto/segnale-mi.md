@@ -1,5 +1,5 @@
 # 📡 Segnali — MI
-Generato: 04/08/2026 20:09
+Generato: 04/08/2026 20:18
 
 ## 1. 🏛️  ETS sul territorio
 
@@ -661,6 +661,10 @@ Generato: 04/08/2026 20:09
 
 ## 3. 📊 Contesto sociale
 
+_Provincia di MI — media ponderata per popolazione._
+
+- **Reddito pro-capite** (2024): €24,363
+- **RdC/PdC takeup** (2020): 2.7%
 
 ## 4. 📋 ETS con appalti riservati
 

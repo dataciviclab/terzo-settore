@@ -12,6 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 import duckdb
+import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
@@ -208,24 +209,40 @@ def report_territorio(scan, con, territorio: str, comune: str = None):
     # Contesto sociale
     scrivi(out, "## 3. 📊 Contesto sociale")
     scrivi(out, "")
+    # Aggregazione provinciale: media ponderata per popolazione, anno = ultimo con dati
+    # (il 2025 esiste nello schema ma reddito_procapite è NULL ovunque → si usa 2024 finché non pubblica)
+    if comune:
+        filtro_reddito = f"UPPER(denominazione) = '{comune.upper()}'"
+        filtro_rdc = f"UPPER(comune) = '{comune.upper()}'"
+        etichetta = f"Comune di {comune.title()}"
+    else:
+        filtro_reddito = f"sigla_provincia = '{territorio}'"
+        filtro_rdc = f"sigla_provincia = '{territorio}'"
+        etichetta = f"Provincia di {territorio}"
+    scrivi(out, f"_{etichetta} — media ponderata per popolazione._")
+    scrivi(out, "")
     try:
         df = con.sql(f"""
-            SELECT round(reddito_procapite) as reddito, round(tasso_occupazione, 1) as occupazione
-            FROM '{UNIFIED_COMUNI_URL}' WHERE provincia = '{territorio}' AND anno = 2024
-            ORDER BY reddito_procapite LIMIT 1
+            SELECT SUM(reddito_procapite * popolazione_residente) / NULLIF(SUM(popolazione_residente), 0) as reddito,
+                   ANY_VALUE(anno_reddito) as anno_reddito
+            FROM '{UNIFIED_COMUNI_URL}',
+                 (SELECT MAX(anno) as anno_reddito
+                  FROM '{UNIFIED_COMUNI_URL}' WHERE reddito_procapite IS NOT NULL) t
+            WHERE {filtro_reddito}
+              AND anno = anno_reddito
+              AND reddito_procapite IS NOT NULL
         """).fetchdf()
-        if not df.empty:
-            scrivi(out, f"- **Reddito pro-capite**: €{int(df['reddito'].iloc[0]):,}")
-            scrivi(out, f"- **Tasso occupazione**: {df['occupazione'].iloc[0]}%")
+        if not df.empty and df['reddito'].iloc[0] and not pd.isna(df['reddito'].iloc[0]):
+            scrivi(out, f"- **Reddito pro-capite** ({int(df['anno_reddito'].iloc[0])}): €{int(df['reddito'].iloc[0]):,}")
     except Exception:
         pass
     try:
         df = con.sql(f"""
-            SELECT round(takeup * 100, 1) as rd_pct
-            FROM '{INPS_RDC_URL}' WHERE lower(comune) = '{titolo_territorio.lower()}'
+            SELECT SUM(takeup * popolazione_residente) / NULLIF(SUM(popolazione_residente), 0) * 100 as rd_pct
+            FROM '{INPS_RDC_URL}' WHERE {filtro_rdc}
         """).fetchdf()
-        if not df.empty:
-            scrivi(out, f"- **RdC/PdC takeup**: {df['rd_pct'].iloc[0]}%")
+        if not df.empty and df['rd_pct'].iloc[0] and not pd.isna(df['rd_pct'].iloc[0]):
+            scrivi(out, f"- **RdC/PdC takeup** (2020): {df['rd_pct'].iloc[0]:.1f}%")
     except Exception:
         pass
     scrivi(out, "")
