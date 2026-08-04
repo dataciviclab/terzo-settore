@@ -169,10 +169,69 @@ def get_province_filter(territorio):
     return provinces
 
 
+# Alias: nome colloquiale/storico → nome ISTAT ufficiale (chiave normalizzata).
+# Recupera ETS con sede in comuni rinominati, fusi o con grafie alternative.
+ALIAS_COMUNI = {
+    "REGGIO CALABRIA": "REGGIO DI CALABRIA",
+    "REGGIO EMILIA": "REGGIO NELLEMILIA",
+    "MONTECATINI TERME": "MONTECATINI-TERME",
+    "IONADI": "JONADI",
+    "SAN GIOVANNI DI FASSA-SEN JAN": "SAN GIOVANNI DI FASSA",
+    "CASSANO ALLO IONIO": "CASSANO ALLIONIO",
+    "RODENGO-SAIANO": "RODENGO SAIANO",
+    "GORNATE-OLONA": "GORNATE OLONA",
+    "TRENTOLA-DUCENTA": "TRENTOLA DUCENTA",
+    "SAINT CHRISTOPHE": "SAINT-CHRISTOPHE",
+    "DUINO-AURISINA": "DUINO AURISINA",
+    "SAN DORLIGO DELLA VALLE-DOLINA": "SAN DORLIGO DELLA VALLE",
+    "MALBORGHETTO-VALBRUNA": "MALBORGHETTO VALBRUNA",
+    "CALATAFIMI SEGESTA": "CALATAFIMI-SEGESTA",
+    "TERZO DI AQUILEIA": "TERZO DAQUILEIA",
+    "CASTELNOVO NE'MONTI": "CASTELNOVO NE MONTI",
+    "LONA LASES": "LONA-LASES",
+    "CASTELNUOVO VAL DI CECINA": "CASTELNUOVO DI VAL DI CECINA",
+    "PERGINE VALDARNO": "LATERINA PERGINE VALDARNO",
+    "FIGLINE VALDARNO": "FIGLINE E INCISA VALDARNO",
+    "BREMBILLA": "VAL BREMBILLA",
+    "CAVALLINO TREPORTI": "CAVALLINO-TREPORTI",
+    "SANNICANDRO GARGANICO": "SAN NICANDRO GARGANICO",
+    "REANA DEL ROIALE": "REANA DEL ROJALE",
+    "VIGNOLA FALESINA": "VIGNOLA-FALESINA",
+    "SANT'ANDREA APOSTOLO DELLO ION": "SANTANDREA APOSTOLO DELLO IONIO",
+    "RACCUIA": "RACCUJA",
+    "CERESOLE D'ALBA": "CERESOLE ALBA",
+    "CAMPIGLIONE-FENILE": "CAMPIGLIONE FENILE",
+    "SAN MARCELLO PISTOIESE": "SAN MARCELLO PITEGLIO",
+    "GABBIONETA BINANUOVA": "GABBIONETA-BINANUOVA",
+    "SAN DEMETRIO NE'VESTINI": "SAN DEMETRIO NE VESTINI",
+    "GRESSONEY SAINT JEAN": "GRESSONEY-SAINT-JEAN",
+    "PRIMIERO SAN MARTINO DI CASTRO": "PRIMIERO SAN MARTINO DI CASTROZZA",
+    "SAINT VINCENT": "SAINT-VINCENT",
+    "CHIOPRIS VISCONE": "CHIOPRIS-VISCONE",
+    "NIZZA SICILIA": "NIZZA DI SICILIA",
+    "SAINT RHEMY EN BOSSES": "SAINT-RHEMY-EN-BOSSES",
+    "CORTACCIA SULLA STRADA DEL VIN": "CORTACCIA SULLA STRADA DEL VINO",
+    "SAINT OYEN": "SAINT-OYEN",
+    "CASCIANA TERME": "CASCIANA TERME LARI",
+    "CASTELLINALDO": "CASTELLINALDO DALBA",
+    "GADESCO PIEVE DELMONA": "GADESCO-PIEVE DELMONA",
+}
+
+
 def normalize_comune(nome):
+    """Normalizza il nome di un comune per il join.
+
+    - MAIUSCOLO, NFD (scomposizione accenti)
+    - rimuove i caratteri diacritici combinanti (\u0300-\u036f) → gli accenti spariscono
+    - rimuove ogni variante di apostrofo: ascii ('), tipografico (U+2019), backtick (`),
+      acuto (´), modificatore (ʼ)
+    - applica ALIAS_COMUNI: nome colloquiale/storico → nome ISTAT ufficiale
+    """
     if not nome:
         return ""
     nome = unicodedata.normalize("NFD", nome.strip().upper())
-    nome = nome.replace("'", "").replace("`", "").replace("´", "")
+    nome = re.sub(r"[\u0300-\u036f]", "", nome)
+    nome = nome.replace("'", "").replace("\u2019", "").replace("\u2018", "")
+    nome = nome.replace("`", "").replace("´", "").replace("\u02bc", "")
     nome = re.sub(r"\s+", " ", nome).strip()
-    return nome.replace("'", "").replace("`", "").replace("´", "")
+    return ALIAS_COMUNI.get(nome, nome)

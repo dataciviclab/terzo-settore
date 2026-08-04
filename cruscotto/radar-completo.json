@@ -1,7 +1,7 @@
 {
-  "generato": "2026-08-01T22:06:08.553809",
+  "generato": "2026-08-04T20:09:39.763726",
   "bandi_totali": 131,
-  "match": 54,
+  "match": 53,
   "gap": 0,
   "esclusi": [
     {
@@ -18,6 +18,11 @@
       "titolo": "Interreg Italia - Svizzera 2021-2027 1° Avviso per la presentazione di progetti ordinari",
       "status": "senza data",
       "motivo": "scadenza non parsabile"
+    },
+    {
+      "titolo": "Bando UEFA Foundation for Children 2026",
+      "status": "scaduto",
+      "motivo": "scaduto"
     },
     {
       "titolo": "Ecco l'elenco dei progetti idonei del Bando AICS 2023",
@@ -390,7 +395,7 @@
       "motivo": "scadenza non parsabile"
     }
   ],
-  "ets_unici": 389,
+  "ets_unici": 384,
   "resultados": [
     {
       "titolo": "Contributi annuali della Banca d’Italia – 2^ scadenza 2026",
@@ -398,7 +403,7 @@
       "ente": "Banca d’Italia",
       "budget": null,
       "scadenza": "31 agosto 2026 (domande a partire dal 1° luglio)",
-      "gg_rimasti": 30,
+      "gg_rimasti": 27,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -560,14 +565,25 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "01058160258",
-          "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
-          "comune": "PONTE NELLE ALPI",
-          "provincia": "BL",
+          "cf": "02041250842",
+          "denominazione": "ASSOCIAZIONE CULTURALE ACUARINTO ETS",
+          "comune": "AGRIGENTO",
+          "provincia": "AG",
           "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "02208440921",
+          "denominazione": "ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETTORE",
+          "comune": "CAGLIARI",
+          "provincia": "CA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
           "importo_5x1000_2025": NaN
         },
         {
@@ -593,17 +609,6 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "90033100778",
-          "denominazione": "ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS",
-          "comune": "PISTICCI",
-          "provincia": "MT",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
           "cf": "02407710843",
           "denominazione": "ASSOCIAZIONE CULTURALE COMETA ETS",
           "comune": "MILANO",
@@ -626,257 +631,15 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "95048040588",
-          "denominazione": "ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A.P.S.",
-          "comune": "VELLETRI",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        }
-      ]
-    },
-    {
-      "titolo": "Bando UEFA Foundation for Children 2026",
-      "url": "https://www.info-cooperazione.it/2026/7/bando-uefa-foundation-for-children-2026",
-      "ente": "UEFA Foundation",
-      "budget": null,
-      "scadenza": "03 agosto 2026",
-      "gg_rimasti": 2,
-      "status": "attivo",
-      "territorio": [
-        "Europa",
-        "Locale",
-        "Nazionale"
-      ],
-      "tags": [
-        "sport",
-        "educazione",
-        "minori",
-        "inclusione sociale"
-      ],
-      "candidati": [
-        {
-          "cf": "97503100014",
-          "denominazione": "UNIONE SPORTIVA ACLI TORINO",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "01735120246",
-          "denominazione": "ASD COMITATO PRO SAN BORTOLO",
-          "comune": "VICENZA",
-          "provincia": "VI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "94044500489",
-          "denominazione": "UISP - UNIONE ITALIANA SPORT PER TUTTI - COMITATO DI FIRENZE APS",
-          "comune": "FIRENZE",
-          "provincia": "FI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "97667530584",
-          "denominazione": "A.S.D.C.R. SPORTLAB A.P.S.",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "92020760846",
-          "denominazione": "LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E SPORTIVA DILETTANTISTICA",
-          "comune": "SANTA MARGHERITA DI BELICE",
-          "provincia": "AG",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 28369.24
-        },
-        {
-          "cf": "93025870424",
-          "denominazione": "UNIONE SPORTIVA ACLI  COMITATO REGIONALE MARCHE APS",
-          "comune": "ASCOLI PICENO",
-          "provincia": "AP",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 12077.99
-        },
-        {
-          "cf": "07841770964",
-          "denominazione": "POLISPORTIVA GAREGNANO 1976 ASD APS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 10137.52
-        },
-        {
-          "cf": "05739241007",
-          "denominazione": "ASSOCIAZIONE  IL PONTE APS ASD",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 6421.85
-        },
-        {
-          "cf": "96258170586",
-          "denominazione": "Associazioni Sportive e Sociali Italiane Ente di Promozione Sportiva EPS/APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 2898.92
-        },
-        {
-          "cf": "07924560969",
-          "denominazione": "POLISPORTIVA ORATORIO SAN CARLO ASD - APS",
-          "comune": "RHO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 2766.36
-        },
-        {
-          "cf": "82008250407",
-          "denominazione": "Associazione sportiva dilettantistica Polisportiva Riccione APS",
-          "comune": "RICCIONE",
-          "provincia": "RN",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 919.4
-        },
-        {
-          "cf": "97406770582",
-          "denominazione": "FUSOLAB APS ASD",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 652.32
-        },
-        {
-          "cf": "80096030376",
-          "denominazione": "ASSOCIAZIONE ITALIANA CULTURA SPORT COMITATO PROVINCIALE BOLOGNA APS",
-          "comune": "BOLOGNA",
-          "provincia": "BO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 234.68
-        },
-        {
-          "cf": "90003660363",
-          "denominazione": "LA PATRIA 1879 ASSOCIAZIONE SPORTIVA DILETTANTISTICA - ASSOCIAZIONE DI PROMOZIONE SOCIALE - ENTE DEL TERZO SETTORE",
-          "comune": "CARPI",
-          "provincia": "MO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 133.25
-        },
-        {
-          "cf": "07166871009",
-          "denominazione": "ASSOCIAZIONE NAZIONALE COMUNITA' SOCIALI E SPORTIVE APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "media",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità media; 5x1000 >100k; APS",
-          "importo_5x1000_2025": 1778282.81
-        },
-        {
-          "cf": "90037680049",
-          "denominazione": "SPORTABILI ALBA APS ASD",
-          "comune": "RODDI",
-          "provincia": "CN",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 17836.84
-        },
-        {
-          "cf": "90081250632",
-          "denominazione": "ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSPI ASSOCIAZIONE SPORTIVA DILETTANTISTICA APS-ETS",
-          "comune": "SANT'ANTONIO ABATE",
+          "cf": "95172440638",
+          "denominazione": "FONDAZIONE CULTURA & INNOVAZIONE ETS",
+          "comune": "NAPOLI",
           "provincia": "NA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 14025.8
-        },
-        {
-          "cf": "97754630016",
-          "denominazione": "ASD RUBENS APS",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 13365.04
-        },
-        {
-          "cf": "97165330826",
-          "denominazione": "A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI OSTEO ARTICOLARI ASD APS",
-          "comune": "PALERMO",
-          "provincia": "PA",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 12354.92
-        },
-        {
-          "cf": "90127070564",
-          "denominazione": "IL VOLO ASD APS",
-          "comune": "SAN LORENZO NUOVO",
-          "provincia": "VT",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 10715.96
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
         }
       ]
     },
@@ -886,7 +649,7 @@
       "ente": "BPER Banca",
       "budget": 50000.0,
       "scadenza": "7 settembre 2026 alle ore 12:00",
-      "gg_rimasti": 37,
+      "gg_rimasti": 34,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -904,224 +667,224 @@
       ],
       "candidati": [
         {
-          "cf": "97503100014",
-          "denominazione": "UNIONE SPORTIVA ACLI TORINO",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "01735120246",
-          "denominazione": "ASD COMITATO PRO SAN BORTOLO",
-          "comune": "VICENZA",
-          "provincia": "VI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "94044500489",
-          "denominazione": "UISP - UNIONE ITALIANA SPORT PER TUTTI - COMITATO DI FIRENZE APS",
-          "comune": "FIRENZE",
-          "provincia": "FI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "97667530584",
-          "denominazione": "A.S.D.C.R. SPORTLAB A.P.S.",
+          "cf": "80191770587",
+          "denominazione": "COMUNITA' DI S.EGIDIO ACAP APS",
           "comune": "ROMA",
           "provincia": "RM",
           "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
+          "score": 143,
+          "motivo": "tema_principale; capacità alta; 5x1000 >100k; APS",
+          "importo_5x1000_2025": 531795.64
         },
         {
-          "cf": "92020760846",
-          "denominazione": "LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E SPORTIVA DILETTANTISTICA",
-          "comune": "SANTA MARGHERITA DI BELICE",
-          "provincia": "AG",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 28369.24
-        },
-        {
-          "cf": "93025870424",
-          "denominazione": "UNIONE SPORTIVA ACLI  COMITATO REGIONALE MARCHE APS",
-          "comune": "ASCOLI PICENO",
-          "provincia": "AP",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 12077.99
-        },
-        {
-          "cf": "07841770964",
-          "denominazione": "POLISPORTIVA GAREGNANO 1976 ASD APS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 10137.52
-        },
-        {
-          "cf": "05739241007",
-          "denominazione": "ASSOCIAZIONE  IL PONTE APS ASD",
+          "cf": "97116440583",
+          "denominazione": "LIBERA ASSOCIAZIONI, NOMI E NUMERI CONTRO LE MAFIE APS",
           "comune": "ROMA",
           "provincia": "RM",
-          "capacita": "medio-alta",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 6421.85
+          "score": 143,
+          "motivo": "tema_principale; capacità alta; 5x1000 >100k; APS",
+          "importo_5x1000_2025": 462715.61
         },
         {
-          "cf": "96258170586",
-          "denominazione": "Associazioni Sportive e Sociali Italiane Ente di Promozione Sportiva EPS/APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 2898.92
-        },
-        {
-          "cf": "07924560969",
-          "denominazione": "POLISPORTIVA ORATORIO SAN CARLO ASD - APS",
-          "comune": "RHO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 2766.36
-        },
-        {
-          "cf": "82008250407",
-          "denominazione": "Associazione sportiva dilettantistica Polisportiva Riccione APS",
-          "comune": "RICCIONE",
-          "provincia": "RN",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 919.4
-        },
-        {
-          "cf": "97406770582",
-          "denominazione": "FUSOLAB APS ASD",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 652.32
-        },
-        {
-          "cf": "80096030376",
-          "denominazione": "ASSOCIAZIONE ITALIANA CULTURA SPORT COMITATO PROVINCIALE BOLOGNA APS",
+          "cf": "04344650371",
+          "denominazione": "ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICERCA E L'INTERVENTO SUI DISTURBI DI APPRENDIMENTO",
           "comune": "BOLOGNA",
           "provincia": "BO",
-          "capacita": "medio-alta",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 234.68
+          "score": 143,
+          "motivo": "tema_principale; capacità alta; 5x1000 >100k; APS",
+          "importo_5x1000_2025": 318718.29
         },
         {
-          "cf": "90003660363",
-          "denominazione": "LA PATRIA 1879 ASSOCIAZIONE SPORTIVA DILETTANTISTICA - ASSOCIAZIONE DI PROMOZIONE SOCIALE - ENTE DEL TERZO SETTORE",
-          "comune": "CARPI",
-          "provincia": "MO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 133.25
-        },
-        {
-          "cf": "07166871009",
-          "denominazione": "ASSOCIAZIONE NAZIONALE COMUNITA' SOCIALI E SPORTIVE APS",
+          "cf": "80458470582",
+          "denominazione": "LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS",
           "comune": "ROMA",
           "provincia": "RM",
-          "capacita": "media",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità media; 5x1000 >100k; APS",
-          "importo_5x1000_2025": 1778282.81
+          "score": 143,
+          "motivo": "tema_principale; capacità alta; 5x1000 >100k; APS",
+          "importo_5x1000_2025": 217080.73
         },
         {
-          "cf": "90037680049",
-          "denominazione": "SPORTABILI ALBA APS ASD",
-          "comune": "RODDI",
-          "provincia": "CN",
-          "capacita": "medio-alta",
+          "cf": "97287660589",
+          "denominazione": "CHIARA E FRANCESCO APS",
+          "comune": "POMEZIA",
+          "provincia": "RM",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 17836.84
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 62332.34
         },
         {
-          "cf": "90081250632",
-          "denominazione": "ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSPI ASSOCIAZIONE SPORTIVA DILETTANTISTICA APS-ETS",
-          "comune": "SANT'ANTONIO ABATE",
-          "provincia": "NA",
-          "capacita": "medio-alta",
+          "cf": "11543050154",
+          "denominazione": "FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  APS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 14025.8
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 51540.0
         },
         {
-          "cf": "97754630016",
-          "denominazione": "ASD RUBENS APS",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
+          "cf": "02471280103",
+          "denominazione": "ASSOCIAZIONE COMUNITA SAN BENEDETTO AL PORTO APS",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 13365.04
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 49515.23
         },
         {
-          "cf": "97165330826",
-          "denominazione": "A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI OSTEO ARTICOLARI ASD APS",
-          "comune": "PALERMO",
-          "provincia": "PA",
-          "capacita": "medio-alta",
+          "cf": "04928591009",
+          "denominazione": "ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTENZA DEI SORDI ETS APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 12354.92
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 43482.33
         },
         {
-          "cf": "90127070564",
-          "denominazione": "IL VOLO ASD APS",
-          "comune": "SAN LORENZO NUOVO",
-          "provincia": "VT",
-          "capacita": "medio-alta",
+          "cf": "96169350582",
+          "denominazione": "ASSOCIAZIONE NAZIONALE VOLONTARIE DEL TELEFONO ROSA - APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 10715.96
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 36613.29
+        },
+        {
+          "cf": "94047520211",
+          "denominazione": "VERBRAUCHERZENTRALE SUEDTIROL VFG__CENTRO TUTELA CONSUMATORI E UTENTI APS",
+          "comune": "BOLZANO",
+          "provincia": "BZ",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 35263.02
+        },
+        {
+          "cf": "97492020587",
+          "denominazione": "YLENIA E GLI AMICI SPECIALI APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 30969.8
+        },
+        {
+          "cf": "01852760469",
+          "denominazione": "ANFFAS LUCCA ETS - APS ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVA E DISTURBI DEL NEUROSVILUPPO",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 30433.65
+        },
+        {
+          "cf": "93092790877",
+          "denominazione": "METACOMETA APS",
+          "comune": "GIARRE",
+          "provincia": "CT",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 27223.71
+        },
+        {
+          "cf": "96126560588",
+          "denominazione": "ASSOCIAZIONE DIFFERENZA DONNA APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 25969.56
+        },
+        {
+          "cf": "97461360584",
+          "denominazione": "GAY CENTER / GAY HELP LINE APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 24320.47
+        },
+        {
+          "cf": "90018590696",
+          "denominazione": "ANFFAS LANCIANO - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA INTELLETTIVA E DISTURBI DEL NEUROSVILUPPO - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
+          "comune": "LANCIANO",
+          "provincia": "CH",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 16531.37
+        },
+        {
+          "cf": "80209970583",
+          "denominazione": "UNIONE ITALIANA DEI CIECHI E DEGLI IPOVEDENTI SEZIONE TERRITORIALE DI ROMA - ETS APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 13436.28
+        },
+        {
+          "cf": "97566950586",
+          "denominazione": " CASA DELLE DONNE LUCHA Y SIESTA APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 10637.66
+        },
+        {
+          "cf": "97578710580",
+          "denominazione": "LA MAISON APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 9144.07
+        },
+        {
+          "cf": "01686160431",
+          "denominazione": "TERRA DEI FIORETTI - SAN GIACOMO DELLA MARCA APS IN BREVE SAN GIACOMO DELLA MARCA APS",
+          "comune": "CINGOLI",
+          "provincia": "MC",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 7760.35
         }
       ]
     },
@@ -1376,7 +1139,7 @@
       "ente": "Presidenza del Consiglio dei ministri",
       "budget": null,
       "scadenza": "30 settembre 2026",
-      "gg_rimasti": 60,
+      "gg_rimasti": 57,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -1535,17 +1298,6 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "02041250842",
-          "denominazione": "ASSOCIAZIONE CULTURALE ACUARINTO ETS",
-          "comune": "AGRIGENTO",
-          "provincia": "AG",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
           "cf": "01058160258",
           "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
           "comune": "PONTE NELLE ALPI",
@@ -1557,14 +1309,25 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "03649550484",
-          "denominazione": "MUSIC POOL APS",
-          "comune": "FIRENZE",
-          "provincia": "FI",
+          "cf": "00405220872",
+          "denominazione": "ASSOCIAZIONE MUSICALE ETNEA ETS",
+          "comune": "CATANIA",
+          "provincia": "CT",
           "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "01519580995",
+          "denominazione": "FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
           "importo_5x1000_2025": NaN
         },
         {
@@ -1590,14 +1353,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "95172440638",
-          "denominazione": "FONDAZIONE CULTURA & INNOVAZIONE ETS",
-          "comune": "NAPOLI",
-          "provincia": "NA",
+          "cf": "09180410962",
+          "denominazione": "ASSOCIAZIONE CULTURALE NUOVO MONDO APS",
+          "comune": "PIEVE EMANUELE",
+          "provincia": "MI",
           "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta",
+          "motivo": "tema_principale; capacità alta; APS",
           "importo_5x1000_2025": NaN
         },
         {
@@ -1619,7 +1382,7 @@
       "ente": "Dipartimento per lo sport della Presidenza del Consiglio dei ministri",
       "budget": null,
       "scadenza": "16 ottobre 2026 alle ore 12.00 (domande a partire dal 16 luglio 2026 alle ore 12.00).",
-      "gg_rimasti": 76,
+      "gg_rimasti": 73,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -1635,224 +1398,224 @@
       ],
       "candidati": [
         {
-          "cf": "97503100014",
-          "denominazione": "UNIONE SPORTIVA ACLI TORINO",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "01735120246",
-          "denominazione": "ASD COMITATO PRO SAN BORTOLO",
-          "comune": "VICENZA",
-          "provincia": "VI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "94044500489",
-          "denominazione": "UISP - UNIONE ITALIANA SPORT PER TUTTI - COMITATO DI FIRENZE APS",
-          "comune": "FIRENZE",
-          "provincia": "FI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "97667530584",
-          "denominazione": "A.S.D.C.R. SPORTLAB A.P.S.",
+          "cf": "80191770587",
+          "denominazione": "COMUNITA' DI S.EGIDIO ACAP APS",
           "comune": "ROMA",
           "provincia": "RM",
           "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
+          "score": 143,
+          "motivo": "tema_principale; capacità alta; 5x1000 >100k; APS",
+          "importo_5x1000_2025": 531795.64
         },
         {
-          "cf": "92020760846",
-          "denominazione": "LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E SPORTIVA DILETTANTISTICA",
-          "comune": "SANTA MARGHERITA DI BELICE",
-          "provincia": "AG",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 28369.24
-        },
-        {
-          "cf": "93025870424",
-          "denominazione": "UNIONE SPORTIVA ACLI  COMITATO REGIONALE MARCHE APS",
-          "comune": "ASCOLI PICENO",
-          "provincia": "AP",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 12077.99
-        },
-        {
-          "cf": "07841770964",
-          "denominazione": "POLISPORTIVA GAREGNANO 1976 ASD APS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 10137.52
-        },
-        {
-          "cf": "05739241007",
-          "denominazione": "ASSOCIAZIONE  IL PONTE APS ASD",
+          "cf": "97116440583",
+          "denominazione": "LIBERA ASSOCIAZIONI, NOMI E NUMERI CONTRO LE MAFIE APS",
           "comune": "ROMA",
           "provincia": "RM",
-          "capacita": "medio-alta",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 6421.85
+          "score": 143,
+          "motivo": "tema_principale; capacità alta; 5x1000 >100k; APS",
+          "importo_5x1000_2025": 462715.61
         },
         {
-          "cf": "96258170586",
-          "denominazione": "Associazioni Sportive e Sociali Italiane Ente di Promozione Sportiva EPS/APS",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 2898.92
-        },
-        {
-          "cf": "07924560969",
-          "denominazione": "POLISPORTIVA ORATORIO SAN CARLO ASD - APS",
-          "comune": "RHO",
-          "provincia": "MI",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 2766.36
-        },
-        {
-          "cf": "82008250407",
-          "denominazione": "Associazione sportiva dilettantistica Polisportiva Riccione APS",
-          "comune": "RICCIONE",
-          "provincia": "RN",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 919.4
-        },
-        {
-          "cf": "97406770582",
-          "denominazione": "FUSOLAB APS ASD",
-          "comune": "ROMA",
-          "provincia": "RM",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 652.32
-        },
-        {
-          "cf": "80096030376",
-          "denominazione": "ASSOCIAZIONE ITALIANA CULTURA SPORT COMITATO PROVINCIALE BOLOGNA APS",
+          "cf": "04344650371",
+          "denominazione": "ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICERCA E L'INTERVENTO SUI DISTURBI DI APPRENDIMENTO",
           "comune": "BOLOGNA",
           "provincia": "BO",
-          "capacita": "medio-alta",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 234.68
+          "score": 143,
+          "motivo": "tema_principale; capacità alta; 5x1000 >100k; APS",
+          "importo_5x1000_2025": 318718.29
         },
         {
-          "cf": "90003660363",
-          "denominazione": "LA PATRIA 1879 ASSOCIAZIONE SPORTIVA DILETTANTISTICA - ASSOCIAZIONE DI PROMOZIONE SOCIALE - ENTE DEL TERZO SETTORE",
-          "comune": "CARPI",
-          "provincia": "MO",
-          "capacita": "medio-alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 128,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 133.25
-        },
-        {
-          "cf": "07166871009",
-          "denominazione": "ASSOCIAZIONE NAZIONALE COMUNITA' SOCIALI E SPORTIVE APS",
+          "cf": "80458470582",
+          "denominazione": "LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS",
           "comune": "ROMA",
           "provincia": "RM",
-          "capacita": "media",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità media; 5x1000 >100k; APS",
-          "importo_5x1000_2025": 1778282.81
+          "score": 143,
+          "motivo": "tema_principale; capacità alta; 5x1000 >100k; APS",
+          "importo_5x1000_2025": 217080.73
         },
         {
-          "cf": "90037680049",
-          "denominazione": "SPORTABILI ALBA APS ASD",
-          "comune": "RODDI",
-          "provincia": "CN",
-          "capacita": "medio-alta",
+          "cf": "97287660589",
+          "denominazione": "CHIARA E FRANCESCO APS",
+          "comune": "POMEZIA",
+          "provincia": "RM",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 17836.84
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 62332.34
         },
         {
-          "cf": "90081250632",
-          "denominazione": "ORATORIO E CIRCOLO SANTA MARIA ROSA NOVA ANSPI ASSOCIAZIONE SPORTIVA DILETTANTISTICA APS-ETS",
-          "comune": "SANT'ANTONIO ABATE",
-          "provincia": "NA",
-          "capacita": "medio-alta",
+          "cf": "11543050154",
+          "denominazione": "FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  APS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 14025.8
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 51540.0
         },
         {
-          "cf": "97754630016",
-          "denominazione": "ASD RUBENS APS",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "medio-alta",
+          "cf": "02471280103",
+          "denominazione": "ASSOCIAZIONE COMUNITA SAN BENEDETTO AL PORTO APS",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 13365.04
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 49515.23
         },
         {
-          "cf": "97165330826",
-          "denominazione": "A.N.I.O. ASSOCIAZIONE NAZIONALE PER LE INFEZIONI OSTEO ARTICOLARI ASD APS",
-          "comune": "PALERMO",
-          "provincia": "PA",
-          "capacita": "medio-alta",
+          "cf": "04928591009",
+          "denominazione": "ENS - ENTE NAZIONALE PER LA PROTEZIONE E L'ASSISTENZA DEI SORDI ETS APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 12354.92
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 43482.33
         },
         {
-          "cf": "90127070564",
-          "denominazione": "IL VOLO ASD APS",
-          "comune": "SAN LORENZO NUOVO",
-          "provincia": "VT",
-          "capacita": "medio-alta",
+          "cf": "96169350582",
+          "denominazione": "ASSOCIAZIONE NAZIONALE VOLONTARIE DEL TELEFONO ROSA - APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 125,
-          "motivo": "tema_principale; capacità medio-alta; 5x1000 >10k; APS",
-          "importo_5x1000_2025": 10715.96
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 36613.29
+        },
+        {
+          "cf": "94047520211",
+          "denominazione": "VERBRAUCHERZENTRALE SUEDTIROL VFG__CENTRO TUTELA CONSUMATORI E UTENTI APS",
+          "comune": "BOLZANO",
+          "provincia": "BZ",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 35263.02
+        },
+        {
+          "cf": "97492020587",
+          "denominazione": "YLENIA E GLI AMICI SPECIALI APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 30969.8
+        },
+        {
+          "cf": "01852760469",
+          "denominazione": "ANFFAS LUCCA ETS - APS ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA' INTELLETTIVA E DISTURBI DEL NEUROSVILUPPO",
+          "comune": "LUCCA",
+          "provincia": "LU",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 30433.65
+        },
+        {
+          "cf": "93092790877",
+          "denominazione": "METACOMETA APS",
+          "comune": "GIARRE",
+          "provincia": "CT",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 27223.71
+        },
+        {
+          "cf": "96126560588",
+          "denominazione": "ASSOCIAZIONE DIFFERENZA DONNA APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 25969.56
+        },
+        {
+          "cf": "97461360584",
+          "denominazione": "GAY CENTER / GAY HELP LINE APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 24320.47
+        },
+        {
+          "cf": "90018590696",
+          "denominazione": "ANFFAS LANCIANO - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA INTELLETTIVA E DISTURBI DEL NEUROSVILUPPO - ASSOCIAZIONE DI PROMOZIONE SOCIALE",
+          "comune": "LANCIANO",
+          "provincia": "CH",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 16531.37
+        },
+        {
+          "cf": "80209970583",
+          "denominazione": "UNIONE ITALIANA DEI CIECHI E DEGLI IPOVEDENTI SEZIONE TERRITORIALE DI ROMA - ETS APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 13436.28
+        },
+        {
+          "cf": "97566950586",
+          "denominazione": " CASA DELLE DONNE LUCHA Y SIESTA APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; APS",
+          "importo_5x1000_2025": 10637.66
+        },
+        {
+          "cf": "97578710580",
+          "denominazione": "LA MAISON APS",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 9144.07
+        },
+        {
+          "cf": "01686160431",
+          "denominazione": "TERRA DEI FIORETTI - SAN GIACOMO DELLA MARCA APS IN BREVE SAN GIACOMO DELLA MARCA APS",
+          "comune": "CINGOLI",
+          "provincia": "MC",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 7760.35
         }
       ]
     },
@@ -1862,7 +1625,7 @@
       "ente": "DWF Foundation",
       "budget": null,
       "scadenza": "30 settembre 2026 (ultima scadenza dell&#8217;anno)",
-      "gg_rimasti": 60,
+      "gg_rimasti": 57,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -2105,7 +1868,7 @@
       "ente": "Fondo per la Repubblica Digitale &#8211; Impresa sociale srl",
       "budget": null,
       "scadenza": "18 settembre 2026 alle ore 11.00",
-      "gg_rimasti": 48,
+      "gg_rimasti": 45,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -2348,15 +2111,15 @@
       "ente": "Con i Bambini",
       "budget": null,
       "scadenza": "30 settembre 2026",
-      "gg_rimasti": 60,
+      "gg_rimasti": 57,
       "status": "attivo",
       "territorio": [
         "Locale",
         "Nazionale"
       ],
       "tags": [
-        "povertà educativa",
-        "educazione"
+        "educazione",
+        "povertà educativa"
       ],
       "candidati": [
         {
@@ -2587,7 +2350,7 @@
       "ente": "AICS",
       "budget": null,
       "scadenza": "16 agosto 2026",
-      "gg_rimasti": 15,
+      "gg_rimasti": 12,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -2662,6 +2425,17 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 78575.27
+        },
+        {
+          "cf": "97425830581",
+          "denominazione": "ASSOCIAZIONE LA CASETTA DEI GATTI",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 63808.82
         },
         {
           "cf": "08466210963",
@@ -2805,17 +2579,6 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 27403.94
-        },
-        {
-          "cf": "10342830154",
-          "denominazione": "PROGETTO ONCOLOGIA UMAN.A - ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 140,
-          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
-          "importo_5x1000_2025": 26827.48
         }
       ]
     },
@@ -2825,7 +2588,7 @@
       "ente": "Fondazione Cariplo",
       "budget": null,
       "scadenza": "31 dicembre 2026",
-      "gg_rimasti": 152,
+      "gg_rimasti": 149,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -3068,7 +2831,7 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "30 settembre 2027",
-      "gg_rimasti": 425,
+      "gg_rimasti": 422,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -3306,7 +3069,7 @@
       "ente": "Fondazione Compagnia di San Paolo",
       "budget": null,
       "scadenza": "31 dicembre 2026",
-      "gg_rimasti": 152,
+      "gg_rimasti": 149,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -3314,8 +3077,8 @@
         "Piemonte"
       ],
       "tags": [
-        "ambiente",
-        "ricerca"
+        "ricerca",
+        "ambiente"
       ],
       "candidati": [
         {
@@ -3546,7 +3309,7 @@
       "ente": "Autostrade per l’Italia",
       "budget": null,
       "scadenza": "13 settembre 2026",
-      "gg_rimasti": 43,
+      "gg_rimasti": 40,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -3788,7 +3551,7 @@
       "ente": "Ministero dell&#8217;Università e della Ricerca",
       "budget": 150000.0,
       "scadenza": "15 settembre 2026 alle ore 12:00",
-      "gg_rimasti": 45,
+      "gg_rimasti": 42,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -4030,7 +3793,7 @@
       "ente": "Fondazione CDP",
       "budget": null,
       "scadenza": "30 settembre 2026 alle ore 18.00",
-      "gg_rimasti": 60,
+      "gg_rimasti": 57,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -4272,7 +4035,7 @@
       "ente": "Impresa sociale CON I BAMBINI",
       "budget": 5834453.0,
       "scadenza": "30 settembre 2026 alle ore 13:00",
-      "gg_rimasti": 60,
+      "gg_rimasti": 57,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -4514,7 +4277,7 @@
       "ente": "Fondazione Cattolica",
       "budget": null,
       "scadenza": "13 novembre 2026",
-      "gg_rimasti": 104,
+      "gg_rimasti": 101,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -4756,14 +4519,14 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "03 novembre 2026",
-      "gg_rimasti": 94,
+      "gg_rimasti": 91,
       "status": "attivo",
       "territorio": [
         "Nazionale"
       ],
       "tags": [
-        "salute",
         "minori",
+        "salute",
         "donne"
       ],
       "candidati": [
@@ -4995,7 +4758,7 @@
       "ente": "AICS",
       "budget": null,
       "scadenza": "31 agosto 2026",
-      "gg_rimasti": 30,
+      "gg_rimasti": 27,
       "status": "attivo",
       "territorio": [
         "Libia",
@@ -5236,7 +4999,7 @@
       "ente": "Impresa sociale CON I BAMBINI",
       "budget": 1944818.0,
       "scadenza": "16 ottobre 2026 alle ore 13:00",
-      "gg_rimasti": 76,
+      "gg_rimasti": 73,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -5247,247 +5010,6 @@
         "Musica",
         "Adolescenti",
         "CON I BAMBINI Impresa Sociale"
-      ],
-      "candidati": [
-        {
-          "cf": "85005190153",
-          "denominazione": "FONDAZIONE BIBLIOTECA ITALIANA PER CIECHI REGINA MARGHERITA - ENTE DEL TERZO SETTORE",
-          "comune": "MONZA",
-          "provincia": "MB",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente",
-          "importo_5x1000_2025": 8465.68
-        },
-        {
-          "cf": "94070160018",
-          "denominazione": "ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S.",
-          "comune": "CARMAGNOLA",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 1580.06
-        },
-        {
-          "cf": "02658420407",
-          "denominazione": "TEATRO DELLE FORCHETTE APS",
-          "comune": "FORLI'",
-          "provincia": "FC",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 1564.87
-        },
-        {
-          "cf": "97156850154",
-          "denominazione": "ASSOCIAZIONE PER IL RECUPERO DELLA CREATIVITA' ARTISTICA E LA RIABILITAZIONE PSICOSOCIALE ETS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente",
-          "importo_5x1000_2025": 1512.91
-        },
-        {
-          "cf": "92288430280",
-          "denominazione": "FEBO TEATRO APS",
-          "comune": "VILLA DEL CONTE",
-          "provincia": "PD",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 1085.22
-        },
-        {
-          "cf": "03285990176",
-          "denominazione": "ASSOCIAZIONE CULTURALE C.L.A.P.SPETTACOLODALVIVO ETS",
-          "comune": "BRESCIA",
-          "provincia": "BS",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente",
-          "importo_5x1000_2025": 992.53
-        },
-        {
-          "cf": "93019420657",
-          "denominazione": "ASSOCIAZIONE CULTURALE E DI PROMOZIONE SOCIALE FESTIVAL DELLA FILOSOFIA IN MAGNA GRECIA APS",
-          "comune": "ASCEA",
-          "provincia": "SA",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 474.73
-        },
-        {
-          "cf": "02623830425",
-          "denominazione": "ASSOCIAZIONE CULTURALE NEXT ETS",
-          "comune": "SENIGALLIA",
-          "provincia": "AN",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente",
-          "importo_5x1000_2025": 195.53
-        },
-        {
-          "cf": "90026880113",
-          "denominazione": "APS DELTA INTERCULTURAL",
-          "comune": "SARZANA",
-          "provincia": "SP",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 137,
-          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
-          "importo_5x1000_2025": 116.55
-        },
-        {
-          "cf": "06789240014",
-          "denominazione": "ASSOCIAZIONE CULTURALE ULISSE",
-          "comune": "GIAVENO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "97670650015",
-          "denominazione": "ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERCULTURALI",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "11903640016",
-          "denominazione": "FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA ENTE DEL TERZO SETTORE",
-          "comune": "TORINO",
-          "provincia": "TO",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "04852780263",
-          "denominazione": "TEATRO CHE PAZZIA A.P.S.",
-          "comune": "TREVISO",
-          "provincia": "TV",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "01058160258",
-          "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
-          "comune": "PONTE NELLE ALPI",
-          "provincia": "BL",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "00405220872",
-          "denominazione": "ASSOCIAZIONE MUSICALE ETNEA ETS",
-          "comune": "CATANIA",
-          "provincia": "CT",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "01519580995",
-          "denominazione": "FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS",
-          "comune": "GENOVA",
-          "provincia": "GE",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "90033100778",
-          "denominazione": "ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS",
-          "comune": "PISTICCI",
-          "provincia": "MT",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "02407710843",
-          "denominazione": "ASSOCIAZIONE CULTURALE COMETA ETS",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "09180410962",
-          "denominazione": "ASSOCIAZIONE CULTURALE NUOVO MONDO APS",
-          "comune": "PIEVE EMANUELE",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "95048040588",
-          "denominazione": "ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A.P.S.",
-          "comune": "VELLETRI",
-          "provincia": "RM",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        }
-      ]
-    },
-    {
-      "titolo": "Piano Nazionale &#8220;Cinema e immagini per la scuola&#8221;: progetti di rilevanza nazionale",
-      "url": "https://infobandi.csvnet.it/piano-nazionale-cinema-e-immagini-per-la-scuola-progetti-di-rilevanza-nazionale/",
-      "ente": "Ministero della Cultura e Ministero dell&#8217;Istruzione e del Merito",
-      "budget": 180000.0,
-      "scadenza": "18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio)",
-      "gg_rimasti": 48,
-      "status": "attivo",
-      "territorio": [
-        "Nazionale"
-      ],
-      "tags": [
-        "Cultura",
-        "Cinema",
-        "scuole",
-        "Ministero della Cultura",
-        "Ministero dell'Istruzione e del Merito"
       ],
       "candidati": [
         {
@@ -5713,12 +5235,253 @@
       ]
     },
     {
+      "titolo": "Piano Nazionale &#8220;Cinema e immagini per la scuola&#8221;: progetti di rilevanza nazionale",
+      "url": "https://infobandi.csvnet.it/piano-nazionale-cinema-e-immagini-per-la-scuola-progetti-di-rilevanza-nazionale/",
+      "ente": "Ministero della Cultura e Ministero dell&#8217;Istruzione e del Merito",
+      "budget": 180000.0,
+      "scadenza": "18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio)",
+      "gg_rimasti": 45,
+      "status": "attivo",
+      "territorio": [
+        "Nazionale"
+      ],
+      "tags": [
+        "Cultura",
+        "Cinema",
+        "scuole",
+        "Ministero della Cultura",
+        "Ministero dell'Istruzione e del Merito"
+      ],
+      "candidati": [
+        {
+          "cf": "85005190153",
+          "denominazione": "FONDAZIONE BIBLIOTECA ITALIANA PER CIECHI REGINA MARGHERITA - ENTE DEL TERZO SETTORE",
+          "comune": "MONZA",
+          "provincia": "MB",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente",
+          "importo_5x1000_2025": 8465.68
+        },
+        {
+          "cf": "94070160018",
+          "denominazione": "ASSOCIAZIONE INTERCULTURALE KARMADONNE A.P.S.",
+          "comune": "CARMAGNOLA",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 1580.06
+        },
+        {
+          "cf": "02658420407",
+          "denominazione": "TEATRO DELLE FORCHETTE APS",
+          "comune": "FORLI'",
+          "provincia": "FC",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 1564.87
+        },
+        {
+          "cf": "97156850154",
+          "denominazione": "ASSOCIAZIONE PER IL RECUPERO DELLA CREATIVITA' ARTISTICA E LA RIABILITAZIONE PSICOSOCIALE ETS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente",
+          "importo_5x1000_2025": 1512.91
+        },
+        {
+          "cf": "92288430280",
+          "denominazione": "FEBO TEATRO APS",
+          "comune": "VILLA DEL CONTE",
+          "provincia": "PD",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 1085.22
+        },
+        {
+          "cf": "03285990176",
+          "denominazione": "ASSOCIAZIONE CULTURALE C.L.A.P.SPETTACOLODALVIVO ETS",
+          "comune": "BRESCIA",
+          "provincia": "BS",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente",
+          "importo_5x1000_2025": 992.53
+        },
+        {
+          "cf": "93019420657",
+          "denominazione": "ASSOCIAZIONE CULTURALE E DI PROMOZIONE SOCIALE FESTIVAL DELLA FILOSOFIA IN MAGNA GRECIA APS",
+          "comune": "ASCEA",
+          "provincia": "SA",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 474.73
+        },
+        {
+          "cf": "02623830425",
+          "denominazione": "ASSOCIAZIONE CULTURALE NEXT ETS",
+          "comune": "SENIGALLIA",
+          "provincia": "AN",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente",
+          "importo_5x1000_2025": 195.53
+        },
+        {
+          "cf": "90026880113",
+          "denominazione": "APS DELTA INTERCULTURAL",
+          "comune": "SARZANA",
+          "provincia": "SP",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 137,
+          "motivo": "tema_principale; capacità alta; 5x1000 presente; APS",
+          "importo_5x1000_2025": 116.55
+        },
+        {
+          "cf": "06789240014",
+          "denominazione": "ASSOCIAZIONE CULTURALE ULISSE",
+          "comune": "GIAVENO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "97670650015",
+          "denominazione": "ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERCULTURALI",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "11903640016",
+          "denominazione": "FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA ENTE DEL TERZO SETTORE",
+          "comune": "TORINO",
+          "provincia": "TO",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "04852780263",
+          "denominazione": "TEATRO CHE PAZZIA A.P.S.",
+          "comune": "TREVISO",
+          "provincia": "TV",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "02041250842",
+          "denominazione": "ASSOCIAZIONE CULTURALE ACUARINTO ETS",
+          "comune": "AGRIGENTO",
+          "provincia": "AG",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "02208440921",
+          "denominazione": "ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETTORE",
+          "comune": "CAGLIARI",
+          "provincia": "CA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "00405220872",
+          "denominazione": "ASSOCIAZIONE MUSICALE ETNEA ETS",
+          "comune": "CATANIA",
+          "provincia": "CT",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "03649550484",
+          "denominazione": "MUSIC POOL APS",
+          "comune": "FIRENZE",
+          "provincia": "FI",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "01519580995",
+          "denominazione": "FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS",
+          "comune": "GENOVA",
+          "provincia": "GE",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "90033100778",
+          "denominazione": "ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS",
+          "comune": "PISTICCI",
+          "provincia": "MT",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "95172440638",
+          "denominazione": "FONDAZIONE CULTURA & INNOVAZIONE ETS",
+          "comune": "NAPOLI",
+          "provincia": "NA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        }
+      ]
+    },
+    {
       "titolo": "Avviso &#8220;Vita &#038; Opportunità&#8221;",
       "url": "https://infobandi.csvnet.it/avviso-vita-opportunita/",
       "ente": "Dipartimento per le politiche in favore delle persone con disabilità &#8211; Presidenza del Consiglio dei Ministri",
       "budget": null,
       "scadenza": "29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi)",
-      "gg_rimasti": 28,
+      "gg_rimasti": 25,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -5959,7 +5722,7 @@
       "ente": "Impresa sociale Con i Bambini",
       "budget": 200000.0,
       "scadenza": "30 giugno 2027. Le idee saranno selezionate man mano che vengono proposte fino ad esaurimento delle risorse disponibili.",
-      "gg_rimasti": 333,
+      "gg_rimasti": 330,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -6200,7 +5963,7 @@
       "ente": "AICS",
       "budget": 9998397.86,
       "scadenza": "30 ottobre 2026",
-      "gg_rimasti": 90,
+      "gg_rimasti": 87,
       "status": "attivo",
       "territorio": [
         "Lazio",
@@ -6445,15 +6208,15 @@
       "ente": "Fondo per la Repubblica Digitale",
       "budget": null,
       "scadenza": "18 settembre 2026",
-      "gg_rimasti": 48,
+      "gg_rimasti": 45,
       "status": "attivo",
       "territorio": [
         "Nazionale"
       ],
       "tags": [
+        "digitale",
         "animali",
         "disabilità",
-        "digitale",
         "inclusione sociale"
       ],
       "candidati": [
@@ -6685,7 +6448,7 @@
       "ente": "European Fund for the Balkans",
       "budget": null,
       "scadenza": "03 settembre 2026",
-      "gg_rimasti": 33,
+      "gg_rimasti": 30,
       "status": "attivo",
       "territorio": [
         "Nazionale",
@@ -6924,7 +6687,7 @@
       "ente": "Fondazione CON IL SUD",
       "budget": null,
       "scadenza": "30 settembre 2026 alle ore 13.00",
-      "gg_rimasti": 60,
+      "gg_rimasti": 57,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -7001,6 +6764,17 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 78575.27
+        },
+        {
+          "cf": "97425830581",
+          "denominazione": "ASSOCIAZIONE LA CASETTA DEI GATTI",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 63808.82
         },
         {
           "cf": "08466210963",
@@ -7144,17 +6918,6 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 27403.94
-        },
-        {
-          "cf": "10342830154",
-          "denominazione": "PROGETTO ONCOLOGIA UMAN.A - ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 140,
-          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
-          "importo_5x1000_2025": 26827.48
         }
       ]
     },
@@ -7409,7 +7172,7 @@
       "ente": "iF Design",
       "budget": null,
       "scadenza": "19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno)",
-      "gg_rimasti": 18,
+      "gg_rimasti": 15,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -7649,7 +7412,7 @@
       "ente": "Journalismfund.eu",
       "budget": null,
       "scadenza": "6 agosto 2026",
-      "gg_rimasti": 5,
+      "gg_rimasti": 2,
       "status": "attivo",
       "territorio": [
         "Europa"
@@ -7889,7 +7652,7 @@
       "ente": "Fondazione CON IL SUD",
       "budget": null,
       "scadenza": "10 dicembre 2026",
-      "gg_rimasti": 131,
+      "gg_rimasti": 128,
       "status": "attivo",
       "territorio": [
         "Basilicata",
@@ -8134,7 +7897,7 @@
       "ente": "Innovation Norway",
       "budget": null,
       "scadenza": "17 agosto 2026",
-      "gg_rimasti": 16,
+      "gg_rimasti": 13,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -8372,15 +8135,15 @@
       "ente": "Fondo per la Repubblica Digitale",
       "budget": null,
       "scadenza": "31 dicembre 2026",
-      "gg_rimasti": 152,
+      "gg_rimasti": 149,
       "status": "attivo",
       "territorio": [
         "Europa",
         "Nazionale"
       ],
       "tags": [
-        "animali",
         "digitale",
+        "animali",
         "inclusione sociale"
       ],
       "candidati": [
@@ -8612,7 +8375,7 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "01 ottobre 2026",
-      "gg_rimasti": 61,
+      "gg_rimasti": 58,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -8849,7 +8612,7 @@
       "ente": "Ministero della  Cultura",
       "budget": null,
       "scadenza": "15 settembre 2026 alle ore 12:00",
-      "gg_rimasti": 45,
+      "gg_rimasti": 42,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -9004,14 +8767,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "01058160258",
-          "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
-          "comune": "PONTE NELLE ALPI",
-          "provincia": "BL",
+          "cf": "02041250842",
+          "denominazione": "ASSOCIAZIONE CULTURALE ACUARINTO ETS",
+          "comune": "AGRIGENTO",
+          "provincia": "AG",
           "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
+          "motivo": "tema_principale; capacità alta",
           "importo_5x1000_2025": NaN
         },
         {
@@ -9026,14 +8789,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "03649550484",
-          "denominazione": "MUSIC POOL APS",
-          "comune": "FIRENZE",
-          "provincia": "FI",
+          "cf": "00405220872",
+          "denominazione": "ASSOCIAZIONE MUSICALE ETNEA ETS",
+          "comune": "CATANIA",
+          "provincia": "CT",
           "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
+          "motivo": "tema_principale; capacità alta",
           "importo_5x1000_2025": NaN
         },
         {
@@ -9088,7 +8851,7 @@
       "ente": "Acri &#8211; Associazione di Fondazioni e di Casse di Risparmio",
       "budget": 10000.0,
       "scadenza": "14 settembre 2026",
-      "gg_rimasti": 44,
+      "gg_rimasti": 41,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -9327,7 +9090,7 @@
       "ente": "Fondo per la Repubblica Digitale &#8211; Impresa sociale srl",
       "budget": 9480452.0,
       "scadenza": "31 dicembre 2026",
-      "gg_rimasti": 152,
+      "gg_rimasti": 149,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -9566,7 +9329,7 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "15 settembre 2026",
-      "gg_rimasti": 45,
+      "gg_rimasti": 42,
       "status": "attivo",
       "territorio": [
         "Locale",
@@ -9805,7 +9568,7 @@
       "ente": "Commissione Europea",
       "budget": null,
       "scadenza": "22 settembre 2026",
-      "gg_rimasti": 52,
+      "gg_rimasti": 49,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -9813,8 +9576,8 @@
       ],
       "tags": [
         "animali",
-        "ambiente",
-        "ricerca"
+        "ricerca",
+        "ambiente"
       ],
       "candidati": [
         {
@@ -10045,7 +9808,7 @@
       "ente": "Con i Bambini",
       "budget": null,
       "scadenza": "30 giugno 2027",
-      "gg_rimasti": 333,
+      "gg_rimasti": 330,
       "status": "attivo",
       "territorio": [
         "Europa",
@@ -10053,10 +9816,10 @@
         "Regionale"
       ],
       "tags": [
+        "inclusione sociale",
         "povertà educativa",
-        "educazione",
         "minori",
-        "inclusione sociale"
+        "educazione"
       ],
       "candidati": [
         {
@@ -10287,7 +10050,7 @@
       "ente": "Commissione Europea",
       "budget": 1200000.0,
       "scadenza": "29 ottobre 2026",
-      "gg_rimasti": 89,
+      "gg_rimasti": 86,
       "status": "attivo",
       "territorio": [
         "Mediterraneo",
@@ -10525,7 +10288,7 @@
       "ente": "Commissione europea – Autorità di Gestione FAMI Ministero Interno &#8211; Direzione Centrale per le Politiche migratorie",
       "budget": null,
       "scadenza": "08 ottobre 2026 (con proroga) ore 12.00",
-      "gg_rimasti": 68,
+      "gg_rimasti": 65,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -10765,7 +10528,7 @@
       "ente": "Commissione Europea &#8211; DG Giustizia e Consumatori",
       "budget": 8000000.0,
       "scadenza": "03 novembre 2026",
-      "gg_rimasti": 94,
+      "gg_rimasti": 91,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -11004,7 +10767,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "22 ottobre 2026",
-      "gg_rimasti": 82,
+      "gg_rimasti": 79,
       "status": "attivo",
       "territorio": [
         "Nazionale"
@@ -11157,25 +10920,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "02041250842",
-          "denominazione": "ASSOCIAZIONE CULTURALE ACUARINTO ETS",
-          "comune": "AGRIGENTO",
-          "provincia": "AG",
+          "cf": "01058160258",
+          "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
+          "comune": "PONTE NELLE ALPI",
+          "provincia": "BL",
           "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "02208440921",
-          "denominazione": "ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETTORE",
-          "comune": "CAGLIARI",
-          "provincia": "CA",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
+          "motivo": "tema_principale; capacità alta; APS",
           "importo_5x1000_2025": NaN
         },
         {
@@ -11201,6 +10953,17 @@
           "importo_5x1000_2025": NaN
         },
         {
+          "cf": "90033100778",
+          "denominazione": "ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS",
+          "comune": "PISTICCI",
+          "provincia": "MT",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
           "cf": "02407710843",
           "denominazione": "ASSOCIAZIONE CULTURALE COMETA ETS",
           "comune": "MILANO",
@@ -11223,14 +10986,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "95172440638",
-          "denominazione": "FONDAZIONE CULTURA & INNOVAZIONE ETS",
-          "comune": "NAPOLI",
-          "provincia": "NA",
+          "cf": "95048040588",
+          "denominazione": "ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A.P.S.",
+          "comune": "VELLETRI",
+          "provincia": "RM",
           "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta",
+          "motivo": "tema_principale; capacità alta; APS",
           "importo_5x1000_2025": NaN
         }
       ]
@@ -11241,7 +11004,7 @@
       "ente": "Commissione Europea – HaDEA Agenzia esecutiva per la salute e il digitale",
       "budget": 300000.0,
       "scadenza": "15 ottobre 2026",
-      "gg_rimasti": 75,
+      "gg_rimasti": 72,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -11717,7 +11480,7 @@
       "ente": "Commissione Europea &#8211; DG del Mercato interno, dell’industria, dell’imprenditoria e delle PMI",
       "budget": null,
       "scadenza": "20 settembre 2026",
-      "gg_rimasti": 50,
+      "gg_rimasti": 47,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -11956,7 +11719,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura tramite Ukrainian Cultural Foundation",
       "budget": null,
       "scadenza": "14 agosto 2026",
-      "gg_rimasti": 13,
+      "gg_rimasti": 10,
       "status": "attivo",
       "territorio": [
         "Ucraina"
@@ -12121,14 +11884,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "02208440921",
-          "denominazione": "ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETTORE",
-          "comune": "CAGLIARI",
-          "provincia": "CA",
+          "cf": "01058160258",
+          "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
+          "comune": "PONTE NELLE ALPI",
+          "provincia": "BL",
           "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta",
+          "motivo": "tema_principale; capacità alta; APS",
           "importo_5x1000_2025": NaN
         },
         {
@@ -12154,14 +11917,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "02407710843",
-          "denominazione": "ASSOCIAZIONE CULTURALE COMETA ETS",
-          "comune": "MILANO",
-          "provincia": "MI",
+          "cf": "90033100778",
+          "denominazione": "ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS",
+          "comune": "PISTICCI",
+          "provincia": "MT",
           "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta",
+          "motivo": "tema_principale; capacità alta; APS",
           "importo_5x1000_2025": NaN
         },
         {
@@ -12176,14 +11939,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "95172440638",
-          "denominazione": "FONDAZIONE CULTURA & INNOVAZIONE ETS",
-          "comune": "NAPOLI",
-          "provincia": "NA",
+          "cf": "95048040588",
+          "denominazione": "ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A.P.S.",
+          "comune": "VELLETRI",
+          "provincia": "RM",
           "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta",
+          "motivo": "tema_principale; capacità alta; APS",
           "importo_5x1000_2025": NaN
         }
       ]
@@ -12194,7 +11957,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "29 settembre 2026",
-      "gg_rimasti": 59,
+      "gg_rimasti": 56,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -12431,7 +12194,7 @@
       "ente": "Commissione Europea &#8211; DG Giustizia e Consumatori",
       "budget": null,
       "scadenza": "15 settembre 2026",
-      "gg_rimasti": 45,
+      "gg_rimasti": 42,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -12668,7 +12431,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
       "budget": null,
       "scadenza": "01 ottobre 2026",
-      "gg_rimasti": 61,
+      "gg_rimasti": 58,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -12745,6 +12508,17 @@
           "importo_5x1000_2025": 78575.27
         },
         {
+          "cf": "97425830581",
+          "denominazione": "ASSOCIAZIONE LA CASETTA DEI GATTI",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 63808.82
+        },
+        {
           "cf": "08466210963",
           "denominazione": "Croce Rossa Italiana - Comitato di Milano - Organizzazione di Volontariato",
           "comune": "MILANO",
@@ -12886,17 +12660,6 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 27403.94
-        },
-        {
-          "cf": "10342830154",
-          "denominazione": "PROGETTO ONCOLOGIA UMAN.A - ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 140,
-          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
-          "importo_5x1000_2025": 26827.48
         }
       ]
     },
@@ -12906,7 +12669,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Cultura e Audiovisivo",
       "budget": null,
       "scadenza": "22 settembre 2027",
-      "gg_rimasti": 417,
+      "gg_rimasti": 414,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -12980,6 +12743,17 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 78575.27
+        },
+        {
+          "cf": "97425830581",
+          "denominazione": "ASSOCIAZIONE LA CASETTA DEI GATTI",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 63808.82
         },
         {
           "cf": "08466210963",
@@ -13123,17 +12897,6 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 27403.94
-        },
-        {
-          "cf": "10342830154",
-          "denominazione": "PROGETTO ONCOLOGIA UMAN.A - ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 140,
-          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
-          "importo_5x1000_2025": 26827.48
         }
       ]
     },
@@ -13143,7 +12906,7 @@
       "ente": "Commissione Europea &#8211; DG Educazione, Cultura e Audiovisivo",
       "budget": null,
       "scadenza": "31 dicembre 2027",
-      "gg_rimasti": 517,
+      "gg_rimasti": 514,
       "status": "attivo",
       "territorio": [
         "Nazionale/da verificare"
@@ -13217,6 +12980,17 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 78575.27
+        },
+        {
+          "cf": "97425830581",
+          "denominazione": "ASSOCIAZIONE LA CASETTA DEI GATTI",
+          "comune": "ROMA",
+          "provincia": "RM",
+          "capacita": "alta",
+          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 63808.82
         },
         {
           "cf": "08466210963",
@@ -13360,17 +13134,6 @@
           "score": 140,
           "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
           "importo_5x1000_2025": 27403.94
-        },
-        {
-          "cf": "10342830154",
-          "denominazione": "PROGETTO ONCOLOGIA UMAN.A - ODV",
-          "comune": "MILANO",
-          "provincia": "MI",
-          "capacita": "alta",
-          "sezione": "ORGANIZZAZIONI DI VOLONTARIATO",
-          "score": 140,
-          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
-          "importo_5x1000_2025": 26827.48
         }
       ]
     }
