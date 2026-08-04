@@ -41,6 +41,9 @@ fatti_pivot AS (
                     AND appalto_riservato != 'LA PARTECIPAZIONE NON È RISERVATA.' THEN 1 END) as appalti_riservati,
         COUNT(CASE WHEN fonte = 'anac' AND flag_pnrr = true THEN 1 END) as appalti_pnrr,
 
+        -- Partecipazioni a gare (chi si candida, anche senza vincere)
+        SUM(CASE WHEN fonte = 'partecipazione' THEN importo END) as gare_partecipate,
+
         -- Subappalti
         COUNT(CASE WHEN fonte = 'subappalto' THEN 1 END) as subappalti,
 
@@ -98,6 +101,10 @@ SELECT
     COALESCE(subappalti, 0) as subappalti,
     COALESCE(patrimonio_immobili, 0) as patrimonio_immobili,
     COALESCE(canone_totale, 0) as canone_totale,
+
+    -- Partecipazioni a gare (chi si candida senza vincere)
+    CASE WHEN COALESCE(gare_partecipate, 0) > 0 THEN TRUE ELSE FALSE END as ha_partecipato_gare,
+    COALESCE(gare_partecipate, 0) as gare_partecipate,
 
     -- Temi ANAC
     COALESCE(ta.temi_anac, '') as temi_anac,

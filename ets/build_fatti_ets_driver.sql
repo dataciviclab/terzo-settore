@@ -91,6 +91,15 @@ anac AS (
     FROM per_cig p
     LEFT JOIN bandi_gara bg ON p.cig = bg.cig
 ),
+partecipanti AS (
+    SELECT TRIM(codice_fiscale) as cf,
+           count(DISTINCT cig) as n_gare
+    FROM read_parquet({anac_partecipanti_2026}, union_by_name=true)
+    WHERE codice_fiscale IS NOT NULL AND codice_fiscale != ''
+      AND codice_fiscale IN (SELECT cf FROM runts_driver)
+      AND tipo_soggetto NOT ILIKE '%STAZIONE APPALTANTE%'
+    GROUP BY TRIM(codice_fiscale)
+),
 subappalti AS (
     SELECT cf_subappaltante as cf,
            EXTRACT(YEAR FROM data_autorizzazione) as anno,
@@ -109,6 +118,8 @@ patrimonio AS (
       AND anno BETWEEN 2000 AND 2026
 )
 SELECT '5x1000' as fonte, cf, anno, importo, NULL as oggetto_gara, NULL as stazione_appaltante, NULL as appalto_riservato, NULL as flag_pnrr FROM cinque WHERE cf IN (SELECT cf FROM runts_driver)
+UNION ALL
+SELECT 'partecipazione', cf, 2026 as anno, n_gare as importo, NULL, NULL, NULL, NULL FROM partecipanti WHERE cf IN (SELECT cf FROM runts_driver)
 UNION ALL
 SELECT 'grant_ue', cf, anno, importo, NULL, NULL, NULL, NULL FROM fts WHERE cf IN (SELECT cf FROM runts_driver)
 UNION ALL
