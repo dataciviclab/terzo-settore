@@ -97,6 +97,7 @@ partecipanti AS (
     FROM read_parquet({anac_partecipanti_2026}, union_by_name=true)
     WHERE codice_fiscale IS NOT NULL AND codice_fiscale != ''
       AND codice_fiscale IN (SELECT cf FROM runts_driver)
+      AND tipo_soggetto NOT ILIKE '%STAZIONE APPALTANTE%'
     GROUP BY TRIM(codice_fiscale)
 ),
 subappalti AS (
