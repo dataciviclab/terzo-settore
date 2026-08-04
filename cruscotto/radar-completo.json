@@ -1,5 +1,5 @@
 {
-  "generato": "2026-08-04T20:09:39.763726",
+  "generato": "2026-08-04T22:19:01.227665",
   "bandi_totali": 131,
   "match": 53,
   "gap": 0,
@@ -395,7 +395,7 @@
       "motivo": "scadenza non parsabile"
     }
   ],
-  "ets_unici": 384,
+  "ets_unici": 383,
   "resultados": [
     {
       "titolo": "Contributi annuali della Banca d’Italia – 2^ scadenza 2026",
@@ -2118,8 +2118,8 @@
         "Nazionale"
       ],
       "tags": [
-        "educazione",
-        "povertà educativa"
+        "povertà educativa",
+        "educazione"
       ],
       "candidati": [
         {
@@ -2356,8 +2356,8 @@
         "Nazionale"
       ],
       "tags": [
-        "volontariato",
-        "salute"
+        "salute",
+        "volontariato"
       ],
       "candidati": [
         {
@@ -3077,8 +3077,8 @@
         "Piemonte"
       ],
       "tags": [
-        "ricerca",
-        "ambiente"
+        "ambiente",
+        "ricerca"
       ],
       "candidati": [
         {
@@ -4525,9 +4525,9 @@
         "Nazionale"
       ],
       "tags": [
-        "minori",
+        "donne",
         "salute",
-        "donne"
+        "minori"
       ],
       "candidati": [
         {
@@ -5430,17 +5430,6 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "03649550484",
-          "denominazione": "MUSIC POOL APS",
-          "comune": "FIRENZE",
-          "provincia": "FI",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
           "cf": "01519580995",
           "denominazione": "FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS",
           "comune": "GENOVA",
@@ -5452,10 +5441,21 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "90033100778",
-          "denominazione": "ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS",
-          "comune": "PISTICCI",
-          "provincia": "MT",
+          "cf": "02407710843",
+          "denominazione": "ASSOCIAZIONE CULTURALE COMETA ETS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "09180410962",
+          "denominazione": "ASSOCIAZIONE CULTURALE NUOVO MONDO APS",
+          "comune": "PIEVE EMANUELE",
+          "provincia": "MI",
           "capacita": "alta",
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
@@ -6215,8 +6215,8 @@
       ],
       "tags": [
         "digitale",
-        "animali",
         "disabilità",
+        "animali",
         "inclusione sociale"
       ],
       "candidati": [
@@ -9576,8 +9576,8 @@
       ],
       "tags": [
         "animali",
-        "ricerca",
-        "ambiente"
+        "ambiente",
+        "ricerca"
       ],
       "candidati": [
         {
@@ -9816,10 +9816,10 @@
         "Regionale"
       ],
       "tags": [
-        "inclusione sociale",
         "povertà educativa",
-        "minori",
-        "educazione"
+        "educazione",
+        "inclusione sociale",
+        "minori"
       ],
       "candidati": [
         {
@@ -10920,14 +10920,25 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "01058160258",
-          "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
-          "comune": "PONTE NELLE ALPI",
-          "provincia": "BL",
+          "cf": "02041250842",
+          "denominazione": "ASSOCIAZIONE CULTURALE ACUARINTO ETS",
+          "comune": "AGRIGENTO",
+          "provincia": "AG",
           "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
+          "motivo": "tema_principale; capacità alta",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "02208440921",
+          "denominazione": "ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETTORE",
+          "comune": "CAGLIARI",
+          "provincia": "CA",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
           "importo_5x1000_2025": NaN
         },
         {
@@ -10953,17 +10964,6 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "90033100778",
-          "denominazione": "ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS",
-          "comune": "PISTICCI",
-          "provincia": "MT",
-          "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
-          "importo_5x1000_2025": NaN
-        },
-        {
           "cf": "02407710843",
           "denominazione": "ASSOCIAZIONE CULTURALE COMETA ETS",
           "comune": "MILANO",
@@ -10986,14 +10986,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "95048040588",
-          "denominazione": "ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A.P.S.",
-          "comune": "VELLETRI",
-          "provincia": "RM",
+          "cf": "95172440638",
+          "denominazione": "FONDAZIONE CULTURA & INNOVAZIONE ETS",
+          "comune": "NAPOLI",
+          "provincia": "NA",
           "capacita": "alta",
-          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta; APS",
+          "motivo": "tema_principale; capacità alta",
           "importo_5x1000_2025": NaN
         }
       ]
@@ -11396,25 +11396,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "02041250842",
-          "denominazione": "ASSOCIAZIONE CULTURALE ACUARINTO ETS",
-          "comune": "AGRIGENTO",
-          "provincia": "AG",
+          "cf": "01058160258",
+          "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
+          "comune": "PONTE NELLE ALPI",
+          "provincia": "BL",
           "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
-          "cf": "02208440921",
-          "denominazione": "ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETTORE",
-          "comune": "CAGLIARI",
-          "provincia": "CA",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
+          "motivo": "tema_principale; capacità alta; APS",
           "importo_5x1000_2025": NaN
         },
         {
@@ -11440,6 +11429,17 @@
           "importo_5x1000_2025": NaN
         },
         {
+          "cf": "90033100778",
+          "denominazione": "ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS",
+          "comune": "PISTICCI",
+          "provincia": "MT",
+          "capacita": "alta",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
           "cf": "02407710843",
           "denominazione": "ASSOCIAZIONE CULTURALE COMETA ETS",
           "comune": "MILANO",
@@ -11462,14 +11462,14 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "95172440638",
-          "denominazione": "FONDAZIONE CULTURA & INNOVAZIONE ETS",
-          "comune": "NAPOLI",
-          "provincia": "NA",
+          "cf": "95048040588",
+          "denominazione": "ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A.P.S.",
+          "comune": "VELLETRI",
+          "provincia": "RM",
           "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
-          "motivo": "tema_principale; capacità alta",
+          "motivo": "tema_principale; capacità alta; APS",
           "importo_5x1000_2025": NaN
         }
       ]
@@ -11873,17 +11873,6 @@
           "importo_5x1000_2025": NaN
         },
         {
-          "cf": "02041250842",
-          "denominazione": "ASSOCIAZIONE CULTURALE ACUARINTO ETS",
-          "comune": "AGRIGENTO",
-          "provincia": "AG",
-          "capacita": "alta",
-          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
-          "score": 133,
-          "motivo": "tema_principale; capacità alta",
-          "importo_5x1000_2025": NaN
-        },
-        {
           "cf": "01058160258",
           "denominazione": "LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE APS",
           "comune": "PONTE NELLE ALPI",
@@ -11925,6 +11914,17 @@
           "sezione": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
           "score": 133,
           "motivo": "tema_principale; capacità alta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "cf": "02407710843",
+          "denominazione": "ASSOCIAZIONE CULTURALE COMETA ETS",
+          "comune": "MILANO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "sezione": "ALTRI ENTI DEL TERZO SETTORE",
+          "score": 133,
+          "motivo": "tema_principale; capacità alta",
           "importo_5x1000_2025": NaN
         },
         {

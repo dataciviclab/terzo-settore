@@ -1,5 +1,5 @@
 # 📡 Segnali — Abbiategrasso
-Generato: 04/08/2026 20:18
+Generato: 04/08/2026 22:21
 
 ## 1. 🏛️  ETS sul territorio
 
@@ -102,7 +102,7 @@ Generato: 04/08/2026 20:18
 ### 🔴 Investo in Senegal
 - **Scadenza**: 16 agosto 2026 (12 giorni)
 - **Ente**: AICS
-- **Tag**: volontariato, salute
+- **Tag**: salute, volontariato
 
   · **alta** ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA OD — ABBIATEGRASSO — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €34,696
   · **medio-alta** LULE ODV — ABBIATEGRASSO — score 125, tema_principale; capacità medio-alta; 5x1000 presente; ODV — 5x1000: €3,143
@@ -126,7 +126,7 @@ Generato: 04/08/2026 20:18
 ### 🟢 Compagnia di San Paolo: contributi per lo sviluppo organizzativo del Terzo Setto
 - **Scadenza**: 31 dicembre 2026 (149 giorni)
 - **Ente**: Fondazione Compagnia di San Paolo
-- **Tag**: ricerca, ambiente
+- **Tag**: ambiente, ricerca
 
   · **sconosciuta** NATURAL RIDING SYSTEM ASD APS — ABBIATEGRASSO — score 102, tema_principale; capacità sconosciuta; APS — 5x1000: -
   · **sconosciuta** ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI — ABBIATEGRASSO — score 102, tema_principale; capacità sconosciuta; APS — 5x1000: -
@@ -163,7 +163,7 @@ Generato: 04/08/2026 20:18
 ### 🟢 Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori
 - **Scadenza**: 03 novembre 2026 (91 giorni)
 - **Ente**: Commissione Europea
-- **Tag**: minori, salute, donne
+- **Tag**: donne, salute, minori
 
   · **sconosciuta** A.V.O. - ASSOCIAZIONE VOLONTARI OSPEDALIERI DI ABB — ABBIATEGRASSO — score 102, tema_principale; capacità sconosciuta; ODV — 5x1000: -
 
@@ -218,7 +218,7 @@ Generato: 04/08/2026 20:18
 ### 🟢 Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
 - **Scadenza**: 18 settembre 2026 (45 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
-- **Tag**: digitale, animali, disabilità, inclusione sociale
+- **Tag**: digitale, disabilità, animali, inclusione sociale
 
   · **media** FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS — ABBIATEGRASSO — score 116, tema_principale; capacità media; 5x1000 presente — 5x1000: €4,505
   · **sconosciuta** PROSPETTIVA DOMANI ODV — ABBIATEGRASSO — score 62, tema_secondario; capacità sconosciuta; ODV — 5x1000: -
@@ -302,7 +302,7 @@ Generato: 04/08/2026 20:18
 ### 🟢 Bandi Programma LIFE 2026
 - **Scadenza**: 22 settembre 2026 (49 giorni)
 - **Ente**: Commissione Europea
-- **Tag**: animali, ricerca, ambiente
+- **Tag**: animali, ambiente, ricerca
 
   · **sconosciuta** ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI — ABBIATEGRASSO — score 102, tema_principale; capacità sconosciuta; APS — 5x1000: -
   · **sconosciuta** NATURAL RIDING SYSTEM ASD APS — ABBIATEGRASSO — score 102, tema_principale; capacità sconosciuta; APS — 5x1000: -

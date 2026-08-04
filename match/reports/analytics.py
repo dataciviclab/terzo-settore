@@ -6,6 +6,7 @@ il rendering (markdown/json) vive in match/reports/render/.
 """
 
 from datetime import datetime
+from hashlib import md5
 from pathlib import Path
 
 import duckdb
@@ -152,6 +153,7 @@ def bandi_match_locale(con, scan, territorio, comune=None):
         candidati = []
         for _, c in df_locale.head(5).iterrows():
             candidati.append({
+                "codice_fiscale": c.get("codice_fiscale"),
                 "denominazione": str(c["denominazione"]),
                 "comune": c.get("comune"),
                 "provincia": c.get("provincia"),
@@ -162,7 +164,14 @@ def bandi_match_locale(con, scan, territorio, comune=None):
             })
         gg = r.get("gg_rimasti", r.get("gg", 999))
         urgenza = "🔴" if gg <= 14 else "🟡" if gg <= 30 else "🟢"
+        # Chiave di giunzione bidirezionale col CSV: id Infobandi se c'è,
+        # altrimenti hash stabile dell'url (copre info_cooperazione/indicebandi).
+        url = (b_orig.get("url") if b_orig else r.get("url")) or ""
+        bando_id = b_orig.get("id") if (b_orig and b_orig.get("id") is not None) else f"url:{md5(url.encode()).hexdigest()[:12]}"
         out.append({
+            "id": bando_id,
+            "fonte": b_orig.get("fonte") if b_orig else r.get("fonte"),
+            "url": url,
             "titolo": r["titolo"], "scadenza": r["scadenza"], "gg": gg, "ente": r["ente"],
             "tags": r.get("tags", []), "urgenza": urgenza,
             "candidati": candidati, "extra_candidati": max(len(df_locale) - 5, 0),

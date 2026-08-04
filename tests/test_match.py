@@ -216,6 +216,27 @@ def main():
         failures += 1
     print(f" {'✅' if ok_part else '❌'} ETS con partecipazioni gare > 10k (attuale: {n_part:,})")
 
+    # ── Test pacchetto territorio (deliverable CSV) ─────────────────
+    pacchetto_path = Path(__file__).resolve().parents[1] / "data/reporting/territorio_BO.json"
+    if pacchetto_path.exists():
+        pacchetto = json.loads(pacchetto_path.read_text())
+        checks_pacchetto = [
+            ("Schema pacchetto v1", pacchetto.get("schema") == "territorio_pacchetto_v1"),
+            ("ETS Bologna > 2500", pacchetto["ets"]["tot"] > 2500),
+            ("Contesto sociale presente", pacchetto["contesto_sociale"].get("reddito") is not None),
+            ("Bandi con match locale", len(pacchetto["bandi_con_match_locale"]) > 0),
+            ("Chiave bidirezionale (id bando)", all(b.get("id") for b in pacchetto["bandi_con_match_locale"])),
+            ("Chiave bidirezionale (CF candidati)", all(
+                c.get("codice_fiscale") for b in pacchetto["bandi_con_match_locale"] for c in b["candidati"])),
+        ]
+        for name, ok in checks_pacchetto:
+            status = "✅" if ok else "❌"
+            if not ok:
+                failures += 1
+            print(f" {status} {name}")
+    else:
+        print(" ⚠️  Pacchetto BO non trovato, salto test (esegui make pacchetto T=BO)")
+
     con.close()
     print()
     if failures:

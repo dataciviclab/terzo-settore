@@ -1,7 +1,7 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 04/08/2026 20:09
+Generato: 04/08/2026 22:19
 
-**53** bandi operativi con ETS candidabili  |  **0** operativi senza match  |  **78** esclusi  |  **384** ETS unici coinvolti
+**53** bandi operativi con ETS candidabili  |  **0** operativi senza match  |  **78** esclusi  |  **383** ETS unici coinvolti
 
 ---
 
@@ -59,11 +59,11 @@ Generato: 04/08/2026 20:09
 | ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERC | TORINO | TO | alta | 133 | tema_principale; capacità alta | - |
 | FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CUL | TORINO | TO | alta | 133 | tema_principale; capacità alta | - |
 | TEATRO CHE PAZZIA A.P.S. | TREVISO | TV | alta | 133 | tema_principale; capacità alta; APS | - |
-| ASSOCIAZIONE CULTURALE ACUARINTO ETS | AGRIGENTO | AG | alta | 133 | tema_principale; capacità alta | - |
 | LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTUR | PONTE NELLE ALPI | BL | alta | 133 | tema_principale; capacità alta; APS | - |
 | ASSOCIAZIONE MUSICALE ETNEA ETS | CATANIA | CT | alta | 133 | tema_principale; capacità alta | - |
 | FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS | GENOVA | GE | alta | 133 | tema_principale; capacità alta | - |
 | ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI AP | PISTICCI | MT | alta | 133 | tema_principale; capacità alta; APS | - |
+| ASSOCIAZIONE CULTURALE COMETA ETS | MILANO | MI | alta | 133 | tema_principale; capacità alta | - |
 | ASSOCIAZIONE CULTURALE NUOVO MONDO APS | PIEVE EMANUELE | MI | alta | 133 | tema_principale; capacità alta; APS | - |
 | ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE. | VELLETRI | RM | alta | 133 | tema_principale; capacità alta; APS | - |
 
@@ -72,7 +72,7 @@ Generato: 04/08/2026 20:09
 - **Ente**: AICS
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: volontariato, salute
+- **Tag**: salute, volontariato
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -526,9 +526,9 @@ Generato: 04/08/2026 20:09
   · **alta** ASSOCIAZIONE CULTURALE ACUARINTO ETS — AGRIGENTO (AG) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETT — CAGLIARI (CA) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE MUSICALE ETNEA ETS — CATANIA (CT) — score 133, tema_principale; capacità alta — 5x1000: -
-  · **alta** MUSIC POOL APS — FIRENZE (FI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS — GENOVA (GE) — score 133, tema_principale; capacità alta — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS — PISTICCI (MT) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE COMETA ETS — MILANO (MI) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE NUOVO MONDO APS — PIEVE EMANUELE (MI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** FONDAZIONE CULTURA & INNOVAZIONE ETS — NAPOLI (NA) — score 133, tema_principale; capacità alta — 5x1000: -
 
 ### Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
@@ -536,7 +536,7 @@ Generato: 04/08/2026 20:09
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: digitale, animali, disabilità, inclusione sociale
+- **Tag**: digitale, disabilità, animali, inclusione sociale
 
   · **alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E P — TRENTO (TN) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €50,779
   · **alta** ANFFAS ROMA - ASSOCIAZIONE LOCALE DI FAMIGLIE E PE — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €15,098
@@ -592,7 +592,7 @@ Generato: 04/08/2026 20:09
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: animali, ricerca, ambiente
+- **Tag**: animali, ambiente, ricerca
 
   · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €217,081
   · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €51,540
@@ -704,7 +704,7 @@ Generato: 04/08/2026 20:09
 - **Ente**: Con i Bambini
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
-- **Tag**: educazione, povertà educativa
+- **Tag**: povertà educativa, educazione
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 103, tema_secondario; capacità alta; 5x1000 >100k; APS — 5x1000: €318,718
   · **alta** CENTRO EDUCATIVO DI ACCOGLIENZA E SOLIDARIETA' - C — MENTANA (RM) — score 100, tema_secondario; capacità alta; 5x1000 >10k — 5x1000: €12,412
@@ -999,13 +999,13 @@ Generato: 04/08/2026 20:09
   · **alta** ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERCULTUR — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA  — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** TEATRO CHE PAZZIA A.P.S. — TREVISO (TV) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE A — PONTE NELLE ALPI (BL) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE ACUARINTO ETS — AGRIGENTO (AG) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETT — CAGLIARI (CA) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE MUSICALE ETNEA ETS — CATANIA (CT) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS — GENOVA (GE) — score 133, tema_principale; capacità alta — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS — PISTICCI (MT) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE COMETA ETS — MILANO (MI) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE NUOVO MONDO APS — PIEVE EMANUELE (MI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A — VELLETRI (RM) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** FONDAZIONE CULTURA & INNOVAZIONE ETS — NAPOLI (NA) — score 133, tema_principale; capacità alta — 5x1000: -
 
 ### NEXT MED per il turismo sostenibile
 - **Scadenza**: 29 ottobre 2026 (86 giorni)
@@ -1068,7 +1068,7 @@ Generato: 04/08/2026 20:09
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: minori, salute, donne
+- **Tag**: donne, salute, minori
 
   · **alta** FONDAZIONE OPERA SANTI MEDICI COSMA E DAMIANO BITO — BITONTO (BA) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €94,631
   · **alta** FONDAZIONE PER LA RICERCA BIOMEDICA AVANZATA - ENT — PADOVA (PD) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €84,682
@@ -1208,7 +1208,7 @@ Generato: 04/08/2026 20:09
 - **Ente**: Fondazione Compagnia di San Paolo
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale, Piemonte
-- **Tag**: ricerca, ambiente
+- **Tag**: ambiente, ricerca
 
   · **alta** ISTITUTO PER L'AMBIENTE E L'EDUCAZIONE SCHOLE' FUT — TORINO (TO) — score 132, tema_principale; capacità alta; 5x1000 presente — 5x1000: €1,431
   · **medio-alta** CROCE VERDE TORINO ODV — TORINO (TO) — score 131, tema_principale; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €21,818
@@ -1320,7 +1320,7 @@ Generato: 04/08/2026 20:09
 - **Ente**: Con i Bambini
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale, Regionale
-- **Tag**: inclusione sociale, povertà educativa, minori, educazione
+- **Tag**: povertà educativa, educazione, inclusione sociale, minori
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 103, tema_secondario; capacità alta; 5x1000 >100k; APS — 5x1000: €318,718
   · **alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 103, tema_secondario; capacità alta; 5x1000 >100k — 5x1000: €173,631
@@ -1503,13 +1503,13 @@ Generato: 04/08/2026 20:09
   · **alta** ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERCULTUR — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA  — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** TEATRO CHE PAZZIA A.P.S. — TREVISO (TV) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE ACUARINTO ETS — AGRIGENTO (AG) — score 133, tema_principale; capacità alta — 5x1000: -
-  · **alta** ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETT — CAGLIARI (CA) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE A — PONTE NELLE ALPI (BL) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** ASSOCIAZIONE MUSICALE ETNEA ETS — CATANIA (CT) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS — GENOVA (GE) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS — PISTICCI (MT) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE COMETA ETS — MILANO (MI) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE NUOVO MONDO APS — PIEVE EMANUELE (MI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** FONDAZIONE CULTURA & INNOVAZIONE ETS — NAPOLI (NA) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A — VELLETRI (RM) — score 133, tema_principale; capacità alta; APS — 5x1000: -
 
 
 ---
