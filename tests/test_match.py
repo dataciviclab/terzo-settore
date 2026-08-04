@@ -209,6 +209,13 @@ def main():
     else:
         print(" ⚠️  Scan JSON non trovato, salto test integrità")
 
+    # ── Test integrità indicatore partecipazioni gare ───────────────
+    n_part = con.sql("SELECT COUNT(*) FILTER (WHERE ha_partecipato_gare) FROM 'data/unified_ets.parquet'").fetchone()[0]
+    ok_part = n_part > 10000
+    if not ok_part:
+        failures += 1
+    print(f" {'✅' if ok_part else '❌'} ETS con partecipazioni gare > 10k (attuale: {n_part:,})")
+
     con.close()
     print()
     if failures:

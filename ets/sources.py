@@ -5,6 +5,7 @@
 SOURCES = [
     ("anac_aggiudicatari", 2026, "anac_aggiudicatari_2026_clean.parquet"),
     ("anac_aggiudicazioni", 2026, "anac_aggiudicazioni_2026_clean.parquet"),
+    ("anac_partecipanti", 2026, "anac_partecipanti_2026_clean.parquet"),
     ("anac_bandi_gara", 2023, "anac_bandi_gara_2023_clean.parquet"),
     ("anac_bandi_gara", 2024, "anac_bandi_gara_2024_clean.parquet"),
     ("anac_bandi_gara", 2025, "anac_bandi_gara_2025_clean.parquet"),
