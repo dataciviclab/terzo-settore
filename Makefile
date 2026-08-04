@@ -108,7 +108,9 @@ test-verbose:
 # Pulisce file temporanei
 clean:
 	find . -type d -name __pycache__ -prune -exec rm -rf {} +
-	rm -f cruscotto/radar-completo.md cruscotto/radar-latest.md cruscotto/radar-completo.json
+	rm -f cruscotto/radar-completo.md cruscotto/radar-completo.json
+	rm -f cruscotto/radar-latest.md cruscotto/radar-latest.json
+	rm -f cruscotto/segnale-*.md cruscotto/segnale-*.json
 	@echo "✅ Pulito"
 
 # Incrocio territoriale: match ETS × contesto comune (reddito, RdC, sport)
