@@ -1,5 +1,5 @@
 # 📡 Segnali — PD
-Generato: 04/08/2026 19:54
+Generato: 04/08/2026 20:10
 
 ## 1. 🏛️  ETS sul territorio
 
@@ -109,7 +109,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Bando Con i Bambini sulla dispersione scolastica
 - **Scadenza**: 30 settembre 2026 (57 giorni)
 - **Ente**: Con i Bambini
-- **Tag**: povertà educativa, educazione
+- **Tag**: educazione, povertà educativa
 
   · **alta** SCUOLA OLTRE ASSOCIAZIONE DI PROMOZIONE SOCIALE — PADOVA — score 93, tema_secondario; capacità alta; APS — 5x1000: -
   · **medio-alta** I.R.P.E.A. - ISTITUTI RIUNITI PADOVANI DI EDUCAZIO — PADOVA — score 88, tema_secondario; capacità medio-alta; 5x1000 >10k — 5x1000: €16,473
@@ -121,7 +121,7 @@ Generato: 04/08/2026 19:54
 ### 🔴 Investo in Senegal
 - **Scadenza**: 16 agosto 2026 (12 giorni)
 - **Ente**: AICS
-- **Tag**: salute, volontariato
+- **Tag**: volontariato, salute
 
   · **alta** LEGA EUROPEA PER LA DIFESA DEL CANE- ODV — MERLARA — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €22,030
   · **alta** CROCE ROSSA ITALIANA - COMITATO DI SELVAZZANO DENT — SELVAZZANO DENTRO — score 137, tema_principale; capacità alta; 5x1000 presente; ODV — 5x1000: €2,651
@@ -229,7 +229,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori
 - **Scadenza**: 03 novembre 2026 (91 giorni)
 - **Ente**: Commissione Europea
-- **Tag**: salute, minori, donne
+- **Tag**: minori, salute, donne
 
   · **alta** FONDAZIONE PER LA RICERCA BIOMEDICA AVANZATA - ENT — PADOVA — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €84,682
   · **medio-alta** I.R.P.E.A. - ISTITUTI RIUNITI PADOVANI DI EDUCAZIO — PADOVA — score 128, tema_principale; capacità medio-alta; 5x1000 >10k — 5x1000: €16,473
@@ -313,7 +313,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
 - **Scadenza**: 18 settembre 2026 (45 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
-- **Tag**: disabilità, animali, inclusione sociale, digitale
+- **Tag**: digitale, animali, disabilità, inclusione sociale
 
   · **medio-alta** SAFES SERVIZI, ACCESSIBILITA', FORMAZIONE, EDUCAZI — PADOVA — score 125, tema_principale; capacità medio-alta; 5x1000 presente — 5x1000: €365
   · **medio-alta** COOPERATIVA SOCIALE VITE VERE - DOWN DADI SOCIETA' — PADOVA — score 122, tema_principale; capacità medio-alta; 5x1000 presente — 5x1000: €3,789
@@ -409,7 +409,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Cofinanziamento per programmi su competenze digitali
 - **Scadenza**: 31 dicembre 2026 (149 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
-- **Tag**: animali, inclusione sociale, digitale
+- **Tag**: digitale, animali, inclusione sociale
 
   · **alta** DIGITAL GREEN JOBS  - IMPRESA SOCIALE S.R.L.  IN S — PADOVA — score 133, tema_principale; capacità alta — 5x1000: -
   · **sconosciuta** TECHSTATION ETS — PADOVA — score 102, tema_principale; capacità sconosciuta — 5x1000: -
@@ -481,7 +481,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Bandi Programma LIFE 2026
 - **Scadenza**: 22 settembre 2026 (49 giorni)
 - **Ente**: Commissione Europea
-- **Tag**: ricerca, animali, ambiente
+- **Tag**: animali, ricerca, ambiente
 
   · **medio-alta** LEGAMBIENTE PADOVA APS — PADOVA — score 121, tema_principale; capacità medio-alta; APS — 5x1000: -
   · **media** LEGAMBIENTE PADOVA CIRCOLO ELEONORA CHINNI APS — PADOVA — score 119, tema_principale; capacità media; 5x1000 presente; APS — 5x1000: €2,662
@@ -493,7 +493,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Da Con i bambini 10 milioni per iniziative in cofinanziamento
 - **Scadenza**: 30 giugno 2027 (330 giorni)
 - **Ente**: Con i Bambini
-- **Tag**: povertà educativa, educazione, inclusione sociale, minori
+- **Tag**: inclusione sociale, povertà educativa, minori, educazione
 
   · **alta** LA BOTTEGA DEI RAGAZZI COOPERATIVA SOCIALE ONLUS — PADOVA — score 97, tema_secondario; capacità alta; 5x1000 presente — 5x1000: €965
   · **alta** SOCIETA' COOPERATIVA SOCIALE SERVIZI E SOLIDARIETA — MONSELICE — score 93, tema_secondario; capacità alta — 5x1000: -

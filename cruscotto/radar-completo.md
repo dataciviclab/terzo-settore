@@ -1,5 +1,5 @@
 # 📡 Radar Completo — Tutti i Bandi vs ETS
-Generato: 04/08/2026 19:53
+Generato: 04/08/2026 20:09
 
 **53** bandi operativi con ETS candidabili  |  **0** operativi senza match  |  **78** esclusi  |  **384** ETS unici coinvolti
 
@@ -60,19 +60,19 @@ Generato: 04/08/2026 19:53
 | FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CUL | TORINO | TO | alta | 133 | tema_principale; capacità alta | - |
 | TEATRO CHE PAZZIA A.P.S. | TREVISO | TV | alta | 133 | tema_principale; capacità alta; APS | - |
 | ASSOCIAZIONE CULTURALE ACUARINTO ETS | AGRIGENTO | AG | alta | 133 | tema_principale; capacità alta | - |
-| ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO | CAGLIARI | CA | alta | 133 | tema_principale; capacità alta | - |
+| LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTUR | PONTE NELLE ALPI | BL | alta | 133 | tema_principale; capacità alta; APS | - |
 | ASSOCIAZIONE MUSICALE ETNEA ETS | CATANIA | CT | alta | 133 | tema_principale; capacità alta | - |
 | FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS | GENOVA | GE | alta | 133 | tema_principale; capacità alta | - |
-| ASSOCIAZIONE CULTURALE COMETA ETS | MILANO | MI | alta | 133 | tema_principale; capacità alta | - |
+| ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI AP | PISTICCI | MT | alta | 133 | tema_principale; capacità alta; APS | - |
 | ASSOCIAZIONE CULTURALE NUOVO MONDO APS | PIEVE EMANUELE | MI | alta | 133 | tema_principale; capacità alta; APS | - |
-| FONDAZIONE CULTURA & INNOVAZIONE ETS | NAPOLI | NA | alta | 133 | tema_principale; capacità alta | - |
+| ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE. | VELLETRI | RM | alta | 133 | tema_principale; capacità alta; APS | - |
 
 ### 🔴 Investo in Senegal
 - **Scadenza**: 16 agosto 2026 (12 giorni)
 - **Ente**: AICS
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: salute, volontariato
+- **Tag**: volontariato, salute
 
 | ETS | Comune | Prov | Capacità | Score | Motivo | 5x1000 2025 |
 |-----|--------|------|----------|-------|--------|-------------|
@@ -209,13 +209,13 @@ Generato: 04/08/2026 19:53
 | ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERC | TORINO | TO | alta | 133 | tema_principale; capacità alta | - |
 | FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CUL | TORINO | TO | alta | 133 | tema_principale; capacità alta | - |
 | TEATRO CHE PAZZIA A.P.S. | TREVISO | TV | alta | 133 | tema_principale; capacità alta; APS | - |
-| LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTUR | PONTE NELLE ALPI | BL | alta | 133 | tema_principale; capacità alta; APS | - |
+| ASSOCIAZIONE CULTURALE ACUARINTO ETS | AGRIGENTO | AG | alta | 133 | tema_principale; capacità alta | - |
+| ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO | CAGLIARI | CA | alta | 133 | tema_principale; capacità alta | - |
 | ASSOCIAZIONE MUSICALE ETNEA ETS | CATANIA | CT | alta | 133 | tema_principale; capacità alta | - |
 | FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS | GENOVA | GE | alta | 133 | tema_principale; capacità alta | - |
-| ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI AP | PISTICCI | MT | alta | 133 | tema_principale; capacità alta; APS | - |
 | ASSOCIAZIONE CULTURALE COMETA ETS | MILANO | MI | alta | 133 | tema_principale; capacità alta | - |
 | ASSOCIAZIONE CULTURALE NUOVO MONDO APS | PIEVE EMANUELE | MI | alta | 133 | tema_principale; capacità alta; APS | - |
-| ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE. | VELLETRI | RM | alta | 133 | tema_principale; capacità alta; APS | - |
+| FONDAZIONE CULTURA & INNOVAZIONE ETS | NAPOLI | NA | alta | 133 | tema_principale; capacità alta | - |
 
 ### 🟡 Sostegno alle municipalità in Libia
 - **Scadenza**: 31 agosto 2026 (27 giorni)
@@ -411,13 +411,13 @@ Generato: 04/08/2026 19:53
   · **alta** ASSOCIAZIONE MULTIETNICA DEI MEDIATORI INTERCULTUR — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE SANTAGATA PER L'ECONOMIA DELLA CULTURA  — TORINO (TO) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** TEATRO CHE PAZZIA A.P.S. — TREVISO (TV) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** LE LINGUE NEL MONDO CENTRO LINGUISTICO CULTURALE A — PONTE NELLE ALPI (BL) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** ASSOCIAZIONE CULTURALE ACUARINTO ETS — AGRIGENTO (AG) — score 133, tema_principale; capacità alta — 5x1000: -
+  · **alta** ASSOCIAZIONE INCONTRI MUSICALI ENTE DEL TERZO SETT — CAGLIARI (CA) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE MUSICALE ETNEA ETS — CATANIA (CT) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** FONDAZIONE LUZZATI - TEATRO DELLA TOSSE ETS — GENOVA (GE) — score 133, tema_principale; capacità alta — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE EVENTI E SPETTACOLI APS — PISTICCI (MT) — score 133, tema_principale; capacità alta; APS — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE COMETA ETS — MILANO (MI) — score 133, tema_principale; capacità alta — 5x1000: -
   · **alta** ASSOCIAZIONE CULTURALE NUOVO MONDO APS — PIEVE EMANUELE (MI) — score 133, tema_principale; capacità alta; APS — 5x1000: -
-  · **alta** ASSOCIAZIONE CULTURALE DIMENSIONE EVENTI STE.SA. A — VELLETRI (RM) — score 133, tema_principale; capacità alta; APS — 5x1000: -
+  · **alta** FONDAZIONE CULTURA & INNOVAZIONE ETS — NAPOLI (NA) — score 133, tema_principale; capacità alta — 5x1000: -
 
 ### Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
 - **Scadenza**: 15 settembre 2026 (42 giorni)
@@ -536,7 +536,7 @@ Generato: 04/08/2026 19:53
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: disabilità, animali, inclusione sociale, digitale
+- **Tag**: digitale, animali, disabilità, inclusione sociale
 
   · **alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E P — TRENTO (TN) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €50,779
   · **alta** ANFFAS ROMA - ASSOCIAZIONE LOCALE DI FAMIGLIE E PE — ROMA (RM) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €15,098
@@ -592,7 +592,7 @@ Generato: 04/08/2026 19:53
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: ricerca, animali, ambiente
+- **Tag**: animali, ricerca, ambiente
 
   · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 143, tema_principale; capacità alta; 5x1000 >100k; APS — 5x1000: €217,081
   · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  — MILANO (MI) — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €51,540
@@ -704,7 +704,7 @@ Generato: 04/08/2026 19:53
 - **Ente**: Con i Bambini
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
-- **Tag**: povertà educativa, educazione
+- **Tag**: educazione, povertà educativa
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 103, tema_secondario; capacità alta; 5x1000 >100k; APS — 5x1000: €318,718
   · **alta** CENTRO EDUCATIVO DI ACCOGLIENZA E SOLIDARIETA' - C — MENTANA (RM) — score 100, tema_secondario; capacità alta; 5x1000 >10k — 5x1000: €12,412
@@ -1068,7 +1068,7 @@ Generato: 04/08/2026 19:53
 - **Ente**: Commissione Europea
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: salute, minori, donne
+- **Tag**: minori, salute, donne
 
   · **alta** FONDAZIONE OPERA SANTI MEDICI COSMA E DAMIANO BITO — BITONTO (BA) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €94,631
   · **alta** FONDAZIONE PER LA RICERCA BIOMEDICA AVANZATA - ENT — PADOVA (PD) — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €84,682
@@ -1236,7 +1236,7 @@ Generato: 04/08/2026 19:53
 - **Ente**: Fondo per la Repubblica Digitale
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: animali, inclusione sociale, digitale
+- **Tag**: digitale, animali, inclusione sociale
 
   · **alta** FONDAZIONE MONDO DIGITALE ETS — ROMA (RM) — score 137, tema_principale; capacità alta; 5x1000 presente — 5x1000: €4,242
   · **alta** CENTRO STUDI IMPARA DIGITALE - ENTE DEL TERZO SETT — BERGAMO (BG) — score 133, tema_principale; capacità alta — 5x1000: -
@@ -1320,7 +1320,7 @@ Generato: 04/08/2026 19:53
 - **Ente**: Con i Bambini
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale, Regionale
-- **Tag**: povertà educativa, educazione, inclusione sociale, minori
+- **Tag**: inclusione sociale, povertà educativa, minori, educazione
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA — BOLOGNA (BO) — score 103, tema_secondario; capacità alta; 5x1000 >100k; APS — 5x1000: €318,718
   · **alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO (MI) — score 103, tema_secondario; capacità alta; 5x1000 >100k — 5x1000: €173,631

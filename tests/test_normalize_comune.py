@@ -38,6 +38,14 @@ CASES = [
     (None, ""),
     ("", ""),
     ("   ", ""),
+    # alias: nomi colloquiali/storici → ISTAT ufficiale
+    ("Reggio Calabria", "REGGIO DI CALABRIA"),
+    ("REGGIO EMILIA", "REGGIO NELLEMILIA"),
+    ("Montecatini Terme", "MONTECATINI-TERME"),
+    ("Jonadi", "JONADI"),
+    ("IONADI", "JONADI"),
+    ("Nizza Sicilia", "NIZZA DI SICILIA"),
+    ("Cortaccia sulla strada del vin", "CORTACCIA SULLA STRADA DEL VINO"),
 ]
 
 

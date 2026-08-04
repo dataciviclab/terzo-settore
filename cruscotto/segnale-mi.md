@@ -1,5 +1,5 @@
 # 📡 Segnali — MI
-Generato: 04/08/2026 19:54
+Generato: 04/08/2026 20:09
 
 ## 1. 🏛️  ETS sul territorio
 
@@ -110,7 +110,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Bando Con i Bambini sulla dispersione scolastica
 - **Scadenza**: 30 settembre 2026 (57 giorni)
 - **Ente**: Con i Bambini
-- **Tag**: povertà educativa, educazione
+- **Tag**: educazione, povertà educativa
 
   · **alta** COOPERATIVA SOCIALE RIEDUCAZIONE MOTORIA O.N.L.U.S — MILANO — score 97, tema_secondario; capacità alta; 5x1000 presente — 5x1000: €4,864
   · **alta** "CENTRI RICREATIVI EDUCATIVI E SCOLASTICI COOPERAT — MILANO — score 97, tema_secondario; capacità alta; 5x1000 presente — 5x1000: €1,250
@@ -122,7 +122,7 @@ Generato: 04/08/2026 19:54
 ### 🔴 Investo in Senegal
 - **Scadenza**: 16 agosto 2026 (12 giorni)
 - **Ente**: AICS
-- **Tag**: salute, volontariato
+- **Tag**: volontariato, salute
 
   · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariat — MILANO — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €143,383
   · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTAR — MILANO — score 143, tema_principale; capacità alta; 5x1000 >100k; ODV — 5x1000: €113,052
@@ -230,7 +230,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori
 - **Scadenza**: 03 novembre 2026 (91 giorni)
 - **Ente**: Commissione Europea
-- **Tag**: salute, minori, donne
+- **Tag**: minori, salute, donne
 
   · **alta** ASSOCIAZIONE ITALIANA ASSISTENZA SPASTICI AIAS ETS — MILANO — score 140, tema_principale; capacità alta; 5x1000 >10k — 5x1000: €25,581
   · **alta** CROCE VERDE ASSISTENZA PUBBLICA MILANESE - ORGANIZ — MILANO — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €15,394
@@ -314,7 +314,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
 - **Scadenza**: 18 settembre 2026 (45 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
-- **Tag**: disabilità, animali, inclusione sociale, digitale
+- **Tag**: digitale, animali, disabilità, inclusione sociale
 
   · **medio-alta** HANDICAP  SU LA TESTA ODV — MILANO — score 128, tema_principale; capacità medio-alta; 5x1000 >10k; ODV — 5x1000: €23,813
   · **medio-alta** ASSOCIAZIONE PER LO SVILUPPO E LA SALVAGUARDIA DEG — SAN DONATO MILANESE — score 125, tema_principale; capacità medio-alta; 5x1000 presente; ODV — 5x1000: €9,220
@@ -410,7 +410,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Cofinanziamento per programmi su competenze digitali
 - **Scadenza**: 31 dicembre 2026 (149 giorni)
 - **Ente**: Fondo per la Repubblica Digitale
-- **Tag**: animali, inclusione sociale, digitale
+- **Tag**: digitale, animali, inclusione sociale
 
   · **medio-alta** EMERGENCY - LIFE SUPPORT FOR CIVILIAN WAR VICTIMS  — MILANO — score 131, tema_principale; capacità medio-alta; 5x1000 >100k — 5x1000: €13,440,958
   · **alta** MEET DIGITAL COMMUNICATION S.R.L. IMPRESA SOCIALE — MILANO — score 128, tema_principale; capacità alta — 5x1000: -
@@ -482,7 +482,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Bandi Programma LIFE 2026
 - **Scadenza**: 22 settembre 2026 (49 giorni)
 - **Ente**: Commissione Europea
-- **Tag**: ricerca, animali, ambiente
+- **Tag**: animali, ricerca, ambiente
 
   · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  — MILANO — score 140, tema_principale; capacità alta; 5x1000 >10k; APS — 5x1000: €51,540
   · **alta** CROCE VERDE ASSISTENZA PUBBLICA MILANESE - ORGANIZ — MILANO — score 140, tema_principale; capacità alta; 5x1000 >10k; ODV — 5x1000: €15,394
@@ -494,7 +494,7 @@ Generato: 04/08/2026 19:54
 ### 🟢 Da Con i bambini 10 milioni per iniziative in cofinanziamento
 - **Scadenza**: 30 giugno 2027 (330 giorni)
 - **Ente**: Con i Bambini
-- **Tag**: povertà educativa, educazione, inclusione sociale, minori
+- **Tag**: inclusione sociale, povertà educativa, minori, educazione
 
   · **alta** CENTRO DI AIUTO AI MINORI E ALLA FAMIGLIA IN CRISI — MILANO — score 103, tema_secondario; capacità alta; 5x1000 >100k — 5x1000: €173,631
   · **alta** CASCINA BIBLIOTECA - SOCIETA' COOPERATIVA SOCIALE  — MILANO — score 100, tema_secondario; capacità alta; 5x1000 >10k — 5x1000: €21,096
