@@ -1,24 +1,10 @@
-# 📡 Radar bandi — 01/08/2026
+# 📡 Radar bandi — 04/08/2026
 
-Bandi operativi in scadenza nei prossimi 60gg: **29**
-
-## Bando UEFA Foundation for Children 2026
-- **Ente**: UEFA Foundation
-- **Scadenza**: 03 agosto 2026 (2 giorni)
-- **Link**: https://www.info-cooperazione.it/2026/7/bando-uefa-foundation-for-children-2026
-- **Stato**: attivo
-- **Territorio**: Europa, Locale, Nazionale
-- **Tag**: sport, educazione, minori, inclusione sociale
-
-  · **alta** UNIONE SPORTIVA ACLI TORINO — TORINO (TO) — score 133, match; APS — 5x1000: -
-  · **alta** ASD COMITATO PRO SAN BORTOLO — VICENZA (VI) — score 133, match; APS — 5x1000: -
-  · **alta** UISP - UNIONE ITALIANA SPORT PER TUTTI - COMITATO DI FI — FIRENZE (FI) — score 133, match; APS — 5x1000: -
-  · **alta** A.S.D.C.R. SPORTLAB A.P.S. — ROMA (RM) — score 133, match; APS — 5x1000: -
-  · **medio-alta** LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E SPORT — SANTA MARGHERITA DI BELICE (AG) — score 128, match; 5x1000 >10k; APS — 5x1000: €28,369
+Bandi operativi in scadenza nei prossimi 60gg: **30**
 
 ## Contributi per indagini giornalistiche sull&#8217;ambiente &#8211; ultima scaden
 - **Ente**: Journalismfund.eu
-- **Scadenza**: 6 agosto 2026 (5 giorni)
+- **Scadenza**: 6 agosto 2026 (2 giorni)
 - **Link**: https://infobandi.csvnet.it/contributi-per-indagini-giornalistiche-sullambiente-ultima-scadenza-2026/
 - **Stato**: attivo
 - **Territorio**: Europa
@@ -32,7 +18,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Cultural Horizons &#8211; prodotti culturali innovativi tra UE e Ucraina
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura tramite Ukrainian Cultural Foundation
-- **Scadenza**: 14 agosto 2026 (13 giorni)
+- **Scadenza**: 14 agosto 2026 (10 giorni)
 - **Link**: https://infobandi.csvnet.it/cultural-horizons-prodotti-culturali-innovativi-tra-ue-e-ucraina/
 - **Stato**: attivo
 - **Territorio**: Ucraina
@@ -46,11 +32,11 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Investo in Senegal
 - **Ente**: AICS
-- **Scadenza**: 16 agosto 2026 (15 giorni)
+- **Scadenza**: 16 agosto 2026 (12 giorni)
 - **Link**: https://www.info-cooperazione.it/2026/7/investo-in-senegal-un-bando-per-selezionare-nuove-idee-imprenditoriali
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: volontariato, salute
+- **Tag**: salute, volontariato
 
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 143, match; 5x1000 >100k; ODV — 5x1000: €2,299,912
   · **alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE PROV — BOLZANO (BZ) — score 143, match; 5x1000 >100k; ODV — 5x1000: €1,254,450
@@ -60,7 +46,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Dalla Norvegia 10 milioni per l'innovazione umanitaria
 - **Ente**: Innovation Norway
-- **Scadenza**: 17 agosto 2026 (16 giorni)
+- **Scadenza**: 17 agosto 2026 (13 giorni)
 - **Link**: https://www.info-cooperazione.it/2026/5/dalla-norvegia-10-milioni-per-linnovazione-umanitaria
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
@@ -74,7 +60,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## iF Social Impact Prize &#8211; ultima scadenza 2026
 - **Ente**: iF Design
-- **Scadenza**: 19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno) (18 giorni)
+- **Scadenza**: 19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno) (15 giorni)
 - **Link**: https://infobandi.csvnet.it/if-social-impact-prize-ultima-scadenza-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -88,7 +74,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Avviso &#8220;Vita &#038; Opportunità&#8221;
 - **Ente**: Dipartimento per le politiche in favore delle persone con disabilità &#8211; Presidenza del Consiglio dei Ministri
-- **Scadenza**: 29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi) (28 giorni)
+- **Scadenza**: 29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi) (25 giorni)
 - **Link**: https://infobandi.csvnet.it/avviso-vita-opportunita/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -102,7 +88,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Contributi annuali della Banca d’Italia – 2^ scadenza 2026
 - **Ente**: Banca d’Italia
-- **Scadenza**: 31 agosto 2026 (domande a partire dal 1° luglio) (30 giorni)
+- **Scadenza**: 31 agosto 2026 (domande a partire dal 1° luglio) (27 giorni)
 - **Link**: https://infobandi.csvnet.it/contributi-annuali-della-banca-ditalia-2-scadenza-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -116,7 +102,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Sostegno alle municipalità in Libia
 - **Ente**: AICS
-- **Scadenza**: 31 agosto 2026 (30 giorni)
+- **Scadenza**: 31 agosto 2026 (27 giorni)
 - **Link**: https://www.info-cooperazione.it/2026/6/sostegno-alle-municipalita-in-libia
 - **Stato**: attivo
 - **Territorio**: Libia, Locale, Nazionale
@@ -130,7 +116,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Grant per rafforzare democrazia e società civile nei Balcani
 - **Ente**: European Fund for the Balkans
-- **Scadenza**: 03 settembre 2026 (33 giorni)
+- **Scadenza**: 03 settembre 2026 (30 giorni)
 - **Link**: https://www.info-cooperazione.it/2026/3/grant-per-rafforzare-democrazia-e-societa-civile-nei-balcani
 - **Stato**: attivo
 - **Territorio**: Nazionale, Regionale
@@ -144,21 +130,21 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Bando BPER 2026: progetti di sport inclusivo da finanziare in crowdfunding
 - **Ente**: BPER Banca
-- **Scadenza**: 7 settembre 2026 alle ore 12:00 (37 giorni)
+- **Scadenza**: 7 settembre 2026 alle ore 12:00 (34 giorni)
 - **Link**: https://infobandi.csvnet.it/bando-bper-2026-progetti-di-sport-inclusivo-da-finanziare-in-crowdfunding/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
 - **Tag**: In evidenza, Minori, Disabilità, Giovani, Inclusione sociale, Sport, Adolescenti, BPER Banca, crowdfunding
 
-  · **alta** UNIONE SPORTIVA ACLI TORINO — TORINO (TO) — score 133, match; APS — 5x1000: -
-  · **alta** ASD COMITATO PRO SAN BORTOLO — VICENZA (VI) — score 133, match; APS — 5x1000: -
-  · **alta** UISP - UNIONE ITALIANA SPORT PER TUTTI - COMITATO DI FI — FIRENZE (FI) — score 133, match; APS — 5x1000: -
-  · **alta** A.S.D.C.R. SPORTLAB A.P.S. — ROMA (RM) — score 133, match; APS — 5x1000: -
-  · **medio-alta** LEONI SICANI ASSOCIAZIONE DI PROMOZIONE SOCIALE E SPORT — SANTA MARGHERITA DI BELICE (AG) — score 128, match; 5x1000 >10k; APS — 5x1000: €28,369
+  · **alta** COMUNITA' DI S.EGIDIO ACAP APS — ROMA (RM) — score 143, match; 5x1000 >100k; APS — 5x1000: €531,796
+  · **alta** LIBERA ASSOCIAZIONI, NOMI E NUMERI CONTRO LE MAFIE APS — ROMA (RM) — score 143, match; 5x1000 >100k; APS — 5x1000: €462,716
+  · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICE — BOLOGNA (BO) — score 143, match; 5x1000 >100k; APS — 5x1000: €318,718
+  · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 143, match; 5x1000 >100k; APS — 5x1000: €217,081
+  · **alta** CHIARA E FRANCESCO APS — POMEZIA (RM) — score 140, match; 5x1000 >10k; APS — 5x1000: €62,332
 
 ## Contributi filantropici di Autostrade per l&#8217;Italia 2026
 - **Ente**: Autostrade per l’Italia
-- **Scadenza**: 13 settembre 2026 (43 giorni)
+- **Scadenza**: 13 settembre 2026 (40 giorni)
 - **Link**: https://infobandi.csvnet.it/contributi-filantropici-di-autostrade-per-litalia-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -172,7 +158,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## 2° edizione Premio GenP &#8211; Giovani che partecipano
 - **Ente**: Acri &#8211; Associazione di Fondazioni e di Casse di Risparmio
-- **Scadenza**: 14 settembre 2026 (44 giorni)
+- **Scadenza**: 14 settembre 2026 (41 giorni)
 - **Link**: https://infobandi.csvnet.it/2-edizione-premio-genp-giovani-che-partecipano/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -186,7 +172,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Fondo per la promozione del dialogo: bando 2026
 - **Ente**: Ministero dell&#8217;Università e della Ricerca
-- **Scadenza**: 15 settembre 2026 alle ore 12:00 (45 giorni)
+- **Scadenza**: 15 settembre 2026 alle ore 12:00 (42 giorni)
 - **Link**: https://infobandi.csvnet.it/fondo-per-la-promozione-del-dialogo-bando-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -200,7 +186,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Premio Olivetti per l&#8217;accessibilità culturale
 - **Ente**: Ministero della  Cultura
-- **Scadenza**: 15 settembre 2026 alle ore 12:00 (45 giorni)
+- **Scadenza**: 15 settembre 2026 alle ore 12:00 (42 giorni)
 - **Link**: https://infobandi.csvnet.it/premio-olivetti-per-laccessibilita-culturale/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -214,7 +200,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Bando CERV per l'attuazione della Carta dei diritti fondamentali UE
 - **Ente**: Commissione Europea
-- **Scadenza**: 15 settembre 2026 (45 giorni)
+- **Scadenza**: 15 settembre 2026 (42 giorni)
 - **Link**: https://www.info-cooperazione.it/2026/5/bando-cerv-per-lattuazione-della-carta-dei-diritti-fondamentali-ue
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
@@ -228,7 +214,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Sostenere l&#8217;applicazione della Carta dei diritti fondamentali dell&#8217;U
 - **Ente**: Commissione Europea &#8211; DG Giustizia e Consumatori
-- **Scadenza**: 15 settembre 2026 (45 giorni)
+- **Scadenza**: 15 settembre 2026 (42 giorni)
 - **Link**: https://infobandi.csvnet.it/sostenere-lapplicazione-della-carta-dei-diritti-fondamentali-dellue/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -242,7 +228,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Bando &#8220;Zenit&#8221;: competenze digitali delle persone con disabilità
 - **Ente**: Fondo per la Repubblica Digitale &#8211; Impresa sociale srl
-- **Scadenza**: 18 settembre 2026 alle ore 11.00 (48 giorni)
+- **Scadenza**: 18 settembre 2026 alle ore 11.00 (45 giorni)
 - **Link**: https://infobandi.csvnet.it/bando-zenit-competenze-digitali-delle-persone-con-disabilita/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -256,7 +242,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Piano Nazionale &#8220;Cinema e immagini per la scuola&#8221;: progetti di rilev
 - **Ente**: Ministero della Cultura e Ministero dell&#8217;Istruzione e del Merito
-- **Scadenza**: 18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio) (48 giorni)
+- **Scadenza**: 18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio) (45 giorni)
 - **Link**: https://infobandi.csvnet.it/piano-nazionale-cinema-e-immagini-per-la-scuola-progetti-di-rilevanza-nazionale/
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -270,11 +256,11 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità
 - **Ente**: Fondo per la Repubblica Digitale
-- **Scadenza**: 18 settembre 2026 (48 giorni)
+- **Scadenza**: 18 settembre 2026 (45 giorni)
 - **Link**: https://www.info-cooperazione.it/2026/5/inclusione-sociale-e-lavorativa-delle-persone-con-disabilita-eo-invalidita
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: animali, disabilità, digitale, inclusione sociale
+- **Tag**: disabilità, animali, inclusione sociale, digitale
 
   · **alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E PERSON — TRENTO (TN) — score 140, match; 5x1000 >10k — 5x1000: €50,779
   · **alta** ANFFAS ROMA - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE — ROMA (RM) — score 140, match; 5x1000 >10k — 5x1000: €15,098
@@ -284,7 +270,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Youth Start-Up Challenge 2026: concorso per giovani imprenditori
 - **Ente**: Commissione Europea &#8211; DG del Mercato interno, dell’industria, dell’imprenditoria e delle PMI
-- **Scadenza**: 20 settembre 2026 (50 giorni)
+- **Scadenza**: 20 settembre 2026 (47 giorni)
 - **Link**: https://infobandi.csvnet.it/youth-start-up-challenge-2026-concorso-per-giovani-imprenditori/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -298,11 +284,11 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Bandi Programma LIFE 2026
 - **Ente**: Commissione Europea
-- **Scadenza**: 22 settembre 2026 (52 giorni)
+- **Scadenza**: 22 settembre 2026 (49 giorni)
 - **Link**: https://www.info-cooperazione.it/2026/4/bando-programma-life-2026
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: animali, ambiente, ricerca
+- **Tag**: ricerca, animali, ambiente
 
   · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 143, match; 5x1000 >100k; APS — 5x1000: €217,081
   · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  APS — MILANO (MI) — score 140, match; 5x1000 >10k; APS — 5x1000: €51,540
@@ -312,7 +298,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## KA 1 – Accreditamento nel settore della Gioventù
 - **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
-- **Scadenza**: 29 settembre 2026 (59 giorni)
+- **Scadenza**: 29 settembre 2026 (56 giorni)
 - **Link**: https://infobandi.csvnet.it/ka-1-accreditamento-nel-settore-della-gioventu/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -326,7 +312,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Otto per mille a gestione diretta statale &#8211; anno 2026
 - **Ente**: Presidenza del Consiglio dei ministri
-- **Scadenza**: 30 settembre 2026 (60 giorni)
+- **Scadenza**: 30 settembre 2026 (57 giorni)
 - **Link**: https://infobandi.csvnet.it/otto-per-mille-a-gestione-diretta-statale-anno-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -340,7 +326,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Richieste di contributo alla DWF Foundation &#8211; 3^ scadenza 2026
 - **Ente**: DWF Foundation
-- **Scadenza**: 30 settembre 2026 (ultima scadenza dell&#8217;anno) (60 giorni)
+- **Scadenza**: 30 settembre 2026 (ultima scadenza dell&#8217;anno) (57 giorni)
 - **Link**: https://infobandi.csvnet.it/richieste-di-contributo-alla-dwf-foundation-3-scadenza-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -354,7 +340,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Bando Con i Bambini sulla dispersione scolastica
 - **Ente**: Con i Bambini
-- **Scadenza**: 30 settembre 2026 (60 giorni)
+- **Scadenza**: 30 settembre 2026 (57 giorni)
 - **Link**: https://www.info-cooperazione.it/2026/7/bando-con-i-bambini-sulla-dispersione-scolastica
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
@@ -368,7 +354,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Bando &#8220;A scuola per il futuro&#8221; &#8211; quarta edizione
 - **Ente**: Fondazione CDP
-- **Scadenza**: 30 settembre 2026 alle ore 18.00 (60 giorni)
+- **Scadenza**: 30 settembre 2026 alle ore 18.00 (57 giorni)
 - **Link**: https://infobandi.csvnet.it/bando-a-scuola-per-il-futuro-quarta-edizione/
 - **Stato**: attivo
 - **Territorio**: Nazionale
@@ -382,7 +368,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Bando “Opportunità per me, un futuro migliore. Percorsi di seconda occasione”
 - **Ente**: Impresa sociale CON I BAMBINI
-- **Scadenza**: 30 settembre 2026 alle ore 13:00 (60 giorni)
+- **Scadenza**: 30 settembre 2026 alle ore 13:00 (57 giorni)
 - **Link**: https://infobandi.csvnet.it/bando-opportunita-per-me-un-futuro-migliore-percorsi-di-seconda-occasione/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
@@ -396,11 +382,39 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 ## Bando Volontariato 2026
 - **Ente**: Fondazione CON IL SUD
-- **Scadenza**: 30 settembre 2026 alle ore 13.00 (60 giorni)
+- **Scadenza**: 30 settembre 2026 alle ore 13.00 (57 giorni)
 - **Link**: https://infobandi.csvnet.it/bando-volontariato-2026/
 - **Stato**: attivo
 - **Territorio**: Nazionale/da verificare
 - **Tag**: Inclusione sociale, Volontariato, Mezzogiorno, Fondazione CON IL SUD
+
+  · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 143, match; 5x1000 >100k; ODV — 5x1000: €2,299,912
+  · **alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE PROV — BOLZANO (BZ) — score 143, match; 5x1000 >100k; ODV — 5x1000: €1,254,450
+  · **alta** LIPU ODV (LEGA ITALIANA PROTEZIONE UCCELLI) — PARMA (PR) — score 143, match; 5x1000 >100k; ODV — 5x1000: €526,745
+  · **alta** CROCE BIANCA MILANO, Organizzazione di Volontariato (OD — MILANO (MI) — score 143, match; 5x1000 >100k; ODV — 5x1000: €143,383
+  · **alta** AVIS COMUNALE DI MILANO ORGANIZZAZIONE DI VOLONTARIATO  — MILANO (MI) — score 143, match; 5x1000 >100k; ODV — 5x1000: €113,052
+
+## Ecco il calendario delle call 2026 del Programma CERV
+- **Ente**: Commissione Europea
+- **Scadenza**: 01 ottobre 2026 (58 giorni)
+- **Link**: https://www.info-cooperazione.it/2025/12/ecco-il-calendario-delle-call-2026-del-programma-cerv
+- **Stato**: attivo
+- **Territorio**: Nazionale
+- **Tag**: donne
+
+  · **alta**  CASA DELLE DONNE LUCHA Y SIESTA APS — ROMA (RM) — score 140, match; 5x1000 >10k; APS — 5x1000: €10,638
+  · **alta** CENTRI ANTIVIOLENZA E.M.M.A. ETS — TORINO (TO) — score 137, match; 5x1000 presente — 5x1000: €7,447
+  · **alta** CENTRO ANTIVIOLENZA - ODV — PARMA (PR) — score 137, match; 5x1000 presente; ODV — 5x1000: €6,463
+  · **alta** CENTRO PER NON SUBIRE VIOLENZA(DA UDI) APS — GENOVA (GE) — score 137, match; 5x1000 presente; APS — 5x1000: €6,016
+  · **alta** CASA DELLE DONNE APS — VIAREGGIO (LU) — score 137, match; 5x1000 presente; APS — 5x1000: €5,063
+
+## Progetti di solidarietà – 2^ scadenza
+- **Ente**: Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura
+- **Scadenza**: 01 ottobre 2026 (58 giorni)
+- **Link**: https://infobandi.csvnet.it/progetti-di-solidarieta-2-scadenza-4/
+- **Stato**: attivo
+- **Territorio**: Nazionale/da verificare
+- **Tag**: inclusione sociale, volontariato
 
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 143, match; 5x1000 >100k; ODV — 5x1000: €2,299,912
   · **alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE PROV — BOLZANO (BZ) — score 143, match; 5x1000 >100k; ODV — 5x1000: €1,254,450
@@ -413,11 +427,11 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 
 | Budget | GG | Ente | Bando | Link |
 |--------|----|------|-------|------|
-| €5,834,453 (🟡) | 60gg | Impresa sociale CON I BAMBINI | Bando “Opportunità per me, un futuro mig | [link](https://infobandi.csvnet.it/bando-opportunita-per-) |
-| €180,000 (🟡) | 48gg | Ministero della Cultura e Mini | Piano Nazionale &#8220;Cinema e immagini | [link](https://infobandi.csvnet.it/piano-nazionale-cinema) |
-| €150,000 (🟡) | 45gg | Ministero dell&#8217;Universit | Fondo per la promozione del dialogo: ban | [link](https://infobandi.csvnet.it/fondo-per-la-promozion) |
-| €50,000 (🟡) | 37gg | BPER Banca | Bando BPER 2026: progetti di sport inclu | [link](https://infobandi.csvnet.it/bando-bper-2026-proget) |
-| €10,000 (🟡) | 44gg | Acri &#8211; Associazione di F | 2° edizione Premio GenP &#8211; Giovani  | [link](https://infobandi.csvnet.it/2-edizione-premio-genp) |
+| €5,834,453 (🟡) | 57gg | Impresa sociale CON I BAMBINI | Bando “Opportunità per me, un futuro mig | [link](https://infobandi.csvnet.it/bando-opportunita-per-) |
+| €180,000 (🟡) | 45gg | Ministero della Cultura e Mini | Piano Nazionale &#8220;Cinema e immagini | [link](https://infobandi.csvnet.it/piano-nazionale-cinema) |
+| €150,000 (🟡) | 42gg | Ministero dell&#8217;Universit | Fondo per la promozione del dialogo: ban | [link](https://infobandi.csvnet.it/fondo-per-la-promozion) |
+| €50,000 (🟡) | 34gg | BPER Banca | Bando BPER 2026: progetti di sport inclu | [link](https://infobandi.csvnet.it/bando-bper-2026-proget) |
+| €10,000 (🟡) | 41gg | Acri &#8211; Associazione di F | 2° edizione Premio GenP &#8211; Giovani  | [link](https://infobandi.csvnet.it/2-edizione-premio-genp) |
 
 ---
 ## Gap territoriali (appalti ANAC + ETS + contesto sociale)
@@ -435,4 +449,4 @@ Bandi operativi in scadenza nei prossimi 60gg: **29**
 | Catania | CT | 51 app. €28.1M | 307 | 20.5% | €11,537 |  |
 | Viareggio | LU | 35 app. €0.9M | 54 | 3.5% | €17,521 |  |
 
-_Vista latest da scan condiviso: 54 bandi operativi matchati._
+_Vista latest da scan condiviso: 53 bandi operativi matchati._
