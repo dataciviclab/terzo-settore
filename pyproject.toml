@@ -10,5 +10,6 @@ dependencies = [
     "beautifulsoup4>=4.12",
     "python-dotenv>=1.0",
     # Infrastruttura condivisa Lab: path contract GCS, config DuckDB/GCS, HTTP client
-    "lab-connectors[duckdb,http]>=0.15.1",
+    # (HTTP client è nel core di lab-connectors — nessun extra; duckdb richiede l'extra)
+    "lab-connectors[duckdb]>=0.15.1",
 ]
