@@ -11,5 +11,5 @@ dependencies = [
     "python-dotenv>=1.0",
     # Infrastruttura condivisa Lab: path contract GCS, config DuckDB/GCS, HTTP client
     # (HTTP client è nel core di lab-connectors — nessun extra; duckdb richiede l'extra)
-    "lab-connectors[duckdb]>=0.15.1",
+    "lab-connectors[duckdb] @ git+https://github.com/dataciviclab/lab-connectors.git",
 ]
