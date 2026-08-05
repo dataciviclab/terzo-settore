@@ -41,6 +41,13 @@ segnale:
 	[ -n "$(T)" ] || (echo "Usa: make segnale T=MI [C=Comune]" && exit 1)
 	python3 match/reports/scan_completo.py --territorio $(T) $(if $(C),--comune "$(C)",)
 
+# Pacchetto territorio per CSV — deliverable T1/T2 (data/reporting/)
+# make pacchetto T=BO          — singolo territorio
+# make pacchetto T=all         — tutti i TERRITORI_TARGET (config in pacchetto.py)
+pacchetto:
+	[ -n "$(T)" ] || (echo "Usa: make pacchetto T=BO (o T=all)" && exit 1)
+	python3 match/reports/pacchetto.py $(T)
+
 # Esporta candidati da contattare per un bando
 # make contatta B="BPER"          — CSV top 10
 # make contatta B="UEFA" ENRICH=1 — con Google Places (lento)
@@ -108,7 +115,9 @@ test-verbose:
 # Pulisce file temporanei
 clean:
 	find . -type d -name __pycache__ -prune -exec rm -rf {} +
-	rm -f cruscotto/radar-completo.md cruscotto/radar-latest.md cruscotto/radar-completo.json
+	rm -f cruscotto/radar-completo.md cruscotto/radar-completo.json
+	rm -f cruscotto/radar-latest.md cruscotto/radar-latest.json
+	rm -f cruscotto/segnale-*.md cruscotto/segnale-*.json
 	@echo "✅ Pulito"
 
 # Incrocio territoriale: match ETS × contesto comune (reddito, RdC, sport)

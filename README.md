@@ -39,6 +39,7 @@ LAYER 3 — SPERIMENTALE (isolato su branch feat/experiments)
 | "Bando RIZA da €1M, chi contatto?" | `make contatta B="RIZA" ENRICH=1` | 10 ETS con telefono |
 | "Bandi urgenti questa settimana" | `make latest` | Bandi in scadenza + gap territoriali |
 | "Comune X ha pochi ETS?" | `make segnale T=MI C=Abbiategrasso` | Landscape ETS + contesto sociale |
+| "Pacchetto per il CSV" | `make pacchetto T=BO` | Deliverable territorio → `data/reporting/territorio_BO.json` |
 | "Profilo Nazareno" | `make report CF=02006180364` | Benchmark, ANAC, bandi matchati |
 | "Contratti recenti di Nazareno" | `make scheda CF=02006180364 OPZIONI=--anac` | Oggetto, importo, stazione appaltante |
 
@@ -50,6 +51,21 @@ make bandi            # aggiorna le 3 fonti bandi
 make contatta B="RIZA" TOP=10 ENRICH=1   # CSV con telefono → cruscotto/output/
 make sync-sources     # mostra da dove arriva ogni parquet (lab/cache/gcs)
 ```
+
+## Connessione col mondo CSV (T1/T2)
+
+Il ponte tra il Lab e la rete CSVnet è il **pacchetto territorio**: un file
+JSON auto-contenuto per provincia (`make pacchetto T=BO` → `data/reporting/territorio_BO.json`)
+con aggregati ETS, contesto sociale, bandi con match locale e gap territoriali.
+
+Chiave di giunzione bidirezionale:
+- **bando**: `id` Infobandi (o hash stabile dell'url per le altre fonti)
+- **ETS**: `codice_fiscale`
+
+Il CSV può restituire il feedback ("ETS X si è candidato al bando Y") che il
+Lab riconcilia per migliorare il matching. Config dei territori target in
+`match/reports/pacchetto.py` (`TERRITORI_TARGET`). Limite privacy: nel
+pacchetto solo aggregati + matching, mai liste contatti.
 
 ## Architettura
 
@@ -69,6 +85,9 @@ match/                            ← LAYER 2: matching bandi ↔ ETS
   pipeline.py                     Orchestrazione: load_bandi → run_scan
   reports/
     scan_completo.py              Scan → cruscotto/radar-completo.json/md. Flag: --latest, --territorio
+    analytics.py                  Viste pure (calcolo) — ETS, contesto, bandi, gap
+    render/                       Presentazione: markdown.py, json.py
+    pacchetto.py                  Deliverable territorio per CSV → data/reporting/
     contatta.py                   CSV contatti per bando → cruscotto/output/. Flag: --per-ets, --enrich
     scheda.py                     Profilo ETS: benchmark, ANAC, bandi matchati
 

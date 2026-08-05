@@ -36,7 +36,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **30**
 - **Link**: https://www.info-cooperazione.it/2026/7/investo-in-senegal-un-bando-per-selezionare-nuove-idee-imprenditoriali
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: volontariato, salute
+- **Tag**: salute, volontariato
 
   · **alta** ENPA - ENTE NAZIONALE PROTEZIONE ANIMALI ODV — ROMA (RM) — score 143, match; 5x1000 >100k; ODV — 5x1000: €2,299,912
   · **alta** LANDESRETTUNGSVEREIN WEISSES KREUZ EO_ASSOCIAZIONE PROV — BOLZANO (BZ) — score 143, match; 5x1000 >100k; ODV — 5x1000: €1,254,450
@@ -260,7 +260,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **30**
 - **Link**: https://www.info-cooperazione.it/2026/5/inclusione-sociale-e-lavorativa-delle-persone-con-disabilita-eo-invalidita
 - **Stato**: attivo
 - **Territorio**: Nazionale
-- **Tag**: digitale, animali, disabilità, inclusione sociale
+- **Tag**: digitale, disabilità, animali, inclusione sociale
 
   · **alta** ANFFAS TRENTINO ETS - ASSOCIAZIONE DI FAMIGLIE E PERSON — TRENTO (TN) — score 140, match; 5x1000 >10k — 5x1000: €50,779
   · **alta** ANFFAS ROMA - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE — ROMA (RM) — score 140, match; 5x1000 >10k — 5x1000: €15,098
@@ -288,7 +288,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **30**
 - **Link**: https://www.info-cooperazione.it/2026/4/bando-programma-life-2026
 - **Stato**: attivo
 - **Territorio**: Europa, Nazionale
-- **Tag**: animali, ricerca, ambiente
+- **Tag**: animali, ambiente, ricerca
 
   · **alta** LEGAMBIENTE NAZIONALE APS - RETE ASSOCIATIVA - ETS — ROMA (RM) — score 143, match; 5x1000 >100k; APS — 5x1000: €217,081
   · **alta** FIAB - FEDERAZIONE ITALIANA AMBIENTE E BICICLETTA  APS — MILANO (MI) — score 140, match; 5x1000 >10k; APS — 5x1000: €51,540
@@ -344,7 +344,7 @@ Bandi operativi in scadenza nei prossimi 60gg: **30**
 - **Link**: https://www.info-cooperazione.it/2026/7/bando-con-i-bambini-sulla-dispersione-scolastica
 - **Stato**: attivo
 - **Territorio**: Locale, Nazionale
-- **Tag**: educazione, povertà educativa
+- **Tag**: povertà educativa, educazione
 
   · **alta** ASSOCIAZIONE ITALIANA DI PROMOZIONE SOCIALE PER LA RICE — BOLOGNA (BO) — score 103, match; 5x1000 >100k; APS — 5x1000: €318,718
   · **alta** CENTRO EDUCATIVO DI ACCOGLIENZA E SOLIDARIETA' - C.E.A. — MENTANA (RM) — score 100, match; 5x1000 >10k — 5x1000: €12,412
@@ -449,4 +449,4 @@ Bandi operativi in scadenza nei prossimi 60gg: **30**
 | Catania | CT | 51 app. €28.1M | 307 | 20.5% | €11,537 |  |
 | Viareggio | LU | 35 app. €0.9M | 54 | 3.5% | €17,521 |  |
 
-_Vista latest da scan condiviso: 53 bandi operativi matchati._
+_Vista latest da scan condiviso: 30 bandi operativi matchati._

@@ -89,11 +89,28 @@ def load_bandi(files=None):
 
 
 def process_bando(con, b, pattern, tags, territorio, match_limit=20, testo=None):
+    """Match un bando: conta gli idonei (senza cap) e seleziona il top-N.
+
+    Ritorna dict con:
+      - candidati: top-N ordinati per score
+      - n_idonei: totale ETS idonei (senza cap di match_limit)
+      - codici_fiscali: set dei top-N
+    """
     df = match_bando(con, pattern, tags, limit=match_limit, territorio=territorio, testo=testo)
     if df.empty:
         return None
+
+    # Conteggio idonei reale (senza cap) — separato dalla selezione top-N
+    n_idonei = len(df)
+    try:
+        df_all = match_bando(con, pattern, tags, limit=10_000_000, territorio=territorio, testo=testo)
+        n_idonei = len(df_all)
+    except Exception:
+        pass  # se il conteggio senza cap fallisce, resta il valore del top-N
+
     return {
         "candidati": df.to_dict("records"),
+        "n_idonei": n_idonei,
         "codici_fiscali": set(df["codice_fiscale"].tolist()) if "codice_fiscale" in df.columns else set(),
     }
 
@@ -146,6 +163,7 @@ def elabora_bando(b, con, match_limit=20):
         "gg": gg_rimasti, "tags": tags, "territorio": territorio,
         "status": status, "pattern": pattern,
         "candidati": result["candidati"],
+        "n_idonei": result.get("n_idonei", len(result["candidati"])),
         "codici_fiscali": result["codici_fiscali"],
     }
 
@@ -168,7 +186,7 @@ def run_scan(con=None, bandi=None, match_limit=20, include_statuses=None):
             sin_match.append(tuple(esito[k] for k in ("titolo", "url", "ente", "scadenza", "gg", "tags", "territorio", "status", "motivo")))
         else:
             stats_ets.update(esito["codici_fiscali"])
-            resultados.append({k: esito[k] for k in ("titolo", "url", "ente", "budget", "scadenza", "gg", "tags", "territorio", "status", "pattern", "candidati")})
+            resultados.append({k: esito[k] for k in ("titolo", "url", "ente", "budget", "scadenza", "gg", "tags", "territorio", "status", "pattern", "candidati", "n_idonei")})
 
     return {
         "bandi": bandi,

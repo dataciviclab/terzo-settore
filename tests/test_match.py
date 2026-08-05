@@ -19,6 +19,7 @@ from temi import (
     sezioni_per_tag as get_sections_from_tags,
 )
 from match.matcher import classify_bando, match_bando
+from match.funnel import match_bando_funnel
 from lib.format import parse_date_flex
 
 ETS_FILE = Path("data/unified_ets.parquet")
@@ -73,6 +74,16 @@ def main():
             df = match_bando(con, pattern, tags, limit=10, territorio=None)
             assert isinstance(df, object)
     print(" ✅ regressione: nessun errore con vari tag (sport, digitale, misti, sconosciuti)")
+
+    # Funnel a 2 assi: la sezione è GATE, non match. Nessun 'solo_sezione'
+    # deve comparire nei top-20 (chi entra solo per sezione senza conferma
+    # nel nome finisce in coda, non in testa).
+    df_sport = match_bando_funnel(con, ["sport"], limit=20)
+    motivi_sport = set(df_sport["motivo_match"].tolist())
+    ok_funnel = "solo_sezione" not in motivi_sport and len(df_sport) > 0
+    if not ok_funnel:
+        failures += 1
+    print(f" {'✅' if ok_funnel else '❌'} funnel 2 assi: top-20 sport senza 'solo_sezione' (n={len(df_sport)})")
 
     print()
     print("🧪 Operational filter test:")
@@ -215,6 +226,27 @@ def main():
     if not ok_part:
         failures += 1
     print(f" {'✅' if ok_part else '❌'} ETS con partecipazioni gare > 10k (attuale: {n_part:,})")
+
+    # ── Test pacchetto territorio (deliverable CSV) ─────────────────
+    pacchetto_path = Path(__file__).resolve().parents[1] / "data/reporting/territorio_BO.json"
+    if pacchetto_path.exists():
+        pacchetto = json.loads(pacchetto_path.read_text())
+        checks_pacchetto = [
+            ("Schema pacchetto v1", pacchetto.get("schema") == "territorio_pacchetto_v1"),
+            ("ETS Bologna > 2500", pacchetto["ets"]["tot"] > 2500),
+            ("Contesto sociale presente", pacchetto["contesto_sociale"].get("reddito") is not None),
+            ("Bandi con match locale", len(pacchetto["bandi_con_match_locale"]) > 0),
+            ("Chiave bidirezionale (id bando)", all(b.get("id") for b in pacchetto["bandi_con_match_locale"])),
+            ("Chiave bidirezionale (CF candidati)", all(
+                c.get("codice_fiscale") for b in pacchetto["bandi_con_match_locale"] for c in b["candidati"])),
+        ]
+        for name, ok in checks_pacchetto:
+            status = "✅" if ok else "❌"
+            if not ok:
+                failures += 1
+            print(f" {status} {name}")
+    else:
+        print(" ⚠️  Pacchetto BO non trovato, salto test (esegui make pacchetto T=BO)")
 
     con.close()
     print()

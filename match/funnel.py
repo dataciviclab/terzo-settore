@@ -63,9 +63,11 @@ def _cond_temi(p):
     return f"(regexp_matches(temi_anac, '{p}'))"
 
 
-# Temi dove la SEZIONE RUNTS è di per sé il segnale tematico:
-# un'ODV è per definizione un'organizzazione di volontariato — non serve
-# che la parola compaia nel nome (AVIS, AUSER, Amici dell'Hospice...).
+# Temi dove la SEZIONE RUNTS è ammessa di per sé (GATE, non match pieno):
+# un'ODV è per definizione un'organizzazione di volontariato — entra nel
+# bando, ma lo score pieno spetta a chi conferma il tema nel nome/temi.
+# La sezione ammette (gate), non premia (match). Evita il bias per cui
+# TUTTE le 70k APS matchano ogni bando sport solo per essere APS.
 SEZIONE_AS_TEMA: dict[str, str] = {
     "volontariato": "ORGANIZZAZIONI DI VOLONTARIATO",
     "sport": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
@@ -73,15 +75,20 @@ SEZIONE_AS_TEMA: dict[str, str] = {
 
 
 def match_tema_sql(tags, testo=None):
-    """Costruisce la condizione SQL di pertinenza.
+    """Costruisce la condizione SQL di pertinenza (2 assi).
 
-    Ritorna (condizione, motivo_col):
-      - match PRINCIPALE: denominazione matcha il tema dominante (FORTE),
-        OPPURE la sezione è di per sé il tema (ODV=volontariato, APS=sport)
-      - match SECONDARIO: denominazione matcha altri tag (DEBOLE)
-      - temi_anac matcha: boost debole (ha mai operato nel tema), mai
-        come match principale — evita che i grandi enti "tuttofare"
-        (temi_anac pieni) dominino il ranking
+    ASSE 1 — IDONEITÀ (filtro duro, vedi gate_sezione/territorio):
+      chi è ammesso dal tema principale. La sezione-as-tema è un GATE,
+      non un match principale.
+
+    ASSE 2 — PERTINENZA (score continuo, non sì/no):
+      - match PRINCIPALE: denominazione matcha il tema dominante (FORTE)
+      - match SECONDARIO: denominazione matcha altri tag (MEDIO)
+      - temi_anac matcha: boost debole (ha mai operato nel tema)
+      - SOLO sezione (ODV=volontariato, APS=sport): debole — ammette
+        ma non premia chi è solo di quella sezione senza conferma nel nome
+
+    Ritorna (condizione, motivo_col).
     """
     tema_prim = tema_principale(tags, testo)
     pattern_prim = TEMA_PATTERN.get(tema_prim) if tema_prim else None
@@ -101,28 +108,25 @@ def match_tema_sql(tags, testo=None):
     pattern_sec = "|".join(pattern_sec_parts) if pattern_sec_parts else None
 
     prim_denom = _cond(pattern_prim) if pattern_prim else None
-    prim_sez = f"sezione = '{sez_prim}'" if sez_prim else None
     sec_denom = _cond(pattern_sec) if pattern_sec else None
     prim_temi = _cond_temi(pattern_prim) if pattern_prim else None
+    sez_cond = f"sezione = '{sez_prim}'" if sez_prim else None
 
-    # motivi: la sezione-as-tema è un match principale (ODV=volontariato)
-    if prim_denom or prim_sez:
-        parts_cond = [p for p in (prim_denom, prim_sez, sec_denom, prim_temi) if p]
-        cond = "(" + " OR ".join(parts_cond) + ")"
-        whens = []
-        if prim_denom:
-            whens.append(f"WHEN {prim_denom} THEN 'tema_principale'")
-        if prim_sez:
-            whens.append(f"WHEN {prim_sez} THEN 'tema_principale'")
-        if sec_denom:
-            whens.append(f"WHEN {sec_denom} THEN 'tema_secondario'")
-        if prim_temi:
-            whens.append(f"WHEN {prim_temi} THEN 'tema_temi_anac'")
-        motivo = "CASE " + " ".join(whens) + " ELSE NULL END"
-        return cond, motivo
+    # Condizione di ammissione: nome matcha tema, OPPURE sezione-as-tema
+    cond_parts = [p for p in (prim_denom, sec_denom, prim_temi, sez_cond) if p]
+    cond = "(" + " OR ".join(cond_parts) + ")" if cond_parts else "1=0"
+
+    whens = []
+    if prim_denom:
+        whens.append(f"WHEN {prim_denom} THEN 'tema_principale'")
     if sec_denom:
-        return sec_denom, f"CASE WHEN {sec_denom} THEN 'tema_secondario' ELSE NULL END"
-    return "1=0", "NULL"
+        whens.append(f"WHEN {sec_denom} THEN 'tema_secondario'")
+    if prim_temi:
+        whens.append(f"WHEN {prim_temi} THEN 'tema_temi_anac'")
+    if sez_cond:
+        whens.append(f"WHEN {sez_cond} THEN 'solo_sezione'")
+    motivo = "CASE " + " ".join(whens) + " ELSE NULL END"
+    return cond, motivo
 
 
 # ── Stage 3: ranking (pertinenza × capacità) ───────────────────────
@@ -132,7 +136,8 @@ SCORE_SQL = """
         WHEN motivo_match = 'tema_principale' THEN 100
         WHEN motivo_match = 'tema_secondario' THEN 60
         WHEN motivo_match = 'tema_temi_anac' THEN 30
-        ELSE 10
+        WHEN motivo_match = 'solo_sezione' THEN 10
+        ELSE 5
     END)
     + (CASE capacita_progettuale
         WHEN 'alta' THEN 25 WHEN 'medio-alta' THEN 18

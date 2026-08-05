@@ -16,8 +16,6 @@ from temi import (
     sezioni_per_tag as get_sections_from_tags,
 )
 
-MATCH_ETS_SQL = (ROOT / "ets/match_ets.sql").read_text()
-
 NON_OPERATIVE_TITLE_RE = re.compile(
     r"\b(esito|esiti|approvat[ioe]|affidat[aoie]|aggiudicat[aoie]|risultat[io]|graduatoria|finanziati)\b",
     re.IGNORECASE,

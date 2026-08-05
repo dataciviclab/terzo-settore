@@ -15,6 +15,9 @@ data/*.parquet
 data/gcs_cache/
 data/build/
 
+# Pacchetti territorio per CSV — derivati, rigenerabili
+data/reporting/
+
 # Output derivati (CSV contatti) — rigenerabili, non versionati
 cruscotto/output/
 

@@ -1,0 +1,2101 @@
+{
+  "generato": "2026-08-04T22:21:46",
+  "territorio": "MI",
+  "comune": "Abbiategrasso",
+  "titolo": "Abbiategrasso",
+  "ets_landscape": {
+    "tot": 75,
+    "per_capacita": [
+      {
+        "grp": "sconosciuta",
+        "n": 34
+      },
+      {
+        "grp": "media",
+        "n": 25
+      },
+      {
+        "grp": "medio-alta",
+        "n": 8
+      },
+      {
+        "grp": "base",
+        "n": 5
+      },
+      {
+        "grp": "alta",
+        "n": 3
+      }
+    ],
+    "per_tipologia": [
+      {
+        "grp": "ORGANIZZAZIONI DI VOLONTARIATO",
+        "n": 26
+      },
+      {
+        "grp": "ASSOCIAZIONI DI PROMOZIONE SOCIALE",
+        "n": 25
+      },
+      {
+        "grp": "ALTRI ENTI DEL TERZO SETTORE",
+        "n": 14
+      },
+      {
+        "grp": "IMPRESE SOCIALI",
+        "n": 10
+      }
+    ]
+  },
+  "bandi_locali": [
+    {
+      "titolo": "Contributi annuali della Banca d’Italia – 2^ scadenza 2026",
+      "scadenza": "31 agosto 2026 (domande a partire dal 1° luglio)",
+      "gg": 27,
+      "ente": "Banca d’Italia",
+      "tags": [
+        "Minori",
+        "Cultura",
+        "Giovani",
+        "Inclusione sociale",
+        "Salute",
+        "Anziani",
+        "Ricerca",
+        "scuole",
+        "Banca d'Italia",
+        "Contributi annuali"
+      ],
+      "urgenza": "🟡",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "ATE - ASSOCIAZIONE SOCIO-CULTURALE RICREATIVA ABBIATENSE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Bando BPER 2026: progetti di sport inclusivo da finanziare in crowdfunding",
+      "scadenza": "7 settembre 2026 alle ore 12:00",
+      "gg": 34,
+      "ente": "BPER Banca",
+      "tags": [
+        "In evidenza",
+        "Minori",
+        "Disabilità",
+        "Giovani",
+        "Inclusione sociale",
+        "Sport",
+        "Adolescenti",
+        "BPER Banca",
+        "crowdfunding"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "HEIROS ETS APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente; APS",
+          "importo_5x1000_2025": 3317.17
+        },
+        {
+          "denominazione": "COMPLESSO BANDISTICO LA FILARMONICA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2123.38
+        },
+        {
+          "denominazione": "AMICIZIA E' VITA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente; APS",
+          "importo_5x1000_2025": 515.36
+        },
+        {
+          "denominazione": "ASSOCIAZIONE ALIF-BAA - APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente; APS",
+          "importo_5x1000_2025": 511.02
+        },
+        {
+          "denominazione": "ANFFAS ABBIATEGRASSO - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA INTELLETTIVE E DISTURBI DEL NEUROSVILUPPO APS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 115,
+          "motivo": "tema_principale; capacità media; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Bando aperto &#8211; Sportello della solidarietà",
+      "scadenza": "Lo sportello opera attraverso un bando aperto, senza scadenza.",
+      "gg": 999,
+      "ente": "Fondazione Terzo Pilastro – Internazionale",
+      "tags": [
+        "Disabilità",
+        "Cultura",
+        "Giovani",
+        "Inclusione sociale",
+        "Lavoro",
+        "Salute",
+        "Ricerca",
+        "Migranti",
+        "malattie rare"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 4504.81
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 85,
+          "motivo": "tema_secondario; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 76,
+          "motivo": "tema_secondario; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "AMICI CENTRO CULTURALE SHALOM ASSOCIAZIONE DI VOLONTARIATO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 76,
+          "motivo": "tema_secondario; capacità media; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 967.84
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 76,
+          "motivo": "tema_secondario; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Otto per mille a gestione diretta statale &#8211; anno 2026",
+      "scadenza": "30 settembre 2026",
+      "gg": 57,
+      "ente": "Presidenza del Consiglio dei ministri",
+      "tags": [
+        "Cultura",
+        "Inclusione sociale",
+        "Dipendenze",
+        "Migranti",
+        "ottopermille",
+        "Calamità naturali",
+        "Cooperazione allo sviluppo"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "ATE - ASSOCIAZIONE SOCIO-CULTURALE RICREATIVA ABBIATENSE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Spazi dedicati allo sport negli oratori",
+      "scadenza": "16 ottobre 2026 alle ore 12.00 (domande a partire dal 16 luglio 2026 alle ore 12.00).",
+      "gg": 73,
+      "ente": "Dipartimento per lo sport della Presidenza del Consiglio dei ministri",
+      "tags": [
+        "Giovani",
+        "Inclusione sociale",
+        "Sport",
+        "Rigenerazione urbana",
+        "Adolescenti",
+        "Dipartimento per lo Sport",
+        "Oratori"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "HEIROS ETS APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente; APS",
+          "importo_5x1000_2025": 3317.17
+        },
+        {
+          "denominazione": "COMPLESSO BANDISTICO LA FILARMONICA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2123.38
+        },
+        {
+          "denominazione": "AMICIZIA E' VITA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente; APS",
+          "importo_5x1000_2025": 515.36
+        },
+        {
+          "denominazione": "ASSOCIAZIONE ALIF-BAA - APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente; APS",
+          "importo_5x1000_2025": 511.02
+        },
+        {
+          "denominazione": "ANFFAS ABBIATEGRASSO - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA INTELLETTIVE E DISTURBI DEL NEUROSVILUPPO APS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 115,
+          "motivo": "tema_principale; capacità media; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Richieste di contributo alla DWF Foundation &#8211; 3^ scadenza 2026",
+      "scadenza": "30 settembre 2026 (ultima scadenza dell&#8217;anno)",
+      "gg": 57,
+      "ente": "DWF Foundation",
+      "tags": [
+        "Lavoro",
+        "Salute",
+        "Volontariato",
+        "Povertà",
+        "Ambiente",
+        "scuole",
+        "DWF Foundation"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA ODV ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 100,
+          "motivo": "tema_secondario; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 34695.62
+        },
+        {
+          "denominazione": "LULE ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 85,
+          "motivo": "tema_secondario; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 3142.94
+        },
+        {
+          "denominazione": "ASSOCIAZIONE AMICI DELL'HOSPICE DI ABBIATEGRASSO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 82,
+          "motivo": "tema_secondario; capacità media; 5x1000 >100k; ODV",
+          "importo_5x1000_2025": 202508.45
+        }
+      ],
+      "extra_candidati": 5
+    },
+    {
+      "titolo": "Bando &#8220;Zenit&#8221;: competenze digitali delle persone con disabilità",
+      "scadenza": "18 settembre 2026 alle ore 11.00",
+      "gg": 45,
+      "ente": "Fondo per la Repubblica Digitale &#8211; Impresa sociale srl",
+      "tags": [
+        "In evidenza",
+        "Disabilità",
+        "Inclusione sociale",
+        "Lavoro",
+        "Formazione",
+        "Digitale",
+        "Fondo per la Repubblica Digitale"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 4504.81
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Investo in Senegal",
+      "scadenza": "16 agosto 2026",
+      "gg": 12,
+      "ente": "AICS",
+      "tags": [
+        "salute",
+        "volontariato"
+      ],
+      "urgenza": "🔴",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA ODV ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 34695.62
+        },
+        {
+          "denominazione": "LULE ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 3142.94
+        },
+        {
+          "denominazione": "ASSOCIAZIONE AMICI DELL'HOSPICE DI ABBIATEGRASSO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 122,
+          "motivo": "tema_principale; capacità media; 5x1000 >100k; ODV",
+          "importo_5x1000_2025": 202508.45
+        },
+        {
+          "denominazione": "AVIS COMUNALE  DI ABBIATEGRASSO ORGANIZZAZIONE DI VOLONTARIATO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 122,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 455.79
+        },
+        {
+          "denominazione": "AMICI DEI MICI ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 119,
+          "motivo": "tema_principale; capacità media; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 17165.58
+        }
+      ],
+      "extra_candidati": 5
+    },
+    {
+      "titolo": "Fondazione Cariplo sostiene la progettazione europea",
+      "scadenza": "31 dicembre 2026",
+      "gg": 149,
+      "ente": "Fondazione Cariplo",
+      "tags": [
+        "cultura",
+        "ambiente",
+        "digitale",
+        "ricerca",
+        "animali",
+        "premi"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 85,
+          "motivo": "tema_secondario; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 76,
+          "motivo": "tema_secondario; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "AMICI CENTRO CULTURALE SHALOM ASSOCIAZIONE DI VOLONTARIATO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 76,
+          "motivo": "tema_secondario; capacità media; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 967.84
+        }
+      ],
+      "extra_candidati": 5
+    },
+    {
+      "titolo": "Compagnia di San Paolo: contributi per lo sviluppo organizzativo del Terzo Settore",
+      "scadenza": "31 dicembre 2026",
+      "gg": 149,
+      "ente": "Fondazione Compagnia di San Paolo",
+      "tags": [
+        "ambiente",
+        "ricerca"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Contributi filantropici di Autostrade per l&#8217;Italia 2026",
+      "scadenza": "13 settembre 2026",
+      "gg": 40,
+      "ente": "Autostrade per l’Italia",
+      "tags": [
+        "Donne",
+        "Disabilità",
+        "Inclusione sociale",
+        "Digitale",
+        "scuole",
+        "Autostrade per l'Italia"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 4504.81
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Fondo per la promozione del dialogo: bando 2026",
+      "scadenza": "15 settembre 2026 alle ore 12:00",
+      "gg": 42,
+      "ente": "Ministero dell&#8217;Università e della Ricerca",
+      "tags": [
+        "Dialogo Interculturale",
+        "Giovani",
+        "scuole",
+        "università",
+        "Lotta all'antisemitismo",
+        "Ministero dell'Università e della Ricerca"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "A STEFANO CASATI SOCIETA' COOPERATIVA SOCIALE - O.N.L.U.S.",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 67,
+          "motivo": "tema_temi_anac; capacità alta; 5x1000 presente",
+          "importo_5x1000_2025": 2636.61
+        },
+        {
+          "denominazione": "LULE SOC. COOP. SOCIALE O.N.L.U.S.",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 63,
+          "motivo": "tema_temi_anac; capacità alta",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Bando “Opportunità per me, un futuro migliore. Percorsi di seconda occasione”",
+      "scadenza": "30 settembre 2026 alle ore 13:00",
+      "gg": 57,
+      "ente": "Impresa sociale CON I BAMBINI",
+      "tags": [
+        "Giovani",
+        "Inclusione sociale",
+        "Lavoro",
+        "Dispersione scolastica",
+        "Adolescenti",
+        "CON I BAMBINI Impresa Sociale"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "IL MELOGRANO CENTRO INFORMAZIONE MATERNITA' E NASCITA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 62,
+          "motivo": "tema_secondario; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Bando Intraprendere nel sociale 2026",
+      "scadenza": "13 novembre 2026",
+      "gg": 101,
+      "ente": "Fondazione Cattolica",
+      "tags": [
+        "Disabilità",
+        "Inclusione sociale",
+        "Lavoro",
+        "Anziani",
+        "Povertà",
+        "Fondazione Cattolica"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 4504.81
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori",
+      "scadenza": "03 novembre 2026",
+      "gg": 91,
+      "ente": "Commissione Europea",
+      "tags": [
+        "donne",
+        "salute",
+        "minori"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "A.V.O. - ASSOCIAZIONE VOLONTARI OSPEDALIERI DI ABBIATEGRASSO (ODV)",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; ODV",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Sostegno alle municipalità in Libia",
+      "scadenza": "31 agosto 2026",
+      "gg": 27,
+      "ente": "AICS",
+      "tags": [
+        "ambiente",
+        "salute",
+        "educazione"
+      ],
+      "urgenza": "🟡",
+      "candidati": [
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "A.V.O. - ASSOCIAZIONE VOLONTARI OSPEDALIERI DI ABBIATEGRASSO (ODV)",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 62,
+          "motivo": "tema_secondario; capacità sconosciuta; ODV",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Bando “Note di comunità. Esperienze musicali di quartiere”",
+      "scadenza": "16 ottobre 2026 alle ore 13:00",
+      "gg": 73,
+      "ente": "Impresa sociale CON I BAMBINI",
+      "tags": [
+        "Minori",
+        "Cultura",
+        "Musica",
+        "Adolescenti",
+        "CON I BAMBINI Impresa Sociale"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "ATE - ASSOCIAZIONE SOCIO-CULTURALE RICREATIVA ABBIATENSE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 4
+    },
+    {
+      "titolo": "Piano Nazionale &#8220;Cinema e immagini per la scuola&#8221;: progetti di rilevanza nazionale",
+      "scadenza": "18 settembre 2026 alle ore 15.00 (domande a partire dal 13 luglio)",
+      "gg": 45,
+      "ente": "Ministero della Cultura e Ministero dell&#8217;Istruzione e del Merito",
+      "tags": [
+        "Cultura",
+        "Cinema",
+        "scuole",
+        "Ministero della Cultura",
+        "Ministero dell'Istruzione e del Merito"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "ATE - ASSOCIAZIONE SOCIO-CULTURALE RICREATIVA ABBIATENSE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Avviso &#8220;Vita &#038; Opportunità&#8221;",
+      "scadenza": "29 agosto 2026 alle ore 17:00 (sportello aperto dal 2 marzo 2026 fino ad esaurimento fondi)",
+      "gg": 25,
+      "ente": "Dipartimento per le politiche in favore delle persone con disabilità &#8211; Presidenza del Consiglio dei Ministri",
+      "tags": [
+        "Minori",
+        "Disabilità",
+        "Inclusione sociale",
+        "Lavoro",
+        "Agricoltura sociale"
+      ],
+      "urgenza": "🟡",
+      "candidati": [
+        {
+          "denominazione": "FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 4504.81
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "17 milioni per le minoranze cristiane in aree di crisi",
+      "scadenza": "30 ottobre 2026",
+      "gg": 87,
+      "ente": "AICS",
+      "tags": [
+        "disabilità",
+        "minori",
+        "lavoro",
+        "salute",
+        "educazione",
+        "inclusione sociale",
+        "donne"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 4504.81
+        },
+        {
+          "denominazione": "A.V.O. - ASSOCIAZIONE VOLONTARI OSPEDALIERI DI ABBIATEGRASSO (ODV)",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 62,
+          "motivo": "tema_secondario; capacità sconosciuta; ODV",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità",
+      "scadenza": "18 settembre 2026",
+      "gg": 45,
+      "ente": "Fondo per la Repubblica Digitale",
+      "tags": [
+        "digitale",
+        "disabilità",
+        "animali",
+        "inclusione sociale"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 4504.81
+        },
+        {
+          "denominazione": "PROSPETTIVA DOMANI ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 62,
+          "motivo": "tema_secondario; capacità sconosciuta; ODV",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Grant per rafforzare democrazia e società civile nei Balcani",
+      "scadenza": "03 settembre 2026",
+      "gg": 30,
+      "ente": "European Fund for the Balkans",
+      "tags": [
+        "ambiente",
+        "lavoro"
+      ],
+      "urgenza": "🟡",
+      "candidati": [
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "IL MELOGRANO CENTRO INFORMAZIONE MATERNITA' E NASCITA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 62,
+          "motivo": "tema_secondario; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Bando Volontariato 2026",
+      "scadenza": "30 settembre 2026 alle ore 13.00",
+      "gg": 57,
+      "ente": "Fondazione CON IL SUD",
+      "tags": [
+        "Inclusione sociale",
+        "Volontariato",
+        "Mezzogiorno",
+        "Fondazione CON IL SUD"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA ODV ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 34695.62
+        },
+        {
+          "denominazione": "LULE ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 3142.94
+        },
+        {
+          "denominazione": "ASSOCIAZIONE AMICI DELL'HOSPICE DI ABBIATEGRASSO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 122,
+          "motivo": "tema_principale; capacità media; 5x1000 >100k; ODV",
+          "importo_5x1000_2025": 202508.45
+        },
+        {
+          "denominazione": "AVIS COMUNALE  DI ABBIATEGRASSO ORGANIZZAZIONE DI VOLONTARIATO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 122,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 455.79
+        },
+        {
+          "denominazione": "AMICI DEI MICI ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 119,
+          "motivo": "tema_principale; capacità media; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 17165.58
+        }
+      ],
+      "extra_candidati": 5
+    },
+    {
+      "titolo": "&#8220;Cultura Cresce&#8221;: contributi per lo sviluppo delle imprese culturali e creative",
+      "scadenza": "Bando a sportello. Le domande possono essere presentate a partire dalle ore 12.00 del 10 dicembre 2025, fino a esaurimento delle risorse disponibili.",
+      "gg": 999,
+      "ente": "Ministero della Cultura (gestione Invitalia)",
+      "tags": [
+        "Cultura",
+        "Mezzogiorno",
+        "Ministero della Cultura",
+        "PN Cultura 2021-2027"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "AMICI DELLA BIBLIOTECA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "iF Social Impact Prize &#8211; ultima scadenza 2026",
+      "scadenza": "19 agosto 2026 (seconda ed ultima scadenza dell&#8217;anno)",
+      "gg": 15,
+      "ente": "iF Design",
+      "tags": [
+        "Premi internazionali",
+        "Obiettivi per lo Sviluppo Sostenibile",
+        "iF Design",
+        "Cooperazione allo sviluppo"
+      ],
+      "urgenza": "🟡",
+      "candidati": [
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Contributi per indagini giornalistiche sull&#8217;ambiente &#8211; ultima scadenza 2026",
+      "scadenza": "6 agosto 2026",
+      "gg": 2,
+      "ente": "Journalismfund.eu",
+      "tags": [
+        "Ambiente",
+        "Europa",
+        "Giornalismo",
+        "Journalismfund.eu"
+      ],
+      "urgenza": "🔴",
+      "candidati": [
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Iniziativa Beni confiscati &#8211; Regolamento 2026",
+      "scadenza": "10 dicembre 2026",
+      "gg": 128,
+      "ente": "Fondazione CON IL SUD",
+      "tags": [
+        "Inclusione sociale",
+        "Mezzogiorno",
+        "Fondazione CON IL SUD",
+        "Beni confiscati"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "LULE SOC. COOP. SOCIALE O.N.L.U.S.",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 63,
+          "motivo": "tema_temi_anac; capacità alta",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Premio Olivetti per l&#8217;accessibilità culturale",
+      "scadenza": "15 settembre 2026 alle ore 12:00",
+      "gg": 42,
+      "ente": "Ministero della  Cultura",
+      "tags": [
+        "Cultura",
+        "Inclusione sociale",
+        "premi nazionali"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "AMICI DELLA BIBLIOTECA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Bando CERV per l'attuazione della Carta dei diritti fondamentali UE",
+      "scadenza": "15 settembre 2026",
+      "gg": 42,
+      "ente": "Commissione Europea",
+      "tags": [
+        "ambiente",
+        "inclusione sociale"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Bandi Programma LIFE 2026",
+      "scadenza": "22 settembre 2026",
+      "gg": 49,
+      "ente": "Commissione Europea",
+      "tags": [
+        "animali",
+        "ambiente",
+        "ricerca"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "PROSPETTIVA DOMANI ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 62,
+          "motivo": "tema_secondario; capacità sconosciuta; ODV",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "NEXT MED per il turismo sostenibile",
+      "scadenza": "29 ottobre 2026",
+      "gg": 86,
+      "ente": "Commissione Europea",
+      "tags": [
+        "ambiente"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "NATURAL RIDING SYSTEM ASD APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CIRCOLO LEGAMBIENTE TERRE DI PARCHI",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Interventi di rafforzamento dell’integrazione scolastica di alunni e studenti di Paesi terzi 2027-2028",
+      "scadenza": "08 ottobre 2026 (con proroga) ore 12.00",
+      "gg": 65,
+      "ente": "Commissione europea – Autorità di Gestione FAMI Ministero Interno &#8211; Direzione Centrale per le Politiche migratorie",
+      "tags": [
+        "minori",
+        "educazione",
+        "inclusione sociale",
+        "migranti"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "LULE SOC. COOP. SOCIALE O.N.L.U.S.",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 63,
+          "motivo": "tema_temi_anac; capacità alta",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Perform Europe 2026-2028: mobilità internazionale delle arti performative",
+      "scadenza": "22 ottobre 2026",
+      "gg": 79,
+      "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
+      "tags": [
+        "cultura"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "AMICI DELLA BIBLIOTECA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Prevenire gli sprechi alimentari",
+      "scadenza": "15 ottobre 2026",
+      "gg": 72,
+      "ente": "Commissione Europea – HaDEA Agenzia esecutiva per la salute e il digitale",
+      "tags": [
+        "lavoro"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "A STEFANO CASATI SOCIETA' COOPERATIVA SOCIALE - O.N.L.U.S.",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 67,
+          "motivo": "tema_temi_anac; capacità alta; 5x1000 presente",
+          "importo_5x1000_2025": 2636.61
+        },
+        {
+          "denominazione": "LULE SOC. COOP. SOCIALE O.N.L.U.S.",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 63,
+          "motivo": "tema_temi_anac; capacità alta",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "ZMINA-Resilience: progetti culturali co-creati tra Ucraina e Paesi Europa Creativa",
+      "scadenza": "Il bando è organizzato con una procedura a sportello, che prevede più finestre di candidatura nel corso di 16 mesi.",
+      "gg": 999,
+      "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
+      "tags": [
+        "cultura",
+        "migranti"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "AMICI DELLA BIBLIOTECA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Youth Start-Up Challenge 2026: concorso per giovani imprenditori",
+      "scadenza": "20 settembre 2026",
+      "gg": 47,
+      "ente": "Commissione Europea &#8211; DG del Mercato interno, dell’industria, dell’imprenditoria e delle PMI",
+      "tags": [
+        "giovani",
+        "premi",
+        "lavoro"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "IL MELOGRANO CENTRO INFORMAZIONE MATERNITA' E NASCITA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 62,
+          "motivo": "tema_secondario; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Cultural Horizons &#8211; prodotti culturali innovativi tra UE e Ucraina",
+      "scadenza": "14 agosto 2026",
+      "gg": 10,
+      "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura tramite Ukrainian Cultural Foundation",
+      "tags": [
+        "cultura",
+        "migranti"
+      ],
+      "urgenza": "🔴",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente",
+          "importo_5x1000_2025": 356.47
+        },
+        {
+          "denominazione": "ASSOCIAZIONE CULTURALE ABBIATENSE ENTE DEL TERZO SETTORE",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 1024.88
+        },
+        {
+          "denominazione": "ASSOCIAZIONE LABORATORIO MUSICALE DANIELE MAFFEIS ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 116,
+          "motivo": "tema_principale; capacità media; 5x1000 presente",
+          "importo_5x1000_2025": 257.22
+        },
+        {
+          "denominazione": "NOUR ASSOCIAZIONE CULTURALE APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "base",
+          "score": 110,
+          "motivo": "tema_principale; capacità base; 5x1000 presente; APS",
+          "importo_5x1000_2025": 2986.22
+        },
+        {
+          "denominazione": "AMICI DELLA BIBLIOTECA APS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; APS",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 2
+    },
+    {
+      "titolo": "Sostenere l&#8217;applicazione della Carta dei diritti fondamentali dell&#8217;UE",
+      "scadenza": "15 settembre 2026",
+      "gg": 42,
+      "ente": "Commissione Europea &#8211; DG Giustizia e Consumatori",
+      "tags": [
+        "diritti"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "PROSPETTIVA DOMANI ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 102,
+          "motivo": "tema_principale; capacità sconosciuta; ODV",
+          "importo_5x1000_2025": NaN
+        },
+        {
+          "denominazione": "A.V.O. - ASSOCIAZIONE VOLONTARI OSPEDALIERI DI ABBIATEGRASSO (ODV)",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "sconosciuta",
+          "score": 62,
+          "motivo": "tema_secondario; capacità sconosciuta; ODV",
+          "importo_5x1000_2025": NaN
+        }
+      ],
+      "extra_candidati": 0
+    },
+    {
+      "titolo": "Progetti di solidarietà – 2^ scadenza",
+      "scadenza": "01 ottobre 2026",
+      "gg": 58,
+      "ente": "Commissione Europea &#8211; DG Educazione, Giovani, Sport e Cultura",
+      "tags": [
+        "inclusione sociale",
+        "volontariato"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA ODV ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 34695.62
+        },
+        {
+          "denominazione": "LULE ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 3142.94
+        },
+        {
+          "denominazione": "ASSOCIAZIONE AMICI DELL'HOSPICE DI ABBIATEGRASSO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 122,
+          "motivo": "tema_principale; capacità media; 5x1000 >100k; ODV",
+          "importo_5x1000_2025": 202508.45
+        },
+        {
+          "denominazione": "AVIS COMUNALE  DI ABBIATEGRASSO ORGANIZZAZIONE DI VOLONTARIATO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 122,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 455.79
+        },
+        {
+          "denominazione": "AMICI DEI MICI ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 119,
+          "motivo": "tema_principale; capacità media; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 17165.58
+        }
+      ],
+      "extra_candidati": 5
+    },
+    {
+      "titolo": "Marchio di Qualità per il volontariato nel settore degli aiuti umanitari",
+      "scadenza": "22 settembre 2027",
+      "gg": 414,
+      "ente": "Commissione Europea &#8211; DG Educazione, Cultura e Audiovisivo",
+      "tags": [
+        "volontariato"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA ODV ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 34695.62
+        },
+        {
+          "denominazione": "LULE ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 3142.94
+        },
+        {
+          "denominazione": "ASSOCIAZIONE AMICI DELL'HOSPICE DI ABBIATEGRASSO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 122,
+          "motivo": "tema_principale; capacità media; 5x1000 >100k; ODV",
+          "importo_5x1000_2025": 202508.45
+        },
+        {
+          "denominazione": "AVIS COMUNALE  DI ABBIATEGRASSO ORGANIZZAZIONE DI VOLONTARIATO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 122,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 455.79
+        },
+        {
+          "denominazione": "AMICI DEI MICI ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 119,
+          "motivo": "tema_principale; capacità media; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 17165.58
+        }
+      ],
+      "extra_candidati": 5
+    },
+    {
+      "titolo": "Marchio di Qualità per il volontariato",
+      "scadenza": "31 dicembre 2027",
+      "gg": 514,
+      "ente": "Commissione Europea &#8211; DG Educazione, Cultura e Audiovisivo",
+      "tags": [
+        "volontariato"
+      ],
+      "urgenza": "🟢",
+      "candidati": [
+        {
+          "denominazione": "ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA ODV ETS",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "alta",
+          "score": 140,
+          "motivo": "tema_principale; capacità alta; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 34695.62
+        },
+        {
+          "denominazione": "LULE ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 125,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 3142.94
+        },
+        {
+          "denominazione": "ASSOCIAZIONE AMICI DELL'HOSPICE DI ABBIATEGRASSO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 122,
+          "motivo": "tema_principale; capacità media; 5x1000 >100k; ODV",
+          "importo_5x1000_2025": 202508.45
+        },
+        {
+          "denominazione": "AVIS COMUNALE  DI ABBIATEGRASSO ORGANIZZAZIONE DI VOLONTARIATO ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "medio-alta",
+          "score": 122,
+          "motivo": "tema_principale; capacità medio-alta; 5x1000 presente; ODV",
+          "importo_5x1000_2025": 455.79
+        },
+        {
+          "denominazione": "AMICI DEI MICI ODV",
+          "comune": "ABBIATEGRASSO",
+          "provincia": "MI",
+          "capacita": "media",
+          "score": 119,
+          "motivo": "tema_principale; capacità media; 5x1000 >10k; ODV",
+          "importo_5x1000_2025": 17165.58
+        }
+      ],
+      "extra_candidati": 5
+    }
+  ],
+  "contesto": {
+    "etichetta": "Comune di Abbiategrasso",
+    "reddito": 19366.0,
+    "anno_reddito": 2024,
+    "rd_pct": 2.8000000000000003
+  },
+  "ets_riservati": [],
+  "ets_immobili": [
+    {
+      "denominazione": "ATE - ASSOCIAZIONE SOCIO-CULTURALE RICREATIVA ABBIATENSE APS",
+      "comune": "ABBIATEGRASSO",
+      "patrimonio_immobili": 2,
+      "canone": 311.0
+    },
+    {
+      "denominazione": "LULE SOC. COOP. SOCIALE O.N.L.U.S.",
+      "comune": "ABBIATEGRASSO",
+      "patrimonio_immobili": 2,
+      "canone": 2300.0
+    },
+    {
+      "denominazione": "AUSER VOLONTARIATO FILO D'ARGENTO DI ABBIATEGRASSO ODV",
+      "comune": "ABBIATEGRASSO",
+      "patrimonio_immobili": 1,
+      "canone": 292.0
+    },
+    {
+      "denominazione": "GRUPPO LA CAPPELLETTA APS-ETS",
+      "comune": "ABBIATEGRASSO",
+      "patrimonio_immobili": 1,
+      "canone": 1238.0
+    },
+    {
+      "denominazione": "LA TRIBU' ODV",
+      "comune": "ABBIATEGRASSO",
+      "patrimonio_immobili": 1,
+      "canone": 292.0
+    }
+  ],
+  "top_ets": [
+    {
+      "denominazione": "ASSOCIAZIONE AMICI DELL'HOSPICE DI ABBIATEGRASSO ODV",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "media",
+      "importo_5x1000_2025": 202508.45
+    },
+    {
+      "denominazione": "ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA ODV ETS",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "alta",
+      "importo_5x1000_2025": 34695.62
+    },
+    {
+      "denominazione": "AMICI DEI MICI ODV",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "media",
+      "importo_5x1000_2025": 17165.58
+    },
+    {
+      "denominazione": "ESPERA ETS",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "media",
+      "importo_5x1000_2025": 13118.27
+    },
+    {
+      "denominazione": "AGGIUNGI UN POSTO A TAVOLA - G.A.I.A. - ODV",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "media",
+      "importo_5x1000_2025": 9118.77
+    },
+    {
+      "denominazione": "FONDAZIONE ANFFAS ABBIATEGRASSO - IL MELOGRANO ETS",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "media",
+      "importo_5x1000_2025": 4504.81
+    },
+    {
+      "denominazione": "ASSOCIAZIONE AMICI DEI VIGILI DEL FUOCO DI ABBIATEGRASSO ODV",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "media",
+      "importo_5x1000_2025": 3984.44
+    },
+    {
+      "denominazione": "HEIROS ETS APS",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "media",
+      "importo_5x1000_2025": 3317.17
+    },
+    {
+      "denominazione": "LULE ODV",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "medio-alta",
+      "importo_5x1000_2025": 3142.94
+    },
+    {
+      "denominazione": "A STEFANO CASATI SOCIETA' COOPERATIVA SOCIALE - O.N.L.U.S.",
+      "comune": "ABBIATEGRASSO",
+      "capacita": "alta",
+      "importo_5x1000_2025": 2636.61
+    }
+  ],
+  "ets_appalti": [
+    {
+      "denominazione": "LULE SOC. COOP. SOCIALE O.N.L.U.S.",
+      "capacita": "alta",
+      "importo": 2323141.0
+    },
+    {
+      "denominazione": "ASSOCIAZIONE VOLONTARI ABBIATENSI CROCE AZZURRA ODV ETS",
+      "capacita": "alta",
+      "importo": 2287500.0
+    },
+    {
+      "denominazione": "SOCIETA' COOPERATIVA SOCIALE NEW SERVICE ONLUS",
+      "capacita": "medio-alta",
+      "importo": 486461.0
+    },
+    {
+      "denominazione": "A STEFANO CASATI SOCIETA' COOPERATIVA SOCIALE - O.N.L.U.S.",
+      "capacita": "alta",
+      "importo": 267491.0
+    },
+    {
+      "denominazione": "ANFFAS ABBIATEGRASSO - ASSOCIAZIONE LOCALE DI FAMIGLIE E PERSONE CON DISABILITA INTELLETTIVE E DISTURBI DEL NEUROSVILUPPO APS ETS",
+      "capacita": "media",
+      "importo": 138392.0
+    },
+    {
+      "denominazione": "LULE ODV",
+      "capacita": "medio-alta",
+      "importo": 137386.0
+    },
+    {
+      "denominazione": "ASSOCIAZIONE CENTRO TEATRO DEI NAVIGLI ENTE DEL TERZO SETTORE",
+      "capacita": "medio-alta",
+      "importo": 73500.0
+    }
+  ],
+  "gap_limitrofi": [
+    {
+      "comune": "Milano",
+      "provincia": "MI",
+      "ets_tot": 3894,
+      "ets_ok": 1937,
+      "appalti_riservati": 77,
+      "rd_pct": 3.6,
+      "reddito": 28084.0,
+      "segnale": ""
+    },
+    {
+      "comune": "Rozzano",
+      "provincia": "MI",
+      "ets_tot": 43,
+      "ets_ok": 15,
+      "appalti_riservati": 5,
+      "rd_pct": 5.7,
+      "reddito": 16854.0,
+      "segnale": ""
+    },
+    {
+      "comune": "Segrate",
+      "provincia": "MI",
+      "ets_tot": 68,
+      "ets_ok": 34,
+      "appalti_riservati": 4,
+      "rd_pct": 1.1,
+      "reddito": 27663.0,
+      "segnale": ""
+    },
+    {
+      "comune": "Busto Garolfo",
+      "provincia": "MI",
+      "ets_tot": 11,
+      "ets_ok": 3,
+      "appalti_riservati": 2,
+      "rd_pct": 0.0,
+      "reddito": 18983.0,
+      "segnale": ""
+    },
+    {
+      "comune": "San Vittore Olona",
+      "provincia": "MI",
+      "ets_tot": 14,
+      "ets_ok": 5,
+      "appalti_riservati": 2,
+      "rd_pct": 0.0,
+      "reddito": 19348.0,
+      "segnale": ""
+    }
+  ]
+}
