@@ -5,6 +5,8 @@ import unicodedata
 from datetime import date, datetime
 from pathlib import Path
 
+from lab_connectors.gcs.paths import https_url
+
 ROOT = Path(__file__).resolve().parent.parent
 
 # Dataset
@@ -89,12 +91,12 @@ def filtra_bandi_attivi(bandi: list[dict]) -> list[dict]:
 
     return puliti
 
-# GCS paths (cross-repo contract — unico posto dove definirli)
-GCS_BASE = "https://storage.googleapis.com/dataciviclab-clean"
+# GCS paths — path contract canonico centralizzato in lab-connectors
+# (pattern clean_parquet: {slug}/{year}/{slug}_{year}_clean.parquet su bucket clean)
 
 def gcs_path(slug: str, year: int) -> str:
-    """Path GCS per un dataset pulito: {slug}/{year}/{slug}_{year}_clean.parquet"""
-    return f"{GCS_BASE}/{slug}/{year}/{slug}_{year}_clean.parquet"
+    """Path GCS per un dataset pulito — delega al path contract di lab-connectors."""
+    return https_url("clean", "clean_parquet", slug=slug, year=year)
 
 
 # Output

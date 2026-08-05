@@ -17,11 +17,11 @@ import sys
 from pathlib import Path
 
 import duckdb
+from lab_connectors.gcs.paths import https_url
 
 ROOT = Path(__file__).resolve().parents[1]
 LAB = Path(__file__).resolve().parents[1].parent / "dataset-incubator" / "out" / "data" / "clean"
 CACHE = ROOT / "data" / "gcs_cache"
-GCS = "https://storage.googleapis.com/dataciviclab-clean"
 
 # Stessa lista in ets/sources.py (fonte di verità delle dipendenze)
 from sources import SOURCES
@@ -48,7 +48,8 @@ def resolve(slug: str, year, fname: str) -> tuple[str, str]:
     cache = CACHE / fname
     if cache.exists() and cache.stat().st_size > 0 and parquet_valido(cache):
         return f"'{cache}'", "cache"
-    return f"'{GCS}/{slug}/{year}/{fname}'", "gcs"
+    # Fallback GCS: path contract canonico lab-connectors (bucket clean)
+    return f"'{https_url('clean', 'clean_parquet', slug=slug, year=year)}'", "gcs"
 
 
 def tabella():
