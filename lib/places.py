@@ -5,8 +5,8 @@ import os
 import time
 from pathlib import Path
 
-import requests
 from dotenv import load_dotenv
+from lab_connectors.http import HttpClient
 
 ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(ROOT / ".env")
@@ -16,6 +16,9 @@ API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 CACHE_DIR = ROOT / "data" / "enrich"
 PLACES_TEXT_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
 PLACES_DETAIL_URL = "https://maps.googleapis.com/maps/api/place/details/json"
+
+# HTTP client condiviso del Lab: retry, backoff, SSL fallback (lab-connectors)
+_client = HttpClient(timeout=15)
 
 
 def cerca_ets(denominazione: str, comune: str = "") -> dict | None:
@@ -29,13 +32,13 @@ def cerca_ets(denominazione: str, comune: str = "") -> dict | None:
     if cache_file.exists():
         return json.loads(cache_file.read_text())
 
-    resp = requests.get(PLACES_TEXT_URL, params={
+    result = _client.get(PLACES_TEXT_URL, params={
         "query": query, "key": API_KEY, "language": "it", "region": "it",
-    }, timeout=15)
-    if resp.status_code != 200:
+    })
+    if not result.is_ok or result.response is None:
         return None
 
-    data = resp.json()
+    data = result.response.json()
     if data.get("status") != "OK" or not data.get("results"):
         return None
 
@@ -45,13 +48,13 @@ def cerca_ets(denominazione: str, comune: str = "") -> dict | None:
     dettagli = {}
     if place_id:
         time.sleep(0.1)
-        dett_resp = requests.get(PLACES_DETAIL_URL, params={
+        dett_result = _client.get(PLACES_DETAIL_URL, params={
             "place_id": place_id,
             "fields": "website,formatted_phone_number,rating,user_ratings_total,types,editorial_summary",
             "key": API_KEY, "language": "it",
-        }, timeout=15)
-        if dett_resp.status_code == 200:
-            dett_data = dett_resp.json()
+        })
+        if dett_result.is_ok and dett_result.response is not None:
+            dett_data = dett_result.response.json()
             if dett_data.get("status") == "OK":
                 dettagli = dett_data.get("result", {})
 
