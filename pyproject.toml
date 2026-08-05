@@ -1,0 +1,14 @@
+[project]
+name = "terzo-settore-intelligence"
+version = "0.1.0"
+description = "Intelligence sul Terzo Settore italiano — ETS, bandi, appalti riservati, matching multi-fonte"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.0",
+    "pandas>=2.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12",
+    "python-dotenv>=1.0",
+    # Infrastruttura condivisa Lab: path contract GCS, config DuckDB/GCS, HTTP client
+    "lab-connectors[duckdb,http]>=0.15.1",
+]
