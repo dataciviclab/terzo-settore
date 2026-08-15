@@ -106,9 +106,6 @@ SELECT
     CASE WHEN COALESCE(gare_partecipate, 0) > 0 THEN TRUE ELSE FALSE END as ha_partecipato_gare,
     COALESCE(gare_partecipate, 0) as gare_partecipate,
 
-    -- Temi ANAC
-    COALESCE(ta.temi_anac, '') as temi_anac,
-
     -- Indicatore composito di capacità
     CASE
         WHEN COALESCE(importo_ue, 0) > 0 THEN 'alta'
@@ -128,7 +125,6 @@ SELECT
 FROM anagrafe a
 LEFT JOIN fatti_pivot f ON a.codice_fiscale = f.cf
 LEFT JOIN geo cm ON lower(a.comune) = cm.comune_norm
-LEFT JOIN read_parquet('data/temi_anac.parquet', union_by_name=true) ta ON a.codice_fiscale = ta.codice_fiscale
 ORDER BY cm.nome_provincia, a.comune, a.denominazione
 )
 TO 'data/unified_ets.parquet' (FORMAT PARQUET);

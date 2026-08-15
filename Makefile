@@ -25,9 +25,7 @@ toolkit-preflight:
 	$(TOOLKIT) run preflight --config datasets/$(DATASET)/dataset.yml
 
 # Costruisce l'hub ETS (da RUNTS + 5x1000 + FTS + RNA + PNRR + OC)
-# Arricchisce ETS con temi ANAC dagli oggetti dei bandi partecipati
-anac-temi:
-	python3 ets/enrich_temi.py
+# (temi_anac rimosso: copertura 5%, nessun valore nel matching)
 
 # Risolve le sorgenti (layer Lab locale → cache → GCS) e mostra da dove arriva ogni file
 sync-sources:
@@ -41,8 +39,8 @@ fatti-ets:
 	duckdb < data/build/fatti_ets.sql
 	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/fatti_ets.parquet'\").fetchone(); assert 400000 < r[0] < 600000, f'Row count {r[0]} fuori range driver-first (atteso ~485k)'; print(f'✅ {r[0]:,} fatti (driver-first) — OK')"
 
-# Costruisce l'hub ETS: fatti_ets → PIVOT + geografia + temi ANAC
-build: fatti-ets anac-temi
+# Costruisce l'hub ETS: fatti_ets → PIVOT + geografia
+build: fatti-ets
 	duckdb < ets/build_unified_ets.sql
 	rm -f data/temi_anac.parquet
 	python3 -c "import duckdb; c=duckdb.connect(); r=c.sql(\"SELECT count(*) FROM 'data/unified_ets.parquet'\").fetchone(); assert 140000 < r[0] < 160000, f'Row count {r[0]} fuori range'; print(f'✅ {r[0]} ETS — integrità OK')"

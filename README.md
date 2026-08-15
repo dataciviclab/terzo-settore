@@ -75,8 +75,7 @@ ets/                              ← LAYER 1: hub dati ETS
   resolve_sources.py              Risoluzione path: layer Lab locale → cache → GCS
   build_fatti_ets_driver.sql      Template driver-first: RUNTS 150k CF → join filtrato
                                   con 7 fonti — materializza SOLO gli ETS (485K righe)
-  build_unified_ets.sql           PIVOT da fatti_ets + geografia + temi ANAC
-  enrich_temi.py                  NLP su oggetti ANAC → temi per ETS
+  build_unified_ets.sql           PIVOT da fatti_ets + geografia
   enrich_places.py                Arricchimento Google Places (opzionale, richiede .env)
   comuni.py                       Metriche aggregate per comune
 

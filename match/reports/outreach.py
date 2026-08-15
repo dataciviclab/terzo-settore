@@ -168,7 +168,6 @@ def scheda_ets(con, row):
         "subappalti": r.get("subappalti", 0),
         "immobili": r.get("patrimonio_immobili", 0),
         "canone": r.get("canone_totale", 0),
-        "temi_anac": r.get("temi_anac", "") or "",
     }
 
 
@@ -201,9 +200,6 @@ def render_scheda_md(scheda, bandi_match, contatti=None):
     for nome, det in segnali:
         lines.append(f"| {nome} | {det} |")
     lines.append("")
-
-    if r.get("temi_anac"):
-        lines += ["", f"**Temi (da gare ANAC):** {r['temi_anac']}", ""]
 
     if contatti:
         lines += ["## Contatti", ""]

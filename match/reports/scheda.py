@@ -72,7 +72,6 @@ def scheda_base(row):
     print(f"   Appalti PNRR:     {int(row.get('appalti_pnrr', 0))}")
     print(f"   Subappalti:       {int(row.get('subappalti', 0))}")
     print(f"   Immobili pubblici: {int(row.get('patrimonio_immobili', 0))} (€{float(row.get('canone_totale', 0)):,.0f} canone annuo)")
-    print(f"   Temi ANAC:        {row.get('temi_anac', '') or 'nessuno'}")
     return row['codice_fiscale']
 
 
