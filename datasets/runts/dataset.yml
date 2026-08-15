@@ -1,0 +1,71 @@
+root: "../../out"
+schema_version: 1
+
+dataset:
+  name: "runts"
+  source_id: "ministero_lavoro"
+  tags: [terzo-settore, ets, anagrafe, runts]
+  category: terzo-settore
+  description: "Anagrafe degli enti iscritti al Registro Unico Nazionale del Terzo Settore (RUNTS) — snapshot dal Ministero del Lavoro."
+  years: [2026]
+  time_coverage:
+    mode: snapshot
+
+raw:
+  output_policy: overwrite
+  sources:
+    - name: "runts_xlsx"
+      type: script
+      args:
+        command: "python fetch_runts.py runts_iscritti.xlsx"
+        output: "runts_iscritti.xlsx"
+        filename: "runts_iscritti.xlsx"
+      primary: true
+
+clean:
+  sql: "sql/clean.sql"
+  read:
+    source: auto
+    mode: latest
+    sheet_name: 0
+    header: true
+    columns:
+      codice_fiscale: VARCHAR
+      repertorio: VARCHAR
+      denominazione: VARCHAR
+      sezione: VARCHAR
+      rappresentante: VARCHAR
+      rete: VARCHAR
+      comune: VARCHAR
+      provincia: VARCHAR
+      flag_5x1000: VARCHAR
+      data_iscrizione: VARCHAR
+  required_columns:
+    - codice_fiscale
+    - repertorio
+    - denominazione
+    - sezione
+    - rappresentante
+    - comune
+    - provincia
+    - data_iscrizione
+  validate:
+    not_null:
+      - codice_fiscale
+    min_rows: 100000
+
+mart:
+  tables:
+    - name: runts_sezione
+      sql: "sql/mart_runts_sezione.sql"
+  required_tables:
+    - runts_sezione
+  validate:
+    table_rules:
+      runts_sezione:
+        required_columns: [sezione, enti]
+        primary_key: [sezione]
+        min_rows: 5
+
+validation:
+  fail_on_error: true

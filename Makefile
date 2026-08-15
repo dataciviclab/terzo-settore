@@ -1,9 +1,25 @@
 # Terzo Settore Intelligence — Makefile
 # Struttura: ets/ (intelligence), match/ (operativo), bandi/ (acquisizione).
 # Sperimentazioni (dashboard, network, partnership) → branch feat/experiments.
+
+# Source type `script` del toolkit (download RUNTS WebForms) — abilitato esplicitamente
+export TOOLKIT_ALLOW_SCRIPT_SOURCE ?= 1
+export TOOLKIT ?= toolkit
+
 .PHONY: build scan radar latest segnale test clean all
 
 all: build comuni-ets scan
+
+# ─── Toolkit (dataset pipeline) ─────────────────────────────────────
+# datasets/runts  — RUNTS snapshot (download WebForms + clean)
+# Uso: make toolkit-run DATASET=runts
+toolkit-run:
+	[ -n "$(DATASET)" ] || (echo "Usa: make toolkit-run DATASET=runts" && exit 1)
+	$(TOOLKIT) run --config datasets/$(DATASET)/dataset.yml
+
+toolkit-preflight:
+	[ -n "$(DATASET)" ] || (echo "Usa: make toolkit-preflight DATASET=runts" && exit 1)
+	$(TOOLKIT) run preflight --config datasets/$(DATASET)/dataset.yml
 
 # Costruisce l'hub ETS (da RUNTS + 5x1000 + FTS + RNA + PNRR + OC)
 # Arricchisce ETS con temi ANAC dagli oggetti dei bandi partecipati
@@ -119,6 +135,14 @@ clean:
 	rm -f cruscotto/radar-latest.md cruscotto/radar-latest.json
 	rm -f cruscotto/segnale-*.md cruscotto/segnale-*.json
 	@echo "✅ Pulito"
+
+# Kit di scoperta per pilota outreach
+# make outreach T=BO              — campione bilanciato + schede + questionario
+# make outreach T=BO N=10 ENRICH=1 — con contatti Google Places (lento)
+# make outreach T=BO CSV_ONLY=1   — solo shortlist CSV
+outreach:
+	[ -n "$(T)" ] || (echo "Usa: make outreach T=BO [N=10] [ENRICH=1] [CSV_ONLY=1]" && exit 1)
+	python3 match/reports/outreach.py $(T) $(if $(N),--n $(N),) $(if $(ENRICH),--enrich,) $(if $(CSV_ONLY),--csv-only,)
 
 # Incrocio territoriale: match ETS × contesto comune (reddito, RdC, sport)
 # make incrocio TAGS="sport minori" TERR=Lombardia OUT=cruscotto/incrocio.md

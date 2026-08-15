@@ -15,6 +15,12 @@ data/*.parquet
 data/gcs_cache/
 data/build/
 
+# Output toolkit — non versionare (raw/clean/mart/_runs rigenerabili)
+out/
+
+# Cache download RUNTS (XLSX snapshot scaricato dallo script)
+datasets/runts/*.xlsx
+
 # Pacchetti territorio per CSV — derivati, rigenerabili
 data/reporting/
 
