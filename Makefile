@@ -114,13 +114,10 @@ bandi-info-coop:
 bandi-info-coop-full:
 	python3 bandi/info_cooperazione.py --full  # TUTTI (lento)
 
-bandi-indicebandi:
-	python3 bandi/indicebandi.py
+# NOTA: indicebandi disattivato — fonte con scadenze raramente parsabili.
+# Script ancora in bandi/indicebandi.py (riattivabile).
 
-bandi-indicebandi-full:
-	python3 bandi/indicebandi.py --full
-
-bandi: bandi-infobandi bandi-info-coop bandi-indicebandi
+bandi: bandi-infobandi bandi-info-coop
 	@echo "✅ Bandi aggiornati"
 
 # Test matching (pattern + gold set + sezione + geografia + scan integrity)

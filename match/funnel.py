@@ -76,20 +76,24 @@ SEZIONE_AS_TEMA: dict[str, str] = {
 
 
 def match_tema_sql(tags, testo=None):
-    """Costruisce la condizione SQL di pertinenza (2 assi).
+    """Costruisce le condizioni SQL di pertinenza (2 assi).
 
     ASSE 1 — IDONEITÀ (filtro duro, vedi gate_sezione/territorio):
       chi è ammesso dal tema principale. La sezione-as-tema è un GATE,
       non un match principale.
 
     ASSE 2 — PERTINENZA (score continuo, non sì/no):
-      - match PRINCIPALE: denominazione matcha il tema dominante (FORTE)
-      - match SECONDARIO: denominazione matcha altri tag (MEDIO)
+      - match sul TEMA PRINCIPALE vale 2 (FORTE)
+      - ogni altro tag del bando matchato vale 1 (MEDIO) — così bandi
+        multi-tag producono liste diverse (fix selettività)
       - temi_anac matcha: boost debole (ha mai operato nel tema)
       - SOLO sezione (ODV=volontariato, APS=sport): debole — ammette
         ma non premia chi è solo di quella sezione senza conferma nel nome
 
-    Ritorna (condizione, motivo_col).
+    Ritorna dict con:
+      - cond: condizione di ammissione (OR di tutto)
+      - motivo: motivo_match per leggibilità
+      - n_match: espressione SQL = conteggio tag matchati (prim=2, sec=1)
     """
     tema_prim = tema_principale(tags, testo)
     pattern_prim = TEMA_PATTERN.get(tema_prim) if tema_prim else None
@@ -99,63 +103,79 @@ def match_tema_sql(tags, testo=None):
     if not normalizzati and testo:
         normalizzati = estrai_temi(testo)
 
-    pattern_sec_parts = []
+    # Condizione per OGNI tag normalizzato (non solo il principale)
+    cond_by_tag: dict[str, str] = {}
     for t in normalizzati:
-        if t == tema_prim:
-            continue
         p = TEMA_PATTERN.get(t)
         if p:
-            pattern_sec_parts.append(p)
-    pattern_sec = "|".join(pattern_sec_parts) if pattern_sec_parts else None
+            cond_by_tag[t] = _cond(p)
 
-    prim_denom = _cond(pattern_prim) if pattern_prim else None
-    sec_denom = _cond(pattern_sec) if pattern_sec else None
+    prim_denom = cond_by_tag.get(tema_prim) if tema_prim else None
+    sec_conds = [c for t, c in cond_by_tag.items() if t != tema_prim]
+
     prim_temi = _cond_temi(pattern_prim) if pattern_prim else None
     sez_cond = f"sezione = '{sez_prim}'" if sez_prim else None
 
-    # Condizione di ammissione: nome matcha tema, OPPURE sezione-as-tema
-    cond_parts = [p for p in (prim_denom, sec_denom, prim_temi, sez_cond) if p]
+    # Condizione di ammissione: nome matcha un qualunque tag, OPPURE
+    # temi_anac, OPPURE sezione-as-tema.
+    cond_parts = [p for p in (prim_denom, *sec_conds, prim_temi, sez_cond) if p]
     cond = "(" + " OR ".join(cond_parts) + ")" if cond_parts else "1=0"
 
     whens = []
     if prim_denom:
         whens.append(f"WHEN {prim_denom} THEN 'tema_principale'")
-    if sec_denom:
-        whens.append(f"WHEN {sec_denom} THEN 'tema_secondario'")
+    if sec_conds:
+        whens.append(f"WHEN ({' OR '.join(sec_conds)}) THEN 'tema_secondario'")
     if prim_temi:
         whens.append(f"WHEN {prim_temi} THEN 'tema_temi_anac'")
     if sez_cond:
         whens.append(f"WHEN {sez_cond} THEN 'solo_sezione'")
     motivo = "CASE " + " ".join(whens) + " ELSE NULL END"
-    return cond, motivo
+
+    # n_match: tema principale vale 2, ogni altro tag 1, temi_anac 1
+    n_match_parts = []
+    if prim_denom:
+        n_match_parts.append(f"(CASE WHEN {prim_denom} THEN 2 ELSE 0 END)")
+    for c in sec_conds:
+        n_match_parts.append(f"(CASE WHEN {c} THEN 1 ELSE 0 END)")
+    if prim_temi:
+        n_match_parts.append(f"(CASE WHEN {prim_temi} THEN 1 ELSE 0 END)")
+    n_match = " + ".join(n_match_parts) if n_match_parts else "0"
+
+    return {"cond": cond, "motivo": motivo, "n_match": n_match}
 
 
 # ── Stage 3: ranking (pertinenza × capacità) ───────────────────────
 
-SCORE_SQL = """
-    (CASE
-        WHEN motivo_match = 'tema_principale' THEN 100
-        WHEN motivo_match = 'tema_secondario' THEN 60
-        WHEN motivo_match = 'tema_temi_anac' THEN 30
-        WHEN motivo_match = 'solo_sezione' THEN 10
-        ELSE 5
-    END)
-    + (CASE capacita_progettuale
-        WHEN 'alta' THEN 25 WHEN 'medio-alta' THEN 18
-        WHEN 'media' THEN 12 WHEN 'base' THEN 6 ELSE 2 END)
-    + CASE WHEN importo_5x1000_2025 >= 100000 THEN 10
-           WHEN importo_5x1000_2025 >= 10000 THEN 7
-           WHEN importo_5x1000_2025 > 0 THEN 4 ELSE 0 END
-    + CASE WHEN numero_appalti >= 10 THEN 8
-           WHEN numero_appalti >= 5 THEN 6
-           WHEN numero_appalti >= 1 THEN 3 ELSE 0 END
+# La capacità è un MOLTIPLICATORE della pertinenza (0-30%), non un addendo:
+# un ETS con tema esatto e capacità media batte un gigante generico.
+CAP_FACTOR_SQL = """
+    (CASE capacita_progettuale
+        WHEN 'alta' THEN 0.30 WHEN 'medio-alta' THEN 0.20
+        WHEN 'media' THEN 0.10 WHEN 'base' THEN 0.05 ELSE 0.0 END)
 """
+
+# Bonus 5x1000 come addendo MINORE (non deve dominare la pertinenza).
+X1000_BONUS_SQL = """
+    CASE WHEN importo_5x1000_2025 >= 100000 THEN 8
+         WHEN importo_5x1000_2025 >= 10000 THEN 5
+         WHEN importo_5x1000_2025 > 0 THEN 2 ELSE 0 END
+"""
+
+
+def _build_score_sql(n_match_sql: str) -> str:
+    """Score = pertinenza (n_match×60) × (1+capacità) + bonus 5x1000."""
+    return (
+        f"ROUND((({n_match_sql}) * 60) * (1 + {CAP_FACTOR_SQL})"
+        f" + {X1000_BONUS_SQL}, 1)"
+    )
+
 
 FUNNEL_SQL_TEMPLATE = """
 SELECT codice_fiscale, denominazione, comune, provincia, sezione,
        capacita_progettuale, importo_5x1000_2025, temi_anac,
        {MOTIVO} AS motivo_match,
-       ROUND({SCORE}, 1) AS score
+       {SCORE} AS score
 FROM '{ETS_FILE}'
 WHERE {MATCH_COND}
   {GATE_SEZIONE}
@@ -169,14 +189,15 @@ def match_bando_funnel(con, tags, limit=10, territorio=None, testo=None):
     """Esegue il funnel completo e ritorna DataFrame con score."""
     gate_sez = gate_sezione(tags, testo)
     gate_terr = gate_territorio(territorio)
-    match_cond, motivo_col = match_tema_sql(tags, testo)
+    parts = match_tema_sql(tags, testo)
+    score_sql = _build_score_sql(parts["n_match"])
 
     sql = (
         FUNNEL_SQL_TEMPLATE
-        .replace("{MOTIVO}", motivo_col)
-        .replace("{SCORE}", SCORE_SQL)
+        .replace("{MOTIVO}", parts["motivo"])
+        .replace("{SCORE}", score_sql)
         .replace("{ETS_FILE}", str(ETS_FILE))
-        .replace("{MATCH_COND}", match_cond)
+        .replace("{MATCH_COND}", parts["cond"])
         .replace("{GATE_SEZIONE}", gate_sez)
         .replace("{GATE_TERRITORIO}", gate_terr)
         .replace("{LIMIT}", str(limit))

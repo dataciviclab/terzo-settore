@@ -135,5 +135,28 @@
       "match": true,
       "min_candidati": 3
     }
+  },
+  {
+    "id": "discriminazione-premi-vs-ambiente",
+    "titolo": "Test selettività: premio (design/sviluppo) vs bando natura devono dare liste diverse",
+    "tags": [
+      "premi internazionali",
+      "design",
+      "cooperazione"
+    ],
+    "atteso": {
+      "match": true,
+      "min_candidati": 3,
+      "discriminazione_vs": {
+        "tags": [
+          "animali",
+          "ricerca",
+          "ambiente"
+        ],
+        "top_n": 8,
+        "max_overlap": 2
+      },
+      "nota": "v3: ranking multi-tag + capacità come moltiplicatore — bando premi vs bando natura non devono produrre lo stesso top-N"
+    }
   }
 ]

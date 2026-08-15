@@ -69,9 +69,7 @@ def load_bandi(files=None):
                 raw = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             continue
-        fonte = "infobandi" if "infobandi" in fpath.name else (
-            "indicebandi" if "indicebandi" in fpath.name else "info_cooperazione"
-        )
+        fonte = "infobandi" if "infobandi" in fpath.name else "info_cooperazione"
         if isinstance(raw, list):
             for b in raw:
                 b["_fonte"] = fonte

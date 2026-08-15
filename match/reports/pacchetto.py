@@ -42,7 +42,7 @@ def build_pacchetto(con, territorio):
         "schema": "territorio_pacchetto_v1",
         "territorio": territorio,
         "generato": datetime.now().isoformat(timespec="seconds"),
-        "sorgenti": ["unified_ets", "comuni_ets", "unified_comuni", "inps_rdc_pdc", "infobandi", "info_cooperazione", "indicebandi"],
+        "sorgenti": ["unified_ets", "comuni_ets", "unified_comuni", "inps_rdc_pdc", "infobandi", "info_cooperazione"],
         "ets": {
             "tot": vista["ets_landscape"]["tot"],
             "per_capacita": vista["ets_landscape"]["per_capacita"],

@@ -36,6 +36,7 @@ TEMA_PATTERN: dict[str, str] = {
     "animali":              r"(animali|cinofil|pet|canile|rifugio|protezione animali)",
     "povertà educativa":    r"(povertà educativa|dispersione scolastic|abbandono scolastic)",
     "premi":                r"\b(premio|premi|prize|concorso|challenge)\b",
+    "cooperazione internazionale": r"(cooperazione internazionale|cooperazione allo sviluppo|cooperazione allo sviluppo internazionale|internazionalizzazione|development cooperation)",
 }
 
 # Sinonimi: varianti non normalizzate dei tag reali → tema canonico.
@@ -102,12 +103,15 @@ TAG_SINONIMI: dict[str, str] = {
     "dispersione scolastic": "povertà educativa",
     "abbandono scolastico": "povertà educativa",
     # tag multi-parola reali dai bandi
-    "obiettivi per lo sviluppo sostenibile": "ambiente",
-    "sviluppo sostenibile": "ambiente",
-    "agenda 2030": "ambiente",
+    "obiettivi per lo sviluppo sostenibile": "cooperazione internazionale",
+    "sviluppo sostenibile": "cooperazione internazionale",
+    "agenda 2030": "cooperazione internazionale",
     "cooperazione allo sviluppo": "cooperazione internazionale",
     "cooperazione internazionale": "cooperazione internazionale",
     "cooperazione": "cooperazione internazionale",
+    "if design": "cultura",
+    "design": "cultura",
+    "turismo": "cultura",
     "sviluppo economico": "lavoro",
     "sostegno alla persona": "inclusione sociale",
     "smart city": "digitale",
@@ -118,17 +122,11 @@ TAG_SINONIMI: dict[str, str] = {
     "montagna": "ambiente",
     "agricoltura": "agricoltura sociale",
     "famiglia": "minori",
-    "povertà": "inclusione sociale",
     "premi internazionali": "premi",
-    "iF design": "cultura",
-    "design": "cultura",
     "beni confiscati": "beni confiscati",
     "in evidenza": None,
     "pnrr": None,
-    "turismo": "cultura",
-    "istruzione": "educazione",
 }
-
 # Tag "generici": non discriminano il tema (servono come contesto, non come match)
 GENERIC_TAGS = {"lavoro", "inclusione", "ricerca", "giovani", "educazione", "salute"}
 

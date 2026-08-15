@@ -14,10 +14,12 @@ ETS_FILE = ROOT / "data/unified_ets.parquet"
 TEMA_ANAC_FILE = ROOT / "data/temi_anac.parquet"
 
 # Bandi
+# NOTA: indicebandi disattivato — la fonte espone scadenze raramente
+# parsabili (programmi a sportello/bandi datati). Script e JSON restano
+# in repo ma fuori dalla pipeline attiva.
 BANDI_FILES = [
     ROOT / "data/bandi/infobandi_bandi.json",
     ROOT / "data/bandi/info_cooperazione_bandi.json",
-    ROOT / "data/bandi/indicebandi_bandi.json",
 ]
 
 MESI_IT = {

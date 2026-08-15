@@ -137,6 +137,21 @@ def main():
             if not ok:
                 failures += 1
             print(f" {status} {entry['id']}: {count} match (atteso {'≥' + str(atteso.get('min_candidati', 1)) if atteso['match'] else '0'})")
+
+            # Discriminazione: il top-N di questo bando non deve
+            # coincidere con quello di un bando diverso (fix selettività).
+            disc = atteso.get("discriminazione_vs")
+            if disc:
+                df2 = match_bando_funnel(con, disc["tags"], limit=9999, territorio=None)
+                top_n = disc.get("top_n", 8)
+                max_overlap = disc.get("max_overlap", 2)
+                s1 = set(df.head(top_n)["codice_fiscale"].tolist())
+                s2 = set(df2.head(top_n)["codice_fiscale"].tolist())
+                overlap = len(s1 & s2)
+                ok_disc = overlap <= max_overlap
+                if not ok_disc:
+                    failures += 1
+                print(f"   {'✅' if ok_disc else '❌'} discriminazione vs {disc['tags']}: overlap top-{top_n} = {overlap} (atteso ≤{max_overlap})")
     else:
         print(f"\n⚠️  Gold set non trovato: {gold_path}")
 
