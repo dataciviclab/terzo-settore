@@ -1,7 +1,8 @@
 """Unico dizionario keyword → tag tematici.
 
 Usato da:
-- match/matcher.py (matching: temi_ets matcha tag del bando)
+- match/funnel.py (motore di matching)
+- match/bando.py (normalizzazione bandi)
 - match/pipeline.py (orchestrazione scan)
 - ets/enrich_temi.py (estrazione temi da oggetti ANAC)
 - tests/test_match.py

@@ -298,7 +298,7 @@ def stampa_riepilogo(candidati, per_ets=False):
             print(f"   💡 Nessun contatto trovato. Riprova con --enrich per cercare su Google Places.")
 
 
-def main():
+def main(argv=None):
     import argparse
     parser = argparse.ArgumentParser(description="Esporta candidati da contattare")
     parser.add_argument("--bando", help="Filtra bandi per testo nel titolo")
@@ -308,7 +308,7 @@ def main():
     parser.add_argument("--enrich", action="store_true", help="Arricchisci con Google Places (lento, serve API key)")
     parser.add_argument("--formato", choices=["csv", "json"], default="csv", help="Formato output")
     parser.add_argument("--output", help="File output (default: contatta-{modalità}-{data}.{csv|json})")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     scan = carica_radar()
 

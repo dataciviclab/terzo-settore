@@ -6,6 +6,9 @@
 export TOOLKIT_ALLOW_SCRIPT_SOURCE ?= 1
 export TOOLKIT ?= toolkit
 
+# CLI unica (vedi tsi/cli.py) — i comandi report delegano a match/reports/
+TSI ?= python3 -m tsi
+
 .PHONY: build scan radar latest segnale test clean all
 
 all: build comuni-ets scan
@@ -46,23 +49,23 @@ build: fatti-ets anac-temi
 
 # Scan completo: bandi → match → report
 scan radar: build
-	python3 match/reports/scan_completo.py
+	$(TSI) scan
 
 # Vista latest: bandi operativi in scadenza 60gg
 latest:
-	python3 match/reports/scan_completo.py --latest
+	$(TSI) scan --latest
 
 # Report segnale per territorio (da scan già eseguito)
 segnale:
 	[ -n "$(T)" ] || (echo "Usa: make segnale T=MI [C=Comune]" && exit 1)
-	python3 match/reports/scan_completo.py --territorio $(T) $(if $(C),--comune "$(C)",)
+	$(TSI) scan --territorio $(T) $(if $(C),--comune "$(C)",)
 
 # Pacchetto territorio per CSV — deliverable T1/T2 (data/reporting/)
 # make pacchetto T=BO          — singolo territorio
 # make pacchetto T=all         — tutti i TERRITORI_TARGET (config in pacchetto.py)
 pacchetto:
 	[ -n "$(T)" ] || (echo "Usa: make pacchetto T=BO (o T=all)" && exit 1)
-	python3 match/reports/pacchetto.py $(T)
+	$(TSI) pacchetto $(T)
 
 # Esporta candidati da contattare per un bando
 # make contatta B="BPER"          — CSV top 10
@@ -70,23 +73,23 @@ pacchetto:
 # make contatta B="BPER" FMT=json
 contatta:
 	[ -n "$(B)" ] || (echo "Usa: make contatta B='BPER' [TOP=10] [ENRICH=1] [FMT=csv]" && exit 1)
-	python3 match/reports/contatta.py --bando "$(B)" --top $(if $(TOP),$(TOP),10) $(if $(ENRICH),--enrich,) $(if $(FMT),--formato $(FMT),) || true
+	$(TSI) contatta --bando "$(B)" --top $(if $(TOP),$(TOP),10) $(if $(ENRICH),--enrich,) $(if $(FMT),--formato $(FMT),) || true
 
 # Scheda ETS: profilo completo per debug
 scheda:
 	[ -n "$(CF)$(NOME)" ] || (echo "Usa: make scheda CF=02006180364 [OPZIONI=--anac,--match,--benchmark]" && exit 1)
-	python3 match/reports/scheda.py $(if $(CF),--cf "$(CF)",) $(if $(NOME),--nome "$(NOME)",) $(if $(OPZIONI),$(OPZIONI),)
+	$(TSI) scheda $(if $(CF),--cf "$(CF)",) $(if $(NOME),--nome "$(NOME)",) $(if $(OPZIONI),$(OPZIONI),)
 
 # Report ETS: profilo + benchmark + bandi
 report:
 	[ -n "$(CF)" ] || (echo "Usa: make report CF=02006180364" && exit 1)
-	python3 match/reports/scheda.py --cf "$(CF)" --benchmark --match
+	$(TSI) scheda --cf "$(CF)" --benchmark --match
 
 # Preparazione chiamate lunedì: CSV urgenti + report
 lunedi: scan
-	python3 match/reports/contatta.py --bando "RIZA" --top 10 --enrich
-	python3 match/reports/contatta.py --bando "UEFA" --top 10 --enrich
-	python3 match/reports/contatta.py --bando "BPER" --top 10 --enrich
+	$(TSI) contatta --bando "RIZA" --top 10 --enrich
+	$(TSI) contatta --bando "UEFA" --top 10 --enrich
+	$(TSI) contatta --bando "BPER" --top 10 --enrich
 	@echo ""
 	@echo "✅ Materiale pronto per lunedì:"
 	@echo "   contatta-riza-*.csv  — RIZA (€1M, scade 31/7)"
@@ -142,10 +145,10 @@ clean:
 # make outreach T=BO CSV_ONLY=1   — solo shortlist CSV
 outreach:
 	[ -n "$(T)" ] || (echo "Usa: make outreach T=BO [N=10] [ENRICH=1] [CSV_ONLY=1]" && exit 1)
-	python3 match/reports/outreach.py $(T) $(if $(N),--n $(N),) $(if $(ENRICH),--enrich,) $(if $(CSV_ONLY),--csv-only,)
+	$(TSI) outreach $(T) $(if $(N),--n $(N),) $(if $(ENRICH),--enrich,) $(if $(CSV_ONLY),--csv-only,)
 
 # Incrocio territoriale: match ETS × contesto comune (reddito, RdC, sport)
 # make incrocio TAGS="sport minori" TERR=Lombardia OUT=cruscotto/incrocio.md
 incrocio:
 	[ -n "$(TAGS)" ] || (echo "Usa: make incrocio TAGS='sport minori' [TERR=Lombardia] [OUT=file.md]" && exit 1)
-	python3 match/reports/incrocio.py --tags $(TAGS) $(if $(TERR),--terr $(TERR),) $(if $(OUT),--out $(OUT),)
+	$(TSI) incrocio --tags $(TAGS) $(if $(TERR),--terr $(TERR),) $(if $(OUT),--out $(OUT),)

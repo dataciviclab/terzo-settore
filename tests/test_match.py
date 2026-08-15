@@ -12,13 +12,13 @@ import duckdb
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "lib"))
 sys.path.insert(0, str(ROOT))
-from config import get_province_filter
-from temi import (
+from lib.config import get_province_filter
+from lib.temi import (
     get_pattern_from_tags,
     estrai_temi as extract_tags_from_text,
     sezioni_per_tag as get_sections_from_tags,
 )
-from match.matcher import classify_bando, match_bando
+from match.bando import classify_bando
 from match.funnel import match_bando_funnel
 from lib.format import parse_date_flex
 
@@ -53,7 +53,7 @@ def main():
             failures += 1
             continue
 
-        df = match_bando(con, pattern, tags, limit=9999, territorio=None)
+        df = match_bando_funnel(con, tags, limit=9999, territorio=None)
         result = len(df)
 
         if result >= expected:
@@ -71,7 +71,7 @@ def main():
     for tags, expected_n in [(["sport"], 10), (["digitale"], 10), (["volontariato", "giovani"], 10), (["xyz"], 0)]:
         pattern = get_pattern_from_tags(tags)
         if pattern:
-            df = match_bando(con, pattern, tags, limit=10, territorio=None)
+            df = match_bando_funnel(con, tags, limit=10, territorio=None)
             assert isinstance(df, object)
     print(" ✅ regressione: nessun errore con vari tag (sport, digitale, misti, sconosciuti)")
 
@@ -126,7 +126,7 @@ def main():
             gold = json.load(f)
         for entry in gold:
             pattern = get_pattern_from_tags(entry["tags"])
-            df = match_bando(con, pattern, entry["tags"], limit=9999, territorio=None)
+            df = match_bando_funnel(con, entry["tags"], limit=9999, territorio=None)
             count = len(df)
             atteso = entry["atteso"]
             if atteso["match"]:

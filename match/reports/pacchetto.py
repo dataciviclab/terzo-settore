@@ -21,11 +21,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from analytics import (
+from match.reports.analytics import (
     contesto_sociale, ets_landscape, ets_riservati, ets_immobili, top_ets,
     gap_territoriale, vista_territorio,
 )
-from render import markdown as md
+from match.reports.render import markdown as md
 
 ROOT = Path(__file__).resolve().parents[2]
 REPORTING = ROOT / "data" / "reporting"
@@ -71,11 +71,11 @@ def genera(territorio, con_md=False):
         print(f"✅ Markdown:  {out_md}")
 
 
-def main():
+def main(argv=None):
     parser = argparse.ArgumentParser(description="Genera pacchetto territorio per CSV")
     parser.add_argument("territorio", help="Sigla provincia (es. BO) oppure 'all'")
     parser.add_argument("--markdown", action="store_true", help="Genera anche il .md")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     if args.territorio.lower() == "all":
         for t in TERRITORI_TARGET:

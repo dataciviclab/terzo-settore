@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from config import gcs_path
+from lib.config import gcs_path
 from lib.format import fmt_euro, fmt_match_reason, is_missing
 
 ETS_FILE = str(ROOT / "data/unified_ets.parquet")
@@ -253,7 +253,7 @@ def scheda_match(cf, con):
         print()
 
 
-def main():
+def main(argv=None):
     import argparse
     parser = argparse.ArgumentParser(description="Scheda ETS")
     parser.add_argument("--cf", help="Codice Fiscale ETS")
@@ -261,7 +261,7 @@ def main():
     parser.add_argument("--anac", action="store_true", help="Mostra dettaglio ANAC")
     parser.add_argument("--match", action="store_true", help="Mostra bandi matchati")
     parser.add_argument("--benchmark", action="store_true", help="Mostra benchmark vs ETS simili")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     if not args.cf and not args.nome:
         parser.print_help()

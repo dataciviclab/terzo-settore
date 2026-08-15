@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 sys.path.insert(0, str(ROOT / "match"))
 
-from config import RADAR_REPORT
+from lib.config import RADAR_REPORT
 from match.pipeline import run_scan, load_bandi
 
 LAB = ("(ha_5x1000 OR ha_appalti_pubblici OR ha_finanziamenti_ue OR ha_progetti_pnrr "
@@ -88,7 +88,7 @@ def aggrega(con, livello):
     """).fetchdf()
 
 
-def main():
+def main(argv=None):
     con = duckdb.connect()
     genera_ets_bandi(con)
 

@@ -7,19 +7,14 @@ from pathlib import Path
 import duckdb
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from config import BANDI_FILES
-from html_utils import arricchisci
+from lib.config import BANDI_FILES
+from lib.html_utils import arricchisci
 from lib.format import parse_date_flex
-from match.matcher import (
-    classify_bando,
-    extract_tags_from_text,
-    get_pattern_from_tags,
-    get_sections_from_tags,
-    match_bando,
-    normalise_bando,
-)
+from match.bando import classify_bando, extract_tags_from_text, normalise_bando
+from match.funnel import match_bando_funnel
 
 
 def deduplicate_bandi(bandi):
@@ -88,7 +83,7 @@ def load_bandi(files=None):
     return deduplicate_bandi(bandi)
 
 
-def process_bando(con, b, pattern, tags, territorio, match_limit=20, testo=None):
+def process_bando(con, b, tags, territorio, match_limit=20, testo=None):
     """Match un bando: conta gli idonei (senza cap) e seleziona il top-N.
 
     Ritorna dict con:
@@ -96,14 +91,14 @@ def process_bando(con, b, pattern, tags, territorio, match_limit=20, testo=None)
       - n_idonei: totale ETS idonei (senza cap di match_limit)
       - codici_fiscali: set dei top-N
     """
-    df = match_bando(con, pattern, tags, limit=match_limit, territorio=territorio, testo=testo)
+    df = match_bando_funnel(con, tags, limit=match_limit, territorio=territorio, testo=testo)
     if df.empty:
         return None
 
     # Conteggio idonei reale (senza cap) — separato dalla selezione top-N
     n_idonei = len(df)
     try:
-        df_all = match_bando(con, pattern, tags, limit=10_000_000, territorio=territorio, testo=testo)
+        df_all = match_bando_funnel(con, tags, limit=10_000_000, territorio=territorio, testo=testo)
         n_idonei = len(df_all)
     except Exception:
         pass  # se il conteggio senza cap fallisce, resta il valore del top-N
@@ -142,15 +137,12 @@ def elabora_bando(b, con, match_limit=20):
             if not territorio or territorio == ["Nazionale/da verificare"]:
                 territorio = extra["territorio"]
 
-    # Il pattern serve per compatibilità: il funnel (match_bando) deriva
-    # la pertinenza dai tag normalizzati + testo, non dal pattern grezzo.
-    pattern = get_pattern_from_tags(tags) or ".*"
-
-    # Testo per il fallback del funnel (se i tag non sono mappati)
+    # Il funnel (match_bando_funnel) deriva la pertinenza dai tag
+    # normalizzati + testo, non dal pattern grezzo.
     testo_bando = " ".join(str(b.get(k, "") or "") for k in
                            ("titolo", "descrizione", "obiettivi", "ammissibili", "testo_nlp"))
 
-    result = process_bando(con, b, pattern, tags, territorio, match_limit, testo=testo_bando)
+    result = process_bando(con, b, tags, territorio, match_limit, testo=testo_bando)
     if result is None:
         return {"tipo": "sin_match", "titolo": titolo, "url": url, "ente": ente,
                 "scadenza": scadenza_str, "gg": gg_rimasti, "tags": tags,
@@ -161,7 +153,7 @@ def elabora_bando(b, con, match_limit=20):
         "titolo": titolo, "url": url, "ente": ente,
         "budget": b.get("budget"), "scadenza": scadenza_str,
         "gg": gg_rimasti, "tags": tags, "territorio": territorio,
-        "status": status, "pattern": pattern,
+        "status": status,
         "candidati": result["candidati"],
         "n_idonei": result.get("n_idonei", len(result["candidati"])),
         "codici_fiscali": result["codici_fiscali"],
@@ -186,7 +178,7 @@ def run_scan(con=None, bandi=None, match_limit=20, include_statuses=None):
             sin_match.append(tuple(esito[k] for k in ("titolo", "url", "ente", "scadenza", "gg", "tags", "territorio", "status", "motivo")))
         else:
             stats_ets.update(esito["codici_fiscali"])
-            resultados.append({k: esito[k] for k in ("titolo", "url", "ente", "budget", "scadenza", "gg", "tags", "territorio", "status", "pattern", "candidati", "n_idonei")})
+            resultados.append({k: esito[k] for k in ("titolo", "url", "ente", "budget", "scadenza", "gg", "tags", "territorio", "status", "candidati", "n_idonei")})
 
     return {
         "bandi": bandi,

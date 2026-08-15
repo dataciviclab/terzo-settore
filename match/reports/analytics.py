@@ -12,7 +12,7 @@ from pathlib import Path
 import duckdb
 import pandas as pd
 
-from config import gcs_path
+from lib.config import gcs_path
 from lib.format import fmt_match_reason
 from match.funnel import match_bando_funnel
 from match.pipeline import load_bandi

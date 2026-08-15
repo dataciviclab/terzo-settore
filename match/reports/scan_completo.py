@@ -15,11 +15,11 @@ import duckdb
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "lib"))
 
-from config import RADAR_REPORT
+from lib.config import RADAR_REPORT
 from match.pipeline import run_scan
 
-from analytics import vista_latest, vista_territorio, load_scan_local, gap_territoriale
-from render import markdown as md, json as js
+from match.reports.analytics import vista_latest, vista_territorio, load_scan_local, gap_territoriale
+from match.reports.render import markdown as md, json as js
 
 ROOT = Path(__file__).resolve().parents[2]
 RADAR_JSON = RADAR_REPORT.with_suffix(".json")
@@ -74,13 +74,13 @@ def run_territorio(territorio, comune=None):
     print(f"✅ JSON:      {out_json}")
 
 
-def main():
+def main(argv=None):
     parser = argparse.ArgumentParser(description="Scan bandi e report")
     parser.add_argument("--latest", action="store_true", help="Bandi ≤60gg → radar-latest.md")
     parser.add_argument("--territorio", help="Provincia (es. MI) → segnale-{T}.md")
     parser.add_argument("--comune", help="Comune (opzionale, con --territorio)")
     parser.add_argument("--giorni", type=int, default=60, help="Giorni per --latest (default 60)")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     if args.latest:
         run_latest(giorni=args.giorni, territorio=args.territorio)

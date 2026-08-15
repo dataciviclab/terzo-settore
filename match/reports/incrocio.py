@@ -19,13 +19,13 @@ sys.path.insert(0, str(ROOT / "lib"))
 from match.funnel import format_incrocio, match_territoriale
 
 
-def main():
+def main(argv=None):
     parser = argparse.ArgumentParser(description="Incrocio territoriale ETS × contesto")
     parser.add_argument("--tags", nargs="+", required=True, help="Tag tematici (es. sport minori)")
     parser.add_argument("--terr", nargs="+", default=None, help="Territorio (es. Lombardia, Mezzogiorno)")
     parser.add_argument("--limit", type=int, default=200, help="Max ETS matchati")
     parser.add_argument("--out", default=None, help="File output markdown (default: stdout)")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     con = duckdb.connect()
     match_ctx, gap = match_territoriale(con, args.tags, limit=args.limit, territorio=args.terr)

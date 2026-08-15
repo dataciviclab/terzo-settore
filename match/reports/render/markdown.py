@@ -2,7 +2,7 @@
 
 from datetime import datetime
 
-from lib.format import fmt_euro, fmt_tags, fmt_text
+from lib.format import fmt_euro, fmt_match_reason, fmt_tags, fmt_text
 
 
 def _scrivi(lines, s=""):
@@ -217,7 +217,7 @@ def render_completo(scan):
                 provincia = fmt_text(c.get("provincia"))
                 _scrivi(lines, f"| {c['denominazione'][:45]} | {comune} | {provincia} | "
                        f"{c['capacita_progettuale']} | {int(c.get('score', 0))} | "
-                       f"{fmt_match_reason_local(c)} | {cinque} |")
+                       f"{fmt_match_reason(c)} | {cinque} |")
             _scrivi(lines, "")
 
     non_urgenti = [r for r in resultados if r["gg"] > 30]
@@ -238,7 +238,7 @@ def render_completo(scan):
                 provincia = fmt_text(c.get("provincia"))
                 _scrivi(lines, f"  · **{c['capacita_progettuale']}** {c['denominazione'][:50]} "
                        f"— {comune} ({provincia}) — score {int(c.get('score', 0))}, "
-                       f"{fmt_match_reason_local(c)} — 5x1000: {cinque}")
+                       f"{fmt_match_reason(c)} — 5x1000: {cinque}")
             _scrivi(lines, "")
 
     if sin_match:
@@ -269,7 +269,3 @@ def render_completo(scan):
            f"{len(sin_match)} gap operativi, {len(skipped)} esclusi._")
     return "\n".join(lines)
 
-
-def fmt_match_reason_local(c):
-    from lib.format import fmt_match_reason
-    return fmt_match_reason(c)

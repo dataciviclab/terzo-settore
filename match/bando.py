@@ -1,20 +1,19 @@
-"""Matching engine: bandi contro ETS."""
+"""Normalizzazione e classificazione dei bandi (prima del matching).
+
+Qui vive la logica "cosa è questo bando" (status, tags, territorio) —
+distinta dal motore di matching (match/funnel.py) che la consuma.
+"""
 
 import re
 import sys
 from pathlib import Path
 
-import duckdb
-
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
-from config import ETS_FILE, INFOBANDI_CAT_MAP, get_province_filter
-from temi import (
-    estrai_temi as extract_tags_from_text,
-    get_pattern_from_tags,
-    sezioni_per_tag as get_sections_from_tags,
-)
+from lib.config import INFOBANDI_CAT_MAP
+from lib.temi import estrai_temi as extract_tags_from_text
 
 NON_OPERATIVE_TITLE_RE = re.compile(
     r"\b(esito|esiti|approvat[ioe]|affidat[aoie]|aggiudicat[aoie]|risultat[io]|graduatoria|finanziati)\b",
@@ -102,14 +101,3 @@ def normalise_bando(b):
 
 def is_sport_bando(tags):
     return any((t or "").strip().lower() == "sport" for t in tags)
-
-
-def match_bando(con, pattern, tags, limit=10, territorio=None, testo=None):
-    """Match ETS per un bando — DELEGA al funnel a 3 stadi.
-
-    Mantiene la firma storica (pattern, tags, limit, territorio) per
-    compatibilità con pipeline.py e test; il testo è opzionale e usato
-    dal funnel per il fallback quando i tag non sono mappati.
-    """
-    from match.funnel import match_bando_funnel
-    return match_bando_funnel(con, tags, limit=limit, territorio=territorio, testo=testo)
