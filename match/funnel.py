@@ -60,10 +60,6 @@ def _cond(p):
     return f"(regexp_matches(lower(denominazione), '{p}'))"
 
 
-def _cond_temi(p):
-    return f"(regexp_matches(temi_anac, '{p}'))"
-
-
 # Temi dove la SEZIONE RUNTS è ammessa di per sé (GATE, non match pieno):
 # un'ODV è per definizione un'organizzazione di volontariato — entra nel
 # bando, ma lo score pieno spetta a chi conferma il tema nel nome/temi.
@@ -86,7 +82,6 @@ def match_tema_sql(tags, testo=None):
       - match sul TEMA PRINCIPALE vale 2 (FORTE)
       - ogni altro tag del bando matchato vale 1 (MEDIO) — così bandi
         multi-tag producono liste diverse (fix selettività)
-      - temi_anac matcha: boost debole (ha mai operato nel tema)
       - SOLO sezione (ODV=volontariato, APS=sport): debole — ammette
         ma non premia chi è solo di quella sezione senza conferma nel nome
 
@@ -113,12 +108,12 @@ def match_tema_sql(tags, testo=None):
     prim_denom = cond_by_tag.get(tema_prim) if tema_prim else None
     sec_conds = [c for t, c in cond_by_tag.items() if t != tema_prim]
 
-    prim_temi = _cond_temi(pattern_prim) if pattern_prim else None
     sez_cond = f"sezione = '{sez_prim}'" if sez_prim else None
 
     # Condizione di ammissione: nome matcha un qualunque tag, OPPURE
-    # temi_anac, OPPURE sezione-as-tema.
-    cond_parts = [p for p in (prim_denom, *sec_conds, prim_temi, sez_cond) if p]
+    # sezione-as-tema. (temi_anac rimosso dal matching: copertura 5%,
+    # boost marginale — il nome del tema è sufficiente.)
+    cond_parts = [p for p in (prim_denom, *sec_conds, sez_cond) if p]
     cond = "(" + " OR ".join(cond_parts) + ")" if cond_parts else "1=0"
 
     whens = []
@@ -126,20 +121,16 @@ def match_tema_sql(tags, testo=None):
         whens.append(f"WHEN {prim_denom} THEN 'tema_principale'")
     if sec_conds:
         whens.append(f"WHEN ({' OR '.join(sec_conds)}) THEN 'tema_secondario'")
-    if prim_temi:
-        whens.append(f"WHEN {prim_temi} THEN 'tema_temi_anac'")
     if sez_cond:
         whens.append(f"WHEN {sez_cond} THEN 'solo_sezione'")
     motivo = "CASE " + " ".join(whens) + " ELSE NULL END"
 
-    # n_match: tema principale vale 2, ogni altro tag 1, temi_anac 1
+    # n_match: tema principale vale 2, ogni altro tag 1
     n_match_parts = []
     if prim_denom:
         n_match_parts.append(f"(CASE WHEN {prim_denom} THEN 2 ELSE 0 END)")
     for c in sec_conds:
         n_match_parts.append(f"(CASE WHEN {c} THEN 1 ELSE 0 END)")
-    if prim_temi:
-        n_match_parts.append(f"(CASE WHEN {prim_temi} THEN 1 ELSE 0 END)")
     n_match = " + ".join(n_match_parts) if n_match_parts else "0"
 
     return {"cond": cond, "motivo": motivo, "n_match": n_match}
@@ -173,7 +164,7 @@ def _build_score_sql(n_match_sql: str) -> str:
 
 FUNNEL_SQL_TEMPLATE = """
 SELECT codice_fiscale, denominazione, comune, provincia, sezione,
-       capacita_progettuale, importo_5x1000_2025, temi_anac,
+       capacita_progettuale, importo_5x1000_2025,
        {MOTIVO} AS motivo_match,
        {SCORE} AS score
 FROM '{ETS_FILE}'

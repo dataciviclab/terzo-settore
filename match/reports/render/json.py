@@ -26,10 +26,6 @@ def _clean(obj):
     return str(obj)
 
 
-def segnale(vista):
-    return _clean(vista)
-
-
 def latest(vista):
     return _clean(vista)
 

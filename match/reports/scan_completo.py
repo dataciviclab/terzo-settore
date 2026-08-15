@@ -60,6 +60,11 @@ def run_latest(giorni=60, territorio=None):
 
 
 def run_territorio(territorio, comune=None):
+    """Report markdown per territorio (il JSON canonico è `tsi pacchetto`).
+
+    Il pacchetto territorio (data/reporting/territorio_{T}.json, schema v1)
+    è l'unico output JSON del territorio — qui resta il render leggibile.
+    """
     scan = load_scan()
     con = duckdb.connect()
     vista = vista_territorio(con, territorio, comune)
@@ -68,10 +73,6 @@ def run_territorio(territorio, comune=None):
     out_md = CRUSCOTTO / f"segnale-{titolo}.md"
     out_md.write_text(md.render_segnale(vista), encoding="utf-8")
     print(f"✅ Markdown: {out_md}")
-
-    out_json = CRUSCOTTO / f"segnale-{titolo}.json"
-    out_json.write_text(json.dumps(js.segnale(vista), indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"✅ JSON:      {out_json}")
 
 
 def main(argv=None):
