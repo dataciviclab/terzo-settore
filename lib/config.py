@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 # Dataset
 ETS_FILE = ROOT / "data/unified_ets.parquet"
-TEMA_ANAC_FILE = ROOT / "data/temi_anac.parquet"
+
 
 # Bandi
 # NOTA: indicebandi disattivato — la fonte espone scadenze raramente
