@@ -1,0 +1,61 @@
+root: "../../out"
+schema_version: 1
+
+dataset:
+  name: "ets_unified"
+  source_id: "terzo_settore_intelligence"
+  tags: [terzo-settore, ets, anagrafe, capacita, territorio]
+  category: terzo-settore
+  description: "Profilo capacità di ogni ETS italiano: 5x1000, appalti ANAC, grant UE, aiuti di Stato, PNRR, subappalti, immobili."
+  years: [2026]
+  time_coverage:
+    mode: snapshot
+
+# Nessun download: il raw è il RUNTS (support) + fonti Lab da GCS.
+# Eseguire prima: toolkit run --config datasets/runts/dataset.yml
+raw:
+  output_policy: overwrite
+  sources:
+    - name: "runts_clean"
+      type: local_file
+      args:
+        path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
+      primary: true
+
+support:
+  - name: runts
+    type: dataset
+    config: "../runts/dataset.yml"
+    years: [2026]
+
+clean:
+  sql: "sql/clean.sql"
+  read:
+    source: auto
+    mode: latest
+  required_columns:
+    - codice_fiscale
+    - denominazione
+    - sezione
+    - comune
+    - provincia
+    - capacita_progettuale
+  validate:
+    not_null:
+      - codice_fiscale
+    min_rows: 100000
+
+mart:
+  tables:
+    - name: "ets_comuni"
+      sql: "sql/mart_comuni.sql"
+  required_tables:
+    - ets_comuni
+  validate:
+    table_rules:
+      ets_comuni:
+        required_columns: [comune, provincia, ets_tot, capacita_alta]
+        min_rows: 1000
+
+validation:
+  fail_on_error: true
