@@ -25,7 +25,7 @@ from lib.format import fmt_euro
 
 RADAR_JSON = ROOT / "cruscotto" / "radar-completo.json"
 ETS_FILE = ROOT / "data" / "unified_ets.parquet"
-OUTPUT_DIR = ROOT / "cruscotto" / "output"
+OUTPUT_DIR = ROOT / "_local" / "contatti"
 
 
 # ── Google Places enrichment (opzionale) ─────────────────────────────

@@ -1,37 +1,28 @@
 .env
 __pycache__/
 *.pyc
-data/cache/
-data/open_cooperazione_organizzazioni.csv
-data/enrich/
-data/enriched_candidates.json
-contatta-*.csv
-contatta-*.json
-data/report-diagnostica.json
-data/temi_anac.parquet
+
+# Output operativi interni — non versionati
+_local/
+
+# Output toolkit — non versionare (raw/clean/mart/_runs rigenerabili)
+out/
 
 # Output pipeline — non versionare parquet né cache GCS
 data/*.parquet
 data/gcs_cache/
 data/build/
-
-# Output toolkit — non versionare (raw/clean/mart/_runs rigenerabili)
-out/
+data/enrich/
+data/enriched_candidates.json
 
 # Cache download RUNTS (XLSX snapshot scaricato dallo script)
 datasets/runts/*.xlsx
 
-# Pacchetti territorio per CSV — derivati, rigenerabili
-data/reporting/
-
-# Output derivati (CSV contatti) — rigenerabili, non versionati
+# Output derivati (CSV contatti) — legacy, ora in _local/
 cruscotto/output/
+contatta-*.csv
+contatta-*.json
 
-# Output visuali generati (network graph)
+# Output visuali generati
 cruscotto/*.html
 cruscotto/*.png
-
-# Asset JS scaricati da pyvis al primo run (rigenerabili con pip install pyvis)
-lib/bindings/
-lib/tom-select/
-lib/vis-*/

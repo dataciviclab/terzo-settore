@@ -28,7 +28,7 @@ from match.reports.analytics import (
 from match.reports.render import markdown as md
 
 ROOT = Path(__file__).resolve().parents[2]
-REPORTING = ROOT / "data" / "reporting"
+REPORTING = ROOT / "_local" / "pacchetti"
 
 # Territori target (fase T1 pilota Bologna + T2 ER): configurare qui.
 TERRITORI_TARGET = ["BO", "FC", "FE", "MO", "PC", "PR", "RA", "RE", "RN"]

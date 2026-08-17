@@ -243,7 +243,7 @@ def main():
     print(f" {'✅' if ok_part else '❌'} ETS con partecipazioni gare > 10k (attuale: {n_part:,})")
 
     # ── Test pacchetto territorio (deliverable CSV) ─────────────────
-    pacchetto_path = Path(__file__).resolve().parents[1] / "data/reporting/territorio_BO.json"
+    pacchetto_path = Path(__file__).resolve().parents[1] / "_local/pacchetti/territorio_BO.json"
     if pacchetto_path.exists():
         pacchetto = json.loads(pacchetto_path.read_text())
         checks_pacchetto = [
