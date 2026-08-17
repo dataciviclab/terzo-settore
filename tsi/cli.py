@@ -28,11 +28,8 @@ sys.path.insert(0, str(ROOT / "lib"))
 COMMANDS = {
     "scan": ("match.reports.scan_completo", "scan bandi + radar-completo (markdown+json)"),
     "contatta": ("match.reports.contatta", "esporta candidati da contattare per un bando"),
-    "scheda": ("match.reports.scheda", "profilo ETS (base/ANAC/match/benchmark)"),
-    "pacchetto": ("match.reports.pacchetto", "deliverable territorio per i CSV (T1/T2)"),
-    "benchmark": ("match.reports.benchmark", "aggregati ETS × Lab per livello"),
-    "incrocio": ("match.reports.incrocio", "match ETS × contesto comune"),
-    "outreach": ("match.reports.outreach", "kit di scoperta per pilota outreach"),
+    "scheda": ("match.reports.scheda", "profilo ETS (base/ANAC/match)"),
+    "pacchetto": ("match.reports.pacchetto", "deliverable territorio JSON"),
 }
 
 

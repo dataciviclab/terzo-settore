@@ -133,17 +133,3 @@ clean:
 	rm -f cruscotto/radar-latest.md cruscotto/radar-latest.json
 	rm -f cruscotto/segnale-*.md cruscotto/segnale-*.json
 	@echo "✅ Pulito"
-
-# Kit di scoperta per pilota outreach
-# make outreach T=BO              — campione bilanciato + schede + questionario
-# make outreach T=BO N=10 ENRICH=1 — con contatti Google Places (lento)
-# make outreach T=BO CSV_ONLY=1   — solo shortlist CSV
-outreach:
-	[ -n "$(T)" ] || (echo "Usa: make outreach T=BO [N=10] [ENRICH=1] [CSV_ONLY=1]" && exit 1)
-	$(TSI) outreach $(T) $(if $(N),--n $(N),) $(if $(ENRICH),--enrich,) $(if $(CSV_ONLY),--csv-only,)
-
-# Incrocio territoriale: match ETS × contesto comune (reddito, RdC, sport)
-# make incrocio TAGS="sport minori" TERR=Lombardia OUT=cruscotto/incrocio.md
-incrocio:
-	[ -n "$(TAGS)" ] || (echo "Usa: make incrocio TAGS='sport minori' [TERR=Lombardia] [OUT=file.md]" && exit 1)
-	$(TSI) incrocio --tags $(TAGS) $(if $(TERR),--terr $(TERR),) $(if $(OUT),--out $(OUT),)
