@@ -6,7 +6,7 @@ dataset:
   source_id: "terzo_settore_intelligence"
   tags: [terzo-settore, ets, anagrafe, capacita, territorio]
   category: terzo-settore
-  description: "Profilo capacità di ogni ETS italiano: 5x1000, appalti ANAC, grant UE, aiuti di Stato, PNRR, subappalti, immobili."
+  description: "Fatti ETS (long) + profilo unificato (pivottato) + aggregato comunale. Driver-first: RUNTS 150k CF x 8 fonti Lab."
   years: [2026]
   time_coverage:
     mode: snapshot
@@ -34,25 +34,30 @@ clean:
     source: auto
     mode: latest
   required_columns:
-    - codice_fiscale
-    - denominazione
-    - sezione
-    - comune
-    - provincia
-    - capacita_progettuale
+    - fonte
+    - cf
+    - anno
+    - importo
   validate:
     not_null:
-      - codice_fiscale
+      - cf
+      - fonte
     min_rows: 100000
 
 mart:
   tables:
+    - name: "ets_unified"
+      sql: "sql/mart_ets.sql"
     - name: "ets_comuni"
       sql: "sql/mart_comuni.sql"
   required_tables:
+    - ets_unified
     - ets_comuni
   validate:
     table_rules:
+      ets_unified:
+        required_columns: [codice_fiscale, denominazione, sezione, comune, provincia, capacita_progettuale]
+        min_rows: 100000
       ets_comuni:
         required_columns: [comune, provincia, ets_tot, capacita_alta]
         min_rows: 1000

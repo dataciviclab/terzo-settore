@@ -14,6 +14,7 @@ data/gcs_cache/
 data/build/
 data/enrich/
 data/enriched_candidates.json
+data/*
 
 # Cache download RUNTS (XLSX snapshot scaricato dallo script)
 datasets/runts/*.xlsx

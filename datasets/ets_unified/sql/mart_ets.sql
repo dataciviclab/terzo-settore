@@ -1,18 +1,11 @@
--- build_unified_ets.sql
--- Hub ETS: RUNTS (anagrafe) + PIVOT da fatti_ets + geografia + temi ANAC
--- fatti_ets.parquet deve essere stato generato dal driver-first (resolve_sources.py)
--- Output: una riga per ETS con tutti gli indicatori di capacità
+-- mart_ets.sql — Profilo ETS unificato (pivottato)
+-- Consuma clean_input (fatti_ets long) + RUNTS + geografia da GCS.
+-- Output: una riga per ETS con tutti gli indicatori di capacita.
 
-COPY (
-WITH anagrafe AS (
-    SELECT
-        codice_fiscale,
-        denominazione,
-        sezione,
-        comune,
-        provincia,
-        data_iscrizione
-    FROM read_parquet('data/runts_iscritti.parquet', union_by_name=true)
+WITH
+anagrafe AS (
+    SELECT codice_fiscale, denominazione, sezione, comune, provincia, data_iscrizione
+    FROM '{support.runts.clean}'
 ),
 
 fatti_pivot AS (
@@ -41,7 +34,7 @@ fatti_pivot AS (
                     AND appalto_riservato != 'LA PARTECIPAZIONE NON È RISERVATA.' THEN 1 END) as appalti_riservati,
         COUNT(CASE WHEN fonte = 'anac' AND flag_pnrr = true THEN 1 END) as appalti_pnrr,
 
-        -- Partecipazioni a gare (chi si candida, anche senza vincere)
+        -- Partecipazioni a gare
         SUM(CASE WHEN fonte = 'partecipazione' THEN importo END) as gare_partecipate,
 
         -- Subappalti
@@ -51,13 +44,14 @@ fatti_pivot AS (
         COUNT(CASE WHEN fonte = 'patrimonio' THEN 1 END) as patrimonio_immobili,
         SUM(CASE WHEN fonte = 'patrimonio' THEN importo END) as canone_totale
 
-    FROM read_parquet('data/fatti_ets.parquet')
+    FROM clean_input
     GROUP BY cf
 ),
 
 geo AS (
-    SELECT lower(denominazione) as comune_norm, codice_istat, sigla_provincia, provincia as nome_provincia, regione
-    FROM read_parquet('../dataset-incubator/out/data/clean/comuni_master/2026/comuni_master_2026_clean.parquet', union_by_name=true)
+    SELECT lower(denominazione) as comune_norm, codice_istat, sigla_provincia,
+           provincia as nome_provincia, regione
+    FROM 'https://storage.googleapis.com/dataciviclab-clean/comuni_master/2026/comuni_master_2026_clean.parquet'
 )
 
 SELECT
@@ -70,29 +64,24 @@ SELECT
     cm.regione,
     a.data_iscrizione,
 
-    -- 5x1000
     CASE WHEN COALESCE(importo_5x1000_2025, 0) > 0 THEN TRUE ELSE FALSE END as ha_5x1000,
     importo_5x1000_2025,
     COALESCE(importo_5x1000_totale, 0) as importo_5x1000_totale,
     COALESCE(anni_5x1000, 0) as anni_5x1000,
     regexp_matches(lower(a.denominazione), '(asd|associazione sportiva|società sportiva|sportiva dilettantistica|polisportiva)') as ha_sport_in_denominazione,
 
-    -- Grant UE
     CASE WHEN COALESCE(importo_ue, 0) > 0 THEN TRUE ELSE FALSE END as ha_finanziamenti_ue,
     COALESCE(progetti_ue, 0) as progetti_ue,
     COALESCE(importo_ue, 0) as importo_ue,
 
-    -- Aiuti di Stato
     CASE WHEN COALESCE(importo_aiuti_stato, 0) > 0 THEN TRUE ELSE FALSE END as ha_aiuti_stato,
     COALESCE(progetti_aiuti_stato, 0) as progetti_aiuti_stato,
     COALESCE(importo_aiuti_stato, 0) as importo_aiuti_stato,
 
-    -- PNRR
     CASE WHEN COALESCE(importo_pnrr, 0) > 0 THEN TRUE ELSE FALSE END as ha_progetti_pnrr,
     COALESCE(progetti_pnrr, 0) as progetti_pnrr,
     COALESCE(importo_pnrr, 0) as importo_pnrr,
 
-    -- Appalti pubblici ANAC
     CASE WHEN COALESCE(importo_appalti, 0) > 0 THEN TRUE ELSE FALSE END as ha_appalti_pubblici,
     COALESCE(numero_appalti, 0) as numero_appalti,
     COALESCE(importo_appalti, 0) as importo_appalti,
@@ -102,11 +91,9 @@ SELECT
     COALESCE(patrimonio_immobili, 0) as patrimonio_immobili,
     COALESCE(canone_totale, 0) as canone_totale,
 
-    -- Partecipazioni a gare (chi si candida senza vincere)
     CASE WHEN COALESCE(gare_partecipate, 0) > 0 THEN TRUE ELSE FALSE END as ha_partecipato_gare,
     COALESCE(gare_partecipate, 0) as gare_partecipate,
 
-    -- Indicatore composito di capacità
     CASE
         WHEN COALESCE(importo_ue, 0) > 0 THEN 'alta'
         WHEN COALESCE(numero_appalti, 0) >= 10 THEN 'alta'
@@ -126,5 +113,3 @@ FROM anagrafe a
 LEFT JOIN fatti_pivot f ON a.codice_fiscale = f.cf
 LEFT JOIN geo cm ON lower(a.comune) = cm.comune_norm
 ORDER BY cm.nome_provincia, a.comune, a.denominazione
-)
-TO 'data/unified_ets.parquet' (FORMAT PARQUET);

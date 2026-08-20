@@ -29,6 +29,7 @@ COMMANDS = {
     "scan": ("match.reports.scan_completo", "scan bandi + radar-completo (markdown+json)"),
     "contatta": ("match.reports.contatta", "esporta candidati da contattare per un bando"),
     "scheda": ("match.reports.scheda", "profilo ETS (base/ANAC/match)"),
+    "scheda-ente": ("reports.scheda_ente", "scheda ETS on-demand (query live, dati freschi)"),
     "pacchetto": ("match.reports.pacchetto", "deliverable territorio JSON"),
 }
 
