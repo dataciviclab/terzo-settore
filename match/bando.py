@@ -97,7 +97,3 @@ def normalise_bando(b):
 
     territorio = extract_territory(b)
     return titolo, url, scadenza_str, ente, tags, territorio, fonte
-
-
-def is_sport_bando(tags):
-    return any((t or "").strip().lower() == "sport" for t in tags)

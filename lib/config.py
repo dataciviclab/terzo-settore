@@ -101,18 +101,6 @@ def gcs_path(slug: str, year: int) -> str:
     return https_url("clean", "clean_parquet", slug=slug, year=year)
 
 
-# Output
-RADAR_REPORT = ROOT / "cruscotto/radar-completo.md"
-
-# Soglie capacità (usate in build_unified_ets.sql)
-CAP_GRANT_UE = 0
-CAP_AIUTI_STATO = 0
-CAP_PNRR = 0
-CAP_CINQUE_SINGOLO = 10000
-CAP_CINQUE_ANNI = 3
-CAP_OC_BILANCIO = 100000
-CAP_OC_PROGETTI = 3
-CAP_OC_DIPENDENTI = 3
 
 # Dati geografici (regioni → province)
 REGION_PROVINCES = {

@@ -234,14 +234,6 @@ def get_pattern_from_tags(tags, testo: str | None = None):
     return "|".join(parts) if parts else None
 
 
-def get_pattern_principale(tags, testo: str | None = None):
-    """Pattern del SOLO tema principale (per match stretto nel funnel)."""
-    tema = tema_principale(tags, testo)
-    if not tema:
-        return None
-    return TEMA_PATTERN.get(tema)
-
-
 # Mappa: tag → sezioni RUNTS pertinenti
 # (usata dal matching per gate di sezione)
 SEZIONI_PER_TAG: dict[str, list[str]] = {

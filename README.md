@@ -70,44 +70,40 @@ pacchetto solo aggregati + matching, mai liste contatti.
 ## Architettura
 
 ```
-ets/                              ← LAYER 1: hub dati ETS
-  sources.py                      Fonte di verità delle dipendenze (slug, year, fname)
-  resolve_sources.py              Risoluzione path: layer Lab locale → cache → GCS
-  build_fatti_ets_driver.sql      Template driver-first: RUNTS 150k CF → join filtrato
-                                  con 7 fonti — materializza SOLO gli ETS (485K righe)
-  build_unified_ets.sql           PIVOT da fatti_ets + geografia
-  enrich_places.py                Arricchimento Google Places (opzionale, richiede .env)
-  comuni.py                       Metriche aggregate per comune
+datasets/                         ← Pipeline toolkit (clean + mart SQL)
+  ets_unified/                      Fatti ETS: 8 fonti Lab → profilo unificato
+  runts/                            RUNTS: snapshot Runts Nazionale ETS
 
-match/                            ← LAYER 2: matching bandi ↔ ETS
-  matcher.py                      Motore: match_bando (sezione + keyword + territorio)
-  pipeline.py                     Orchestrazione: load_bandi → run_scan
-  reports/
-    scan_completo.py              Scan → cruscotto/radar-completo.json/md. Flag: --latest, --territorio
-    analytics.py                  Viste pure (calcolo) — ETS, contesto, bandi, gap
-    render/                       Presentazione: markdown.py, json.py
-    pacchetto.py                  Deliverable territorio per CSV → data/reporting/
-    contatta.py                   CSV contatti per bando → cruscotto/output/. Flag: --per-ets, --enrich
-    scheda.py                     Profilo ETS: benchmark, ANAC, bandi matchati
+reports/                          ← Schede ETS on-demand
+  scheda_ente.py                    Profilo completo: ANAC/5x1000/RNA/UE/PNRR + benchmark
 
-bandi/                            ← Acquisizione (3 fonti)
-  infobandi.py, info_cooperazione.py, indicebandi.py
+match/                            ← Matching bandi ↔ ETS
+  bando.py                          Classificazione bandi (temi, budget, territorio)
+  funnel.py                         Scoring: pertinenza × capacità + bonus 5x1000
+  pipeline.py                       Orchestrazione: load_bandi → run_scan
+
+bandi/                            ← Acquisizione fonti bandi
+  infobandi.py                      Fonte: infobandi.csvnet.it (CSVNet)
+  info_cooperazione.py              Fonte: infocooperazione.it
 
 lib/                              ← Utility condivise
-```
+  config.py                         Costanti, path, soglie
+  format.py                         Formattazione output
+  temi.py                           Estrazione e match tematico
+  html_utils.py                     Parsing HTML bandi
 
-> **Sperimentazioni** (dashboard Streamlit, network graph, partnership) vivono nel
-> branch `feat/experiments` — non su main, per tenere il core stabile e senza
-> dipendenze pesanti (networkx, pyvis, matplotlib).
+tsi/                              ← CLI unica (python3 -m tsi)
+  cli.py                            Dispatch: scheda-ente
+```
 
 ## Regole di funzionamento
 
-1. **Un solo prodotto**: `unified_ets.parquet` + `comuni_ets.parquet`. Tutto il resto
-   (report, CSV, radar) è derivato — non versionato, rigenerabile.
-2. **Un solo input esterno**: RUNTS + layer clean Lab (`dataset-incubator/out/data/clean/`).
-   Niente copie private della cache GCS.
-3. **Output in un posto solo**: `cruscotto/` = report tracciati (radar, segnali),
-   `cruscotto/output/` = CSV derivati (gitignored). Mai mescolare.
+1. **Pipeline toolkit**: `datasets/ets_unified/` produce il mart ETS (clean + mart SQL).
+   `reports/scheda_ente.py` genera le schede on-demand.
+2. **Matching bandi**: `match/` classifica e matcha bandi contro il profilo ETS.
+   Fonti in `bandi/`, output in `data/bandi/`.
+3. **Output generati** (JSON bandi, schede markdown) non dovrebbero essere versionati
+   se rigenerabili — vedi `.gitignore`.
 4. **Nomi che dicono la verità**: niente `tsi/` o `radar/` inesistenti; SQL generato
    in `data/build/`, non in `/tmp`.
 5. **Sperimentazione isolata**: dashboard/network/partnership solo su `feat/experiments`.
