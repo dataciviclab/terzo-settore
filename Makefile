@@ -27,6 +27,9 @@ scheda-bando:
 list-bandi:
 	$(TSI) scheda-bando --list
 
+vista-territorio:
+	$(TSI) vista-territorio $(TERR) $(if $(PROV),--prov $(PROV),) $(if $(REG),--regione $(REG),)
+
 # ─── Bandi (acquisizione) ──────────────────────────────────────────
 bandi-infobandi:
 	python3 bandi/infobandi.py

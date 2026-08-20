@@ -20,6 +20,7 @@ sys.path.insert(0, str(ROOT / "lib"))
 COMMANDS = {
     "scheda-ente": ("reports.scheda_ente", "scheda ETS on-demand (query live, dati freschi)"),
     "scheda-bando": ("reports.scheda_bando", "profilo bando + ETS compatibili"),
+    "vista-territorio": ("reports.vista_territorio", "panorama ETS di un comune/provincia/regione"),
 }
 
 
