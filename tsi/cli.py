@@ -2,17 +2,9 @@
 
 Entry point: ``python3 -m tsi <comando> [args]``
 
-I comandi delegano ai moduli di ``match/reports/`` (logica invariata);
-qui vivono solo il dispatch e la configurazione dei path.
-
 Comandi:
-    scan       — scan bandi + radar-completo (markdown+json)
-    contatta   — esporta candidati da contattare per un bando
-    scheda     — profilo ETS (base/ANAC/match/benchmark)
-    pacchetto  — deliverable territorio per i CSV (T1/T2)
-    benchmark  — aggregati ETS × Lab per livello
-    incrocio   — match ETS × contesto comune
-    outreach   — kit di scoperta per pilota outreach
+    scheda-ente  — profilo ETS on-demand (query live, dati freschi)
+    scheda-bando — profilo bando + ETS compatibili
 """
 
 from __future__ import annotations
@@ -26,11 +18,8 @@ sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "lib"))
 
 COMMANDS = {
-    "scan": ("match.reports.scan_completo", "scan bandi + radar-completo (markdown+json)"),
-    "contatta": ("match.reports.contatta", "esporta candidati da contattare per un bando"),
-    "scheda": ("match.reports.scheda", "profilo ETS (base/ANAC/match)"),
     "scheda-ente": ("reports.scheda_ente", "scheda ETS on-demand (query live, dati freschi)"),
-    "pacchetto": ("match.reports.pacchetto", "deliverable territorio JSON"),
+    "scheda-bando": ("reports.scheda_bando", "profilo bando + ETS compatibili"),
 }
 
 

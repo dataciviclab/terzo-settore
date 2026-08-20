@@ -10,7 +10,7 @@ from lab_connectors.gcs.paths import https_url
 ROOT = Path(__file__).resolve().parent.parent
 
 # Dataset
-ETS_FILE = ROOT / "data/unified_ets.parquet"
+ETS_FILE = ROOT / "out/data/mart/ets_unified/2026/ets_unified.parquet"
 
 
 # Bandi
