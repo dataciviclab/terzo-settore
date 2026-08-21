@@ -1,6 +1,5 @@
 """Display formatting utilities for match results."""
 
-import math
 import re
 from datetime import date, datetime
 

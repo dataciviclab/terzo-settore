@@ -1,13 +1,11 @@
 """Orchestrazione scan: carica bandi, matcha, produce risultati."""
 
 import json
-import sys
 from pathlib import Path
 
 import duckdb
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
 
 from lib.config import BANDI_FILES
 from lib.html_utils import arricchisci

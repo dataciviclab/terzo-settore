@@ -11,13 +11,11 @@ Uso:
 from __future__ import annotations
 
 import argparse
-import sys
 from pathlib import Path
 
 import duckdb
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
 
 from match.pipeline import load_bandi, normalise_bando
 from match.funnel import match_bando_funnel, gate_territorio, gate_sezione

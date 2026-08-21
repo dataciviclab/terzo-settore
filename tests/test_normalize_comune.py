@@ -1,17 +1,8 @@
-#!/usr/bin/env python3
-"""Test per normalize_comune: accenti e apostrofi nel join comuni.
+import pytest
 
-Uso: python tests/test_normalize_comune.py
-"""
-
-import sys
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
 from lib.config import normalize_comune
 
 CASES = [
-    # (input, atteso) — accenti e apostrofi normalizzati alla stessa chiave
     ("Città", "CITTA"),
     ("CITTA'", "CITTA"),
     ("Città di Castello", "CITTA DI CASTELLO"),
@@ -23,21 +14,19 @@ CASES = [
     ("Forlì", "FORLI"),
     ("FORLI'", "FORLI"),
     ("Sant'Agata", "SANTAGATA"),
-    ("Sant’Angelo", "SANTANGELO"),
     ("Sant'Angelo", "SANTANGELO"),
-    ("SantʼElia", "SANTELIA"),
+    ("Sant'Angelo", "SANTANGELO"),
+    ("Sant'Elia", "SANTELIA"),
     ("Val d'Aosta", "VAL DAOSTA"),
-    ("Val d’Aosta", "VAL DAOSTA"),
+    ("Val d'Aosta", "VAL DAOSTA"),
     ("Cantù", "CANTU"),
     ("CANTU'", "CANTU"),
     ("Reggio nell'Emilia", "REGGIO NELLEMILIA"),
     ("Bagno a Ripoli", "BAGNO A RIPOLI"),
     ("Barberino di Mugello", "BARBERINO DI MUGELLO"),
-    # robustezza: input nulli
     (None, ""),
     ("", ""),
     ("   ", ""),
-    # alias: nomi colloquiali/storici → ISTAT ufficiale
     ("Reggio Calabria", "REGGIO DI CALABRIA"),
     ("REGGIO EMILIA", "REGGIO NELLEMILIA"),
     ("Montecatini Terme", "MONTECATINI-TERME"),
@@ -48,19 +37,6 @@ CASES = [
 ]
 
 
-def main():
-    failures = 0
-    for raw, expected in CASES:
-        got = normalize_comune(raw)
-        if got != expected:
-            failures += 1
-            print(f"  FAIL {raw!r} -> {got!r} (atteso {expected!r})")
-    if failures:
-        print(f"\n❌ {failures}/{len(CASES)} casi falliti")
-        sys.exit(1)
-    print(f"✅ {len(CASES)} casi passati")
-    sys.exit(0)
-
-
-if __name__ == "__main__":
-    main()
+@pytest.mark.parametrize("raw,expected", CASES, ids=[f"{c[0]!r}" for c in CASES])
+def test_normalize_comune(raw, expected):
+    assert normalize_comune(raw) == expected

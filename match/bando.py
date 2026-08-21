@@ -5,11 +5,9 @@ distinta dal motore di matching (match/funnel.py) che la consuma.
 """
 
 import re
-import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
 
 from lib.config import INFOBANDI_CAT_MAP
 from lib.temi import estrai_temi as extract_tags_from_text

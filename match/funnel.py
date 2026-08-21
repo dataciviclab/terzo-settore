@@ -14,11 +14,9 @@ Design:
   sostituto — così i "grandi ricchi non pertinenti" non dominano più
 """
 
-import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
 
 from lib.config import ETS_FILE, get_province_filter
 from lib.temi import TEMA_PATTERN, estrai_temi, normalizza_tags, sezioni_per_tag, tema_principale

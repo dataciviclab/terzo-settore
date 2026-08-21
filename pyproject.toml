@@ -12,8 +12,14 @@ dependencies = [
     "lab-connectors[duckdb] @ git+https://github.com/dataciviclab/lab-connectors.git",
 ]
 
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
 [project.scripts]
 tsi = "tsi.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["lib*", "match*", "bandi*", "reports*", "tsi*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

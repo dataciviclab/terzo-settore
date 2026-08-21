@@ -11,7 +11,6 @@ Uso diretto:
 import json
 import os
 import re
-import sys
 import time
 from datetime import datetime
 from json import JSONDecoder
@@ -20,7 +19,6 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
 from lib.config import filtra_bandi_attivi, normalizza_scadenza
 
 CACHE_DIR = Path(__file__).resolve().parents[1] / "data" / "bandi"
