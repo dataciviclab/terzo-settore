@@ -21,7 +21,7 @@ from match.bando import classify_bando
 from match.funnel import match_bando_funnel
 from lib.format import parse_date_flex
 
-ETS_FILE = Path("data/unified_ets.parquet")
+ETS_FILE = Path("out/data/mart/ets_unified/2026/ets_unified.parquet")
 
 TESTS = [
     ("sport", ["sport"], 1),
@@ -235,7 +235,7 @@ def main():
         print(" ⚠️  Scan JSON non trovato, salto test integrità")
 
     # ── Test integrità indicatore partecipazioni gare ───────────────
-    n_part = con.sql("SELECT COUNT(*) FILTER (WHERE ha_partecipato_gare) FROM 'data/unified_ets.parquet'").fetchone()[0]
+    n_part = con.sql(f"SELECT COUNT(*) FILTER (WHERE ha_partecipato_gare) FROM '{ETS_FILE}'").fetchone()[0]
     ok_part = n_part > 10000
     if not ok_part:
         failures += 1
