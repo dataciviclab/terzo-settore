@@ -81,7 +81,7 @@ def fmt_match_reason(c):
     if c.get("ha_progetti_pnrr") is True:
         parts.append("PNRR")
     sez = c.get("sezione")
-    if sez == "IMPRESI SOCIALI":
+    if sez == "IMPRESE SOCIALI":
         parts.append("Impresa Sociale")
     elif sez == "ORGANIZZAZIONI DI VOLONTARIATO":
         parts.append("ODV")

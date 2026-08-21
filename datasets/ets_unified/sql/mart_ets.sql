@@ -105,7 +105,7 @@ SELECT
         WHEN COALESCE(anni_5x1000, 0) >= 3 AND COALESCE(importo_5x1000_2025, 0) > 0 THEN 'media'
         WHEN COALESCE(numero_appalti, 0) >= 1 THEN 'media'
         WHEN COALESCE(importo_5x1000_2025, 0) > 0 THEN 'base'
-        WHEN a.sezione = 'IMPRESI SOCIALI' THEN 'base'
+        WHEN a.sezione = 'IMPRESE SOCIALI' THEN 'base'
         ELSE 'sconosciuta'
     END as capacita_progettuale
 

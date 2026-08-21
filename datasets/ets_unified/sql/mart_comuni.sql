@@ -41,7 +41,7 @@ unificato AS (
             WHEN COALESCE(f.numero_appalti, 0) >= 3 THEN 'medio-alta'
             WHEN COALESCE(f.numero_appalti, 0) >= 1 THEN 'media'
             WHEN COALESCE(f.ha_5x1000, FALSE) THEN 'base'
-            WHEN a.sezione = 'IMPRESI SOCIALI' THEN 'base'
+            WHEN a.sezione = 'IMPRESE SOCIALI' THEN 'base'
             ELSE 'sconosciuta'
         END as capacita_progettuale
     FROM anagrafe a
