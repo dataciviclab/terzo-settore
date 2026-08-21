@@ -8,8 +8,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "lib"))
-from config import normalize_comune
+from lib.config import normalize_comune
 
 CASES = [
     # (input, atteso) — accenti e apostrofi normalizzati alla stessa chiave

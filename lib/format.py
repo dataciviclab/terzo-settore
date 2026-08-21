@@ -4,7 +4,7 @@ import math
 import re
 from datetime import date, datetime
 
-from config import MESI_IT
+from lib.config import MESI_IT
 
 
 def parse_date_flex(s):

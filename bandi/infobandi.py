@@ -19,8 +19,9 @@ from pathlib import Path
 
 import requests
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
-from config import filtra_bandi_attivi, normalizza_scadenza
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from lib.config import filtra_bandi_attivi, normalizza_scadenza
 
 CACHE_DIR = Path(__file__).resolve().parents[1] / "data" / "bandi"
 CACHE_FILE = CACHE_DIR / "infobandi_bandi.json"

@@ -9,7 +9,11 @@ dependencies = [
     "requests>=2.31.0",
     "beautifulsoup4>=4.12",
     "python-dotenv>=1.0",
-    # Infrastruttura condivisa Lab: path contract GCS, config DuckDB/GCS, HTTP client
-    # (HTTP client è nel core di lab-connectors — nessun extra; duckdb richiede l'extra)
     "lab-connectors[duckdb] @ git+https://github.com/dataciviclab/lab-connectors.git",
 ]
+
+[project.scripts]
+tsi = "tsi.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["lib*", "match*", "bandi*", "reports*", "tsi*"]

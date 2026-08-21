@@ -10,7 +10,6 @@ from pathlib import Path
 import duckdb
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "lib"))
 sys.path.insert(0, str(ROOT))
 from lib.config import get_province_filter
 from lib.temi import (

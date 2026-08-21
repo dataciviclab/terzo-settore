@@ -10,7 +10,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-sys.path.insert(0, str(ROOT / "lib"))
 
 from lib.config import INFOBANDI_CAT_MAP
 from lib.temi import estrai_temi as extract_tags_from_text

@@ -8,7 +8,6 @@ import duckdb
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-sys.path.insert(0, str(ROOT / "lib"))
 
 from lib.config import BANDI_FILES
 from lib.html_utils import arricchisci
