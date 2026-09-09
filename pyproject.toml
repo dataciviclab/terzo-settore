@@ -1,25 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "terzo-settore-intelligence"
 version = "0.1.0"
 description = "Intelligence sul Terzo Settore italiano — ETS, bandi, appalti riservati, matching multi-fonte"
+readme = "README.md"
 requires-python = ">=3.12"
+license = "MIT"
+authors = [{name = "DataCivicLab"}]
+
 dependencies = [
-    "duckdb>=1.0",
+    "duckdb>=1.5.3,<2",
     "pandas>=2.0",
+    "pyyaml>=6.0",
     "requests>=2.31.0",
     "beautifulsoup4>=4.12",
     "python-dotenv>=1.0",
-    "lab-connectors[duckdb] @ git+https://github.com/dataciviclab/lab-connectors.git",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0"]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.5",
+]
+pipeline = [
+    "dataciviclab-toolkit @ git+https://github.com/dataciviclab/toolkit.git",
+    "lab-connectors[duckdb] @ git+https://github.com/dataciviclab/lab-connectors.git",
+    "openpyxl>=3.1",
+]
+dashboard = [
+    "streamlit>=1.62.0",
+    "altair>=6.2.2",
+    "lab-connectors[duckdb] @ git+https://github.com/dataciviclab/lab-connectors.git",
+]
 
 [project.scripts]
-tsi = "tsi.cli:main"
+
+[project.urls]
+Home = "https://github.com/dataciviclab/terzo-settore-intelligence"
 
 [tool.setuptools.packages.find]
-include = ["lib*", "match*", "bandi*", "reports*", "tsi*"]
+include = ["lib*", "bandi*"]
 
 [tool.pytest.ini_options]
+markers = [
+    "contract: interfaccia pubblica, artifact format, contratto API, path contract, output CI",
+    "policy: regola Lab non ovvia o comportamento cross-component",
+    "regression: bug fix documentato in issue/PR",
+    "smoke: test che fa chiamate reali (richiede connettivita')",
+]
 testpaths = ["tests"]
+
+[tool.toolkit.extends]
+source_id = "terzo_settore_intelligence"

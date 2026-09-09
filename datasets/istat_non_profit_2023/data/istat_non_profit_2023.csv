@@ -1,0 +1,522 @@
+anno,regione,livello,categoria_tipo,categoria,istituzioni,dipendenti,codice_provincia
+2023,Piemonte,regione,forma_giuridica,Associazione,25966,11371,
+2023,Piemonte,regione,forma_giuridica,Cooperativa sociale,699,46506,
+2023,Piemonte,regione,forma_giuridica,Fondazione,803,7176,
+2023,Piemonte,regione,forma_giuridica,Altra forma giuridica,3148,10490,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,forma_giuridica,Associazione,1174,347,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,forma_giuridica,Cooperativa sociale,36,1410,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,forma_giuridica,Fondazione,33,236,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,forma_giuridica,Altra forma giuridica,110,228,
+2023,Liguria,regione,forma_giuridica,Associazione,9387,4649,
+2023,Liguria,regione,forma_giuridica,Cooperativa sociale,315,12313,
+2023,Liguria,regione,forma_giuridica,Fondazione,302,2145,
+2023,Liguria,regione,forma_giuridica,Altra forma giuridica,1393,4125,
+2023,Lombardia,regione,forma_giuridica,Associazione,48737,27861,
+2023,Lombardia,regione,forma_giuridica,Cooperativa sociale,1977,96555,
+2023,Lombardia,regione,forma_giuridica,Fondazione,2346,50815,
+2023,Lombardia,regione,forma_giuridica,Altra forma giuridica,5292,33266,
+2023,Trentino-Alto Adige / Südtirol,regione,forma_giuridica,Associazione,10285,10949,
+2023,Trentino-Alto Adige / Südtirol,regione,forma_giuridica,Cooperativa sociale,324,11277,
+2023,Trentino-Alto Adige / Südtirol,regione,forma_giuridica,Fondazione,179,1605,
+2023,Trentino-Alto Adige / Südtirol,regione,forma_giuridica,Altra forma giuridica,948,2224,
+2023,Bolzano / Bozen,regione,forma_giuridica,Associazione,4653,5322,
+2023,Bolzano / Bozen,regione,forma_giuridica,Cooperativa sociale,215,3697,
+2023,Bolzano / Bozen,regione,forma_giuridica,Fondazione,83,1145,
+2023,Bolzano / Bozen,regione,forma_giuridica,Altra forma giuridica,420,1386,
+2023,Trento,regione,forma_giuridica,Associazione,5632,5627,
+2023,Trento,regione,forma_giuridica,Cooperativa sociale,109,7580,
+2023,Trento,regione,forma_giuridica,Fondazione,96,460,
+2023,Trento,regione,forma_giuridica,Altra forma giuridica,528,838,
+2023,Veneto,regione,forma_giuridica,Associazione,26700,11757,
+2023,Veneto,regione,forma_giuridica,Cooperativa sociale,779,40938,
+2023,Veneto,regione,forma_giuridica,Fondazione,712,12192,
+2023,Veneto,regione,forma_giuridica,Altra forma giuridica,2895,17875,
+2023,Friuli-Venezia Giulia,regione,forma_giuridica,Associazione,9753,4212,
+2023,Friuli-Venezia Giulia,regione,forma_giuridica,Cooperativa sociale,210,13310,
+2023,Friuli-Venezia Giulia,regione,forma_giuridica,Fondazione,144,1400,
+2023,Friuli-Venezia Giulia,regione,forma_giuridica,Altra forma giuridica,635,2117,
+2023,Emilia-Romagna,regione,forma_giuridica,Associazione,22874,12122,
+2023,Emilia-Romagna,regione,forma_giuridica,Cooperativa sociale,860,62580,
+2023,Emilia-Romagna,regione,forma_giuridica,Fondazione,733,6920,
+2023,Emilia-Romagna,regione,forma_giuridica,Altra forma giuridica,3033,7592,
+2023,Toscana,regione,forma_giuridica,Associazione,23431,11550,
+2023,Toscana,regione,forma_giuridica,Cooperativa sociale,578,33863,
+2023,Toscana,regione,forma_giuridica,Fondazione,646,5739,
+2023,Toscana,regione,forma_giuridica,Altra forma giuridica,2282,6267,
+2023,Umbria,regione,forma_giuridica,Associazione,5991,2091,
+2023,Umbria,regione,forma_giuridica,Cooperativa sociale,221,8495,
+2023,Umbria,regione,forma_giuridica,Fondazione,163,712,
+2023,Umbria,regione,forma_giuridica,Altra forma giuridica,875,1250,
+2023,Marche,regione,forma_giuridica,Associazione,9626,3620,
+2023,Marche,regione,forma_giuridica,Cooperativa sociale,335,13825,
+2023,Marche,regione,forma_giuridica,Fondazione,251,2029,
+2023,Marche,regione,forma_giuridica,Altra forma giuridica,1051,992,
+2023,Lazio,regione,forma_giuridica,Associazione,30299,30415,
+2023,Lazio,regione,forma_giuridica,Cooperativa sociale,1272,45771,
+2023,Lazio,regione,forma_giuridica,Fondazione,950,13680,
+2023,Lazio,regione,forma_giuridica,Altra forma giuridica,3206,34563,
+2023,Abruzzo,regione,forma_giuridica,Associazione,7941,2000,
+2023,Abruzzo,regione,forma_giuridica,Cooperativa sociale,315,8931,
+2023,Abruzzo,regione,forma_giuridica,Fondazione,143,1432,
+2023,Abruzzo,regione,forma_giuridica,Altra forma giuridica,423,1177,
+2023,Molise,regione,forma_giuridica,Associazione,1726,502,
+2023,Molise,regione,forma_giuridica,Cooperativa sociale,140,2566,
+2023,Molise,regione,forma_giuridica,Fondazione,29,28,
+2023,Molise,regione,forma_giuridica,Altra forma giuridica,98,289,
+2023,Campania,regione,forma_giuridica,Associazione,19567,10039,
+2023,Campania,regione,forma_giuridica,Cooperativa sociale,1548,27141,
+2023,Campania,regione,forma_giuridica,Fondazione,406,2125,
+2023,Campania,regione,forma_giuridica,Altra forma giuridica,1817,7765,
+2023,Puglia,regione,forma_giuridica,Associazione,17495,7050,
+2023,Puglia,regione,forma_giuridica,Cooperativa sociale,1230,23535,
+2023,Puglia,regione,forma_giuridica,Fondazione,270,5152,
+2023,Puglia,regione,forma_giuridica,Altra forma giuridica,1280,6428,
+2023,Basilicata,regione,forma_giuridica,Associazione,3381,1461,
+2023,Basilicata,regione,forma_giuridica,Cooperativa sociale,230,5827,
+2023,Basilicata,regione,forma_giuridica,Fondazione,59,142,
+2023,Basilicata,regione,forma_giuridica,Altra forma giuridica,155,246,
+2023,Calabria,regione,forma_giuridica,Associazione,9897,5099,
+2023,Calabria,regione,forma_giuridica,Cooperativa sociale,585,6684,
+2023,Calabria,regione,forma_giuridica,Fondazione,133,686,
+2023,Calabria,regione,forma_giuridica,Altra forma giuridica,383,870,
+2023,Sicilia,regione,forma_giuridica,Associazione,20246,16025,
+2023,Sicilia,regione,forma_giuridica,Cooperativa sociale,1736,30473,
+2023,Sicilia,regione,forma_giuridica,Fondazione,276,2748,
+2023,Sicilia,regione,forma_giuridica,Altra forma giuridica,1450,4328,
+2023,Sardegna,regione,forma_giuridica,Associazione,9870,4179,
+2023,Sardegna,regione,forma_giuridica,Cooperativa sociale,953,17333,
+2023,Sardegna,regione,forma_giuridica,Fondazione,135,1386,
+2023,Sardegna,regione,forma_giuridica,Altra forma giuridica,491,2128,
+2023,ITALIA,regione,forma_giuridica,Associazione,314346,177299,
+2023,ITALIA,regione,forma_giuridica,Cooperativa sociale,14343,509333,
+2023,ITALIA,regione,forma_giuridica,Fondazione,8713,118348,
+2023,ITALIA,regione,forma_giuridica,Altra forma giuridica,30965,144220,
+2023,Piemonte,regione,settore,Attività culturali e artistiche,5480,0,
+2023,Piemonte,regione,settore,Attività sportive,8555,1706,
+2023,Piemonte,regione,settore,Attività ricreative e di socializzazione,5775,1836,
+2023,Piemonte,regione,settore,Istruzione e ricerca,953,877,
+2023,Piemonte,regione,settore,Sanità,931,8653,
+2023,Piemonte,regione,settore,Assistenza sociale e protezione civile,2984,3476,
+2023,Piemonte,regione,settore,Ambiente,569,46233,
+2023,Piemonte,regione,settore,Sviluppo economico e coesione sociale,379,200,
+2023,Piemonte,regione,settore,Tutela dei diritti e attività politica,506,8193,
+2023,Piemonte,regione,settore,Filantropia e promozione del volontariato,457,137,
+2023,Piemonte,regione,settore,Cooperazione e solidarietà internazionale,423,416,
+2023,Piemonte,regione,settore,Religione,1779,187,
+2023,Piemonte,regione,settore,Relazioni sindacali e rappresentanza di interessi,1609,942,
+2023,Piemonte,regione,settore,Altre attività,216,2420,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Attività culturali e artistiche,164,0,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Attività sportive,470,94,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Attività ricreative e di socializzazione,264,73,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Istruzione e ricerca,28,28,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Sanità,55,352,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Assistenza sociale e protezione civile,95,26,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Ambiente,16,1071,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Sviluppo economico e coesione sociale,17,13,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Tutela dei diritti e attività politica,30,413,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Filantropia e promozione del volontariato,9,10,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Cooperazione e solidarietà internazionale,10,8,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Religione,73,0,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Relazioni sindacali e rappresentanza di interessi,107,8,
+2023,Valle d’Aosta / Vallée D’Aoste,regione,settore,Altre attività,15,117,
+2023,Liguria,regione,settore,Attività culturali e artistiche,1629,0,
+2023,Liguria,regione,settore,Attività sportive,3697,397,
+2023,Liguria,regione,settore,Attività ricreative e di socializzazione,1892,843,
+2023,Liguria,regione,settore,Istruzione e ricerca,326,299,
+2023,Liguria,regione,settore,Sanità,387,3059,
+2023,Liguria,regione,settore,Assistenza sociale e protezione civile,786,2123,
+2023,Liguria,regione,settore,Ambiente,167,11014,
+2023,Liguria,regione,settore,Sviluppo economico e coesione sociale,180,39,
+2023,Liguria,regione,settore,Tutela dei diritti e attività politica,266,3811,
+2023,Liguria,regione,settore,Filantropia e promozione del volontariato,197,100,
+2023,Liguria,regione,settore,Cooperazione e solidarietà internazionale,111,65,
+2023,Liguria,regione,settore,Religione,932,71,
+2023,Liguria,regione,settore,Relazioni sindacali e rappresentanza di interessi,782,314,
+2023,Liguria,regione,settore,Altre attività,45,909,
+2023,Lombardia,regione,settore,Attività culturali e artistiche,9204,0,
+2023,Lombardia,regione,settore,Attività sportive,17477,4180,
+2023,Lombardia,regione,settore,Attività ricreative e di socializzazione,10012,4127,
+2023,Lombardia,regione,settore,Istruzione e ricerca,2643,1400,
+2023,Lombardia,regione,settore,Sanità,2012,38578,
+2023,Lombardia,regione,settore,Assistenza sociale e protezione civile,5812,28732,
+2023,Lombardia,regione,settore,Ambiente,1035,98313,
+2023,Lombardia,regione,settore,Sviluppo economico e coesione sociale,951,340,
+2023,Lombardia,regione,settore,Tutela dei diritti e attività politica,1193,21462,
+2023,Lombardia,regione,settore,Filantropia e promozione del volontariato,959,236,
+2023,Lombardia,regione,settore,Cooperazione e solidarietà internazionale,1150,493,
+2023,Lombardia,regione,settore,Religione,2410,1283,
+2023,Lombardia,regione,settore,Relazioni sindacali e rappresentanza di interessi,3176,1421,
+2023,Lombardia,regione,settore,Altre attività,318,6786,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Attività culturali e artistiche,2542,0,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Attività sportive,2484,891,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Attività ricreative e di socializzazione,2909,478,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Istruzione e ricerca,313,1140,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Sanità,210,4749,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Assistenza sociale e protezione civile,1063,1412,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Ambiente,217,11130,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Sviluppo economico e coesione sociale,195,33,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Tutela dei diritti e attività politica,186,3874,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Filantropia e promozione del volontariato,95,120,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Cooperazione e solidarietà internazionale,237,126,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Religione,624,109,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Relazioni sindacali e rappresentanza di interessi,462,327,
+2023,Trentino-Alto Adige / Südtirol,regione,settore,Altre attività,199,1290,
+2023,Bolzano / Bozen,regione,settore,Attività culturali e artistiche,1076,0,
+2023,Bolzano / Bozen,regione,settore,Attività sportive,1099,564,
+2023,Bolzano / Bozen,regione,settore,Attività ricreative e di socializzazione,1291,193,
+2023,Bolzano / Bozen,regione,settore,Istruzione e ricerca,96,901,
+2023,Bolzano / Bozen,regione,settore,Sanità,62,1270,
+2023,Bolzano / Bozen,regione,settore,Assistenza sociale e protezione civile,596,1084,
+2023,Bolzano / Bozen,regione,settore,Ambiente,162,4318,
+2023,Bolzano / Bozen,regione,settore,Sviluppo economico e coesione sociale,136,22,
+2023,Bolzano / Bozen,regione,settore,Tutela dei diritti e attività politica,99,1701,
+2023,Bolzano / Bozen,regione,settore,Filantropia e promozione del volontariato,52,103,
+2023,Bolzano / Bozen,regione,settore,Cooperazione e solidarietà internazionale,59,84,
+2023,Bolzano / Bozen,regione,settore,Religione,258,30,
+2023,Bolzano / Bozen,regione,settore,Relazioni sindacali e rappresentanza di interessi,216,238,
+2023,Bolzano / Bozen,regione,settore,Altre attività,169,710,
+2023,Trento,regione,settore,Attività culturali e artistiche,1466,0,
+2023,Trento,regione,settore,Attività sportive,1385,327,
+2023,Trento,regione,settore,Attività ricreative e di socializzazione,1618,285,
+2023,Trento,regione,settore,Istruzione e ricerca,217,239,
+2023,Trento,regione,settore,Sanità,148,3479,
+2023,Trento,regione,settore,Assistenza sociale e protezione civile,467,328,
+2023,Trento,regione,settore,Ambiente,55,6812,
+2023,Trento,regione,settore,Sviluppo economico e coesione sociale,59,11,
+2023,Trento,regione,settore,Tutela dei diritti e attività politica,87,2173,
+2023,Trento,regione,settore,Filantropia e promozione del volontariato,43,17,
+2023,Trento,regione,settore,Cooperazione e solidarietà internazionale,178,42,
+2023,Trento,regione,settore,Religione,366,79,
+2023,Trento,regione,settore,Relazioni sindacali e rappresentanza di interessi,246,89,
+2023,Trento,regione,settore,Altre attività,30,580,
+2023,Veneto,regione,settore,Attività culturali e artistiche,4330,0,
+2023,Veneto,regione,settore,Attività sportive,10617,2041,
+2023,Veneto,regione,settore,Attività ricreative e di socializzazione,6140,1953,
+2023,Veneto,regione,settore,Istruzione e ricerca,1442,948,
+2023,Veneto,regione,settore,Sanità,1060,16187,
+2023,Veneto,regione,settore,Assistenza sociale e protezione civile,2510,5284,
+2023,Veneto,regione,settore,Ambiente,460,40171,
+2023,Veneto,regione,settore,Sviluppo economico e coesione sociale,368,104,
+2023,Veneto,regione,settore,Tutela dei diritti e attività politica,528,11014,
+2023,Veneto,regione,settore,Filantropia e promozione del volontariato,401,109,
+2023,Veneto,regione,settore,Cooperazione e solidarietà internazionale,432,201,
+2023,Veneto,regione,settore,Religione,1078,249,
+2023,Veneto,regione,settore,Relazioni sindacali e rappresentanza di interessi,1587,714,
+2023,Veneto,regione,settore,Altre attività,133,3520,
+2023,Friuli-Venezia Giulia,regione,settore,Attività culturali e artistiche,2378,0,
+2023,Friuli-Venezia Giulia,regione,settore,Attività sportive,3058,762,
+2023,Friuli-Venezia Giulia,regione,settore,Attività ricreative e di socializzazione,2216,347,
+2023,Friuli-Venezia Giulia,regione,settore,Istruzione e ricerca,326,305,
+2023,Friuli-Venezia Giulia,regione,settore,Sanità,199,3077,
+2023,Friuli-Venezia Giulia,regione,settore,Assistenza sociale e protezione civile,716,626,
+2023,Friuli-Venezia Giulia,regione,settore,Ambiente,196,11937,
+2023,Friuli-Venezia Giulia,regione,settore,Sviluppo economico e coesione sociale,116,15,
+2023,Friuli-Venezia Giulia,regione,settore,Tutela dei diritti e attività politica,248,2614,
+2023,Friuli-Venezia Giulia,regione,settore,Filantropia e promozione del volontariato,135,201,
+2023,Friuli-Venezia Giulia,regione,settore,Cooperazione e solidarietà internazionale,124,73,
+2023,Friuli-Venezia Giulia,regione,settore,Religione,323,59,
+2023,Friuli-Venezia Giulia,regione,settore,Relazioni sindacali e rappresentanza di interessi,671,128,
+2023,Friuli-Venezia Giulia,regione,settore,Altre attività,36,790,
+2023,Emilia-Romagna,regione,settore,Attività culturali e artistiche,3619,0,
+2023,Emilia-Romagna,regione,settore,Attività sportive,8984,2211,
+2023,Emilia-Romagna,regione,settore,Attività ricreative e di socializzazione,5331,2294,
+2023,Emilia-Romagna,regione,settore,Istruzione e ricerca,985,962,
+2023,Emilia-Romagna,regione,settore,Sanità,925,9542,
+2023,Emilia-Romagna,regione,settore,Assistenza sociale e protezione civile,2019,2890,
+2023,Emilia-Romagna,regione,settore,Ambiente,522,53266,
+2023,Emilia-Romagna,regione,settore,Sviluppo economico e coesione sociale,378,215,
+2023,Emilia-Romagna,regione,settore,Tutela dei diritti e attività politica,639,11473,
+2023,Emilia-Romagna,regione,settore,Filantropia e promozione del volontariato,393,250,
+2023,Emilia-Romagna,regione,settore,Cooperazione e solidarietà internazionale,372,276,
+2023,Emilia-Romagna,regione,settore,Religione,1701,243,
+2023,Emilia-Romagna,regione,settore,Relazioni sindacali e rappresentanza di interessi,1504,664,
+2023,Emilia-Romagna,regione,settore,Altre attività,128,4534,
+2023,Toscana,regione,settore,Attività culturali e artistiche,4350,0,
+2023,Toscana,regione,settore,Attività sportive,8573,2599,
+2023,Toscana,regione,settore,Attività ricreative e di socializzazione,5080,1952,
+2023,Toscana,regione,settore,Istruzione e ricerca,697,1290,
+2023,Toscana,regione,settore,Sanità,1306,6298,
+2023,Toscana,regione,settore,Assistenza sociale e protezione civile,1954,5744,
+2023,Toscana,regione,settore,Ambiente,482,26103,
+2023,Toscana,regione,settore,Sviluppo economico e coesione sociale,338,90,
+2023,Toscana,regione,settore,Tutela dei diritti e attività politica,643,9843,
+2023,Toscana,regione,settore,Filantropia e promozione del volontariato,321,107,
+2023,Toscana,regione,settore,Cooperazione e solidarietà internazionale,307,221,
+2023,Toscana,regione,settore,Religione,1208,260,
+2023,Toscana,regione,settore,Relazioni sindacali e rappresentanza di interessi,1550,628,
+2023,Toscana,regione,settore,Altre attività,128,2077,
+2023,Umbria,regione,settore,Attività culturali e artistiche,1106,0,
+2023,Umbria,regione,settore,Attività sportive,2395,269,
+2023,Umbria,regione,settore,Attività ricreative e di socializzazione,1310,306,
+2023,Umbria,regione,settore,Istruzione e ricerca,151,159,
+2023,Umbria,regione,settore,Sanità,165,687,
+2023,Umbria,regione,settore,Assistenza sociale e protezione civile,592,289,
+2023,Umbria,regione,settore,Ambiente,86,7541,
+2023,Umbria,regione,settore,Sviluppo economico e coesione sociale,126,10,
+2023,Umbria,regione,settore,Tutela dei diritti e attività politica,163,2189,
+2023,Umbria,regione,settore,Filantropia e promozione del volontariato,94,44,
+2023,Umbria,regione,settore,Cooperazione e solidarietà internazionale,52,59,
+2023,Umbria,regione,settore,Religione,622,63,
+2023,Umbria,regione,settore,Relazioni sindacali e rappresentanza di interessi,332,266,
+2023,Umbria,regione,settore,Altre attività,56,478,
+2023,Marche,regione,settore,Attività culturali e artistiche,1773,0,
+2023,Marche,regione,settore,Attività sportive,4125,249,
+2023,Marche,regione,settore,Attività ricreative e di socializzazione,1793,478,
+2023,Marche,regione,settore,Istruzione e ricerca,199,238,
+2023,Marche,regione,settore,Sanità,359,840,
+2023,Marche,regione,settore,Assistenza sociale e protezione civile,965,1406,
+2023,Marche,regione,settore,Ambiente,183,12817,
+2023,Marche,regione,settore,Sviluppo economico e coesione sociale,161,46,
+2023,Marche,regione,settore,Tutela dei diritti e attività politica,218,2896,
+2023,Marche,regione,settore,Filantropia e promozione del volontariato,126,39,
+2023,Marche,regione,settore,Cooperazione e solidarietà internazionale,76,61,
+2023,Marche,regione,settore,Religione,657,111,
+2023,Marche,regione,settore,Relazioni sindacali e rappresentanza di interessi,567,222,
+2023,Marche,regione,settore,Altre attività,61,996,
+2023,Lazio,regione,settore,Attività culturali e artistiche,5858,0,
+2023,Lazio,regione,settore,Attività sportive,11666,2909,
+2023,Lazio,regione,settore,Attività ricreative e di socializzazione,4118,3886,
+2023,Lazio,regione,settore,Istruzione e ricerca,1342,1244,
+2023,Lazio,regione,settore,Sanità,803,18569,
+2023,Lazio,regione,settore,Assistenza sociale e protezione civile,3623,22765,
+2023,Lazio,regione,settore,Ambiente,755,45568,
+2023,Lazio,regione,settore,Sviluppo economico e coesione sociale,692,747,
+2023,Lazio,regione,settore,Tutela dei diritti e attività politica,867,7443,
+2023,Lazio,regione,settore,Filantropia e promozione del volontariato,367,1347,
+2023,Lazio,regione,settore,Cooperazione e solidarietà internazionale,601,395,
+2023,Lazio,regione,settore,Religione,1363,1325,
+2023,Lazio,regione,settore,Relazioni sindacali e rappresentanza di interessi,3348,2394,
+2023,Lazio,regione,settore,Altre attività,324,14875,
+2023,Abruzzo,regione,settore,Attività culturali e artistiche,1471,0,
+2023,Abruzzo,regione,settore,Attività sportive,3417,252,
+2023,Abruzzo,regione,settore,Attività ricreative e di socializzazione,1335,326,
+2023,Abruzzo,regione,settore,Istruzione e ricerca,162,165,
+2023,Abruzzo,regione,settore,Sanità,276,766,
+2023,Abruzzo,regione,settore,Assistenza sociale e protezione civile,779,1749,
+2023,Abruzzo,regione,settore,Ambiente,141,7347,
+2023,Abruzzo,regione,settore,Sviluppo economico e coesione sociale,136,30,
+2023,Abruzzo,regione,settore,Tutela dei diritti e attività politica,138,1976,
+2023,Abruzzo,regione,settore,Filantropia e promozione del volontariato,88,14,
+2023,Abruzzo,regione,settore,Cooperazione e solidarietà internazionale,48,42,
+2023,Abruzzo,regione,settore,Religione,167,4,
+2023,Abruzzo,regione,settore,Relazioni sindacali e rappresentanza di interessi,627,125,
+2023,Abruzzo,regione,settore,Altre attività,37,731,
+2023,Molise,regione,settore,Attività culturali e artistiche,226,0,
+2023,Molise,regione,settore,Attività sportive,671,33,
+2023,Molise,regione,settore,Attività ricreative e di socializzazione,301,51,
+2023,Molise,regione,settore,Istruzione e ricerca,47,16,
+2023,Molise,regione,settore,Sanità,98,125,
+2023,Molise,regione,settore,Assistenza sociale e protezione civile,252,137,
+2023,Molise,regione,settore,Ambiente,31,2296,
+2023,Molise,regione,settore,Sviluppo economico e coesione sociale,55,11,
+2023,Molise,regione,settore,Tutela dei diritti e attività politica,46,508,
+2023,Molise,regione,settore,Filantropia e promozione del volontariato,16,2,
+2023,Molise,regione,settore,Cooperazione e solidarietà internazionale,11,5,
+2023,Molise,regione,settore,Religione,58,18,
+2023,Molise,regione,settore,Relazioni sindacali e rappresentanza di interessi,175,25,
+2023,Molise,regione,settore,Altre attività,6,153,
+2023,Campania,regione,settore,Attività culturali e artistiche,2810,0,
+2023,Campania,regione,settore,Attività sportive,8398,1548,
+2023,Campania,regione,settore,Attività ricreative e di socializzazione,3154,1145,
+2023,Campania,regione,settore,Istruzione e ricerca,971,469,
+2023,Campania,regione,settore,Sanità,599,10062,
+2023,Campania,regione,settore,Assistenza sociale e protezione civile,2608,3814,
+2023,Campania,regione,settore,Ambiente,447,22376,
+2023,Campania,regione,settore,Sviluppo economico e coesione sociale,523,36,
+2023,Campania,regione,settore,Tutela dei diritti e attività politica,344,3926,
+2023,Campania,regione,settore,Filantropia e promozione del volontariato,257,86,
+2023,Campania,regione,settore,Cooperazione e solidarietà internazionale,157,120,
+2023,Campania,regione,settore,Religione,1054,26,
+2023,Campania,regione,settore,Relazioni sindacali e rappresentanza di interessi,1868,693,
+2023,Campania,regione,settore,Altre attività,148,2483,
+2023,Puglia,regione,settore,Attività culturali e artistiche,2936,0,
+2023,Puglia,regione,settore,Attività sportive,6677,867,
+2023,Puglia,regione,settore,Attività ricreative e di socializzazione,2857,1023,
+2023,Puglia,regione,settore,Istruzione e ricerca,638,416,
+2023,Puglia,regione,settore,Sanità,747,4639,
+2023,Puglia,regione,settore,Assistenza sociale e protezione civile,2074,6438,
+2023,Puglia,regione,settore,Ambiente,437,21336,
+2023,Puglia,regione,settore,Sviluppo economico e coesione sociale,477,233,
+2023,Puglia,regione,settore,Tutela dei diritti e attività politica,357,3843,
+2023,Puglia,regione,settore,Filantropia e promozione del volontariato,236,109,
+2023,Puglia,regione,settore,Cooperazione e solidarietà internazionale,101,70,
+2023,Puglia,regione,settore,Religione,779,37,
+2023,Puglia,regione,settore,Relazioni sindacali e rappresentanza di interessi,1857,527,
+2023,Puglia,regione,settore,Altre attività,102,2427,
+2023,Basilicata,regione,settore,Attività culturali e artistiche,647,0,
+2023,Basilicata,regione,settore,Attività sportive,1189,246,
+2023,Basilicata,regione,settore,Attività ricreative e di socializzazione,622,90,
+2023,Basilicata,regione,settore,Istruzione e ricerca,82,174,
+2023,Basilicata,regione,settore,Sanità,150,185,
+2023,Basilicata,regione,settore,Assistenza sociale e protezione civile,430,519,
+2023,Basilicata,regione,settore,Ambiente,71,5215,
+2023,Basilicata,regione,settore,Sviluppo economico e coesione sociale,89,8,
+2023,Basilicata,regione,settore,Tutela dei diritti e attività politica,79,605,
+2023,Basilicata,regione,settore,Filantropia e promozione del volontariato,31,15,
+2023,Basilicata,regione,settore,Cooperazione e solidarietà internazionale,12,16,
+2023,Basilicata,regione,settore,Religione,76,9,
+2023,Basilicata,regione,settore,Relazioni sindacali e rappresentanza di interessi,331,43,
+2023,Basilicata,regione,settore,Altre attività,16,417,
+2023,Calabria,regione,settore,Attività culturali e artistiche,1468,0,
+2023,Calabria,regione,settore,Attività sportive,3669,224,
+2023,Calabria,regione,settore,Attività ricreative e di socializzazione,1617,197,
+2023,Calabria,regione,settore,Istruzione e ricerca,434,179,
+2023,Calabria,regione,settore,Sanità,406,2877,
+2023,Calabria,regione,settore,Assistenza sociale e protezione civile,1079,704,
+2023,Calabria,regione,settore,Ambiente,203,5872,
+2023,Calabria,regione,settore,Sviluppo economico e coesione sociale,282,12,
+2023,Calabria,regione,settore,Tutela dei diritti e attività politica,176,1556,
+2023,Calabria,regione,settore,Filantropia e promozione del volontariato,124,31,
+2023,Calabria,regione,settore,Cooperazione e solidarietà internazionale,88,42,
+2023,Calabria,regione,settore,Religione,257,4,
+2023,Calabria,regione,settore,Relazioni sindacali e rappresentanza di interessi,1150,204,
+2023,Calabria,regione,settore,Altre attività,45,1387,
+2023,Sicilia,regione,settore,Attività culturali e artistiche,3278,0,
+2023,Sicilia,regione,settore,Attività sportive,7907,1044,
+2023,Sicilia,regione,settore,Attività ricreative e di socializzazione,2707,1060,
+2023,Sicilia,regione,settore,Istruzione e ricerca,960,1445,
+2023,Sicilia,regione,settore,Sanità,732,7177,
+2023,Sicilia,regione,settore,Assistenza sociale e protezione civile,3083,5039,
+2023,Sicilia,regione,settore,Ambiente,426,31226,
+2023,Sicilia,regione,settore,Sviluppo economico e coesione sociale,412,96,
+2023,Sicilia,regione,settore,Tutela dei diritti e attività politica,349,1921,
+2023,Sicilia,regione,settore,Filantropia e promozione del volontariato,347,136,
+2023,Sicilia,regione,settore,Cooperazione e solidarietà internazionale,142,77,
+2023,Sicilia,regione,settore,Religione,952,61,
+2023,Sicilia,regione,settore,Relazioni sindacali e rappresentanza di interessi,2221,640,
+2023,Sicilia,regione,settore,Altre attività,192,3304,
+2023,Sardegna,regione,settore,Attività culturali e artistiche,1620,0,
+2023,Sardegna,regione,settore,Attività sportive,4688,678,
+2023,Sardegna,regione,settore,Attività ricreative e di socializzazione,1213,501,
+2023,Sardegna,regione,settore,Istruzione e ricerca,251,225,
+2023,Sardegna,regione,settore,Sanità,497,1652,
+2023,Sardegna,regione,settore,Assistenza sociale e protezione civile,1164,2480,
+2023,Sardegna,regione,settore,Ambiente,207,13594,
+2023,Sardegna,regione,settore,Sviluppo economico e coesione sociale,517,113,
+2023,Sardegna,regione,settore,Tutela dei diritti e attività politica,132,4524,
+2023,Sardegna,regione,settore,Filantropia e promozione del volontariato,91,40,
+2023,Sardegna,regione,settore,Cooperazione e solidarietà internazionale,62,56,
+2023,Sardegna,regione,settore,Religione,198,21,
+2023,Sardegna,regione,settore,Relazioni sindacali e rappresentanza di interessi,772,151,
+2023,Sardegna,regione,settore,Altre attività,37,963,
+2023,ITALIA,regione,settore,Attività culturali e artistiche,56889,0,
+2023,ITALIA,regione,settore,Attività sportive,118717,23200,
+2023,ITALIA,regione,settore,Attività ricreative e di socializzazione,60646,22966,
+2023,ITALIA,regione,settore,Istruzione e ricerca,12950,11979,
+2023,ITALIA,regione,settore,Sanità,11917,138074,
+2023,ITALIA,regione,settore,Assistenza sociale e protezione civile,34588,95653,
+2023,ITALIA,regione,settore,Ambiente,6651,474426,
+2023,ITALIA,regione,settore,Sviluppo economico e coesione sociale,6392,2391,
+2023,ITALIA,regione,settore,Tutela dei diritti e attività politica,7108,104084,
+2023,ITALIA,regione,settore,Filantropia e promozione del volontariato,4744,3133,
+2023,ITALIA,regione,settore,Cooperazione e solidarietà internazionale,4516,2822,
+2023,ITALIA,regione,settore,Religione,16311,4140,
+2023,ITALIA,regione,settore,Relazioni sindacali e rappresentanza di interessi,24696,10436,
+2023,ITALIA,regione,settore,Altre attività,2242,50657,
+2023,Torino,provincia,totale,totale,14546,40121,001
+2023,Vercelli,provincia,totale,totale,1437,3210,002
+2023,Novara,provincia,totale,totale,2465,6189,003
+2023,Cuneo,provincia,totale,totale,4730,9941,004
+2023,Asti,provincia,totale,totale,1590,2578,005
+2023,Alessandria,provincia,totale,totale,2883,7319,006
+2023,Valle d'Aosta/Vallée d'Aoste,provincia,totale,totale,1353,2221,007
+2023,Imperia,provincia,totale,totale,1497,2397,008
+2023,Savona,provincia,totale,totale,2345,3055,009
+2023,Genova,provincia,totale,totale,6060,14829,010
+2023,La Spezia,provincia,totale,totale,1495,2951,011
+2023,Varese,provincia,totale,totale,5324,13552,012
+2023,Como,provincia,totale,totale,3634,11806,013
+2023,Sondrio,provincia,totale,totale,1348,3227,014
+2023,Milano,provincia,totale,totale,17900,69153,015
+2023,Bergamo,provincia,totale,totale,6564,24613,016
+2023,Brescia,provincia,totale,totale,7923,33889,017
+2023,Pavia,provincia,totale,totale,3266,13271,018
+2023,Cremona,provincia,totale,totale,2460,8528,019
+2023,Mantova,provincia,totale,totale,2682,7002,020
+2023,Bolzano/Bozen,provincia,totale,totale,5371,11550,021
+2023,Trento,provincia,totale,totale,6365,14505,022
+2023,Verona,provincia,totale,totale,6328,20654,023
+2023,Vicenza,provincia,totale,totale,5075,11726,024
+2023,Belluno,provincia,totale,totale,1983,2450,025
+2023,Treviso,provincia,totale,totale,5528,12501,026
+2023,Venezia,provincia,totale,totale,4766,13033,027
+2023,Padova,provincia,totale,totale,5802,19716,028
+2023,Rovigo,provincia,totale,totale,1604,2682,029
+2023,Udine,provincia,totale,totale,4638,8971,030
+2023,Gorizia,provincia,totale,totale,1422,1010,031
+2023,Trieste,provincia,totale,totale,2129,5039,032
+2023,Piacenza,provincia,totale,totale,2054,3514,033
+2023,Parma,provincia,totale,totale,3138,11709,034
+2023,Reggio nell'Emilia,provincia,totale,totale,2914,11452,035
+2023,Modena,provincia,totale,totale,3672,11600,036
+2023,Bologna,provincia,totale,totale,6572,22778,037
+2023,Ferrara,provincia,totale,totale,1897,5339,038
+2023,Ravenna,provincia,totale,totale,2601,7811,039
+2023,Forlì-Cesena,provincia,totale,totale,2729,9095,040
+2023,Pesaro e Urbino,provincia,totale,totale,2463,4476,041
+2023,Ancona,provincia,totale,totale,3405,9547,042
+2023,Macerata,provincia,totale,totale,2401,3005,043
+2023,Ascoli Piceno,provincia,totale,totale,1630,2320,044
+2023,Massa-Carrara,provincia,totale,totale,1237,3130,045
+2023,Lucca,provincia,totale,totale,2918,4740,046
+2023,Pistoia,provincia,totale,totale,2016,3223,047
+2023,Firenze,provincia,totale,totale,7273,22910,048
+2023,Livorno,provincia,totale,totale,2406,3889,049
+2023,Pisa,provincia,totale,totale,3114,5833,050
+2023,Arezzo,provincia,totale,totale,2469,5116,051
+2023,Siena,provincia,totale,totale,2358,3111,052
+2023,Grosseto,provincia,totale,totale,1777,2018,053
+2023,Perugia,provincia,totale,totale,5494,9595,054
+2023,Terni,provincia,totale,totale,1756,2953,055
+2023,Viterbo,provincia,totale,totale,2265,3318,056
+2023,Rieti,provincia,totale,totale,1310,674,057
+2023,Roma,provincia,totale,totale,26253,113610,058
+2023,Latina,provincia,totale,totale,3140,2589,059
+2023,Frosinone,provincia,totale,totale,2759,4238,060
+2023,Caserta,provincia,totale,totale,3549,6054,061
+2023,Benevento,provincia,totale,totale,1542,3993,062
+2023,Napoli,provincia,totale,totale,10815,23284,063
+2023,Avellino,provincia,totale,totale,2028,3477,064
+2023,Salerno,provincia,totale,totale,5404,10262,065
+2023,L'Aquila,provincia,totale,totale,2376,3399,066
+2023,Teramo,provincia,totale,totale,1909,3221,067
+2023,Pescara,provincia,totale,totale,2162,2412,068
+2023,Chieti,provincia,totale,totale,2375,4508,069
+2023,Campobasso,provincia,totale,totale,1447,2155,070
+2023,Foggia,provincia,totale,totale,2987,9056,071
+2023,Bari,provincia,totale,totale,6164,14944,072
+2023,Taranto,provincia,totale,totale,2905,4633,073
+2023,Brindisi,provincia,totale,totale,2081,3170,074
+2023,Lecce,provincia,totale,totale,4465,7939,075
+2023,Potenza,provincia,totale,totale,2648,5901,076
+2023,Matera,provincia,totale,totale,1177,1775,077
+2023,Cosenza,provincia,totale,totale,3636,5185,078
+2023,Catanzaro,provincia,totale,totale,2106,2057,079
+2023,Reggio di Calabria,provincia,totale,totale,3537,4525,080
+2023,Trapani,provincia,totale,totale,2091,3465,081
+2023,Palermo,provincia,totale,totale,5321,15665,082
+2023,Messina,provincia,totale,totale,3962,4423,083
+2023,Agrigento,provincia,totale,totale,1420,4685,084
+2023,Caltanissetta,provincia,totale,totale,1188,2110,085
+2023,Enna,provincia,totale,totale,1012,2437,086
+2023,Catania,provincia,totale,totale,5038,13811,087
+2023,Ragusa,provincia,totale,totale,1589,3111,088
+2023,Siracusa,provincia,totale,totale,2087,3867,089
+2023,Sassari,provincia,totale,totale,3585,6784,090
+2023,Nuoro,provincia,totale,totale,1431,2231,091
+2023,Cagliari,provincia,totale,totale,2951,9070,092
+2023,Pordenone,provincia,totale,totale,2553,6019,093
+2023,Isernia,provincia,totale,totale,546,1230,094
+2023,Oristano,provincia,totale,totale,1223,2324,095
+2023,Biella,provincia,totale,totale,1507,4776,096
+2023,Lecco,provincia,totale,totale,2123,4888,097
+2023,Lodi,provincia,totale,totale,1412,2676,098
+2023,Rimini,provincia,totale,totale,1923,5916,099
+2023,Prato,provincia,totale,totale,1369,3449,100
+2023,Crotone,provincia,totale,totale,838,759,101
+2023,Vibo Valentia,provincia,totale,totale,881,813,102
+2023,Verbano-Cusio-Ossola,provincia,totale,totale,1458,1409,103
+2023,Monza e della Brianza,provincia,totale,totale,3716,15892,108
+2023,Fermo,provincia,totale,totale,1364,1118,109
+2023,Barletta-Andria-Trani,provincia,totale,totale,1673,2423,110
+2023,Sud Sardegna,provincia,totale,totale,2259,4617,111

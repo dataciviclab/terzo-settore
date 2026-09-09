@@ -1,0 +1,59 @@
+root: "../../out"
+schema_version: 1
+
+dataset:
+  name: "ets_opencoesione"
+  source_id: "terzo_settore_intelligence"
+  tags: [terzo-settore, opencoesione, fondi-coesione, compose]
+  category: terzo-settore
+  description: "Compose RUNTS + OpenCoesione: quali ETS hanno partecipato a progetti di fondi coesione. Conteggio progetti (non importo per beneficiario)."
+  years: [2026]
+  time_coverage:
+    mode: snapshot
+
+raw:
+  output_policy: overwrite
+  sources:
+    - name: "runts_clean"
+      type: local_file
+      args:
+        path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
+      primary: true
+
+support:
+  - name: opencoesione_progetti
+    type: dataset
+    config: "/home/gabry/dev/dataciviclab-workspace/incubation/dataset-incubator/candidates/opencoesione-progetti/dataset.yml"
+    years: [2026]
+  - name: opencoesione_soggetti
+    type: dataset
+    config: "/home/gabry/dev/dataciviclab-workspace/incubation/dataset-incubator/candidates/opencoesione-soggetti/dataset.yml"
+    years: [2026]
+
+clean:
+  sql: "sql/clean.sql"
+  read:
+    source: auto
+    mode: latest
+  required_columns:
+    - codice_fiscale
+    - fonte
+    - importo
+  validate:
+    not_null: [codice_fiscale, fonte]
+    primary_key: [codice_fiscale]
+    min_rows: 100000
+
+mart:
+  tables:
+    - name: "ets_coesione"
+      sql: "sql/mart.sql"
+  required_tables:
+    - ets_coesione
+  validate:
+    table_rules:
+      ets_coesione:
+        min_rows: 100000
+
+validation:
+  fail_on_error: true

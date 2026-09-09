@@ -1,0 +1,2 @@
+# This directory is populated by `make registry` (toolkit registry build).
+# The CI pipeline creates a draft PR with the updated registry.json.

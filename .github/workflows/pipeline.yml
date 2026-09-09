@@ -1,0 +1,36 @@
+name: Pipeline
+
+on:
+  pull_request:
+    types: [closed]
+    paths:
+      - "datasets/**"
+      - "compose/**"
+      - "bandi/**"
+      - ".github/workflows/pipeline.yml"
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+    inputs:
+      years:
+        description: "Anni (es. 2026 o all) — default: dalla config dei dataset"
+        required: false
+        default: ""
+
+concurrency:
+  group: tsi-pipeline-${{ github.event.pull_request.number || github.ref || 'schedule' }}
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    if: github.event.pull_request.merged == true || github.event_name != 'pull_request'
+    uses: dataciviclab/.github/.github/workflows/pipeline-reusable.yml@main
+    with:
+      repo-slug: "terzo_settore_intelligence"
+      run-command: "make run"
+      sync-pattern: "per-dataset"
+      python-extra-packages: "-e .[pipeline]"
+      extra-env: "TOOLKIT_ALLOW_SCRIPT_SOURCE=1"
+    secrets:
+      GCP_WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+      GCP_SERVICE_ACCOUNT: ${{ secrets.GCP_SERVICE_ACCOUNT }}

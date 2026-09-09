@@ -1,45 +1,79 @@
 # Terzo Settore Intelligence — Makefile
-# Build via toolkit (datasets/ets_unified), schede via CLI tsi.
+# Pipeline toolkit: datasets/ (fetch) + compose/ (fonti) + ets_unified (pivot).
+# Bandi: acquisizione separata.
 
-# Source type `script` del toolkit (download RUNTS WebForms) — abilitato esplicitamente
+TOOLKIT = toolkit
+
+# Abilita source type `script` del toolkit (download RUNTS WebForms)
 export TOOLKIT_ALLOW_SCRIPT_SOURCE ?= 1
-export TOOLKIT ?= toolkit
 
-# CLI unica (vedi tsi/cli.py)
-TSI ?= .venv/bin/python -m tsi
+# --- Dataset del repo -------------------------------------------------------
+DATASETS := $(shell find datasets compose -name dataset.yml 2>/dev/null | sort)
 
-.PHONY: build scheda-ente scheda-bando bandi test clean all
+# --- Run toolkit ------------------------------------------------------------
 
-all: build
-
-# ─── Build (toolkit) ────────────────────────────────────────────────
-build:
+.PHONY: run
+run:
 	$(TOOLKIT) run --config datasets/runts/dataset.yml
-	$(TOOLKIT) run --config datasets/ets_unified/dataset.yml
+	$(TOOLKIT) run --config datasets/istat_non_profit_2023/dataset.yml
+	$(TOOLKIT) run --config compose/ets_5xmille/dataset.yml
+	$(TOOLKIT) run --config compose/ets_anac/dataset.yml
+	$(TOOLKIT) run --config compose/ets_pnrr/dataset.yml
+	$(TOOLKIT) run --config compose/ets_rna/dataset.yml
+	$(TOOLKIT) run --config compose/ets_fts/dataset.yml
+	$(TOOLKIT) run --config compose/ets_mef/dataset.yml
+	$(TOOLKIT) run --config compose/ets_opencoesione/dataset.yml
+	$(TOOLKIT) run --config compose/ets_unified/dataset.yml
 
-# ─── Schede ────────────────────────────────────────────────────────
-scheda-ente:
-	$(TSI) scheda-ente $(CF)
+.PHONY: run-all
+run-all: run
 
-scheda-bando:
-	$(TSI) scheda-bando $(if $(N),--top $(N),) $(ARGS)
+# --- Validazione config ------------------------------------------------------
 
-list-bandi:
-	$(TSI) scheda-bando --list
+.PHONY: check
+check:
+	@for f in $(DATASETS); do \
+		echo "→ $$f"; \
+		$(TOOLKIT) run preflight --config "$$f" > /dev/null 2>&1 || exit 1; \
+	done
+	@echo "✅ All configs valid"
 
-vista-territorio:
-	$(TSI) vista-territorio $(TERR) $(if $(PROV),--prov $(PROV),) $(if $(REG),--regione $(REG),)
+# --- Bandi (acquisizione) ---------------------------------------------------
 
-# ─── Bandi (acquisizione) ──────────────────────────────────────────
+.PHONY: bandi-infobandi bandi-info-coop bandi
 bandi-infobandi:
-	python3 bandi/infobandi.py
+	PYTHONPATH=$(CURDIR) python3 bandi/infobandi.py
 
 bandi-info-coop:
-	python3 bandi/info_cooperazione.py
+	PYTHONPATH=$(CURDIR) python3 bandi/info_cooperazione.py
 
 bandi: bandi-infobandi bandi-info-coop
 	@echo "✅ Bandi aggiornati"
 
-# ─── Test ───────────────────────────────────────────────────────────
-test:
-	python3 tests/test_match.py
+# --- Pipeline completa: toolkit + bandi -------------------------------------
+
+.PHONY: all
+all: run bandi
+
+# --- Registry ----------------------------------------------------------------
+
+.PHONY: registry registry-write
+registry:
+	$(TOOLKIT) registry build --prefix terzo_settore_intelligence --flat
+
+registry-write:
+	$(TOOLKIT) registry build --prefix terzo_settore_intelligence --flat --write
+
+# --- Pulizia -----------------------------------------------------------------
+
+.PHONY: clean
+clean:
+	rm -rf out/data/_runs out/data/probe out/data/raw out/data/clean out/data/mart .tmp/
+
+.PHONY: clean-runs
+clean-runs:
+	rm -rf out/data/_runs/
+
+.PHONY: help
+help:
+	@grep -E '^[a-zA-Z_-]+:' Makefile | sort

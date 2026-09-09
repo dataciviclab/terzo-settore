@@ -1,0 +1,48 @@
+root: "../../out"
+schema_version: 1
+
+dataset:
+  name: "ets_rna"
+  source_id: "terzo_settore_intelligence"
+  tags: [terzo-settore, rna, aiuti-stato, compose]
+  category: terzo-settore
+  description: "Compose RUNTS + RNA: aiuti di stato."
+  years: [2026]
+  time_coverage:
+    mode: snapshot
+
+raw:
+  output_policy: overwrite
+  sources:
+    - name: "runts_clean"
+      type: local_file
+      args:
+        path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
+      primary: true
+
+clean:
+  sql: "sql/clean.sql"
+  read:
+    source: auto
+    mode: latest
+  required_columns:
+    - codice_fiscale
+    - fonte
+    - importo
+  validate:
+    not_null: [codice_fiscale, fonte]
+    min_rows: 10000
+
+mart:
+  tables:
+    - name: "ets_rna"
+      sql: "sql/mart.sql"
+  required_tables:
+    - ets_rna
+  validate:
+    table_rules:
+      ets_rna:
+        min_rows: 10000
+
+validation:
+  fail_on_error: true

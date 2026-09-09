@@ -6,6 +6,7 @@ Cache locale: data/bandi/info_cooperazione_bandi.json
 """
 
 import json, re, time, sys
+from collections import Counter
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urljoin, parse_qs, urlparse

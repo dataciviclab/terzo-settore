@@ -2,28 +2,17 @@
 __pycache__/
 *.pyc
 
-# Output operativi interni — non versionati
-_local/
-
 # Output toolkit — non versionare (raw/clean/mart/_runs rigenerabili)
 out/
 
-# Output pipeline — non versionare parquet né cache GCS
-data/*.parquet
-data/gcs_cache/
-data/build/
-data/enrich/
-data/enriched_candidates.json
-data/*
+# Output operativi interni — non versionati
+_local/
+
+# Registry — generato da `make registry` / CI
+registry/registry.json
 
 # Cache download RUNTS (XLSX snapshot scaricato dallo script)
 datasets/runts/*.xlsx
 
-# Output derivati (CSV contatti) — legacy, ora in _local/
-cruscotto/output/
-contatta-*.csv
-contatta-*.json
-
-# Output visuali generati
-cruscotto/*.html
-cruscotto/*.png
+# Dashboard cache
+dashboard/.streamlit/secrets.toml

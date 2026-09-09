@@ -52,6 +52,7 @@ clean:
   validate:
     not_null:
       - codice_fiscale
+    primary_key: [codice_fiscale]
     min_rows: 100000
 
 mart:

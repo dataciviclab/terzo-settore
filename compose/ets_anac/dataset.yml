@@ -1,0 +1,55 @@
+root: "../../out"
+schema_version: 1
+
+dataset:
+  name: "ets_anac"
+  source_id: "terzo_settore_intelligence"
+  tags: [terzo-settore, anac, appalti, compose]
+  category: terzo-settore
+  description: "Compose RUNTS + ANAC: aggiudicazioni, partecipazioni e subappalti."
+  years: [2026]
+  time_coverage:
+    mode: snapshot
+
+raw:
+  output_policy: overwrite
+  sources:
+    - name: "runts_clean"
+      type: local_file
+      args:
+        path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
+      primary: true
+
+clean:
+  sql: "sql/clean.sql"
+  read:
+    source: auto
+    mode: latest
+  required_columns:
+    - codice_fiscale
+    - fonte
+  validate:
+    not_null: [codice_fiscale, fonte]
+    min_rows: 50000
+
+mart:
+  tables:
+    - name: "ets_anac_aggiudicazioni"
+      sql: "sql/mart_aggiudicazioni.sql"
+    - name: "ets_anac_partecipazioni"
+      sql: "sql/mart_partecipazioni.sql"
+    - name: "ets_anac_subappalti"
+      sql: "sql/mart_subappalti.sql"
+  required_tables:
+    - ets_anac_aggiudicazioni
+    - ets_anac_partecipazioni
+    - ets_anac_subappalti
+  validate:
+    table_rules:
+      ets_anac_aggiudicazioni:
+        min_rows: 10000
+      ets_anac_partecipazioni:
+        min_rows: 10000
+
+validation:
+  fail_on_error: true

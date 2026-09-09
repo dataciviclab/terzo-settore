@@ -1,0 +1,45 @@
+root: "../../out"
+schema_version: 1
+
+dataset:
+  name: "istat_non_profit_2023"
+  source_id: "istat_excel"
+  tags: [terzo-settore, istat, censimento, "2023"]
+  category: terzo-settore
+  description: "Istituzioni non profit italiane - Dati 2023 da tavole ISTAT Excel. Regioni per forma giuridica e settore, province."
+  years: [2023]
+
+raw:
+  output_policy: overwrite
+  sources:
+    - name: "istat_2023"
+      type: "local_file"
+      args:
+        path: "data/istat_non_profit_2023.csv"
+      primary: true
+
+clean:
+  sql: "sql/clean.sql"
+  read:
+    source: auto
+    mode: latest
+  required_columns: [anno, regione, livello, categoria_tipo, categoria, istituzioni, dipendenti]
+  validate:
+    min_rows: 100
+
+mart:
+  tables:
+    - name: "nonprofit_by_regione"
+      sql: "sql/mart_by_regione.sql"
+    - name: "nonprofit_by_provincia"
+      sql: "sql/mart_by_provincia.sql"
+    - name: "nonprofit_by_settore"
+      sql: "sql/mart_by_settore.sql"
+  required_tables: [nonprofit_by_regione, nonprofit_by_provincia]
+  validate:
+    table_rules:
+      nonprofit_by_regione:
+        min_rows: 20
+
+validation:
+  fail_on_error: false

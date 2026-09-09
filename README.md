@@ -1,29 +1,100 @@
-# Terzo Settore Intelligence
+# Terzo Settore Intelligence — DataCivicLab
 
-> Profilo dati di ogni ETS italiano + matching automatico con bandi attivi.
+**Per ogni ETS italiano, chi è, cosa ha fatto e quali bandi potrebbe vincere.**
 
-**Prodotto**: per ogni ente del terzo settore (150k iscritti al RUNTS) sapere
-chi è, cosa ha fatto (appalti, 5x1000, grant UE, aiuti di stato, PNRR) e
-quali bandi potrebbe vincere.
+Sistema di intelligence sul terzo settore italiano: raccoglie 8 fonti pubbliche
+(RUNTS, ANAC, 5x1000, RNA, PNRR, FTS/UE, MEF, OpenCoesione) per costruire un
+profilo unificato di ogni ente iscritto al Registro Unico Nazionale del Terzo
+Settore, e lo collega automaticamente ai bandi attivi.
 
-## Cosa fa
+- **Stato:** beta
+- **Copertura:** 2026, Italia (150k ETS)
+- **Unità di analisi:** Ente (codice_fiscale)
+
+## La domanda civica
+
+**Quali risorse riceve il terzo settore italiano, come si distribuiscono tra
+territori e sezioni, e quali bandi potrebbero essere vinti dagli enti con
+maggiore capacita progettuale?**
+
+Esempi:
+- Il mio ente ha ricevuto risorse pubbliche? Da quali fonti?
+- Quanti ETS nella mia provincia hanno partecipato ad appalti ANAC?
+- Quali bandi sono compatibili con un ente di volontariato a Bologna?
+
+## Dataset
+
+| Slug | Cosa contiene | Anni | Stato |
+|---|---|---|---|
+| `runts` | Anagrafe 150k ETS iscritti al RUNTS | 2026 | published |
+| `istat_non_profit_2023` | Censimento ISTAT non profit (regioni, province, settori) | 2023 | beta |
+| `ets_5xmille` | Compose: RUNTS + 5x1000 (ADE) | 2026 | beta |
+| `ets_anac` | Compose: RUNTS + ANAC (aggiudicazioni, partecipazioni, subappalti) | 2026 | beta |
+| `ets_pnrr` | Compose: RUNTS + PNRR | 2026 | beta |
+| `ets_rna` | Compose: RUNTS + RNA aiuti di stato | 2026 | beta |
+| `ets_fts` | Compose: RUNTS + FTS grant europei | 2026 | beta |
+| `ets_mef` | Compose: RUNTS + MEF patrimonio immobiliare | 2026 | beta |
+| `ets_opencoesione` | Compose: RUNTS + OpenCoesione fondi coesione | 2026 | beta |
+| `ets_unified` | Fatti ETS (long) + profilo unificato + aggregato comunale | 2026 | beta |
+
+## Dashboard Streamlit
+
+```bash
+pip install -e ".[dashboard]"
+streamlit run dashboard/app.py
+```
+
+Pagine:
+- **Panoramica** — KPI: ETS totali, per fonte, capacita progettuale
+- **Anagrafe RUNTS** — esplorazione per sezione, territorio
+- **5x1000** — trend, flag tematici, top ETS
+- **Trasparenza** — RNA + ANAC
+- **Programmi** — PNRR + grant UE
+- **Scheda ETS** — profilo completo con bandi compatibili
+- **Bandi Attivi** — lista bandi con filtri
+- **Matching** — trova ETS candidati per un bando
+- **Territorio** — vista per regione/provincia
+- **Censimento** — ISTAT non profit 2023
+
+## Architettura
 
 ```
-8 fonti Lab  →  Mart ETS  →  Scheda ETS   (profili 150k enti)
-                              Scheda Bando  (top ETS compatibili per bando)
+datasets/
+  runts/                     Anagrafe 150k ETS (fetch XLSX da Ministero)
+  istat_non_profit_2023/     Censimento ISTAT (CSV locale)
+
+compose/
+  ets_5xmille/               RUNTS + ADE 5x1000 → clean + mart
+  ets_anac/                  RUNTS + ANAC → clean + 3 mart (agg/part/sub)
+  ets_pnrr/                  RUNTS + PNRR → clean + mart
+  ets_rna/                   RUNTS + RNA → clean + mart
+  ets_fts/                   RUNTS + FTS → clean + mart
+  ets_mef/                   RUNTS + MEF → clean + mart
+  ets_opencoesione/          RUNTS + OpenCoesione → clean + mart
+  ets_unified/               Tutti i clean locali → UNION ALL → mart pivot
+
+dashboard/                   Streamlit (10 pagine)
+bandi/                       Acquisizione bandi (infobandi, info-cooperazione)
+lib/                         Utility (parsing scadenze bandi)
 ```
 
-| Comando | Cosa ottieni |
-|---|---|
-| `make scheda-ente CF=02006180364` | Profilo completo di un ETS (ANAC, 5x1000, RNA, UE, PNRR, benchmark territoriale) |
-| `make scheda-bando ARGS="5"` | Bando #5: temi, top ETS compatibili, statistiche territoriali |
-| `make list-bandi` | Lista dei 70 bandi attivi |
-| `make build` | Ricalcola il mart ETS dal toolkit |
-| `make bandi` | Aggiorna le fonti bandi (infobandi + info cooperazione) |
+### Pipeline
 
-## Dati
+```bash
+make run
+  1. toolkit run datasets/runts/              → runts_clean.parquet
+  2. toolkit run datasets/istat_non_profit_2023/ → istat_clean + mart
+  3. toolkit run compose/ets_{fonte}/         → clean + mart per fonte (x7)
+  4. toolkit run compose/ets_unified/         → fatti long + profilo + comuni
+```
 
-| Fonte | Cosa dà | ETS matchati |
+Ogni compose legge le fonti da GCS (pubblicate da dataset-incubator),
+le joina con RUNTS e produce clean + mart locali.
+`ets_unified` legge i clean locali dei compose e li unifica.
+
+## Fonti
+
+| Fonte | Cosa da | ETS matchati |
 |---|---|---|
 | **RUNTS** | Anagrafe 150k ETS (sezione, comune, provincia) | 150.164 |
 | **ANAC** | Appalti pubblici vinti (importi, oggetto, stazione) | 16.417 |
@@ -32,63 +103,42 @@ quali bandi potrebbe vincere.
 | **PNRR** | Progetti finanziati | 1.397 |
 | **FTS/UE** | Grant europei | 338 |
 | **MEF** | Immobili pubblici in uso | 3.326 |
-| **Subappalti** | ETS come subappaltatori | 119 |
-
-## Stack
-
-- **Toolkit** — pipeline `datasets/` (clean + mart SQL su DuckDB)
-- **DuckDB** — query engine per parquet GCS (schede on-demand)
-- **match/** — funnel scoring (pertinenza × capacità + bonus 5x1000)
-- **bandi/** — scraping fonti bandi (infobandi, info cooperazione)
-
-## Architettura
-
-```
-datasets/             Pipeline toolkit (clean + mart SQL)
-  ets_unified/          Fatti ETS: 8 fonti Lab → profilo unificato
-  runts/                RUNTS: snapshot Runts Nazionale ETS
-
-reports/              Schede on-demand (query DuckDB live)
-  scheda_ente.py        Profilo ETS completo
-  scheda_bando.py       Profilo bando + ETS compatibili
-
-match/                Matching bandi ↔ ETS
-  bando.py              Classificazione bandi
-  funnel.py             Scoring: pertinenza × capacità
-  pipeline.py           Orchestrazione
-
-bandi/                Acquisizione fonti bandi
-  infobandi.py          Fonte: infobandi.csvnet.it
-  info_cooperazione.py  Fonte: infocooperazione.it
-
-lib/                  Utility condivise
-tsi/                  CLI unica (python3 -m tsi)
-```
-
-## Numeri chiave
-
-| KPI | Valore |
-|---|---|
-| ETS in anagrafe | 150.164 |
-| ETS con almeno un fatto pubblico | 90.104 (59%) |
-| Appalti ANAC totali | €112.5 mld |
-| Bandi attivi tracciati | 70 |
-| Fonti dati Lab | 8 |
+| **OpenCoesione** | Progetti fondi coesione | ~100k |
 
 ## Setup
 
 ```bash
-# Pipeline toolkit (build ETS)
-make build
+# Pipeline completa
+make run
+
+# Validazione config
+make check
 
 # Aggiorna bandi
 make bandi
 
-# Genera schede
-make scheda-ente CF=02006180364
-make scheda-bando ARGS="5"
-make list-bandi
+# Registry
+make registry
 ```
+
+## Confine con il toolkit
+
+Il motore della pipeline vive nel repository `toolkit`. Questa repo non replica
+la logica di esecuzione: definisce input, regole e output attesi per ogni dataset.
+
+- bug o feature di CLI, runner, validazioni runtime → repo `toolkit`
+- bug o modifiche a fonti, mapping, SQL, mart, docs → questa repo
+
+## Partecipa
+
+- **Discussions** → domande civiche, interpretazioni, proposte di metriche
+- **Issues** → bug, problemi tecnici, miglioramenti della pipeline
+
+## Riferimenti
+
+- [DataCivicLab](https://dataciviclab.org/)
+- [Toolkit](https://github.com/dataciviclab/toolkit)
+- [.github](https://github.com/dataciviclab/.github)
 
 ---
 

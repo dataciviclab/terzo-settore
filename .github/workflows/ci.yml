@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "datasets/**"
+      - "compose/**"
+      - "lib/**"
+      - "bandi/**"
+      - "pyproject.toml"
+      - ".github/workflows/ci.yml"
+
+concurrency:
+  group: tsi-ci-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: dataciviclab/.github/actions/python-setup@main
+        with:
+          extra-packages: ruff
+
+      - name: Lint
+        run: ruff check lib/ bandi/
+
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: dataciviclab/.github/actions/python-setup@main
+        with:
+          extra-packages: -e ".[pipeline]"
+
+      - name: Validate configs
+        run: make check

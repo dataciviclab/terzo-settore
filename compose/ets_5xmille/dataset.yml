@@ -1,0 +1,49 @@
+root: "../../out"
+schema_version: 1
+
+dataset:
+  name: "ets_5xmille"
+  source_id: "terzo_settore_intelligence"
+  tags: [terzo-settore, 5xmille, compose]
+  category: terzo-settore
+  description: "Compose RUNTS + 5x1000 (ADE): profilo ETS con donazioni 5 per mille."
+  years: [2026]
+  time_coverage:
+    mode: snapshot
+
+raw:
+  output_policy: overwrite
+  sources:
+    - name: "runts_clean"
+      type: local_file
+      args:
+        path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
+      primary: true
+
+clean:
+  sql: "sql/clean.sql"
+  read:
+    source: auto
+    mode: latest
+  required_columns:
+    - codice_fiscale
+    - fonte
+    - importo
+  validate:
+    not_null: [codice_fiscale, fonte]
+    primary_key: [codice_fiscale, anno]
+    min_rows: 50000
+
+mart:
+  tables:
+    - name: "ets_5xmille"
+      sql: "sql/mart.sql"
+  required_tables:
+    - ets_5xmille
+  validate:
+    table_rules:
+      ets_5xmille:
+        min_rows: 50000
+
+validation:
+  fail_on_error: true

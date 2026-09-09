@@ -1,0 +1,49 @@
+root: "../../out"
+schema_version: 1
+
+dataset:
+  name: "ets_fts"
+  source_id: "terzo_settore_intelligence"
+  tags: [terzo-settore, grant-ue, compose]
+  category: terzo-settore
+  description: "Compose RUNTS + FTS: grant europei."
+  years: [2026]
+  time_coverage:
+    mode: snapshot
+
+raw:
+  output_policy: overwrite
+  sources:
+    - name: "runts_clean"
+      type: local_file
+      args:
+        path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
+      primary: true
+
+clean:
+  sql: "sql/clean.sql"
+  read:
+    source: auto
+    mode: latest
+  required_columns:
+    - codice_fiscale
+    - fonte
+    - importo
+  validate:
+    not_null: [codice_fiscale, fonte]
+    primary_key: [codice_fiscale, anno]
+    min_rows: 100
+
+mart:
+  tables:
+    - name: "ets_fts"
+      sql: "sql/mart.sql"
+  required_tables:
+    - ets_fts
+  validate:
+    table_rules:
+      ets_fts:
+        min_rows: 100
+
+validation:
+  fail_on_error: true
