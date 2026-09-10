@@ -21,6 +21,10 @@ raw:
       primary: true
 
 support:
+  - name: runts
+    type: dataset
+    config: "../../datasets/runts/dataset.yml"
+    years: [2026]
   - name: ets_5xmille
     type: dataset
     config: "../ets_5xmille/dataset.yml"
@@ -87,7 +91,6 @@ mart:
             provincia,
             capacita_progettuale,
           ]
-        primary_key: [codice_fiscale]
         min_rows: 100000
       ets_comuni:
         required_columns: [comune, provincia, ets_tot, capacita_alta]
