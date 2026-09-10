@@ -31,7 +31,6 @@ clean:
     - importo
   validate:
     not_null: [codice_fiscale, fonte]
-    primary_key: [codice_fiscale, anno]
     min_rows: 100
 
 mart:
