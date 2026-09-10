@@ -24,6 +24,10 @@ concurrency:
 jobs:
   pipeline:
     if: github.event.pull_request.merged == true || github.event_name != 'pull_request'
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
     uses: dataciviclab/.github/.github/workflows/pipeline-reusable.yml@main
     with:
       repo-slug: "terzo_settore"
