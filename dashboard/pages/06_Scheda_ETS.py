@@ -8,7 +8,11 @@ from sources import (
     scheda_ente_5xmille,
     scheda_ente_anac,
     scheda_ente_coesione,
+    scheda_ente_fts,
+    scheda_ente_mef,
+    scheda_ente_pnrr,
     scheda_ente_profilo,
+    scheda_ente_rna,
 )
 
 st.title("Scheda ETS")
@@ -68,6 +72,54 @@ try:
         st.subheader("Appalti pubblici (ANAC)")
         st.dataframe(anac["aggiudicazioni"][['n_appalti', 'importo_totale', 'ha_appalti_riservati', 'ha_appalti_pnrr', 'appalti_multiparti']],
                      column_config={"importo_totale": st.column_config.NumberColumn("Importo", format="€%.0f")},
+                     hide_index=True, width="stretch")
+except Exception:
+    pass
+
+# -- RNA (Aiuti di Stato)
+try:
+    rna = scheda_ente_rna(cf)
+    if not rna.empty:
+        st.markdown("---")
+        st.subheader("Aiuti di Stato (RNA)")
+        st.dataframe(rna[['codice_fiscale', 'soggetto_concedente', 'procedimento', 'importo']],
+                     column_config={"importo": st.column_config.NumberColumn("Importo", format="€%.0f")},
+                     hide_index=True, width="stretch")
+except Exception:
+    pass
+
+# -- PNRR
+try:
+    pnrr = scheda_ente_pnrr(cf)
+    if not pnrr.empty:
+        st.markdown("---")
+        st.subheader("PNRR")
+        st.dataframe(pnrr[['programma', 'missione', 'importo']],
+                     column_config={"importo": st.column_config.NumberColumn("Importo", format="€%.0f")},
+                     hide_index=True, width="stretch")
+except Exception:
+    pass
+
+# -- FTS (Grant UE)
+try:
+    fts = scheda_ente_fts(cf)
+    if not fts.empty:
+        st.markdown("---")
+        st.subheader("Grant UE (FTS)")
+        st.dataframe(fts[['nome_programma', 'importo']],
+                     column_config={"importo": st.column_config.NumberColumn("Importo", format="€%.0f")},
+                     hide_index=True, width="stretch")
+except Exception:
+    pass
+
+# -- MEF (Patrimonio)
+try:
+    mef = scheda_ente_mef(cf)
+    if not mef.empty:
+        st.markdown("---")
+        st.subheader("Patrimonio immobiliare (MEF)")
+        st.dataframe(mef[['finalita_pf', 'tipologia_bene', 'importo']],
+                     column_config={"importo": st.column_config.NumberColumn("Canone", format="€%.0f")},
                      hide_index=True, width="stretch")
 except Exception:
     pass

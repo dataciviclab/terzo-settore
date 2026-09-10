@@ -1,6 +1,5 @@
 """Panoramica — Cosa succede nel terzo settore?"""
 
-
 import altair as alt
 import streamlit as st
 from sources import (
@@ -48,7 +47,7 @@ if not fonti.empty:
     st.altair_chart(chart, width="stretch")
 
 # -- Capacita progettuale
-st.subheader(" capacita progettuale")
+st.subheader(" Capacità progettuale")
 
 cap = capacita_progettuale()
 if not cap.empty:
@@ -56,13 +55,17 @@ if not cap.empty:
         alt.Chart(cap)
         .mark_bar()
         .encode(
-            y=alt.Y("livello:N", title=None),
+            y=alt.Y("capacita_progettuale:N", title=None),
             x=alt.X("enti:Q", title="Enti"),
-            color=alt.Color("livello:N", scale={
-                "domain": ["sconosciuta", "base", "media", "medio-alta", "alta"],
-                "range": ["#dc2626", "#f97316", "#fbbf24", "#22c55e", "#16a34a"],
-            }, legend=None),
-            tooltip=["livello", "enti"],
+            color=alt.Color(
+                "capacita_progettuale:N",
+                scale={
+                    "domain": ["sconosciuta", "base", "media", "medio-alta", "alta"],
+                    "range": ["#dc2626", "#f97316", "#fbbf24", "#22c55e", "#16a34a"],
+                },
+                legend=None,
+            ),
+            tooltip=["capacita_progettuale", "enti"],
         )
         .properties(height=180)
     )
@@ -75,10 +78,15 @@ st.subheader("Top 15 ETS per 5x1000 (2025)")
 
 top = top_ets_5xmille()
 if not top.empty:
-    st.dataframe(top, column_config={
-        "denominazione": "Denominazione",
-        "comune": "Comune",
-        "provincia": "Prov",
-        "capacita_progettuale": " capacita",
-        "importo_5x1000_2025": st.column_config.NumberColumn("5x1000 2025", format="eur %.0f"),
-    }, hide_index=True, width="stretch")
+    st.dataframe(
+        top,
+        column_config={
+            "denominazione": "Denominazione",
+            "comune": "Comune",
+            "provincia": "Prov",
+            "capacita_progettuale": " capacita",
+            "importo_5x1000_2025": st.column_config.NumberColumn("5x1000 2025", format="eur %.0f"),
+        },
+        hide_index=True,
+        width="stretch",
+    )
