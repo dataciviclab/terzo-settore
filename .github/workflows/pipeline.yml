@@ -28,6 +28,7 @@ jobs:
     with:
       repo-slug: "terzo_settore_intelligence"
       run-command: "make run"
+      verify-command: "make test"
       sync-pattern: "per-dataset"
       python-extra-packages: "-e .[pipeline]"
       extra-env: "TOOLKIT_ALLOW_SCRIPT_SOURCE=1"

@@ -56,6 +56,12 @@ bandi: bandi-infobandi bandi-info-coop
 .PHONY: all
 all: run bandi
 
+# --- Test --------------------------------------------------------------------
+
+.PHONY: test
+test: check
+	@echo "✅ All tests passed"
+
 # --- Registry ----------------------------------------------------------------
 
 .PHONY: registry registry-write

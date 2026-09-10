@@ -8,6 +8,7 @@ on:
       - "compose/**"
       - "lib/**"
       - "bandi/**"
+      - "dashboard/**"
       - "pyproject.toml"
       - ".github/workflows/ci.yml"
 
@@ -37,5 +38,8 @@ jobs:
         with:
           extra-packages: -e ".[pipeline]"
 
-      - name: Validate configs
-        run: make check
+      - name: Validate dataset configs
+        uses: dataciviclab/.github/.github/workflows/dataset-config-check-reusable.yml@main
+        with:
+          install: "pip install -e .[pipeline]"
+          globs: "datasets compose"
