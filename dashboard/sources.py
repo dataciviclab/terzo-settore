@@ -9,6 +9,7 @@ import pandas as pd
 import streamlit as st
 from lab_connectors.duckdb import safe_connect
 from lab_connectors.duckdb.queries import load_mart_table as _load_mart
+from lab_connectors.formatters import fmt_eur, fmt_num, fmt_pct  # noqa: F401 — re-exported for pages
 from lab_connectors.gcs.paths import https_url
 
 ROOT = Path(__file__).parent.parent
