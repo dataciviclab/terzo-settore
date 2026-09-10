@@ -26,10 +26,10 @@ jobs:
     if: github.event.pull_request.merged == true || github.event_name != 'pull_request'
     uses: dataciviclab/.github/.github/workflows/pipeline-reusable.yml@main
     with:
-      repo-slug: "terzo_settore_intelligence"
+      repo-slug: "terzo_settore"
       run-command: "make run"
       verify-command: "make test"
-      sync-pattern: "per-dataset"
+      sync-pattern: "flat"
       python-extra-packages: "-e .[pipeline]"
       extra-env: "TOOLKIT_ALLOW_SCRIPT_SOURCE=1"
     secrets:
