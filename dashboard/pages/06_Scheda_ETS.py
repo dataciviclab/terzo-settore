@@ -3,6 +3,7 @@
 import streamlit as st
 from sources import (
     cerca_ente,
+    fmt_eur,
     match_bandi_per_ets,
     scheda_ente_5xmille,
     scheda_ente_anac,
@@ -53,9 +54,9 @@ try:
         st.subheader("5x1000")
         r5 = p5.iloc[0]
         c1, c2, c3 = st.columns(3)
-        c1.metric("Importo totale", f"eur {r5.get('importo_totale', 0):,.0f}")
+        c1.metric("Importo totale", fmt_eur(r5.get('importo_totale', 0)))
         c2.metric("Anni", f"{r5.get('anni', 0)}")
-        c3.metric("Importo 2025", f"eur {r5.get('importo_2025', 0):,.0f}")
+        c3.metric("Importo 2025", fmt_eur(r5.get('importo_2025', 0)))
 except Exception:
     pass
 
@@ -66,7 +67,7 @@ try:
         st.markdown("---")
         st.subheader("Appalti pubblici (ANAC)")
         st.dataframe(anac["aggiudicazioni"][['n_appalti', 'importo_totale', 'ha_appalti_riservati', 'ha_appalti_pnrr', 'appalti_multiparti']],
-                     column_config={"importo_totale": st.column_config.NumberColumn("Importo", format="eur %.0f")},
+                     column_config={"importo_totale": st.column_config.NumberColumn("Importo", format="€%.0f")},
                      hide_index=True, width="stretch")
 except Exception:
     pass
