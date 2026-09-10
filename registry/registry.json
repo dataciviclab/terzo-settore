@@ -145,8 +145,8 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ade_cinque_per_mille/",
-        "multi_file": false
+        "path": "gs://dataciviclab-clean/terzo_settore/ade_cinque_per_mille/*/ade_cinque_per_mille_*_clean.parquet",
+        "multi_file": true
       },
       "stage": "incubating",
       "mart_refs": [
@@ -265,7 +265,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ets_5xmille/",
+        "path": "gs://dataciviclab-clean/terzo_settore/ets_5xmille/2026/ets_5xmille_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -374,7 +374,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ets_anac/",
+        "path": "gs://dataciviclab-clean/terzo_settore/ets_anac/2026/ets_anac_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -448,7 +448,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ets_fts/",
+        "path": "gs://dataciviclab-clean/terzo_settore/ets_fts/2026/ets_fts_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -515,7 +515,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ets_mef/",
+        "path": "gs://dataciviclab-clean/terzo_settore/ets_mef/2026/ets_mef_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -626,7 +626,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ets_opencoesione/",
+        "path": "gs://dataciviclab-clean/terzo_settore/ets_opencoesione/2026/ets_opencoesione_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -698,7 +698,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ets_pnrr/",
+        "path": "gs://dataciviclab-clean/terzo_settore/ets_pnrr/2026/ets_pnrr_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -771,7 +771,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ets_rna/",
+        "path": "gs://dataciviclab-clean/terzo_settore/ets_rna/2026/ets_rna_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -827,7 +827,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/ets_unified/",
+        "path": "gs://dataciviclab-clean/terzo_settore/ets_unified/2026/ets_unified_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -908,7 +908,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/istat_non_profit_2023/",
+        "path": "gs://dataciviclab-clean/terzo_settore/istat_non_profit_2023/2023/istat_non_profit_2023_2023_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -1002,7 +1002,7 @@
       ],
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-clean/terzo_settore/runts/",
+        "path": "gs://dataciviclab-clean/terzo_settore/runts/2026/runts_2026_clean.parquet",
         "multi_file": false
       },
       "stage": "incubating",
@@ -1018,7 +1018,7 @@
       "table": "ade_cinque_per_mille",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/ade_cinque_per_mille.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/2025/ade_cinque_per_mille.parquet",
         "multi_file": false
       }
     },
@@ -1028,7 +1028,7 @@
       "table": "five_per_mille_per_categoria",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/five_per_mille_per_categoria.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/2025/five_per_mille_per_categoria.parquet",
         "multi_file": false
       }
     },
@@ -1038,7 +1038,7 @@
       "table": "five_per_mille_per_provincia",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/five_per_mille_per_provincia.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/2025/five_per_mille_per_provincia.parquet",
         "multi_file": false
       }
     },
@@ -1048,7 +1048,7 @@
       "table": "five_per_mille_top_enti",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/five_per_mille_top_enti.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/2025/five_per_mille_top_enti.parquet",
         "multi_file": false
       }
     },
@@ -1058,7 +1058,7 @@
       "table": "five_per_mille_trend",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/five_per_mille_trend.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ade_cinque_per_mille/2025/five_per_mille_trend.parquet",
         "multi_file": false
       }
     },
@@ -1068,7 +1068,7 @@
       "table": "ets_5xmille",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_5xmille/ets_5xmille.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_5xmille/2026/ets_5xmille.parquet",
         "multi_file": false
       }
     },
@@ -1078,7 +1078,7 @@
       "table": "ets_anac_aggiudicazioni",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_anac/ets_anac_aggiudicazioni.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_anac/2026/ets_anac_aggiudicazioni.parquet",
         "multi_file": false
       }
     },
@@ -1088,7 +1088,7 @@
       "table": "ets_anac_partecipazioni",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_anac/ets_anac_partecipazioni.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_anac/2026/ets_anac_partecipazioni.parquet",
         "multi_file": false
       }
     },
@@ -1098,7 +1098,7 @@
       "table": "ets_anac_subappalti",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_anac/ets_anac_subappalti.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_anac/2026/ets_anac_subappalti.parquet",
         "multi_file": false
       }
     },
@@ -1108,7 +1108,7 @@
       "table": "ets_fts",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_fts/ets_fts.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_fts/2026/ets_fts.parquet",
         "multi_file": false
       }
     },
@@ -1118,7 +1118,7 @@
       "table": "ets_mef",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_mef/ets_mef.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_mef/2026/ets_mef.parquet",
         "multi_file": false
       }
     },
@@ -1128,7 +1128,7 @@
       "table": "ets_coesione",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_opencoesione/ets_coesione.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_opencoesione/2026/ets_coesione.parquet",
         "multi_file": false
       }
     },
@@ -1138,7 +1138,7 @@
       "table": "ets_pnrr",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_pnrr/ets_pnrr.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_pnrr/2026/ets_pnrr.parquet",
         "multi_file": false
       }
     },
@@ -1148,7 +1148,7 @@
       "table": "ets_rna",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_rna/ets_rna.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_rna/2026/ets_rna.parquet",
         "multi_file": false
       }
     },
@@ -1158,7 +1158,7 @@
       "table": "ets_comuni",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_unified/ets_comuni.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_unified/2026/ets_comuni.parquet",
         "multi_file": false
       }
     },
@@ -1168,7 +1168,7 @@
       "table": "ets_unified",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/ets_unified/ets_unified.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/ets_unified/2026/ets_unified.parquet",
         "multi_file": false
       }
     },
@@ -1178,7 +1178,7 @@
       "table": "nonprofit_by_provincia",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/istat_non_profit_2023/nonprofit_by_provincia.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/istat_non_profit_2023/2023/nonprofit_by_provincia.parquet",
         "multi_file": false
       }
     },
@@ -1188,7 +1188,7 @@
       "table": "nonprofit_by_regione",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/istat_non_profit_2023/nonprofit_by_regione.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/istat_non_profit_2023/2023/nonprofit_by_regione.parquet",
         "multi_file": false
       }
     },
@@ -1198,7 +1198,7 @@
       "table": "nonprofit_by_settore",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/istat_non_profit_2023/nonprofit_by_settore.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/istat_non_profit_2023/2023/nonprofit_by_settore.parquet",
         "multi_file": false
       }
     },
@@ -1208,7 +1208,7 @@
       "table": "runts_sezione",
       "location": {
         "type": "gcs",
-        "path": "gs://dataciviclab-mart/terzo_settore/runts/runts_sezione.parquet",
+        "path": "gs://dataciviclab-mart/terzo_settore/runts/2026/runts_sezione.parquet",
         "multi_file": false
       }
     }

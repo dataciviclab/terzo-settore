@@ -33,7 +33,7 @@ jobs:
       repo-slug: "terzo_settore"
       run-command: "make run"
       verify-command: "make test"
-      sync-pattern: "flat"
+      sync-pattern: "per-dataset"
       python-extra-packages: "-e .[pipeline]"
       extra-env: "TOOLKIT_ALLOW_SCRIPT_SOURCE=1"
     secrets:

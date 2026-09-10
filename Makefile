@@ -66,10 +66,10 @@ test: check
 
 .PHONY: registry registry-write
 registry:
-	$(TOOLKIT) registry build --prefix terzo_settore --flat
+	$(TOOLKIT) registry build --prefix terzo_settore
 
 registry-write:
-	$(TOOLKIT) registry build --prefix terzo_settore --flat --write
+	$(TOOLKIT) registry build --prefix terzo_settore --write
 
 # --- Pulizia -----------------------------------------------------------------
 
