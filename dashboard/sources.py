@@ -5,8 +5,9 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import duckdb
 import streamlit as st
+
+from lab_connectors.duckdb import safe_connect
 
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "out" / "data"
@@ -43,7 +44,10 @@ CLEAN_MEF = OUT / "clean" / "ets_mef" / "2026" / "ets_mef_2026_clean.parquet"
 
 
 def _q(sql, path):
-    return duckdb.connect().sql(sql.replace("_T_", f"read_parquet('{path}')")).df()
+    """Esegui SQL su un parquet locale. Usa safe_connect per config consistente."""
+    from lab_connectors.duckdb import safe_connect
+    with safe_connect() as con:
+        return con.sql(sql.replace("_T_", f"read_parquet('{path}')")).df()
 
 
 # -- Panoramica ---------------------------------------------------------

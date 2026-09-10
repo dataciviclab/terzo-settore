@@ -1,8 +1,6 @@
 """5x1000 — Che tipo di ETS ricevono il 5 per mille?"""
 
 import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import altair as alt
 import pandas as pd

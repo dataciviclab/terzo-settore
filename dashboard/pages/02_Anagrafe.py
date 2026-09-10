@@ -1,11 +1,9 @@
 """Anagrafe — Chi sono gli ETS nel mio territorio?"""
 
 import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
-import duckdb
 import streamlit as st
+from lab_connectors.duckdb import safe_connect
 from sources import MART_ETS, RUNTS, elenco_sezioni
 
 st.title("📋 Anagrafe ETS")
@@ -36,15 +34,16 @@ if search:
     where.append(f"(r.denominazione LIKE '%{s}%' OR r.codice_fiscale LIKE '%{s}%')")
 w = " WHERE " + " AND ".join(where) if where else ""
 
-df = duckdb.connect().sql(f"""
-    SELECT r.codice_fiscale, r.denominazione, r.sezione, r.comune, r.provincia,
-           r.data_iscrizione, m.capacita_progettuale
-    FROM read_parquet('{RUNTS}') r
-    LEFT JOIN read_parquet('{MART_ETS}') m ON r.codice_fiscale = m.codice_fiscale
-    {w}
-    ORDER BY r.denominazione
-    LIMIT 500
-""").df()
+with safe_connect() as con:
+    df = con.sql(f"""
+        SELECT r.codice_fiscale, r.denominazione, r.sezione, r.comune, r.provincia,
+               r.data_iscrizione, m.capacita_progettuale
+        FROM read_parquet('{RUNTS}') r
+        LEFT JOIN read_parquet('{MART_ETS}') m ON r.codice_fiscale = m.codice_fiscale
+        {w}
+        ORDER BY r.denominazione
+        LIMIT 500
+    """).df()
 
 st.write(f"**{len(df)} enti** trovati")
 

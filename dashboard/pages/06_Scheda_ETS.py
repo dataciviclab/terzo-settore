@@ -1,16 +1,14 @@
 """Scheda ETS — Profilo completo di un ente da tutti i compose."""
 
 import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import streamlit as st
+from lab_connectors.duckdb import safe_connect
 from sources import (
     scheda_ente_profilo, scheda_ente_5xmille, scheda_ente_anac,
     scheda_ente_rna, scheda_ente_pnrr, scheda_ente_fts,
     scheda_ente_mef, scheda_ente_coesione, match_bandi_per_ets, MART_ETS,
 )
-import duckdb
 
 st.title("🔍 Scheda ETS")
 
@@ -20,12 +18,13 @@ if not query:
     st.stop()
 
 safe = query.replace("'", "''")
-df = duckdb.connect().sql(f"""
-    SELECT codice_fiscale, denominazione
-    FROM read_parquet('{MART_ETS}')
-    WHERE codice_fiscale LIKE '%{safe}%' OR denominazione LIKE '%{safe}%'
-    LIMIT 20
-""").df()
+with safe_connect() as con:
+    df = con.sql(f"""
+        SELECT codice_fiscale, denominazione
+        FROM read_parquet('{MART_ETS}')
+        WHERE codice_fiscale LIKE '%{safe}%' OR denominazione LIKE '%{safe}%'
+        LIMIT 20
+    """).df()
 
 if df.empty:
     st.warning("Nessun ente trovato.")
