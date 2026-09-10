@@ -14,7 +14,8 @@ ROOT = Path(__file__).parent.parent
 PREFIX = "terzo_settore/"
 SLUG = "ets_unified"
 YEARS = [2022, 2023, 2024, 2025, 2026]
-LOCAL_ROOT = str(ROOT / "out" / "data")
+_data_dir = ROOT / "out" / "data"
+LOCAL_ROOT = str(_data_dir) if _data_dir.is_dir() and any(_data_dir.rglob("*.parquet")) else None
 
 
 @st.cache_data(ttl=3600, show_spinner=False)
