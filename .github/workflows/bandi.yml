@@ -1,0 +1,37 @@
+name: Bandi Update
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"  # Ogni lunedi alle 08:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: tsi-bandi
+  cancel-in-progress: true
+
+jobs:
+  update-bandi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: dataciviclab/.github/actions/python-setup@main
+        with:
+          extra-packages: requests beautifulsoup4
+
+      - name: Aggiorna bandi
+        run: |
+          PYTHONPATH=$PWD python3 bandi/infobandi.py
+          PYTHONPATH=$PWD python3 bandi/info_cooperazione.py
+
+      - name: Commit e push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/bandi/
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica ai bandi"
+          else
+            git commit -m "chore(bandi): aggiorna bandi [$(date +%Y-%m-%d)]"
+            git push
+          fi
