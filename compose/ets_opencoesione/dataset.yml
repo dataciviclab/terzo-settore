@@ -11,11 +11,6 @@ dataset:
   time_coverage:
     mode: snapshot
 
-# TODO: dopo PR merged in dataset-incubator, passare a GCS URL nelle support
-# Le GCS URL saranno:
-#   gs://dataciviclab-clean/opencoesione_progetti/2026/opencoesione_progetti_2026_clean.parquet
-#   gs://dataciviclab-clean/opencoesione_soggetti/2026/opencoesione_soggetti_2026_clean.parquet
-
 raw:
   output_policy: overwrite
   sources:

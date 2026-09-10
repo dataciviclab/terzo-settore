@@ -1,10 +1,6 @@
 -- clean.sql — Compose RUNTS + OpenCoesione
 -- Quali ETS hanno partecipato a progetti di fondi coesione
 -- Output: lungo formato (codice_fiscale, fonte, anno, importo) + dettagli coesione.
---
--- TODO: dopo PR merged in dataset-incubator, sostituire i path locali con GCS URL:
---   https://storage.googleapis.com/dataciviclab-clean/opencoesione_progetti/2026/...
---   https://storage.googleapis.com/dataciviclab-clean/opencoesione_soggetti/2026/...
 
 WITH
 anagrafe AS (
@@ -21,8 +17,8 @@ fatti_coesione AS (
         COUNT(DISTINCT p.OC_TEMA_SINTETICO) as n_temi,
         MAX(p.OC_FINANZ_TOT_PUB_NETTO) as max_finanziamento_progetto,
         GROUP_CONCAT(DISTINCT p.OC_TEMA_SINTETICO) as temi_coesione
-    FROM read_parquet('{support.opencoesione_progetti.clean}') p
-    JOIN read_parquet('{support.opencoesione_soggetti.clean}') s
+    FROM 'https://storage.googleapis.com/dataciviclab-clean/opencoesione_progetti/2026/opencoesione_progetti_2026_clean.parquet' p
+    JOIN 'https://storage.googleapis.com/dataciviclab-clean/opencoesione_soggetti/2026/opencoesione_soggetti_2026_clean.parquet' s
         ON p.COD_LOCALE_PROGETTO = s.COD_LOCALE_PROGETTO
     WHERE s.SOGG_DESCR_RUOLO LIKE '%Beneficiario%'
       AND s.OC_CODICE_FISCALE_SOGG IS NOT NULL
