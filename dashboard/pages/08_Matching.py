@@ -1,6 +1,5 @@
 """Matching — Trova ETS candidati per un bando."""
 
-import sys
 
 import streamlit as st
 from sources import load_bandi, match_bandi_ets

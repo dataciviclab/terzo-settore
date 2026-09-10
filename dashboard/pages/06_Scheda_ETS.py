@@ -2,9 +2,12 @@
 
 import streamlit as st
 from sources import (
-    scheda_ente_profilo, scheda_ente_5xmille, scheda_ente_anac,
-    scheda_ente_rna, scheda_ente_pnrr, scheda_ente_fts,
-    scheda_ente_mef, scheda_ente_coesione, match_bandi_per_ets, cerca_ente,
+    cerca_ente,
+    match_bandi_per_ets,
+    scheda_ente_5xmille,
+    scheda_ente_anac,
+    scheda_ente_coesione,
+    scheda_ente_profilo,
 )
 
 st.title("Scheda ETS")

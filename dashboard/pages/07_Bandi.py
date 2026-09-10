@@ -1,6 +1,5 @@
 """Bandi — Quali bandi sono aperti?"""
 
-import sys
 
 import streamlit as st
 from sources import load_bandi

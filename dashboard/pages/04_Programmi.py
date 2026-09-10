@@ -1,6 +1,5 @@
 """Programmi — Quali programmi finanziano gli ETS?"""
 
-import sys
 
 import altair as alt
 import streamlit as st

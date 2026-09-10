@@ -1,6 +1,5 @@
 """Trasparenza — Chi finanzia e compra dal terzo settore?"""
 
-import sys
 
 import altair as alt
 import streamlit as st

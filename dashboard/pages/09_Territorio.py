@@ -3,9 +3,14 @@
 import altair as alt
 import streamlit as st
 from sources import (
-    elenco_province, elenco_regioni, territorio_riepilogo,
-    territorio_fonti, territorio_top_comuni, confronto_territorio,
-    fmt_num, fmt_eur,
+    confronto_territorio,
+    elenco_province,
+    elenco_regioni,
+    fmt_eur,
+    fmt_num,
+    territorio_fonti,
+    territorio_riepilogo,
+    territorio_top_comuni,
 )
 
 st.title("🗺️ Territorio")
@@ -33,13 +38,13 @@ st.subheader("📊 Riepilogo")
 riepilogo = territorio_riepilogo(prov, reg)
 if not riepilogo.empty:
     r = riepilogo.iloc[0]
-    
+
     col1, col2, col3, col4 = st.columns(4)
     col1.metric("📋 ETS totali", f"{int(r['ets_totali']):,}")
     col2.metric("🎯 Capacità alta/media-alta", f"{int(r['capacita_media_alta']):,}")
     col3.metric("💰 Con 5×1000", f"{int(r['con_5xmille']):,}")
     col4.metric("🏛️ Con coesione", f"{int(r.get('con_anac', 0)):,}")
-    
+
     col5, col6, col7, col8 = st.columns(4)
     col5.metric("ODV", fmt_num(int(r['odv'])))
     col6.metric("APS", fmt_num(int(r['aps'])))

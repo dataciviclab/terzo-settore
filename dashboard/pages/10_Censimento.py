@@ -1,14 +1,12 @@
 """Censimento ISTAT Non Profit 2023 — Dati regionali e provinciali."""
 
-import streamlit as st
-import pandas as pd
 import altair as alt
-
+import streamlit as st
 from sources import (
     istat_2023_kpi,
+    istat_2023_province,
     istat_2023_regioni,
     istat_2023_settori,
-    istat_2023_province,
 )
 
 st.header("🏛️ Censimento ISTAT Non Profit 2023")

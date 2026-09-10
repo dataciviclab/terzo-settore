@@ -14,4 +14,4 @@ def test_all_pages_compile():
             py_compile.compile(str(page), doraise=True)
         except py_compile.PyCompileError as e:
             errors.append(str(e))
-    assert not errors, f"Errori di sintassi:\n" + "\n".join(errors)
+    assert not errors, "Errori di sintassi:\n" + "\n".join(errors)

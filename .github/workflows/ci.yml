@@ -27,7 +27,7 @@ jobs:
           extra-packages: ruff
 
       - name: Lint
-        run: ruff check lib/ bandi/
+        run: ruff check lib/ bandi/ dashboard/
 
   validate:
     runs-on: ubuntu-latest

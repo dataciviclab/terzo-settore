@@ -4,14 +4,11 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Any
 
 import pandas as pd
 import streamlit as st
-
 from lab_connectors.duckdb import safe_connect
 from lab_connectors.duckdb.queries import load_mart_table as _load_mart
-from lab_connectors.formatters import fmt_eur, fmt_num, fmt_pct
 from lab_connectors.gcs.paths import https_url
 
 ROOT = Path(__file__).parent.parent
@@ -382,9 +379,12 @@ def match_bandi_per_ets(cf: str, top_n: int = 10):
                 if bando_key in tag and et["flags"].get(flag_col):
                     score += 3
                     break
-        if et["ha_ue"]: score += 2
-        if et["ha_appalti"]: score += 1
-        if et["ha_5xmille"]: score += 1
+        if et["ha_ue"]:
+            score += 2
+        if et["ha_appalti"]:
+            score += 1
+        if et["ha_5xmille"]:
+            score += 1
         if score > 0:
             scored.append({"titolo": b.get("titolo", ""), "url": b.get("url", ""),
                            "ente": b.get("ente_erogatore", ""), "tags": b.get("tag", []),
@@ -408,8 +408,10 @@ def elenco_regioni():
 @st.cache_data(ttl=3600, show_spinner=False)
 def territorio_riepilogo(prov=None, reg=None):
     where = []
-    if prov: where.append(f"upper(provincia) = '{prov.upper()}'")
-    elif reg: where.append(f"regione = '{reg}'")
+    if prov:
+        where.append(f"upper(provincia) = '{prov.upper()}'")
+    elif reg:
+        where.append(f"regione = '{reg}'")
     w = " WHERE " + " AND ".join(where) if where else ""
     url = _url("mart", "ets_unified", "ets_unified", 2026)
     return _q(f"SELECT COUNT(*) as ets_totali, COUNT(CASE WHEN sezione = 'ORGANIZZAZIONI DI VOLONTARIATO' THEN 1 END) as odv, COUNT(CASE WHEN sezione = 'ASSOCIAZIONI DI PROMOZIONE SOCIALE' THEN 1 END) as aps, COUNT(CASE WHEN sezione = 'IMPRESE SOCIALI' THEN 1 END) as imprese_sociali, COUNT(CASE WHEN ha_5x1000 THEN 1 END) as con_5xmille, COUNT(CASE WHEN ha_finanziamenti_ue THEN 1 END) as con_ue, COUNT(CASE WHEN ha_aiuti_stato THEN 1 END) as con_rna, COUNT(CASE WHEN ha_progetti_pnrr THEN 1 END) as con_pnrr, COUNT(CASE WHEN ha_appalti_pubblici THEN 1 END) as con_anac, ROUND(AVG(CASE WHEN importo_5x1000_2025 > 0 THEN importo_5x1000_2025 END), 0) as media_5xmille, COUNT(CASE WHEN capacita_progettuale = 'alta' THEN 1 END) as capacita_alta, COUNT(CASE WHEN capacita_progettuale IN ('alta', 'medio-alta') THEN 1 END) as capacita_media_alta FROM _T_ {w}", url)
@@ -417,8 +419,10 @@ def territorio_riepilogo(prov=None, reg=None):
 @st.cache_data(ttl=3600, show_spinner=False)
 def territorio_fonti(prov=None, reg=None):
     where = []
-    if prov: where.append(f"upper(provincia) = '{prov.upper()}'")
-    elif reg: where.append(f"regione = '{reg}'")
+    if prov:
+        where.append(f"upper(provincia) = '{prov.upper()}'")
+    elif reg:
+        where.append(f"regione = '{reg}'")
     cond = (" AND " + " AND ".join(where)) if where else ""
     url = _url("mart", "ets_unified", "ets_unified", 2026)
     return _q(f"SELECT '5×1000' as fonte, COUNT(*) as enti FROM _T_ WHERE ha_5x1000 {cond} UNION ALL SELECT 'Grant UE', COUNT(*) FROM _T_ WHERE ha_finanziamenti_ue {cond} UNION ALL SELECT 'RNA', COUNT(*) FROM _T_ WHERE ha_aiuti_stato {cond} UNION ALL SELECT 'PNRR', COUNT(*) FROM _T_ WHERE ha_progetti_pnrr {cond} UNION ALL SELECT 'ANAC', COUNT(*) FROM _T_ WHERE ha_appalti_pubblici {cond} ORDER BY enti DESC", url)
@@ -426,8 +430,10 @@ def territorio_fonti(prov=None, reg=None):
 @st.cache_data(ttl=3600, show_spinner=False)
 def territorio_top_comuni(prov=None, reg=None, top_n=15):
     where = []
-    if prov: where.append(f"upper(provincia) = '{prov.upper()}'")
-    elif reg: where.append(f"regione = '{reg}'")
+    if prov:
+        where.append(f"upper(provincia) = '{prov.upper()}'")
+    elif reg:
+        where.append(f"regione = '{reg}'")
     w = " WHERE " + " AND ".join(where) if where else ""
     url = _url("mart", "ets_unified", "ets_unified", 2026)
     return _q(f"SELECT comune, provincia, COUNT(*) as ets_tot, COUNT(CASE WHEN ha_5x1000 THEN 1 END) as con_5xmille, COUNT(CASE WHEN ha_appalti_pubblici THEN 1 END) as con_anac, COUNT(CASE WHEN capacita_progettuale IN ('alta','medio-alta') THEN 1 END) as attivi FROM _T_ {w} GROUP BY comune, provincia ORDER BY ets_tot DESC LIMIT {top_n}", url)

@@ -1,12 +1,16 @@
 """Panoramica — Cosa succede nel terzo settore?"""
 
-import sys
 
 import altair as alt
 import streamlit as st
 from sources import (
-    kpi_nazionali, kpi_con_5xmille, kpi_con_appalti, kpi_con_aiuti,
-    fondi_per_fonte, capacita_progettuale, top_ets_5xmille,
+    capacita_progettuale,
+    fondi_per_fonte,
+    kpi_con_5xmille,
+    kpi_con_aiuti,
+    kpi_con_appalti,
+    kpi_nazionali,
+    top_ets_5xmille,
 )
 
 st.title("Terzo Settore Italiano")

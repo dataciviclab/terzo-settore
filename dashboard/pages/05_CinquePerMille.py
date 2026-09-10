@@ -3,7 +3,7 @@
 import altair as alt
 import pandas as pd
 import streamlit as st
-from sources import cinque_per_anno, cinque_per_tipologia, top_ets_5x1000, fmt_num, fmt_eur
+from sources import cinque_per_anno, cinque_per_tipologia, fmt_eur, fmt_num, top_ets_5x1000
 
 st.title("💰 5×1000")
 st.caption("Distribuzione del 5 per mille tra gli ETS italiani")
