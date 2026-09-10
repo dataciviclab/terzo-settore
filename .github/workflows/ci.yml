@@ -39,7 +39,4 @@ jobs:
           extra-packages: -e ".[pipeline]"
 
       - name: Validate dataset configs
-        uses: dataciviclab/.github/.github/workflows/dataset-config-check-reusable.yml@main
-        with:
-          install: "pip install -e .[pipeline]"
-          globs: "datasets compose"
+        run: make check
