@@ -1,12 +1,18 @@
 """Terzo Settore Intelligence — Dashboard Streamlit."""
 
 import streamlit as st
+from lab_connectors.branding import apply_branding
 
 st.set_page_config(
     page_title="Terzo Settore · Intelligence",
     page_icon="🏛️",
     layout="wide",
     initial_sidebar_state="expanded",
+)
+
+apply_branding(
+    repo_name="terzo-settore",
+    repo_url="https://github.com/dataciviclab/terzo-settore",
 )
 
 pages = {
@@ -32,6 +38,4 @@ pages = {
 }
 
 pg = st.navigation(pages, position="sidebar")
-st.sidebar.markdown("---")
-st.sidebar.caption("[DataCivicLab](https://dataciviclab.org/)")
 pg.run()
