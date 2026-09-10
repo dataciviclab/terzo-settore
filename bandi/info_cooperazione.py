@@ -1,22 +1,25 @@
-#!/usr/bin/env python3
 """Aggregatore bandi da info-cooperazione.it.
 
 Scarica tutti i bandi dalla sezione Bandi (Cat=2) paginata.
 Cache locale: data/bandi/info_cooperazione_bandi.json
 """
 
-import json, re, time, sys
+import json
+import re
+import sys
+import time
 from collections import Counter
-from datetime import date, datetime
+from datetime import UTC, datetime
 from pathlib import Path
-from urllib.parse import urljoin, parse_qs, urlparse
+from urllib.parse import parse_qs, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 
+from lib.config import filtra_bandi_attivi, parse_scadenza
+
 ROOT = Path(__file__).resolve().parents[1]
 CACHE_DIR = ROOT / "data" / "bandi"
-from lib.config import filtra_bandi_attivi, parse_scadenza
 
 BASE_URL = "https://www.info-cooperazione.it"
 SEARCH_URL = f"{BASE_URL}/Category/Search"
@@ -88,7 +91,7 @@ def parse_bandi(html):
         scaduto = False
         if scadenza:
             d = parse_scadenza(scadenza)
-            scaduto = d is not None and d < date.today()
+            scaduto = d is not None and d < datetime.now(tz=UTC).date()
 
         bandi.append({
             "titolo": titolo,
@@ -202,10 +205,10 @@ def main():
 
     # Stats
     donatori = set(b["donatore"] for b in tutti if b["donatore"])
-    print(f"\n📊 Statistiche:")
+    print("\n📊 Statistiche:")
     print(f"  Bandi totali: {len(tutti)}")
     print(f"  Donatori unici: {len(donatori)}")
-    print(f"  Top donatori:")
+    print("  Top donatori:")
     for don, cnt in Counter(b["donatore"] for b in tutti if b["donatore"]).most_common(10):
         print(f"    · {don}: {cnt}")
 

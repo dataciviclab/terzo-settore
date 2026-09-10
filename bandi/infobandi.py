@@ -9,7 +9,6 @@ Uso diretto:
 """
 
 import json
-import os
 import re
 import time
 from datetime import datetime
@@ -18,12 +17,13 @@ from pathlib import Path
 
 import requests
 
-ROOT = Path(__file__).resolve().parents[1]
 from lib.config import filtra_bandi_attivi, normalizza_scadenza
+
+ROOT = Path(__file__).resolve().parents[1]
 
 CACHE_DIR = Path(__file__).resolve().parents[1] / "data" / "bandi"
 CACHE_FILE = CACHE_DIR / "infobandi_bandi.json"
-CACHE_TTL = 3600 
+CACHE_TTL = 3600
 
 API_BASE = "https://infobandi.csvnet.it/wp-json/wp/v2"
 RSS_URL = "https://infobandi.csvnet.it/feed/"
@@ -143,8 +143,8 @@ def _estrai(post: dict) -> dict:
             budget = float(raw)
         except ValueError:
             budget = m.group(1)
-    
-    # Se non trovato, cerca pattern "X milioni di euro" 
+
+    # Se non trovato, cerca pattern "X milioni di euro"
     if not budget:
         m = re.search(
             r"(?:budget|stanziamento|dotazione|importo|finanziamento|totale|ammontare)"

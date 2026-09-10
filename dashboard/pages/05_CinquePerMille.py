@@ -1,13 +1,9 @@
 """5x1000 — Che tipo di ETS ricevono il 5 per mille?"""
 
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
 import altair as alt
 import pandas as pd
 import streamlit as st
-from sources import cinque_per_anno, cinque_per_tipologia, top_ets_5x1000
+from sources import cinque_per_anno, cinque_per_tipologia, fmt_eur, fmt_num, top_ets_5x1000
 
 st.title("💰 5×1000")
 st.caption("Distribuzione del 5 per mille tra gli ETS italiani")
@@ -18,10 +14,10 @@ st.subheader("📈 Trend 5×1000 per anno")
 trend = cinque_per_anno()
 if not trend.empty:
     col1, col2, col3 = st.columns(3)
-    col1.metric("Anni disponibili", f"{len(trend)}")
-    col2.metric("ETS totali (2025)", f"{int(trend[trend['anno']==2025]['n_ets'].sum()):,}" if 2025 in trend['anno'].values else "-")
+    col1.metric("Anni disponibili", fmt_num(len(trend)))
+    col2.metric("ETS totali (2025)", fmt_num(int(trend[trend['anno']==2025]['n_ets'].sum())) if 2025 in trend['anno'].values else "-")
     col3.metric("Importo totale (2025)",
-                f"€{trend[trend['anno']==2025]['importo_totale'].sum()/1e6:,.0f}M" if 2025 in trend['anno'].values else "-")
+                fmt_eur(trend[trend['anno']==2025]['importo_totale'].sum()) if 2025 in trend['anno'].values else "-")
 
     chart = (
         alt.Chart(trend)
