@@ -265,16 +265,16 @@ def _bando_eligibility(bando):
     return conditions
 
 
-def _bando_theme_match(bando, flags_row):
+def _compute_tema_score_vectorized(df, bando):
+    """Vectorized replacement for df.apply(_bando_theme_match, axis=1)."""
     tags_lower = [t.lower() for t in bando.get("tag", [])]
-    score = 0
+    score = pd.Series(0, index=df.index)
     for tag in tags_lower:
         for bando_key, flag_col in TAG_TO_FLAG.items():
-            if bando_key in tag and flags_row.get(flag_col, False):
-                score += 3
-                break
-    if flags_row.get("importo_5x1000_2025", 0) > 50000:
-        score += 2
+            if bando_key in tag and flag_col in df.columns:
+                score = score + df[flag_col].fillna(False).astype(int) * 3
+    if "importo_5x1000_2025" in df.columns:
+        score = score + (df["importo_5x1000_2025"].fillna(0) > 50000).astype(int) * 2
     return score
 
 
@@ -289,7 +289,7 @@ def match_bandi_ets(bando, top_n=20):
     for cond in eligibility:
         df = df.query(cond)
 
-    df["tema_score"] = df.apply(lambda r: _bando_theme_match(bando, r), axis=1)
+    df["tema_score"] = _compute_tema_score_vectorized(df, bando)
     df = df[df["tema_score"] > 0]
 
     df["capacity_bonus"] = (
@@ -302,6 +302,7 @@ def match_bandi_ets(bando, top_n=20):
     return df.sort_values("score", ascending=False).head(top_n)
 
 
+@st.cache_data(ttl=3600, show_spinner=False)
 def match_bandi_per_ets(cf, top_n=10):
     df_e = load_mart("ets_unified", year=2026)
     row = df_e[df_e["codice_fiscale"] == cf]
@@ -387,11 +388,12 @@ def territorio_top_comuni(prov=None, reg=None, top_n=15):
         df = df[df["provincia"].str.upper() == prov.upper()]
     elif reg:
         df = df[df["regione"] == reg]
-    return df.groupby(["comune", "provincia"]).agg(
+    df["_attivo"] = df["capacita_progettuale"].isin(["alta", "medio-alta"]).astype(int)
+    return df.groupby(["comune", "provincia"], sort=False).agg(
         ets_tot=("codice_fiscale", "count"),
         con_5xmille=("ha_5x1000", "sum"),
         con_anac=("ha_appalti_pubblici", "sum"),
-        attivi=("capacita_progettuale", lambda x: x.isin(["alta", "medio-alta"]).sum()),
+        attivi=("_attivo", "sum"),
     ).reset_index().sort_values("ets_tot", ascending=False).head(top_n)
 
 @st.cache_data(ttl=3600, show_spinner=False)
