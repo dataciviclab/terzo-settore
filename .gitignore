@@ -8,9 +8,6 @@ out/
 # Output operativi interni — non versionati
 _local/
 
-# Registry — generato da `make registry` / CI
-registry/registry.json
-
 # Cache download RUNTS (XLSX snapshot scaricato dallo script)
 datasets/runts/*.xlsx
 
