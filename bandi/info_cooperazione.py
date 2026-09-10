@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Aggregatore bandi da info-cooperazione.it.
 
 Scarica tutti i bandi dalla sezione Bandi (Cat=2) paginata.
@@ -10,12 +9,13 @@ import re
 import sys
 import time
 from collections import Counter
-from datetime import date, datetime
+from datetime import UTC, datetime
 from pathlib import Path
 from urllib.parse import parse_qs, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+
 from lib.config import filtra_bandi_attivi, parse_scadenza
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -91,7 +91,7 @@ def parse_bandi(html):
         scaduto = False
         if scadenza:
             d = parse_scadenza(scadenza)
-            scaduto = d is not None and d < date.today()
+            scaduto = d is not None and d < datetime.now(tz=UTC).date()
 
         bandi.append({
             "titolo": titolo,

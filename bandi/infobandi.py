@@ -16,6 +16,7 @@ from json import JSONDecoder
 from pathlib import Path
 
 import requests
+
 from lib.config import filtra_bandi_attivi, normalizza_scadenza
 
 ROOT = Path(__file__).resolve().parents[1]

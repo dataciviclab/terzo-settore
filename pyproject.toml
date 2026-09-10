@@ -56,3 +56,13 @@ testpaths = []
 
 [tool.toolkit.extends]
 source_id = "terzo_settore_intelligence"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP"]
+ignore = [
+    "E701",   # multiple statements on one line (compact style)
+    "E501",   # line too long
+]
