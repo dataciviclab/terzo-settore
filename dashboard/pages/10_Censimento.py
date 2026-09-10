@@ -50,9 +50,9 @@ if not df_reg.empty:
             )
             .properties(height=600)
         )
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")
     with tab2:
-        st.dataframe(df_reg, use_container_width=True, hide_index=True)
+        st.dataframe(df_reg, width="stretch", hide_index=True)
 
 st.divider()
 
@@ -75,7 +75,7 @@ if not df_set.empty:
         )
         .properties(height=500)
     )
-    st.altair_chart(chart, use_container_width=True)
+    st.altair_chart(chart, width="stretch")
 
 st.divider()
 
@@ -89,7 +89,7 @@ if not df_prov.empty:
         filtered = df_prov
         if search:
             filtered = df_prov[df_prov["provincia"].str.contains(search, case=False, na=False)]
-        st.dataframe(filtered, use_container_width=True, hide_index=True, height=400)
+        st.dataframe(filtered, width="stretch", hide_index=True, height=400)
     with col_chart:
         top20 = df_prov.sort_values("istituzioni", ascending=False).head(20)
         ordine = top20["provincia"].tolist()
@@ -103,4 +103,4 @@ if not df_prov.empty:
             )
             .properties(height=400)
         )
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width="stretch")

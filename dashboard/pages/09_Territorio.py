@@ -1,12 +1,11 @@
 """Territorio — Panorama del terzo settore per territorio."""
 
-import sys
-
 import altair as alt
 import streamlit as st
 from sources import (
     elenco_province, elenco_regioni, territorio_riepilogo,
     territorio_fonti, territorio_top_comuni, confronto_territorio,
+    fmt_num, fmt_eur,
 )
 
 st.title("🗺️ Territorio")
@@ -42,10 +41,10 @@ if not riepilogo.empty:
     col4.metric("🏛️ Con coesione", f"{int(r.get('con_anac', 0)):,}")
     
     col5, col6, col7, col8 = st.columns(4)
-    col5.metric("ODV", f"{int(r['odv']):,}")
-    col6.metric("APS", f"{int(r['aps']):,}")
-    col7.metric("Imprese Sociali", f"{int(r['imprese_sociali']):,}")
-    col8.metric("Media 5×1000", f"€{int(r.get('media_5xmille', 0)):,}")
+    col5.metric("ODV", fmt_num(int(r['odv'])))
+    col6.metric("APS", fmt_num(int(r['aps'])))
+    col7.metric("Imprese Sociali", fmt_num(int(r['imprese_sociali'])))
+    col8.metric("Media 5×1000", fmt_eur(int(r.get('media_5xmille', 0))))
 
 st.markdown("---")
 

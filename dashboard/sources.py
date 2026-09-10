@@ -11,6 +11,7 @@ import streamlit as st
 
 from lab_connectors.duckdb import safe_connect
 from lab_connectors.duckdb.queries import load_mart_table as _load_mart
+from lab_connectors.formatters import fmt_eur, fmt_num, fmt_pct
 from lab_connectors.gcs.paths import https_url
 
 ROOT = Path(__file__).parent.parent
@@ -128,6 +129,31 @@ def elenco_sezioni():
     return _q("SELECT DISTINCT sezione FROM _T_ ORDER BY sezione", url)
 
 
+@st.cache_data(ttl=3600, show_spinner=False)
+def anagrafe_join(comune=None, prov=None, sezione=None, search=None, limit=200):
+    """Anagrafe ETS con capacita progettuale (JOIN RUNTS + mart ets_unified)."""
+    where = []
+    if comune:
+        where.append(f"lower(r.comune) = '{comune.lower().replace(chr(39),'')}'")
+    if prov:
+        where.append(f"upper(r.provincia) = '{prov.upper()}'")
+    if sezione:
+        where.append(f"r.sezione = '{sezione}'")
+    if search:
+        s = search.replace("'", "''")
+        where.append(f"(r.denominazione LIKE '%{s}%' OR r.codice_fiscale LIKE '%{s}%')")
+    w = " WHERE " + " AND ".join(where) if where else ""
+    url_r = _url("clean", "runts", year=2026)
+    url_e = _url("mart", "ets_unified", "ets_unified", 2026)
+    return _q(f"""
+        SELECT r.codice_fiscale, r.denominazione, r.sezione, r.comune, r.provincia,
+               r.data_iscrizione, m.capacita_progettuale
+        FROM read_parquet('{url_r}') r
+        LEFT JOIN read_parquet('{url_e}') m ON r.codice_fiscale = m.codice_fiscale
+        {w} ORDER BY r.denominazione LIMIT {limit}
+    """, url_r)
+
+
 # -- 5x1000 -------------------------------------------------------------
 
 @st.cache_data(ttl=3600, show_spinner=False)
@@ -220,6 +246,14 @@ def scheda_ente_mef(cf):
 def scheda_ente_coesione(cf):
     url = _url("mart", "ets_opencoesione", "ets_coesione", 2026)
     return _q(f"SELECT * FROM _T_ WHERE codice_fiscale = '{cf}'", url)
+
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def cerca_ente(query: str):
+    """Cerca ente per CF o denominazione nel mart ets_unified."""
+    safe = query.replace("'", "''")
+    url = _url("mart", "ets_unified", "ets_unified", 2026)
+    return _q(f"SELECT codice_fiscale, denominazione FROM _T_ WHERE codice_fiscale LIKE '%{safe}%' OR denominazione LIKE '%{safe}%' LIMIT 20", url)
 
 
 # -- Bandi --------------------------------------------------------------
