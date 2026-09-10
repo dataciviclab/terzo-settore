@@ -6,10 +6,15 @@ dataset:
   source_id: "terzo_settore_intelligence"
   tags: [terzo-settore, opencoesione, fondi-coesione, compose]
   category: terzo-settore
-  description: "Compose RUNTS + OpenCoesione: quali ETS hanno partecipato a progetti di fondi coesione. Conteggio progetti (non importo per beneficiario)."
+  description: "Compose RUNTS + OpenCoesione: quali ETS hanno partecipato a progetti di fondi coesione."
   years: [2026]
   time_coverage:
     mode: snapshot
+
+# TODO: dopo PR merged in dataset-incubator, passare a GCS URL nelle support
+# Le GCS URL saranno:
+#   gs://dataciviclab-clean/opencoesione_progetti/2026/opencoesione_progetti_2026_clean.parquet
+#   gs://dataciviclab-clean/opencoesione_soggetti/2026/opencoesione_soggetti_2026_clean.parquet
 
 raw:
   output_policy: overwrite
@@ -19,16 +24,6 @@ raw:
       args:
         path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
       primary: true
-
-support:
-  - name: opencoesione_progetti
-    type: dataset
-    config: "/home/gabry/dev/dataciviclab-workspace/incubation/dataset-incubator/candidates/opencoesione-progetti/dataset.yml"
-    years: [2026]
-  - name: opencoesione_soggetti
-    type: dataset
-    config: "/home/gabry/dev/dataciviclab-workspace/incubation/dataset-incubator/candidates/opencoesione-soggetti/dataset.yml"
-    years: [2026]
 
 clean:
   sql: "sql/clean.sql"

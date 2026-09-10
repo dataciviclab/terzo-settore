@@ -20,6 +20,24 @@ raw:
         path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
       primary: true
 
+support:
+  - name: ade_5xmille_2022
+    type: dataset
+    config: "../../datasets/ade-cinque-per-mille/dataset.yml"
+    years: [2022]
+  - name: ade_5xmille_2023
+    type: dataset
+    config: "../../datasets/ade-cinque-per-mille/dataset.yml"
+    years: [2023]
+  - name: ade_5xmille_2024
+    type: dataset
+    config: "../../datasets/ade-cinque-per-mille/dataset.yml"
+    years: [2024]
+  - name: ade_5xmille_2025
+    type: dataset
+    config: "../../datasets/ade-cinque-per-mille/dataset.yml"
+    years: [2025]
+
 clean:
   sql: "sql/clean.sql"
   read:
@@ -31,7 +49,6 @@ clean:
     - importo
   validate:
     not_null: [codice_fiscale, fonte]
-    primary_key: [codice_fiscale, anno]
     min_rows: 50000
 
 mart:

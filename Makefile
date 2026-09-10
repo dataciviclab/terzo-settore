@@ -15,6 +15,7 @@ DATASETS := $(shell find datasets compose -name dataset.yml 2>/dev/null | sort)
 .PHONY: run
 run:
 	$(TOOLKIT) run --config datasets/runts/dataset.yml
+	$(TOOLKIT) run --config datasets/ade-cinque-per-mille/dataset.yml
 	$(TOOLKIT) run --config datasets/istat_non_profit_2023/dataset.yml
 	$(TOOLKIT) run --config compose/ets_5xmille/dataset.yml
 	$(TOOLKIT) run --config compose/ets_anac/dataset.yml
@@ -59,10 +60,10 @@ all: run bandi
 
 .PHONY: registry registry-write
 registry:
-	$(TOOLKIT) registry build --prefix terzo_settore_intelligence --flat
+	$(TOOLKIT) registry build --prefix terzo_settore --flat
 
 registry-write:
-	$(TOOLKIT) registry build --prefix terzo_settore_intelligence --flat --write
+	$(TOOLKIT) registry build --prefix terzo_settore --flat --write
 
 # --- Pulizia -----------------------------------------------------------------
 

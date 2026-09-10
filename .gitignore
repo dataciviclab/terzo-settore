@@ -16,3 +16,6 @@ datasets/runts/*.xlsx
 
 # Dashboard cache
 dashboard/.streamlit/secrets.toml
+
+# Output operativi (bandi, CSV, reporting)
+data/

@@ -15,11 +15,12 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
+CACHE_DIR = ROOT / "data" / "bandi"
 from lib.config import filtra_bandi_attivi, parse_scadenza
 
 BASE_URL = "https://www.info-cooperazione.it"
 SEARCH_URL = f"{BASE_URL}/Category/Search"
-CACHE_FILE = Path("data/bandi/info_cooperazione_bandi.json")
+CACHE_FILE = CACHE_DIR / "info_cooperazione_bandi.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",

@@ -52,7 +52,7 @@ markers = [
     "regression: bug fix documentato in issue/PR",
     "smoke: test che fa chiamate reali (richiede connettivita')",
 ]
-testpaths = ["tests"]
+testpaths = []
 
 [tool.toolkit.extends]
 source_id = "terzo_settore_intelligence"

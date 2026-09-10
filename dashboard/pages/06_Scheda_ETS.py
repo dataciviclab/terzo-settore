@@ -75,7 +75,7 @@ try:
                              [c for c in ['flag_asd','flag_ricerca_scientifica','flag_ricerca_sanitaria',
                                            'flag_beni_culturali','flag_area_protetta','flag_comune']
                               if r5.get(c)]))
-except: pass
+except Exception: pass
 
 try:
     a = scheda_ente_anac(cf)
@@ -85,35 +85,35 @@ try:
         if int(ra.get('appalti_multiparti', 0)) > 0:
             dettagli.append(f"{int(ra['appalti_multiparti'])} multiparti")
         fonti_attive.append(("ANAC", f"€{ra['importo_totale']:,.0f}", f"{int(ra['n_appalti'])} appalti", dettagli))
-except: pass
+except Exception: pass
 
 try:
     r = scheda_ente_rna(cf)
     if not r.empty:
         rr = r.iloc[0]
         fonti_attive.append(("RNA", f"€{rr['importo_totale']:,.0f}", f"{int(rr['n_concessioni'])} concessioni", []))
-except: pass
+except Exception: pass
 
 try:
     p = scheda_ente_pnrr(cf)
     if not p.empty:
         rp = p.iloc[0]
         fonti_attive.append(("PNRR", f"€{rp['importo_totale']:,.0f}", f"{int(rp['n_progetti'])} progetti", []))
-except: pass
+except Exception: pass
 
 try:
     f = scheda_ente_fts(cf)
     if not f.empty:
         rf = f.iloc[0]
         fonti_attive.append(("Grant UE", f"€{rf['importo_totale']:,.0f}", f"{int(rf['n_grant'])} grant", []))
-except: pass
+except Exception: pass
 
 try:
     m = scheda_ente_mef(cf)
     if not m.empty:
         rm = m.iloc[0]
         fonti_attive.append(("Patrimonio", f"€{rm['canone_totale']:,.0f}", f"{int(rm['n_immobili'])} immobili", []))
-except: pass
+except Exception: pass
 
 try:
     c = scheda_ente_coesione(cf)
@@ -121,7 +121,7 @@ try:
         rc = c.iloc[0]
         fonti_attive.append(("Coesione", f"{int(rc['n_progetti_coesione'])} progetti",
                              f"{int(rc['n_temi_coesione'])} temi", []))
-except: pass
+except Exception: pass
 
 if fonti_attive:
     cols = st.columns(min(len(fonti_attive), 4))
@@ -155,7 +155,7 @@ try:
         if r5.get('flag_comune'): flags.append("Comune")
         if flags:
             st.caption(f"Tipologia: {', '.join(flags)}")
-except: pass
+except Exception: pass
 
 # -- Dettaglio RNA
 try:
@@ -167,7 +167,7 @@ try:
                      column_config={
                          "importo": st.column_config.NumberColumn("Importo", format="€%.0f"),
                      }, hide_index=True, width="stretch")
-except: pass
+except Exception: pass
 
 # -- Dettaglio PNRR
 try:
@@ -179,7 +179,7 @@ try:
                      column_config={
                          "importo": st.column_config.NumberColumn("Importo", format="€%.0f"),
                      }, hide_index=True, width="stretch")
-except: pass
+except Exception: pass
 
 # -- Dettaglio ANAC
 try:
@@ -191,7 +191,7 @@ try:
                      column_config={
                          "importo_totale": st.column_config.NumberColumn("Importo", format="€%.0f"),
                      }, hide_index=True, width="stretch")
-except: pass
+except Exception: pass
 
 # -- Dettaglio Coesione
 try:
@@ -206,7 +206,7 @@ try:
         col3.metric("Fascia", rc.get('fascia_coesione', '-'))
         if rc.get('temi_coesione'):
             st.caption(f"Temi: {rc['temi_coesione']}")
-except: pass
+except Exception: pass
 
 # -- Bandi compatibili
 try:
@@ -230,4 +230,4 @@ try:
                 st.markdown("---")
     else:
         st.info("Nessun bando compatibile trovato.")
-except: pass
+except Exception: pass

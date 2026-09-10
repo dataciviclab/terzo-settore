@@ -89,13 +89,13 @@ def fondi_per_fonte():
         try:
             df = _q(f"SELECT COUNT(*) as enti, ROUND(SUM({imp_col}),0) as importo FROM _T_", path)
             rows.append({"fonte": label, "enti": int(df.iloc[0]["enti"]), "importo": float(df.iloc[0]["importo"] or 0)})
-        except: pass
+        except Exception: pass
     
     # Coesione (no importo)
     try:
         df = _q("SELECT COUNT(*) as enti FROM _T_ WHERE ha_progetti_coesione", MART_COESIONE)
         rows.append({"fonte": "Coesione", "enti": int(df.iloc[0]["enti"]), "importo": 0})
-    except: pass
+    except Exception: pass
     
     return pd.DataFrame(rows)
 
@@ -328,7 +328,6 @@ TAG_TO_TEMA = {
     "lavoro": "Occupazione e lavoro",
     "occupazione": "Occupazione e lavoro",
     "formazione": "Istruzione e formazione",
-    "educazione": "Istruzione e formazione",
     "educazione": "Istruzione e formazione",
     "scuole": "Istruzione e formazione",
     "inclusione sociale": "Inclusione sociale e salute",

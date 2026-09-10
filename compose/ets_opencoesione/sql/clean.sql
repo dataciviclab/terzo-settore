@@ -1,6 +1,10 @@
 -- clean.sql — Compose RUNTS + OpenCoesione
 -- Quali ETS hanno partecipato a progetti di fondi coesione
 -- Output: lungo formato (codice_fiscale, fonte, anno, importo) + dettagli coesione.
+--
+-- TODO: dopo PR merged in dataset-incubator, sostituire i path locali con GCS URL:
+--   https://storage.googleapis.com/dataciviclab-clean/opencoesione_progetti/2026/...
+--   https://storage.googleapis.com/dataciviclab-clean/opencoesione_soggetti/2026/...
 
 WITH
 anagrafe AS (

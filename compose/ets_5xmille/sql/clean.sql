@@ -1,5 +1,6 @@
 -- clean.sql — Compose RUNTS + 5x1000 (ADE)
 -- Output: una riga per CF con donazioni 5 per mille
+-- Legge i clean locali del dataset ade-cinque-per-mille (2022-2025)
 
 WITH
 anagrafe AS (
@@ -15,9 +16,10 @@ cinque AS (
            flag_asd, flag_ricerca_scientifica, flag_ricerca_sanitaria,
            flag_comune, flag_beni_culturali, flag_area_protetta
     FROM read_parquet([
-        'https://storage.googleapis.com/dataciviclab-clean/ade_cinque_per_mille/2023/ade_cinque_per_mille_2023_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/ade_cinque_per_mille/2024/ade_cinque_per_mille_2024_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/ade_cinque_per_mille/2025/ade_cinque_per_mille_2025_clean.parquet'
+        '{support.ade_5xmille_2022.clean}',
+        '{support.ade_5xmille_2023.clean}',
+        '{support.ade_5xmille_2024.clean}',
+        '{support.ade_5xmille_2025.clean}'
     ], union_by_name=true)
     WHERE flag_ets_onlus = true
 )

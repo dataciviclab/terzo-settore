@@ -27,6 +27,7 @@ Esempi:
 | Slug | Cosa contiene | Anni | Stato |
 |---|---|---|---|
 | `runts` | Anagrafe 150k ETS iscritti al RUNTS | 2026 | published |
+| `ade_cinque_per_mille` | Elenchi beneficiari 5x1000 ADE (download CSV) | 2022-2025 | beta |
 | `istat_non_profit_2023` | Censimento ISTAT non profit (regioni, province, settori) | 2023 | beta |
 | `ets_5xmille` | Compose: RUNTS + 5x1000 (ADE) | 2026 | beta |
 | `ets_anac` | Compose: RUNTS + ANAC (aggiudicazioni, partecipazioni, subappalti) | 2026 | beta |
@@ -61,6 +62,7 @@ Pagine:
 ```
 datasets/
   runts/                     Anagrafe 150k ETS (fetch XLSX da Ministero)
+  ade-cinque-per-mille/      Elenchi 5x1000 ADE (download CSV, 2022-2025)
   istat_non_profit_2023/     Censimento ISTAT (CSV locale)
 
 compose/
@@ -82,14 +84,14 @@ lib/                         Utility (parsing scadenze bandi)
 
 ```bash
 make run
-  1. toolkit run datasets/runts/              → runts_clean.parquet
-  2. toolkit run datasets/istat_non_profit_2023/ → istat_clean + mart
-  3. toolkit run compose/ets_{fonte}/         → clean + mart per fonte (x7)
-  4. toolkit run compose/ets_unified/         → fatti long + profilo + comuni
+  1. toolkit run datasets/runts/                → runts_clean.parquet
+  2. toolkit run datasets/ade-cinque-per-mille/ → 5x1000 clean + mart (2022-2025)
+  3. toolkit run datasets/istat_non_profit_2023/ → istat_clean + mart
+  4. toolkit run compose/ets_{fonte}/           → clean + mart per fonte (x7)
+  5. toolkit run compose/ets_unified/           → fatti long + profilo + comuni
 ```
 
-Ogni compose legge le fonti da GCS (pubblicate da dataset-incubator),
-le joina con RUNTS e produce clean + mart locali.
+I compose legge le fonti da GCS o dai dataset locali, le joina con RUNTS e produce clean + mart.
 `ets_unified` legge i clean locali dei compose e li unifica.
 
 ## Fonti
@@ -98,7 +100,7 @@ le joina con RUNTS e produce clean + mart locali.
 |---|---|---|
 | **RUNTS** | Anagrafe 150k ETS (sezione, comune, provincia) | 150.164 |
 | **ANAC** | Appalti pubblici vinti (importi, oggetto, stazione) | 16.417 |
-| **5x1000** | Importi erogati 2023-2025 | 71.694 |
+| **5x1000** | Importi erogati 2022-2025 | 95.977 |
 | **RNA** | Aiuti di stato (soggetto concedente, procedimento) | 28.893 |
 | **PNRR** | Progetti finanziati | 1.397 |
 | **FTS/UE** | Grant europei | 338 |
