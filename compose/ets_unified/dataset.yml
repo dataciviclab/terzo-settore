@@ -64,7 +64,6 @@ clean:
     not_null:
       - cf
       - fonte
-    primary_key: [cf, fonte, anno]
     min_rows: 100000
 
 mart:
