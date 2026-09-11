@@ -5,27 +5,23 @@ import streamlit as st
 from sources import (
     capacita_progettuale,
     fondi_per_fonte,
-    kpi_con_5xmille,
-    kpi_con_aiuti,
-    kpi_con_appalti,
     kpi_nazionali,
+    kpi_panoramica,
     top_ets_5xmille,
 )
 
 st.title("Terzo Settore Italiano")
 st.caption("Dati: RUNTS + 8 fonti (ANAC/ADE/FTS/RNA/PNRR/MEF) + OpenCoesione")
 
-# -- KPI
+# -- KPI (una sola chiamata per tutti i KPI di ets_unified)
 tot = kpi_nazionali()
-con_5xm = kpi_con_5xmille()
-con_app = kpi_con_appalti()
-con_aiu = kpi_con_aiuti()
+kpi = kpi_panoramica()
 
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("ETS totali", f"{tot:,}")
-col2.metric("Con 5x1000", f"{con_5xm:,}")
-col3.metric("Con appalti ANAC", f"{con_app:,}")
-col4.metric("Con aiuti stato", f"{con_aiu:,}")
+col2.metric("Con 5x1000", f"{kpi['con_5xmille']:,}")
+col3.metric("Con appalti ANAC", f"{kpi['con_appalti']:,}")
+col4.metric("Con aiuti stato", f"{kpi['con_aiuti']:,}")
 
 st.markdown("---")
 

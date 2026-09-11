@@ -36,19 +36,14 @@ def kpi_nazionali():
     return int(df["enti"].sum())
 
 @st.cache_data(ttl=3600, show_spinner=False)
-def kpi_con_5xmille():
-    df = load_mart("ets_unified", year=2026)
-    return int((df["importo_5x1000_2025"] > 0).sum())
-
-@st.cache_data(ttl=3600, show_spinner=False)
-def kpi_con_appalti():
-    df = load_mart("ets_unified", year=2026)
-    return int((df["numero_appalti"] > 0).sum())
-
-@st.cache_data(ttl=3600, show_spinner=False)
-def kpi_con_aiuti():
-    df = load_mart("ets_unified", year=2026)
-    return int((df["importo_aiuti_stato"] > 0).sum())
+def kpi_panoramica():
+    """Tutti i KPI della panoramica in una sola chiamata a ets_unified."""
+    df = _ets_unified()
+    return {
+        "con_5xmille": int((df["importo_5x1000_2025"] > 0).sum()),
+        "con_appalti": int((df["numero_appalti"] > 0).sum()),
+        "con_aiuti": int((df["importo_aiuti_stato"] > 0).sum()),
+    }
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def n_ets_con_coesione():
@@ -335,22 +330,33 @@ def match_bandi_per_ets(cf, top_n=10):
 # -- Territorio ---------------------------------------------------------
 
 @st.cache_data(ttl=3600, show_spinner=False)
-def elenco_province():
-    df = load_mart("ets_unified", year=2026)
-    return df[["provincia"]].dropna().drop_duplicates().sort_values("provincia")
+def _ets_unified():
+    """Carica ets_unified una volta sola — base per tutte le query territoriali."""
+    return load_mart("ets_unified", year=2026)
+
 
 @st.cache_data(ttl=3600, show_spinner=False)
-def elenco_regioni():
-    df = load_mart("ets_unified", year=2026)
-    return df[["regione"]].dropna().drop_duplicates().sort_values("regione")
-
-@st.cache_data(ttl=3600, show_spinner=False)
-def territorio_riepilogo(prov=None, reg=None):
-    df = load_mart("ets_unified", year=2026)
+def territorio_filtered(prov=None, reg=None):
+    """Ritorna ets_unified filtrato per provincia/regione."""
+    df = _ets_unified()
     if prov:
         df = df[df["provincia"].str.upper() == prov.upper()]
     elif reg:
         df = df[df["regione"] == reg]
+    return df
+
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def elenco_province():
+    return _ets_unified()[["provincia"]].dropna().drop_duplicates().sort_values("provincia")
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def elenco_regioni():
+    return _ets_unified()[["regione"]].dropna().drop_duplicates().sort_values("regione")
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def territorio_riepilogo(prov=None, reg=None):
+    df = territorio_filtered(prov, reg)
     return pd.DataFrame([{
         "ets_totali": len(df),
         "odv": int((df["sezione"] == "ORGANIZZAZIONI DI VOLONTARIATO").sum()),
@@ -368,11 +374,7 @@ def territorio_riepilogo(prov=None, reg=None):
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def territorio_fonti(prov=None, reg=None):
-    df = load_mart("ets_unified", year=2026)
-    if prov:
-        df = df[df["provincia"].str.upper() == prov.upper()]
-    elif reg:
-        df = df[df["regione"] == reg]
+    df = territorio_filtered(prov, reg)
     return pd.DataFrame([
         {"fonte": "5×1000", "enti": int(df["ha_5x1000"].sum())},
         {"fonte": "Grant UE", "enti": int(df["ha_finanziamenti_ue"].sum())},
@@ -383,11 +385,7 @@ def territorio_fonti(prov=None, reg=None):
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def territorio_top_comuni(prov=None, reg=None, top_n=15):
-    df = load_mart("ets_unified", year=2026)
-    if prov:
-        df = df[df["provincia"].str.upper() == prov.upper()]
-    elif reg:
-        df = df[df["regione"] == reg]
+    df = territorio_filtered(prov, reg)
     df["_attivo"] = df["capacita_progettuale"].isin(["alta", "medio-alta"]).astype(int)
     return df.groupby(["comune", "provincia"], sort=False).agg(
         ets_tot=("codice_fiscale", "count"),
@@ -398,7 +396,7 @@ def territorio_top_comuni(prov=None, reg=None, top_n=15):
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def confronto_territorio(prov):
-    df = load_mart("ets_unified", year=2026)
+    df = _ets_unified()
     prov_df = df[df["provincia"].str.upper() == prov.upper()]
     return pd.DataFrame([
         {"livello": f"Provincia {prov}", "totale": len(prov_df), "attivi": int(prov_df["capacita_progettuale"].isin(["alta", "medio-alta"]).sum()), "con_5xmille": int(prov_df["ha_5x1000"].sum()), "con_anac": int(prov_df["ha_appalti_pubblici"].sum())},
