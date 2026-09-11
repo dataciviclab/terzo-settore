@@ -118,7 +118,7 @@ try:
     if not mef.empty:
         st.markdown("---")
         st.subheader("Patrimonio immobiliare (MEF)")
-        st.dataframe(mef[['finalita_pf', 'tipologia_bene', 'importo']],
+        st.dataframe(mef[['tipologia_bene', 'importo']],
                      column_config={"importo": st.column_config.NumberColumn("Canone", format="€%.0f")},
                      hide_index=True, width="stretch")
 except Exception:
