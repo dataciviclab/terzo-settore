@@ -35,7 +35,7 @@ if not fonti.empty:
         .mark_bar(color="#3b82f6")
         .encode(
             y=alt.Y("fonte:N", title=None, sort="-x"),
-            x=alt.X("importo:Q", title="Importo (eur)", axis=alt.Axis(format="~s")),
+            x=alt.X("enti:Q", title="Enti"),
             tooltip=["fonte", "enti", "importo"],
         )
         .properties(height=200)
