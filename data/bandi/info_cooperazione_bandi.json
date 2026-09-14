@@ -1,6 +1,6 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-09-10T18:33:47.570117",
+  "scraped_at": "2026-09-14T14:57:14.411819",
   "totale": 31,
   "bandi": [
     {
@@ -12,15 +12,13 @@
       "donatore": "AIDOS",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/poster_aidos-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "cultura",
         "donne",
         "salute",
         "lavoro",
-        "educazione",
         "ricerca"
       ]
     },
@@ -66,12 +64,10 @@
       "donatore": "Chiesa Apostolica Italiana",
       "img": "https://www.info-cooperazione.it/public/Immagini/2024/09/apostolica-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "cultura",
-        "donne",
         "lavoro",
         "educazione"
       ]
@@ -92,8 +88,7 @@
         "cultura",
         "giovani",
         "lavoro",
-        "educazione",
-        "volontariato"
+        "educazione"
       ]
     },
     {
@@ -109,13 +104,12 @@
         "locale"
       ],
       "tags": [
+        "sport",
         "cultura",
         "giovani",
-        "donne",
         "migranti",
         "lavoro",
-        "educazione",
-        "inclusione"
+        "educazione"
       ]
     },
     {
@@ -127,13 +121,12 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/call-for-proposals_migration_partnership-120x120.png",
       "territorio": [
-        "nazionale",
-        "locale"
+        "nazionale"
       ],
       "tags": [
         "sport",
-        "minori",
         "migranti",
+        "salute",
         "lavoro"
       ]
     },
@@ -151,7 +144,8 @@
       "tags": [
         "cultura",
         "minori",
-        "lavoro"
+        "lavoro",
+        "ricerca"
       ]
     },
     {
@@ -167,15 +161,12 @@
         "regionale"
       ],
       "tags": [
-        "disabilità",
         "cultura",
         "giovani",
         "donne",
         "migranti",
         "lavoro",
-        "educazione",
-        "volontariato",
-        "inclusione"
+        "volontariato"
       ]
     },
     {
@@ -191,8 +182,8 @@
       ],
       "tags": [
         "cultura",
-        "donne",
-        "migranti",
+        "giovani",
+        "minori",
         "lavoro",
         "inclusione"
       ]
@@ -212,6 +203,8 @@
       "tags": [
         "disabilità",
         "cultura",
+        "ambiente",
+        "minori",
         "donne",
         "lavoro",
         "educazione",
@@ -232,9 +225,9 @@
       ],
       "tags": [
         "disabilità",
-        "ambiente",
         "lavoro",
         "educazione",
+        "ricerca",
         "inclusione"
       ]
     },
@@ -248,15 +241,14 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/bando-piemonte-e-africa-sub-sahariana-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale"
+        "locale",
+        "Europa"
       ],
       "tags": [
         "cultura",
         "giovani",
         "donne",
-        "migranti",
-        "lavoro",
-        "volontariato"
+        "lavoro"
       ]
     },
     {
@@ -273,11 +265,11 @@
       ],
       "tags": [
         "sport",
-        "ambiente",
         "giovani",
         "minori",
         "donne",
         "lavoro",
+        "educazione",
         "ricerca"
       ]
     },
@@ -309,10 +301,10 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/turismo_med-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
+        "minori",
         "lavoro"
       ]
     },
@@ -326,7 +318,8 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/volontariato-bandi-120x120.jpg",
       "territorio": [
         "Mezzogiorno",
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "giovani",
@@ -348,7 +341,8 @@
         "nazionale"
       ],
       "tags": [
-        "disabilità",
+        "sport",
+        "salute",
         "lavoro",
         "educazione",
         "ricerca",
@@ -368,9 +362,8 @@
       ],
       "tags": [
         "disabilità",
-        "giovani",
-        "minori",
-        "migranti",
+        "cultura",
+        "donne",
         "lavoro",
         "digitale",
         "ricerca",
@@ -386,15 +379,13 @@
       "donatore": "Fondazione Cariplo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/strumento_co_fin_cariplo-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "cultura",
         "ambiente",
-        "donne",
-        "migranti",
         "lavoro",
-        "educazione",
         "digitale",
         "ricerca",
         "inclusione"
@@ -410,9 +401,11 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2023/01/CERV-header-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale"
+        "locale",
+        "Europa"
       ],
       "tags": [
+        "sport",
         "ambiente",
         "donne",
         "lavoro"
@@ -430,9 +423,7 @@
         "nazionale"
       ],
       "tags": [
-        "donne",
-        "lavoro",
-        "educazione"
+        "lavoro"
       ]
     },
     {
@@ -454,7 +445,6 @@
         "donne",
         "salute",
         "lavoro",
-        "educazione",
         "ricerca"
       ]
     },
@@ -467,15 +457,12 @@
       "donatore": "Fondo per la Repubblica Digitale",
       "img": "https://www.info-cooperazione.it/public/Immagini/2022/02/Repubblica-Digitale-720x283-120x120.jpg",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
-        "giovani",
+        "salute",
         "lavoro",
-        "educazione",
         "digitale",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -507,10 +494,11 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/cerv-programme-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
-        "salute",
+        "minori",
         "lavoro",
         "ricerca"
       ]
@@ -525,12 +513,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/shutterstock_1507947035-768x420-1-120x120.jpg",
       "territorio": [
         "nazionale",
-        "regionale",
-        "Europa"
+        "regionale"
       ],
       "tags": [
         "minori",
-        "lavoro"
+        "lavoro",
+        "ricerca"
       ]
     },
     {
@@ -564,7 +552,8 @@
         "nazionale"
       ],
       "tags": [
-        "lavoro"
+        "lavoro",
+        "ricerca"
       ]
     },
     {
@@ -576,14 +565,13 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2024/11/mattarella-costa-avorio-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
-        "giovani",
         "minori",
         "lavoro",
-        "educazione"
+        "educazione",
+        "volontariato"
       ]
     },
     {
