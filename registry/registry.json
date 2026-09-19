@@ -1624,6 +1624,36 @@
           "fiscal_code": 10
         }
       },
+      "Obiettivo": {
+        "entity": "Obiettivo",
+        "label": "Obiettivo",
+        "datasets": [
+          {
+            "slug": "ets_pnrr",
+            "name": "Ets Pnrr",
+            "column": "descrizione_missione",
+            "semantic_type": "obiettivo_code"
+          }
+        ],
+        "types": {
+          "obiettivo_code": 1
+        }
+      },
+      "Programma": {
+        "entity": "Programma",
+        "label": "Programma",
+        "datasets": [
+          {
+            "slug": "ets_pnrr",
+            "name": "Ets Pnrr",
+            "column": "programma",
+            "semantic_type": "programma_code"
+          }
+        ],
+        "types": {
+          "programma_code": 1
+        }
+      },
       "Provincia": {
         "entity": "Provincia",
         "label": "Provincia",
@@ -1754,6 +1784,20 @@
         }
       }
     },
-    "bridges": []
+    "bridges": [
+      {
+        "from": {
+          "entity": "Programma",
+          "dataset": "ets_pnrr",
+          "via": "programma_code"
+        },
+        "to": {
+          "entity": "Progetto",
+          "bridge": "opencoesione_progetti_esteso",
+          "on": "CUP",
+          "semantic_type": "cup_code"
+        }
+      }
+    ]
   }
 }
