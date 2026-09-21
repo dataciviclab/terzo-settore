@@ -1,8 +1,43 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-09-14T14:57:14.411819",
+  "scraped_at": "2026-09-21T15:02:19.964618",
   "totale": 31,
   "bandi": [
+    {
+      "titolo": "Bando POP per Piccole Organizzazioni Protagoniste",
+      "url": "https://www.info-cooperazione.it/2026/9/bando-pop-per-piccole-organizzazioni-protagoniste",
+      "descrizione": "Fondazione Unipolis ETS ha aperto le candidature per il bando POP — Piccole Organizzazioni Protagoniste, con una dotazione complessiva di 300.000 euro destinata a sostenere organizzazioni non profit giovani e di piccole e medie dimensioni in un percorso strutturato di consolidamento e crescita. Il bando si distingue nettamente da quelli tradizionali: non finanzia singoli progetti",
+      "scadenza": "15 ottobre 2026",
+      "scaduto": false,
+      "donatore": "Fondazione Unipolis",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/claudia_form_files_pop1-6a9fe28d0b079910972306-120x120.png",
+      "territorio": [
+        "nazionale"
+      ],
+      "tags": [
+        "disabilità",
+        "giovani",
+        "salute",
+        "lavoro"
+      ]
+    },
+    {
+      "titolo": "Fondo nazionale per il Terzo Settore 2026",
+      "url": "https://www.info-cooperazione.it/2026/9/fondo-nazionale-per-il-terzo-settore-2026",
+      "descrizione": "Il Ministero del Lavoro e delle Politiche Sociali ha pubblicato l'Avviso 2/2026 per il finanziamento di progetti e attività di interesse generale del Terzo Settore a rilevanza nazionale. Con una dotazione complessiva di 10.533.994,88 euro — di cui 8,4 milioni sull'annualità 2026 e 2,1 milioni sull'annualità 2028 — il bando attua le previsioni dell'articolo 72",
+      "scadenza": "22 ottobre 2026",
+      "scaduto": false,
+      "donatore": "Ministero del lavoro e delle politiche sociali",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2020/06/ets-bando-lets-go-cariplo-120x120.jpg",
+      "territorio": [
+        "nazionale"
+      ],
+      "tags": [
+        "lavoro",
+        "ricerca",
+        "volontariato"
+      ]
+    },
     {
       "titolo": "Bando \"Progetti oltre gli stereotipi\" per piccole e medie associazioni",
       "url": "https://www.info-cooperazione.it/2026/9/bando-progetti-oltre-gli-stereotipi-per-piccole-e-medie-associazioni",
@@ -12,10 +47,13 @@
       "donatore": "AIDOS",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/poster_aidos-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "locale",
+        "Europa"
       ],
       "tags": [
         "cultura",
+        "minori",
         "donne",
         "salute",
         "lavoro",
@@ -48,10 +86,12 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/connecting_power-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "donne",
+        "salute",
         "lavoro"
       ]
     },
@@ -101,10 +141,10 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/pace_abnca_etica-120x120.png",
       "territorio": [
         "nazionale",
-        "locale"
+        "locale",
+        "Europa"
       ],
       "tags": [
-        "sport",
         "cultura",
         "giovani",
         "migranti",
@@ -121,12 +161,13 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/call-for-proposals_migration_partnership-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "sport",
+        "giovani",
         "migranti",
-        "salute",
         "lavoro"
       ]
     },
@@ -139,13 +180,13 @@
       "donatore": "Presidenza del Consiglio dei Ministri",
       "img": "https://www.info-cooperazione.it/public/Immagini/2018/11/Sala_del_Consiglio_dei_Ministri_Palazzo_Chigi_Roma-120x120.jpg",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "cultura",
         "minori",
-        "lavoro",
-        "ricerca"
+        "lavoro"
       ]
     },
     {
@@ -158,7 +199,8 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2023/11/scarpe-contro-la-violenza-delle-donne-120x120.jpeg",
       "territorio": [
         "nazionale",
-        "regionale"
+        "regionale",
+        "Europa"
       ],
       "tags": [
         "cultura",
@@ -166,6 +208,7 @@
         "donne",
         "migranti",
         "lavoro",
+        "educazione",
         "volontariato"
       ]
     },
@@ -178,12 +221,11 @@
       "donatore": "Ministero della Cultura",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/premio_mattei-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "cultura",
-        "giovani",
-        "minori",
         "lavoro",
         "inclusione"
       ]
@@ -203,8 +245,7 @@
       "tags": [
         "disabilità",
         "cultura",
-        "ambiente",
-        "minori",
+        "giovani",
         "donne",
         "lavoro",
         "educazione",
@@ -221,13 +262,14 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/minoranze_cristiane_bando-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale"
+        "locale",
+        "Europa"
       ],
       "tags": [
         "disabilità",
+        "minori",
         "lavoro",
         "educazione",
-        "ricerca",
         "inclusione"
       ]
     },
@@ -241,14 +283,15 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/bando-piemonte-e-africa-sub-sahariana-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale",
-        "Europa"
+        "locale"
       ],
       "tags": [
         "cultura",
         "giovani",
+        "minori",
         "donne",
-        "lavoro"
+        "lavoro",
+        "educazione"
       ]
     },
     {
@@ -260,16 +303,13 @@
       "donatore": "Con i Bambini",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/opportunit-per-me-bando-con-i-bambini-dispersione-scolastica-2026-120x120.jpg",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "sport",
         "giovani",
         "minori",
-        "donne",
         "lavoro",
-        "educazione",
         "ricerca"
       ]
     },
@@ -282,7 +322,8 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando-daphne-2025-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "disabilità",
@@ -301,10 +342,10 @@
       "donatore": "Commissione Europea",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/turismo_med-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
-        "minori",
         "lavoro"
       ]
     },
@@ -319,12 +360,14 @@
       "territorio": [
         "Mezzogiorno",
         "nazionale",
+        "locale",
         "Europa"
       ],
       "tags": [
         "giovani",
         "donne",
         "lavoro",
+        "educazione",
         "volontariato"
       ]
     },
@@ -338,35 +381,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/06/scuola-per-il-futuro-fondazionecdp-bando-2026-120x120.jpg",
       "territorio": [
         "Mezzogiorno",
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
-        "sport",
-        "salute",
         "lavoro",
         "educazione",
-        "ricerca",
-        "inclusione"
-      ]
-    },
-    {
-      "titolo": "Inclusione sociale e lavorativa delle persone con disabilità e/o invalidità",
-      "url": "https://www.info-cooperazione.it/2026/5/inclusione-sociale-e-lavorativa-delle-persone-con-disabilita-eo-invalidita",
-      "descrizione": "il Fondo per la Repubblica Digital ha recentemente aperto il nuovo bando \"Zenit\" che mette a disposizione 6 milioni di euro per rafforzare le competenze digitali e favorire l’inclusione sociale e lavorativa delle persone con disabilità e/o invalidità. \r\nL’iniziativa, frutto di un Protocollo d’intesa siglato tra il Fondo per la Repubblica Digitale Impresa Sociale e il Ministro per le Disabilità, nasce per",
-      "scadenza": "18 settembre 2026",
-      "scaduto": false,
-      "donatore": "Fondo per la Repubblica Digitale",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/feat_bando_zenit-120x120.jpg",
-      "territorio": [
-        "nazionale"
-      ],
-      "tags": [
-        "disabilità",
-        "cultura",
-        "donne",
-        "lavoro",
-        "digitale",
-        "ricerca",
         "inclusione"
       ]
     },
@@ -379,8 +399,7 @@
       "donatore": "Fondazione Cariplo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/strumento_co_fin_cariplo-120x120.png",
       "territorio": [
-        "nazionale",
-        "Europa"
+        "nazionale"
       ],
       "tags": [
         "cultura",
@@ -389,26 +408,6 @@
         "digitale",
         "ricerca",
         "inclusione"
-      ]
-    },
-    {
-      "titolo": "Bando CERV per l'attuazione della Carta dei diritti fondamentali UE",
-      "url": "https://www.info-cooperazione.it/2026/5/bando-cerv-per-lattuazione-della-carta-dei-diritti-fondamentali-ue",
-      "descrizione": "Nel quadro del programma Cittadini, Uguaglianza, Diritti e Valori (CERV) la Commissione Europea ha pubblicato il bando 2026 “Promuovere la consapevolezza, lo sviluppo di capacità e l’attuazione della Carta dei diritti fondamentali dell’UE da parte delle organizzazioni della società civile” che mira a rafforzare la capacità delle organizzazioni della società civile nel promuovere, applicare e monitorare la Carta",
-      "scadenza": "15 settembre 2026",
-      "scaduto": false,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2023/01/CERV-header-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "locale",
-        "Europa"
-      ],
-      "tags": [
-        "sport",
-        "ambiente",
-        "donne",
-        "lavoro"
       ]
     },
     {
@@ -423,7 +422,11 @@
         "nazionale"
       ],
       "tags": [
-        "lavoro"
+        "disabilità",
+        "giovani",
+        "lavoro",
+        "ricerca",
+        "inclusione"
       ]
     },
     {
@@ -439,6 +442,7 @@
         "Europa"
       ],
       "tags": [
+        "sport",
         "cultura",
         "ambiente",
         "giovani",
@@ -457,10 +461,10 @@
       "donatore": "Fondo per la Repubblica Digitale",
       "img": "https://www.info-cooperazione.it/public/Immagini/2022/02/Repubblica-Digitale-720x283-120x120.jpg",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
-        "salute",
         "lavoro",
         "digitale",
         "inclusione"
@@ -479,9 +483,7 @@
       ],
       "tags": [
         "cultura",
-        "donne",
         "lavoro",
-        "educazione",
         "digitale"
       ]
     },
@@ -498,7 +500,6 @@
         "Europa"
       ],
       "tags": [
-        "minori",
         "lavoro",
         "ricerca"
       ]
@@ -516,9 +517,10 @@
         "regionale"
       ],
       "tags": [
+        "cultura",
         "minori",
-        "lavoro",
-        "ricerca"
+        "salute",
+        "lavoro"
       ]
     },
     {
@@ -533,10 +535,13 @@
         "nazionale"
       ],
       "tags": [
+        "disabilità",
+        "giovani",
         "lavoro",
         "educazione",
         "digitale",
         "ricerca",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -549,11 +554,12 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/AICS-arcobaleno-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
-        "lavoro",
-        "ricerca"
+        "migranti",
+        "lavoro"
       ]
     },
     {
@@ -565,13 +571,13 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2024/11/mattarella-costa-avorio-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "locale"
       ],
       "tags": [
         "minori",
         "lavoro",
-        "educazione",
-        "volontariato"
+        "educazione"
       ]
     },
     {
