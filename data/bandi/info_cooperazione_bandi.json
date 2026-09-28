@@ -1,8 +1,76 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-09-21T15:02:19.964618",
-  "totale": 31,
+  "scraped_at": "2026-09-28T16:42:23.940391",
+  "totale": 32,
   "bandi": [
+    {
+      "titolo": "IFAD per la trasformazione dei sistemi alimentari nel Sahel",
+      "url": "https://www.info-cooperazione.it/2026/9/ifad-per-la-trasformazione-dei-sistemi-alimentari-nel-sahel",
+      "descrizione": "L'International Fund for Agricultural Development (IFAD) ha lanciato una Call for Proposals da 2 milioni di dollari per sostenere iniziative trasformative nei sistemi alimentari del Sahel Centrale. Il bando regionale è rivolto a organizzazioni, agenzie governative, soggetti del settore privato, istituti di ricerca e consorzi che intendano implementare interventi innovativi per rafforzare la sicurezza alimentare,",
+      "scadenza": "16 ottobre 2026",
+      "scaduto": false,
+      "donatore": "IFAD",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/ifad_call-120x120.png",
+      "territorio": [
+        "nazionale",
+        "regionale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "giovani",
+        "donne",
+        "lavoro",
+        "ricerca",
+        "inclusione"
+      ]
+    },
+    {
+      "titolo": "Filiere agroecologiche in Ghana e Costa d'Avorio",
+      "url": "https://www.info-cooperazione.it/2026/9/filiere-agroecologiche-in-ghana-e-costa-davorio",
+      "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS), nell'ambito del programma AgrEcoNUS+ — finanziato dall'Unione Europea (DG INTPA) e implementato congiuntamente con l'IFAD — ha pubblicato la call for proposals AgrEcoNUS+/LEAP, dedicata allo sviluppo delle filiere di specie agricole neglette e sottoutilizzate (NUS — Neglected and Underutilized Species) in Ghana e Costa d'Avorio. \r\nLa call si",
+      "scadenza": "16 dicembre 2026",
+      "scaduto": false,
+      "donatore": "AICS",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/econus-120x120.png",
+      "territorio": [
+        "nazionale",
+        "locale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "giovani",
+        "donne",
+        "migranti",
+        "lavoro",
+        "ricerca",
+        "inclusione"
+      ]
+    },
+    {
+      "titolo": "12,6 milioni per aiuti umanitari e ripresa economica in Siria",
+      "url": "https://www.info-cooperazione.it/2026/9/126-milioni-per-aiuti-umanitari-e-ripresa-economica-in-siria",
+      "descrizione": "La Sede di Beirut dell'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato una Call for Proposals articolata in due iniziative complementari destinate alla Siria, per una dotazione complessiva di oltre 12 milioni di euro. Il bando risponde alla crisi umanitaria protratta che affligge il Paese dopo oltre quindici anni di conflitto e si inserisce",
+      "scadenza": "02 novembre 2026",
+      "scaduto": false,
+      "donatore": "AICS",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2024/05/siria-120x120.jpeg",
+      "territorio": [
+        "nazionale",
+        "locale",
+        "Europa"
+      ],
+      "tags": [
+        "disabilità",
+        "giovani",
+        "minori",
+        "donne",
+        "salute",
+        "lavoro",
+        "educazione"
+      ]
+    },
     {
       "titolo": "Bando POP per Piccole Organizzazioni Protagoniste",
       "url": "https://www.info-cooperazione.it/2026/9/bando-pop-per-piccole-organizzazioni-protagoniste",
@@ -12,12 +80,12 @@
       "donatore": "Fondazione Unipolis",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/claudia_form_files_pop1-6a9fe28d0b079910972306-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "disabilità",
         "giovani",
-        "salute",
         "lavoro"
       ]
     },
@@ -30,11 +98,12 @@
       "donatore": "Ministero del lavoro e delle politiche sociali",
       "img": "https://www.info-cooperazione.it/public/Immagini/2020/06/ets-bando-lets-go-cariplo-120x120.jpg",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
+        "migranti",
         "lavoro",
-        "ricerca",
         "volontariato"
       ]
     },
@@ -48,12 +117,10 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/poster_aidos-120x120.png",
       "territorio": [
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
         "cultura",
-        "minori",
         "donne",
         "salute",
         "lavoro",
@@ -71,10 +138,14 @@
       "territorio": [
         "nazionale",
         "regionale",
-        "locale"
+        "locale",
+        "Europa"
       ],
       "tags": [
-        "lavoro"
+        "ambiente",
+        "salute",
+        "lavoro",
+        "ricerca"
       ]
     },
     {
@@ -90,8 +161,9 @@
         "Europa"
       ],
       "tags": [
+        "cultura",
+        "minori",
         "donne",
-        "salute",
         "lavoro"
       ]
     },
@@ -104,10 +176,14 @@
       "donatore": "Chiesa Apostolica Italiana",
       "img": "https://www.info-cooperazione.it/public/Immagini/2024/09/apostolica-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "locale",
+        "Europa"
       ],
       "tags": [
+        "sport",
         "cultura",
+        "migranti",
         "lavoro",
         "educazione"
       ]
@@ -122,32 +198,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2019/10/Africa_714x270-120x120.png",
       "territorio": [
         "nazionale",
-        "regionale"
-      ],
-      "tags": [
-        "cultura",
-        "giovani",
-        "lavoro",
-        "educazione"
-      ]
-    },
-    {
-      "titolo": "Costruire la pace con il crowdfunding del bando Impatto+ 2026",
-      "url": "https://www.info-cooperazione.it/2026/8/costruire-la-pace-con-il-crowdfunding-del-bando-impatto-2026",
-      "descrizione": "In un momento storico segnato dal riaccendersi dei conflitti armati e dalla crescita delle spese militari globali, Banca Etica e Etica Sgr lanciano il Bando Impatto+ 2026 \"Costruire la Pace\", dedicato a progetti e percorsi che promuovono la cultura della nonviolenza, del dialogo e del disarmo. Il bando — realizzato in collaborazione con Produzioni dal",
-      "scadenza": "21 settembre 2026",
-      "scaduto": false,
-      "donatore": "Banca Etica",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/pace_abnca_etica-120x120.png",
-      "territorio": [
-        "nazionale",
-        "locale",
+        "regionale",
         "Europa"
       ],
       "tags": [
         "cultura",
         "giovani",
-        "migranti",
         "lavoro",
         "educazione"
       ]
@@ -166,8 +222,8 @@
       ],
       "tags": [
         "sport",
-        "giovani",
         "migranti",
+        "salute",
         "lavoro"
       ]
     },
@@ -185,7 +241,9 @@
       ],
       "tags": [
         "cultura",
+        "giovani",
         "minori",
+        "donne",
         "lavoro"
       ]
     },
@@ -208,7 +266,6 @@
         "donne",
         "migranti",
         "lavoro",
-        "educazione",
         "volontariato"
       ]
     },
@@ -240,16 +297,18 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/tirocini-crui-maeci-mur-700x400-1-120x120.png",
       "territorio": [
         "nazionale",
-        "locale"
+        "locale",
+        "Europa"
       ],
       "tags": [
         "disabilità",
         "cultura",
-        "giovani",
         "donne",
+        "migranti",
         "lavoro",
         "educazione",
-        "ricerca"
+        "ricerca",
+        "inclusione"
       ]
     },
     {
@@ -267,9 +326,9 @@
       ],
       "tags": [
         "disabilità",
-        "minori",
         "lavoro",
         "educazione",
+        "ricerca",
         "inclusione"
       ]
     },
@@ -283,15 +342,16 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/bando-piemonte-e-africa-sub-sahariana-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale"
+        "locale",
+        "Europa"
       ],
       "tags": [
         "cultura",
         "giovani",
-        "minori",
         "donne",
         "lavoro",
-        "educazione"
+        "ricerca",
+        "volontariato"
       ]
     },
     {
@@ -303,7 +363,8 @@
       "donatore": "Con i Bambini",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/opportunit-per-me-bando-con-i-bambini-dispersione-scolastica-2026-120x120.jpg",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "sport",
@@ -327,6 +388,7 @@
       ],
       "tags": [
         "disabilità",
+        "cultura",
         "minori",
         "donne",
         "lavoro",
@@ -346,6 +408,7 @@
         "Europa"
       ],
       "tags": [
+        "cultura",
         "lavoro"
       ]
     },
@@ -360,15 +423,15 @@
       "territorio": [
         "Mezzogiorno",
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
         "giovani",
         "donne",
+        "migranti",
         "lavoro",
-        "educazione",
-        "volontariato"
+        "volontariato",
+        "inclusione"
       ]
     },
     {
@@ -385,6 +448,9 @@
         "Europa"
       ],
       "tags": [
+        "ambiente",
+        "giovani",
+        "minori",
         "lavoro",
         "educazione",
         "inclusione"
@@ -399,32 +465,15 @@
       "donatore": "Fondazione Cariplo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/strumento_co_fin_cariplo-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "cultura",
         "ambiente",
+        "donne",
         "lavoro",
         "digitale",
-        "ricerca",
-        "inclusione"
-      ]
-    },
-    {
-      "titolo": "Bandi Programma LIFE 2026",
-      "url": "https://www.info-cooperazione.it/2026/4/bando-programma-life-2026",
-      "descrizione": "Sono stati pubblicati da alcuni giorni sul Funding & Tenders Portal i nuovi bandi del programma europeo LIFE per il 2026, il principale strumento dell’Unione europea che finanzia progetti in ambito ambientale, climatico ed energetico. Le call di LIFE 2026 sostengono misure dell'UE volte ad aumentare la competitività, colmare il divario di innovazione e decarbonizzare",
-      "scadenza": "22 settembre 2026",
-      "scaduto": false,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/04/website_830x426px_-_calls_for_proposals_-_eulife26-120x120.jpg",
-      "territorio": [
-        "nazionale"
-      ],
-      "tags": [
-        "disabilità",
-        "giovani",
-        "lavoro",
         "ricerca",
         "inclusione"
       ]
@@ -442,14 +491,14 @@
         "Europa"
       ],
       "tags": [
-        "sport",
         "cultura",
         "ambiente",
         "giovani",
         "donne",
         "salute",
         "lavoro",
-        "ricerca"
+        "ricerca",
+        "inclusione"
       ]
     },
     {
@@ -479,7 +528,8 @@
       "donatore": "Fondazione Compagnia di San Paolo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/03/next-gen-you-head-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "cultura",
@@ -500,6 +550,7 @@
         "Europa"
       ],
       "tags": [
+        "minori",
         "lavoro",
         "ricerca"
       ]
@@ -514,12 +565,11 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/11/shutterstock_1507947035-768x420-1-120x120.jpg",
       "territorio": [
         "nazionale",
-        "regionale"
+        "regionale",
+        "Europa"
       ],
       "tags": [
-        "cultura",
         "minori",
-        "salute",
         "lavoro"
       ]
     },
@@ -532,16 +582,17 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/10/Bernini_Etiopia_mur-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
-        "disabilità",
-        "giovani",
+        "donne",
+        "migranti",
+        "salute",
         "lavoro",
         "educazione",
         "digitale",
         "ricerca",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -558,7 +609,6 @@
         "Europa"
       ],
       "tags": [
-        "migranti",
         "lavoro"
       ]
     },
@@ -572,7 +622,7 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2024/11/mattarella-costa-avorio-120x120.png",
       "territorio": [
         "nazionale",
-        "locale"
+        "Europa"
       ],
       "tags": [
         "minori",
@@ -589,7 +639,8 @@
       "donatore": "",
       "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/aics-banner-120x120.png",
       "territorio": [
-        "nazionale"
+        "nazionale",
+        "Europa"
       ],
       "tags": [
         "disabilità",
@@ -600,6 +651,7 @@
         "lavoro",
         "educazione",
         "digitale",
+        "ricerca",
         "volontariato",
         "inclusione"
       ]
