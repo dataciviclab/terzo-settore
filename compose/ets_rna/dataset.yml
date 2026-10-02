@@ -24,7 +24,7 @@ support:
   - name: rna_aiuti_stato
     type: external
     uri: "https://storage.googleapis.com/dataciviclab-clean/rna_aiuti_stato/{year}/rna_aiuti_stato_{year}_clean.parquet"
-    years: [2024, 2025]
+    years: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
 
 clean:
   sql: "sql/clean.sql"
