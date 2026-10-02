@@ -27,7 +27,7 @@ support:
   - name: anac_bandi_gara
     type: external
     uri: "https://storage.googleapis.com/dataciviclab-clean/appalti_pubblici/anac_bandi_gara/{year}/anac_bandi_gara_{year}_clean.parquet"
-    years: [2023, 2024, 2025]
+    years: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
   - name: anac_aggiudicatari
     type: external
     uri: "https://storage.googleapis.com/dataciviclab-clean/appalti_pubblici/anac_aggiudicatari/{year}/anac_aggiudicatari_{year}_clean.parquet"
