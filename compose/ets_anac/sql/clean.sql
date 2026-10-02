@@ -17,16 +17,15 @@ bandi_gara AS (
            denominazione_amministrazione_appaltante,
            TIPO_APPALTO_RISERVATO, flag_pnrr,
            descrizione_cpv, settore
-    FROM read_parquet([
-        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2023/anac_bandi_gara_2023_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2024/anac_bandi_gara_2024_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/anac_bandi_gara/2025/anac_bandi_gara_2025_clean.parquet'
-    ], union_by_name=true)
+    FROM read_parquet({support.anac_bandi_gara.clean}, union_by_name=true)
 ),
 
+-- Conteggio partecipanti per CIG — solo i CIG con aggiudicatari ETS
 tutti_partecipanti AS (
     SELECT cig, count(DISTINCT codice_fiscale) as n_part
-    FROM 'https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet'
+    FROM '{support.anac_aggiudicatari.path}'
+    WHERE codice_fiscale IS NOT NULL AND codice_fiscale != ''
+      AND codice_fiscale IN (SELECT codice_fiscale FROM anagrafe)
     GROUP BY cig
 ),
 
@@ -35,8 +34,8 @@ aggiudicazioni AS (
         SELECT a.codice_fiscale, a.cig,
                MAX(ag.importo_aggiudicazione) / GREATEST(MAX(COALESCE(tp.n_part, 1)), 1) as importo,
                MAX(ag.data_aggiudicazione_definitiva) as data_max
-        FROM 'https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicatari/2026/anac_aggiudicatari_2026_clean.parquet' a
-        JOIN 'https://storage.googleapis.com/dataciviclab-clean/anac_aggiudicazioni/2026/anac_aggiudicazioni_2026_clean.parquet' ag
+        FROM '{support.anac_aggiudicatari.path}' a
+        JOIN '{support.anac_aggiudicazioni.path}' ag
           ON a.id_aggiudicazione = ag.id_aggiudicazione
         LEFT JOIN tutti_partecipanti tp ON a.cig = tp.cig
         WHERE a.codice_fiscale IS NOT NULL AND a.codice_fiscale != ''
@@ -65,7 +64,7 @@ aggiudicazioni AS (
 -- ── 2. Partecipazioni (CF + conteggio gare) ────────────────────────
 partecipazioni AS (
     SELECT TRIM(codice_fiscale) as codice_fiscale, count(DISTINCT cig) as n_gare
-    FROM 'https://storage.googleapis.com/dataciviclab-clean/anac_partecipanti/2026/anac_partecipanti_2026_clean.parquet'
+    FROM '{support.anac_partecipanti.path}'
     WHERE codice_fiscale IS NOT NULL AND codice_fiscale != ''
       AND codice_fiscale IN (SELECT codice_fiscale FROM anagrafe)
       AND tipo_soggetto NOT ILIKE '%STAZIONE APPALTANTE%'
@@ -77,7 +76,7 @@ subappalti AS (
     SELECT cf_subappaltante as codice_fiscale,
            EXTRACT(YEAR FROM data_autorizzazione) as anno,
            0 as importo
-    FROM 'https://storage.googleapis.com/dataciviclab-clean/anac_subappalti/2026/anac_subappalti_2026_clean.parquet'
+    FROM '{support.anac_subappalti.path}'
     WHERE cf_subappaltante IS NOT NULL AND cf_subappaltante != ''
       AND cf_subappaltante IN (SELECT codice_fiscale FROM anagrafe)
       AND EXTRACT(YEAR FROM data_autorizzazione) BETWEEN 2000 AND 2026

@@ -11,6 +11,9 @@ dataset:
   time_coverage:
     mode: snapshot
 
+duckdb:
+  memory_limit: "4GB"
+
 raw:
   output_policy: overwrite
   sources:
@@ -19,6 +22,28 @@ raw:
       args:
         path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
       primary: true
+
+support:
+  - name: anac_bandi_gara
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/appalti_pubblici/anac_bandi_gara/{year}/anac_bandi_gara_{year}_clean.parquet"
+    years: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  - name: anac_aggiudicatari
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/appalti_pubblici/anac_aggiudicatari/{year}/anac_aggiudicatari_{year}_clean.parquet"
+    years: [2026]
+  - name: anac_aggiudicazioni
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/appalti_pubblici/anac_aggiudicazioni/{year}/anac_aggiudicazioni_{year}_clean.parquet"
+    years: [2026]
+  - name: anac_partecipanti
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/appalti_pubblici/anac_partecipanti/{year}/anac_partecipanti_{year}_clean.parquet"
+    years: [2026]
+  - name: anac_subappalti
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/appalti_pubblici/anac_subappalti/{year}/anac_subappalti_{year}_clean.parquet"
+    years: [2026]
 
 clean:
   sql: "sql/clean.sql"

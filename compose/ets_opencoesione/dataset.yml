@@ -20,6 +20,16 @@ raw:
         path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
       primary: true
 
+support:
+  - name: opencoesione_progetti
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/open-coesione/opencoesione_progetti_esteso/{year}/opencoesione_progetti_esteso_{year}_clean.parquet"
+    years: [2026]
+  - name: opencoesione_soggetti
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/open-coesione/opencoesione_soggetti/{year}/opencoesione_soggetti_{year}_clean.parquet"
+    years: [2026]
+
 clean:
   sql: "sql/clean.sql"
   read:

@@ -25,6 +25,10 @@ support:
     type: dataset
     config: "../../datasets/runts/dataset.yml"
     years: [2026]
+  - name: comuni_master
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/comuni_master/{year}/comuni_master_{year}_clean.parquet"
+    years: [2026]
   - name: ets_5xmille
     type: dataset
     config: "../ets_5xmille/dataset.yml"

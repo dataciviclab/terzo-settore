@@ -48,7 +48,7 @@ fatti_pivot AS (
 geo AS (
     SELECT lower(denominazione) as comune_norm, codice_istat, sigla_provincia,
            provincia as nome_provincia, regione
-    FROM 'https://storage.googleapis.com/dataciviclab-clean/comuni_master/2026/comuni_master_2026_clean.parquet'
+    FROM '{support.comuni_master.path}'
 )
 
 SELECT
