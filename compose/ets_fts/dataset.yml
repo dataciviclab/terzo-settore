@@ -20,6 +20,12 @@ raw:
         path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
       primary: true
 
+support:
+  - name: fts_eu_grants
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/{year}/fts_eu_grants_{year}_clean.parquet"
+    years: [2020, 2021, 2022, 2023, 2024, 2025]
+
 clean:
   sql: "sql/clean.sql"
   read:

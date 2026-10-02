@@ -20,6 +20,12 @@ raw:
         path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
       primary: true
 
+support:
+  - name: pnrr_progetti
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/open-pnrr/pnrr_progetti/{year}/pnrr_progetti_{year}_clean.parquet"
+    years: [2026]
+
 clean:
   sql: "sql/clean.sql"
   read:

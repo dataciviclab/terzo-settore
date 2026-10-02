@@ -20,6 +20,11 @@ raw:
         path: "../../out/data/clean/runts/2026/runts_2026_clean.parquet"
       primary: true
 
+support:
+  - name: mef_patrimonio_detenzioni
+    type: external
+    uri: "https://storage.googleapis.com/dataciviclab-clean/patrimonio_territorio/mef_patrimonio_detenzioni/2023/mef_patrimonio_detenzioni_2023_clean.parquet"
+
 clean:
   sql: "sql/clean.sql"
   read:

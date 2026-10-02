@@ -9,7 +9,7 @@ anagrafe AS (
 pnrr AS (
     SELECT TRIM(cf_soggetto_attuatore) as codice_fiscale, 2026 as anno, fin_totale as importo,
            programma, missione, descrizione_missione
-    FROM 'https://storage.googleapis.com/dataciviclab-clean/pnrr_progetti/2026/pnrr_progetti_2026_clean.parquet'
+    FROM '{support.pnrr_progetti.path}'
     WHERE cf_soggetto_attuatore IS NOT NULL AND TRIM(cf_soggetto_attuatore) != ''
 )
 SELECT

@@ -13,14 +13,7 @@ fts AS (
         ELSE TRIM(beneficiario_partita_iva)
     END as codice_fiscale, anno, importo_contrattato as importo,
     nome_programma, flag_no_profit, flag_ong
-    FROM read_parquet([
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2020/fts_eu_grants_2020_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2021/fts_eu_grants_2021_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2022/fts_eu_grants_2022_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2023/fts_eu_grants_2023_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2024/fts_eu_grants_2024_clean.parquet',
-        'https://storage.googleapis.com/dataciviclab-clean/fts_eu_grants/2025/fts_eu_grants_2025_clean.parquet'
-    ], union_by_name=true)
+    FROM read_parquet({support.fts_eu_grants.clean}, union_by_name=true)
     WHERE TRIM(beneficiario_partita_iva) != '-'
 )
 SELECT

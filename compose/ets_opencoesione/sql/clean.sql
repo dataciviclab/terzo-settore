@@ -15,10 +15,10 @@ fatti_coesione AS (
         s.OC_CODICE_FISCALE_SOGG as codice_fiscale,
         COUNT(DISTINCT p.COD_LOCALE_PROGETTO) as n_progetti,
         COUNT(DISTINCT p.OC_TEMA_SINTETICO) as n_temi,
-        MAX(p.OC_FINANZ_TOT_PUB_NETTO) as max_finanziamento_progetto,
+        MAX(p.FINANZ_TOTALE_PUBBLICO) as max_finanziamento_progetto,
         GROUP_CONCAT(DISTINCT p.OC_TEMA_SINTETICO) as temi_coesione
-    FROM 'https://storage.googleapis.com/dataciviclab-clean/opencoesione_progetti/2026/opencoesione_progetti_2026_clean.parquet' p
-    JOIN 'https://storage.googleapis.com/dataciviclab-clean/opencoesione_soggetti/2026/opencoesione_soggetti_2026_clean.parquet' s
+    FROM '{support.opencoesione_progetti.path}' p
+    JOIN '{support.opencoesione_soggetti.path}' s
         ON p.COD_LOCALE_PROGETTO = s.COD_LOCALE_PROGETTO
     WHERE s.SOGG_DESCR_RUOLO LIKE '%Beneficiario%'
       AND s.OC_CODICE_FISCALE_SOGG IS NOT NULL
