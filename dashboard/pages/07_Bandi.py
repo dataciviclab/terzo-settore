@@ -24,15 +24,17 @@ if fonte_f != "Tutte":
     filtered = [b for b in filtered if b["fonte"] == fonte_f]
 if search:
     q = search.lower()
-    filtered = [b for b in filtered if q in (b["titolo"] + b["ente"]).lower()]
+    filtered = [b for b in filtered if q in ((b.get("titolo") or "") + (b.get("ente") or "")).lower()]
 
 st.write(f"**{len(filtered)} bandi** trovati")
 
 for b in filtered[:50]:
-    with st.expander(f"**{b['titolo'][:70]}** — {b['scadenza'][:20]}"):
-        st.write(f"**Fonte:** {b['fonte']}")
-        st.write(f"**Ente:** {b['ente']}")
-        st.write(f"**Scadenza:** {b['scadenza']}")
+    titolo = (b.get("titolo") or "Senza titolo")[:70]
+    scadenza = (b.get("scadenza") or "N/D")[:20]
+    with st.expander(f"**{titolo}** — {scadenza}"):
+        st.write(f"**Fonte:** {b.get('fonte', 'N/D')}")
+        st.write(f"**Ente:** {b.get('ente', 'N/D')}")
+        st.write(f"**Scadenza:** {b.get('scadenza', 'N/D')}")
         if b.get("tag"):
             st.write(f"**Tag:** {', '.join(b['tag'][:5])}")
         if b.get("url"):
