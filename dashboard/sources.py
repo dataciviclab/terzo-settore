@@ -256,7 +256,9 @@ def _bando_eligibility(bando):
     conditions = []
     for key, sezioni in SEZIONI_BANDI.items():
         if any(key in t for t in tags_lower):
-            conditions.append(f"sezione IN ({','.join([repr(s) for s in sezioni])})")
+            # Usa query() con condizione formattata correttamente per pandas
+            sezioni_list = str(sezioni).replace('"', "'")
+            conditions.append(f"sezione in {sezioni_list}")
     return conditions
 
 
