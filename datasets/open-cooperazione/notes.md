@@ -49,9 +49,22 @@ un valore coerente con la serie sarebbe ~34 mln.
 Gestione in pipeline:
 - `clean.sql` → colonna `is_bilancio_outlier` (TRUE se entrate > 1 mld €)
 - il dato **non viene droppato**: resta nel clean per tracciabilità
-- i totali analitici/dashboard devono filtrare il flag
+- i totali analitici/dashboard devono filtrare il flag (`_coop_usable`)
+- **KPI dashboard**: tutti gli aggregati (progetti, beneficiari, HR, …)
+  usano le righe utili — non solo il bilancio
+- **top capacità**: il bonus "entrate > 1M" usa entrate utili
 - soglia 1 mld: plausibile per ONLUS/ONG di cooperazione (Save the Children
   ~180 mln resta incluso)
+
+## CI / pipeline — note operative
+
+- `make check` = preflight toolkit (solo config, **no download**): OK su runner fresco
+- `make test` = `make check` + smoke compile pagine + `dashboard/tests/test_coop_outlier.py`
+- `pipeline.yml` riusa `make run` → lo script `type: script` **rive in rete**
+  (ASP.NET Open Cooperazione). Rischio noto: rate-limit o rottura form.
+  Mitigazione futura: cache raw in GCS o skip-fetch se artefatto recente.
+- raw `raw_input.csv` e `data/raw_cache/` sono gitignorati: il fetch è obbligato
+  a ogni run pulito
 
 ## Prossimo passo (aperto)
 

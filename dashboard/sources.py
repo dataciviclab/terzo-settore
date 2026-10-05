@@ -468,24 +468,36 @@ def coop_outliers() -> pd.DataFrame:
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def coop_kpi() -> dict:
+    """KPI pagina Cooperazione.
+
+    Tutti gli aggregati usano `_coop_usable` (outlier di bilancio esclusi),
+    coerenti con l'etichetta UI "no outlier". `enti` resta il conteggio
+    anagrafico completo.
+    """
     p = coop_profilo()
     pan = coop_panel()
     p_ok = _coop_usable(p)
     n_out = int(len(p) - len(p_ok)) if "is_bilancio_outlier" in p.columns else 0
+
+    def _sum(df: pd.DataFrame, col: str) -> float:
+        if col not in df.columns:
+            return 0.0
+        return float(df[col].fillna(0).sum())
+
     return {
         "enti": int(len(p)),
         "enti_utili": int(len(p_ok)),
         "outlier_bilancio": n_out,
         "con_cf": int(p["codice_fiscale"].notna().sum()),
-        "aics": int((p["is_aics"] == True).sum()),  # noqa: E712
-        "bilancio_tot": float(p_ok["bilancio_entrate"].fillna(0).sum()),
-        "bilancio_mediana": float(p_ok["bilancio_entrate"].median()) if len(p_ok) else 0.0,
-        "progetti": float(p["progetti_diretti"].fillna(0).sum()),
-        "beneficiari": float(p["beneficiari"].fillna(0).sum()),
-        "dip_estero": float(p["dipendenti_estero"].fillna(0).sum()),
-        "dip_italia": float(p["dipendenti_italia"].fillna(0).sum()),
-        "volontari": float(p["volontari_totali"].fillna(0).sum()),
-        "anni": sorted(pan["anno_dati"].dropna().astype(int).unique().tolist()),
+        "aics": int((p_ok["is_aics"] == True).sum()) if "is_aics" in p_ok.columns else 0,  # noqa: E712
+        "bilancio_tot": _sum(p_ok, "bilancio_entrate"),
+        "bilancio_mediana": float(p_ok["bilancio_entrate"].median()) if len(p_ok) and "bilancio_entrate" in p_ok.columns else 0.0,
+        "progetti": _sum(p_ok, "progetti_diretti"),
+        "beneficiari": _sum(p_ok, "beneficiari"),
+        "dip_estero": _sum(p_ok, "dipendenti_estero"),
+        "dip_italia": _sum(p_ok, "dipendenti_italia"),
+        "volontari": _sum(p_ok, "volontari_totali"),
+        "anni": sorted(pan["anno_dati"].dropna().astype(int).unique().tolist()) if len(pan) else [],
     }
 
 
@@ -571,15 +583,25 @@ def coop_governance() -> pd.DataFrame:
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def coop_cross_fonti() -> pd.DataFrame:
-    """Quante OSC compaiono nelle fonti ufficiali già nel progetto."""
+    """Quante OSC compaiono nelle fonti ufficiali già nel progetto.
+
+    Se una fonte non è leggibile, la riga resta con enti=0 e un marker ⚠️
+    (niente except silenzioso: il grafico mostra il buco).
+    """
     p = coop_profilo()
     oc = set(p["codice_fiscale"].dropna().astype(str).str.upper().str.strip())
     n = max(len(oc), 1)
     rows = [{"fonte": "Open Cooperazione (profili CF)", "enti": len(oc), "pct": 100.0}]
+    missing: list[str] = []
 
     def _add(label: str, cf_set: set[str]):
         inter = len(oc & cf_set)
         rows.append({"fonte": label, "enti": inter, "pct": round(100 * inter / n, 1)})
+
+    def _fail(label: str, err: BaseException | None = None):
+        missing.append(label)
+        note = f"{label} ⚠️ non disponibile"
+        rows.append({"fonte": note, "enti": 0, "pct": 0.0})
 
     # RUNTS: il mart runts_sezione e' aggregato → serve il clean con CF
     try:
@@ -592,27 +614,28 @@ def coop_cross_fonti() -> pd.DataFrame:
             "RUNTS (anagrafe ETS)",
             set(runts["codice_fiscale"].dropna().astype(str).str.upper().str.strip()),
         )
-    except Exception:
-        pass
+    except Exception as e:  # noqa: BLE001
+        _fail("RUNTS (anagrafe ETS)", e)
 
     def _overlap(slug: str, table: str, label: str):
         try:
             df = load_mart(table, year=2026, slug=slug)
             if "codice_fiscale" not in df.columns:
+                _fail(label, RuntimeError("colonna codice_fiscale assente"))
                 return
             _add(
                 label,
                 set(df["codice_fiscale"].dropna().astype(str).str.upper().str.strip()),
             )
-        except Exception:
-            pass
+        except Exception as e:  # noqa: BLE001
+            _fail(label, e)
 
     _overlap("ets_5xmille", "ets_5xmille", "5×1000 ADE (ufficiale)")
     _overlap("ets_anac", "ets_anac_aggiudicazioni", "ANAC (appalti)")
     _overlap("ets_rna", "ets_rna", "RNA (aiuti di stato)")
 
     # fallback 5x1000 via clean se il mart non espone CF
-    if not any(r["fonte"].startswith("5×1000") for r in rows):
+    if not any(r["fonte"].startswith("5×1000") for r in rows if "⚠️" not in r["fonte"]):
         try:
             ade = query(
                 "SELECT DISTINCT codice_fiscale FROM clean_input",
@@ -623,19 +646,44 @@ def coop_cross_fonti() -> pd.DataFrame:
                 "5×1000 ADE (ufficiale)",
                 set(ade["codice_fiscale"].dropna().astype(str).str.upper().str.strip()),
             )
-        except Exception:
+        except Exception as e:  # noqa: BLE001
+            if not any("5×1000" in r["fonte"] for r in rows):
+                _fail("5×1000 ADE (ufficiale)", e)
+
+    # se mancano fonti, segnala in UI (non solo nel CSV)
+    if missing:
+        try:
+            st.warning(
+                "Cross fonti incomplete — non leggibili in questa sessione: "
+                + ", ".join(missing)
+            )
+        except Exception:  # noqa: BLE001 — fuori runtime streamlit
             pass
 
     return pd.DataFrame(rows)
 
 
+def _coop_bilancio_utili(p: pd.DataFrame) -> pd.Series:
+    """Entrate utili: azzera gli outlier di bilancio (non solo per il tie-break)."""
+    bil = p["bilancio_entrate"].fillna(0).astype(float).copy()
+    if "is_bilancio_outlier" in p.columns:
+        bad = p["is_bilancio_outlier"].fillna(False).astype(bool)
+        bil = bil.mask(bad, 0.0)
+    return bil
+
+
 @st.cache_data(ttl=3600, show_spinner=False)
 def coop_top_capacita(top_n: int = 15) -> pd.DataFrame:
-    """Ranking per capacità progettuale (AICS + scala + progetti + governance)."""
+    """Ranking per capacità progettuale (AICS + scala + progetti + governance).
+
+    Il punto "scala" (entrate > 1M) usa le entrate utili: gli outlier di
+    bilancio non guadagnano il bonus e non salgono in cima per quel motivo.
+    """
     p = coop_profilo().copy()
+    bil_utili = _coop_bilancio_utili(p)
     p["score"] = (
         p["is_aics"].fillna(False).astype(int) * 2
-        + (p["bilancio_entrate"].fillna(0) > 1_000_000).astype(int)
+        + (bil_utili > 1_000_000).astype(int)
         + (p["progetti_diretti"].fillna(0) > 10).astype(int)
         + p["compliance_231"].fillna(False).astype(int)
         + p["codice_etico"].fillna(False).astype(int)
@@ -655,11 +703,7 @@ def coop_top_capacita(top_n: int = 15) -> pd.DataFrame:
         "url_scheda",
     ]
     cols = [c for c in cols if c in p.columns]
-    # ordina per score; a parità usa entrate utili (senza outlier)
-    p["_bil_utili"] = p["bilancio_entrate"].fillna(0)
-    if "is_bilancio_outlier" in p.columns:
-        bad = p["is_bilancio_outlier"].fillna(False).astype(bool)
-        p.loc[bad, "_bil_utili"] = 0
+    p["_bil_utili"] = bil_utili
     out = p.sort_values(["score", "_bil_utili"], ascending=False).head(top_n)[cols]
     return out
 
