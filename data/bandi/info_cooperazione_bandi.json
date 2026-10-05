@@ -1,8 +1,104 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-09-28T16:42:23.940391",
-  "totale": 32,
+  "scraped_at": "2026-10-05T17:03:43.142944",
+  "totale": 28,
   "bandi": [
+    {
+      "titolo": "Bando straordinario dell'8x1000 statale per cultura e scienza",
+      "url": "https://www.info-cooperazione.it/2026/10/bando-straordinario-dell8x1000-statale-per-cultura-e-scienza",
+      "descrizione": "La Presidenza del Consiglio dei Ministri ha pubblicato un bando straordinario 2026 legato all’Otto per mille dell’IRPEF a gestione statale, dedicato a interventi nel campo della cultura e della scienza. Il provvedimento è contenuto nel Decreto del Segretario generale della Presidenza del Consiglio dei Ministri del 30 settembre 2026. Si tratta quindi di una nuova",
+      "scadenza": "30 novembre 2026",
+      "scaduto": false,
+      "donatore": "Presidenza del Consiglio dei Ministri",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2019/01/Agenzia_Fotogramma_FGR397893-kgaF-835x437@IlSole24Ore-Web-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "minori",
+        "donne",
+        "lavoro",
+        "educazione"
+      ]
+    },
+    {
+      "titolo": "Educazione alla Cittadinanza Globale in Piemonte",
+      "url": "https://www.info-cooperazione.it/2026/10/educazione-alla-cittadinanza-globale-in-piemonte",
+      "descrizione": "La Regione Piemonte, in collaborazione con la Fondazione Compagnia di San Paolo, ha pubblicato il Bando Educazione alla Cittadinanza Globale per la sostenibilità e la solidarietà internazionale – Anno 2026. Il bando nasce dall'esigenza di rafforzare le reti territoriali tra autorità locali, scuole, organizzazioni della società civile ed enti pubblici e privati, costruendo comunità educanti",
+      "scadenza": "23 novembre 2026",
+      "scaduto": false,
+      "donatore": "Regione Piemonte",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2019/02/ecg-bando-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "regionale",
+        "locale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "giovani",
+        "lavoro",
+        "educazione"
+      ]
+    },
+    {
+      "titolo": "Polaris+ 25 Mln per le competenze STEM e ICT nelle scuole",
+      "url": "https://www.info-cooperazione.it/2026/10/polaris-25-mln-per-le-competenze-stem-e-ict-nelle-scuole",
+      "descrizione": "Il Fondo per la Repubblica Digitale ha pubblicato Polaris+, la seconda fase del bando con una dotazione complessiva di 25 milioni di euro destinati a sostenere progetti di formazione e orientamento nelle discipline STEM (Scienza, Tecnologia, Ingegneria e Matematica) e ICT per studenti delle scuole secondarie di primo e secondo grado. \r\nL'Italia si trova in una",
+      "scadenza": "21 gennaio 2027",
+      "scaduto": false,
+      "donatore": "Fondo per la Repubblica Digitale",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/polaris_-120x120.png",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "disabilità",
+        "donne",
+        "lavoro",
+        "digitale",
+        "inclusione"
+      ]
+    },
+    {
+      "titolo": "Progettazione, partenariati e accesso alle opportunità UE",
+      "url": "https://www.info-cooperazione.it/2026/9/progettazione-partenariati-e-accesso-alle-opportunita-ue",
+      "descrizione": "Il programma Innovazione per lo Sviluppo, di Fondazione Cariplo e Fondazione Compagnia di Sanpaolo, presenta una nuova misura che rafforza progettazione, partenariati e accesso alle opportunità UE con un’attenzione trasversale ai temi dell’innovazione rivolta alle Organizzazioni della Società Civile italiane che operano nella cooperazione internazionale allo sviluppo.\r\nLa misura Focus Europa che nasce da un’esigenza concreta emersa direttamente dalle",
+      "scadenza": "31 dicembre 2026",
+      "scaduto": false,
+      "donatore": "Innovazione per lo Sviluppo",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/focus_europa-cover2-120x120.png",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "minori",
+        "lavoro",
+        "digitale"
+      ]
+    },
+    {
+      "titolo": "Aggiornamento bandi EuropeAid (ottobre 2026)",
+      "url": "https://www.info-cooperazione.it/2026/9/aggiornamento-bandi-europeaid-ottobre-2026",
+      "descrizione": "Torna l’aggiornamento sui bandi paese aperti presso EuropeAid a livello globale e paese. Si tratta di bandi appartenenti a diversi programmi tematici dello strumento NDICI-Europa Globale come quelli relativi alle Organizzazioni della società civile e alle Autorità locali, lo European Instrument for Democracy and Human Rights (EIDHR) e il programma sul Vicinato Europeo. Vediamo nel dettaglio quali sono i",
+      "scadenza": "30 novembre 2026",
+      "scaduto": false,
+      "donatore": "Commissione Europea",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "giovani",
+        "lavoro"
+      ]
+    },
     {
       "titolo": "IFAD per la trasformazione dei sistemi alimentari nel Sahel",
       "url": "https://www.info-cooperazione.it/2026/9/ifad-per-la-trasformazione-dei-sistemi-alimentari-nel-sahel",
@@ -21,6 +117,7 @@
         "giovani",
         "donne",
         "lavoro",
+        "educazione",
         "ricerca",
         "inclusione"
       ]
@@ -42,9 +139,9 @@
         "cultura",
         "giovani",
         "donne",
-        "migranti",
         "lavoro",
         "ricerca",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -66,9 +163,11 @@
         "giovani",
         "minori",
         "donne",
+        "migranti",
         "salute",
         "lavoro",
-        "educazione"
+        "educazione",
+        "inclusione"
       ]
     },
     {
@@ -102,7 +201,7 @@
         "Europa"
       ],
       "tags": [
-        "migranti",
+        "donne",
         "lavoro",
         "volontariato"
       ]
@@ -122,6 +221,7 @@
       "tags": [
         "cultura",
         "donne",
+        "migranti",
         "salute",
         "lavoro",
         "ricerca"
@@ -142,10 +242,7 @@
         "Europa"
       ],
       "tags": [
-        "ambiente",
-        "salute",
-        "lavoro",
-        "ricerca"
+        "lavoro"
       ]
     },
     {
@@ -161,51 +258,8 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
-        "minori",
         "donne",
         "lavoro"
-      ]
-    },
-    {
-      "titolo": "Otto per mille della Chiesa Apostolica",
-      "url": "https://www.info-cooperazione.it/2026/9/otto-per-mille-della-chiesa-apostolica",
-      "descrizione": "La Chiesa Apostolica in Italia ha aperto le candidature per il riparto dell'otto per mille IRPEF 2026, destinando le risorse ricevute dallo Stato a interventi sociali, umanitari e culturali in Italia e all'estero. Il fondo è alimentato dalla quota dell'otto per mille dell'IRPEF che i contribuenti italiani destinano alla Chiesa Apostolica in sede di dichiarazione",
-      "scadenza": "30 settembre 2026",
-      "scaduto": false,
-      "donatore": "Chiesa Apostolica Italiana",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/09/apostolica-120x120.png",
-      "territorio": [
-        "nazionale",
-        "locale",
-        "Europa"
-      ],
-      "tags": [
-        "sport",
-        "cultura",
-        "migranti",
-        "lavoro",
-        "educazione"
-      ]
-    },
-    {
-      "titolo": "Bando della Regione Puglia per progetti di cooperazione internazionale",
-      "url": "https://www.info-cooperazione.it/2026/8/bando-della-regione-puglia-per-progetti-di-cooperazione-internazionale",
-      "descrizione": "La Regione Puglia ha pubblicato l'Avviso Pubblico 2026 per la concessione di contributi ai sensi della Legge Regionale n. 20/2003 \"Partenariato per la Cooperazione\", con una dotazione finanziaria complessiva di 370.000 euro. Il bando si inserisce nel quadro del Piano triennale regionale 2025-2027 e delle Linee di indirizzo approvate dalla Giunta regionale nel luglio 2026,",
-      "scadenza": "30 settembre 2026",
-      "scaduto": false,
-      "donatore": "Regione Puglia",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2019/10/Africa_714x270-120x120.png",
-      "territorio": [
-        "nazionale",
-        "regionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "giovani",
-        "lavoro",
-        "educazione"
       ]
     },
     {
@@ -222,28 +276,8 @@
       ],
       "tags": [
         "sport",
-        "migranti",
-        "salute",
-        "lavoro"
-      ]
-    },
-    {
-      "titolo": "Otto per mille statale 2026",
-      "url": "https://www.info-cooperazione.it/2026/8/otto-per-mille-statale-2026",
-      "descrizione": "Le risorse derivanti dalla quota IRPEF dell'otto per mille a diretta gestione statale — quelle che i contribuenti italiani destinano allo Stato in sede di dichiarazione dei redditi — finanziano ogni anno interventi straordinari in cinque settori prioritari. La Presidenza del Consiglio dei Ministri - Dipartimento per il Coordinamento Amministrativo ha pubblicato la guida per",
-      "scadenza": "30 settembre 2026",
-      "scaduto": false,
-      "donatore": "Presidenza del Consiglio dei Ministri",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2018/11/Sala_del_Consiglio_dei_Ministri_Palazzo_Chigi_Roma-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "giovani",
         "minori",
-        "donne",
+        "migranti",
         "lavoro"
       ]
     },
@@ -265,7 +299,9 @@
         "giovani",
         "donne",
         "migranti",
+        "salute",
         "lavoro",
+        "educazione",
         "volontariato"
       ]
     },
@@ -304,11 +340,9 @@
         "disabilità",
         "cultura",
         "donne",
-        "migranti",
         "lavoro",
         "educazione",
-        "ricerca",
-        "inclusione"
+        "ricerca"
       ]
     },
     {
@@ -328,50 +362,7 @@
         "disabilità",
         "lavoro",
         "educazione",
-        "ricerca",
         "inclusione"
-      ]
-    },
-    {
-      "titolo": "Bando Piemonte e Africa Sub-Sahariana",
-      "url": "https://www.info-cooperazione.it/2026/7/bando-piemonte-e-africa-sub-sahariana",
-      "descrizione": "Con l’obiettivo di continuare a promuovere lo sviluppo locale sostenibile nei territori dell’Africa sub-sahariana, consolidare le relazioni tra le comunità locali piemontesi e africane e favorire il confronto sugli Obiettivi dell’Agenda 2030, la Regione Piemonte, in collaborazione con la Fondazione Compagnia di San Paolo, ha pubblicato il Bando Piemonte e Africa Sub-sahariana – Anno 2026.\r\nL’iniziativa conferma l’impegno congiunto della",
-      "scadenza": "30 settembre 2026",
-      "scaduto": false,
-      "donatore": "Regione Piemonte",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/bando-piemonte-e-africa-sub-sahariana-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "locale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "giovani",
-        "donne",
-        "lavoro",
-        "ricerca",
-        "volontariato"
-      ]
-    },
-    {
-      "titolo": "Bando Con i Bambini sulla dispersione scolastica",
-      "url": "https://www.info-cooperazione.it/2026/7/bando-con-i-bambini-sulla-dispersione-scolastica",
-      "descrizione": "L'Italia ha raggiunto nel 2025 un tasso di abbandono scolastico precoce dell'8,2% — sotto l'obiettivo europeo del 2030 — ma dietro questo dato positivo si nascondono profonde diseguaglianze territoriali e un fenomeno difficile da misurare: la dispersione scolastica implicita, fatta di frequenza irregolare, bassi livelli di apprendimento e demotivazione crescente, soprattutto nei contesti socialmente ed economicamente",
-      "scadenza": "30 settembre 2026",
-      "scaduto": false,
-      "donatore": "Con i Bambini",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/opportunit-per-me-bando-con-i-bambini-dispersione-scolastica-2026-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "sport",
-        "giovani",
-        "minori",
-        "lavoro",
-        "ricerca"
       ]
     },
     {
@@ -413,50 +404,6 @@
       ]
     },
     {
-      "titolo": "Bando volontariato 2026",
-      "url": "https://www.info-cooperazione.it/2026/7/bando-volontariato-2026",
-      "descrizione": "La Fondazione con il Sud ha pubblicato l'edizione 2026 del Bando Volontariato, rivolto alle organizzazioni di volontariato e alle associazioni di promozione sociale attive in Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia.\r\nL'iniziativa si iscrive nella strategia triennale 2025-2027 della Fondazione, che individua tra le proprie priorità il contrasto allo spopolamento dei piccoli comuni delle aree interne del",
-      "scadenza": "30 settembre 2026",
-      "scaduto": false,
-      "donatore": "Fondazione con il Sud",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/volontariato-bandi-120x120.jpg",
-      "territorio": [
-        "Mezzogiorno",
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "giovani",
-        "donne",
-        "migranti",
-        "lavoro",
-        "volontariato",
-        "inclusione"
-      ]
-    },
-    {
-      "titolo": "1,2 milioni per contrastare la dispersione scolastica",
-      "url": "https://www.info-cooperazione.it/2026/6/12-milioni-per-contrastare-la-dispersione-scolastica",
-      "descrizione": "Fondazione CDP rinnova il proprio impegno a favore dell'educazione con la quarta edizione del bando \"A Scuola per il Futuro – Insieme per contrastare la dispersione scolastica\", un'iniziativa che mette a disposizione 1,2 milioni di euro per sostenere progetti capaci di prevenire l'abbandono scolastico e rafforzare il ruolo della comunità educante.\r\nL'avviso nasce dalla consapevolezza che",
-      "scadenza": "30 settembre 2026",
-      "scaduto": false,
-      "donatore": "Fondazione CDP",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/06/scuola-per-il-futuro-fondazionecdp-bando-2026-120x120.jpg",
-      "territorio": [
-        "Mezzogiorno",
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "ambiente",
-        "giovani",
-        "minori",
-        "lavoro",
-        "educazione",
-        "inclusione"
-      ]
-    },
-    {
       "titolo": "Fondazione Cariplo sostiene la progettazione europea",
       "url": "https://www.info-cooperazione.it/2026/5/fondazione-cariplo-sostiene-la-progettazione-europea",
       "descrizione": "Fondazione Cariplo ha rinnovato e ampliato per il 2026 il proprio Strumento Cofinanziamento Progetti Europei, uno dei pochi meccanismi in Italia che combina accompagnamento alla progettazione e supporto finanziario per aiutare gli enti del Terzo Settore ad accedere ai programmi dell'Unione Europea. Il budget complessivo disponibile è di 3,1 milioni di euro, senza scadenza: le",
@@ -466,15 +413,17 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/strumento_co_fin_cariplo-120x120.png",
       "territorio": [
         "nazionale",
+        "locale",
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "cultura",
         "ambiente",
-        "donne",
         "lavoro",
         "digitale",
         "ricerca",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -514,6 +463,7 @@
         "Europa"
       ],
       "tags": [
+        "sport",
         "lavoro",
         "digitale",
         "inclusione"
@@ -538,24 +488,6 @@
       ]
     },
     {
-      "titolo": "Ecco il calendario delle call 2026 del Programma CERV",
-      "url": "https://www.info-cooperazione.it/2025/12/ecco-il-calendario-delle-call-2026-del-programma-cerv",
-      "descrizione": "Cittadini, Uguaglianza, Diritti e Valori (CERV) è il programma di finanziamento dell'UE lanciato nel 2021 dalla durata di sette anni. È stato creato insieme al programma “Giustizia 2021-2027” nell'ambito del Fondo Giustizia, Diritti e Valori. Il programma CERV finanzia progetti volti a salvaguardare la diversità e i diritti civili, a combattere la violenza di genere,",
-      "scadenza": "01 ottobre 2026",
-      "scaduto": false,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/12/cerv-programme-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "minori",
-        "lavoro",
-        "ricerca"
-      ]
-    },
-    {
       "titolo": "Da Con i bambini 10 milioni per iniziative in cofinanziamento",
       "url": "https://www.info-cooperazione.it/2025/11/da-con-i-bambini-10-milioni-per-iniziative-in-cofinanziamento",
       "descrizione": "L'impresa sociale Con i bambini ha aperto la quinta edizione delle “Iniziative in cofinanziamento”  per sostenere interventi insieme ad altri enti erogatori privati che condividono lo spirito e gli obiettivi del Fondo per il contrasto della povertà educativa minorile.\r\n\r\nCon i bambini dedica ulteriori risorse finanziarie, fino a un massimo di 10 milioni di euro, al cofinanziamento",
@@ -569,8 +501,11 @@
         "Europa"
       ],
       "tags": [
+        "ambiente",
         "minori",
-        "lavoro"
+        "lavoro",
+        "educazione",
+        "ricerca"
       ]
     },
     {
@@ -586,9 +521,6 @@
         "Europa"
       ],
       "tags": [
-        "donne",
-        "migranti",
-        "salute",
         "lavoro",
         "educazione",
         "digitale",
@@ -609,7 +541,11 @@
         "Europa"
       ],
       "tags": [
-        "lavoro"
+        "disabilità",
+        "donne",
+        "lavoro",
+        "educazione",
+        "inclusione"
       ]
     },
     {
@@ -628,32 +564,6 @@
         "minori",
         "lavoro",
         "educazione"
-      ]
-    },
-    {
-      "titolo": "Ecco l'elenco dei progetti idonei del Bando AICS 2023",
-      "url": "https://www.info-cooperazione.it/2025/2/ecco-lelenco-dei-progetti-idonei-del-bando-aics-2023",
-      "descrizione": "L'Agenzia per la cooperazione ha finalmente reso noto l’elenco delle iniziative risultate idonee, tra quelle presentate al “Bando 2023 per la concessione di contributi a Iniziative promosse da Enti Territoriali e dalle Organizzazioni della società civile\". Non si tratta però dell'elenco delle iniziative finanziate poiché l’iter di approvazione delle iniziative è ancora in corso e",
-      "scadenza": "",
-      "scaduto": false,
-      "donatore": "",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/aics-banner-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "disabilità",
-        "ambiente",
-        "giovani",
-        "donne",
-        "salute",
-        "lavoro",
-        "educazione",
-        "digitale",
-        "ricerca",
-        "volontariato",
-        "inclusione"
       ]
     }
   ]
