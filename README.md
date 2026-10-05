@@ -29,6 +29,7 @@ Esempi:
 | `runts` | Anagrafe 150k ETS iscritti al RUNTS | 2026 | published |
 | `ade_cinque_per_mille` | Elenchi beneficiari 5x1000 ADE (download CSV) | 2022-2025 | beta |
 | `istat_non_profit_2023` | Censimento ISTAT non profit (regioni, province, settori) | 2023 | beta |
+| `open_cooperazione` | Trasparenza OSC cooperazione (Open Cooperazione) + CF | 2013-2025 | beta |
 | `ets_5xmille` | Compose: RUNTS + 5x1000 (ADE) | 2026 | beta |
 | `ets_anac` | Compose: RUNTS + ANAC (aggiudicazioni, partecipazioni, subappalti) | 2026 | beta |
 | `ets_pnrr` | Compose: RUNTS + PNRR | 2026 | beta |
@@ -56,6 +57,7 @@ Pagine:
 - **Matching** — trova ETS candidati per un bando
 - **Territorio** — vista per regione/provincia
 - **Censimento** — ISTAT non profit 2023
+- **Cooperazione** — OSC Open Cooperazione (autodichiarato, ~250 org)
 
 ## Architettura
 
@@ -64,6 +66,7 @@ datasets/
   runts/                     Anagrafe 150k ETS (fetch XLSX da Ministero)
   ade-cinque-per-mille/      Elenchi 5x1000 ADE (download CSV, 2022-2025)
   istat_non_profit_2023/     Censimento ISTAT (CSV locale)
+  open-cooperazione/         OSC cooperazione: fetch+preprocess CSV + CF map
 
 compose/
   ets_5xmille/               RUNTS + ADE 5x1000 → clean + mart
