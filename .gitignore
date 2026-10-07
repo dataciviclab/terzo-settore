@@ -11,6 +11,10 @@ _local/
 # Cache download RUNTS (XLSX snapshot scaricato dallo script)
 datasets/runts/*.xlsx
 
+# Open Cooperazione — raw intermediari e cache download (cf_mapping.csv resta committato)
+datasets/open-cooperazione/raw_input.csv
+datasets/open-cooperazione/data/raw_cache/
+
 # Dashboard cache
 dashboard/.streamlit/secrets.toml
 

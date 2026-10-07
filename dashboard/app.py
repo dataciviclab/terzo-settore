@@ -26,6 +26,7 @@ pages = {
         st.Page("pages/05_CinquePerMille.py", title="5×1000", icon="💰"),
         st.Page("pages/09_Territorio.py", title="Territorio", icon="🗺️"),
         st.Page("pages/10_Censimento.py", title="Censimento 2023", icon="🏛️"),
+        st.Page("pages/12_Cooperazione.py", title="Cooperazione", icon="🌍"),
     ],
     "Dettaglio": [
         st.Page("pages/06_Scheda_ETS.py", title="Scheda ETS", icon="🔎"),

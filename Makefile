@@ -17,6 +17,7 @@ run:
 	$(TOOLKIT) run --config datasets/runts/dataset.yml
 	$(TOOLKIT) run --config datasets/ade-cinque-per-mille/dataset.yml
 	$(TOOLKIT) run --config datasets/istat_non_profit_2023/dataset.yml
+	$(TOOLKIT) run --config datasets/open-cooperazione/dataset.yml
 	$(TOOLKIT) run --config compose/ets_5xmille/dataset.yml
 	$(TOOLKIT) run --config compose/ets_anac/dataset.yml
 	$(TOOLKIT) run --config compose/ets_pnrr/dataset.yml
