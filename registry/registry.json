@@ -2,7 +2,7 @@
   "schema_version": 1,
   "repo": "terzo-settore",
   "source_repo": "dataciviclab/terzo-settore",
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-07",
   "datasets": [
     {
       "slug": "ade_cinque_per_mille",
@@ -921,6 +921,405 @@
       ]
     },
     {
+      "slug": "open_cooperazione",
+      "name": "Open Cooperazione",
+      "description": "Open Cooperazione (Info-Cooperazione): dati autodichiarati di trasparenza delle OSC italiane attive in cooperazione allo sviluppo e aiuto umanitario. Snapshot multi-anno (2013-2025) + join codice fiscale da mapping schede.",
+      "source": "",
+      "source_id": "open_cooperazione",
+      "period": {
+        "start": 2026,
+        "end": 2026
+      },
+      "tags": [
+        "terzo-settore",
+        "cooperazione",
+        "osc",
+        "ong",
+        "trasparenza"
+      ],
+      "category": "terzo-settore",
+      "columns": [
+        {
+          "name": "codice_fiscale",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": "",
+          "semantic_type": "fiscal_code"
+        },
+        {
+          "name": "nome_organizzazione",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "url_scheda",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "anno_dati",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "anno_bilancio",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "anno_risorse_umane",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "indirizzo",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "citta",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "provincia",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": "",
+          "semantic_type": "province_code"
+        },
+        {
+          "name": "cap",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "email",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "telefono",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "anno_fondazione",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "forma_giuridica",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "is_ets",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "is_aics",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "reti",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "sitoweb",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "sdgs",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "rappresentante_nome",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "rappresentante_cognome",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "rappresentante_sesso",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "rappresentante_anno_in_carica",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "segretario_nome",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "segretario_cognome",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "numero_associati",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "organo_controllo_interno",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "ecosoc",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "compliance_231",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "certificazioni",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "partenariati_enti_pubblici",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "codice_etico",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "pianificazione_strategica",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "bilancio_entrate",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "bilancio_uscite",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "is_bilancio_outlier",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "bilancio_certificato",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "oneri_missione",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "oneri_struttura",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "oneri_raccolta_fondi",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "numero_donatori",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "fondi_istituzionali",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "fondi_privati",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "fondi_aziende",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "fondi_fondazioni",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "fondi_chiese",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "fondi_5x1000",
+          "type": "DOUBLE",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "firme_5x1000",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "adozioni_distanza",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "numero_adozioni_attive",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "principali_finanziatori_pubblici",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "bilancio_sociale",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "valutazione_impatto",
+          "type": "BOOLEAN",
+          "role": "dimension",
+          "description": ""
+        },
+        {
+          "name": "dipendenti_italia",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "dipendenti_estero",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "volontari_servizio_civile",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "volontari_totali",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "progetti_diretti",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "progetti_indiretti",
+          "type": "INTEGER",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "beneficiari",
+          "type": "BIGINT",
+          "role": "metric",
+          "description": ""
+        },
+        {
+          "name": "stato_dati_annuale",
+          "type": "VARCHAR",
+          "role": "dimension",
+          "description": ""
+        }
+      ],
+      "location": {
+        "type": "gcs",
+        "path": "gs://dataciviclab-clean/terzo_settore/open_cooperazione/2026/open_cooperazione_2026_clean.parquet",
+        "multi_file": false
+      },
+      "stage": "incubating",
+      "mart_refs": [
+        "open_cooperazione__open_cooperazione",
+        "open_cooperazione__open_cooperazione_profilo"
+      ]
+    },
+    {
       "slug": "runts",
       "name": "Runts",
       "description": "Anagrafe degli enti iscritti al Registro Unico Nazionale del Terzo Settore (RUNTS) — snapshot dal Ministero del Lavoro.",
@@ -1205,6 +1604,26 @@
       }
     },
     {
+      "slug": "open_cooperazione__open_cooperazione",
+      "dataset": "open_cooperazione",
+      "table": "open_cooperazione",
+      "location": {
+        "type": "gcs",
+        "path": "gs://dataciviclab-mart/terzo_settore/open_cooperazione/2026/open_cooperazione.parquet",
+        "multi_file": false
+      }
+    },
+    {
+      "slug": "open_cooperazione__open_cooperazione_profilo",
+      "dataset": "open_cooperazione",
+      "table": "open_cooperazione_profilo",
+      "location": {
+        "type": "gcs",
+        "path": "gs://dataciviclab-mart/terzo_settore/open_cooperazione/2026/open_cooperazione_profilo.parquet",
+        "multi_file": false
+      }
+    },
+    {
       "slug": "runts__runts_sezione",
       "dataset": "runts",
       "table": "runts_sezione",
@@ -1224,7 +1643,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143049Z_6af078a1",
+        "run_id": "20261007T092813Z_1b79b311",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1233,17 +1652,17 @@
           "mart": 100
         },
         "output_rows": {
-          "clean": 228311,
-          "mart": 71739
+          "clean": 228327,
+          "mart": 71745
         },
         "output_bytes": {
-          "raw": 4974756,
-          "clean": 5473621,
-          "mart": 1866533
+          "raw": 4979627,
+          "clean": 5474925,
+          "mart": 1866382
         },
-        "started_at": "2026-10-02T14:30:49.752398+00:00",
-        "finished_at": "2026-10-02T14:30:50.402280+00:00",
-        "duration_seconds": 0.65
+        "started_at": "2026-10-07T09:28:13.634282+00:00",
+        "finished_at": "2026-10-07T09:28:14.363107+00:00",
+        "duration_seconds": 0.729
       }
     },
     {
@@ -1254,7 +1673,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143050Z_6c10a7bf",
+        "run_id": "20261007T092814Z_3c99457b",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1263,17 +1682,17 @@
           "mart": 100
         },
         "output_rows": {
-          "clean": 223900,
+          "clean": 223914,
           "mart": 29095
         },
         "output_bytes": {
-          "raw": 4974756,
-          "clean": 6201963,
-          "mart": 271358
+          "raw": 4979627,
+          "clean": 6206516,
+          "mart": 271314
         },
-        "started_at": "2026-10-02T14:30:50.843377+00:00",
-        "finished_at": "2026-10-02T14:34:35.750690+00:00",
-        "duration_seconds": 224.907
+        "started_at": "2026-10-07T09:28:14.794208+00:00",
+        "finished_at": "2026-10-07T09:30:12.460692+00:00",
+        "duration_seconds": 117.666
       }
     },
     {
@@ -1284,7 +1703,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143647Z_19c6ab35",
+        "run_id": "20261007T093123Z_f6cf655f",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1297,13 +1716,13 @@
           "mart": 340
         },
         "output_bytes": {
-          "raw": 4974756,
-          "clean": 11987,
-          "mart": 4124
+          "raw": 4979627,
+          "clean": 11970,
+          "mart": 4137
         },
-        "started_at": "2026-10-02T14:36:47.300462+00:00",
-        "finished_at": "2026-10-02T14:36:53.882847+00:00",
-        "duration_seconds": 6.582
+        "started_at": "2026-10-07T09:31:23.430378+00:00",
+        "finished_at": "2026-10-07T09:31:27.288744+00:00",
+        "duration_seconds": 3.858
       }
     },
     {
@@ -1314,7 +1733,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143654Z_e314d45d",
+        "run_id": "20261007T093127Z_52fd6568",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1323,17 +1742,17 @@
           "mart": 100
         },
         "output_rows": {
-          "clean": 6232,
-          "mart": 3328
+          "clean": 6236,
+          "mart": 3332
         },
         "output_bytes": {
-          "raw": 4974756,
-          "clean": 33481,
-          "mart": 25316
+          "raw": 4979627,
+          "clean": 33738,
+          "mart": 25303
         },
-        "started_at": "2026-10-02T14:36:54.250880+00:00",
-        "finished_at": "2026-10-02T14:37:00.383578+00:00",
-        "duration_seconds": 6.133
+        "started_at": "2026-10-07T09:31:27.652858+00:00",
+        "finished_at": "2026-10-07T09:31:31.480341+00:00",
+        "duration_seconds": 3.827
       }
     },
     {
@@ -1344,7 +1763,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143700Z_530f61a3",
+        "run_id": "20261007T093131Z_8b4b7324",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1353,17 +1772,17 @@
           "mart": 100
         },
         "output_rows": {
-          "clean": 153295,
-          "mart": 153295
+          "clean": 153453,
+          "mart": 153453
         },
         "output_bytes": {
-          "raw": 4974756,
-          "clean": 3344218,
-          "mart": 3337558
+          "raw": 4979627,
+          "clean": 3344384,
+          "mart": 3342855
         },
-        "started_at": "2026-10-02T14:37:00.750979+00:00",
-        "finished_at": "2026-10-02T14:37:38.406445+00:00",
-        "duration_seconds": 37.655
+        "started_at": "2026-10-07T09:31:31.847655+00:00",
+        "finished_at": "2026-10-07T09:31:52.159724+00:00",
+        "duration_seconds": 20.312
       }
     },
     {
@@ -1374,7 +1793,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143436Z_d6346392",
+        "run_id": "20261007T093012Z_2417d8f8",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1387,13 +1806,13 @@
           "mart": 1400
         },
         "output_bytes": {
-          "raw": 4974756,
+          "raw": 4979627,
           "clean": 41626,
-          "mart": 13914
+          "mart": 13920
         },
-        "started_at": "2026-10-02T14:34:36.168923+00:00",
-        "finished_at": "2026-10-02T14:34:39.672242+00:00",
-        "duration_seconds": 3.503
+        "started_at": "2026-10-07T09:30:12.867782+00:00",
+        "finished_at": "2026-10-07T09:30:14.821689+00:00",
+        "duration_seconds": 1.954
       }
     },
     {
@@ -1404,7 +1823,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143440Z_78eb51c7",
+        "run_id": "20261007T093015Z_286c8868",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1413,17 +1832,17 @@
           "mart": 100
         },
         "output_rows": {
-          "clean": 269264,
-          "mart": 38013
+          "clean": 269313,
+          "mart": 38034
         },
         "output_bytes": {
-          "raw": 4974756,
-          "clean": 2401648,
-          "mart": 353720
+          "raw": 4979627,
+          "clean": 2401166,
+          "mart": 356596
         },
-        "started_at": "2026-10-02T14:34:40.043408+00:00",
-        "finished_at": "2026-10-02T14:36:46.906062+00:00",
-        "duration_seconds": 126.863
+        "started_at": "2026-10-07T09:30:15.197063+00:00",
+        "finished_at": "2026-10-07T09:31:23.067829+00:00",
+        "duration_seconds": 67.871
       }
     },
     {
@@ -1434,7 +1853,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143738Z_818c4bd9",
+        "run_id": "20261007T093152Z_d6f63a24",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1443,17 +1862,17 @@
           "mart": 100
         },
         "output_rows": {
-          "clean": 738045,
-          "mart": 160992
+          "clean": 738128,
+          "mart": 161152
         },
         "output_bytes": {
-          "raw": 4974756,
-          "clean": 5193923,
-          "mart": 4524158
+          "raw": 4979627,
+          "clean": 5207860,
+          "mart": 4526879
         },
-        "started_at": "2026-10-02T14:37:38.836402+00:00",
-        "finished_at": "2026-10-02T14:37:42.548664+00:00",
-        "duration_seconds": 3.712
+        "started_at": "2026-10-07T09:31:52.827904+00:00",
+        "finished_at": "2026-10-07T09:31:55.280646+00:00",
+        "duration_seconds": 2.453
       }
     },
     {
@@ -1464,7 +1883,7 @@
       "detail": "anni 2022-2025 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143028Z_7761812a",
+        "run_id": "20261007T092757Z_2f5b9122",
         "year": 2025,
         "status": "SUCCESS",
         "quality_score": {
@@ -1480,11 +1899,11 @@
         "output_bytes": {
           "raw": 10784519,
           "clean": 3172301,
-          "mart": 115596
+          "mart": 115331
         },
-        "started_at": "2026-10-02T14:30:28.550135+00:00",
-        "finished_at": "2026-10-02T14:30:48.321728+00:00",
-        "duration_seconds": 19.772
+        "started_at": "2026-10-07T09:27:57.739011+00:00",
+        "finished_at": "2026-10-07T09:28:06.425986+00:00",
+        "duration_seconds": 8.687
       }
     },
     {
@@ -1495,7 +1914,7 @@
       "detail": "anno 2023 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T143048Z_aee5bce6",
+        "run_id": "20261007T092806Z_2e1e65d6",
         "year": 2023,
         "status": "SUCCESS",
         "quality_score": {
@@ -1512,9 +1931,40 @@
           "clean": 5700,
           "mart": 7266
         },
-        "started_at": "2026-10-02T14:30:48.790599+00:00",
-        "finished_at": "2026-10-02T14:30:49.296671+00:00",
-        "duration_seconds": 0.506
+        "started_at": "2026-10-07T09:28:06.905188+00:00",
+        "finished_at": "2026-10-07T09:28:07.402707+00:00",
+        "duration_seconds": 0.498
+      }
+    },
+    {
+      "id": "open_cooperazione",
+      "source_id": "open_cooperazione",
+      "status": "ok",
+      "label": "open_cooperazione",
+      "detail": "anno 2026 — mart: si",
+      "action": "",
+      "run": {
+        "run_id": "20261007T092807Z_2c59d25f",
+        "year": 2026,
+        "status": "SUCCESS",
+        "quality_score": {
+          "raw": 100,
+          "clean": 100,
+          "mart": 100
+        },
+        "output_rows": {
+          "raw": 1703,
+          "clean": 1703,
+          "mart": 1952
+        },
+        "output_bytes": {
+          "raw": 1936141,
+          "clean": 154666,
+          "mart": 181717
+        },
+        "started_at": "2026-10-07T09:28:07.854561+00:00",
+        "finished_at": "2026-10-07T09:28:13.161677+00:00",
+        "duration_seconds": 5.307
       }
     },
     {
@@ -1525,7 +1975,7 @@
       "detail": "anno 2026 — mart: si",
       "action": "",
       "run": {
-        "run_id": "20261002T142821Z_50b7e6ea",
+        "run_id": "20261007T092602Z_9ad10576",
         "year": 2026,
         "status": "SUCCESS",
         "quality_score": {
@@ -1534,17 +1984,17 @@
           "mart": 100
         },
         "output_rows": {
-          "clean": 153295,
+          "clean": 153453,
           "mart": 7
         },
         "output_bytes": {
-          "raw": 12870593,
-          "clean": 4974756,
+          "raw": 12884982,
+          "clean": 4979627,
           "mart": 1156
         },
-        "started_at": "2026-10-02T14:28:21.111154+00:00",
-        "finished_at": "2026-10-02T14:29:49.826460+00:00",
-        "duration_seconds": 88.715
+        "started_at": "2026-10-07T09:26:02.913497+00:00",
+        "finished_at": "2026-10-07T09:27:27.956229+00:00",
+        "duration_seconds": 85.043
       }
     }
   ],
@@ -1643,6 +2093,12 @@
             "semantic_type": "fiscal_code"
           },
           {
+            "slug": "open_cooperazione",
+            "name": "Open Cooperazione",
+            "column": "codice_fiscale",
+            "semantic_type": "fiscal_code"
+          },
+          {
             "slug": "runts",
             "name": "Runts",
             "column": "codice_fiscale",
@@ -1650,7 +2106,7 @@
           }
         ],
         "types": {
-          "fiscal_code": 10
+          "fiscal_code": 11
         }
       },
       "Obiettivo": {
@@ -1712,6 +2168,12 @@
             "semantic_type": "province_code"
           },
           {
+            "slug": "open_cooperazione",
+            "name": "Open Cooperazione",
+            "column": "provincia",
+            "semantic_type": "province_code"
+          },
+          {
             "slug": "runts",
             "name": "Runts",
             "column": "provincia",
@@ -1719,7 +2181,7 @@
           }
         ],
         "types": {
-          "province_code": 5
+          "province_code": 6
         }
       },
       "Regione": {
