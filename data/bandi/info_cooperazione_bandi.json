@@ -1,8 +1,49 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-10-05T17:03:43.142944",
-  "totale": 28,
+  "scraped_at": "2026-10-12T17:42:16.879118",
+  "totale": 29,
   "bandi": [
+    {
+      "titolo": "Bando Global Fund 2026",
+      "url": "https://www.info-cooperazione.it/2026/10/bando-global-fund-2026",
+      "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato l'Avviso Global Fund 2026, una procedura comparativa pubblica destinata alle Organizzazioni della Società Civile (OSC) italiane per il finanziamento di iniziative sinergiche con il Fondo Globale per la lotta all'AIDS, alla Tubercolosi e alla Malaria.\r\nIl bando nasce nell'ambito del contributo triennale dell'Italia al Fondo Globale",
+      "scadenza": "12 gennaio 2027",
+      "scaduto": false,
+      "donatore": "AICS",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/global_fund_malaria-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "locale",
+        "Europa"
+      ],
+      "tags": [
+        "disabilità",
+        "cultura",
+        "donne",
+        "salute",
+        "lavoro"
+      ]
+    },
+    {
+      "titolo": "Bando umanitario dell'8x1000 Buddista",
+      "url": "https://www.info-cooperazione.it/2026/10/bando-umanitario-dell8x1000-buddista-491dad3b",
+      "descrizione": "Torna anche nel 2026 il Bando Umanitario dell'Unione Buddhista Italiana (U.B.I.), che ogni anno destina una parte dei fondi ricevuti attraverso le scelte dell'8 per mille dell'IRPEF a interventi culturali, sociali e umanitari in Italia e all'estero. Il bando sostiene progetti riconducibili a due macro-aree tematiche, ispirate ai valori buddhisti di compassione, interdipendenza e cura",
+      "scadenza": "22 ottobre 2026",
+      "scaduto": false,
+      "donatore": "UBI",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2022/04/home_flag-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "giovani",
+        "salute",
+        "lavoro",
+        "educazione"
+      ]
+    },
     {
       "titolo": "Bando straordinario dell'8x1000 statale per cultura e scienza",
       "url": "https://www.info-cooperazione.it/2026/10/bando-straordinario-dell8x1000-statale-per-cultura-e-scienza",
@@ -16,11 +57,10 @@
         "Europa"
       ],
       "tags": [
+        "sport",
         "cultura",
         "minori",
-        "donne",
-        "lavoro",
-        "educazione"
+        "lavoro"
       ]
     },
     {
@@ -40,6 +80,7 @@
       "tags": [
         "cultura",
         "giovani",
+        "donne",
         "lavoro",
         "educazione"
       ]
@@ -57,18 +98,17 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
+        "cultura",
         "donne",
         "lavoro",
-        "digitale",
-        "inclusione"
+        "digitale"
       ]
     },
     {
       "titolo": "Progettazione, partenariati e accesso alle opportunità UE",
       "url": "https://www.info-cooperazione.it/2026/9/progettazione-partenariati-e-accesso-alle-opportunita-ue",
       "descrizione": "Il programma Innovazione per lo Sviluppo, di Fondazione Cariplo e Fondazione Compagnia di Sanpaolo, presenta una nuova misura che rafforza progettazione, partenariati e accesso alle opportunità UE con un’attenzione trasversale ai temi dell’innovazione rivolta alle Organizzazioni della Società Civile italiane che operano nella cooperazione internazionale allo sviluppo.\r\nLa misura Focus Europa che nasce da un’esigenza concreta emersa direttamente dalle",
-      "scadenza": "31 dicembre 2026",
+      "scadenza": "13 novembre 2026",
       "scaduto": false,
       "donatore": "Innovazione per lo Sviluppo",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/focus_europa-cover2-120x120.png",
@@ -77,9 +117,10 @@
         "Europa"
       ],
       "tags": [
-        "minori",
+        "cultura",
         "lavoro",
-        "digitale"
+        "digitale",
+        "ricerca"
       ]
     },
     {
@@ -92,10 +133,11 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg",
       "territorio": [
         "nazionale",
+        "locale",
         "Europa"
       ],
       "tags": [
-        "giovani",
+        "donne",
         "lavoro"
       ]
     },
@@ -116,8 +158,8 @@
         "cultura",
         "giovani",
         "donne",
+        "salute",
         "lavoro",
-        "educazione",
         "ricerca",
         "inclusione"
       ]
@@ -136,12 +178,12 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "cultura",
         "giovani",
         "donne",
         "lavoro",
         "ricerca",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -163,11 +205,10 @@
         "giovani",
         "minori",
         "donne",
-        "migranti",
         "salute",
         "lavoro",
         "educazione",
-        "inclusione"
+        "volontariato"
       ]
     },
     {
@@ -185,7 +226,8 @@
       "tags": [
         "disabilità",
         "giovani",
-        "lavoro"
+        "lavoro",
+        "educazione"
       ]
     },
     {
@@ -201,7 +243,7 @@
         "Europa"
       ],
       "tags": [
-        "donne",
+        "salute",
         "lavoro",
         "volontariato"
       ]
@@ -221,7 +263,6 @@
       "tags": [
         "cultura",
         "donne",
-        "migranti",
         "salute",
         "lavoro",
         "ricerca"
@@ -255,9 +296,11 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/connecting_power-120x120.png",
       "territorio": [
         "nazionale",
+        "locale",
         "Europa"
       ],
       "tags": [
+        "cultura",
         "donne",
         "lavoro"
       ]
@@ -276,33 +319,8 @@
       ],
       "tags": [
         "sport",
-        "minori",
         "migranti",
         "lavoro"
-      ]
-    },
-    {
-      "titolo": "Emilia Romagna per la parità di genere e contrasto alla violenza sulle donne",
-      "url": "https://www.info-cooperazione.it/2026/8/emilia-romagna-per-parita-di-genere-e-contrasto-alla-violenza-sulle-donne",
-      "descrizione": "La Regione Emilia-Romagna ha aperto un bando da 2,7 milioni di euro per finanziare progetti di promozione della parità di genere, contrasto alle discriminazioni e prevenzione della violenza maschile sulle donne. Si tratta della nuova edizione di un programma già consolidato: nella precedente tornata 2025-2026 erano stati sostenuti 103 progetti con le stesse risorse, molti",
-      "scadenza": "06 ottobre 2026",
-      "scaduto": false,
-      "donatore": "Regione Emilia Romagna",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2023/11/scarpe-contro-la-violenza-delle-donne-120x120.jpeg",
-      "territorio": [
-        "nazionale",
-        "regionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "giovani",
-        "donne",
-        "migranti",
-        "salute",
-        "lavoro",
-        "educazione",
-        "volontariato"
       ]
     },
     {
@@ -319,7 +337,9 @@
       ],
       "tags": [
         "cultura",
+        "giovani",
         "lavoro",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -339,6 +359,7 @@
       "tags": [
         "disabilità",
         "cultura",
+        "minori",
         "donne",
         "lavoro",
         "educazione",
@@ -360,6 +381,7 @@
       ],
       "tags": [
         "disabilità",
+        "cultura",
         "lavoro",
         "educazione",
         "inclusione"
@@ -399,7 +421,6 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
         "lavoro"
       ]
     },
@@ -413,17 +434,17 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/05/strumento_co_fin_cariplo-120x120.png",
       "territorio": [
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
-        "disabilità",
+        "sport",
         "cultura",
         "ambiente",
+        "donne",
         "lavoro",
+        "educazione",
         "digitale",
         "ricerca",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -463,7 +484,6 @@
         "Europa"
       ],
       "tags": [
-        "sport",
         "lavoro",
         "digitale",
         "inclusione"
@@ -484,7 +504,8 @@
       "tags": [
         "cultura",
         "lavoro",
-        "digitale"
+        "digitale",
+        "ricerca"
       ]
     },
     {
@@ -498,14 +519,15 @@
       "territorio": [
         "nazionale",
         "regionale",
+        "locale",
         "Europa"
       ],
       "tags": [
-        "ambiente",
+        "giovani",
         "minori",
+        "salute",
         "lavoro",
-        "educazione",
-        "ricerca"
+        "volontariato"
       ]
     },
     {
@@ -541,11 +563,8 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
-        "donne",
-        "lavoro",
-        "educazione",
-        "inclusione"
+        "salute",
+        "lavoro"
       ]
     },
     {
@@ -563,7 +582,8 @@
       "tags": [
         "minori",
         "lavoro",
-        "educazione"
+        "educazione",
+        "ricerca"
       ]
     }
   ]
