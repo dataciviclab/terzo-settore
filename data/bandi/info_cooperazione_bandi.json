@@ -1,8 +1,46 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-10-12T17:42:16.879118",
+  "scraped_at": "2026-10-19T15:29:34.891987",
   "totale": 29,
   "bandi": [
+    {
+      "titolo": "Programma contro la violenza sui minori in Italia e Senegal",
+      "url": "https://www.info-cooperazione.it/2026/10/programma-contro-la-violenza-sui-minori-in-italia-e-senegal",
+      "descrizione": "La Fondazione AXA for Human Progress ha aperto la seconda edizione del programma internazionale “Tackling Violence Against Children”, un’iniziativa pluriennale destinata a organizzazioni non profit impegnate nella prevenzione, nel rilevamento e nel sostegno alle vittime di violenza minorile. \r\nI dati dell’Organizzazione Mondiale della Sanità sono allarmanti: un bambino su due nel mondo — circa un miliardo",
+      "scadenza": "30 novembre 2026",
+      "scaduto": false,
+      "donatore": "Fondazione AXA for Human Progress",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/bando_axa-120x120.png",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "minori",
+        "donne",
+        "salute",
+        "lavoro",
+        "educazione",
+        "ricerca"
+      ]
+    },
+    {
+      "titolo": "Bando AICS per interventi umanitari multisettoriali in Afghanistan",
+      "url": "https://www.info-cooperazione.it/2026/10/bando-aics-per-interventi-umanitari-multisettoriali-in-afghanistan",
+      "descrizione": "L’Agenzia italiana per la cooperazione allo sviluppo (AICS) — attraverso la sua Sede di Islamabad — ha pubblicato una nuova Call for Proposals destinata a organizzazioni della società civile per interventi di emergenza in Afghanistan. Le risorse disponibili ammontano complessivamente a 11 milioni di euro, suddivisi in due lotti, nell’ambito di due iniziative bilaterali di",
+      "scadenza": "15 novembre 2026",
+      "scaduto": false,
+      "donatore": "AICS",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2024/10/emergenza-afghanistan-120x120.png",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "salute",
+        "lavoro"
+      ]
+    },
     {
       "titolo": "Bando Global Fund 2026",
       "url": "https://www.info-cooperazione.it/2026/10/bando-global-fund-2026",
@@ -18,7 +56,7 @@
       ],
       "tags": [
         "disabilità",
-        "cultura",
+        "minori",
         "donne",
         "salute",
         "lavoro"
@@ -38,6 +76,7 @@
       ],
       "tags": [
         "cultura",
+        "ambiente",
         "giovani",
         "salute",
         "lavoro",
@@ -57,7 +96,6 @@
         "Europa"
       ],
       "tags": [
-        "sport",
         "cultura",
         "minori",
         "lavoro"
@@ -80,7 +118,6 @@
       "tags": [
         "cultura",
         "giovani",
-        "donne",
         "lavoro",
         "educazione"
       ]
@@ -98,7 +135,6 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
         "donne",
         "lavoro",
         "digitale"
@@ -119,8 +155,7 @@
       "tags": [
         "cultura",
         "lavoro",
-        "digitale",
-        "ricerca"
+        "digitale"
       ]
     },
     {
@@ -133,35 +168,11 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
-        "donne",
-        "lavoro"
-      ]
-    },
-    {
-      "titolo": "IFAD per la trasformazione dei sistemi alimentari nel Sahel",
-      "url": "https://www.info-cooperazione.it/2026/9/ifad-per-la-trasformazione-dei-sistemi-alimentari-nel-sahel",
-      "descrizione": "L'International Fund for Agricultural Development (IFAD) ha lanciato una Call for Proposals da 2 milioni di dollari per sostenere iniziative trasformative nei sistemi alimentari del Sahel Centrale. Il bando regionale è rivolto a organizzazioni, agenzie governative, soggetti del settore privato, istituti di ricerca e consorzi che intendano implementare interventi innovativi per rafforzare la sicurezza alimentare,",
-      "scadenza": "16 ottobre 2026",
-      "scaduto": false,
-      "donatore": "IFAD",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/ifad_call-120x120.png",
-      "territorio": [
-        "nazionale",
-        "regionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "giovani",
-        "donne",
-        "salute",
         "lavoro",
-        "ricerca",
-        "inclusione"
+        "ricerca"
       ]
     },
     {
@@ -178,9 +189,10 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
         "cultura",
+        "ambiente",
         "giovani",
+        "minori",
         "donne",
         "lavoro",
         "ricerca",
@@ -207,26 +219,6 @@
         "donne",
         "salute",
         "lavoro",
-        "educazione",
-        "volontariato"
-      ]
-    },
-    {
-      "titolo": "Bando POP per Piccole Organizzazioni Protagoniste",
-      "url": "https://www.info-cooperazione.it/2026/9/bando-pop-per-piccole-organizzazioni-protagoniste",
-      "descrizione": "Fondazione Unipolis ETS ha aperto le candidature per il bando POP — Piccole Organizzazioni Protagoniste, con una dotazione complessiva di 300.000 euro destinata a sostenere organizzazioni non profit giovani e di piccole e medie dimensioni in un percorso strutturato di consolidamento e crescita. Il bando si distingue nettamente da quelli tradizionali: non finanzia singoli progetti",
-      "scadenza": "15 ottobre 2026",
-      "scaduto": false,
-      "donatore": "Fondazione Unipolis",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/claudia_form_files_pop1-6a9fe28d0b079910972306-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "disabilità",
-        "giovani",
-        "lavoro",
         "educazione"
       ]
     },
@@ -243,7 +235,7 @@
         "Europa"
       ],
       "tags": [
-        "salute",
+        "minori",
         "lavoro",
         "volontariato"
       ]
@@ -262,6 +254,7 @@
       ],
       "tags": [
         "cultura",
+        "minori",
         "donne",
         "salute",
         "lavoro",
@@ -296,11 +289,9 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/connecting_power-120x120.png",
       "territorio": [
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
-        "cultura",
         "donne",
         "lavoro"
       ]
@@ -319,6 +310,8 @@
       ],
       "tags": [
         "sport",
+        "cultura",
+        "ambiente",
         "migranti",
         "lavoro"
       ]
@@ -337,9 +330,7 @@
       ],
       "tags": [
         "cultura",
-        "giovani",
         "lavoro",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -359,7 +350,7 @@
       "tags": [
         "disabilità",
         "cultura",
-        "minori",
+        "ambiente",
         "donne",
         "lavoro",
         "educazione",
@@ -381,7 +372,8 @@
       ],
       "tags": [
         "disabilità",
-        "cultura",
+        "donne",
+        "salute",
         "lavoro",
         "educazione",
         "inclusione"
@@ -401,7 +393,6 @@
       ],
       "tags": [
         "disabilità",
-        "cultura",
         "minori",
         "donne",
         "lavoro",
@@ -421,6 +412,7 @@
         "Europa"
       ],
       "tags": [
+        "cultura",
         "lavoro"
       ]
     },
@@ -440,9 +432,7 @@
         "sport",
         "cultura",
         "ambiente",
-        "donne",
         "lavoro",
-        "educazione",
         "digitale",
         "ricerca",
         "inclusione"
@@ -504,8 +494,7 @@
       "tags": [
         "cultura",
         "lavoro",
-        "digitale",
-        "ricerca"
+        "digitale"
       ]
     },
     {
@@ -519,15 +508,12 @@
       "territorio": [
         "nazionale",
         "regionale",
-        "locale",
         "Europa"
       ],
       "tags": [
-        "giovani",
+        "cultura",
         "minori",
-        "salute",
-        "lavoro",
-        "volontariato"
+        "lavoro"
       ]
     },
     {
@@ -543,6 +529,9 @@
         "Europa"
       ],
       "tags": [
+        "sport",
+        "giovani",
+        "donne",
         "lavoro",
         "educazione",
         "digitale",
@@ -563,7 +552,6 @@
         "Europa"
       ],
       "tags": [
-        "salute",
         "lavoro"
       ]
     },
@@ -582,8 +570,7 @@
       "tags": [
         "minori",
         "lavoro",
-        "educazione",
-        "ricerca"
+        "educazione"
       ]
     }
   ]
