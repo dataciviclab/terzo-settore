@@ -1,8 +1,63 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-10-19T15:29:34.891987",
+  "scraped_at": "2026-10-26T15:05:33.091746",
   "totale": 29,
   "bandi": [
+    {
+      "titolo": "15 milioni dal FAMI per i Rimpatri Volontari Assistiti",
+      "url": "https://www.info-cooperazione.it/2026/10/15-milioni-dal-fami-per-i-rimpatri-volontari-assistiti",
+      "descrizione": "Il Dipartimento per le Libertà Civili e l’Immigrazione ha pubblicato un avviso pubblico per la selezione di un unico progetto nazionale nell’ambito delle misure di Rimpatrio Volontario Assistito e Reintegrazione (RVA&R), finanziato con 15 milioni di euro a valere sul Fondo Asilo, Migrazione e Integrazione (FAMI) 2021-2027.\r\nCosa sono i rimpatri volontari\r\nIl Rimpatrio Volontario Assistito e",
+      "scadenza": "18 novembre 2026",
+      "scaduto": false,
+      "donatore": "Fondo FAMI",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/rva_fami-120x120.png",
+      "territorio": [
+        "nazionale",
+        "regionale",
+        "Europa"
+      ],
+      "tags": [
+        "sport",
+        "lavoro"
+      ]
+    },
+    {
+      "titolo": "UNEP Small Grants Programme",
+      "url": "https://www.info-cooperazione.it/2026/10/unep-small-grants-programme",
+      "descrizione": "L’UNEP ha aperto la nuova edizione del suo Small Grants Programme (SGP), una Call for Proposals dedicata a iniziative innovative di comunità per la conservazione, il ripristino e l’uso sostenibile degli ecosistemi marini e costieri. \r\nLe coste del pianeta e i fondali marini sono sotto pressione crescente: la perdita di mangrovie, praterie di posidonia e barriere",
+      "scadenza": "02 novembre 2026",
+      "scaduto": false,
+      "donatore": "UNEP",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/mangrove4-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "giovani",
+        "donne",
+        "lavoro",
+        "ricerca"
+      ]
+    },
+    {
+      "titolo": "Global EbA Fund per progetti di adattamento climatico",
+      "url": "https://www.info-cooperazione.it/2026/10/global-eba-fund-per-progetti-di-adattamento-climatico",
+      "descrizione": "Il Global EbA Fund — meccanismo internazionale promosso da IUCN e UNEP — ha aperto la sua Medium-size Grants Call for Proposals, mettendo a disposizione grant fino a 500.000 dollari per progetto per iniziative che promuovano l’adattamento al cambiamento climatico attraverso soluzioni basate sugli ecosistemi (Ecosystem-based Adaptation, EbA). L’adattamento basato sugli ecosistemi sfrutta la capacità",
+      "scadenza": "16 novembre 2026",
+      "scaduto": false,
+      "donatore": "Global EbA Fund",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/eba-fund-iucn-unep-120x120.png",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "ambiente",
+        "lavoro"
+      ]
+    },
     {
       "titolo": "Programma contro la violenza sui minori in Italia e Senegal",
       "url": "https://www.info-cooperazione.it/2026/10/programma-contro-la-violenza-sui-minori-in-italia-e-senegal",
@@ -17,7 +72,6 @@
       ],
       "tags": [
         "minori",
-        "donne",
         "salute",
         "lavoro",
         "educazione",
@@ -37,6 +91,7 @@
         "Europa"
       ],
       "tags": [
+        "ambiente",
         "salute",
         "lavoro"
       ]
@@ -56,31 +111,10 @@
       ],
       "tags": [
         "disabilità",
-        "minori",
         "donne",
         "salute",
-        "lavoro"
-      ]
-    },
-    {
-      "titolo": "Bando umanitario dell'8x1000 Buddista",
-      "url": "https://www.info-cooperazione.it/2026/10/bando-umanitario-dell8x1000-buddista-491dad3b",
-      "descrizione": "Torna anche nel 2026 il Bando Umanitario dell'Unione Buddhista Italiana (U.B.I.), che ogni anno destina una parte dei fondi ricevuti attraverso le scelte dell'8 per mille dell'IRPEF a interventi culturali, sociali e umanitari in Italia e all'estero. Il bando sostiene progetti riconducibili a due macro-aree tematiche, ispirate ai valori buddhisti di compassione, interdipendenza e cura",
-      "scadenza": "22 ottobre 2026",
-      "scaduto": false,
-      "donatore": "UBI",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2022/04/home_flag-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "ambiente",
-        "giovani",
-        "salute",
         "lavoro",
-        "educazione"
+        "ricerca"
       ]
     },
     {
@@ -137,7 +171,8 @@
       "tags": [
         "donne",
         "lavoro",
-        "digitale"
+        "digitale",
+        "ricerca"
       ]
     },
     {
@@ -153,7 +188,7 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
+        "salute",
         "lavoro",
         "digitale"
       ]
@@ -171,8 +206,8 @@
         "Europa"
       ],
       "tags": [
-        "lavoro",
-        "ricerca"
+        "ambiente",
+        "lavoro"
       ]
     },
     {
@@ -190,9 +225,7 @@
       ],
       "tags": [
         "cultura",
-        "ambiente",
         "giovani",
-        "minori",
         "donne",
         "lavoro",
         "ricerca",
@@ -223,45 +256,6 @@
       ]
     },
     {
-      "titolo": "Fondo nazionale per il Terzo Settore 2026",
-      "url": "https://www.info-cooperazione.it/2026/9/fondo-nazionale-per-il-terzo-settore-2026",
-      "descrizione": "Il Ministero del Lavoro e delle Politiche Sociali ha pubblicato l'Avviso 2/2026 per il finanziamento di progetti e attività di interesse generale del Terzo Settore a rilevanza nazionale. Con una dotazione complessiva di 10.533.994,88 euro — di cui 8,4 milioni sull'annualità 2026 e 2,1 milioni sull'annualità 2028 — il bando attua le previsioni dell'articolo 72",
-      "scadenza": "22 ottobre 2026",
-      "scaduto": false,
-      "donatore": "Ministero del lavoro e delle politiche sociali",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2020/06/ets-bando-lets-go-cariplo-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "minori",
-        "lavoro",
-        "volontariato"
-      ]
-    },
-    {
-      "titolo": "Bando \"Progetti oltre gli stereotipi\" per piccole e medie associazioni",
-      "url": "https://www.info-cooperazione.it/2026/9/bando-progetti-oltre-gli-stereotipi-per-piccole-e-medie-associazioni",
-      "descrizione": "AIDOS — Associazione Italiana Donne per lo Sviluppo ETS ha aperto le candidature per il bando \"Progetti oltre gli stereotipi\", rivolto ad associazioni piccole e medie attive nella promozione della giustizia di genere in Italia. Il bando si inserisce nella seconda fase del progetto POSTER — Pratiche oltre gli stereotipi (2026-2029) e mette a disposizione",
-      "scadenza": "25 ottobre 2026",
-      "scaduto": false,
-      "donatore": "AIDOS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/poster_aidos-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "minori",
-        "donne",
-        "salute",
-        "lavoro",
-        "ricerca"
-      ]
-    },
-    {
       "titolo": "Bando Corno d'Africa della Regione Piemonte",
       "url": "https://www.info-cooperazione.it/2026/9/bando-corno-dafrica-della-regione-piemonte",
       "descrizione": "La Regione Piemonte ha aperto il Bando Corno d'Africa 2026, rivolto alle organizzazioni della società civile piemontesi che operano in Kenya a sostegno di iniziative di cooperazione internazionale allo sviluppo. Il bando si inserisce nel quadro del Documento triennale di programmazione 2024-2026 del MAECI e privilegia interventi che migliorino l'accesso ai servizi di base, con particolare",
@@ -276,7 +270,9 @@
         "Europa"
       ],
       "tags": [
-        "lavoro"
+        "ambiente",
+        "lavoro",
+        "volontariato"
       ]
     },
     {
@@ -292,8 +288,10 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "donne",
-        "lavoro"
+        "lavoro",
+        "inclusione"
       ]
     },
     {
@@ -310,8 +308,6 @@
       ],
       "tags": [
         "sport",
-        "cultura",
-        "ambiente",
         "migranti",
         "lavoro"
       ]
@@ -330,7 +326,9 @@
       ],
       "tags": [
         "cultura",
+        "donne",
         "lavoro",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -350,7 +348,6 @@
       "tags": [
         "disabilità",
         "cultura",
-        "ambiente",
         "donne",
         "lavoro",
         "educazione",
@@ -372,8 +369,6 @@
       ],
       "tags": [
         "disabilità",
-        "donne",
-        "salute",
         "lavoro",
         "educazione",
         "inclusione"
@@ -389,10 +384,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando-daphne-2025-120x120.png",
       "territorio": [
         "nazionale",
+        "locale",
         "Europa"
       ],
       "tags": [
         "disabilità",
+        "cultura",
         "minori",
         "donne",
         "lavoro",
@@ -429,12 +426,12 @@
         "Europa"
       ],
       "tags": [
-        "sport",
         "cultura",
         "ambiente",
         "lavoro",
         "digitale",
         "ricerca",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -474,6 +471,7 @@
         "Europa"
       ],
       "tags": [
+        "ambiente",
         "lavoro",
         "digitale",
         "inclusione"
@@ -511,7 +509,6 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
         "minori",
         "lavoro"
       ]
@@ -530,12 +527,12 @@
       ],
       "tags": [
         "sport",
-        "giovani",
-        "donne",
+        "cultura",
         "lavoro",
         "educazione",
         "digitale",
         "ricerca",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -549,9 +546,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/AICS-arcobaleno-120x120.png",
       "territorio": [
         "nazionale",
+        "locale",
         "Europa"
       ],
       "tags": [
+        "giovani",
+        "minori",
         "lavoro"
       ]
     },
