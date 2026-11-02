@@ -1,8 +1,90 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-10-26T15:05:33.091746",
-  "totale": 29,
+  "scraped_at": "2026-11-02T18:09:13.062375",
+  "totale": 31,
   "bandi": [
+    {
+      "titolo": "I Corpi Civili di Pace cercano 82 giovani",
+      "url": "https://www.info-cooperazione.it/2026/10/i-corpi-civili-di-pace-cercano-82-giovani",
+      "descrizione": "Ottantadue posti, diciassette progetti all’estero, quindici paesi in quattro continenti. È aperto il bando 2026 per i Corpi Civili di Pace, il programma del Dipartimento per le Politiche Giovanili che porta giovani italiani ed europei a operare in zone di conflitto, contesti post-bellici e aree di emergenza ambientale.\r\nUn’idea nata dieci anni fa, che prende sempre",
+      "scadenza": "04 dicembre 2026",
+      "scaduto": false,
+      "donatore": "Dipartimento per le Politiche Giovanili",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2024/11/corpi-civili-pace-bando-2024-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "locale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "giovani",
+        "migranti",
+        "lavoro",
+        "educazione",
+        "ricerca",
+        "volontariato"
+      ]
+    },
+    {
+      "titolo": "CERV Valori UE: 114 milioni per le organizzazioni della società civile",
+      "url": "https://www.info-cooperazione.it/2026/10/cerv-valori-ue-114-milioni-per-le-organizzazioni-della-societa-civile",
+      "descrizione": "La Commissione europea ha lanciato un nuovo ciclo di finanziamenti nell’ambito del programma CERV (Citizens, Equality, Rights and Values) dedicato alle organizzazioni della società civile attive nella promozione e nella protezione dei valori dell’Unione. La dotazione complessiva ammonta a 114 milioni di euro, gestiti dall’Agenzia Esecutiva per l’Istruzione e la Cultura (EACEA).\r\nUn programma per chi",
+      "scadenza": "24 febbraio 2027",
+      "scaduto": false,
+      "donatore": "Commissione Europea",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/cev_values_2026-120x120.png",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "giovani",
+        "lavoro",
+        "educazione",
+        "ricerca"
+      ]
+    },
+    {
+      "titolo": "1,8 milioni per la formazione degli insegnanti in Africa",
+      "url": "https://www.info-cooperazione.it/2026/10/18-milioni-per-la-formazione-degli-insegnanti-in-africa",
+      "descrizione": "Enabel, l’agenzia belga per la cooperazione allo sviluppo, ha aperto un bando da 1,8 milioni di euro rivolto a organizzazioni che hanno sviluppato e testato soluzioni innovative per la formazione degli insegnanti in Africa sub-sahariana. L’obiettivo non è finanziare nuovi progetti da zero, ma accelerare la scalabilità, l’apprendimento e la sostenibilità di interventi già dimostratisi",
+      "scadenza": "06 dicembre 2026",
+      "scaduto": false,
+      "donatore": "Enabel",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/11/insegnate_africa-120x120.png",
+      "territorio": [
+        "nazionale",
+        "regionale",
+        "Europa"
+      ],
+      "tags": [
+        "giovani",
+        "minori",
+        "donne",
+        "lavoro"
+      ]
+    },
+    {
+      "titolo": "Crisi umanitaria e ambientale in Somalia",
+      "url": "https://www.info-cooperazione.it/2026/10/crisi-umanitaria-e-ambientale-in-somalia",
+      "descrizione": "La Sede di Nairobi dell’Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato una Call for Proposals per finanziare interventi di emergenza in Somalia nell’ambito dell’iniziativa AID 013591/01/0. Le risorse disponibili ammontano a 3,75 milioni di euro distribuiti su due lotti geografici, con una durata massima dei progetti di 24 mesi.\r\nSomalia sull’orlo della catastrofe",
+      "scadenza": "11 gennaio 2027",
+      "scaduto": false,
+      "donatore": "AICS",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/Somalia-Crisis-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "ambiente",
+        "giovani",
+        "salute",
+        "lavoro"
+      ]
+    },
     {
       "titolo": "15 milioni dal FAMI per i Rimpatri Volontari Assistiti",
       "url": "https://www.info-cooperazione.it/2026/10/15-milioni-dal-fami-per-i-rimpatri-volontari-assistiti",
@@ -34,11 +116,11 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
         "giovani",
+        "minori",
         "donne",
         "lavoro",
-        "ricerca"
+        "educazione"
       ]
     },
     {
@@ -54,8 +136,10 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "ambiente",
-        "lavoro"
+        "lavoro",
+        "inclusione"
       ]
     },
     {
@@ -91,7 +175,6 @@
         "Europa"
       ],
       "tags": [
-        "ambiente",
         "salute",
         "lavoro"
       ]
@@ -111,10 +194,10 @@
       ],
       "tags": [
         "disabilità",
+        "giovani",
         "donne",
         "salute",
-        "lavoro",
-        "ricerca"
+        "lavoro"
       ]
     },
     {
@@ -171,8 +254,7 @@
       "tags": [
         "donne",
         "lavoro",
-        "digitale",
-        "ricerca"
+        "digitale"
       ]
     },
     {
@@ -188,7 +270,8 @@
         "Europa"
       ],
       "tags": [
-        "salute",
+        "giovani",
+        "donne",
         "lavoro",
         "digitale"
       ]
@@ -203,11 +286,12 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg",
       "territorio": [
         "nazionale",
+        "locale",
         "Europa"
       ],
       "tags": [
-        "ambiente",
-        "lavoro"
+        "lavoro",
+        "ricerca"
       ]
     },
     {
@@ -228,7 +312,9 @@
         "giovani",
         "donne",
         "lavoro",
+        "educazione",
         "ricerca",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -270,9 +356,8 @@
         "Europa"
       ],
       "tags": [
-        "ambiente",
-        "lavoro",
-        "volontariato"
+        "donne",
+        "lavoro"
       ]
     },
     {
@@ -288,10 +373,9 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
+        "giovani",
         "donne",
-        "lavoro",
-        "inclusione"
+        "lavoro"
       ]
     },
     {
@@ -307,16 +391,18 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "sport",
         "migranti",
-        "lavoro"
+        "lavoro",
+        "inclusione"
       ]
     },
     {
       "titolo": "Premio Mattei per rafforzare la cooperazione culturale tra Italia e Africa",
       "url": "https://www.info-cooperazione.it/2026/8/premio-mattei-per-rafforzare-la-cooperazione-culturale-tra-italia-e-africa",
       "descrizione": "Un milione di euro per sostenere progetti culturali e programmi di formazione capaci di rafforzare le relazioni tra l’Italia e i Paesi africani. È la dotazione della prima edizione del Premio Mattei per la cooperazione culturale, promosso dal Ministero della Cultura, di concerto con il Ministero degli Affari Esteri e della Cooperazione Internazionale, nell’ambito dell’attuazione",
-      "scadenza": "31 ottobre 2026",
+      "scadenza": "15 novembre 2026",
       "scaduto": false,
       "donatore": "Ministero della Cultura",
       "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/premio_mattei-120x120.png",
@@ -326,9 +412,7 @@
       ],
       "tags": [
         "cultura",
-        "donne",
         "lavoro",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -351,26 +435,7 @@
         "donne",
         "lavoro",
         "educazione",
-        "ricerca"
-      ]
-    },
-    {
-      "titolo": "17 milioni per le minoranze cristiane in aree di crisi",
-      "url": "https://www.info-cooperazione.it/2026/7/17-milioni-per-le-minoranze-cristiane-in-aree-di-crisi",
-      "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato l'Avviso per il finanziamento di interventi di sostegno alle popolazioni appartenenti a minoranze cristiane in applicazione dell'articolo 1, comma 287, della Legge 145/2018. Con una dotazione complessiva di quasi 17 milioni, il bando è rivolto alle organizzazioni della società civile iscritte all'Elenco AICS ex art.",
-      "scadenza": "30 ottobre 2026",
-      "scaduto": false,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/minoranze_cristiane_bando-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "locale",
-        "Europa"
-      ],
-      "tags": [
-        "disabilità",
-        "lavoro",
-        "educazione",
+        "ricerca",
         "inclusione"
       ]
     },
@@ -384,33 +449,14 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando-daphne-2025-120x120.png",
       "territorio": [
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
         "disabilità",
-        "cultura",
         "minori",
         "donne",
         "lavoro",
         "ricerca"
-      ]
-    },
-    {
-      "titolo": "NEXT MED per il turismo sostenibile",
-      "url": "https://www.info-cooperazione.it/2026/7/next-med-per-il-turismo-sostenibile",
-      "descrizione": "Il Programma Interreg NEXT MED ha pubblicato una nuova Call for Capitalisation Projects sul Turismo Sostenibile, nell'ambito del Interreg Mediterranean Multi-Programme Mechanism (MMM). Con una dotazione finanziaria complessiva di 8,2 milioni di euro, la call è destinata a sostenere progetti che valorizzino e amplifichino i risultati conseguiti da precedenti iniziative di cooperazione nel Mediterraneo in",
-      "scadenza": "29 ottobre 2026",
-      "scaduto": false,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/07/turismo_med-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "lavoro"
       ]
     },
     {
@@ -428,10 +474,10 @@
       "tags": [
         "cultura",
         "ambiente",
+        "salute",
         "lavoro",
         "digitale",
         "ricerca",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -471,9 +517,9 @@
         "Europa"
       ],
       "tags": [
-        "ambiente",
         "lavoro",
         "digitale",
+        "ricerca",
         "inclusione"
       ]
     },
@@ -491,8 +537,11 @@
       ],
       "tags": [
         "cultura",
+        "minori",
+        "donne",
         "lavoro",
-        "digitale"
+        "digitale",
+        "ricerca"
       ]
     },
     {
@@ -526,13 +575,10 @@
         "Europa"
       ],
       "tags": [
-        "sport",
-        "cultura",
         "lavoro",
         "educazione",
         "digitale",
         "ricerca",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -546,13 +592,11 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2023/05/AICS-arcobaleno-120x120.png",
       "territorio": [
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
-        "giovani",
-        "minori",
-        "lavoro"
+        "lavoro",
+        "volontariato"
       ]
     },
     {
@@ -568,9 +612,12 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
+        "giovani",
         "minori",
         "lavoro",
-        "educazione"
+        "educazione",
+        "inclusione"
       ]
     }
   ]
