@@ -1,8 +1,28 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-11-02T18:09:13.062375",
-  "totale": 31,
+  "scraped_at": "2026-11-09T18:38:52.664674",
+  "totale": 28,
   "bandi": [
+    {
+      "titolo": "Localizzazione e selezione con l’AI nel bando della Dana Foundation",
+      "url": "https://www.info-cooperazione.it/2026/11/localizzazione-e-selezione-con-lai-nel-bando-della-dana-foundation",
+      "descrizione": "La Dana Foundation ha aperto il suo Grants Programme 2026 per contributi da 50.000 euro l'anno per tre anni (fino a 150.000 euro per organizzazione) a fondo perduto e senza vincoli di destinazione. Il bando si rivolge a piccole e medie realtà a guida locale che lavorano contro la povertà multidimensionale in Africa, Asia, America",
+      "scadenza": "31 dicembre 2026",
+      "scaduto": false,
+      "donatore": "Dana Foundation",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2023/08/localizzazione-aiuto-donne-120x120.jpeg",
+      "territorio": [
+        "nazionale",
+        "locale",
+        "Europa"
+      ],
+      "tags": [
+        "ambiente",
+        "salute",
+        "lavoro",
+        "inclusione"
+      ]
+    },
     {
       "titolo": "I Corpi Civili di Pace cercano 82 giovani",
       "url": "https://www.info-cooperazione.it/2026/10/i-corpi-civili-di-pace-cercano-82-giovani",
@@ -19,6 +39,7 @@
       "tags": [
         "cultura",
         "giovani",
+        "donne",
         "migranti",
         "lavoro",
         "educazione",
@@ -40,9 +61,7 @@
       ],
       "tags": [
         "cultura",
-        "giovani",
         "lavoro",
-        "educazione",
         "ricerca"
       ]
     },
@@ -61,8 +80,6 @@
       ],
       "tags": [
         "giovani",
-        "minori",
-        "donne",
         "lavoro"
       ]
     },
@@ -80,7 +97,6 @@
       ],
       "tags": [
         "ambiente",
-        "giovani",
         "salute",
         "lavoro"
       ]
@@ -100,27 +116,10 @@
       ],
       "tags": [
         "sport",
-        "lavoro"
-      ]
-    },
-    {
-      "titolo": "UNEP Small Grants Programme",
-      "url": "https://www.info-cooperazione.it/2026/10/unep-small-grants-programme",
-      "descrizione": "L’UNEP ha aperto la nuova edizione del suo Small Grants Programme (SGP), una Call for Proposals dedicata a iniziative innovative di comunità per la conservazione, il ripristino e l’uso sostenibile degli ecosistemi marini e costieri. \r\nLe coste del pianeta e i fondali marini sono sotto pressione crescente: la perdita di mangrovie, praterie di posidonia e barriere",
-      "scadenza": "02 novembre 2026",
-      "scaduto": false,
-      "donatore": "UNEP",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/mangrove4-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "giovani",
-        "minori",
         "donne",
+        "migranti",
         "lavoro",
-        "educazione"
+        "inclusione"
       ]
     },
     {
@@ -136,10 +135,9 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
+        "cultura",
         "ambiente",
-        "lavoro",
-        "inclusione"
+        "lavoro"
       ]
     },
     {
@@ -175,8 +173,11 @@
         "Europa"
       ],
       "tags": [
+        "donne",
+        "migranti",
         "salute",
-        "lavoro"
+        "lavoro",
+        "inclusione"
       ]
     },
     {
@@ -194,7 +195,6 @@
       ],
       "tags": [
         "disabilità",
-        "giovani",
         "donne",
         "salute",
         "lavoro"
@@ -235,6 +235,7 @@
       "tags": [
         "cultura",
         "giovani",
+        "donne",
         "lavoro",
         "educazione"
       ]
@@ -270,8 +271,6 @@
         "Europa"
       ],
       "tags": [
-        "giovani",
-        "donne",
         "lavoro",
         "digitale"
       ]
@@ -286,12 +285,11 @@
       "img": "https://www.info-cooperazione.it/public/Immagini/2013/07/GettyImages-479639674-714x420-120x120.jpg",
       "territorio": [
         "nazionale",
-        "locale",
         "Europa"
       ],
       "tags": [
-        "lavoro",
-        "ricerca"
+        "cultura",
+        "lavoro"
       ]
     },
     {
@@ -312,52 +310,8 @@
         "giovani",
         "donne",
         "lavoro",
-        "educazione",
         "ricerca",
-        "volontariato",
         "inclusione"
-      ]
-    },
-    {
-      "titolo": "12,6 milioni per aiuti umanitari e ripresa economica in Siria",
-      "url": "https://www.info-cooperazione.it/2026/9/126-milioni-per-aiuti-umanitari-e-ripresa-economica-in-siria",
-      "descrizione": "La Sede di Beirut dell'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato una Call for Proposals articolata in due iniziative complementari destinate alla Siria, per una dotazione complessiva di oltre 12 milioni di euro. Il bando risponde alla crisi umanitaria protratta che affligge il Paese dopo oltre quindici anni di conflitto e si inserisce",
-      "scadenza": "02 novembre 2026",
-      "scaduto": false,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/05/siria-120x120.jpeg",
-      "territorio": [
-        "nazionale",
-        "locale",
-        "Europa"
-      ],
-      "tags": [
-        "disabilità",
-        "giovani",
-        "minori",
-        "donne",
-        "salute",
-        "lavoro",
-        "educazione"
-      ]
-    },
-    {
-      "titolo": "Bando Corno d'Africa della Regione Piemonte",
-      "url": "https://www.info-cooperazione.it/2026/9/bando-corno-dafrica-della-regione-piemonte",
-      "descrizione": "La Regione Piemonte ha aperto il Bando Corno d'Africa 2026, rivolto alle organizzazioni della società civile piemontesi che operano in Kenya a sostegno di iniziative di cooperazione internazionale allo sviluppo. Il bando si inserisce nel quadro del Documento triennale di programmazione 2024-2026 del MAECI e privilegia interventi che migliorino l'accesso ai servizi di base, con particolare",
-      "scadenza": "04 novembre 2026",
-      "scaduto": false,
-      "donatore": "Regione Piemonte",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/puzzle_africa-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "regionale",
-        "locale",
-        "Europa"
-      ],
-      "tags": [
-        "donne",
-        "lavoro"
       ]
     },
     {
@@ -373,8 +327,9 @@
         "Europa"
       ],
       "tags": [
-        "giovani",
+        "minori",
         "donne",
+        "salute",
         "lavoro"
       ]
     },
@@ -391,11 +346,9 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
         "sport",
         "migranti",
-        "lavoro",
-        "inclusione"
+        "lavoro"
       ]
     },
     {
@@ -420,7 +373,7 @@
       "titolo": "Università italiane e cooperazione, AICS lancia il bando \"Partenariato per la Conoscenza\"",
       "url": "https://www.info-cooperazione.it/2026/8/universita-italiane-e-cooperazione-aics-lancia-il-bando-partenariato-per-la-conoscenza",
       "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato l'Avviso per il \"Partenariato per la Conoscenza II\", il programma che finanzia la cooperazione universitaria e la ricerca applicata nei Paesi partner della cooperazione italiana. Con una dotazione complessiva di 6 milioni di euro interamente a dono, il bando è riservato ad università italiane ed enti",
-      "scadenza": "16 novembre 2026",
+      "scadenza": "29 gennaio 2027",
       "scaduto": false,
       "donatore": "AICS",
       "img": "https://www.info-cooperazione.it/public/Immagini/2025/09/tirocini-crui-maeci-mur-700x400-1-120x120.png",
@@ -435,27 +388,6 @@
         "donne",
         "lavoro",
         "educazione",
-        "ricerca",
-        "inclusione"
-      ]
-    },
-    {
-      "titolo": "Bando Daphne 2026 per contrastare la violenza di genere e la violenza sui minori",
-      "url": "https://www.info-cooperazione.it/2026/7/bando-daphne-2026-per-contrastare-la-violenza-di-genere-e-la-violenza-sui-minori",
-      "descrizione": "La Direzione Generale Giustizia della Commissione europea (DG JUST) ha pubblicato il bando DAPHNE 2026, nell'ambito del Programma Citizens, Equality, Rights and Values (CERV). L'iniziativa mette a disposizione risorse per sostenere progetti finalizzati alla prevenzione e al contrasto della violenza di genere e della violenza nei confronti dei minori, rafforzando la protezione delle vittime e",
-      "scadenza": "05 novembre 2026",
-      "scaduto": false,
-      "donatore": "Commissione Europea",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2025/02/bando-daphne-2025-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "disabilità",
-        "minori",
-        "donne",
-        "lavoro",
         "ricerca"
       ]
     },
@@ -474,7 +406,7 @@
       "tags": [
         "cultura",
         "ambiente",
-        "salute",
+        "minori",
         "lavoro",
         "digitale",
         "ricerca",
@@ -517,9 +449,9 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "lavoro",
         "digitale",
-        "ricerca",
         "inclusione"
       ]
     },
@@ -538,10 +470,8 @@
       "tags": [
         "cultura",
         "minori",
-        "donne",
         "lavoro",
-        "digitale",
-        "ricerca"
+        "digitale"
       ]
     },
     {
@@ -575,6 +505,7 @@
         "Europa"
       ],
       "tags": [
+        "donne",
         "lavoro",
         "educazione",
         "digitale",
@@ -612,12 +543,10 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
-        "giovani",
         "minori",
+        "donne",
         "lavoro",
-        "educazione",
-        "inclusione"
+        "educazione"
       ]
     }
   ]
