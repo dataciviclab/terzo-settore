@@ -1,8 +1,92 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-11-09T18:38:52.664674",
-  "totale": 28,
+  "scraped_at": "2026-11-16T18:17:43.900408",
+  "totale": 29,
   "bandi": [
+    {
+      "titolo": "Africa Youth Climate Fund per iniziative guidate dai giovani africani",
+      "url": "https://www.info-cooperazione.it/2026/11/africa-youth-climate-fund-per-iniziative-guidate-dai-giovani-africani",
+      "descrizione": "L’Africa Youth Climate Fund (AYCF) lancia la sua prima Call for Proposals, aperta a margine della COP31 ad Antalya. Il fondo mette a disposizione grant da 5.000, 10.000 e 20.000 dollari per organizzazioni e gruppi giovanili africani che lavorano su clima, transizione verde e leadership comunitaria. L’AYCF nasce da una constatazione scomoda: i giovani africani sono",
+      "scadenza": "15 gennaio 2027",
+      "scaduto": false,
+      "donatore": "Africa Youth Climate Fund",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/11/aycf-120x120.png",
+      "territorio": [
+        "nazionale",
+        "locale",
+        "Europa"
+      ],
+      "tags": [
+        "giovani",
+        "donne",
+        "salute",
+        "lavoro",
+        "ricerca"
+      ]
+    },
+    {
+      "titolo": "Grant del Consiglio d’Europa per progetti della società civile",
+      "url": "https://www.info-cooperazione.it/2026/11/grant-del-consiglio-deuropa-per-progetti-della-societa-civile",
+      "descrizione": "Il Consiglio d’Europa lancia una nuova call per le organizzazioni della società civile con l’obiettivo di rafforzare la cultura democratica e il coinvolgimento civico in Europa. I progetti selezionati riceveranno fino a 20.000 euro ciascuno e dovranno svolgersi tra febbraio e ottobre 2027. Il bando si inserisce nel solco dei Principi di Reykjavik per la",
+      "scadenza": "02 dicembre 2026",
+      "scaduto": false,
+      "donatore": "Consiglio d'Europa",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/11/puzzle_civil-society-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "disabilità",
+        "cultura",
+        "salute",
+        "lavoro",
+        "inclusione"
+      ]
+    },
+    {
+      "titolo": "Pubblicato il calendario dei bandi CERV 2027",
+      "url": "https://www.info-cooperazione.it/2026/11/pubblicato-il-calendario-dei-bandi-cerv-2027",
+      "descrizione": "Per molte organizzazioni della società civile italiana, CERV è da anni una delle porte d'ingresso più accessibili alla progettazione europea. A differenza dei grandi programmi di ricerca o di cooperazione esterna, finanzia progetti di dimensioni gestibili su temi vicini al lavoro quotidiano di associazioni e ONG: diritti, partecipazione democratica, contrasto alla violenza e alle discriminazioni.",
+      "scadenza": "20 maggio 2027",
+      "scaduto": false,
+      "donatore": "Commissione Europea",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2023/01/CERV-header-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "minori",
+        "lavoro",
+        "educazione",
+        "ricerca"
+      ]
+    },
+    {
+      "titolo": "UNICEF cerca partner della società civile in Burkina Faso",
+      "url": "https://www.info-cooperazione.it/2026/11/unicef-cerca-partner-della-societa-civile-in-burkina-faso",
+      "descrizione": "L’UNICEF Burkina Faso ha pubblicato una Manifestazione d’Interesse per selezionare organizzazioni della società civile nazionali e internazionali con cui concludere accordi-quadro di partenariato per la realizzazione del nuovo Programma di Cooperazione 2027-2030 che ha l’obiettivo di garantire entro il 2030 a tutti i bambini e le bambine del paese un accesso equo e continuo ai",
+      "scadenza": "28 novembre 2026",
+      "scaduto": false,
+      "donatore": "UNICEF",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2025/03/burkina-120x120.png",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "ambiente",
+        "minori",
+        "donne",
+        "migranti",
+        "salute",
+        "lavoro",
+        "educazione",
+        "inclusione"
+      ]
+    },
     {
       "titolo": "Localizzazione e selezione con l’AI nel bando della Dana Foundation",
       "url": "https://www.info-cooperazione.it/2026/11/localizzazione-e-selezione-con-lai-nel-bando-della-dana-foundation",
@@ -20,6 +104,8 @@
         "ambiente",
         "salute",
         "lavoro",
+        "ricerca",
+        "volontariato",
         "inclusione"
       ]
     },
@@ -39,7 +125,7 @@
       "tags": [
         "cultura",
         "giovani",
-        "donne",
+        "minori",
         "migranti",
         "lavoro",
         "educazione",
@@ -61,7 +147,10 @@
       ],
       "tags": [
         "cultura",
+        "giovani",
+        "donne",
         "lavoro",
+        "educazione",
         "ricerca"
       ]
     },
@@ -79,7 +168,6 @@
         "Europa"
       ],
       "tags": [
-        "giovani",
         "lavoro"
       ]
     },
@@ -96,9 +184,11 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "ambiente",
         "salute",
-        "lavoro"
+        "lavoro",
+        "inclusione"
       ]
     },
     {
@@ -116,10 +206,7 @@
       ],
       "tags": [
         "sport",
-        "donne",
-        "migranti",
-        "lavoro",
-        "inclusione"
+        "lavoro"
       ]
     },
     {
@@ -135,9 +222,9 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
         "ambiente",
-        "lavoro"
+        "lavoro",
+        "educazione"
       ]
     },
     {
@@ -158,26 +245,6 @@
         "lavoro",
         "educazione",
         "ricerca"
-      ]
-    },
-    {
-      "titolo": "Bando AICS per interventi umanitari multisettoriali in Afghanistan",
-      "url": "https://www.info-cooperazione.it/2026/10/bando-aics-per-interventi-umanitari-multisettoriali-in-afghanistan",
-      "descrizione": "L’Agenzia italiana per la cooperazione allo sviluppo (AICS) — attraverso la sua Sede di Islamabad — ha pubblicato una nuova Call for Proposals destinata a organizzazioni della società civile per interventi di emergenza in Afghanistan. Le risorse disponibili ammontano complessivamente a 11 milioni di euro, suddivisi in due lotti, nell’ambito di due iniziative bilaterali di",
-      "scadenza": "15 novembre 2026",
-      "scaduto": false,
-      "donatore": "AICS",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2024/10/emergenza-afghanistan-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "donne",
-        "migranti",
-        "salute",
-        "lavoro",
-        "inclusione"
       ]
     },
     {
@@ -235,7 +302,6 @@
       "tags": [
         "cultura",
         "giovani",
-        "donne",
         "lavoro",
         "educazione"
       ]
@@ -254,25 +320,10 @@
       ],
       "tags": [
         "donne",
+        "migranti",
         "lavoro",
-        "digitale"
-      ]
-    },
-    {
-      "titolo": "Progettazione, partenariati e accesso alle opportunità UE",
-      "url": "https://www.info-cooperazione.it/2026/9/progettazione-partenariati-e-accesso-alle-opportunita-ue",
-      "descrizione": "Il programma Innovazione per lo Sviluppo, di Fondazione Cariplo e Fondazione Compagnia di Sanpaolo, presenta una nuova misura che rafforza progettazione, partenariati e accesso alle opportunità UE con un’attenzione trasversale ai temi dell’innovazione rivolta alle Organizzazioni della Società Civile italiane che operano nella cooperazione internazionale allo sviluppo.\r\nLa misura Focus Europa che nasce da un’esigenza concreta emersa direttamente dalle",
-      "scadenza": "13 novembre 2026",
-      "scaduto": false,
-      "donatore": "Innovazione per lo Sviluppo",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/09/focus_europa-cover2-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "lavoro",
-        "digitale"
+        "digitale",
+        "inclusione"
       ]
     },
     {
@@ -288,7 +339,6 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
         "lavoro"
       ]
     },
@@ -310,6 +360,7 @@
         "giovani",
         "donne",
         "lavoro",
+        "educazione",
         "ricerca",
         "inclusione"
       ]
@@ -327,10 +378,11 @@
         "Europa"
       ],
       "tags": [
-        "minori",
+        "cultura",
+        "giovani",
         "donne",
-        "salute",
-        "lavoro"
+        "lavoro",
+        "educazione"
       ]
     },
     {
@@ -352,24 +404,6 @@
       ]
     },
     {
-      "titolo": "Premio Mattei per rafforzare la cooperazione culturale tra Italia e Africa",
-      "url": "https://www.info-cooperazione.it/2026/8/premio-mattei-per-rafforzare-la-cooperazione-culturale-tra-italia-e-africa",
-      "descrizione": "Un milione di euro per sostenere progetti culturali e programmi di formazione capaci di rafforzare le relazioni tra l’Italia e i Paesi africani. È la dotazione della prima edizione del Premio Mattei per la cooperazione culturale, promosso dal Ministero della Cultura, di concerto con il Ministero degli Affari Esteri e della Cooperazione Internazionale, nell’ambito dell’attuazione",
-      "scadenza": "15 novembre 2026",
-      "scaduto": false,
-      "donatore": "Ministero della Cultura",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/08/premio_mattei-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "cultura",
-        "lavoro",
-        "inclusione"
-      ]
-    },
-    {
       "titolo": "Università italiane e cooperazione, AICS lancia il bando \"Partenariato per la Conoscenza\"",
       "url": "https://www.info-cooperazione.it/2026/8/universita-italiane-e-cooperazione-aics-lancia-il-bando-partenariato-per-la-conoscenza",
       "descrizione": "L'Agenzia Italiana per la Cooperazione allo Sviluppo (AICS) ha pubblicato l'Avviso per il \"Partenariato per la Conoscenza II\", il programma che finanzia la cooperazione universitaria e la ricerca applicata nei Paesi partner della cooperazione italiana. Con una dotazione complessiva di 6 milioni di euro interamente a dono, il bando è riservato ad università italiane ed enti",
@@ -385,6 +419,7 @@
       "tags": [
         "disabilità",
         "cultura",
+        "giovani",
         "donne",
         "lavoro",
         "educazione",
@@ -406,8 +441,9 @@
       "tags": [
         "cultura",
         "ambiente",
-        "minori",
+        "giovani",
         "lavoro",
+        "educazione",
         "digitale",
         "ricerca",
         "inclusione"
@@ -450,6 +486,8 @@
       ],
       "tags": [
         "disabilità",
+        "donne",
+        "migranti",
         "lavoro",
         "digitale",
         "inclusione"
@@ -469,8 +507,10 @@
       ],
       "tags": [
         "cultura",
-        "minori",
+        "giovani",
+        "donne",
         "lavoro",
+        "educazione",
         "digitale"
       ]
     },
@@ -485,11 +525,13 @@
       "territorio": [
         "nazionale",
         "regionale",
+        "locale",
         "Europa"
       ],
       "tags": [
         "minori",
-        "lavoro"
+        "lavoro",
+        "ricerca"
       ]
     },
     {
@@ -505,7 +547,7 @@
         "Europa"
       ],
       "tags": [
-        "donne",
+        "giovani",
         "lavoro",
         "educazione",
         "digitale",
@@ -526,8 +568,10 @@
         "Europa"
       ],
       "tags": [
+        "donne",
+        "salute",
         "lavoro",
-        "volontariato"
+        "educazione"
       ]
     },
     {
@@ -544,7 +588,6 @@
       ],
       "tags": [
         "minori",
-        "donne",
         "lavoro",
         "educazione"
       ]
