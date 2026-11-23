@@ -1,8 +1,71 @@
 {
   "fonte": "info-cooperazione.it",
-  "scraped_at": "2026-11-16T18:17:43.900408",
+  "scraped_at": "2026-11-23T20:03:00.442480",
   "totale": 29,
   "bandi": [
+    {
+      "titolo": "Bando 2027 dell'Otto per Mille Valdese",
+      "url": "https://www.info-cooperazione.it/2026/11/bando-2027-dellotto-per-mille-valdese",
+      "descrizione": "La Chiesa Evangelica Valdese (Unione delle Chiese Metodiste e Valdesi) ha pubblicato le linee guida del bando ordinario 2027 dell’Otto per Mille. Il bando finanzia progetti sociali, assistenziali, umanitari e culturali, in Italia e nei paesi in via di sviluppo con le firme sui redditi 2023, dichiarati nel 2024. Il volume complessivo per il 2027",
+      "scadenza": "29 gennaio 2027",
+      "scaduto": false,
+      "donatore": "Otto per Mille Valdese",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/11/opm-valdese-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "disabilità",
+        "cultura",
+        "ambiente",
+        "donne",
+        "migranti",
+        "salute",
+        "lavoro",
+        "educazione",
+        "inclusione"
+      ]
+    },
+    {
+      "titolo": "Bando Erasmus+ 2027, ecco tutte le scadenze",
+      "url": "https://www.info-cooperazione.it/2026/11/bando-erasmus-2027-ecco-tutte-le-scadenze",
+      "descrizione": "La Commissione europea ha pubblicato oggi, nella Gazzetta ufficiale dell’Unione europea, l’invito a presentare proposte 2027 del programma Erasmus+ (EAC/A11/2026). La dotazione complessiva è stimata in 5,36 miliardi di euro, destinati a progetti di mobilità, cooperazione tra organizzazioni e sostegno alle politiche nei campi dell’istruzione, della formazione, della gioventù e dello sport.\r\nL’ultimo bando del settennato\r\nIl",
+      "scadenza": "16 settembre 2027",
+      "scaduto": false,
+      "donatore": "Commissione Europea",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2019/11/erasmus-2020-bandi-120x120.png",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "sport",
+        "giovani",
+        "lavoro",
+        "educazione",
+        "ricerca",
+        "inclusione"
+      ]
+    },
+    {
+      "titolo": "Grant del Consiglio d’Europa per progetti della società civile",
+      "url": "https://www.info-cooperazione.it/2026/11/grant-del-consiglio-deuropa-per-progetti-della-societa-civile",
+      "descrizione": "Il Consiglio d’Europa lancia una nuova call per le organizzazioni della società civile con l’obiettivo di rafforzare la cultura democratica e il coinvolgimento civico in Europa. I progetti selezionati riceveranno fino a 20.000 euro ciascuno e dovranno svolgersi tra febbraio e ottobre 2027. Il bando si inserisce nel solco dei Principi di Reykjavik per la",
+      "scadenza": "02 dicembre 2026",
+      "scaduto": false,
+      "donatore": "Consiglio d'Europa",
+      "img": "https://www.info-cooperazione.it/public/Immagini/2026/11/puzzle_civil-society-120x120.jpg",
+      "territorio": [
+        "nazionale",
+        "Europa"
+      ],
+      "tags": [
+        "cultura",
+        "giovani",
+        "lavoro"
+      ]
+    },
     {
       "titolo": "Africa Youth Climate Fund per iniziative guidate dai giovani africani",
       "url": "https://www.info-cooperazione.it/2026/11/africa-youth-climate-fund-per-iniziative-guidate-dai-giovani-africani",
@@ -19,29 +82,8 @@
       "tags": [
         "giovani",
         "donne",
-        "salute",
         "lavoro",
         "ricerca"
-      ]
-    },
-    {
-      "titolo": "Grant del Consiglio d’Europa per progetti della società civile",
-      "url": "https://www.info-cooperazione.it/2026/11/grant-del-consiglio-deuropa-per-progetti-della-societa-civile",
-      "descrizione": "Il Consiglio d’Europa lancia una nuova call per le organizzazioni della società civile con l’obiettivo di rafforzare la cultura democratica e il coinvolgimento civico in Europa. I progetti selezionati riceveranno fino a 20.000 euro ciascuno e dovranno svolgersi tra febbraio e ottobre 2027. Il bando si inserisce nel solco dei Principi di Reykjavik per la",
-      "scadenza": "02 dicembre 2026",
-      "scaduto": false,
-      "donatore": "Consiglio d'Europa",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/11/puzzle_civil-society-120x120.jpg",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "disabilità",
-        "cultura",
-        "salute",
-        "lavoro",
-        "inclusione"
       ]
     },
     {
@@ -57,11 +99,13 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "cultura",
         "minori",
         "lavoro",
         "educazione",
-        "ricerca"
+        "ricerca",
+        "inclusione"
       ]
     },
     {
@@ -80,11 +124,9 @@
         "ambiente",
         "minori",
         "donne",
-        "migranti",
         "salute",
         "lavoro",
-        "educazione",
-        "inclusione"
+        "educazione"
       ]
     },
     {
@@ -101,11 +143,11 @@
         "Europa"
       ],
       "tags": [
+        "disabilità",
         "ambiente",
+        "giovani",
         "salute",
         "lavoro",
-        "ricerca",
-        "volontariato",
         "inclusione"
       ]
     },
@@ -147,10 +189,7 @@
       ],
       "tags": [
         "cultura",
-        "giovani",
-        "donne",
         "lavoro",
-        "educazione",
         "ricerca"
       ]
     },
@@ -184,45 +223,10 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
+        "cultura",
         "ambiente",
+        "giovani",
         "salute",
-        "lavoro",
-        "inclusione"
-      ]
-    },
-    {
-      "titolo": "15 milioni dal FAMI per i Rimpatri Volontari Assistiti",
-      "url": "https://www.info-cooperazione.it/2026/10/15-milioni-dal-fami-per-i-rimpatri-volontari-assistiti",
-      "descrizione": "Il Dipartimento per le Libertà Civili e l’Immigrazione ha pubblicato un avviso pubblico per la selezione di un unico progetto nazionale nell’ambito delle misure di Rimpatrio Volontario Assistito e Reintegrazione (RVA&R), finanziato con 15 milioni di euro a valere sul Fondo Asilo, Migrazione e Integrazione (FAMI) 2021-2027.\r\nCosa sono i rimpatri volontari\r\nIl Rimpatrio Volontario Assistito e",
-      "scadenza": "18 novembre 2026",
-      "scaduto": false,
-      "donatore": "Fondo FAMI",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/rva_fami-120x120.png",
-      "territorio": [
-        "nazionale",
-        "regionale",
-        "Europa"
-      ],
-      "tags": [
-        "sport",
-        "lavoro"
-      ]
-    },
-    {
-      "titolo": "Global EbA Fund per progetti di adattamento climatico",
-      "url": "https://www.info-cooperazione.it/2026/10/global-eba-fund-per-progetti-di-adattamento-climatico",
-      "descrizione": "Il Global EbA Fund — meccanismo internazionale promosso da IUCN e UNEP — ha aperto la sua Medium-size Grants Call for Proposals, mettendo a disposizione grant fino a 500.000 dollari per progetto per iniziative che promuovano l’adattamento al cambiamento climatico attraverso soluzioni basate sugli ecosistemi (Ecosystem-based Adaptation, EbA). L’adattamento basato sugli ecosistemi sfrutta la capacità",
-      "scadenza": "16 novembre 2026",
-      "scaduto": false,
-      "donatore": "Global EbA Fund",
-      "img": "https://www.info-cooperazione.it/public/Immagini/2026/10/eba-fund-iucn-unep-120x120.png",
-      "territorio": [
-        "nazionale",
-        "Europa"
-      ],
-      "tags": [
-        "ambiente",
         "lavoro",
         "educazione"
       ]
@@ -282,7 +286,8 @@
       "tags": [
         "cultura",
         "minori",
-        "lavoro"
+        "lavoro",
+        "ricerca"
       ]
     },
     {
@@ -319,11 +324,10 @@
         "Europa"
       ],
       "tags": [
+        "cultura",
         "donne",
-        "migranti",
         "lavoro",
-        "digitale",
-        "inclusione"
+        "digitale"
       ]
     },
     {
@@ -360,7 +364,6 @@
         "giovani",
         "donne",
         "lavoro",
-        "educazione",
         "ricerca",
         "inclusione"
       ]
@@ -378,11 +381,8 @@
         "Europa"
       ],
       "tags": [
-        "cultura",
-        "giovani",
         "donne",
-        "lavoro",
-        "educazione"
+        "lavoro"
       ]
     },
     {
@@ -419,7 +419,6 @@
       "tags": [
         "disabilità",
         "cultura",
-        "giovani",
         "donne",
         "lavoro",
         "educazione",
@@ -441,9 +440,7 @@
       "tags": [
         "cultura",
         "ambiente",
-        "giovani",
         "lavoro",
-        "educazione",
         "digitale",
         "ricerca",
         "inclusione"
@@ -485,9 +482,6 @@
         "Europa"
       ],
       "tags": [
-        "disabilità",
-        "donne",
-        "migranti",
         "lavoro",
         "digitale",
         "inclusione"
@@ -507,10 +501,7 @@
       ],
       "tags": [
         "cultura",
-        "giovani",
-        "donne",
         "lavoro",
-        "educazione",
         "digitale"
       ]
     },
@@ -525,13 +516,14 @@
       "territorio": [
         "nazionale",
         "regionale",
-        "locale",
         "Europa"
       ],
       "tags": [
+        "disabilità",
+        "giovani",
         "minori",
         "lavoro",
-        "ricerca"
+        "inclusione"
       ]
     },
     {
@@ -547,7 +539,6 @@
         "Europa"
       ],
       "tags": [
-        "giovani",
         "lavoro",
         "educazione",
         "digitale",
@@ -568,10 +559,7 @@
         "Europa"
       ],
       "tags": [
-        "donne",
-        "salute",
-        "lavoro",
-        "educazione"
+        "lavoro"
       ]
     },
     {
